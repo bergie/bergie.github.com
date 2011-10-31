@@ -1,0 +1,3 @@
+<?php 
+$_MIDCOM->finish(); 
+?>

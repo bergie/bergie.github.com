@@ -1,0 +1,1 @@
+"schemadb" => "/sitegroup-config/net.nemein.personnel/schema",
