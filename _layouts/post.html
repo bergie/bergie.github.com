@@ -6,7 +6,7 @@ layout: 'default'
           <div class="metadata">
             <span property="datePublished" content="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</span>
             {% if page.location %}
-            in <span rel="contentLocation" typeof="City"><span property="description">{{ page.location }}</span></span>
+            in <span rel="contentLocation" typeof="City"><span property="name">{{ page.location }}</span></span>
             {% endif %}
             <a rel="author" typeof="Person" href="http://bergie.iki.fi/#me"></a>
             <span property="wordCount" content="{{ content | number_of_words }}"></span>
