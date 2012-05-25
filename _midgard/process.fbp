@@ -9,7 +9,9 @@ BuildFileName() BUILDFILE.OUT -> FILENAME Save(WriteFile)
 
 # Transform metadata
 'dc:title=title' -> MAP MapMetadata(MapProperty)
+'dc:categories=categories' -> MAP MapMetadata()
 'title' -> ACCEPT FilterMetadata(FilterProperty)
+'categories' -> ACCEPT FilterMetadata()
 'layout=post' -> PROPERTY SetLayout(SetProperty)
 Split() OUT -> IN MapMetadata()
 MapMetadata() OUT -> IN FilterMetadata()

@@ -9,10 +9,9 @@ $mgd->set_sitegroup('bergie.iki.fi');
 $qb = new midgard_query_builder('midgard_article');
 $qb->add_constraint('topic.component', '=', 'net.nehmer.blog');
 $qb->add_constraint('topic.name', '=', 'blog');
+$qb->add_constraint('content', '<>', '<br />');
 $qb->add_order('metadata.published', 'ASC');
 $articles = $qb->execute();
-
-include('/usr/share/php/midcom/lib/net/nehmer/markdown/lib/markdown.php');
 
 $ontologies = array
 (
@@ -63,6 +62,7 @@ foreach ($articles as $article)
         'dc:contentType' => $contentType,
         'atom:content' => $content,
         'geo:point' => $location,
+        'dc:categories' => explode('|', substr($article->extra1, 1, -1))
     );
     //die(json_encode($linkeddata_entry));
     $linkeddata[] = $linkeddata_entry;
