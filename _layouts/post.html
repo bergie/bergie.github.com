@@ -16,4 +16,10 @@ layout: 'default'
         <div property="articleBody">
           {{ content }}
         </div>
+        {% for category in page.categories %}
+          {% case category %}
+            {% when 'midgard' %}
+              {% include category_midgard.html %}
+          {% endcase %}
+        {% endfor %}
       </article>
