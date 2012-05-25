@@ -4,13 +4,13 @@ bodyclass: blog
 ---
 <header>
   <div class="span10 offset1">
-    <h1>{{ site.name }}</h1>
+    <h1><a href="/">{{ site.name }}</a></h1>
   </div>
 </header>
 
 <aside class="span6 offset1">
   {% unless paginator.page == 1 %}
-  <p>This is page <em>{{ paginator.page }}/{{ paginator.total_pages }}</em> of the <a href="{{ site.url }}">{{ site.name }}</a> blog archives stretching back to 2004. On this page you have articles from {% for post in paginator.posts %}{% if forloop.first %}<em>{{ post.date | date_to_string }}</em> to {% endif %}{% if forloop.last %}<em>{{ post.date | date_to_string }}</em>{% endif %}{% endfor %}.</p>
+  <p>This is the page <em>{{ paginator.page }}</em> of <em>{{ paginator.total_pages }}</em> of the blog archive. On this page you have articles from {% for post in paginator.posts %}{% if forloop.first %}<em>{{ post.date | date_to_string }}</em> to {% endif %}{% if forloop.last %}<em>{{ post.date | date_to_string }}</em>{% endif %}{% endfor %}.</p>
   {% else %}
   {{ content }}
   {% endunless %}
