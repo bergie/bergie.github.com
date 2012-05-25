@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ site.name }} - {{ page.name }}</title>
+    <link rel="stylesheet" href="/style/css/bootstrap.css" />
+    <link rel="stylesheet" href="/style/css/bergie-2012.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/style/deps/lightbox/js/jquery-1.7.2.min.js"></script>
+    <script src="/style/deps/lightbox/js/lightbox.js"></script>
+    <link href="/style/deps/lightbox/css/lightbox.css" rel="stylesheet" />
+  </head>
+  <body class="about">
+    <div class="container">
+      <div class="row">
+        {{ content }}
+        <div class="span8">
+          <ul class="thumbnails">
+            {% for image in page.images %}
+            <li class="span{% if image.gridsize %}{{ image.gridsize }}{% else %}2{% endif %}">
+                <a href="{{ image.original }}" rel="lightbox[profile]" title="{{ image.label }}" class="thumbnail">
+                  <img src="{% if image.thumb %}{{ image.thumb }}{% else %}{{ image.original }}{% endif %}" alt="{{ image.label }}" />
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
