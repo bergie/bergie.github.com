@@ -10,7 +10,7 @@ BuildFileName() BUILDFILE.OUT -> FILENAME Save(WriteFile)
 # Transform metadata
 'dc:title=title' -> MAP MapMetadata(MapProperty)
 'title' -> ACCEPT FilterMetadata(FilterProperty)
-'layout=default' -> PROPERTY SetLayout(SetProperty)
+'layout=post' -> PROPERTY SetLayout(SetProperty)
 Split() OUT -> IN MapMetadata()
 MapMetadata() OUT -> IN FilterMetadata()
 FilterMetadata() OUT -> IN SetLayout() OUT -> IN GetMetadata(ToYaml)
