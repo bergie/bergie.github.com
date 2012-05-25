@@ -1,5 +1,25 @@
 body {
   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+  background-color: #ffffff;
+  color: #2e3436;
+}
+
+body.about {
+  background-color: #000000;
+  color: #eeeeec;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+body.about h1 {
+  font-family: "Raleway",  "DejaVu Sans", "Verdana", sans-serif;
+  font-size: 28pt;
+  color: #ffffff;
+  margin-bottom: 1em;
+}
+
+body.about .thumbnail {
+  border-color: #000000;
 }
 
 a {
@@ -21,7 +41,6 @@ header {
 
 header h1 {
   margin-bottom: 1em;
-  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
   font-family: "Raleway",  "DejaVu Sans", "Verdana", sans-serif;
   font-size: 28pt;
 }
@@ -48,12 +67,32 @@ body.front header h1 {
   font-size: 36pt;
 }
 
+body.blog article h1 {
+  margin-bottom: 1em;
+  font-family: "Raleway",  "DejaVu Sans", "Verdana", sans-serif;
+}
+
+body.blog article h1 a {
+  color: #2e3436;
+}
+
 body.blog article .metadata {
   font-weight: bold;
   font-style: italic;
   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
   font-size: 16pt;
   color: #555753;
+}
+
+body.blog aside {
+  margin-top: -40px;
+}
+
+body.blog aside p {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+  font-size: 18pt;
+  line-height: 23pt;
+  margin-bottom: 2em;
 }
 
 article header .metadata {
@@ -65,7 +104,6 @@ article header .metadata {
   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
   font-size: 18pt;
   color: #555753;
-  margin-left: 500px;
 }
 
 article div,
@@ -87,10 +125,23 @@ article ol {
   padding-left: 0px;
 }
 
+article ul {
+  list-style-type: square;
+}
+
+article ol {
+  list-style-type: upper-roman;
+}
+
 article blockquote ul,
 article blockquote ol {
   margin-left: 2em;
   padding-left: 1em;
+}
+
+article pre code {
+  color: #333;
+  border: none;
 }
 
 hr {
@@ -112,7 +163,36 @@ footer {
   padding-bottom: 1em;
 }
 
-footer .photo {
+footer p {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+  font-size: 14pt;
+  line-height: 17pt;
+}
+
+footer .avatar {
   float: left;
   margin-right: 1em;
 }
+
+footer .avatar .switcher {
+  position:relative;
+  width: 120px;
+  height: 120px;
+  margin: 0px;
+}
+
+footer .avatar img {
+	position:absolute;
+	left:0;
+  cursor:pointer;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	-ms-transition: opacity 1s ease-in-out;	
+	transition: opacity 1s ease-in-out;
+}
+
+footer:hover .avatar img.drawing,
+footer .avatar img.transparent {
+	opacity:0;
+}	

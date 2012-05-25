@@ -1,7 +1,10 @@
       <div class="container">
         <div vocab="http://schema.org/" about="http://bergie.iki.fi/#me" typeof="Person" class="card span8 offset1">
-          <div class="photo">
-            <img src="/style/img/bergie.jpg" alt="Henri Bergius" />
+          <div class="avatar">
+            <div class="switcher">
+              <img class="photo" src="/style/img/bergie.jpg" alt="Henri Bergius, photo" />
+              <img class="drawing" src="/style/img/bergie_drawn.jpg" alt="Henri Bergius, drawing by Nina Mutik" id="bergie_drawn" />
+          </div>
           </div>
           <div class="details">
             <p><strong><span property="givenName">Henri</span> <span property="familyName">Bergius</span></strong> is an occasional adventurer working on linked data, content repositories and free software. You can reach him by <a rel="email" href="mailto:henri.bergius@iki.fi">email</a>, <a href="xmpp:henri.bergius@gmail.com">instant messaging</a> or <a href="skype:henribergius">Skype</a>. Besides writing on this blog, he is also available on <a href="http://www.qaiku.com/home/bergie/">Qaiku</a>, <a href="http://twitter.com/bergie">Twitter</a> and <a href="http://www.linkedin.com/in/bergie">LinkedIn</a>.</p>
@@ -10,3 +13,13 @@
           </div>
         </div>
       </div>
+      <script type="application/javascript">
+        var avatar = document.getElementById('bergie_drawn');
+        avatar.addEventListener('click', function () {
+          if (avatar.className.indexOf('transparent') === -1) {
+            avatar.className = avatar.className + ' transparent';
+            return;
+          }
+          avatar.className = avatar.className.replace(/\b transparent\b/,'');
+        });
+      </script>
