@@ -1,3 +1,6 @@
 name: "Henri Bergius"
 url: "http://bergie.iki.fi"
 permalink: /blog/:title/
+paginate: 10
+pygments: false
+markdown: rdiscount
