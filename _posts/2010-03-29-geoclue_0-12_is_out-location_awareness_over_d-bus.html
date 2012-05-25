@@ -1,0 +1,19 @@
+---
+  title: "GeoClue 0.12 is out: Location awareness over D-Bus"
+  categories: 
+    - "desktop"
+    - "geo"
+    - "mobility"
+  layout: "post"
+
+---
+<p><img src="/midcom-serveattachmentguid-61384bd4f5c711dc9ee53fcc6932dc8bdc8b/geoclue-200.png" border="0" alt="geoclue-200.png" style="float:right;margin-left:10px;" /></p>
+<p>After a <a href="http://bergie.iki.fi/blog/geoclue_status_update/">long hiatus</a> there was a <a href="http://lists.freedesktop.org/archives/geoclue/2010-March/000385.html">new GeoClue release 0.12 last week</a>. <a href="http://www.freedesktop.org/wiki/Software/GeoClue">GeoClue</a> is a D-Bus service that Linux applications can use to obtain user's current position and convert between human-readable addresses and coordinates. As <a href="http://www.time.com/time/specials/packages/article/0,28804,1973759_1973760_1973802,00.html">location-aware services</a> are becoming more important and computers more mobile the <a href="http://bergie.iki.fi/blog/making_the_gnome_desktop_location-aware/">free desktops should also be aware of where they are</a>.</p>
+<p><a href="http://blog.renevier.net/index.php?post/2010/03/26/new-geoclue-release">Dadadi Blog writes</a>:</p>
+<blockquote>
+<p>Geoclue has a really nice feature, the <em>master provider</em>. It means geoclue can handle multiple sources of geoinformations. For example, you can get your position with your gps device, or with <a href="http://www.opencellid.org/">OpenCellId</a>, or with webservices that will associate your IP address with a location (such as <a href="http://www.hostip.info/">hostip</a>). Geoclue master provider is able to choose  the  source with the best accuracy.</p>
+<p>Geoclue is used at least in <a href="http://live.gnome.org/Empathy">Empathy</a> to publish your location to your contacts, and in <a href="http://webkit.org/">WebkitGtk</a> to support <a href="http://dev.w3.org/geo/api/spec-source.html">html5 geolocation</a>.</p>
+<p>It's been the first release in nearly two years, and it's great to see that nice project moving forward again. In this release, <a href="http://nominatim.openstreetmap.org/">Nominatim</a> has been added as a provider for geocoding and reverse/geocoding. It means it's possible to use nominatim service to get the position for a given address, or the opposite. There have been also many bugfixes and code cleaning, including <a href="http://bugs.freedesktop.org/show_bug.cgi?id=22160">a bug I've helped to resolve</a> that prevented master provider from being usable  in some configurations.</p>
+</blockquote>
+<p>I'm also really happy to see GeoClue again moving on. It is important for the <a href="http://www.freedesktop.org/wiki/">free desktop</a> infrastructure to have such critical tools available as vendor-neutral <a href="http://bergie.iki.fi/blog/geoclue_is_appearing/">D-Bus services</a> instead of <a href="http://wiki.maemo.org/Documentation/Maemo_5_Developer_Guide/Using_Connectivity_Components/Using_Location_API#Using_liblocation">platform-specific libraries</a>.</p>
+<p><strong>Update:</strong> ran into <a href="http://live.gnome.org/gtg/soc/python_geoclue">python-geoclue</a>, a very handy Python convenience library for dealing with GeoClue that is a result <a href="http://www.paulocabido.com/gsoc/gsoc-09-aditional-documentation-for-my-work/">from last summer's GSoC</a>. <a href="http://www.qaiku.com/go/69hv/">Seems to work</a> pretty well.</p>

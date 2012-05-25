@@ -1,0 +1,67 @@
+---
+  title: "First look at Digital Business Ecosystem"
+  categories: 
+    - "business"
+    - "openpsa"
+  layout: "post"
+
+---
+<p>
+I've spent the last two days in the <a href="http://www.digital-ecosystem.org/html/">Digital Business Ecosystem</a> (DBE) Workshop arranged by <a href="http://www3.hermia.fi/">Hermia Science Park</a> in Tampere. DBE is an EU-funded Open Source technology for enabling small and medium-sized enterprises to work together in <abbr title="Peer to Peer">P2P</abbr> fashion.
+</p>
+
+<h2>DBE basics</h2>
+
+<p>
+The DBE website is quite bogged by acronyms and marketese, but what the project actually boils down to is an application called <strong>DBE Servent</strong> written in Java. The Servent communicates with other DBE installations using a P2P protocol and some intelligent networking tools. The DBE Servent is used by business applications for communicating with each other using a set a defined Web Services.
+</p>
+
+<p>
+DBE itself doesn't define these Web Services, it only provides the "wire protocol" for the Web Services to talk with each other, and ensures that different nodes in the network find each other, and find the services they require. The actual services are provided as SOAP Web Services conforming to a specified WSDL definition. This means that the applications utilizing DBE should be developed following the <a href="http://webservices.xml.com/pub/a/ws/2003/09/30/soa.html">Service-Oriented Architecture</a> model.
+</p>
+
+<p>
+DBE is part of the &euro;16 billion EU Framework Project 6. EU's interest in the DBE project is fostering a heavily localized Open Source business applications market, and support European <abbr title="Small and Medium-sized Enterprises">SMEs</abbr> in networking. The idea is that <em>"an ecosystem of networked SMEs can evolve and adapt faster and more safely than the huge corporations"</em>. Participants in the DBE project include <a href="http://www.sun.com/">Sun</a>, <a href="http://www.ibm.com/">IBM</a>, <a href="http://www.t-6.it/">T6</a> and <a href="http://www.soluta.net/">Soluta.net</a>.
+</p>
+
+<p>
+The development phase of the DBE project will end in 2006. Prior to that the project will make a first release of the 4Mb Java-based DBE Servent in April 2005. The participants are planning to move the project to <a href="http://www.sourceforge.net/">SourceForge</a> after this first release.
+</p>
+
+<h2>OpenPSA possibilities</h2>
+
+<p>
+With <a href="http://www.openpsa.org/">OpenPSA</a>, the case for using DBE would be quite clear. We've already <a href="http://bergie.iki.fi/blog/managing_nanocorporations_with_openpsa.html">been thinking</a> of implementing Web Services to make it easier for networked companies to work with each other more easily, and what DBE would add on top of those would include caching and asynchronous RPC support. In practice this would be we would only need to define the APIs used for the different services in OpenPSA, and then pass those to DBE. The Servent would then handle the actual connections between the different installations and dealing with nodes that are offline.
+</p>
+
+<p>
+This way OpenPSA would enable organizations to manage all their operations with parners and subcontractors using DBE-compatible applications transparently. DBE-enabled OpenPSA would look approximately the following:
+</p>
+
+<p style="text-align: center;">
+<img src="http://bergie.iki.fi/midcom-serveattachmentguid-41c586b1dca66e94dd6fdc46e80b6217/dbe-openpsa-simple.png" border="0" height="515" width="417" alt="dbe-openpsa-simple.png" title="Possible OpenPSA Projects usage with DBE" />
+</p>
+
+<p>
+Supporting the Service Oriented Architecture would be a major change in OpenPSA code. We would have to encapsulate all data handling parts of the system with classes that would be able to store and fetch information using both local <a href="http://www.midgard-project.org/">Midgard</a> storage and remote Web Service APIs.
+</p>
+
+<h2>DBE risks</h2>
+
+<p>
+While the DBE concept sounds promising, it is still an unreleased piece of software. Additionally, it has not been tested outside academic circles, so the promises of scalability and automatic networking might not materialize in the real world.
+</p>
+
+<p>
+Another problem is standardization of the Web Service interfaces used for different business scenarios or transactions. It has traditionally been a big problem to get an industry to work together on developing standard vocabularies and APIs, and DBE doesn't really address that. As the developers say, it is only the <em>"TCP for business applications"</em>.
+</p>
+
+<p>
+This might or might not be a problem. We could easily define a set of APIs using the taxonomies familiar in OpenPSA, and the rest of the industry could just follow us. This is what has pretty much happened with the different ad-hoc standards defined by the blogging world. However, it would require that our API would be generic enough, and that the developers of different project applications would find it easily. This all would hinge on the popularity of the DBE platform.
+</p>
+
+<h2>Project possibilities</h2>
+
+<p>
+The risks and non-existing user base of DBE are somewhat alleviated by EU funding for first companies developing services for the platform. <a href="http://www.nemein.com/en/">We</a> haven't yet made any decisions but we'll definitely think about utilizing DBE. OpenPSA needs some kind of Web Services interface to support networked business, and despite risks this would be a quite appealing solution.
+</p>

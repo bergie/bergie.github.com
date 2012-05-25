@@ -1,0 +1,13 @@
+---
+  title: "Using CoffeeScript for GNOME development"
+  categories: 
+    - "desktop"
+  layout: "post"
+
+---
+<p>In <a href="http://cannonerd.wordpress.com/">Suski's blog</a> I saw <a href="http://cannonerd.wordpress.com/2011/12/14/gnome-and-javascript/#comment-112">a question</a> on whether developing GNOME apps would be possible in <a href="http://coffeescript.org/">CoffeeScript</a>. The answer is yes. I wrote a quick example <a href="https://twitter.com/bergie/status/100116112649355264">back in Desktop Summit</a>:</p>
+<pre># GObject Introspection APIs are available from imports.gi.Modulename<br />Gtk = imports.gi.Gtk<br /><br /># For GNOME 3.2+ this should be Gtk.init null, 0<br />Gtk.init 0, null<br /><br />win = new Gtk.Window<br />    type: Gtk.WindowType.TOPLEVEL<br />win.set_border_width 10<br />win.connect "destroy", (widget) -&gt;<br />    Gtk.main_quit()<br /><br />button = new Gtk.Button<br />    label: "Hello, world"<br />button.connect "clicked", -&gt;<br />    button.set_label "Bar"<br />win.add button<br /><br />button.show()<br />win.show()<br /><br />Gtk.main()</pre>
+<p><a href="http://live.gnome.org/Gjs">Gjs</a> doesn't run CoffeeScript directly, so you need to convert this before running:</p>
+<pre>$ coffee -c window.coffee <br />$ gjs window.js</pre>
+<p>You should see something similar to:</p>
+<p><img src="/static/1/1e127ff79e185ba27ff11e1ba9bc75aa947665f665f_gjs-coffee-example.png" border="0" alt="gjs-coffee-example.png" title="gjs-coffee-example.png" /></p>

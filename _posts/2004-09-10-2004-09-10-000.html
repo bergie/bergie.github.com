@@ -1,0 +1,8 @@
+---
+  title: "I'm Moblogging Now"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+The &quot;messaging device&quot; has a crappy CIF camera, but I think that still the ease of taking photos helps to make my site more live.<br /><br />The procedure for posting a photo is the following:<br /><ul><li>Take a photo with the camera</li><li>Select &quot;sent&quot; from the options -&gt; &quot;send as MMS&quot;</li><li>Type the photo caption to the MMS</li><li>Select &quot;send as email&quot;</li></ul>Then the photo gets sent via GPRS to an IMAP box reserved for this purpose. My server has a fetchmail script polling the inbox that will forward the messages to Midgard using the supportmda.pl script from OpenPSA.<br /><br />Midgard reads the messages in and converts them to MidCOM de.linkm.newsticker compatible articles with the photo stored as an &quot;image&quot; type attachment that has a generated thumbnail.<br /><br />This weekend will be the acid test for this concept, as I will spend it in a combat exercise arranged by <a href="http://www.mpkry.fi/" title="Maanpuolustuskoulutus Ry">MPKRy</a>.<br /><br /><span style="font-weight: bold;">In the other news</span>, I turned 25 today. Quarter of a Century is the release name for today's midcom-template ;-)<br />

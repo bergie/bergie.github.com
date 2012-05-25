@@ -1,0 +1,44 @@
+---
+  title: "In EclipseCon 2006"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+The [Midgard][1] booth is now all set up in [EclipseCon 2006][2] Open Source Pavilion. If you read this, feel free to drop in to __booth 416__ and enjoy an [__M__ candy][8] and some Midgard talk.
+
+![Midgard in EclipseCon](http://bergie.iki.fi/midcom-serveattachmentguid-c5ba2ac8878d7949e970c2a5ddcda723/EclipseCon-Midgard-booth.jpg)
+
+So far the Open Source Pavilion has been quite quiet, but I already had one Midgard user to drop in and chat a bit. The conference is sold out, so we can expect the day to be busy later on.
+
+Donald Smith is [blogging the conference][3].
+
+__Updated 2006-03-22:__ I had some interesting conversations yesterday with both current and prospective Midgard users. Today I'm looking forward to catching Andi Gutmans' [PHP IDE talk][4].
+
+The [Midgard Bag][5] was awarded to Martin Perez from the [jLibrary][6] project:
+
+![Happy owner of a Midgard bag](http://bergie.iki.fi/midcom-serveattachmentguid-fe0482684f6e3900e05f734d5ef754a2/Martin_Perez_bag.jpg)
+
+jLibrary is an interesting desktop document management client that uses Java Content Repository as its back-end. Theoretically it could be made to work as an [OpenPsa Documents][7] front-end.
+
+__Updated 22:43Z:__ The [Zend Eclipse IDE][9] looks promising, and [others seem to agree][10]. It has very nice syntax highlighting support, and supports creating custom PHP code templates. I wonder if that feature could be used for creating a [MidCOM component][11] template.
+
+I had some talk with [Andi Gutmans][12] about the [Zend Framework][13]. It seems they are willing to consider PEAR packaging the Framework once they get it to a more complete stage. That would be a very good step, as then other packages like Midgard could easily depend on parts of the Framework.
+
+They're currently also looking at the different component architectures. I showed a quick demo of how MidCOM components are constructed and configured. Obviously MidCOM is quite specific to Midgard but some ideas from it might still be useful.
+
+Generally I was a bit wary of the Zend Framework before actually meeting Andi. He got me convinced that they're actually trying to do the right things for the community, but are trying to be careful and only publish ready stuff at the same time. I have to agree that publishing running code easily beats just talking about it.
+
+[1]: http://www.midgard-project.org/
+[2]: http://www.eclipsecon.org/2006/Home.do
+[3]: http://eclipse-ecosystem.blogspot.com/
+[4]: http://www.eclipsecon.org/2006/Sub.do?id=295
+[5]: http://www.cafepress.com/mgd.8552838
+[6]: http://jlibrary.sourceforge.net/
+[7]: http://openpsa.tigris.org/
+[8]: http://us.mms.com/us/index.jsp
+[9]: http://www.zend.com/de/phpide/
+[10]: http://pooteeweet.org/blog/348
+[11]: http://www.midgard-project.org/midcom-permalink-fc278b300819f654e0e561c6e233c67f
+[12]: http://andigutmans.blogspot.com/
+[13]: http://framework.zend.com/

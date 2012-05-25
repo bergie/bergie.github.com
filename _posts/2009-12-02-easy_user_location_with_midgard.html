@@ -1,0 +1,60 @@
+---
+  title: "Easy user location with Midgard"
+  categories: 
+    - "geo"
+    - "midgard"
+  layout: "post"
+
+---
+<p>Location is an important context that  <a href="http://gigaom.com/2009/05/20/why-location-awareness-will-make-the-web-more-useful/http://gigaom.com/2009/05/20/why-location-awareness-will-make-the-web-more-useful/">web services can utilize</a> for <a href="http://www.foursquare.com/">fun</a> or <a href="http://worrydream.com/MagicInk/">smarter user interaction</a>. In past getting location used to be difficult, but now thanks to good <a href="http://www.geoplugin.com/">IP locationing databases</a> and <a href="http://bergie.iki.fi/blog/browser_geolocation_without_gps-quite_accurate_enough/">browser geolocation</a> capabilities it is becoming a lot easier.</p>
+<p>But to be really easy, the framework you're using should provide user's location built-in, without you as an application developer having to think about it. This is the reason for <a href="http://bergie.iki.fi/blog/the-midgard-position/">Midgard's geolocation features</a> to exist, after all. With Midgard, getting user's location is quite easy:</p>
+<h2>Midgard MVC (Midgard 9.09)</h2>
+<pre>// Read location from session or user's location log
+$user_location = midgardmvc_helper_location_user::get_location();
+if (is_null($user_location))
+{
+    // No location found, try to geocode based on user IP via the GeoPlugin service
+    $geocoder = new new midgardmvc_helper_location_geocoder_geoplugin()
+    $location_parameters = array('ip' =&gt; $_SERVER['REMOTE_ADDR']);
+    try
+    {
+        $user_location = $geocoder-&gt;geocode($location_parameters);
+        midgardmvc_helper_location_user::set_location($user_location);
+    }
+    catch (Exception $e)
+    {
+        // Couldn't get location from IP
+    }
+}
+
+if (!is_null($user_location))
+{
+    echo sprintf('You\'re in %s, %s', $user_location-&gt;latitude, $user_location-&gt;longitude);
+    // Will print "You're in 60.1633, 24.9279"
+}
+</pre>
+<h2>MidCOM (Midgard 8.09)</h2>
+<pre>&lt;?php
+// Read location from session or user's location log
+$user_location = org_routamc_positioning_user::get_location();
+if (is_null($user_location))
+{
+    // No location found, try to geocode based on user IP
+    $geocoder = org_routamc_positioning_geocoder::create('geoplugin');
+    $location_parameters = array('ip' =&gt; $_SERVER['REMOTE_ADDR']);
+    $user_location = $geocoder-&gt;geocode($location_parameters);
+    if (!is_null($user_location))
+    {
+        // Store geocoded location to session or user's location log
+        org_routamc_positioning_user::set_location($user_location);
+    }
+}
+
+if (!is_null($user_location))
+{
+    echo sprintf('You\'re in %s, %s', $user_location['latitude'], $user_location['longitude']);
+    // Will print "You're in 60.1633, 24.9279"
+}
+?&gt;
+</pre>
+<p>The examples above will work with both anonymous site visitors (using sessions) and registered users (using Midgard's position log). In this example we check if location is already available via browser geolocation or some importer like <a href="http://www.qaiku.com/go/4pje">Qaiku</a> or <a href="http://fireeagle.yahoo.net/">Fire Eagle</a>, and if not we fall back to IP-based positioning using the <a href="http://www.geoplugin.com/">GeoPlugin</a> service. The resulting user location array or object (depending on Midgard used) contains a textual description of the place and accuracy information in addition to WGS-84 coordinates.</p>

@@ -1,0 +1,12 @@
+---
+  title: "Using MidCOM3 with FirePHP"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p><a href="http://getfirebug.com/">Firebug</a> is a Firefox extension all web developers are familiar with. Now when developing with the <a href="http://bergie.iki.fi/blog/midcom_3_at_a_glance/">MidCOM3 MVC framework</a> it is possible to <a href="http://trac.midgard-project.org/ticket/814">get your debug information</a> straight from Midgard to Firebug<a href="http://www.firephp.org/"></a>:</p>
+<p><img src="/static/1/1ded84fd014f496d84f11deb7eda5dcade1825f825f_midgard-firephp-small-png.jpg" border="0" alt="midgard-firephp-small.png" title="midgard-firephp-small.png" /></p>
+<p>This is built on top of the excellent <a href="http://www.firephp.org/">FirePHP extension</a>, which helps you get data not only from regular web pages but also <a href="http://www.christophdorn.com/Blog/2009/04/03/how-to-integrate-firephp-for-ajax-development/">from AJAX requests</a>.</p>
+<p>Currently we send all logged information plus details about current route and templates being used. To use this, <a href="http://www.firephp.org/">install FirePHP</a> in your Firefox, FirePHPCore from PEAR packages, and enable <em>development_mode</em> in MidCOM3 configuration.</p>
+<p>I'm considering to port this also to <a href="http://www.midgard-project.org/midgard/8.09/">Ragnaroek</a>.</p>

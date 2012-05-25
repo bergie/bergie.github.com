@@ -1,0 +1,46 @@
+---
+  title: "Using Weblog Editors with Midgard CMS"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+Inspired by the <a href="http://inessential.com/?comments=1&postid=2901" title="NetNewsWire and MarsEdit public beta announcement">public betas of MarsEdit and NetNewsWire</a>, I looked up an old <a href="http://www.xmlrpc.com/metaWeblogApi">MetaWebLog API</a> support patch I had made for the blogging and news ticker tool of <a href="http://www.midgard-project.org/cms/" title="Midgard - Open Source Content Management System">Midgard CMS</a>, de.linkm.newsticker. I modernized the patch a bit and committed it to <a href="http://midcom.tigris.org/source/browse/midcom/components/">MidCOM CVS</a>. 
+</p><p>
+This means that all Midgard CMS installations using the new version will provide support for desktop and mobile weblog editors for updating the news items. The "Remote editing tools" support can be switched off in configuration but I've left it on as default.
+</p><p>
+I've now tested the system with two desktop blogging tools for <a href="http://www.apple.com/macosx/">Mac OS X</a>, <a href="http://ecto.kung-foo.tv/" title="Desktop blogging tool for OS X and Windows">ecto</a> and <a href="http://ranchero.com/marsedit/" title="Desktop blogging tool for OS X">MarsEdit</a>, and it works quite well. I can prepare my blog posts offline, and publish them whenever I have access. In addition, the cool "<a href="http://ranchero.com/netnewswire/features/externalEditors.php">Post to Weblog</a>" feature in <a href="http://ranchero.com/netnewswire/" title="Desktop RSS reader for OS X">NetNewsWire</a> works with both.
+</p><p>
+Setting up the desktop blog editors is very simple, simply go to their "New account" or "New weblog" dialogue and give the URL to your newsticker-powered topic. The weblog editor will get all required settings by autoprobing the <a href="http://archipelago.phrasewise.com/rsd" title="Really Simple Discoverability">RSD</a> file provided in the HTML headers. You will be polled only for your username and password and the editing environment should be ready.
+</p><p>
+If the RSD auto-probing fails for some reason, the XML-RPC interfaces are available in "<em>rpc/metaweblog/</em>" under the newsticker topic. So for example the RPC URL for this blog would be "<em>http://bergie.iki.fi/blog/rpc/metaweblog/</em>".
+</p><p>
+The MetaWebLog API patch requires the <a href="http://pear.php.net/package/XML_RPC">PEAR XML-RPC package</a> to be installed. It is available by default in all PHP 4.3.x installations.
+</p><p>
+Here are screenshots of the setup and blogging procedure in ecto:
+</p>
+<div align="center">
+<p><a href="http://bergie.iki.fi/midcom-serveattachmentguid-2ee725ddc6f36cb82358aad3dcc601b6/ecto-new-blog.jpg"><img width="270" vspace="4" hspace="4" height="201" border="1" title="ecto-new-blog.jpg" alt="ecto-new-blog.jpg" src="http://bergie.iki.fi/midcom-serveattachmentguid-2d2d089ed522093da90f726a446dd359/ecto-new-blog-tm.jpg" /></a></p><p><a href="http://bergie.iki.fi/midcom-serveattachmentguid-d5efe5183e8627161a5f2aacd403cef0/ecto-new-blog-settings.jpg"><img width="270" vspace="4" hspace="4" height="146" border="1" title="ecto-new-blog-settings.jpg" alt="ecto-new-blog-settings.jpg" src="http://bergie.iki.fi/midcom-serveattachmentguid-2590c90e2a0d67b12b2de4cfe3f0bcf3/ecto-new-blog-settings-tm.jpg" /></a></p><p><a href="http://bergie.iki.fi/midcom-serveattachmentguid-489f3bc72e856031c44be11cf4cd9c35/ecto-new-blog-username.jpg"><img width="270" vspace="4" hspace="4" height="146" border="1" title="ecto-new-blog-username.jpg" alt="ecto-new-blog-username.jpg" src="http://bergie.iki.fi/midcom-serveattachmentguid-5bac6f3e9766ef8333e90d2c4e07510c/ecto-new-blog-username-tm.jpg" /></a></p><p><a href="http://bergie.iki.fi/midcom-serveattachmentguid-5772c1e37a0e8d9414dd8f6f3213c24f/ecto-new-blog-name.jpg"><img width="270" vspace="4" hspace="4" height="146" border="1" title="ecto-new-blog-name.jpg" alt="ecto-new-blog-name.jpg" src="http://bergie.iki.fi/midcom-serveattachmentguid-6ff3e5a9ecc7ac87145d06441d4aaca8/ecto-new-blog-name-tm.jpg" /></a></p><p><a href="http://bergie.iki.fi/midcom-serveattachmentguid-d6aefcc63988e3b73e623794f712b635/ecto-blog-entries.jpg"><img width="270" vspace="4" hspace="4" height="200" border="1" title="ecto-blog-entries.jpg" alt="ecto-blog-entries.jpg" src="http://bergie.iki.fi/midcom-serveattachmentguid-26663bb4a167c851748ef80a7d8d06c2/ecto-blog-entries-tm.jpg" /></a></p><p><a href="http://bergie.iki.fi/midcom-serveattachmentguid-3f2fe95a95d92759d755c27c7a8d399a/ecto-new-post.jpg"><img width="270" vspace="4" hspace="4" height="241" border="1" title="ecto-new-post.jpg" alt="ecto-new-post.jpg" src="http://bergie.iki.fi/midcom-serveattachmentguid-46c0020b605fabc35a4fe7c4dd8a9798/ecto-new-post-tm.jpg" /></a></p></div>
+
+<p>
+There are some features missing from the remote editing support that I miss:
+</p>
+
+<ul>
+<li>For some reason MetaWebLog API doesn't let me edit the article abstracts separately</li>
+<li>Categorization support is still missing from the implementation</li>
+<li>MetaWebLog API supports only storing images with the topic, not with the article</li>
+</ul>
+
+<p>
+Anyway, this is a big step forward in making Midgard a good blogging tool. I will try to make all posts in the near future using these desktop tools to get possible details and glitches tracked down.
+</p><p>
+Here are some screenshots of MarsEdit editing the same blog:
+</p>
+
+<div align="center"><p><a href="http://bergie.iki.fi/midcom-serveattachmentguid-e325f6e3d00841853ef162166a7b7784/marsedit-new-blog-username.jpg"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-173702630b9385536960b84e60771b9c/marsedit-new-blog-username-tm.jpg" height="113" width="270" border="1" hspace="4" vspace="4" alt="marsedit-new-blog-username.jpg" title="marsedit-new-blog-username.jpg" /></a></p><p><a href="http://bergie.iki.fi/midcom-serveattachmentguid-2296dcc2cbee07685103da39a1f699e6/marsedit-edit-post.jpg"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-6f3ed5210362293873b22018404f55f0/marsedit-edit-post-tm.jpg" height="270" width="270" border="1" hspace="4" vspace="4" alt="marsedit-edit-post.jpg" title="marsedit-edit-post.jpg" /></a></p></div>
+
+<p>
+<strong>Updated 13:20:</strong> I would be more than happy to receive testing reports of using this feature with other desktop blogging tools. Please send them to the <a href="http://www.midgard-project.org/community/support-discussion/">midgard-user</a> list. You can also blog your results and just send the URL.
+</p>

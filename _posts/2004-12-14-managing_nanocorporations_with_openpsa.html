@@ -1,0 +1,28 @@
+---
+  title: "Managing nanocorporations with OpenPSA"
+  categories: 
+    - "business"
+    - "openpsa"
+  layout: "post"
+
+---
+<p>
+There was an interesting story in a recent <a href="http://www.yrittajat.fi/sy/ay1/yrittaja/home.nsf">Yritt&auml;j&auml; magazine</a> about a concept called <em>nanocorporations</em>, or networked small businesses. 
+</p><p>
+Nanocorporations are formed by one or two individuals around a core competence. They are able to manage growth and larger projects by networking with other similar units, which again can network with other units. This all forms a fine mesh of interconnected and dedicated companies which should be able to react more swiftly to changes of business climate.
+</p><p>
+This concept should sound familiar to most readers of my blog. While <a href="http://www.nemein.com/">Nemein</a> slightly exceeds the maximum size of a nanocorp, our operational model still closely resembles it. We focus very tightly on building web based information systems on top of the <a href="http://www.midgard-project.org/">Midgard</a> platform. To provide more complete solutions we then work together with individual programmers, graphical designers, media consultancies and hosting providers. Most of these are also companies of similar scale and working model.
+</p><p>
+The big question is how to manage projects efficiently when such a big number of subcontractors are involved. In most cases this is handled by setting up a single project area in <a href="http://www.openpsa.org/">OpenPSA</a> where all are given accounts. However, this forces the contractors to manage the work using <em>our</em> system instead of <em>their own</em>.
+</p><p>
+I'm now trying to figure out a good way to handle this so that each organization could manage their part using whatever management system they prefer, but so that all could also see the work being done by others. For now this could be called a <a href="http://en.wikipedia.org/wiki/Keiretsu">Keiretsu</a> model.
+</p><p>
+The basic idea is that we should have a technology-neutral but tightly specified API systems could use for communicating with each other. To make things easy we could build it on top of the <a href="http://www.xmlrpc.com/">XML-RPC layer</a>. When such API would be available it would then be up to the different systems to implement it. As support from larger financial or ERP systems is highly unlikely, plugins could be developed by third parties.
+</p><p>
+The API should be relatively generic:
+</p><ul><li>Project Management</li><ul><li>List projects or tasks</li><li>Modify a project or task</li><li>Create a project or task</li><li>List hours reported to a task</li><li>Add hour report to a task</li></ul><li>Sales</li><ul><li>List sales projects</li><li>Modify a sales project</li><li>Create a sales project</li><li>List contacts in a sales project</li><li>Modify a contact in sales project</li><li>Add a contact to sales project</li><li>List activities in a sales project</li><li>Modify an activity in sales project</li><li>Add an activity to sales project</li></ul><li>Support</li><ul><li>List support tickets</li><li>Modify a support ticket</li><li>Create a support ticket</li></ul></ul><p>
+All operations would be run with an user account, letting the system in the other end handle access control. This would also allow desktop tools to utilize the same API for communicating with the server. For example, it would be easy to imagine <a href="http://www.imendio.com/projects/planner/">GNOME Planner</a> and <a href="http://linas.org/linux/gtt/gtt.html">Gnome Time Tracker</a> communicating this way with back-end project management systems.
+</p><p>
+For calendaring an existing API like <a href="http://www.hut.fi/u/asaarila/syncml/syncml_intro.html">SyncML</a> or <a href="http://www.opengroupware.org/people/hh/draft-hess-groupdav-01.txt">GroupDAV</a> could work better.
+</p><p><strong>As a side note</strong>, nanocorporation seems to be a fairly new word. <a href="http://www.google.fi/search?hl=fi&q=nanocorporation&btnG=Google-haku&meta=">Google lists</a> only 19 hits. The main proponent of the term is the <a href="http://sohodojo.com/newsletters/rnr_newsletter_01.html">Sohodojo portal</a>.
+</p>

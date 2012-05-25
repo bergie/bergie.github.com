@@ -1,0 +1,108 @@
+---
+  title: "What is a content repository"
+  categories: 
+    - "desktop"
+    - "midgard"
+  layout: "post"
+
+---
+<p>Joint post of <a href="http://bergie.iki.fi/">Henri Bergius</a> and <a href="http://michaelmarth.blogspot.com/">Michael Marth</a> cross-posted <a href="http://dev.day.com/microsling/content/blogs/main/contentrepositories.html">here</a> and <a href="http://bergie.iki.fi/blog/what_is_a_content_repository/">here</a>.</p>
+<p>Web Content Repositories are more than just plain old relational databases. In fact, the requirements that arise when managing web content have led to a class of content repository implementations that are comparable on a conceptual level. During the <a href="http://www.iks-project.eu/">IKS</a> community <a href="http://www.iks-project.eu/civicrm/event/info?reset=1&amp;id=3">workshop in Rome</a> we got together to compare JCR (the <a href="http://jackrabbit.apache.org/">Jackrabbit</a> implementation) and <a href="http://www.midgard-project.org/">Midgard</a>'s content repository. While in some cases the terminology might be different, many of the underlying ideas are identical. So we came up with a list of common traits and features of our content repositories. For comparison, there is also <a href="http://couchdb.apache.org/">Apache CouchDB</a>.</p>
+<p>So, why use a Content Repository for your application instead of the old familiar RDBMS? Repositories provide several advantages:</p>
+<ul><li>
+<p><em>Common rules for data access</em> mean that multiple applications can work with same content without breaking consistency of the data</p>
+</li>
+<li>
+<p><em>Signals about changes</em> let applications know when another application using the repository modifies something, enabling collaborative data management between apps</p>
+</li>
+<li>
+<p><em>Objects instead of SQL</em> mean that developers can deal with data using APIs more compatible with the rest of their desktop programming environment, and without having to fear issues like SQL injection</p>
+</li>
+<li>
+<p><em>Data model is scriptable</em> when you use a content repository, meaning that users can easily write Python or PHP scripts to perform batch operations on their data without having to learn your storage format</p>
+</li>
+<li>
+<p><em>Synchronization and sharing</em> features can be implemented on the content repository level meaning that you gain these features without having to worry about them</p>
+</li>
+</ul><table class="tblGenFixed" border="1" cellspacing="0" cellpadding="2"><thead><tr><th class="s0">feature</th> <th class="s1">JCR / Jackrabbit</th> <th class="s2">Midgard</th> <th class="s3">CouchDB</th>
+</tr></thead><tbody><tr><td class="s4">content type system</td>
+<td class="s5">In JCR structured or unstructured nodes are supported and can be mixed at will in a content tree.</td>
+<td class="s5">Content types are defined in MgdSchema types. All content must be stored to an MgdSchema type, but types can be extended on content instance level using the "parameter" triplets</td>
+<td class="s6">Type-free</td>
+</tr><tr><td class="s7">type hierarchy</td>
+<td class="s8">Structured node types support inheritence of types, additional cross-cutting aspects can be added with "mixins". Node types can define allowed node types for child nodes in the content hierarchy.</td>
+<td class="s8">MgdSchemas allow inheritance, and an extended type can be instantiated either using the extended type or the base type</td>
+<td class="s9">Type-free</td>
+</tr><tr><td class="s4">IDs</td>
+<td class="s5">Nodes with mixin "referenceable" have GUID. In practice the node path is often used to reference nodes.</td>
+<td class="s5">Every object has a GUID used for referencing. Objects located in trees that have a "name" property can also be referred to using the path</td>
+<td class="s6">All objects can be accessed via a UUID</td>
+</tr><tr><td class="s7">References</td>
+<td class="s8">Nodes can reference each other with hard link (special property type) or soft link (by referring to the node path)</td>
+<td class="s8">MgdSchema types can have properties linking to other objects of same or different type. A link of "parentfield" type places an MgdSchema type in a tree.</td>
+<td class="s9">No reference support built-in</td>
+</tr><tr><td class="s4">content hierarchy</td>
+<td class="s5">All content is hierarchical / in a tree</td>
+<td class="s5">Content can exist in tree, or independently of it depending on the MgdSchema type definition</td>
+<td class="s6">flat structure</td>
+</tr><tr><td class="s7">interesting property types</td>
+<td class="s8">Multi-valued (like an array), binary properties (e.g. for files), nodes have an implicit sort-order</td>
+<td class="s8">Binary properties stored using the Midgard Attachment system</td>
+<td class="s9">Support for binary properties</td>
+</tr><tr><td class="s4">transactions</td>
+<td class="s5">Multiple content modifications are written in transactions.</td>
+<td class="s5">Transactions can be used optionally.</td>
+<td class="s6"></td>
+</tr><tr><td class="s7">events</td>
+<td class="s8">JCR Observers can register for content changes on different paths and/or for different node types and/or CRUD, receive notification of changes as serialized node</td>
+<td class="s8">All transactions cause both process-internal GObject signals, and interprocess DBus signals</td>
+<td class="s9">Support for one external event notification shell script</td>
+</tr><tr><td class="s4">workspaces</td>
+<td class="s5">Workspaces provide separate root trees.</td>
+<td class="s5">No workspaces support in Midgard 9.03, coming in next version</td>
+<td class="s6">Multiple databases within one CouchDB instance</td>
+</tr><tr><td class="s7">import and export</td>
+<td class="s8">nodes or parts of the repository (or the whole repo) can be imported or exported in XML. 2 formats: docview for human-frindly representation, sysview including all technical aspects</td>
+<td class="s8">Objects can be exported and imported in XML format. There are tools supporting replication via HTTP, tarballs, XMPP, and the CouchDB replication protocol</td>
+<td class="s9">JSON serialization is the standard way of accessing the repository. CouchDB replication protocol supports full synchronization between instances</td>
+</tr><tr><td class="s4">versioning</td>
+<td class="s5">Checkin/checkout model to create new versions of nodes, optionally versions complete sub-trees, supports branching of versions.</td>
+<td class="s5">No versioning</td>
+<td class="s6">All versions of content are stored and accessible separately, no branching</td>
+</tr><tr><td class="s7">locking</td>
+<td class="s8">Nodes can be locked and unlocked</td>
+<td class="s8">Objects can be locked and unlocked</td>
+<td class="s9"></td>
+</tr><tr><td class="s4">object mapping</td>
+<td class="s5">Not in standard, but implemented in Jackrabbit. Rarely used in practice.</td>
+<td class="s5">Object mapping is the standard way of accessing the repository</td>
+<td class="s6">All content is accessed via JSON objects</td>
+</tr><tr><td class="s7">queries</td>
+<td class="s8">In JCR1 Sql or XPath, in JCR2 also QueryBuilder.</td>
+<td class="s8">Query Builder</td>
+<td class="s9">Javascript map/reduce</td>
+</tr><tr><td class="s4">access control</td>
+<td class="s5">Done on repository level, i.e. all access control is independent of application. In Jackrabbit: pluggable authentication/authorization handlers.</td>
+<td class="s5">No access control in Midgard repository, usually implemented on application level. Midgard proves a user authentication API</td>
+<td class="s6">No access control</td>
+</tr><tr><td class="s7">persistence</td>
+<td class="s8">In Jackrabbit different Persistence Managers can be plugged in (RDBMS, tar file, ...)</td>
+<td class="s8">libgda allows storage to different RDBMS like MySQL, SQLite and Postgres</td>
+<td class="s9">CouchDB has its own storage</td>
+</tr><tr><td class="s4">architecture</td>
+<td class="s5">Jackrabbit: library (jar), JEE resource, OSGi bundle or standalone server</td>
+<td class="s5">Library</td>
+<td class="s6">Erlang-based daemon</td>
+</tr><tr><td class="s7">APIs</td>
+<td class="s8">Standard: Java-based, PHP coming up. In Jackrabbit: also WebDAV and HTTP-based API</td>
+<td class="s8">C, Objective-C, PHP, Python</td>
+<td class="s9">HTTP+JSON</td>
+</tr><tr><td class="s4">full-text search</td>
+<td class="s5">Included in repository. In Jackrabbit: Lucene bundled</td>
+<td class="s5">No (SOLR used on application level)</td>
+<td class="s6">Plugin for using Lucene, not installed by default</td>
+</tr><tr><td class="s7">standard metadata</td>
+<td class="s8">All nodes have access rights, jcr:primaryType and jcr:mixinTypes properties. JCR 2.0 standardizes a set of optional metadata properties.</td>
+<td class="s8">All objects have a set of standard metadata including creator, revisor, timestamps etc</td>
+<td class="s9">No standard properties</td>
+</tr></tbody></table>

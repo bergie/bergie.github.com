@@ -1,0 +1,53 @@
+---
+  title: "Using RDFa to make a web page editable"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>As <a href="http://bergie.iki.fi/blog/starting_the_interactive_knowledge_project/">part of the IKS project</a> we're working on <a href="http://semantic-editor.org/">semantic web editing</a>. One area there is using <a href="http://www.w3.org/TR/xhtml-rdfa-primer/">RDFa</a> to actually make pages editable. RDFa is a way to embed semantic information to regular HTML pages, and is already <a href="http://bergie.iki.fi/blog/search_engines_have_an_important_role_in_semantic_web/">supported by some search engines</a>, making this also a way of <a href="http://www.google.com/support/webmasters/bin/answer.py?hl=en&amp;answer=99170">doing SEO</a>.</p>
+<p>But in addition to telling search engines what the content on our pages means, we can also use it to communicate between templates and the content management UI. In this example I'm using <a href="http://jquery.com/">jQuery</a>, <a href="http://aloha-editor.com/">Aloha Editor</a> and <a href="https://github.com/nemein/Aloha-Plugin-MidgardSave">a Midgard saving plugin</a> for Aloha to manage content.</p>
+<p>What works:</p>
+<ul><li>Explaining the content shown on a web page via RDFa and making it Aloha-editable</li>
+<li>Storing edited content back to the CMS</li>
+<li>Adding new items to containers (for example, adding a new article to a news listing)</li>
+</ul><p>The RDFa used is actually pretty simple. Here is how an article looks like:</p>
+<pre>&lt;article xmlns:sioc="http://rdfs.org/sioc/ns#" 
+         xmlns:dcterms="http://purl.org/dc/terms/" 
+         <strong>typeof="http://rdfs.org/sioc/ns#Post"</strong> 
+         <strong>about="urn:uuid:d1eeb24ae38c11df92307f77dcafaed7aed7"</strong>&gt; 
+    &lt;h1 <strong>property="dcterms:title"</strong>&gt;
+        Application Quality Assurance in Linux distributions
+    &lt;/h1&gt; 
+    &lt;div <strong>property="sioc:content"</strong>&gt;
+        &lt;p&gt;We had a session about application QA in last weekend's 
+        &lt;a href="http://gsoc-wiki.osuosl.org/index.php/2010"&gt;GSoC Mentor Summit&lt;/a&gt;. 
+        I explained how the &lt;a href="http://maemo.org/downloads/Maemo5/"&gt;Maemo Downloads&lt;/a&gt; 
+        approval process works in a 
+        &lt;a href="http://wiki.maemo.org/Extras-testing#How_it_works_in_practice"&gt;completely open, crowdsourced way&lt;/a&gt;.
+        This differs from many distributions where approval of new packages involves obscure decisions 
+        and secret handshakes.&lt;/p&gt;
+        ...
+    &lt;/div&gt; 
+&lt;/article&gt;
+</pre>
+<p>What is shown above is an article represented using the <a href="http://en.wikipedia.org/wiki/Semantically-Interlinked_Online_Communities">Semantically-Interlinked Online Communities</a> specification. The article is identified by a UUID (in this case, a <a href="http://www.midgard-project.org/development/mrfc/0018/">Midgard GUID</a>), and has title and a content properties. When the CMS javascripts load, Aloha will be enabled for both properties, making them editable:</p>
+<p><img src="/static/1/1e0085621b63878085611e097922d9448f9055b055b_aloha-in-rdfa-small.png" border="0" alt="aloha-in-rdfa-small.png" title="aloha-in-rdfa-small.png" /></p>
+<p>When user wants to save things, there is a Save button provided in the toolbar. Saving reads the contents of modified Aloha instances, and sends them together with RDF type and identifier information back to the server:</p>
+<p><img src="/static/1/1e008569a113106085611e0ae7ee1354126059e059e_aloha-in-rdfa-save.png" border="0" alt="aloha-in-rdfa-save.png" title="aloha-in-rdfa-save.png" /></p>
+<p>When receiving the POST Midgard runs <a href="https://github.com/bergie/midgardmvc_ui_create/blob/master/controllers/aloha.php">a controller</a> that maps the provided RDF information to a object in the content repository, validates the content and saves. The RDF mappings in a Midgard2 <a href="http://www.midgard-project.org/documentation/mgdschema-file/">MgdSchema</a> look like the following:</p>
+<pre>&lt;Schema xmlns="http://www.midgard-project.org/repligard/1.4"&gt;
+    &lt;type name="org_midgardproject_news_article" table="org_midgardproject_news_article"&gt;
+        &lt;user_values&gt;
+            <strong>&lt;typeof&gt;http://rdfs.org/sioc/ns#Post&lt;/typeof&gt;</strong>
+            &lt;namespaces&gt;sioc:http://rdfs.org/sioc/ns#,dcterms:http://purl.org/dc/terms/&lt;/namespaces&gt;
+        &lt;/user_values&gt;
+        &lt;property name="title" type="string"&gt;
+            &lt;description&gt;Title of the article&lt;/description&gt;
+            &lt;required&gt;true&lt;/required&gt;
+            <strong>&lt;property&gt;dcterms:title&lt;/property&gt;</strong>
+        &lt;/property&gt;
+        ...
+    &lt;/type&gt;
+&lt;/Schema&gt;
+</pre>

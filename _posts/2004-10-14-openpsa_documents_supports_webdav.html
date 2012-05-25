@@ -1,0 +1,27 @@
+---
+  title: "OpenPSA Documents supports WebDAV"
+  categories: 
+    - "openpsa"
+  layout: "post"
+
+---
+<p>
+WebDAV is an HTTP based file transfer protocol supported by most major operating systems and Microsoft Office. WebDAV support now makes OpenPSA Documents a much more useful document repository.
+</p><p>
+The WebDAV server was implemented with the PEAR <a href="pear.php.net/package/HTTP_WebDAV_Server">HTTP_WebDAV_Server</a> package. So far I've only tested it as a network filesystem for Mac OS X and Windows XP and with the <a href="http://www.webdav.org/goliath/">Goliath</a> and <a href="http://www.ics.uci.edu/~webdav/">DAV Explorer</a> WebDAV applications. On Mac everything works quite smoothly but there can still be some glitches with Linux and Windows.
+</p><p>
+I would be happy to receive more test reports with other DAV clients. To try it out you need the following:
+</p><ul><li><a href="http://www.midgard-project.org/">Midgard</a> 1.5.0 or later</li><li>Latest <a href="http://openpsa.tigris.org/source/browse/openpsa/">CVS version</a> of OpenPSA</li><li><a href="http://www.php.net/">PHP 4.3.x</a></li><li>The <a href="http://pear.php.net/">PEAR</a> HTTP_WebDAV_Server package</li></ul><p>
+Once all these are installed and running you can try the WebDAV server by pointing your DAV client to the <em>/docstore_dav/</em> subdirectory of your OpenPSA system (note: the actual OpenPSA system, not OpenPSA Manager). For example,
+<em>http://www.example.com/openpsa/docstore_dav/</em>.
+</p><p>
+In <a href="http://docs.info.apple.com/article.html?artnum=151622">Mac OS X Finder</a> this happens by clicking <em>Go -&gt; Connect to Server</em> or pressing <em>Command-K</em>. On <a href="http://www.winnetmag.com/Article/ArticleID/24478/24478.html">Windows XP</a> this happens via going to <em>My Network Places</em> and  adding a new one.
+</p><p>
+Now the server stores quite verbose debugging information to <em>/tmp/docstore-webdav.log</em>. If you encounter issues, please mail me the relevant pieces of that log file. Logging will be turned off by default in a more stable release.
+</p><h2>Caveats</h2><ul><li style="text-decoration: line-through;">Folder copy/move action support is very hacky</li><li>The WebDAV server does not yet support the access control system in Documents</li><li style="text-decoration: line-through;">There are problems with special characters in file names</li><li>Locks are currently used only for information, following them is up to the client</li><li>Looks like WinXP allows only <a href="http://office.microsoft.com/en-us/default.aspx">MS Office</a> to directly open and save documents to an SSL-encrypted Web Folder, other applications require a local copy<br />
+The <a href="http://www.southrivertech.com/index.php?pg=./products/webdrive/index">WebDrive</a> application solves this by mapping the encrypted Web Folder to a drive letter.<br />
+As pointed out by <a href="http://blog.akbkhome.com/">Alan</a>, <a href="http://support.novell.com/servlet/filedownload/uns/pub/ndrv41862.exe/">Novell WebDrive</a> provides a free tool for the same (<a href="http://www.tmv-vision.com/yhteystiedot/henkilokunta/Tomi.html">Tomi</a> noted that the license says it is free only if used together with other Novell products. Can anyone confirm?).<br />
+ Unencrypted Web Folders can be mounted without external tools.</li><li><a href="http://www.gnome.org/projects/nautilus/">Nautilus 2.6.3</a> seems to have problems with the whole DAV connection</li></ul><p>
+Here is <a href="/midcom-serveattachmentguid-abaaecf2063fe4bf23be13155a7fad30/webdav-litmus-log-20041014.txt">log file</a> of the current implementation being tested with the <a href="http://www.webdav.org/neon/litmus/">WebDAV litmus test</a> tool.<br />
+Note: this file was first saved to our OpenPSA repository and then inserted from there to this blog post via <a href="http://ranchero.com/marsedit/">MarsEdit</a>. Desktop integration rocks!
+</p>

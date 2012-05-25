@@ -1,0 +1,22 @@
+---
+  title: "This is now Unicode"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+This blog has now been successfully converted to the <a href="http://en.wikipedia.org/wiki/UTF-8" title="UTF-8 on WikiPedia">UTF-8</a> character encoding. This enables using non-western characters in any part of this site.
+</p><p style="text-align:center;">НЕ РЛОХО!
+</p><p>
+This was all made possible using Torben's handy <a href="http://www.nathan-syntronics.de/midgard/midcom/utf8.html">MidCOM UTF-8 HOWTO</a>. Please report if you note any issues.
+</p><p><strong>Note:</strong> Newsticker's <a href="http://bergie.iki.fi/blog/using_weblog_editors_with_midgard_cms.html">MetaWebLog API support</a> doesn't seem to work 100% reliably on UTF-8. <a href="http://ecto.kung-foo.tv/" title="ecto weblog editor">ecto</a> seems to support it fine, but <a href="http://ranchero.com/marsedit/" title="MarsEdit weblog editor">MarsEdit</a> reports XML parsing problems when fetching the latest entries.<br />
+I've now posted <a href="http://ranchero.com/bugs/display.php?bugid=1845" title="Bug on UTF-8 handling in MarsEdit">a bug</a> to the MarsEdit issue tracker, but frankly I suspect this is an issue with either the PEAR XML-RPC library or my MetaWebLog implementation.
+</p><p><strong>Updated 2004-09-29:</strong> The issue with blogging tools was resolved by commenting out the following lines in Apache configuration:</p><pre>
+#   php_value default_charset UTF-8
+#   php_value mbstring.func_overload 7
+#   php_value mbstring.internal_encoding UTF-8
+#   php_value mbstring.detect_order UTF-8
+</pre><p>
+Torben has told me to use these lines in his HOWTO, but as suggested by Piotras, they are not necessary for correct usage of Midgard with UTF-8. In addition, not using them resolves the MetaWebLog API problem.
+</p>

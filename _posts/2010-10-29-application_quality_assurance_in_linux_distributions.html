@@ -1,0 +1,22 @@
+---
+  title: "Application quality assurance in Linux distributions"
+  categories: 
+    - "desktop"
+    - "kde"
+    - "meego"
+    - "mobility"
+  layout: "post"
+
+---
+<p>We had a session about application QA in last weekend's <a href="http://gsoc-wiki.osuosl.org/index.php/2010">GSoC Mentor Summit</a>. I explained how the <a href="http://maemo.org/downloads/Maemo5/">Maemo Downloads</a> approval process works in a <a href="http://wiki.maemo.org/Extras-testing#How_it_works_in_practice">completely open, crowdsourced way</a>. This differs from many distributions where approval of new packages involves obscure decisions and secret handshakes.</p>
+<p>Some guidelines:</p>
+<ul><li>Separate your core distribution and application packages</li>
+<li>Approval process should have three layers: development, testing and stable, individually for each application targeting a particular distribution version</li>
+<li>Anybody can upload packages to development status, and then promote them to testing</li>
+<li>On their way from development to testing packages should pass automated tests</li>
+<li>Anybody can install and test packages that are in testing, and vote for them</li>
+<li>Testing guidelines should be clear and easily available to anybody interested in testing</li>
+<li>Quarantine period for applications being tested (ten days in case of Maemo)</li>
+<li>When quarantine has passed and application has enough positive votes, developer can promote the package to stable</li>
+</ul><p>Hopefully these ideas will prove helpful for other distributions like MeeGo, Ubuntu or Debian. See also <a href="http://opensolutions.coss.fi/pdf/Henri_Bergius.pdf">my slides from an earlier talk</a> on the same subject.</p>
+<p><img src="/static/1/1dfe3663e92db6ee36611df87f3dffe74c8636d636d_maemo-testing-votes.png" border="0" alt="Testing votes for a package" title="Votes for a package: community karma can help to catch abuse" /></p>

@@ -1,0 +1,22 @@
+---
+  title: "Calculate the impact of your posts"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>Today on HN there was a thread on <a href="http://news.ycombinator.com/item?id=2347428">how to get the Facebook share counts</a> for a URL. Turns out that with Facebook, just like with most social web services this is quite easy. And actually I've been doing this since 2007 to <a href="http://bergie.iki.fi/blog/calculating_news_item_relevance/">calculate news item relevance</a> on <a href="http://maemo.org/news/">Maemo News</a>.</p>
+<p>Of course the social web landscape has changed quite a bit since the 2007 launch of our "social news" service, and many of the original relevancy sources have fallen into misuse. So now, in preparation of the new <a href="http://wiki.meego.com/Web_infrastructure/Planet.meego.com">Planet MeeGo</a> aggregator, I decided to clean up the calculations into a generic PHP library. Usage is simple:</p>
+<pre>require('calculate.php');
+
+$url = 'http://bergie.iki.fi/blog/introducing_the_midgard_create_user_interface/';
+
+// Get the raw count for only one source
+echo com_meego_planet_calculate::hackernews($url); // 145
+echo com_meego_planet_calculate::facebook($url); // 1
+
+// Get weighted total score for all sources
+echo com_meego_planet_calculate::all($url); // 130.8
+</pre>
+<p>Grab the <a href="https://github.com/nemein/com_meego_planet">source from GitHub</a>. I'd be happy to accept pull requests adjusting the weight scheme or adding new social sources.</p>
+<p>And if you want to run a <a href="http://www.planetplanet.org/">"Planet"</a> in similar mode to what we have on Maemo, providing a quick front-page view of only the most relevant posts, and a separate page of all posts, then the repository has a full Midgard MVC component for doing that.</p>

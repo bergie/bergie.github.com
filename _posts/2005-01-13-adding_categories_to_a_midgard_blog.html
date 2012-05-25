@@ -1,0 +1,84 @@
+---
+  title: "Adding categories to a Midgard blog"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+Hot on the heels of my previous <a href="http://www.midgard-project.org/">Midgard CMS</a> tutorial, "<a href="http://bergie.iki.fi/blog/creating_custom_navigation_with_midcom.html">Creating custom navigation with MidCOM</a>, here is a new one about adding categories to a Midgard-powered blog. I've written this in response to <a href="http://www.privaterra.org/blog-rg/categories___midgard_blog.html">Robert Guerra's questions</a>.
+</p><p>
+Midgard CMS contains a powerful PHP-level data abstraction layer called <a href="http://www.midgard-project.org/documentation/concepts/midcom/specs/architecture/">datamanager</a>. With datamanager it is possible to freely modify the content fields and editing widgets used with any <a href="http://www.midgard-project.org/documentation/reference/components/">component</a>.
+</p><p>
+The first thing when adding new categories is to make the category field array. Robert's example was:
+</p><pre>"category" =&gt; array(
+  "description" =&gt; "Category",
+  "datatype" =&gt; "text",
+  "location" =&gt; "parameter",
+  "widget" =&gt; "select",
+  "widget_select_choices" =&gt; array (
+     "Privaterra" =&gt; "Privaterra",
+     "Midgard" =&gt; "Midgard",
+     "Travel" =&gt; "Travel",
+     "Security" =&gt; "Security",
+   ),
+),
+</pre><p>
+While I would use more descriptive keys than <em>cat1</em> for the categories, the actual field definition looks correct.
+</p>
+What you need to do next is to copy the default de.linkm.newsticker
+schema from the <a href="http://www.midgard-project.org/documentation/reference/components/de.linkm.newsticker.html">component API reference</a> and add your own field
+definition there.
+</p><p>
+it is the area starting with:
+<pre>"default" =&gt; array (
+    "name"        =&gt; "default",
+    "description" =&gt; "News Article",
+...
+</pre><p>
+Copy that area into a text editor (or just your clip board), and
+add the category block you've made into the "fields" array. A
+good place to do that would be between "title" and "abstract".
+</p><p>
+Then you need to store this new schema definition into your Midgard
+setup as a snippet.
+</p><p>
+Go to Aegir, select the "Snippet" tab from the left, and create
+a snippet directory named "sitegroup-config". Then under that create
+another snippet directory named "de.linkm.newsticker" by clicking
+"New" on the right-hand frame's menu.
+</p><p>
+This is the default location used for MidCOM's configuration. You don't 
+need to follow that convention but I'd recommend it.
+</p><p>
+Now that you have the snippetdirs created, click "New" (again in the
+right-hand frame), and create a snippet named "schema-blog", and
+paste your schema array there.
+</p><p>
+Then you need to configure your newsticker to use the new schema. Here
+you have two options, either set it to be used by all "newsticker"
+folders on your site, or only your blog.
+</p><p>
+To use it for all newstickers, create another snippet named "config" in the /sitegroup-config/de.linkm.newsticker directory, and in that snippet
+place the following:
+</p><pre>"schemadb" =&gt; "/sitegroup-config/de.linkm.newsticker/schema-blog",</pre><p>
+If you want to enable it for only one newsticker folder (or override
+the default specified above), you can do this by going to the newsticker
+folder on site, and clicking the "Component configuration" toolbar
+item. Scroll down the form, and enter your schema's path in the
+"Path to the schema database" field:
+</p><pre>/sitegroup-config/de.linkm.newsticker/schema-blog</pre><p>
+Now your blog should have categories enabled. I'm not sure how
+Ecto handles them, but probably the next time you refresh your posting
+list there, the category selections should appear to the editor. At
+least that is how it works in MarsEdit. The categories will also appear
+in the RSS feed generated from your blog. But they won't yet appear
+on your site. For that you need to modify the output templates of
+your blog, and that is the subject of another lesson :-)
+</p><p><strong>Note:</strong> the steps needed for adding simple category support to your
+blog might sounds exceedingly difficult. However, it has to be kept
+in mind that you can use the exactly same technique for controlling
+all data structures on your site (adding new content fields to
+articles, photos or whatever). There is more information about
+modifying schemas in <a href="http://www.midgard-project.org/documentation/howto/midcom/schemas.html">MidCOM schema documentation</a>.
+</p>

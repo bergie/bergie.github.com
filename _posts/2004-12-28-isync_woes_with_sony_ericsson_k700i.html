@@ -1,0 +1,39 @@
+---
+  title: "iSync woes with Sony Ericsson K700i"
+  categories: 
+    - "openpsa"
+  layout: "post"
+
+---
+<p>
+My <a href="http://bergie.iki.fi/blog/2004-09-10-000.html">old Nokia 6820</a> phone had a weird issue that made it keep the backlight of the keyboard lit all times. This made the battery run out in less than a day, which was very irritating.
+</p><p>
+As <a href="http://www.kaukolaweb.com/blog/a_new_toy.html">Kaukola had praised</a> the <a href="http://www.sonyericsson.com/K700/index.aspx">Sony Ericsson K700i</a> I decided to buy one for myself. Obviously the first thing I tried with it was synchronizing my <a href="http://www.apple.com/ical/">calendar</a> and <a href="http://www.apple.com/macosx/features/addressbook/">contacts</a> with it using <a href="http://www.apple.com/isync/">iSync</a>. Both had issues.
+</p><p><strong>Calendar synchronization</strong> worked without any major hurdles. The only big complaint is that it doesn't support timezones. My Mac is configured to be in the EET timezone (GMT +2), and so was my phone. Unfortunately the phone expected that the incoming events would be in GMT when they were in EET, and so moved all of them by two hours. This was solved by setting the phone to the GMT timezone, which is obviously not a pretty solution but has to pass for now.
+</p><p>
+One theory on why this goes wrong is that the events in my calendar originate from <a href="http://www.openpsa.org/openpsa/calendar.html">OpenPSA Calendar</a>, which doesn't add any timezone information to its vCal entries. Here's a typical entry:
+</p><pre>
+BEGIN:VEVENT
+UID:ead00e1735d94f14a5c21d1888a5c48f@midgard
+SUMMARY:Midgard site wizard
+CLASS:PUBLIC
+DTSTART:20041228T090000
+DTSTAMP:20041228T090000
+DTEND:20041228T180000
+DTCREATED;TZID=US-Eastern: 19700101T020000
+DTLAST-MODIFIED;TZID=US-Eastern: 19700101T020000
+CATEGORIES:MEETING
+LOCATION:Home
+END:VEVENT
+</pre><p>
+I've posted <a href="http://openpsa.tigris.org/issues/show_bug.cgi?id=22">bug #22</a> to <a href="http://www.openpsa.org/">OpenPSA</a> about this and it has been fixed in the <a href="http://www.nemein.com/en/news/press/openpsa_1_10_released.html">1.10 release</a>.
+</p><p><strong>Contacts synchronization</strong> started out just fine, but somehow mystically broke overnight. When I tried to synchronize again this morning iSync aborted with some error. I then removed the K700i device from iSync, and re-added it. But then it created duplicates of all entries, so both my phone and my Mac had entries as "firstname lastname" and "lastname firstname".
+</p><p>
+I was able to delete all contacts from my phone and remove the duplicates from the Mac Address Book. However, even after this iSync persistently tried to "salvage" the duplicate entries from a Backup Conduit. After some struggle I decided to keep from synchronizing contacts between the two for now. Very aggravating! I've posted an <a href="http://www.apple.com/feedback/isync.html">iSync bug</a> about this.
+</p><p><strong>In the other news</strong>, I've finally added <a href="http://www.midgard-project.org/cms/">Midgard CMS</a> to the <a href="http://cmsmatrix.org/">CMS Matrix</a>. Several people have mailed me and asked for this, but unfortunately their submission form didn't work on Firefox earlier. <a href="http://cmsmatrix.org/matrix?wid=2&func=viewDetail&listingId=NZmv01DCHFAVrMVvK84flQ&forumOp=viewForum&forumId=BUl-2Kh43L1If4WpORWoQA&sortBy=rating">See the entry on Midgard</a>.
+</p><p><strong>Updated 2004-01-08</strong>: The calendar synchronization has been working pretty well for two weeks already, but I haven't yet braved trying to get Contacts synchronization working.
+</p><p>
+Minor annoyance has been that the phone doesn't allow turning <a href="http://forums.mobileburn.com/showthread.php?t=6841">shutter sound off</a>. This is a firmware setting that can't be overridden even by setting the phone volume to silent.
+</p><p>
+Today <a href="http://www.nemein.com/">we've</a> migrated our <a href="http://www.openpsa.org/">OpenPSA</a> installation <a href="http://www.nemein.com/people/rambo/openpsa_1_10_1_released.html">to UTF-8</a>. To stress test the OpenPSA - iCal - K700i synchronization, I created a calendar reservation that mixed Scandinavian, Cyrillic and Georgian characters. Both OpenPSA and iCal showed them correctly, and the phone showed things correctly with the limitation that Ericsson hasn't installed Georgian fonts, so boxes were shown instead of those characters. Quite cool level of internationalization!
+</p>

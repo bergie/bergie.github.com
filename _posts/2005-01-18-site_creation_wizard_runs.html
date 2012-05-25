@@ -1,0 +1,86 @@
+---
+  title: "Site creation wizard runs"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+Yesterday I got the <a href="http://www.midgard-project.org/community/development/mrfc/0007.html">mRFC 0007</a> compliant <a href="http://bergie.iki.fi/blog/midgard_site_creation_wizard.html">Site Creation Wizard</a> for <a href="http://www.midgard-project.org/">Midgard CMS</a> into feature-complete state for phase one.
+This enables Midgard users and developers to test and comment the tool while I refine the user interface and help texts. Here's a screenshot tour of the current wizard
+</p>
+
+<p>
+<strong>1. Organization selection screen</strong>. Here the user can either create a new <a href="http://www.midgard-project.org/documentation/concepts/sitegroups/">sitegroup</a> or work with an existing one. If no sitegroups exist the latter option is hidden.
+The screen also supports defining disk space limits for the new <a href="http://www.midgard-project.org/documentation/concepts/quota/">Quota</a> feature if enabled in Midgard installation.
+</p>
+
+<p style="text-align: center;">
+<img src="http://bergie.iki.fi/midcom-serveattachmentguid-5dac611e9dc59533cc0d772463e5d8a9/select-organization-20050118.png" border="0" height="317" width="430" alt="select-organization-20050118.png" title="Midgard Sitegroup creation" />
+</p>
+
+<p>
+<strong>2. Website creation</strong>. Next the user will be able to enter the hostname of their new <a href="http://www.midgard-project.org/documentation/concepts/host_and_page/">Midgard site</a>. Currently enabled <em>Advanced options</em> are setting a user-defined port and directory prefix. When the host is created the site wizard will also look for an <em>initialization</em> interface in the selected site template and create data structures like a content tree if necessary.
+</p>
+
+<p style="text-align: center;">
+<img src="http://bergie.iki.fi/midcom-serveattachmentguid-36bba5768e07d51a8ad83e1a7c60b6d8/create-host-20050118.png" border="0" height="267" width="430" alt="create-host-20050118.png" title="Midgard host creation" />
+</p>
+
+<p>
+<strong>2.1. Website configuration</strong>. After the website has been created and initialized the wizard checks if there is a <a href="http://www.midgard-project.org/documentation/concepts/midcom/specs/architecture/subsystems.html">Datamanager</a> compatible <em>configuration</em> interface in the site template. If one exist the user will be directed to the website configuration form. The form enables changing different parameters used by the site template.
+</p>
+
+<p style="text-align: center;">
+<img src="http://bergie.iki.fi/midcom-serveattachmentguid-8cd8c4aae2c045e26891ca57603d1380/configure-host-20050118.png" border="0" height="316" width="431" alt="configure-host-20050118.png" title="Midgard host configuration" />
+</p>
+
+<p>
+<strong>3. Style selection</strong>. After a website has been correctly set up the user can select a <a href="http://www.midgard-project.org/documentation/concepts/page_and_style/">style</a> for their website from a set of templates installed on the server. The selected style template will be created as a inherited style owned by the organization, and will be completely editable by the site administrators.
+</p>
+
+<p>
+Plans for the style selection screen include displaying screenshots and licensing details of the templates in the list. The list will also include a <em>Custom style</em> option enabling site builders to start from scratch.
+</p>
+
+<p style="text-align: center;">
+<img src="http://bergie.iki.fi/midcom-serveattachmentguid-92171a5574ecc5ba5c0b7db920e0f5ee/select-style-20050118.png" border="0" height="192" width="430" alt="select-style-20050118.png" title="Midgard style template selection" />
+</p>
+
+<p>
+<strong>3.1. Style configuration</strong>. Just like website templates, the style templates can contain a datamanager compatible <em>configuration</em> interface. Styles can use this configuration interface to enable users to easily change things like colors and images in the layout. If a configuration interface is detected in the style the user will be directed to it after selection.
+</p>
+
+<p style="text-align: center;">
+<img src="http://bergie.iki.fi/midcom-serveattachmentguid-373b5cba1b7c97bb1db2c81ba35452b6/configure-style-20050118.png" border="0" height="162" width="430" alt="configure-style-20050118.png" title="Midgard style configuration" />
+</p>
+
+<p>
+<strong>4. Finish</strong>. After style has been correctly configured the new Midgard site should be running, provided that corresponding <a href="http://www.midgard-project.org/documentation/installation/vhost.html">Apache Virtual Host</a> settings have been made using datagard. In the future this screen should determine the status of the virtual host and give user instructions on what still needs to be done, or simply direct to the newly created website if everything works.
+</p>
+
+<p style="text-align: center;">
+<img src="http://bergie.iki.fi/midcom-serveattachmentguid-1f0c28dba217ab436c0f9439cc5d88d0/finish-20050118.png" border="0" height="153" width="431" alt="finish-20050118.png" align="" />
+</p>
+
+<p>
+At this stage I would really appreciate comments and testing on both the user interface and functionality. I sent <a href="http://article.gmane.org/gmane.comp.web.midgard.devel/5105">quick setup instructions</a> to the <a href="http://www.midgard-project.org/community/support-discussion/">midgard-dev list</a> yesterday.
+</p>
+
+<p>
+The basic principles while creating the wizard have been:
+</p>
+
+<ul>
+  <li>Enable only the UI options the user can actually use at each stage</li>
+  <ul>
+    <li>Both PHP and JavaScript are used for hiding or disabling options as needed</li>
+  </ul>
+  <li>Let the site template handle most of the setup logic</li>
+  <li>Show sensible error messages to the user</li>
+  <li>Roll back and clean up properly in case something fails</li>
+</ul>
+
+<p>
+The Midgard Site Wizard will be the first UI seen by users after Midgard 1.7 installation, and so should be as clear and usable as possible.
+</p>

@@ -1,0 +1,34 @@
+---
+  title: "Midgard site creation wizard"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+After quite some planning, I've today started coding a site creation wizard for <a href="http://www.midgard-project.org/">Midgard CMS</a>. The goal of this wizard is to make the Midgard learning curve less steep for new users and the site creation process more efficient. The specifications for the wizard can be found in <a href="http://www.midgard-project.org/community/development/mrfc/0007.html">mRFC 0007: Midgard Site Creation Wizard</a>.
+</p>
+
+<p>
+The site wizard is being built in MidCOM CVS HEAD, component <a href="http://midcom.tigris.org/source/browse/midcom/fs-midcom/lib/midgard/admin/sitewizard/">midgard.admin.sitewizard</a>. Currently the component loads correctly, and lists all regular (non-admin and non-attachment server) Midgard websites in its <a href="http://bergie.iki.fi/blog/creating_custom_navigation_with_midcom.html">navigation array</a>. The first form in the wizard, "Select organization" has also been implemented but is so far non-functional.
+</p>
+
+<p>
+I expect to get first functional versions of the component done during monday. Before that, this is how it looks like:
+</p>
+
+<p style="text-align: center;">
+<img src="http://bergie.iki.fi/midcom-serveattachmentguid-30a07752dc453b8a11d472a2b275c8f4/select-organization-20050114.jpg" border="0" height="315" width="400" alt="select-organization-20050114.jpg" title="Midgard Site Wizard welcome page" />
+</p>
+
+<p>
+And in Finnish:
+</p>
+
+<p style="text-align: center;">
+<img src="http://bergie.iki.fi/midcom-serveattachmentguid-5fe97147b7ca08572f9e77c051da65df/select-organization-20050114-fi.jpg" border="0" height="315" width="400" alt="select-organization-20050114-fi.jpg" title="Midgard Site Wizard welcome page in Finnish" />
+</p>
+
+<p>
+As the Site Wizard operates as a regular <a href="http://www.midgard-project.org/projects/midcom/">MidCOM</a> component, it enjoys all the regular benefits like configuration, localization and templating. This will enable hosting companies to deploy the site wizard using their own branding and terminology.
+</p>

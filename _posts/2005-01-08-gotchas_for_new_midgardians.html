@@ -1,0 +1,43 @@
+---
+  title: "Gotchas for new Midgardians"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+Based on some chats today and yesterday with <a href="http://www.privaterra.ca/">Privaterra</a> and others, here are couple typical new <a href="http://www.midgard-project.org/">Midgardian</a> gotchas:
+</p><h2><em>Fatal error: Allowed memory size of 8388608 bytes exhausted</em> when trying to create a subtopic</h2><p>Currently MidCOM's component listing used in the "Create subtopic" dialog needs quite a bit of memory. While solution is <a href="http://article.gmane.org/gmane.comp.web.midgard.devel/5067">being planned</a>, the easier way is to edit your <em>php.ini</em> and set <em>memory_limit</em> to something like <em>32M</em></p><h2>MidCOM's content authoring interface doesn't look right</h2><p>
+If your MidCOM <abbr title="Authoring Interface System">AIS</abbr> doesn't look like in the <a href="http://www.midgard-project.org/cms/screenshots/ss-midcom.html">screenshots</a>, the most likely reason is that the AIS CSS or images are not getting loaded. To fix this, ensure that your style includes the <em>&lt;(head-extra)&gt;</em> call somewhere within the HTML <em>&lt;head /&gt;</em> section.
+</p><p>
+In addition, if you're using <a href="http://www.midgard-project.org/projects/midcom/download/2.0.html">MidCOM 2.x</a> you need to ensure that the <em>static</em> directory where MidCOM's CSS and image files are stored is symlinked under your <em>DocumentRoot</em>. To do this, run:
+</p>
+<pre>ln -s /usr/share/pear/midcom/static /var/lib/midgard/vhosts/www.example.net/80/midcom-static
+</pre><h2>The MidCOM site template on my site doesn't update when I update the <em>midcom-template</em> package</h2><p>
+The Midgard <a href="http://www.midgard-project.org/documentation/getting-started/create-website.html">website creation instructions</a> instruct using MidCOM Site Template through <a href="http://www.midgard-project.org/projects/aegir/">Aegir's</a> Template functionality. With this functionality the a <strong>site-specific version</strong> of the <em>midcom-template</em> gets created. And this obviously will not be updated when you upgrade MidCOM.
+</p><p>
+You can easily switch the site to using MidCOM Site template in <strong>shared</strong> mode. To do this log into Aegir as <em>System Administrator</em>, go to <em>Websites</em>, and open your site for editing (you have to click it twice to get the details to the right-hand frame). Then simply change the value of <em>Root page</em> to <em>MidCOM Site Template/template_midcom</em>.
+</p><h2>How do I blog with Midgard CMS?</h2><p>
+Once you have a MidCOM-powered site set up, creating a weblog is very easy. Just Log in to your site, click <em>Create page</em> and then <em>Create subtopic</em>. You will be presented with the MidCOM topic creation form. Fill in the <em>URL name</em> and <em>Title</em>, and select type as <em>News listing (de.linkm.newsticker)</em>.
+</p><p>
+The MidCOM <a href="http://www.midgard-project.org/documentation/reference/components/de.linkm.newsticker.html">newsticker</a> is a powerful news posting system with easily customizable templates, and support for features like RSS and <a href="http://bergie.iki.fi/blog/using_weblog_editors_with_midgard_cms.html">remote weblog editors</a>.
+</p><p>
+If you want to enable user comments, there is a <a href="http://www.midgard-project.org/community/communications/midgard-site/howbuilt/comments.html">short HOWTO</a> available.
+</p><p>
+And finally, if you're blogging about Midgard, please let me know. We'll be more than happy to add you to <a href="http://www.midgard-project.org/planet/">Planet Midgard</a>. Making a <a href="http://www.midgard-project.org/planet/heads/">hackergotchi</a> of yourself would be a nice bonus :-)
+</p>
+<h2>Browser says my site is latin-1. I thought Midgard used UTF-8 as default?</h2>
+<p>
+Midgard 1.6+ uses UTF-8 character encoding by default to support <a href="http://www.midgard-project.org/documentation/concepts/i18n/">better internationalization</a>. However, Apache uses latin-1 encoding by default, and so unless your layout specifies otherwise by having a line like this in the &lt;HEAD /&gt; section:
+</p>
+<pre>&#60;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&#62;</pre>
+<p>
+The other, and more reliable option is to edit your <em>httpd.conf</em> file and add the line:
+</p>
+<pre>AddDefaultCharset utf-8</pre>
+<p>
+This will cause Apache to serve all documents as UTF-8 encoded.
+</p>
+<p>
+<strong>Note:</strong> It can be dangerous to have the site (as recognized by browser) and Midgard use different character encodings. As the content is also edited through the browser this can cause broken characters to get in. Switch to serving your site using correct encoding as soon as you can!
+</p>

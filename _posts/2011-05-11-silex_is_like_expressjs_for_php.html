@@ -1,0 +1,25 @@
+---
+  title: "Silex is like ExpressJS for PHP"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>We had the <a href="http://wiki.iks-project.eu/index.php/IKSContentRepositoryWorkshopSwitzerland">PHP Content Repository workshop</a> at <a href="http://www.liip.ch/">Liip</a> in Zurich earlier this week. During the time we also discussed some other code reuse, like utilizing parts of the <a href="http://symfony.com/">Symfony2</a> framework in Midgard. The Liip guys mentioned <a href="http://silex-project.org/">Silex</a>, a cool micro-framework written on top of Symfony2. It greatly resembles the <a href="http://expressjs.com/">ExpressJS framework</a> that we already use in some of our <a href="http://wiki.iks-project.eu/index.php/VIE/Palsu">Node.js projects</a>.</p>
+<p>Here is a simple example of registering a route and displaying something when it is called:</p>
+<pre>&lt;?php
+$app-&gt;get('/hello/{name}', function($name) { 
+    return "Hello $name"; 
+});</pre>
+<p>Compare this to same in Express:</p>
+<pre>app.get('/hello/:name', function(req, res){
+    res.send('Hello ' + req.params.name);
+});</pre>
+<p>As we prefer to run Midgard on top of <a href="https://github.com/indeyets/appserver-in-php">AppServer-in-PHP</a> instead of regular mod_php, a good first step with Symfony was to figure out how it would integrate with persistent PHP processes.</p>
+<p>It seems this is indeed easy. In couple of hours, without prior Symfony2 experience, I wrote a <a href="https://github.com/bergie/Silex/blob/master/src/Silex/Extension/AiPExtension.php">simple Silex extension</a> that handles the communications between Silex/Symfony and AiP. An <a href="https://github.com/bergie/Silex/tree/master/example/AiP">example for using it</a> can be found from my GitHub fork.</p>
+<p>Running it under siege shows one of the benefits of AiP. While the first request is a bit slower, the later ones are really fast as the application server will load the Symfony classes only once:</p>
+<pre>HTTP/1.0 200   0.03 secs:      11 bytes ==&gt; /hello/World
+HTTP/1.0 200   0.00 secs:      11 bytes ==&gt; /hello/World
+HTTP/1.0 200   0.01 secs:      11 bytes ==&gt; /hello/World
+HTTP/1.0 200   0.00 secs:      11 bytes ==&gt; /hello/World</pre>
+<p>AppServer integration to Symfony needs to be cleaned up before it is ready for general consumption. But this example already shows that there is quite a bit of potential in the combination. If you're interested in helping, please contribute to <a href="https://github.com/bergie/Silex">the codebase</a>.</p>

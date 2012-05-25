@@ -1,0 +1,95 @@
+---
+  title: "Enabling PermaLink autodetection"
+  categories: 
+    - "midgard"
+    - "oscom"
+  layout: "post"
+
+---
+<p>
+    Lots of Content Management Systems strive to <a href=
+    "http://www.adaptivepath.com/publications/essays/archives/000058.php">
+    provide meaningful URLs</a>. With CMSs meaningful URLs usually
+    mean mapping the internal content structure of the system to a
+    filesystem-like tree hierarchy, which has the downside tying
+    the URLs into the site structure.
+</p>
+<p>
+    When the site structure is reordered the links can easily
+    <a href="http://www.useit.com/alertbox/980614.html">be
+    broken</a>. While sensible CMS deployments set up redirectors
+    for most popular URLs, and a user-friendly <a href=
+    "http://www.plinko.net/404/custom.asp">404 not found page</a>,
+    it is still an annoyance to people linking to the pages. As
+    <a href="http://www.w3.org/Provider/Style/URI">cool URIs don't
+    change</a>, these solutions are not enough.
+</p>
+<p>
+    Here the blog world comes to help by <a href=
+    "http://www.plasticbag.org/archives/2003/06/on_permalinks_and_paradigms.shtml">
+    having introduced</a> the <a href=
+    "http://en.wikipedia.org/wiki/Permalink">PermaLink concept</a>.
+    PermaLink is short for Permanent Link, a link that the CMS or
+    blog system being used ensures will remain current. In blog
+    systems these PermaLinks are often displayed as a link on the
+    page, or identified with the pound (#) sign. PermaLinks are
+    also utilized in syndication specifications like <a href=
+    "http://blogs.law.harvard.edu/tech/rss#ltguidgtSubelementOfLtitemgt">
+    RSS 2.0 element</a>.
+</p>
+<p>
+    While this helps with aggregation and blog linking, it doesn't
+    make linking permanently to CMS-powered sites any easier. On
+    most real sites powered by a CMS it is not desirable to display
+    words like "PermaLink" in the page templates. So what is needed
+    instead is a more invicible, and machine-readable solution.
+</p>
+<p>
+    Again, the blog world has already come up with a solution for
+    this. Several blog systems utilize <a href=
+    "http://www.w3.org/TR/REC-html40/struct/links.html#h-12.1.2">tags</a>
+    for <a href=
+    "http://usefulinc.com/edd/blog/contents/2003/07/22-rssautodetect/read">
+    RSS autodetection</a>. For example, the Firefox browser looks
+    for this tag and <a href=
+    "http://blog.codefront.net/archives/2004/07/13/rss-feed-integration-in-firefox">
+    enables feed subscription</a> if it has been detected.
+</p>
+<p>
+    In similar vein, I would like to propose usage of tags for
+    making PermaLinks machine-readable. Here's what I added to
+    <a href="http://www.midgard-project.org/">Midgard CMS</a>
+    today:
+</p>
+<pre>
+&lt;link rel="bookmark" href="&lt;PermaLink URL&gt;" /&gt;
+</pre>
+<p>
+    When embedded into the HTML block this way, it is already
+    recognized by Mozilla and displayed in the "Page Info" window:
+</p>
+<p style="text-align: center;">
+    <img width="450" height="151" border="0" title=
+    "PermaLink address shown in Mozilla Firefox" alt=
+    "mozilla-autodetect.jpg" src=
+    "http://bergie.iki.fi/midcom-serveattachmentguid-b062bc1e44487af697679df27c147c9c/mozilla-autodetect.jpg" />
+</p>
+<p>
+    Preferably different authoring and content management tools
+    would become aware of this tag and start looking for it. When
+    the user would insert a link to a document, the authoring tool
+    could make a HTTP GET request to the URL, and if the PermaLink
+    could be found from there link to it instead. That way
+    permanent linking would be completely transparent to website
+    authors.
+    <br />
+</p>
+<p>
+    <span style="font-weight: bold;">Updated 2005-10-06:</span>
+    Switched from <span style=
+    "font-style: italic;">rel="PermaLink"</span> to <span style=
+    "font-style: italic;">rel="bookmark"</span>, as suggested by
+    the <a href="http://www.microformats.org/">Microformats</a>
+    folks.
+    <br />
+</p>

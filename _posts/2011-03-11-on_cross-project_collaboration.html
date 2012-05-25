@@ -1,0 +1,30 @@
+---
+  title: "On cross-project collaboration"
+  categories: 
+    - "desktop"
+    - "kde"
+    - "meego"
+    - "midgard"
+    - "mobility"
+  layout: "post"
+
+---
+<p>There is currently quite stern discussion going on between <a href="http://blogs.gnome.org/bolsh/2011/03/07/has-gnome-rejected-canonical-help/">GNOME</a>, <a href="http://www.markshuttleworth.com/archives/654">Canonical</a> and <a href="http://aseigo.blogspot.com/2011/03/collaborations-demise.html">KDE</a> about collaboration on the free desktop. Angry words have been written, and I believe much of the tension arises from the situation with MeeGo. Suddenly many developers and projects feel much more marginalized than what the future looked like, <a href="http://bethesignal.org/blog/2011/02/11/elopocalypse-nokia-chooses-microsoft/">pre-112</a>. Hopefully cooler heads will prevail before the <a href="https://www.desktopsummit.org/">Desktop Summit</a>, and we can again have beers and discuss things together.</p>
+<p>Cross-project collaboration is hard. I know. For many years I've been pushing for <a href="http://bergie.iki.fi/blog/geoclue_0-12_is_out-location_awareness_over_d-bus/">location-awareness</a> across desktops, for <a href="http://bergie.iki.fi/blog/why_you_should_use_a_content_repository_for_your_application/">using shared content repositories</a> instead of application-specific file formats or databases, and most recently for having a common client-side <a href="http://bergie.iki.fi/blog/decoupling_content_management/">data representation and manipulation layer</a> on content management systems. Some of these ideas have moved forward. Some others, less so.</p>
+<p>What is important to remember is that each project has their own use cases, user experience goals and set of selected technologies to build on. If a collaborative approach you propose doesn't fit those, it is highly unlikely that the project will adopt it. And there is nothing wrong with that.</p>
+<p>Instead of looking at the failures, we should think of the ways cross-desktop collaboration has moved forward. Here are some examples:</p>
+<ul><li><a href="http://www.freedesktop.org/wiki/Software/dbus">D-Bus</a> is pretty much everywhere now. A common way to handle signalling and API calls between processes is a big step</li>
+<li><a href="http://telepathy.freedesktop.org/wiki/">Telepathy</a> provides a great real-time communications system on all desktops</li>
+<li>All projects seem a lot more UX-focused nowadays. Great examples are <a href="http://afaikblog.wordpress.com/2011/03/01/where-did-the-buttons-go/">window management</a> in GNOME Shell, <a href="http://techbase.kde.org/Projects/Silk">web integration</a> in KDE, and better handling of <a href="http://design.canonical.com/2011/03/quit/">quitting applications</a> and <a href="http://design.canonical.com/2011/03/introducing-overlay-scrollbars-in-unity/">scrolling in them</a> in Unity. These ideas are easy to transfer between projects</li>
+<li>There is work ongoing on <a href="http://blogs.gnome.org/hughsie/2011/01/24/application-installer-miniconf-trip-report/">unifying application installers</a> between distributions. <a href="http://www.freedesktop.org/wiki/Specifications/open-collaboration-services">Open Collaboration Services</a> is also useful here</li>
+<li><a href="http://wayland.freedesktop.org/">Wayland</a> shows great promise for simplifying the graphics layer on Linux desktops</li>
+</ul><p>So, if you want to get a specification accepted between projects, how to go about it?</p>
+<p>First of all, you should communicate early and clearly the use cases your specification aims for. And then there should be a reference implementation available, not only as a library, but also as something already integrated in your UX.</p>
+<p>If you want projects to actually use your reference implementation instead of building their own, then it is important to remove as many obstacles from adopting it as possible:</p>
+<ul><li>Use permissive licensing and try to avoid copyright assignments or other requirements potential users would find onerous</li>
+<li>Host the project <a href="http://bergie.iki.fi/blog/why_make_your_projects_properly_open-sustainability/">on neutral ground</a>. For web projects, Apache is quite a good home. For desktop projects, Freedesktop is probably the best option</li>
+<li>Use technologies that don't impose too many constraints. Libraries should be quite low-level, or provide D-Bus APIs that can be used with any system</li>
+<li>Avoid technology-specific dependencies. For example, KDE has found <a href="http://freedesktop.org/wiki/Software/GeoClue">GeoClue</a> hard to adopt because it uses GNOME-specific settings interfaces</li>
+<li>Talk with the other guys. If you're from the GNOME project, go to aKademy and give a talk, and if you're a KDE developer, go and talk in GUADEC. IRC isn't bad here either</li>
+<li>Finally, accept that not everybody will use your implementation. But if they at least implement the same ideas, then collaboration is still possible.</li>
+</ul><p>And even if your ideas haven't been adopted by other projects, as long as your implementation solves the use case for you it hasn't been in vain. After all, delivering software, and delivering great user experience is what counts.</p>

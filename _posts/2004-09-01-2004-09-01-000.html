@@ -1,0 +1,25 @@
+---
+  title: "Hunting a PHP segfault"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+
+<p>
+The segfault seems to be triggered on pages that have multiple <a href="http://www.midgard-project.org/documentation/reference/other/mgd_auth_midgard" title="mgd_auth_midgard(), Midgard's authentication call">mgd_auth_midgard()</a> or <a href="http://www.midgard-project.org/documentation/reference/other/mgd_unsetuid.html" title="mgd_unsetuid(), exit from Midgard authentication">mgd_unsetuid()</a> calls. In most cases the crash happens only after Midgard request has completed, but before output has been sent to the browser, <a href="http://marc.theaimsgroup.com/?l=midgard-dev&m=109402599212559&w=2" title="Torben's crash report to midgard-dev">as reported</a> by Torben.<br /><br />In OpenPSA Personnel this happens when administrator modifies a user record. There we have worked around this by simply exiting the output with a <a href="http://fi.php.net/flush" title="flush(), flush the PHP output buffer">flush()</a> call. In the net.nemein.registrations component a workaround is still pending.<br /><br /><a href="http://www.midgard-project.org/community/whoswho/pp.html" title="Piotr Pokora, Midgard's release manager">Piotras</a> is looking at the issue, and has decided to delay the <a href="http://www.midgard-project.org/download/1.6.0.html" title="Midgard 1.6.0 beta download page">Midgard 1.6.0</a> release until a solution has been found.</p>
+<p>
+He <a href="http://marc.theaimsgroup.com/?l=midgard-dev&m=109399158731435&w=2">writes</a> on the Midgard developer list:
+</p>
+
+<blockquote>
+The source of last reported segfaults (and more not reported yet)
+is zend_register_list_destructors_ex called in PHP_MINIT_FUNCTION.<br />
+<pre>static void _midgard_list_fetch_dtor(zend_rsrc_list_entry * rsrc)<br />{<br />   midgard_res * res = (midgard_res*)rsrc-&gt;ptr;<br />   // here we get random garbage from Zend  (perk...e!)<br />   if (res != NULL) mgd_release(res);<br />}<br /></pre>
+Looks like rscr struct passess some garbage which is not NULL so there
+is no easy way to check it in mgd_release or even earlier.
+</blockquote>
+
+<p>According to some <a href="http://aspn.activestate.com/ASPN/Mail/Message/php-Dev/2027706" title="Some PHP4 and PHP5 crash reports">Google findings</a>, the same segfault is in both PHP4 and PHP5. <a href="/attachment/1c9911cd91578c9791796c44fea32890/be63ca03ef463d070f61cbad9db67eeb/2004-09-01-midcom-crash.txt">Chat log</a> about the issue from #midgard is also available.<br /></p>
+<p><span style="font-weight: bold;">Updated 2004-09-17:</span> Piotras found a solution to the problem and <a href="http://midgard.tigris.org/source/browse/midgard/src/apis/php4/oop.c?r1=1.25&r2=1.26">committed the fix</a> to Midgard CVS on September 6th.<br />
+</p>

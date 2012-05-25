@@ -1,0 +1,22 @@
+---
+  title: "Talking points for the Midgard Gathering"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+On thursday afternoon the <a href="http://www.nemein.com/">Nemein</a> team together with Edi from <a href="http://www.dialogi.fi/">Dialogi</a> will pack into <a href="http://www.nemein.com/people/rambo/">Rambo's</a> Land Rover and take the <a href="http://www.silja.fi/">Midgard-powered ferry</a> to the <a href="http://www.midgard-project.org/updates/events/2004-11-14-000.html">Midgard Gathering</a> in <a href="http://en.wikipedia.org/wiki/Link%F6ping">Linköping</a>, Sweden.
+</p><p>
+The <a href="http://www.anykey.se/int/news/updates_on_the_midgard_gathering.html">meeting agenda</a> has been available for a while now. To complement it, here is my list of talking points:
+</p><p><strong>MgdSchema</strong> is the new object abstraction back-end for Midgard proposed by <a href="http://www.midgard-project.org/community/whoswho/ab.html">Alexander</a> and being developed by <a href="http://www.midgard-project.org/community/whoswho/pp.html">Piotras</a>. With MgdSchema the Midgard content types would be defined using XML schemas instead of hardcoded into the Midgard libraries. While <a href="http://www.midgard-project.org/projects/midcom/">MidCOM</a> datamanager already allows site developers to freely define their own content types, their storage using Midgard's <a href="http://www.midgard-project.org/documentation/reference/parameter/">parameters</a> API causes performance issues.
+</p><p>
+The new model would solve the performance problem by translating schemas into database tables when Midgard is loaded. It would also make Midgard object types accessible from other programming languages by using the libdba and GObject technologies from the <a href="http://www.gnome.org/">GNOME</a> project. Alexander was able to create <a href="http://www.python.org/">Python</a>, <a href="http://www.ruby-lang.org/en/">Ruby</a> and <a href="http://www.mono-project.com/">.Net/Mono</a> bindings to his proof of concept during the Poznan meeting.
+</p><p><strong>mRFC 0008</strong> was <a href="http://www.midgard-project.org/community/development/mrfc/0008.html">passed</a> this week, we also have to talk about implementing the new Midgard release process. I want to have a list of TODO items assigned to people by the time we leave Linköping. So far I see the following items:
+</p><ul><li>Set up the Midgard release calendar to midgard-project.org</li><li>Create a translators' area on the site</li><ul><li>Consolidate and update translation instructions for Aegir, MidCOM and Spider</li><li>Start gathering a list of translators with their assigned languages</li><li>Create a report showing completion percentages for the different translations</li></ul><li>Schedule a "translation test drive" to try to get a number of languages to an acceptable 60-70% level</li><li>Work out how to migrate 1.6 installations for the new filesystem-based MidCOM in 1.7</li></ul><p>
+Since Piotras is attending, we will also take a look at solving the Midgard Core bug affecting the <strong>net.nemein.registrations</strong> <a href="http://www.midgard-project.org/documentation/reference/components/net.nemein.registrations.html">component</a>. The new <a href="http://www.midgard-project.org/documentation/reference/other/mgd_debug_start">mgd_debug_*</a> functions in Midgard <a href="http://www.midgard-project.org/updates/midgard_1_6_0__swedengard__released.html">1.6</a> should make that easier.
+</p>
+
+<p>
+<strong>Updated 2004-11-12 from Linköping:</strong> Due to AnyKey's designer <a href="http://robert.techcommons.info/">Robert Renling</a> being linked with the <a href="http://gnomejournal.org//">GNOME Journal</a> community, another important focus point for the gathering will be discussion on <a href="http://www.gnome.org/">GNOME</a> integration. As MgdSchema will essentially bring GNOME technologies to the server it would make sense to get the two communities communicate. The Open Source desktop severely needs server and groupware integration, and Midgard can help there.
+</p>

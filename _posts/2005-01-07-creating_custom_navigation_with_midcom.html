@@ -1,0 +1,82 @@
+---
+  title: "Creating custom navigation with MidCOM"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+One frequent question I see on <a href="http://www.midgard-project.org/community/support-discussion/">#midgard</a> is how to customize the default navigation options shipping with the <a href="http://www.midgard-project.org/projects/midcom/">MidCOM</a> template site. In my opinion, there are two options: Either stick with the existing navigation styles and customize via CSS, or roll your own in PHP.
+</p>
+
+<p>
+MidCOM provides a wonderful tool called <a href="http://www.midgard-project.org/documentation/concepts/midcom/specs/subsystems/nap.html">Navigation Access Point</a> (NAP) for site designers want to create their own custom navigation systems. It provides a PHP programming interface for listing the site structure. First, a bit of NAP terminology:
+</p>
+
+<dl>
+  <dt>Node</dt>
+    <dd>Directory, or subtopic in the MidCOM site structure</dd>
+  <dt>Leaf</dt>
+    <dd>Page, or article under a node</dd>
+  <dt>Children</dt>
+    <dd>Both nodes and leaves under a given node</dd>
+  <dt>Root node</dt>
+    <dd>The first level node, or front page of MidCOM site</dd>
+</dl>
+
+<p>
+Constructing the navigation happens in two steps:
+</p>
+
+<ol>
+  <li>Figure out where you are:
+    <pre>$current_node = $GLOBALS["midcom_site"]['nap']-&gt;get_current_node();</pre></li>
+  <li>List the children of the node:
+    <pre>$children = $GLOBALS["midcom_site"]['nap']-&gt;list_child_elements($current_node);</pre></li>
+</ol>
+
+<p>
+The <em>$children</em> array contains both nodes and leaves under the <em>$current_node</em> in NAP array format which you can then traverse:
+</p>
+
+<pre>
+foreach ($children as $child) {
+</pre>
+
+<p>
+As we're listing all child elements from the node instead of only nodes with <em>list_nodes()</em> or leaves with <em>list_leaves()</em> we next need to instantiate correct child type for display:
+</p>
+
+<pre>
+if ($child[MIDCOM_NAV_TYPE] == "node") {
+    // This is a subtopic, instantiate it as node
+    $node = $GLOBALS["midcom_site"]['nap']-&gt;get_node($child[MIDCOM_NAV_ID]);
+
+    // Display the link in whatever way you want
+    echo "&lt;div&gt;&lt;a href=\"".$node[MIDCOM_NAV_URL]."\"&gt;".$node[MIDCOM_NAV_NAME]);&lt;/a&gt;&lt;/div&gt;\n";
+   // This is where you would place a call for listing children of the node
+
+} elseif ($child[MIDCOM_NAV_TYPE] == "leaf") {
+    // This is an article (or event or some other document type)
+    $leaf = $GLOBALS["midcom_site"]['nap']-&gt;get_leaf($child[MIDCOM_NAV_ID]);
+
+    // Display the link
+    echo "&lt;div&gt;&lt;a href=\"".$leaf[MIDCOM_NAV_URL]."\"&gt;".$leaf[MIDCOM_NAV_NAME]);&lt;/a&gt;&lt;/div&gt;\n";
+}
+</pre>
+
+<p>
+And there you have a very simple navigation listing of children under your current directory. You can easily modify this to list children of your root node by switching from <em>get_current_node()</em> method to <em>get_root_node()</em> method.
+</p>
+
+<p>
+This example also doesn't check for possible content visibility settings. You can check for these using the <em>MIDCOM_NAV_VISIBLE</em> boolean in the node and leaf arrays.
+</p>
+
+<p>
+<strong>In the other news</strong>, if you get error "<em>Apache2(98)Address already in use: make_sock: could not bind to address 0.0.0.0:80</em>" when restarting Apache after addition of a new <a href="http://www.midgard-project.org/documentation/installation/vhost.html">VirtualHost</a> with datagard, the problem is that you have multiple "<em>Listen 80</em>" directives in your Apache configuration. Comment out the one in <em>/etc/midgard/apache/httpd.conf</em>.
+</p>
+
+<p>
+Figured this one when troubleshooting with <a href="http://blog.neoteny.com/rguerra/archives/006119.html">Robert Guerra</a> from Canada.
+</p>

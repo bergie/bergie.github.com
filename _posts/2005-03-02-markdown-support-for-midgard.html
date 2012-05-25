@@ -1,0 +1,31 @@
+---
+  title: "Markdown support for Midgard"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+<a href="http://www.midgard-project.org/">Midgard CMS</a> has now support for the <a href="http://daringfireball.net/projects/markdown/">Markdown</a> text-to-HTML conversion tool. Markdown is an useful tool for writers that allows creation of web content with a <a href="http://daringfireball.net/projects/markdown/basics">simple text syntax</a>.
+</p>
+
+<p>
+Markdown is available in <a href="http://midcom.tigris.org/source/browse/midcom/">MidCOM's CVS repository</a> as <em>datatype_markdown</em>. The tool utilizes Michel Fortin's <a href="http://www.michelf.com/projects/php-markdown/">PHP Markdown</a> parser.
+</p>
+
+<p>
+To use Markdown for a content field in your MidCOM site, edit the <a href="http://www.midgard-project.org/documentation/howto/midcom/schemas.html">datamanager schema</a> and set the field to use the <em>markdown</em> datatype. For example:
+</p>
+
+<pre>&quot;content&quot; =&gt; array (<br />	&quot;description&quot; =&gt; &quot;Content&quot;,<br />	&quot;datatype&quot;    =&gt; &quot;markdown&quot;,<br />	&quot;location&quot;    =&gt; &quot;content&quot;,<br />),<br /></pre>
+
+<p>
+My blog is still powered by <a href="http://www.htmlarea.com/">htmlArea</a>, but I'm planning to start migrating new entries to Markdown as soon as I upgrade the blog's version of <a href="http://www.midgard-project.org/projects/midcom/">MidCOM</a>. I'll blog about that later.<br /></p>
+<p><span style="font-weight: bold;">Updated 2005-03-03:</span> The blog is now using Markdown as the default editing system for new blogs. As I didn't want to modify existing blog posts, I made two copies of the schema, and named them &quot;default&quot; and &quot;html&quot;. Then I ran the following query through my blog entries:</p>
+
+<pre>$blog_topic = mgd_get_topic_by_name($GLOBALS[&quot;midcom_site&quot;][&quot;root_topic&quot;]-&gt;id,&quot;blog&quot;);<br />$blogs = mgd_list_topic_articles($blog_topic-&gt;id);<br />if ($blogs) {<br />  while ($blogs-&gt;fetch()) {<br />    $blogs-&gt;parameter(&quot;midcom.helper.datamanager&quot;,&quot;layout&quot;,&quot;html&quot;);<br />  }<br />}</pre>
+
+<p>This ensured that the old posts will be using the &quot;html&quot; schema, freeing the &quot;default&quot; schema to be used with Markdown. Now when I post through Metaweblog API (using <a href="http://ranchero.com/marsedit/" title="MarsEdit, Weblog editor for Mac OS X">Marsedit</a>), the post formatting will be Markdown, and when I create posts through the web I can choose between Markdown and HTML:<br /></p>
+<p style="text-align: center;"><img src="/attachment/1c9911cd91578c9791796c44fea32890/7450198c749eba9d4fd5250d8f910c64/create-markdown-html-blog.jpg" /><br /></p>
+<div style="text-align: left;">Sweet! <a href="http://www.kaukolaweb.com/" title="Henri Kaukola">Kaukola</a> also posted some notes on Markdown usage to <a href="http://www.nemein.com/en/company/it.html" title="Nemein's IT Policy">Nemein's IT policy</a>.<br /></div>
+<p style="text-align: center;"><br /></p>

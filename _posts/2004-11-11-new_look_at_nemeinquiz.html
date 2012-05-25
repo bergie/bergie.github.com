@@ -1,0 +1,49 @@
+---
+  title: "New look at NemeinQuiz"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+NemeinQuiz is an online exam tool originally developed for <a href="http://www.nemein.com/en/news/press/pharmaceutical-info-elearning.html">Pharmaceutical Information Centre</a> for their pharmaceutical sales <a href="http://www.laaketietokeskus.fi/showPage.php?page_id=62">courses</a>.
+<a href="http://www.nemein.com/">We</a> published the <a title="click to download NemeinQuiz" href="http://devel.nemein.net/nightly/quiz.xml.gz">package</a> as Open Source with some quick <a href="http://marc.theaimsgroup.com/?l=midgard-user&m=106801122401047&w=2">setup instructions</a>.
+</p><p>
+While setting up a <a href="http://www.midgard-project.org/cms/">Midgard</a>-powered site for the <a href="http://www.kyweb.fi/">Student Union of Helsinki School of Economics</a> (KY), I decided to take another look at NemeinQuiz to see how well it would integrate into the MidCOM template site as the online questionnaire.
+</p><p>
+Some quick screenshots how it looks like (in Finnish, sorry):
+</p><p align="center"><img width="400" height="202" border="0" title="Filling the questionnaire" alt="ky-quiz-fill.jpg" src="http://bergie.iki.fi/midcom-serveattachmentguid-24e47c05769cf0248c80e4c17510663e/ky-quiz-fill.jpg" /></p><p align="center"><img width="400" height="130" border="0" title="Questionnaire statistics" alt="ky-quiz-stats.jpg" src="http://bergie.iki.fi/midcom-serveattachmentguid-44a3d73be06ef7c5823e80d6cd7deded/ky-quiz-stats.jpg" /></p><p>
+The <a href="http://marc.theaimsgroup.com/?l=midgard-user&m=106801122401047&w=2">old instructions</a> were mostly valid for usage with MidCOM as well. Here is what I did:
+</p><ul><li>Created a new prefixed host <em>/quiz</em> under the site, using same style as the main host</li><li>Set the root page of the prefixed host to be <a href="http://www.midgard-project.org/documentation/concepts/host_and_page/">active</a></li><li>Created root-level topic named <em>__NemeinQuiz</em> and managed by a "Quiz users" group</li><li>Put the following code to the page's <em>&lt;(code-init)&gt;</em> element:<br /><pre>&lt;?php
+// Midcom-template compatibility
+$GLOBALS["midcom_site"]["uri"] = "/";
+
+// Which language to use, currently localized to finnish and english
+$nemein_net['language']="fi";
+
+// Try to instance the root topic
+$GLOBALS["midcom_site"]['root_topic'] = mgd_get_object_by_guid("e03d770ca230df1f11137badfd6ae1a4");
+
+// Single sign-on with the live site
+if (!$midgard-&gt;user) {<br /><br />  // Allow single sing-on with the main site<br />  $auth_conf['host_override'] = '';<br />  $auth_conf['path_override'] = '/';<br /><br />  // Include the NemeinAuthentication library<br />  mgd_include_snippet("/Nemein_Authentication/Init");  <br /><br />  // Refresh existing session from user's cookies<br />  $login_error = auth_by_cookies();<br />}<br /><br />// Support for anonymous submission, add correct<br />// account information<br />if (!$midgard-&gt;user && $argv[0] != "edit") {<br />  mgd_auth_midgard("quizuser","password",0);<br />  $midgard = mgd_get_midgard();<br />}<br /><br />// Don't log missing localization strings<br />$localize_save_nonexistent=0;<br /><br />// Which group owns the __NemeinQuiz topic?<br />$nngroup = mgd_get_object_by_guid("d70f026e977819dda67851dc377e73ea");<br /><br />// Start the Quiz application<br />mgd_include_snippet("/NemeinQuiz/UI/URL-Parser");<br />?&gt;<br /></pre></li><li>Put the following code to the page's content:<br /><pre>
+&lt;?php
+mgd_include_snippet($nemeinquiz['header_snippet']);
+mgd_include_snippet($nemeinquiz['content_snippet']);
+?&gt;
+</pre></li><li>In addition, created an <em>&lt;(edit-this-page)&gt;</em> element to provide better UI-level compatibility with MidCOM:<br /><pre>&lt;div class="edit-this-page"&gt;
+&lt;?php
+if (!$GLOBALS["midgard"]-&gt;user) {
+  echo "&lt;a href=\"/midcom-admin/?midcom_site[redirect]=".$GLOBALS["midgard"]-&gt;uri."\"&gt;Login&lt;/a&gt;\n";
+} else {
+  if ($argc &gt; 0 && $argv[0] == "view") {
+    echo "&lt;a href=\"".$GLOBALS["midgard"]-&gt;self."edit/both/".$argv[1].".html\"&gt;Muokkaa sivua&lt;/a&gt; | ";
+  }
+  echo "&lt;a href=\"".$GLOBALS["midgard"]-&gt;self."edit/\"&gt;Luo sivu&lt;/a&gt;\n";
+}
+?&gt;
+&lt;/div&gt;
+</pre></li></ul><p>
+In addition to NemeinQuiz, KY is also using the new <a href="http://www.midgard-project.org/documentation/reference/components/net.nemein.quickpoll.html">net.nemein.quickpoll</a> component for running simple, "Slashdot-like" selection quizzes on the front page.
+</p><p>
+NemeinQuiz is also available as questionnaire tool bundled in the <a href="http://www.midgard-project.org/projects/townportal/">TownPortal</a> package.
+</p>

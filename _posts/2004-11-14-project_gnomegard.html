@@ -1,0 +1,26 @@
+---
+  title: "Project GNOMEgard"
+  categories: 
+    - "desktop"
+    - "midgard"
+  layout: "post"
+
+---
+<img src="http://www.midgard-project.org/midcom-serveattachmentguid-8352dfc0da2a298bec70d6df8394d4e7/gnomegard.png" border="0" height="121" width="121" alt="gnomegard.png" align="right" title="Project GNOMEgard" /><p>
+Session notes from Link&ouml;ping <a href="http://www.midgard-project.org/updates/events/2004-11-14-000.html">Midgard Gathering</a> by <a href="http://www.kaukolaweb.com/">Henri Kaukola</a>.</p><p>
+The problem of the Open Source desktop systems is that they are designed only for one user per time. There's very little information sharing.
+Integration between server software and desktop world is the key to Open Source world domination.
+</p><ul><li>Document management system must support <a href="http://www.webdav.org/">WebDAV</a></li><li>News pages must provide <a href="http://blogs.law.harvard.edu/tech/rss">RSS</a> syndication and some remote editing API</li></ul><p>
+The current Midgard/MidCOM applications are doing pretty nicely in the integration sense.
+</p><p>
+We should be able to connect <a href="http://www.midgard-project.org/">Midgard</a> to <a href="http://www.gnome.org/">Gnome</a> with <a href="http://bergie.iki.fi/blog/some_mgdschema_notes.html">MgdSchema</a>. The current data storage in Gnome is the <a href="http://cvs.gnome.org/viewcvs/evolution-data-server/">Evolution data server</a>. One way to move towards Gnome integration would be to hack the Midgard library to provide API towards Gnome. The first thing would be ensure that <a href="http://www.gnome.org/projects/nautilus/">Nautilus</a> and <a href="http://www.gnome.org/~seth/gnome-blog/">Gnome Blog</a> would be able to connect with Midgard. We should also investigate how to get Tomboy working with Midgard. Apparently there is some work on implementing a Wiki remote posting API for it.
+</p><p>
+Action items:
+</p><ul><li>Blogs for Robert, Edi and Piotras and get the blogs planetized (<a href="http://www.midgard-project.org/planet/">Planet Midgard</a> and with Robert, <a href="http://planet.gnome.org/">Planet GNOME</a>)</li><li>Branding of Midgard into Gnomish-style, start from the Web site and applications</li><li>Edi could use Dialogi's image bank to get some Finnish landscape images, delivery to Robert</li><li>Set up Gnome on Bergie's laptop and debug why Gnome Blog and Nautilus have issues with Midgard APIs</li><li>Keep <a href="http://www.linuxgreenhouse.org/blog/tim/">Tim Ney</a> informed and ask <a href="http://tigert.gimp.org/log/">TigerT</a> for a beer :)</li></ul><p>
+Milestones:
+</p><ul><li>Branding, easy to start by making Midgard look like Gnome. The branding should be done to all Midgard applications (<a href="http://www.midgard-project.org/projects/midcom/">MidCOM</a>, <a href="http://www.openpsa.org/">OpenPSA</a>, etc.)</li><li>We should follow the <a href="http://developer.gnome.org/projects/gup/hig/">Gnome Human Interface guidelines</a> where applicable</li><li>Communicate with the Gnome community -&gt; we need a double-agent who'd have good presence in both Midgard and Gnome communities. Post more screenshots, the Gnome community is very visual. Also, we should post stuff about the possibilities of the Gnome-Midgard co-operation.</li><li>We should adapt <a href="http://www.gnome.org/projects/evolution/">Evolution</a> style for the OpenPSA Web site</li><li>Try to get gnome.org or some Gnome sites run on Midgard. <a href="http://gnomejournal.org/">Gnome Journal</a> could be a start as Robert is involved with that</li><li>Integrate parts of the Gnome desktop apps to Midgard (Nautilus, Gnome Blog, <a href="http://www.beatniksoftware.com/tomboy/">Tomboy</a>)</li><li>Make cool examples of Midgard integration, make the Gnome community aware</li><li>We want Gnome developers to use Midgard tools</li><li>The focus should be on the fact that one is rarely sitting next to Gnome desktop, with Midgard one could have Gnome desktop available over Internet. Midgard should be marketed as the platform for Gnome Web Services</li><li>We need a new way to replicate information also outside Midgard (<a href="http://www.midgard-project.org/documentation/concepts/repligard/">Repligard</a> is only usable between Midgard installations). One should be able to keep her files/information in sync between computers (client/server ideology i.e. in stationary computer and laptop sense). This could be done with <a href="http://nicolas.bougues.net/syncml/">SyncML</a> (the last save will apply, thinking of incremental replication)</li></ul><p>
+We should also think beyond the Gnome. It should run on any platform and sync with any desktop. The re-write of the Core could make it more Windows-friendly.
+</p><p>
+Midgard should be made look more Gnome-like (icons, colors, terminology, fonts, etc.). Easy to start from the button/icons.
+</p><p><a href="http://www.gnome.org/projects/beagle/">Beagle</a> and <a href="http://jakarta.apache.org/lucene/docs/index.html">Lucene</a> search tools could be integrated.
+</p>

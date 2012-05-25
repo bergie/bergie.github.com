@@ -1,0 +1,60 @@
+---
+  title: "Minor Midgard Blogging Tool Updates"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p align="center"><img width="321" height="239" border="0" title="Categorizing Midgard posts in MarsEdit" alt="Categorizing Midgard posts in MarsEdit" src="http://bergie.iki.fi/midcom-serveattachmentguid-f33923dc4b6fd9a58d4e69fdf7e42eba/marsedit-categories-midgard.jpg" /></p><p>
+Categorization works quite simply; the MetaWebLog API connector for the <a href="http://www.midgard-project.org/documentation/reference/components/de.linkm.newsticker.html">de.linkm.newsticker</a> looks at its schema definition, and if it finds specific field definitions it will enable categorization. The two options here are:
+</p><p>
+Multiple categories per post:
+</p><pre>"categories" =&gt; array (<br />"description" =&gt; "Categories",<br />"datatype"    =&gt; "multiselect",<br />"location"    =&gt; "parameter",<br />"multiselect_selection_list" =&gt; array (<br />"cat1" =&gt; "Category 1",<br />"cat2" =&gt; "Category 2",<br />            ),<br />        ),<br /></pre><p>
+Or single category per post (as is currently used on this blog):
+</p><pre>"category" =&gt; array (<br />"description" =&gt; "Category",<br />"datatype"    =&gt; "text",<br />"location"    =&gt; "parameter",<br />"widget"      =&gt; "select",<br />"widget_select_choices" =&gt; array (<br />"cat1" =&gt; "Category 1",<br />"cat2" =&gt; "Category 2",<br />            ),<br />        ),<br /></pre><p><strong>Note:</strong> the category field must be stored in <em>parameter</em> location for MetaWebLog API support to work.
+</p><p>
+Now that this works well, I was able to set my <a href="http://ranchero.com/marsedit/">MarsEdit</a> to complain if I try to save an entry without setting a category. Categorization is important on this blog as it is used by the different <a href="http://bergie.iki.fi/blog/2004-06-21-001.html">Planet</a> aggregators. 
+</p><p>This means that now I can almost completely manage this blog from a desktop client. Only thing remaining would be handling the separate <em>abstract</em> fields, but I might as well make my next layout do without them.
+
+</p><p align="center"><img width="390" height="257" border="0" title="Bloglines setting in net.nemein.rss" alt="Bloglines setting in net.nemein.rss" src="http://bergie.iki.fi/midcom-serveattachmentguid-c5a204ee91383875fca0a8f1cbc63ec9/rss-settings-bloglines.jpg" /></p><p>
+The other new thing is that the net.nemein.rss <a href="http://www.mezzoblue.com/subscribe/">news aggregator</a> for Midgard CMS now has preliminary support for the <a href="http://www.oreillynet.com/pub/a/network/2004/09/28/bloglines.html">Bloglines API</a>. <a href="http://www.bloglines.com/">Bloglines</a> is a popular web-based news aggregator that can be used as a central syndication server to reduce <a href="http://www.wired.com/news/infostructure/0,1377,63264,00.html?tw=wn_tophead_6">RSS-induced congestion</a>.
+</p><p>
+It is easy to set net.nemein.rss to fetch it news from Bloglines instead of querying the servers independently:
+</p><ul><li>Register to Bloglines and subscribe to the feeds you want to aggregate<br /><strong>Note:</strong> you can populate the Bloglines subscription list by uploading the OPML list of subscriptions you get by accessing <em>/channels.opml</em> in net.nemein.rss</li><li>Create a topic handled by net.nemein.rss</li><li>Go to Settings and select <em>Bloglines</em> from Subscription mode</li><li>Enter your Bloglines username and password to net.nemein.rss</li></ul><p>
+The infrastructure for this seems to work. Unfortunately I was unable to test this with a real production setup because Bloglines Web Services seem to respond extremely slowly today, causing <a href="http://magpierss.sourceforge.net/">MagpieRSS</a> to timeout.
+</p>
+
+<p>
+<strong>Updated 22:33:</strong> After adding some debugging calls I found out that the reason for problems with getting feeds from Bloglines was with <a href="http://www.w3.org/Protocols/HTTP/1.0/draft-ietf-http-spec.html#BasicAA">HTTP Basic authentication</a>. Bloglines uses email addresses as usernames.
+</p>
+
+<p>
+While <a href="http://fi2.php.net/fopen">fopen</a> happily opened such an URL after  the email address was <a href="http://fi2.php.net/manual/en/function.rawurlencode.php">rawurlencode</a>d, the Snoopy library in MagpieRSS was a different case. As I found out, it uses PHP's <a href="http://fi.php.net/parse_url">parse_url</a> function which <a href="http://bugs.php.net/bug.php?id=24836">doesn't support</a> @-signs in usernames.
+</p>
+
+<p>
+I fixed this by a quick hack to the Snoopy fetch method:
+</p>
+
+<pre>
+$URI_PARTS = parse_url($URI);
+if (!empty($URI_PARTS["user"])) {
+
+  // PATCH for Bloglines support, @ in usernames (bergie)
+  if (strstr($URI_PARTS["user"],"%40")) {
+    $URI_PARTS["user"] = str_replace("%40","@",$URI_PARTS["user"]);
+  }
+  // END PATCH
+
+  $this->user = $URI_PARTS["user"];
+if (!empty($URI_PARTS["pass"]))
+  $this->pass = $URI_PARTS["pass"];
+</pre>
+
+<p>
+To make things easier I upgraded net.nemein.rss to include <a href="http://laughingmeme.org/archives/001973.html?rss">latest MagpieRSS</a>. This means that <a href="http://atomenabled.org/">Atom</a> feeds should be supported now as well.
+</p>
+
+<p>
+Even though the Bloglines API support works now, it still seems to be phenomenally slow, at least with my <a href="http://bergie.iki.fi/from-web/subscriptions/channels.opml">100 subscriptions</a>.
+</p>

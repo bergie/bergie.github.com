@@ -1,0 +1,43 @@
+---
+  title: "Easier handling of CSS with MidCOM"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+The Midgard <a href="http://www.midgard-project.org/documentation/concepts/page_and_style/">style templating system</a> was designed back when site layouts were still mostly in-line HTML tables. As such this caused some problems with the new <a href="http://www.adaptivepath.com/publications/essays/archives/000266.php">standards-based school of web design</a>, as there it is desirable to place the layouts into separate, <a href="http://www.htmlhelp.com/reference/css/style-html.html">linked style sheets</a>.
+</p>
+
+<p>
+The obvious solution to this was to make <a href="http://www.midgard-project.org/">Midgard's</a> style elements URL-addressable. I made first commit adding this feature to <a href="http://midcom.tigris.org/source/browse/midcom/fs-midcom/midcom-template/">midcom-template</a> last week.
+</p>
+
+<p>
+MidCOM site template now serves elements from the site style under <em>/style</em> subdirectory. For security reasons the elements must have a parameter <em>midcom/allow_serve</em> set to <em>true</em>. If the element names have a .css or .js suffix the system will also set correct mime types for them automatically.
+</p>
+
+<p>
+This way it is easy to serve as many linked CSS or JavaScript files as needed from the Midgard style system. Here's how it looks like in <a href="http://www.midgard-project.org/projects/aegir/">Aegir's</a> style manager:
+</p>
+
+<p style="text-align: center;">
+<img src="http://bergie.iki.fi/midcom-serveattachmentguid-99361d69a3f8a8eec497a650a4ac1a68/linked-css-aegir.jpg" border="0" height="289" width="345" alt="linked-css-aegir.jpg" title="Linked style sheets in Aegir Style management tool" />
+</p>
+
+<p>
+Next up will be supporting Flash <a href="http://www.moock.org/asdg/technotes/crossDomainPolicyFiles/">cross domain policy</a> files in <em>/crossdomain.xml</em> if set. These are often needed in <a href="http://jemi.iki.fi/blog/flash_campaigns_with_openpsa_backend.html">web campaign</a> setups where Flash front-end and Midgard back-end reside on different servers.
+</p>
+
+<p>
+<a name="quotememe"></a>
+<strong>Oh, and according to</strong> the <a href="http://www.inkstain.net/fleck/archives/001577.html">latest blog meme</a>:
+</p>
+
+<blockquote>
+Privateers, privately owned vessels licensed by government to attack enemy commerce, seized the mails, held them for ransom and robbed them of any gold or silver they contained.
+</blockquote>
+
+<p>
+From <a href="http://www.amazon.com/exec/obidos/tg/detail/-/0719555175/qid=1109002902/sr=8-2/ref=sr_8_xs_ap_i2_xgl14/002-3841130-4405602?v=glance&s=books&n=507846">Conquerors of Time</a> by Trevor Fishlock.
+</p>

@@ -1,0 +1,178 @@
+---
+  title: "Multilingual MidCOM sites"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+    <a href="http://en.wikipedia.org/wiki/Finland">Finland</a> is a
+    country with three official languages, and many organizations
+    here want to provide their websites in multilingual format.
+    While <a href="http://www.midgard-project.org/">Midgard CMS</a>
+    supports storing <a href=
+    "http://www.midgard-project.org/midcom-permalink-067c767dd66067bb65d6a0f0a88943a8">
+    multilingual content</a> in same content tree, this is still
+    not widely used. A far more common strategy is to use
+    <em>language prefix URLs</em>.
+</p>
+<p>
+    With language prefixes each translation of a site has its own
+    content tree starting from the language name, or <a href=
+    "http://www.w3.org/WAI/ER/IG/ert/iso639.htm">2-letter code</a>.
+    This has the advantage of allowing slightly different content
+    structure to be presented on different translations. For
+    example, a company might want to present products differently
+    to the domestic and international markets. It also makes it
+    easy to tell what language the content behind a link is in.
+</p>
+<p>
+    To make a <a href=
+    "http://www.midgard-project.org/midcom-permalink-85e86ba5433b5566da29fe9b32e2a425">
+    MidCOM</a> site multilingual there are two steps.
+</p>
+<p>
+    <strong>First</strong>, <a href=
+    "http://www.midgard-project.org/midcom-permalink-992517d7d09087ed7714086dcd35be0b">
+    set up the website</a> normally. Then log into the <abbr title=
+    "Authoring Interface System">AIS</abbr> interface and create
+    top-level topics for each language you want to have on your
+    site. It doesn't matter what component is used to drive those
+    topics, but very often it is <em>de.linkm.taviewer</em>. The
+    URL name of the topics should be the two letter country code.
+</p>
+<p>
+    The top-level country topics are actually the front pages of
+    different language versions of the site. The site structure can
+    be created freely under them, although it would be recommended
+    to make the site structure quite identical between languages.
+</p>
+<p>
+    <strong>Then</strong> you have to make MidCOM aware of the
+    language topics. This is done by creating a configuration
+    snippet (<em>/sitegroup-config/midcom-template/config</em>) for
+    the MidCOM Site Template.
+</p>
+<p>
+    Log into <a href=
+    "http://www.midgard-project.org/midcom-permalink-26f2eca717e1bf98c3c1dbee3d05d98c">
+    Aegir</a> and go to the <em>Snippets</em> tab. There you should
+    create a <em>sitegroup-config</em> top-level directory to the
+    same <a href=
+    "http://www.midgard-project.org/midcom-permalink-f624e440f76a466d5870374bca8e1449">
+    sitegroup</a> where the site is in. Then create a
+    <em>midcom-template</em> snippet directory under that. In this
+    directory you can place the configuration PHP code in a
+    <em>config</em> snippet.
+</p>
+<p>
+    Configure the languages used on the site:
+</p>
+<pre>
+// Languages enabled on the site, and information about them<br />
+// in format "URL prefix" =&gt; "Language code"<br />
+$GLOBALS["midcom_site"]["site_languages_array"] = array(<br />
+    "fi" =&gt; "fi", // Finnish<br />
+    "en" =&gt; "en", // English<br />
+    "ge" =&gt; "ka"  // Georgian<br />
+);<br />
+<br />
+// Default language<br />
+$midcom_site["default_language"] = "en";<br />
+$midcom_site["site_language"] = $GLOBALS["midcom_site"]["site_languages_array"][$midcom_site["default_language"]];<br />
+</pre>
+<p>
+    Set MidCOM's language based on the URL prefix:
+</p>
+<pre>
+if ($_MIDGARD["self"] == $GLOBALS["midcom_site"]["uri"]) <br />
+{<br />
+    // On-site language<br />
+    if ($_MIDGARD["argc"] &gt; 0 <br />
+        &amp;&amp; array_key_exists($_MIDGARD["argv"][0],$GLOBALS["midcom_site"]["site_languages_array"])) <br />
+    {<br />
+        $GLOBALS["midcom_site"]['site_language'] = $GLOBALS["midcom_site"]["site_languages_array"][$_MIDGARD["argv"][0]];<br />
+    }<br />
+} <br />
+elseif ($_MIDGARD["self"] == $GLOBALS["midcom_site"]["uri"]."midcom-admin/ais/") <br />
+{<br />
+    // AIS language<br />
+    if ($_MIDGARD["argc"] &gt; 0) <br />
+    {<br />
+        <br />
+        foreach ($GLOBALS["midcom_site"]["site_languages_array"] as $prefix =&gt; $code)<br />
+        {<br />
+            $language_topic = mgd_get_topic_by_name($GLOBALS["midcom_site"]["root_topic"]-&gt;id,$prefix);<br />
+            if ($language_topic<br />
+                &amp;&amp; ($language_topic-&gt;id == $_MIDGARD["argv"][0]<br />
+                || mgd_is_in_topic_tree($language_topic-&gt;id, $argv[0])))<br />
+            {<br />
+                $GLOBALS["midcom_site"]['site_language'] = $code;<br />
+            }<br />
+        }<br />
+    }<br />
+}<br />
+</pre>
+<p>
+    This is all needed to make a site multilingual. With this setup
+    the root URL of the site can be used for a splash screen
+    presented to users for selecting language.
+</p>
+<p>
+    As an option, you can also utilize <a href=
+    "http://ppewww.ph.gla.ac.uk/~flavell/www/lang-neg.html">HTTP
+    Language Negotiation</a> for automatically directing the user
+    to correct language version of the site. To do this, add the
+    following to the midcom-template config snippet:
+</p>
+<pre>
+// Language negotiation<br />
+if ($_MIDGARD["uri"] == $GLOBALS["midcom_site"]["uri"]) <br />
+{<br />
+    if ($_SERVER[HTTP_ACCEPT_LANGUAGE])<br />
+    {<br />
+        $langstr = explode(',',$_SERVER[HTTP_ACCEPT_LANGUAGE]);<br />
+<br />
+        if (is_array($langstr)) <br />
+        { <br />
+            foreach ($langstr as $language) <br />
+            {<br />
+                $language = substr($language,0,2);<br />
+<br />
+                if (array_key_exists($language,$GLOBALS["midcom_site"]["site_languages_array"])) <br />
+                {<br />
+                    header("Location: ".$GLOBALS["midcom_site"]["uri"].$language."/");<br />
+                    exit;<br />
+                } <br />
+            }<br />
+        }<br />
+    }<br />
+    // No language preferences matched, go to default language<br />
+    header("Location: ".$GLOBALS["midcom_site"]["uri"].$GLOBALS["midcom_site"]['default_language']."/".$suffix);<br />
+    exit;<br />
+}<br />
+</pre>
+<p>
+    <strong>Date output</strong> in MidCOM is tied to the site
+    language, and uses PHP <a href=
+    "http://fi.php.net/strftime">strftime()</a> function for
+    output. For this to work your server must have the locale you
+    need installed on Unix level. On <a href=
+    "http://www.debian.org/">Debian</a> the locales can be
+    installed via the following command:
+</p>
+<pre>
+/usr/sbin/dpkg-reconfigure locales<br />
+</pre>
+<p>
+    Select the locales you need from the list and they will be
+    installed by dpkg.
+    <br />
+</p>
+<p>
+    <span style="font-weight: bold;">Updated 2005-09-27:</span>
+    This tutorial is now maintained in <a href=
+    "http://www.midgard-project.org/midcom-permalink-fb83ccd47632279153507ac7e4e4c81f">
+    the Midgard Wiki</a>.
+    <br />
+</p>

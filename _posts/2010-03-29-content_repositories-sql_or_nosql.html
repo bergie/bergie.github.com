@@ -1,0 +1,13 @@
+---
+  title: "Content repositories: SQL or NoSQL?"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>The <a href="http://nosql-database.org/">NoSQL movement</a> seems to be pretty active, advocating a <a href="http://www.roadtofailure.com/2009/06/19/social-media-kills-the-rdbms/">move away from traditional relational databases</a>:</p>
+<blockquote>...developers have become crippled by being able to only think of data in terms of Rows and Columns. There's a multitude of database paradigms: Graphs, Trees, Objects, and so on. Furthermore, databases limit developers to SQL, which is great for certain kinds of set mathematics and not much else. In order to overcome fundamental limitations of DBs, things like Conditionals, Iteration, String Manipulation, and more have been hacked into what was at first an elegant set mathematics language.<br /><br /> Algorithms (such as MapReduce) which make data analysis scalable are highly unintuitive in SQL. The limitations in the environment lead to a limitation in engineers' ability to solve "big data" problems.</blockquote>
+<p>This may be true if you're building the next Twitter or Facebook. But how many of us really do?<br />In the quite ranty article <a href="http://teddziuba.com/2010/03/i-cant-wait-for-nosql-to-die.html">I Can't Wait for NoSQL to Die</a> <em>Ted Dziuba</em> has a point:</p>
+<blockquote>by replacing MySQL or Postgres with a different, new data store, you have traded a well-enumerated list of limitations and warts for a newer, poorly understood list of limitations and warts, and <em>that</em> is a huge business risk.</blockquote>
+<p>This is exactly the reason we decided to build <a href="http://midgard2.org/">Midgard2</a> on top of <a href="http://www.gnome-db.org/">a relational database</a>. While it does constrain us in some cases, we can still provide a quite <a href="http://bergie.iki.fi/blog/what_is_a_content_repository/">reasonably full-featured content repository</a> this way.</p>
+<p>And being built on SQL means we know the system scales <a href="http://maemo.org/packages/search/?org_maemo_packages_search%5B1%5D%5Bproperty%5D=name&amp;org_maemo_packages_search%5B1%5D%5Bconstraint%5D=LIKE&amp;org_maemo_packages_search%5B1%5D%5Bvalue%5D=midgard">down to mobile devices</a> and all the way up to major business systems like <em>Lufthansa's</em> global marketing budget tracking. That is something very few NoSQL systems will be able to boast.</p>

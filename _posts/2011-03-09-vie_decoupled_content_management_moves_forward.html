@@ -1,0 +1,18 @@
+---
+  title: "VIE - Decoupled content management moves forward"
+  categories: 
+    - "midgard"
+    - "oscom"
+  layout: "post"
+
+---
+<p>My posts on <a href="http://bergie.iki.fi/blog/decoupling_content_management/">Decoupling Content Management</a>, and especially the introduction to the <a href="http://bergie.iki.fi/blog/introducing_the_midgard_create_user_interface/">"build a CMS, no forms allowed"</a> approach we took with <em>Midgard Create</em> have generated a lot of interest.</p>
+<p>When I first <a href="http://www.slideshare.net/bergie/midgard-create-and-editing-content-via-rdfa">presented</a> the approach in the recent <a href="http://aloha-editor.org/wiki/Aloha_Editor_Dev_Con_Vienna_11">Aloha Editor Developer Conference</a>, many CMSs wanted to do something similar. And so we decided to strip the Midgard-specific parts out and make the tool a generic JavaScript library. As part of this work, the library was adopted by the <a href="http://www.iks-project.eu/">IKS project</a> and named <a href="http://wiki.iks-project.eu/index.php/VIE">VIE</a>, or <em>"Vienna IKS Editables"</em>. There first CMS implementations of VIE included <a href="https://github.com/Jotschi/Aloha-Editor-Wordpress-Plugin">WordPress</a>, <a href="http://git.typo3.org/TYPO3v5/Distributions/Base.git">TYPO3</a> and <a href="http://gitorious.org/karacos2-wsgi-web-applications-engine/karacos2-wsgi-web-applications-engine">KaraCos</a>, with <a href="http://wiki.iks-project.eu/index.php/VIE#CMS_implementations">more</a> on their way.</p>
+<p>To get started with VIE, check these pages out:</p>
+<ul><li><a href="http://wiki.iks-project.eu/index.php/VIE">VIE project page</a> on IKS wiki</li>
+<li><a href="https://github.com/IKS/VIE">VIE repository</a> on GitHub</li>
+<li><a href="http://bergie.github.com/VIE/">VIE API documentation</a></li>
+</ul><p>In addition to <a href="http://bergie.iki.fi/blog/introducing_the_midgard_create_user_interface/">Midgard Create</a>, one of the first projects I'm implementing with VIE is <a href="http://wiki.iks-project.eu/index.php/VIE/Palsu">Palsu</a>, an interactive meeting tool powered by <a href="http://nodejs.org/">Node.js</a> and <a href="http://socket.io/">Socket.io</a>. It should explain the power of VIE outside of the traditional CMS space.</p>
+<p><strong>Update:</strong> VIE is now also available on <a href="http://npmjs.org/">npm</a>:</p>
+<pre>npm install vie
+</pre>

@@ -1,0 +1,39 @@
+---
+  title: "Test install of Midgard 1.6.0rc2"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p><a href="http://www.midgard-project.org/updates/midgard_1_6_0rc2_released.html">Midgard 1.6.0rc2</a> was released earlier today. I decided to try it on my local <a href="http://www.apple.com/ibook/">iBook</a>.
+</p><p>
+Most of the stuff seems to install just like in my <a href="http://marc.theaimsgroup.com/?l=midgard-user&m=107576757117563&w=2">earlier installation</a>, except that some packages have been renamed. midgard-lib is now midgard-core and mod_midgard is now midgard-apache1.
+</p><p>
+First problem was that I tried to install Midgard to a custom prefix, <em>/usr/local/midgard</em>, and midgard-config failed to give correct include path for that. After a bit of investigation, I found out that this was broken it <a href="http://midgard.tigris.org/source/browse/midgard/src/core/midgard/midgard-config.in?r1=1.9&r2=1.10">this commit</a>.<br /><a href="http://www.nemein.com/people/rambo/">Rambo</a> pointed out that this was due to incorrect Perl string comparisons in the code. <a href="http://midgard.tigris.org/source/browse/midgard/src/core/midgard/midgard-config.in?r1=1.10&r2=1.11">Fixed now</a>.
+</p><p>
+Next change to the installation notes was that configure for midgard-php4 needed to  have the apxs path specified:
+</p><pre>
+$ ./configure --with-midgard-config=/usr/local/midgard/bin/midgard-config\
+   --with-apxs=/usr/local/apache/sbin/apxs
+</pre><p>
+Another thing to note was that since Midgard's Apache module has changed its name, the old module must be commented out from httpd.conf if you have an earlier Midgard version installed.<br />
+Also, in that case <em>apachectl restart</em> won't be enough. You have to run:
+</p><pre>
+/usr/local/apache/sbin/apachectl stop
+/usr/local/apache/sbin/apachectl start
+</pre><p>
+After the successful Midgard installation the next thing was to turn to midgard-data. Midgard 1.6.x series have a new database setup tool, datagard. Unfortunately it didn't run on Mac at first, but <a href="http://www.midgard-project.org/community/whoswho/pp.html">Piotras</a> helped me with that and promised to fix some  <a href="http://fink.sourceforge.net/">Fink</a>-related path issues in CVS.<br />
+Here's how datagard looks like:
+</p><p align="center"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-638549f6793b8dfe411e28f7ff29eb3f/midgard-160rc2-datagard.jpg" border="0" height="364" width="503" alt="midgard-160rc2-datagard.jpg" align="" /></p><p>
+When datagard had upgraded my old Midgard database to the new <a href="http://www.midgard-project.org/documentation/concepts/i18n/">MultiLang</a> format, I was ready to access my Midgard Welcome Page. It greeted me with:
+</p><p align="center"><a href="http://bergie.iki.fi/midcom-serveattachmentguid-f3ac0aa6d954531259ba37a8e600f9d9/midgard-160rc2-welcome.jpg"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-ab995757b18296e86147a4fc4cc684e6/midgard-160rc2-welcome-setup.jpg" border="1" height="309" width="264" alt="midgard-160rc2-welcome-setup.jpg" /></a></p><p>
+Next I'm testing setting up a new database with datagard.
+</p>
+
+<p>
+All in all, Midgard installation on Mac OS X is still a bit difficult because of the dependencies. Chris Stephens pointed me to an interesting project that could help here:
+</p>
+
+<p>
+<a href="http://www.webedition.de/deutsch/home/mamp.html">MAMP</a> is a Mac OS X installer (or disk image) package that installs the whole Apache, MySQL and PHP combo into the Applications folder and provides a Quartz application for running the processes. If we could get Midgard installed into this, it would make things a lot smoother.
+</p>

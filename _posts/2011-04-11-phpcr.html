@@ -1,0 +1,52 @@
+---
+  title: "PHP Content Repository - the other part of CMS decoupling"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>A while back I wrote about <a href="http://bergie.iki.fi/blog/decoupling_content_management/">decoupling content management</a>. The post generated lots of good reactions, and since then our <a href="http://bergie.iki.fi/blog/vie_decoupled_content_management_moves_forward/">VIE library</a> has been adopted by multiple CMSs to achieve decoupling on the UI level.</p>
+<p>Now it is time to focus on the other side of decoupling - the relation between a web framework and a content repository. I've written multiple times about the <a href="http://bergie.iki.fi/blog/why_you_should_use_a_content_repository_for_your_application/">benefits of using a content repository</a>, but JCR spec lead <a href="https://twitter.com/davidnuescheler">David Nuescheler</a> sums <a href="http://www.slideshare.net/uncled/introduction-to-jcr">them well</a>:</p>
+<blockquote>
+<ul><li>Functional Definition of a “Content Repository”</li>
+<li>Common Vocabulary!</li>
+<li>No longer learn (dozens of) (ugly) proprietary APIs</li>
+<li>Write (mostly) portable code, for Document Management, Web Content Management, Source Code Control</li>
+<li>Compare Repository Functionality</li>
+<li>No more information silos and vendor Lock-in Content-Centric Infrastructure</li>
+</ul></blockquote>
+<p><a href="http://www.midgard-project.org/">The Midgard Project</a> has <a href="http://www.midgard-project.org/midgard2/">provided a generic content repository</a> for PHP a long time now, but our APIs have been our own, which is probably too much vendor lock-in for many PHP CMSs. Because of this, I was very happy to see the <a href="https://github.com/phpcr">PHPCR project</a> start to provide <a href="https://github.com/phpcr/phpcr/tree/master/src/PHPCR">a PHP port</a> of the <a href="http://en.wikipedia.org/wiki/Content_repository_API_for_Java">Java Content Repository</a> interfaces. This is the way to achieve truly a vendor-independent content repository API.</p>
+<p>What is PHPCR, then? It is a set of PHP interfaces that define how to deal with a content repository. Instead of thinking about particular databases or file formats, you get a standard way to deal with content using a tree-based metaphor and query APIs. On top of this, *CR provides standard ways to handle access control, versioning, content creation and many other things depending on what the particular repository supports. The repositories provide ways for applications to check their capabilities and content model, so an application can adapt to various repositories used.</p>
+<p>TYPO3 and Symfony are already pushing strongly towards PHPCR, using <a href="http://jackrabbit.apache.org/">Apache Jackrabbit</a> via <a href="http://jackalope.github.com/">a PHP bridge</a> as the reference implementation. Jackrabbit is great because it provides support for all *CR features, but obviously at the cost of a Java dependency. For those that want to keep their content in a RDBMS, and not run Java processes, we're now working on making <a href="https://github.com/bergie/phpcr-midgard2">a Midgard2-based PHPCR provider</a>. The project is still in quite initial stage, but some of the APIs work:</p>
+<pre>&lt;?php
+use Midgard2CR as CR;
+
+// Set up credentials, in this case the default account
+$credentials = new \PHPCR\SimpleCredentials('admin', 'password');
+ 
+// Get a Midgard configuration
+$factory = new CR\RepositoryFactory();
+$repo = $factory-&gt;getRepository();
+ 
+// Connect to Midgard repository with the credentials
+$session = $repo-&gt;login($credentials);
+ 
+// Get the root node matching our workspace
+echo "\ngetRootNode\n";
+$root = $session-&gt;getRootNode();
+$title = $root-&gt;getProperty('mgd:title');
+var_dump($root-&gt;getIdentifier(), $root-&gt;getName());
+var_dump($title-&gt;getName(), $title-&gt;getString(), $root-&gt;getPropertyValue('mgd:title'));
+
+// Iterate child nodes
+echo "\ngetNodes\n";
+foreach ($root-&gt;getNodes() as $node)
+{
+var_dump($node-&gt;getPropertyValue('mgd:title'));
+}
+ 
+// Get a property with absolute path
+echo "\nsession-&gt;getProperty\n";
+var_dump($session-&gt;getProperty('/planet/mgd:component')-&gt;getNativeValue());
+</pre>
+<p>Feel free to follow the <a href="https://github.com/bergie/phpcr-midgard2">effort on GitHub</a>, and also to participate :-) I also recommend reading at least parts of <a href="http://www.jcp.org/en/jsr/detail?id=283">the JCR 2.0 spec</a>. It is quite enlightening on where content management will go in the future.</p>

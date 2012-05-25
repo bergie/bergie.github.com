@@ -1,0 +1,88 @@
+---
+  title: "Getting started with the Midgard content repository"
+  categories: 
+    - "desktop"
+    - "midgard"
+    - "mobility"
+  layout: "post"
+
+---
+<p>I'm doing a talk today in the <a href="http://www.bossaconference.indt.org/">Bossa Conference</a> about using  <a href="http://bergie.iki.fi/blog/raise_the_hammer-midgard2_mjolnir_goes_live/">Midgard</a> as a content repository for mobile applications. As part of my presentation I wrote some simple example code for using the <a href="http://www.midgard-project.org/documentation/python_midgard/">Midgard APIs in Python</a>, and thought they would be good to share to those not attending the event as well.</p>
+<p>The <a href="http://bergie.iki.fi/blog/why_you_should_use_a_content_repository_for_your_application/">idea of a content repository</a> is that instead of coming up with new, isolated file formats or database setups for your application you can just work with objects and signals, and let Midgard handle the rest. This is something that lots of people are doing with  <a href="http://couchdb.apache.org/">CouchDB</a> as well, but we feel Midgard, with its light footprint and native APIs for languages like Python, C, Vala and PHP fits better in the mobile applications context.</p>
+<h2>Installing Midgard</h2>
+<p>Midgard packages are available for many different Linux distributions through the OpenSuse Build Service. To find the right repository for  your setup, go to the <a href="http://download.opensuse.org/repositories/home:/midgardproject:/mjolnir/">OBS project page</a>.  For example, on my Ubuntu Karmic netbook the URL to add to apt <code>sources.list</code> is  <code>deb http://download.opensuse.org/repositories/home:/midgardproject:/mjolnir/xUbuntu_9.10/ ./</code>. Then I just:</p>
+<pre>sudo apt-get update
+sudo apt-get install python-midgard2
+</pre>
+<p>Midgard is also available in <a href="http://maemo.org/packages/search/?org_maemo_packages_search%5B1%5D%5Bproperty%5D=name&amp;org_maemo_packages_search%5B1%5D%5Bconstraint%5D=LIKE&amp;org_maemo_packages_search%5B1%5D%5Bvalue%5D=midgard">Maemo extras</a> and for OS X <a href="http://www.macports.org/ports.php?by=name&amp;substr=midgard2">on MacPorts</a>.</p>
+<h2>Defining a schema</h2>
+<p>The first thing when developing a Midgard application is to define your storage objects. This is done using the  <a href="http://www.midgard-project.org/documentation/mgdschema-file-properties/">MgdSchema XML format</a>. In this case we're doing a simple "attendee" object that amends Midgard's built-in person record with information related to the conference:</p>
+<pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;Schema xmlns="http://www.midgard-project.org/repligard/1.4"&gt;
+    &lt;type name="openbossa_attendee" table="openbossa_attendee"&gt;
+        &lt;property name="id" type="unsigned integer" primaryfield="id"&gt;
+            &lt;description&gt;Local non-replication-safe database identifier&lt;/description&gt;
+        &lt;/property&gt;
+        &lt;property name="person" type="unsigned integer" link="midgard_person:id"&gt;
+            &lt;description&gt;Person attending the event&lt;/description&gt;
+        &lt;/property&gt;
+        &lt;property name="registration" type="datetime"&gt;
+            &lt;description&gt;Registration date of the attendee&lt;/description&gt;
+        &lt;/property&gt;
+        &lt;property name="likesbeer" type="boolean"&gt;
+            &lt;description&gt;Whether the attendee likes beer&lt;/description&gt;
+        &lt;/property&gt;
+    &lt;/type&gt;
+&lt;/Schema&gt;
+</pre>
+<p>Then we just save this XML file into <code>/usr/share/midgard2/schema/</code> so that Midgard will find it.</p>
+<h2>Initiating the repository connection</h2>
+<p>Once the MgdSchema is in place it is time to <a href="http://xkcd.com/353/">import antigravity</a> and start hacking in Python.  The code works pretty much in the same way in other languages Midgard is available for, but Python is used here for the sake of simplicity. First we load the Midgard extension:</p>
+<pre>import _midgard as midgard
+</pre>
+<p>Then we setup the <a href="http://www.midgard-project.org/api-docs/midgard/core/9.9/midgard-connection.html">repository connection</a>. With these <a href="http://www.midgard-project.org/api-docs/midgard/core/9.9/midgard-config.html">settings</a> we will store our content into an SQLite database located in  <code>~/.midgard2/data/midgardexample.db</code>:</p>
+<pre>configuration = midgard.config()
+configuration.dbtype = 'SQLite'
+configuration.database = 'midgardexample'
+
+# Open a Midgard repository connection with our config
+connection = midgard.connection()
+connection.open_config(configuration)
+</pre>
+<p>As this is the first time we're interacting with the repository we need to tell Midgard to  <a href="http://www.midgard-project.org/api-docs/midgard/core/9.9/midgard-storage.html">prepare the storage</a> for itself and also for our new <code>openbossa_attendee</code> class:</p>
+<pre>midgard.storage.create_base_storage()
+midgard.storage.create_class_storage('midgard_person')
+midgard.storage.create_class_storage('midgard_parameter')
+midgard.storage.create_class_storage('openbossa_attendee')
+</pre>
+<h2>Interacting with data</h2>
+<p>First we create a person <a href="http://www.midgard-project.org/api-docs/midgard/core/9.9/midgard-object.html">object</a> with our attendee:</p>
+<pre>person = midgard.mgdschema.midgard_person()
+person.firstname = 'Leif'
+person.lastname = 'Eriksson'
+person.create()
+</pre>
+<p>Then we create our attendee object and link that with the person we just created:</p>
+<pre>attendee = midgard.mgdschema.openbossa_attendee()
+attendee.person = person.id
+attendee.likesbeer = True
+attendee.create()
+</pre>
+<h2>Querying data</h2>
+<p>Later we'll want to find out about all Leifs attending the event. We do this by using the  <a href="http://www.midgard-project.org/api-docs/midgard/core/9.9/midgard-query-builder.html">Midgard query builder</a>:</p>
+<pre>qb = midgard.query_builder('openbossa_attendee')
+qb.add_constraint('person.firstname', '=', 'Leif')
+attendees = qb.execute()
+</pre>
+<p>The query builder returns us a list of matching attendee objects. We can go through them and also fetch the associated persons:</p>
+<pre>for attendee in attendees:
+    person = midgard.mgdschema.midgard_person()
+    person.get_by_id(attendee.person)
+    if attendee.likesbeer:
+        print "%s, %s is attending the event" % (person.lastname, person.firstname)
+</pre>
+<p>Then we can update the persons with their email addresses:</p>
+<pre>    person.email = 'leif@vinland.no'
+    person.update()
+</pre>
+<p>For basic data handling, that's it! When you need more, you can extend objects with  <a href="http://www.midgard-project.org/documentation/php_midgard_object_attachments/">file attachments</a> or  <a href="http://www.midgard-project.org/documentation/php_midgard_object_parameters/">parameters</a>. You can also create joined records using <a href="http://blogs.nemein.com/people/piotras/view/1246881867.html">Midgard views</a>.  Midgard provides <a href="http://teroheikkinen.iki.fi/blog/midgard_workshop_at_fscons/">D-Bus signals</a>, <a href="http://blogs.nemein.com/people/piotras/view/1246966442.html">transactions</a>,  <a href="http://www.midgard-project.org/documentation/mgdschema-metadata-object/">centralized metadata</a>,  <a href="http://www.midgard-project.org/documentation/php-midgard_replicator/">synchronization</a> and many other things.</p>

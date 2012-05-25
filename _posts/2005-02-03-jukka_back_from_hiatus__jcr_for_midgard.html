@@ -1,0 +1,34 @@
+---
+  title: "Jukka back from hiatus, JCR for Midgard"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+We had a pretty interesting meeting with <a href="http://zitting.name/jukka/JukkaZitting.html">Jukka Zitting</a> in <a href="http://www.tavastiaklubi.fi/sivu.php/ilves.html">Ilves</a> last night. Jukka is the original author of the <a href="http://www.midgard-project.org/">Midgard CMS</a>, and has been on hiatus from the project since 2000. Now he has started his own company, <a href="http://www.yukatan.fi/">Yukatan</a> with plans of providing <a href="http://www.serverworldmagazine.com/monthly/2003/01/java.shtml">JCR-based</a> integration services for Content Management Systems.
+</p>
+
+<p>
+JCR, or Java Content Repository is a generalized programming interface for storage back-ends of different Content Management Systems. JCR has been standardized in the <a href="http://www.jcp.org/en/jsr/detail?id=170">JSR 170</a> specification. The specification is quite new and only implemented in some CMSs so far. Jukka's first contribution to the spec was developing <a href="http://jcr.yukatan.fi/rmi/">Remote Method Invocation</a> add-on to enable external <a href="http://java.sun.com/">Java</a> applications to interface with any JCR-compatible CMSs.
+</p>
+
+<p>
+While Midgard CMS has been developed in C and PHP, and the JCR specification is quite Java-specific, these two can be connected using JNI, <a href="http://www.geocities.com/kongwenyu/jni.html">Java Native Interface</a>. This will give Java applications full access into Midgard content and data structures. While PHP will still remain the actual content management interface for Midgard, Java's possibilities for integration and desktop or <a href="http://java.sun.com/j2me/">mobile</a> application development are very promising.
+</p>
+
+<p>
+This is what the Midgard architecture will approximately look like with <a href="http://www.midgard-project.org/community/development/mrfc/0012.html">MgdSchema</a> and JCR:
+</p>
+
+<p style="text-align: center;">
+<img src="http://bergie.iki.fi/midcom-serveattachmentguid-9ae9d7aed2e802319f61b37d93b21bd2/jcr-architecture.png" border="0" height="465" width="404" alt="jcr-architecture.png" title="MgdSchema and Java in Midgard architecture" />
+</p>
+
+<p>
+Jukka has already started <a href="http://snip.yukatan.fi/space/start/2005-02-02/1#Initial_thoughts_on_MgdSchema">examining MgdSchema</a> for JCR development possibilities. The development work will start this month, and we expect first running version in March, depending on the state of the <a href="http://www.nemein.com/people/piotras/___new_midgardrocks______.html">MgdSchema project</a>.
+</p>
+
+<p>
+The Java Content Repository implementation for Midgard will be funded jointly by <a href="http://www.nemein.com/en/">Nemein</a> and Yukatan.
+</p>

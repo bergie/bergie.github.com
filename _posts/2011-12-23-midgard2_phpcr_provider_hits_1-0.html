@@ -1,0 +1,35 @@
+---
+  title: "Midgard2 PHPCR provider hits 1.0"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>I'm happy to announce that we were able to release the <a href="http://packagist.org/packages/midgard/phpcr">first stable version</a> of the <a href="https://github.com/midgardproject/phpcr-midgard2">Midgard2 PHPCR provider </a>yesterday.<br /><br />Simply put, <a href="http://phpcr.github.com/">PHPCR</a> is the future of Midgard's PHP API. Instead of having our own repository APIs, we follow the <a href="http://phpcr.github.com/doc/html/index.html">well-documented</a> and <a href="https://github.com/phpcr/phpcr-api-tests">tested</a> PHP Content Repository specification. This allows much better compatibility with other projects, and for example the possibility to choose whether to store contents in <a href="http://www.midgard-project.org/midgard2/">Midgard2</a> or <a href="http://jackrabbit.apache.org/">Apache Jackrabbit</a> on per-deployment basis. This obviously doesn't mean that the current Midgard2 API is going away, but just that there is something better and more compatible available on top of that.<br /><br />PHPCR provides a nice set of capabilities that are either <a href="http://bergie.iki.fi/blog/what_is_a_content_repository/">similar to, or surpass</a> the traditional Midgard features:</p>
+<ul><li>Your content model is constructed out of a <a href="http://www.day.com/specs/jcr/2.0/3_Repository_Model.html">tree of Nodes</a> that can contain other Nodes or Properties</li>
+<li>Properties can be of many different types, including the typical strings and floats, but also binaries (similar to our blobs) and dates</li>
+<li>Properties can be <a href="http://www.day.com/specs/jcr/1.0/6.4.2.5_Multi-value_Properties.html">multivalued</a> (think of multiple images in same property, or a person having multiple emails)</li>
+<li>Queries can be either constructed with <a href="http://docs.jboss.org/modeshape/latest/manuals/reference/html/jcr-query-and-search.html#jcr-qom-query-language">Query Object Model</a> or <a href="http://docs.jboss.org/modeshape/latest/manuals/reference/html/jcr-query-and-search.html#jcr-sql2-query-language">SQL2</a></li>
+<li>Queries support tree constraints (ISDESCENDANTNODE, ISCHILDNODE) and joins</li>
+<li>Content can be exported and imported via a standard XML format</li>
+<li>There is a comprehensive <a href="http://www.day.com/specs/jcr/2.0/8_Node_Type_Discovery.html">Node Type system</a> that allows you to define your content model. The full definitions can be read and introspected via PHP</li>
+<li>Nodes also <a href="http://www.ibm.com/developerworks/java/library/j-jcr/#1">support mixins</a>, allowing you to add per-object metadata</li>
+<li>There are also the <a href="http://dev.day.com/content/ddc/blog/2010/05/you_do_not_have_toc.html">unstructured nodes</a> (<em>nt:unstructured</em>) for cases where you don't want to have constraints on what to store and how</li>
+</ul><p>On top of PHPCR, there is also <a href="https://github.com/doctrine/phpcr-odm#readme">a Doctrine ODM</a> that the Midgard2 provider also supports. That gives you more capabilities, like:</p>
+<ul><li>More traditional object access with getters and setters to the repository</li>
+<li><a href="http://blog.liip.ch/archive/2011/12/18/multilanguage-support-for-doctrine-phpcr-odm.html">Multilingual content storage</a></li>
+</ul><p>Some code examples: <a href="https://github.com/bergie/phpcr-midgard2/tree/master/examples">https://github.com/bergie/phpcr-midgard2/tree/master/examples</a><br /><br />You can see Midgard's test status for both SQLite and MySQL storage back-ends <a href="http://travis-ci.org/#!/bergie/phpcr-midgard2">in our Continuous Integration environment</a>: <img src="https://secure.travis-ci.org/bergie/phpcr-midgard2.png" border="0" alt="phpcr-midgard2.png" /><br /><br />Once you have Midgard2 and our PHP extension available, installation is easy. Add a <em>composer.json</em> file into the root folder of your project:</p>
+<pre>{<br />  "require": {
+    "midgard/phpcr": "&gt;=1.0"
+  }<br />}</pre>
+<p>Install with <a href="http://packagist.org/">Composer</a>:</p>
+<pre>$ wget http://getcomposer.org/composer.phar<br />$ php composer.phar install</pre>
+<p>Copy MgdSchemas:</p>
+<pre>$ sudo cp vendor/midgard/phpcr/data/share/schema/* /usr/share/midgard2/schema/<br />$ sudo cp vendor/midgard/phpcr/data/share/views/* /usr/share/midgard2/views/</pre>
+<p>...and then just start using the repository in your application. PHPCR can obviously be used side-by-side with traditional Midgard2 or other PHP code.<br /><br />What will happen next:</p>
+<ul><li>Support for PHP 5.4 and Postgres (needs work on Midgard2 level)</li>
+<li>Performance optimization</li>
+<li>Features work, including <a href="http://www.day.com/specs/jcr/2.0/15_Versioning.html">versioning</a></li>
+<li>More tools for PHPCR. Think of <a href="http://bergie.iki.fi/blog/building_a_new_admin_interface_for_midgard/">Asgard</a> that would allow you to work with any repositories!</li>
+<li>PHPCR support built-in for <a href="http://new.midgard-project.org/midcom">MidCOM</a> and <a href="http://new.midgard-project.org/midgardmvc/">MVC</a>?</li>
+</ul><p>For those interested in learning more about PHPCR, there will also be a <a href="http://lanyrd.com/2012/phpcr-meetup-paris/">Paris meetup in mid-January</a>.</p>

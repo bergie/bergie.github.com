@@ -1,0 +1,87 @@
+---
+  title: "Standardized CSS layouts with Midgard"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+Based on my earlier <a href="http://bergie.iki.fi/blog/2004-06-21-002.html">blog entry</a>, there was an interesting talk in <a href="http://www.oscom.org/events/oscom4/">OSCOM 4</a> about <a href="http://www.oscom.org/events/oscom4/proposals/skins.html">CSS Naming Conventions</a>.
+</p><p>
+My after-talk discussions with <a href="http://wiki.apache.org/cocoon/Scherler">Thorsten Scherler</a> led to development of <a href="http://www.oscom.org/standards/">OSCOM specification</a> for <a href="http://www.oscom.org/wiki/cssnamingconventions/">CSS Naming Conventions</a>.
+</p><p>
+I've now used the XHTML skeleton from the specification for some websites,
+and have been generally quite happy with it. Here is a simple 
+<a href="http://www.midgard-project.org/">Midgardization</a> of it.
+Simply paste it to the &lt;(ROOT)&gt; element of your style, and
+then add the CSS formatting to the &lt;(css)&gt; element.
+</p><pre>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="&(midcom_site["site_language"]);" lang="&(midcom_site["site_language"]);"&gt;
+  &lt;head&gt;
+    &lt;title&gt;&lt;(page-title)&gt;&lt;/title&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=&(midcom_site["site_encoding"]);" /&gt;
+    &lt;style type="text/css"&gt;
+      &lt;!--
+        &lt;(css-local)&gt;
+        &lt;(css-extra)&gt;
+      --&gt;
+    &lt;/style&gt;
+    &lt;link rel="stylesheet" href="&(midcom_site["uri"]);style.css" type="text/css" /&gt;
+    &lt;(head-extra)&gt;
+  &lt;/head&gt;
+  &lt;body&lt;(bodytag-extra)&gt;&gt;
+    &lt;div id="container"&gt;
+      &lt;div id="branding"&gt;
+        &lt;div class="grouplogo"&gt;
+          &lt;!-- Insert logo here --&gt;
+        &lt;/div&gt;
+        &lt;div id="branding-tagline"&gt;
+          &lt;?php echo $GLOBALS["midcom_site"]['site_welcome']; ?&gt;
+        &lt;/div&gt;
+        &lt;div id="branding-trail"&gt;
+          &lt;(breadcrumb)&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div id="nav"&gt;
+        &lt;div id="nav-main"&gt;
+           &lt;(navi)&gt;
+        &lt;/div&gt;
+
+        &lt;div id="nav-language"&gt;
+         &lt;!-- Language switching links --&gt;
+        &lt;/div&gt;
+
+        &lt;div id="search"&gt;
+          &lt;div class="search-input"&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div id="content"&gt;
+        &lt;div id="content-main"&gt;
+          &lt;(content)&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div id="siteinfo"&gt;
+        &lt;div id="siteinfo-credits"&gt;
+          Created by &lt;a href="http://www.nemein.com/"&gt;Nemein Oy&lt;/a&gt;.
+          Powered by &lt;a href="http://www.midgard-project.org/"&gt;Midgard CMS&lt;/a&gt;.
+        &lt;/div&gt;
+        &lt;div class="lastmodified"&gt;
+          &lt;(last-updated)&gt;
+        &lt;/div&gt;
+        &lt;div class="siteinfo-legal"&gt;
+         &lt;!-- Copyright disclaimer and possible licensing --&gt;
+        &lt;/div&gt;
+        &lt;div id="feedback"&gt;
+        &lt;/div&gt;
+        &lt;(edit-this-page)&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre><p>
+The places with comments are ones I'm still thinking how to pull dynamic content into.
+</p>

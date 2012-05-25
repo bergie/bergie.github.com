@@ -1,0 +1,25 @@
+---
+  title: "Filesystem MidCOM going strong"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+The <a href="http://www.nathan-syntronics.de/midgard/midcom_fs-transition/">filesystem migration</a> of the <a href="http://www.midgard-project.org/projects/midcom/">MidCOM</a> component framework has now progressed enough that it actually powers <a href="http://bergie.iki.fi/">this site</a>, as reported by the HTML generator meta tag:
+</p><pre>Midgard/1.5.0/SG MidCOM/1.9.0+cvs.2004.11.05 PHP/4.3.9-1
+</pre><p>
+If things are going this smoothly, the following will only be needed before we can replace the old MidCOM 1.4.x tree with the <a href="http://www.midgard-project.org/community/development/mrfc/0006.html">mRFC 0006</a>-compliant version:
+</p><ul><li>The rest of the components need to be <a href="http://www.nathan-syntronics.de/midgard/midcom_fs-transition/upgrading-components.html">converted</a></li><li>midcom-template needs some modifications to the &lt(code-global)&gt; element(s):<br /><pre>
+// We don't need old snippet-based MidCOM
+// mgd_include_snippet("/midcom/midcom");
+
+// Use midcom-fs instead
+define ('MIDCOM_ROOT', '/path/to/midcom/lib​');
+define ('MIDCOM_STATIC_ROOT', '/path/to/midcom/sta​tic');
+define ('MIDCOM_STATIC_URL', '/midcom-static');
+require(MIDCOM_ROOT . '/midcom.php');</pre></li><li>We'll need a "midcom-remover" repligard package that will remove the MidCOM snippets from the database and create a compatibility snippet to <em>/midcom/midcom</em></li></ul><p>
+Torben has reported an approximate 25% performance improvement from the filesystem migration, but we'll have to wait for the siege results.
+</p><p><strong>In the other news...</strong></p><p><a href="http://www.midgard-project.org/community/development/mrfc/0008.html">mRFC 0008</a>, the time-based release process for <a href="http://www.midgard-project.org/">Midgard</a> entered voting today and passed in 20 minutes. This means that we will implement a release process modeled after the one <a href="http://www.gnome.org/">GNOME</a> project <a href="http://mail.gnome.org/archives/gnome-hackers/2002-June/msg00041.html">uses</a>. I'll post more about this and other talking points for the <a href="http://www.midgard-project.org/updates/events/2004-11-14-000.html">Midgard Gathering</a> that will be hosted by <a href="http://www.anykey.se/int/">AnyKey</a> in Sweden this weekend.
+</p><p>
+In addition, <a href="http://www.nemein.com/">we</a> helped <a href="http://www.routamc.org/gallery/black-sea-2004/IMG_5616.html">Taya and Guram</a> from <a href="http://www.qartu.com/">Qartu</a> in <a href="http://en.wikipedia.org/wiki/Georgia_%28country%29">Georgia</a> (საქართველო) deploy their first <a href="http://midgard.iatp.ge/midgard/">Midgard server</a> last week. They've already had their first customer demos and we're looking forward to helping with them in localizing Midgard to <a href="http://en.wikipedia.org/wiki/Georgian_language">Kartuli</a>.

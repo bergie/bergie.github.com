@@ -1,0 +1,26 @@
+---
+  title: "MidCOM and HTTP Conditional GET"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+
+<p>I wanted to ensure that wouldn't be a problem on sites built with <a href="http://www.midgard-project.org/cms/">Midgard CMS</a> and <a title="Midgard Component Framework" href="http://www.midgard-project.org/projects/midcom/">MidCOM</a>. On an <a href="http://www.midgard-project.org/community/support-discussion/">IRC</a> discussion with Torben Nehmer, I pointed him to Alexander Alapite's <a href="http://alexandre.alapetite.net/doc-alex/php-http-304/">Conditional GET support library</a> for PHP.<br /><br />However, it looks like this is not an issue, as MidCOM already supports conditional GET if its server-side caching system is enabled:
+</p>
+<blockquote>
+
+
+<span style="font-weight: bold;">torben:</span> bergie: the midcom cache does include last modified and expires headers by default, so http head requests in a cached system already work fine with browser caches<br />
+<span style="font-weight: bold;">torben:</span> at least with nathan-syntronics.de i have a greatly reduced bandwith through this<br /><span style="font-weight: bold;">
+torben:</span> bergie: apart from that i would wait with further stuff until mrfc 6 has been implemented (or rejected), now that you are here, we can actually start discussing it again</blockquote>
+
+<p>MidCOM's <a href="http://www.midgard-project.org/documentation/concepts/midcom/specs/subsystems/cache">caching engine</a> can be enabled in the &quot;MidCOM Site Settings&quot; interface in the MidCOM site template (midcom-template).<br /></p>
+<p>In addition to providing the correct expiry headers, the NGO Geeks provided <a href="http://www.ngogeeks.com/node/view/273">Midgard Caching Headers</a> patch to the original &quot;Simple Dynamic Site&quot; template that have since been included to midcom-template.<br /></p>
+<p>Here is the settings interface:<br /></p>
+<div style="text-align: center;"><img vspace="0" hspace="0" border="1" alt="midcom-template cache settings UI" src="/attachment/1c9911cd91578c9791796c44fea32890/a33751da8d5118e6084636d9e47e54fc/midcom-template-cache-settings.jpg" /></div>
+<p />
+
+<p>It would be nice to get some actual testing figures on how well the current HTTP Conditional GET code in MidCOM works.<br /></p>
+<p>On a related note, this weblog has been upgraded to latest <a href="http://midcom.tigris.org/source/browse/midcom/">CVS</a> HEAD of <a href="http://www.midgard-project.org/updates/2004-07-20-001.html" title="MidCOM 1.4. TP release notes">MidCOM 1.4 technology preview</a> today. This brings new features, like the <a href="http://www.kaukolaweb.com/blog/2004-08-03-000.html" title="Kaukola's notes on the new HTMLAREA in MidCOM">latest HTMLAREA</a> goodness.<br /></p>
+<p />

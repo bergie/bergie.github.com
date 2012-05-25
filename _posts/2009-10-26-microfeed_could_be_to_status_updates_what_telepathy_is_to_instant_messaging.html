@@ -1,0 +1,18 @@
+---
+  title: "Microfeed could be to status updates what Telepathy is to instant messaging"
+  categories: 
+    - "desktop"
+    - "mobility"
+  layout: "post"
+
+---
+<p><a href="http://microfeed.org/">Microfeed</a> is a new D-Bus service for handling <a href="http://en.wikipedia.org/wiki/Microblogging">status updating and microblogging</a> entries from various services. Just like <a href="http://telepathy.freedesktop.org/wiki/">Telepathy</a> allows various applications to utilize instant messaging connections, Microfeed does the same for microblogging:</p>
+<blockquote>Microfeed is a specification and a reference implementation of client-server architecture providing access to various information sources that have a feed-type interface. Examples of those feed sources include micro-blogging services, such as Twitter, Facebook, Jaiku, Qaiku, and Laconi.ca. By utilizing Microfeed architecture, a client application can focus on user interface, while the actual feed fetching is done in the background independently. The communication between a local Microfeed server publishing information about feeds and a client application displaying that information to an user is done with the D-Bus messaging following the publisher-subscriber principle.</blockquote>
+<p><img src="/static/1/1dec20ee98e2016c20e11deacd1ed2738b715511551_microfeed-png.jpg" border="0" alt="microfeed.png" title="microfeed.png" /></p>
+<p>Microfeed service already is the power behind <a href="http://www.henrikhedberg.net/">Henrik Hedberg's</a> new <a href="http://talk.maemo.org/showthread.php?t=30637">Mauku microblogging interface</a> for Maemo 5. Here you can see a stream of updates from both <a href="http://www.qaiku.com/">Qaiku</a> and Twitter:</p>
+<p><img src="/static/1/1dec20eba3e024ac20e11deb6f2bb012b9e7a607a60_mauku_twitter_qaiku-png.jpg" border="0" alt="mauku_twitter_qaiku.png" title="mauku_twitter_qaiku.png" /></p>
+<p>If you're implementing a tool that deals with microblogging services, please consider using microfeed for it. Advantages from this include:</p>
+<ul><li>User accounts to various services need to be entered only once and can be reused</li>
+<li>You don't need to concern yourself with the particular features or quirks of a microblogging service API, just use the D-Bus interfaces provided by Microfeed</li>
+<li>Twitter? Qaiku? StatusNet? Facebook? You can let your users choose what services they want to use, without overhead of having to implement the protocols for each of them</li>
+</ul><p>More information from <a href="http://microfeed.org/">http://microfeed.org/</a></p>

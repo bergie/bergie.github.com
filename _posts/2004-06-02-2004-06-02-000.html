@@ -1,0 +1,31 @@
+---
+  title: "Success of WordPress: PHP vs. Java"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+
+<p>One reason is that <a href="http://www.php.net/">PHP</a> provides a lightweight way of building efficient web applications. <a href="http://www.russellbeattie.com/notebook/1005956.html">Russel Beattie writes</a>:</p>
+<blockquote>
+Once again I ask - why is Java web programming not keeping up? Why are Java web projects so bloated (I've got 5+MB of .jar files in my current web project and I think more are coming). Why are the pages so difficult to set up, maintain. Why do Java programmers insist on putting more logic in standard Java classes that make me have to touch ant, wait for compile and many times reboot my web server in order to test?
+<br /><br />
+I think it's because PHP programmers want to get stuff done and Java programmers are geeks who want do stuff the &quot;right&quot; way. I'm getting sick of being in the latter camp. 
+</blockquote>
+<p>Another reason is that WordPress is quick to set up and provides lots of features out-of-the-box, as <a href="http://postneo.com/2003/11/19.html#a3097">noted by Matt Croydon</a>:
+</p>
+
+<blockquote>
+It's set up for mutli-author blogging out of the box. It does trackback, pings weblogs.com, and does all of the basic things that I can think of out of the box
+</blockquote>
+
+<p><a href="http://www.sitepoint.com/blog-post-view.php?id=172797">Harry Fuecks found</a> some interesting design decisions in WordPress as well:
+</p>
+
+<blockquote>
+What interests me about Wordpress is the decisions taken in it's design, such as using using PHP itself as a template language, backed with HTML rendering functions. Classes come into play when dealing with &quot;architectural domain&quot; issues such as XML-RPC and i18n.
+</blockquote>
+
+<p>Using plain PHP and the <a href="http://www.midgard-project.org/documentation/concepts/page_and_style/">Midgard Style Engine</a> for templating has been the approach I've advocated for the <a href="http://www.midgard-project.org/projects/aegir/">Aegir</a> community after we ran into <a href="http://www.akbkhome.com/index.php/Projects/PHP%20Framework/Documentation/1.+Background+History+%26+Overview">scalability issues</a> with <a href="http://www.curtisonline.net/theme/phpfast-templates-HOWTO.html">FastTemplates</a>. <br />
+
+</p>

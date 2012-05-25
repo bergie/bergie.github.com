@@ -1,0 +1,86 @@
+---
+  title: "Comparing Midgard and WordPress"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+There has been some discussion on the Midgard IRC channel comparing <a href="http://www.midgard-project.org/">Midgard CMS</a> to the <a href="http://wordpress.org/">WordPress</a> blogging system. <a href="http://adamsdesk.com/be/">Adam Douglas</a> commented:
+</p>
+
+<blockquote>
+Don't get me wrong I love Midgard and I'm sure I will even more once I learn more how to do stuff but if we could just get some of it to be similar as WordPress man we would be rocking. It's so damn easy to use and install.
+</blockquote>
+
+<p>
+After replying I realized we should probably explain the difference between Midgard and standalone <a href="http://www.php.net/">PHP</a> applications better.
+</p>
+
+<p>
+WordPress is a great tool when it comes to blogging. It is indeed very easy to set up, and its user interface strives to be simple and user-friendly. While technically Midgard's blogging component, <a href="http://www.midgard-project.org/documentation/reference/components/de.linkm.newsticker.html">de.linkm.newsticker</a> includes most of the same features like <a href="http://blogs.law.harvard.edu/tech/rss">RSS</a> output or <a href="http://bergie.iki.fi/blog/using_weblog_editors_with_midgard_cms.html">desktop blogging tool</a> support, it still doesn't provide as good user experience. <a href="http://www.midgard-project.org/documentation/installation/">Installation</a> is much more involved, and more steps are needed for <a href="http://www.midgard-project.org/documentation/getting-started/">setting up the website</a>. The user interface is also more complex, with site management functionalities handled by <a href="http://www.midgard-project.org/projects/aegir/">Aegir</a> and content creation by the on-site "edit this page" functionality.
+</p>
+
+<p>
+Similarly to WordPress, several other PHP applications like <a href="http://gallery.menalto.com/">Gallery</a> and <a href="http://www.phpbb.com/">phpBB</a> are considered to be the best tools in their categories. Again Midgard has components like <a href="http://www.midgard-project.org/documentation/reference/components/net.siriux.photos.html">net.siriux.photos</a> and <a href="http://www.midgard-project.org/documentation/reference/components/net.nemein.discussion.html">net.nemein.discussion</a> providing similar functionalities. And again they are slightly lacking in setup, functionality or user interface sense when compared to their pure-PHP counterparts.
+</p>
+
+<p>
+But that is all beside the point of Midgard.
+</p>
+
+<p>
+While individual Midgard applications could be inferior to their pure-PHP brethen, their strength lies in sharing the common framework of <a href="http://www.midgard-project.org/framework/">Midgard CMF</a> and <a href="http://www.midgard-project.org/projects/midcom/">MidCOM</a>. And in many cases, the advantages of the framework vastly outdo the possible shortcomings of the applications themselves. Consider the following:
+</p>
+
+<ul>
+  <li><strong>Templating</strong>. All Midgard applications run within the Midgard templating engine, allowing developers to easily provide common look-and-feel across different parts of their site. Midgard's templating engine was noted as the best in <a href="http://www.cmswatch.com/Features/ProductWatch/FeaturedProduct/?feature_id=83">Ideal CMS of 2002</a> chosen by <a href="http://www.cmswatch.com/">CMS Watch</a></li>
+  <li><strong>Permissions</strong>. With Midgard all applications can share the same group-based permission definitions. For authentication there are several options like <a href="http://www.midgard-project.org/documentation/installation/authentication.html">PAM and NTLM single sign-on</a></li>
+  <li><strong>Hosting capability</strong>. A single Midgard installation can be shared between an unlimited number of organizations using the <a href="http://www.midgard-project.org/documentation/concepts/sitegroups/">Sitegroups</a> virtual database system</li>
+  <li><strong>Performance</strong>. The Midgard core libraries have been written in C, and provide much more efficient Framework for CMS functionalities than interpreted PHP code or the typical <a href="http://faq.wordpress.net/view.php?p=20">htaccess hacks</a>. In addition, Midgard's <a href="http://www.midgard-project.org/documentation/concepts/repligard/">replication tools</a> make clustering very easy</li>
+  <li><strong>Configurability</strong>. With MidCOM's configuration engine all components provide an uniform way for changing their settings on either per-organization or per-directory basis</li>
+  <li><strong>Multiple instances</strong>. MidCOM components are bound to site directories instead of installations, and so the same application can be utilized in different parts of a website</li>
+  <li><strong>Security</strong>. Most Midgard applications use little or no filesystem access, and as far as I know none access the database directly. This means possible exploits can be prevented already at the Framework level</li>
+</ul>
+
+<p>
+These benefits should make it easy to choose between Midgard or the different PHP applications depending on what is needed. If only a single functionality, say blogging, is required, a tool like <a href="http://wordpress.org/">WordPress</a> wins the choice easily. It is simple to install, works on regular web hosting services, and has a very convenient user interface.
+</p>
+
+<p>
+However, if more than one set of functionality is needed, or there are plans for growth, then <a href="http://www.midgard-project.org/">Midgard</a> is a better choice. With the slight initial cost of setting up a heavier system there is suddenly a much more robust framework and all its different integrated functionalities available.
+</p>
+
+<p>
+Another point to consider is that in addition to regular web publishing functionalities, the Midgard Framework also provides a set of business tools. With Midgard it is possible to manage <a href="http://www.openpsa.org/openpsa/projects.html">projects</a>, <a href="http://www.openpsa.org/openpsa/sales.html">sales contacts</a>, <a href="http://www.openpsa.org/openpsa/support.html">help desk requests</a> and product order fulfillment.
+</p>
+
+<h2>Room for improvement</h2>
+
+<p>
+Even though <a href="http://www.midgard-project.org/download/1.6.0.html">current Midgard</a> and its Framework provide many benefits for organizations using them, this doesn't mean there isn't room (or need) for improvement. There has been talk of approaching the issues from several angles:
+</p>
+
+<ul>
+  <li><strong>Installation issues</strong> can be solved by providing good and up-to-date <a href="http://www.midgard-project.org/documentation/installation/distros/">binary packages</a>. The <a href="http://people.best-off.org/~dsr/cubelog/archives/2005/01/03/mrfc0011/">Windows installer</a> work of Daniel Reichenbach would also help us here</li>
+  <li><strong>Usability improvement</strong> is a long road, and must be tackled by using principles like <a href="http://developer.gnome.org/projects/gup/hig/1.0/reality-checks.html#id2858222">scenario-based planning</a> and best practices like <a href="http://developer.gnome.org/projects/gup/hig/1.0/index.html">GNOME Human Interface Guidelines</a></li>
+  <li><strong>Desktop integration</strong> will help to bring Midgard closer to users. For this common protocols like <a href="http://www.webdav.org/">WebDAV</a> and initiatives like <a href="http://bergie.iki.fi/blog/project_gnomegard.html">GNOMEgard</a> are important</li>
+</ul>
+
+<p>
+These focus areas and the <a href="http://www.midgard-project.org/community/development/mrfc/0012.html">MgdSchema</a> object abstraction system being worked on by <a href="http://www.nemein.com/people/piotras/">Piotr Pokora</a> together promise to make 2005 a <a href="http://www.kaukolaweb.com/blog/merry_christmas_and_happy_new_year.html">very interesting</a> Midgard year.
+</p>
+
+<h2>Issue with communication</h2>
+
+<p>
+Currently the Midgard Project website makes a rather poor job of explaining the differences between regular <a href="http://www.onlamp.com/pub/a/onlamp/2001/01/25/lamp.html">LAMP</a> CMSs and Midgard. I hope this posting clarifies some of the ideas of using a robust framework in addition to the regular common LAMP tools.
+</p>
+
+<p>
+To support this I coined the designation <abbr title="Linux, Apache, MySQL, PHP and Midgard">LAMP+M</abbr> to describe the Midgard Framework when writing the <a href="http://www.nemein.com/en/news/press/openpsa_1_10_released.html">OpenPSA 1.10 release announcement</a>.
+</p>
+
+<p>
+Daniel Reichenbach <a href="http://marc.theaimsgroup.com/?l=midgard-user&m=110483100825173&w=2">suggested</a> using the phrase <em>Midgard: the glue in LAMP</em>.
+</p>

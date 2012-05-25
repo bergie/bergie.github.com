@@ -1,0 +1,17 @@
+---
+  title: "Adding location awareness to blogs"
+  categories: 
+    - "life"
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+I've today updated <a href="http://bergie.iki.fi/blog">my blog</a> to display the location the post was made from. The location is linked to <a href="http://bergie.iki.fi/blog/second_day_of_oscom_4.html">blog postings</a>, <a href="http://bergie.iki.fi/gallery/2004/muonio/IMG_6285.jpg.html">photos</a> and <a href="http://bergie.iki.fi/moblog/2004-10-06-1097058306.html">moblog entries</a> based on their timestamps.
+</p><p style="text-align: center;"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-c7b277f1940429f066c720f71c3d9a50/bergie-blog-location-20041228.jpg" border="0" height="116" width="435" alt="bergie-blog-location-20041228.jpg" title="Location displayed in a moblog entry" /></p><p>
+This is done by maintaining a <a href="http://bergie.iki.fi/archive/locations/">database of locations</a> with the times I've been in them in <a href="http://www.midgard-project.org/">Midgard CMS</a>. To report a new location I simply send an SMS containing the city and country information to my website. This "ends" the previous location entry and creates a new one.
+</p><p>
+At the moment I'm content with granularity of storing location on city basis and time on per-day basis. However, far more detailed information could be added by connecting a <a href="http://en.wikipedia.org/wiki/GPS">GPS navigator</a> to the system. While this would allow for cool new information like <a href="http://www.macdevcenter.com/pub/a/mac/2004/06/15/gps_photo.html">linking photos to maps</a>, it would force me to carry and connect a bulky device, and cause potential privacy issues.
+</p><p>
+I'm also including the <a href="http://weather.noaa.gov/weather/metar.shtml">METAR weather information</a> pulled in using the <a href="http://pear.php.net/package/Services_Weather">Services_Weather</a> PEAR package. For now the weather displayed is the current one, but I'm thinking of storing the weather conditions on entry posting time to Midgard. That way you could see the temperature and other details related to a photo, for example.
+</p>

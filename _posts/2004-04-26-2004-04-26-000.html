@@ -1,0 +1,9 @@
+---
+  title: "Supporting International Characters"
+  categories: 
+    - "oscom"
+  layout: "post"
+
+---
+
+While many pieces of web software already support unicode and other character-encoding standards theoretically, their way of interoperating using them might be disfunctional.<br /><br />Freedesktop.org runs the <a href="http://www.freedesktop.org/Software/utf-8">Project UTF-8</a>, a resource for advocating unicode support in Open Source software. Maybe <a href="http://www.oscom.org/">OSCOM</a> should also do something in this space.<br /><br />Joel Spolsky has published a short how-to on what every programmer <a href="http://www.joelonsoftware.com/articles/Unicode.html">should know about unicode</a>. This is a very good starter on working with different character sets, as is Sam Ruby's <a href="http://intertwingly.net/stories/2004/04/14/i18n.html">i18n survival guide</a>.<br /><br />The Midgard CMS project has <a href="http://www.midgard-project.org/documentation/concepts/i18n/">supported UTF-8</a> since late 1999, but still ships with latin-1 as the default. While this will change with the <a href="http://www.midgard-project.org/download/1.6.0.html">1.6.0</a> release, a common habit of <a href="http://fi2.php.net/rawurlencode">rawurlencode()</a>ing document names can still lead to funny-looking URLs, as can be seen on the <a href="http://www.silja.ru/">www.silja.ru</a> site. This problem is fixed by <a href="http://www.midgard-project.org/projects/midcom/">MidCOM's</a> requirement of stricter URL policy.<br />

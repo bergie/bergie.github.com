@@ -1,0 +1,39 @@
+---
+  title: "Making Open Source Content Management Suck Less"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+His notion might have backgrounds in only looking at the projects listed on <a href="http://www.opensourcecms.com/">OpenSourceCMS.com</a>, which only lists lightweight, mainly PHP-based content management systems, not any of the <a href="http://www.oscom.org/matrix/index.html">heavier-duty ones</a>.
+</p><p>
+However, it is true that most Open Source CMSs are not that good. A major cause for that is duplication of effort. Everybody wants to build their own CMS and not improve the projects started by others, and so the wheel has been invented a huge amount of times. <a href="http://www.oscom.org/">OSCOM</a> seeks us to improve that by advocating <a href="http://bergie.iki.fi/blog/2004-05-24-001.html">collaboration</a> and usage of <a href="http://www.oscom.org/standards/">common standards</a>.
+</p><p>
+Let's take a look at how the improvement recommendations apply to <a href="http://www.midgard-project.org/">Midgard CMS</a>:
+</p><blockquote><strong>Make it easy to install.</strong> Your tool will see better adoption if you stop to consider the out-of-the-box experience before you ship it.
+</blockquote><p>
+This has traditionally been the weak point in Midgard. There have been many dependencies to solve and packages to compile. However, <a href="http://www.midgard-project.org/download/1.6.0.html">Midgard 1.6.0</a> is a big improvement to this.
+</p><p>
+The <a href="http://www.midgard-project.org/debian/README">Debian packages</a> made by Piotras and Daniel's packages for most <a href="http://people.best-off.org/~dsr/cubelog/archives/2004/09/29/seeking-testers/">RPM based distributions</a> made with  <a href="http://people.best-off.org/~dsr/cubelog/archives/2004/05/03/building-a-buddy-part-1/">Build Buddy</a> will make the actual installation very easy and having MidCOM environment available out-of-the-box helps too. 
+</p><blockquote><strong>Make it easy to get started.</strong> Give first-time users a series of quick wins that become increasingly complex. When I first log in, I want to create a Web page.
+</blockquote><p>
+Even after installation it has been difficult to figure out how to get started. Now  MidCOM and Aegir are bundled in the midgard-data package and so the <a href="http://www.midgard-project.org/documentation/getting-started/">Getting Started</a> guide should be easy to follow. Midgard 1.6.0 also provides a friendly <a href="http://cvs.devel.midcom-project.org/midgard/">Welcome Page</a>.
+</p><p> 
+On a longer term there will also be the <a href="http://www.midgard-project.org/community/development/mrfc/0007.html">Midgard Site Creation Wizard</a>.
+</p><blockquote><strong>Write task-based documentation first.</strong> Most systems have installation instructions that are quite good: "First do this, then do this, this, and this." But when it comes to actually using the CMS, they revert to feature-based docs, carefully outlining what each feature does, and typically from a back-end perspective.
+</blockquote><p>
+We're mainly <a href="http://www.midgard-project.org/documentation/concepts/">guilty as charged</a>. The new documentation chapters <a href="http://www.midgard-project.org/documentation/getting-started/">Getting Started</a> and <a href="http://www.midgard-project.org/documentation/howto/">Using Midgard CMS</a> seek to help with this, though.
+</p><blockquote><strong>Separate the administration of the CMS from the editing and managing of content.</strong></blockquote><p>
+Midgard does this already. MidCOM <a href="http://www.midgard-project.org/documentation/concepts/midcom/specs/subsystems/ais.html">Authoring Interface System</a> (AIS) is the end-users' content management interface that is provided as part of the website itself. For site developers and administrators there is the <a href="http://www.midgard-project.org/projects/aegir/">Aegir</a> interface which provides access to users, templates and code.
+</p><blockquote><strong>Users of a public web site should never - never - be presented with a way to log into the CMS.</strong></blockquote><p>
+This really depends of preferences. Maintainers of small business websites like to have the login link handy so they don't have to remember or bookmark it, whereas bigger organizations usually want to hide it, and potentially disable access to the editing interface from public network completely.
+</p><p>
+In MidCOM Site Template there are three possibilities here, depending on site settings (/midcom-admin/settings):
+</p><ul><li>Login link is always displayed (default)</li><li>Login link is never displayed</li><li>Login link is displayed only for specific port (internal staging port, SSL etc)</li></ul><blockquote><strong>Stop it with the jargon already.</strong> I don't know what a portlet is. Or a component, module, block, or snippet.</blockquote><p>
+Good point. Being mostly techies themselves, CMS developers usually fall into using jargon. And since there is no standardized vocabulary for content management, the jargon may vary greatly between projects. Jargon should not be allowed in <a href="http://www.midgard-project.org/cms/">marketing descriptions</a> for the CMSs, and even elsewhere it should be <a href="http://www.midgard-project.org/documentation/glossary/">documented</a> or accompanied with a description.
+</p><blockquote><strong>Why do you insist Web sites have "columns"?</strong> I've used quite a few systems now that have the notion of a 3-column layout. They give me the ability to turn columns off and on, and put "portlets" into "content-slots". Where does this assumption come from?
+</blockquote><p>
+The three-column layout is a very typical convention in blog engines, community CMSs and portal systems modeled after <a href="http://slashdot.org/">Slashdot</a>. Most real CMSs provide a less cookie-cutter like approach.
+</p><p><strong>In other news</strong>, <a href="http://www.midgard-project.org/community/whoswho/pp.html">Piotras</a> reported that according to <a href="http://www.securityspace.com/s_survey/data/index.html">SecuritySpace Survey</a>, Midgard usage grew 40% during September. Apparently we're doing something right.
+</p>

@@ -1,0 +1,21 @@
+---
+  title: "Want to do something similar to PostRank?"
+  categories: 
+    - "midgard"
+    - "oscom"
+  layout: "post"
+
+---
+<p>So, <a href="http://blog.postrank.com/2011/06/postrank-has-been-acquired-by-google/">Google acquired PostRank</a>, the service calculating impact of blog posts and other items in social media.</p>
+<p>If you want something similar but without the Google tie-in, then a good option is my <a href="https://github.com/nemein/com_meego_planet">social impact calculator</a> which is fully free software written in PHP. It was originally <a href="http://bergie.iki.fi/blog/calculating_news_item_relevance/">written in 2007</a>, but the newer version has been cleaned of Midgard dependencies and updated to reflect the current popular social networking services. Usage example from <a href="http://bergie.iki.fi/blog/calculate_the_impact_of_your_posts/">my earlier post</a>:</p>
+<p><span style="color:#333333;font-family:'Lucida Grande', Verdana, Arial, sans-serif;font-size:13px;">
+</span></p><pre>require('calculate.php');
+
+$url = 'http://bergie.iki.fi/blog/introducing_the_midgard_create_user_interface/';
+
+// Get the raw count for only one source
+echo com_meego_planet_calculate::hackernews($url); // 145
+echo com_meego_planet_calculate::facebook($url); // 1
+
+// Get weighted total score for all sources
+echo com_meego_planet_calculate::all($url); // 130.8</pre>

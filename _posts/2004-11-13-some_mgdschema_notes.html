@@ -1,0 +1,33 @@
+---
+  title: "Some MgdSchema notes"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+Here are quick notes from today's MgdSchema discussions with Piotras.
+</p><ul><li>The idea is to define Midgard objects in XML the same way as Repligard does</li><li>Current status of MgdSchema is an app that parses the schema and displays it as debug info</li><li>The object definitions will be reloaded every time Midgard is started</li><li>MgdSchema will provide the object types as GObjects</li><li>The GObjects are stored using the Gnome-DB abstraction layer</li><li>When mgd_get_article() is called, the PHP binding will get the GObject from Midgard core instead of making its own queries</li></ul><p>
+On the database backend, the object would be split to three or five tables. GUIDs will be used for linking same record between tables:
+</p><p>
+schema's own table (based on the XML file, same name as schema) with all the properties from the schema.
+</p><table><caption>net_nemein_article</caption><tr><th>guid</th><th>title</th><th>content</th></tr><tr><td>abc</td><td>Cool news</td><td>Blah blah blah...</td></table><p>
+metadata table with Midgard ownership and metadata info:
+</p><table><caption>metadata</caption><tr><th>guid</th><th>creator</th><th>revisor</th><th>...</th></tr></table><p>
+membership table for tree structures and ownerships:
+</p><table><caption>membership</caption><tr><th>guid</th><th>parent</th><th>extra</th></tr></table><p>
+record_extension table (parameter API)
+</p><table><caption>record_extension</caption><tr><th>guid</th><th>domain</th><th>name</th><th>value</th></tr></table><p>
+localization table (for MultiLangable fields)
+</p><table><caption>localization</caption><tr><th>guid</th><th>language</th><th>property</th><th>value</th></tr></table><p>
+The way forward:
+</p><ol><li>Schema loading/parsing</li><li>GObjectization of the schema</li><li>Object persistence through Gnome-DB</li><ul><li>Query API (query and fetch)</li><li>Storage API (create and update)</li></ul>
+   1.7 release
+<li>PHP5 bindings for the object</li><li>Object serialization</li><ul><li>Repligard-like tool based on MgdSchema</li></ul><li>More complete database handling</li><ul><li>Modification of database tables based on loaded schemas</li></ul><li>Complete "Classic Midgard" schemas</li><li>1.x compatibility API written in PHP (Midgard Lite like)</li></ol>
+
+<p>
+<strong>Updated 17:27: </strong> Since the gathering has been mostly on <a href="http://www.anykey.se/int/news/updates_on_the_midgard_gathering.html">agenda</a>, and my <a href="http://bergie.iki.fi/blog/talking_points_for_the_midgard_gathering.html">talking points</a> are mostly handled, we can focus the main thing of any Midgard event:
+</p>
+<p align="center">
+<img src="http://www.midgard-project.org/midcom-serveattachmentguid-8e247945c7e9f73a67ba3b939df76ecf/koff-roofcam.jpg" border="0" height="240" width="320" alt="koff-roofcam.jpg" align="" />
+</p>

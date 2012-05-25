@@ -1,0 +1,18 @@
+---
+  title: "A Day in IT Sales"
+  categories: 
+    - "business"
+  layout: "post"
+
+---
+<p>
+I'm now sitting in an old, creaking commuter train, surrounded by beautiful Finnish autumn colors. Today has been a pretty typical day for me in IT sales, starting with back luck with train schedules that forced me to sit most of the day in this old train instead of the fancier InterCity trains that come with power outlets and cafeterias. What has happened so far:
+</p><ul><li>Wake up</li><li>Make finishing touches to a customer-specific Intranet demo</li><li>Arrange some meetings for the rest of the week</li><li>Check out appropriate train schedule to another city</li><li>Because of some last-minute CSS modifications almost miss the train, forcing to lane-split with the motorcycle to the railway station</li><li>Make it to the train, the demo front page still broken because of the CSS fixes</li><li>Connect your laptop over the <em>slow</em> Bluetooth-GPRS connection and fix the CSS</li><li>Reread the <abbr title="Request for Proposal">RFP</abbr> and note that you've forgotten one feature, call colleague and ask him to implement it</li><li>Reach the target city and take a taxi to the client</li><li>Exchange some awkward pleasantries with CEO of a competing company at the door</li><li>Hold the demo and discussions with the client, experience some issues with both the latest Firefox and the client's proxy</li><li>Take taxi and train back</li><li>Provide quotes for some new projects to partners over the phone</li></ul><p>
+The connection problems in this process got me thinking again about better offline access to my data. Most of our back-end systems run using the <a href="http://www.midgard-project.org">Midgard Framework</a> and <a href="http://www.openpsa.org/">OpenPSA</a>, and there would be several options. Now I use the lightweight solution where:
+</p><ul><li>Apple iCal keeps a read-only version of my OpenPSA Calendar</li><li>I can blog using MarsEdit and post when back online</li></ul><p>
+What other data would be convenient to have available offline? At least contacts and email spring to mind.
+</p><p>
+Contacts could probably be synchronized one-way by downloading a vCard file of all contacts from OpenPSA Sales, as Apple Address Book automatically receives and imports them. The problem here would be the same as with calendar: not being able to sync the data back to the server.
+</p><p>
+As to email, Thunderbird has kind of offline mode available, but I would have to keep the inbox quite minimal to be able to use it. Maybe a more aggressive folder usage strategy would help here. Essentially I should archive all interesting documents to folders specifically created for each customer or project. TODO items I can easily drag-and-drop to our support mailbox which gets imported to OpenPSA Support.
+</p>

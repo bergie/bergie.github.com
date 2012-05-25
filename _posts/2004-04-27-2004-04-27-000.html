@@ -1,0 +1,10 @@
+---
+  title: "JPEG hassles"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+The solution was to use the convert utility from <a href="http://www.imagemagick.org/">ImageMagick</a> to automatically force all images to RGB color space. <br /><br />However, even after this the thumbnails I generated were ridiculously big (500KB instead of 4KB). After some investigation I noticed that some color profiles had been included to the image files. Again, convert was able to fix this.<br /><br />The options used here were:<br /><pre>-colorspace rgb +profile &quot;*&quot;<br /></pre>
+<p>Bug <a href="http://midcom.tigris.org/issues/show_bug.cgi?id=21">has been filed</a> on adding support for these to the image datatype in MidCOM datamanager.<br /></p>
+<p>As an addition, it looks like JPEG is now having <a href="http://www.mezzoblue.com/archives/2004/04/26/jpeg_dispute/index.php">patent issues</a>, like the <a href="http://burnallgifs.org/">GIF format</a> some years ago. Time for inventing a patent-free photography format?<br /></p>

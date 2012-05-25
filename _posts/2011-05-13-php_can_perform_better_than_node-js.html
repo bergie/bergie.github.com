@@ -1,0 +1,14 @@
+---
+  title: "PHP can perform better than Node.js"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p><a href="http://bergie.iki.fi/blog/silex_is_like_expressjs_for_php/">My previous post about using Silex and AppServer-in-PHP</a> similarly to <a href="http://expressjs.com/">ExpressJS</a> generate quite a bit of interest. In the <a href="http://news.ycombinator.com/item?id=2543914">Hacker News thread</a> there was a question about memory usage, and so I put the AppServer under siege. Memory usage stayed constant at:</p>
+<pre>13958 bergie    20   0  125m  10m 2136 S    1  0.6   0:00.28 php        
+13959 bergie    20   0  125m  10m 2136 S    1  0.6   0:00.31 php </pre>
+<p>Then I did the same Siege for the ExpressJS version:</p>
+<pre>14051 bergie    20   0  615m  12m 4988 S    0  0.7   0:00.34 node</pre>
+<p>The PHP implementation served 3.80 requests per second, while the Node.js version served 3.79, both on <a href="http://bergie.iki.fi/blog/11-macbook_air-the_best_computer_i-ve_ever_had/">11" MacBook Air with Ubuntu 11.04</a>.</p>
+<p>This trivial example isn't obviously the big test of PHP app serving vs. Node.js, but at least I was surprised that PHP did better than Node here.</p>

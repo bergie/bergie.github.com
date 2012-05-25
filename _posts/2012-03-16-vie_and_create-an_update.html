@@ -1,0 +1,40 @@
+---
+  title: "VIE and Create: an update"
+  categories: 
+    - "midgard"
+    - "oscom"
+  layout: "post"
+
+---
+<p>It is again time to write an update on the state of <a href="http://www.iks-project.eu/">IKS's</a> two main components for the semantic editing part of <a href="../../decoupling_content_management/">Decoupled Content Management</a>:</p>
+<ul><li> <a href="http://viejs.org/">VIE</a> is the base semantic interaction library that handles the site's  content model through RDFa annotations and Backbone.js synchronization</li>
+<li><a href="http://createjs.org/">Create</a> is a new kind of web editing interface built on top of that.</li>
+</ul><p>As the IKS project has <a href="http://blog.iks-project.eu/iks-2011-in-review/">entered its fourth year</a>, both of these projects have gained maturity and contributions from many IKS partners and early adopters.</p>
+<h2>New UI for Create</h2>
+<p>While Create can be used for building any sort of custom user  experiences (as seen in the CMS integration examples below), it also  ships with a default user interface. <a href="http://nemein.com/en/">Nemein's</a> Riku Virta has designed a new UI concept that is <a href="https://groups.google.com/d/topic/createjs/bYEiF1hWvXk/discussion">currently being discussed</a> on the CreateJS mailing list.</p>
+<p>This interface builds on top of the <a href="../../introducing_the_midgard_create_user_interface/">original Create UI</a> and <a href="http://blog.iks-project.eu/what-liip-did-after-winning-the-iks-semantics-ux-contest/">Liip's</a> UX work, and aims to provide more area for CMS-specific functionality and better touchscreen support:</p>
+<p><img src="/static/1/1e16f90efc34dc66f9011e18c62b75b842496939693_create_new_ui.png" border="0" alt="create_new_ui.png" title="create_new_ui.png" /></p>
+<p>See the full UI concept in <a href="https://plus.google.com/photos/113896057721233278902/albums/5717131156654359985/5717131206194261362">the slideshow on Google Plus</a>.</p>
+<p>We hope that we will be able to land this new UI still within the March-April timeframe.</p>
+<h2>VIE: 2.0 and onwards</h2>
+<p>VIE is now <a href="http://blog.iks-project.eu/vie-towards-v2-0-update/">nearing the 2.0 release</a>,  with the first RC expected for the end of this month. After that we'll  have a hackathon in Saarbrucken, Germany where the plan is to focus on  things that we've targeted for a 2.1.</p>
+<p>The main feature of VIE 2.1 is a new way of handling RDF literals. This will make it easier to interface with services like <a href="http://dbpedia.org/About">DBpedia</a> that give us data in multiple different languages. This will enable you to do things like:</p>
+<pre><code>var eiffel = vie.entities.get('dbp:Eiffel_Tower');
+console.log(eiffel.get('label')); // Eiffel Tower
+
+vie.setLanguage('fi');
+console.log(eiffel.get('label')); // Eiffel-torni
+</code></pre>
+<p>The final API for this is <a href="https://groups.google.com/d/topic/viejs/bXK3Xg-rrLA/discussion">still being discussed</a> on the VIE mailing list.</p>
+<h2>Create and Hallo are now easier to integrate</h2>
+<p>Both Create and <a href="http://bergie.github.com/hallo">Hallo</a>,  our minimalist rich text editing tool now provide merged JavaScript  files for easier integration. You can find the merged files, and also  minified versions in:</p>
+<ul><li><a href="https://github.com/bergie/hallo/blob/master/examples/hallo.js">hallo.js</a></li>
+<li><a href="https://github.com/bergie/create/blob/master/examples/create.js">create.js</a></li>
+</ul><p>Thanks to contributions from <a href="http://www.alkacon.com/en/">Alkacon</a>,  Create's widget selection mechanism is now much more configurable. This  allows CMS developers to provide different editing tools for different  types of information.</p>
+<p>The currently bundled editing interfaces provide integration with Hallo, and also with the 0.20 version of <a href="http://aloha-editor.org/">Aloha Editor</a> (though you will need to install Aloha separately to use it due to licensing restrictions).</p>
+<p>CMS developers will also benefit from <a href="https://github.com/bergie/blogsiple">Blogsiple</a>,  the new integration testbed for Create and VIE. Blogsiple aims to be a  very simple blog system built on top of Node.js that shows all the  necessary integration points for supporting the whole range of VIE and  Create features.</p>
+<h2>CMS adoption</h2>
+<p>As both VIE and Create improve, so does their adoption in different Content Management Systems. For example, here is the new <a href="http://www.opencms.org/en/">OpenCms</a> user interface <a href="http://blog.iks-project.eu/alkacons-new-acacia-editor-based-on-iks-semantic-web-technology/">built on these tools</a>:</p>
+<p><iframe width="399" height="203" src="http://www.youtube.com/embed/21QSPSKPs6I" frameborder="0" allowfullscreen></iframe></p>
+<p>Polymedia's <a href="http://blog.iks-project.eu/polymedia-video-with-iks-semantic-annotation/">video annotation example</a> is also interesting demonstration of VIE in a completely different kind of CMS environment, as is <a href="http://blog.iks-project.eu/keen-onwordlift-a-short-story-how-we-plan-to-make-wordpress-a-semantic-cms/">WordLift</a> by InSideOut10.</p>
+<p>The <a href="http://www.iks-project.eu/community/funding/early-adopters-programme">IKS Early Adopter program</a> is still open if you're interested in getting support for using these tools in your CMS. There will also be an IKS event <a href="http://wiki.iks-project.eu/index.php/Workshops/Salzburg2012">in Salzburg on June 12-13</a> where we will be able to show more.</p>

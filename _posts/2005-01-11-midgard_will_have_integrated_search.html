@@ -1,0 +1,22 @@
+---
+  title: "Midgard will have integrated search"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+Today <a href="http://www.nemein.com/">we</a> secured funding from two clients for developing an <a href="http://www.midgard-project.org/community/development/mrfc/0009.html">integrated search engine</a> into the <a href="http://www.midgard-project.org/cms/">Midgard CMS</a>. The project will be undertaken by <a href="http://www.midgard-project.org/community/whoswho/torben.html">Torben Nehmer</a> and will also improve Midgard's <a href="http://www.midgard-project.org/community/development/mrfc/0010.html">metadata capabilities</a>.
+</p>
+
+<p>
+The idea for this new search implementation originates from the Lucene session of <a href="http://bergie.iki.fi/blog/first_day_of_oscom_4.html">OSCOM 4 conference</a>. Instead of running a separate spidering process, <a href="http://www.midgard-project.org/projects/midcom/">MidCOM</a> will update the search index every time content is changed. Search results will be handled as Midgard objects, allowing their respective components to handle display of individual items. This means that photo records in search results can display a thumbnail, and news items publication date.
+</p>
+
+<p>
+Other Midgard applications like <a href="http://www.openpsa.org/">OpenPSA</a> can also implement the indexing system into their saving routines, making information much more easily available.
+</p>
+
+<p>
+This isn't the first time Midgard is going to have an integrated search system. Old, pre-1.0 versions of Midgard implemented SQL LIKE queries for searching, and an old Midgard2 server built by Ami Ganguli had an <a href="http://www.xmlrpc.com/">XML-RPC</a> based indexer. Unfortunately Ami lost the source code for that and it was never deployed outside <a href="http://www.stonesoft.com/">Stonesoft's</a> extranet.
+</p>

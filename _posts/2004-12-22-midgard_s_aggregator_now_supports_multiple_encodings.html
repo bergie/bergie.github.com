@@ -1,0 +1,25 @@
+---
+  title: "Midgard's aggregator now supports multiple encodings"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+I've today upgraded the <a href="http://www.mezzoblue.com/subscribe/">RSS and Atom</a> news aggregator of <a href="http://www.midgard-project.org/cms/">Midgard CMS</a>, <a href="http://www.midgard-project.org/documentation/reference/components/net.nemein.rss.html">net.nemein.rss</a> to utilize the latest <a href="http://laughingmeme.org/magpie_blog/?p=74">Magpie RSS release</a>. The main new feature in Magpie 0.71 is support for <a href="http://minutillo.com/steve/weblog/2004/6/17/php-xml-and-character-encodings-a-tale-of-sadness-rage-and-data-loss">multiple character encodings</a>.
+</p><p>
+This means that news aggregators like <a href="http://www.midgard-project.org/planet/">Planet Midgard</a> can now safely read feeds whether they are in UTF-8, ISO-latin-1 or some other encoding and trust that they will be displayed correctly in both <a href="http://www.midgard-project.org/planet/">web</a> and the aggregator <a href="http://www.midgard-project.org/planet/rss.xml">RSS feed</a>. End-users of course must still have the required fonts installed to be able to display the output:
+</p><p style="text-align: center;"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-e1601de9095c35ec87f6a594f7254396/rss-encodings.jpg" border="0" height="110" width="189" alt="rss-encodings.jpg" title="net.nemein.rss displaying cyrillic and latin output" /></p><p>&#4307;&#4312;&#4307;&#4312; &#4315;&#4304;&#4306;&#4314;&#4317;&#4305;&#4304; (big thanks) to <a href="http://minutillo.com/steve/weblog/">Steve Minutillo</a> and the <a href="http://magpierss.sourceforge.net/">Magpie RSS</a> team for fixing this issue!
+</p>
+
+<p>
+<strong>Updated 2004-12-23:</strong> Another new feature in net.nemein.rss is that now it should tell MidCOM's <a href="http://www.midgard-project.org/documentation/concepts/midcom/specs/subsystems/cache.html">caching</a> to expire the aggregator pages every half hour, just like the Magpie RSS cache has been set to do. This means that the subscribed RSS feeds will be checked for relevancy once every 30 minutes also if MidCOM's cache system is enabled on the site.
+</p>
+
+<p>
+While this uses some bandwidth, Magpie RSS utilizes <a href="http://fishbowl.pastiche.org/2002/10/21/http_conditional_get_for_rss_hackers">Conditional GET</a> in its queries. If the feeds support the <a href="http://simon.incutio.com/archive/2003/04/23/conditionalGet">304</a> headers they will be downloaded only if they have actually been changed. See the <a href="http://regsched.bookinfo.info/">Regular Sucking Schedule</a> blog for more information.
+</p>
+
+<p>
+Contrary to <a href="http://bergie.iki.fi/blog/2004-08-12-000.html">earlier reports</a>, the RSS feeds generated out of MidCOM components like <a href="http://www.midgard-project.org/documentation/reference/components/de.linkm.newsticker.html">de.linkm.newsticker</a> do not yet support Conditional GET. Bug <a href="http://midcom.tigris.org/issues/show_bug.cgi?id=143">#143</a> has been filed on this.
+</p>

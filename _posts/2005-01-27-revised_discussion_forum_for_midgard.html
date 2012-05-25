@@ -1,0 +1,76 @@
+---
+  title: "Revised discussion forum for Midgard"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+This week I've been working on revising the <a href="http://www.midgard-project.org/">Midgard</a> discussion forum component to a usable shape. While the old version was OK when dynamically loaded as a comment system for blog postings or photos, it lacked the functionalities needed to make it a real forum.
+</p>
+
+<p>
+Main work with this new version was to port the forum to utilize datamanager, <a href="http://www.midgard-project.org/projects/midcom/">MidCOM's</a> data abstraction layer. This enables usage of the communityhtml data type for <a href="http://www.wolfpackclan.com/wolfactory/modules/wfsection/article.php?articleid=30">bbCode</a> support, and makes it possible for the site administrators to add new data fields for comments and threads using a simple configuration format. The complete output of the component can be modified using MidCOM's <a href="http://www.midgard-project.org/documentation/concepts/midcom/specs/subsystems/style-engine.html">templating model</a>. The default output templates now provide many hooks for styling via CSS.
+</p>
+
+<p style="text-align: center;">
+<img src="http://bergie.iki.fi/midcom-serveattachmentguid-9c9afb45960a63b8f1a73272ed6ac9b8/discussion-reply.png" border="0" height="340" width="350" alt="discussion-reply.png" title="Datamanager-powered posting form" />
+</p>
+
+<p>
+In addition to datamanager support, several other features were added:
+</p>
+
+<ul>
+  <li>Moderators and administrators can now delete posts</li>
+  <li>Threads are now shown together with posts in the "latest" view</li>
+  <li>Threads have nicer, title-based URL names</li>
+  <li>Thread list is now split to subpages, with configurable number of threads per page</li>
+  <li>Threads are not listed in site navigation by default</li>
+  <li>Subthread support has been removed for better clarity, performance and <a href="http://www.phpbb.com/">phpBB</a> compatibility</li>
+</ul>
+
+<p>
+This new and more usable version of the <a href="http://www.midgard-project.org/documentation/reference/components/net.nemein.discussion.html">net.nemein.discussion</a> component is available in MidCOM CVS. However, many more improvements are being worked on.
+</p>
+
+<h3>Tier 1: Better discussion board</h3>
+
+<ul>
+  <li>"Notify me of new messages in this thread" subscription system instead of sending new comments to thread author</li>
+  <li>Native anonymous posting support similar to the <a href="http://www.midgard-project.org/documentation/reference/components/net.nemein.wiki.html">Midgard Wiki</a></li>
+  <li>Datamanager-based configuration UI</li>
+</ul>
+
+<h3>Tier 2: External interfaces</h3>
+
+<ul>
+  <li>RSS 2.0 output (both all latest comments and per-thread)</li>
+  <li><a href="http://wellformedweb.org/story/9">wfw:comments</a> API support</li>
+  <li><a href="http://www.gravatar.com/">Gravatar</a> support</li>
+  <li>phpBB import and migration tool</li>
+  <li>Easier addition of comments support for blogs powered by <a href="http://www.midgard-project.org/documentation/reference/components/de.linkm.newsticker.html">de.linkm.newsticker</a></li>
+  <li>Skipping MidCOM <a href="http://www.midgard-project.org/documentation/concepts/midcom/specs/subsystems/cache.html">cache engine</a> in midcom-template when a comment is submitted</li>
+</ul>
+
+<h3>Tier 3: Better user experience</h3>
+
+<ul>
+  <li>User registration and avatar handling with the net.nemein.personnel component</li>
+  <li>Caching number of posts per username</li>
+  <li>IP, domain and username blacklisting support</li>
+  <li>Providing thread moderation tools</li>
+  <li>Allowing thread editing and deleting only for the poster, not all owners</li>
+</ul>
+
+<p>
+Most of this work will be financed by two of our clients, an ISP and a radio station. I will implement tier 1 and some tier 2 features soon myself, and the rest will wait until <a href="http://www.midgard-project.org/community/whoswho/torben.html">Torben</a> gets enough time from <a href="http://www.nathan-syntronics.de/nathan/news/first_steps_in_the_midcom__p_lucene_integration.html">his work</a> on Midgard's new <a href="http://bergie.iki.fi/blog/midgard_will_have_integrated_search.html">integrated search engine</a>.
+</p>
+
+<p>
+Now the discussion forum is only 1843 lines of code including layout templates. The reason why it was rewritten only now is that I was unnecessarily intimidated by datamanager's creation mode. However, after a bit of thought it proved to be a surprisingly simple API to work with.
+</p>
+
+<p>
+<strong>This blog post</strong> has been written in <a href="http://www.avecra.fi/?cmsfid=90">Pullman Bar</a> powered by Velkopopovick&#253; Kozel and Cohiba Siglo III. Next on the agenda is the radio technology lecture of the PPL(A) course.
+</p>

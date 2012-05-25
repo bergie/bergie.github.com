@@ -1,0 +1,23 @@
+---
+  title: "Filesystem-enabled MidCOM-template now available"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+<p>
+Testing the new filesystem-enabled version of MidCOM is now easier than
+ever, with the new forked and <a href="http://midcom.tigris.org/source/browse/midcom/fs-midcom/midcom-template/">fs-enabled version</a> of midcom-template:
+</p>
+<ol>
+<li>Get fs-midcom from CVS</li>
+<li>Install the new fs-enabled midcom-template from CVS</li>
+<li>Install fs-midcom under /usr/share/pear/midcom<br />
+    <em>Note: you can change this path from /midcom-admin/settings</em></li>
+<li>Symlink the static directory to your DocumentRoot. For example:<br />
+ln -s /usr/share/pear/midcom/static /var/websites/www.ruutukuningatar.net_80/html-data/midcom-static</li>
+</ol>
+<p>
+...and you're done. <a href="http://bergie.iki.fi/">My site</a> now runs this new midcom-template. The transition was very easy.
+</p>
+

@@ -1,0 +1,48 @@
+---
+  title: "Setting Adium status from a microsummary"
+  categories: 
+    - "desktop"
+  layout: "post"
+
+---
+<p>
+<a href="http://www.mozilla.com/en-US/firefox/">Firefox 2</a>  provides an useful <a href="http://wiki.mozilla.org/Microsummaries">feature called Microsummaries</a>. Microsummaries enable <a href="http://www.melez.com/mozilla/microsummaries/walkthrough.html">users&#39; bookmark labels</a>  to get automatically updated based on data on the site. This site provides my <a href="http://beta.plazes.com/user/bergie">Plazes location</a>  and latest <a href="http://twitter.com/bergie">Twitter message</a>  as a microsummary:
+</p>
+<p>
+<img src="/midcom-serveattachmentguid-d9719bf6a7de11db8b8949e1f1636fa26fa2/microsummary-in-bookmarks_small.png" border="0" /> <br />
+</p>
+<p>
+Before this I&#39;ve been using a <a href="http://ruk.ca/article/2886">script to populate my Plazes location</a>  to the Adium instant messaging status, but now I though the combination of position and status would be better here too. So I whipped up this quick AppleScript:
+</p>
+<pre>
+-- Bergie&#39;s blog summary updater
+-- It reads the microsummary of a web page via Lynx and
+-- then sets it as the Adium status line
+-- Set the URL of your Microsummary page here
+set summaryUrl to &quot;http://bergie.iki.fi/status/microsummary/bergie&quot;
+set microSummary to do shell script &quot;/opt/local/bin/lynx -width 500  -dump &quot; &amp; summaryUrl &amp; &quot;|iconv -f ISO-8859-1 -t UTF-8&quot;
+set locationSummary to findAndReplace(&quot;Henri Bergius, in &quot;, &quot;&quot;, microSummary)
+tell application &quot;Adium&quot;
+set my status message to locationSummary
+end tell
+on findAndReplace(tofind, toreplace, TheString)
+set ditd to text item delimiters
+set res to missing value
+set text item delimiters to tofind
+repeat with tis in text items of TheString
+if res is missing value then
+set res to tis
+else
+set res to res &amp; toreplace &amp; tis
+end if
+end repeat
+set text item delimiters to ditd
+return res
+end findAndReplace
+</pre>
+<p>
+I set this to be run when I connect, and here are the results:&nbsp;
+</p>
+<p>
+<img src="/midcom-serveattachmentguid-f97f6b6ca7de11db960435601f4608eb08eb/adium-microsummary-status_small.png" border="0" />
+</p>

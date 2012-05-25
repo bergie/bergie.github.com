@@ -1,0 +1,16 @@
+---
+  title: "GObject Introspection is coming to PHP"
+  categories: 
+    - "desktop"
+    - "midgard"
+  layout: "post"
+
+---
+<p>In the <a href="http://www.midgard-project.org/updates/midgardcr_10-12-hrungnir-released/">next-generation Midgard Content Repository</a> we decided to focus on <a href="http://live.gnome.org/GObjectIntrospection">GObject Introspection</a> for providing bindings to various programming languages like Python and JavaScript. The advantages for automatically generated bindings are quite obvious when compared to the situation with older Midgard versions where we had to maintain them manually. Unfortunately PHP didn't have GObject Introspection support, but that is about to change. <a href="http://blog.milkfarmsoft.com/2011/02/gobject-for-php-new-bindings-project/">Alexey from the Midgard team writes</a>:</p>
+<blockquote>
+<p>These days, a lot of effort in GNOME community goes into <a href="http://live.gnome.org/GObjectIntrospection">GObject Introspection</a> project. They idea is, that bindings developers spend too much time by manually tweaking bindings to every change in C libraries. That’s what PHP-GTK team had to do, for example.</p>
+<p>Here’s quotation from project’s web site:</p>
+<blockquote>The introspection project solves this by putting all of the metadata inside the GObject library itself, using annotations in the comments. This will lead to less duplicate work from binding authors, and a more reliable experience for binding consumers. Additionally, because the introspection build process will occur inside the GObject libraries themselves, a goal is to encourage GObject authors to consider shaping their APIs to be more binding friendly from the start, rather than as an afterthought.</blockquote>
+<p>So, “introspection” branch aims to provide bindings for GObject Introspection infrastructure. The main entry point is <strong>GIRepository\load_ns(‘Namespace’)</strong> function, which creates php-counterparts of all classes, functions, constants of corresponding GObject namespace dynamically. At least, it will do that one day. With your help</p>
+</blockquote>
+<p>Once this work is complete we aim to have PHP as a properly supported GNOME and MidgardCR language. I know some people <a href="http://www.koch.ro/blog/index.php?/archives/148-Ive-been-young-I-needed-the-money.html">despise the language</a>, but it has its <a href="http://blog.liip.ch/archive/2011/02/24/why-we-stick-to-php.html">uses and supporters</a>, especially in the web space. There access to various GNOME libraries can bring lots of possibilities. <a href="http://telepathy.freedesktop.org/wiki/">Telepathy</a> or <a href="http://projects.gnome.org/tracker/">Tracker</a> on a server? With <a href="https://github.com/indeyets/gobject-for-php">GObject for PHP</a> you could also write <a href="http://gnome3.org/">GNOME3</a> desktop applications in the language.</p>

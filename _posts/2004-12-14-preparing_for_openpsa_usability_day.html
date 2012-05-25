@@ -1,0 +1,35 @@
+---
+  title: "Preparing for OpenPSA usability day"
+  categories: 
+    - "openpsa"
+  layout: "post"
+
+---
+<p>
+Tomorrow has been marked as the <em>Beautiful OpenPSA Day</em> in <a href="http://www.nemein.com/">our</a> corporate <a href="http://www.openpsa.org/openpsa/calendar.html">group calendar</a>. The idea is to gather the whole team together to fix <a href="http://www.openpsa.org/">OpenPSA</a> usability and eye candy issues.
+The date was set down when we decided to move <a href="http://www.midgard-project.org/">Midgard CMS</a> closer to the <a href="http://www.gnome.org/">GNOME desktop</a> usability-wise in an effort known as <a href="http://bergie.iki.fi/blog/project_gnomegard.html">Project GNOMEgard</a>.
+</p><p>
+Here are some ideas on what we should get started tomorrow:
+</p><ul><li>Usability</li><ul><li>Migrating forms to more <a href="http://www.themaninblue.com/writing/perspective/2004/03/24/">accessible model</a> using XHTML labels and fieldsets</li><ul><li>This will be a long road. The login screen and some individual screens now implement this</li></ul><li>Implementing <a href="http://www.cs.tut.fi/~jkorpela/forms/accesskey.html">access keys</a> for switching between different tabs in OpenPSA applications</li><ul><li>Access keys in top menu are:</li><ul><li>1: My summary</li><li>2: Calendar</li><li>3: Sales or Contacts</li><li>4: Projects</li><li>5: Documents</li><li>6: Personnel</li><li>7: Reports</li><li>8: Support</li><li>9: Email</li><li>0: Logout</li></ul></ul><li>Implementing as much as <a href="http://developer.gnome.org/projects/gup/hig/1.0/">GNOME Human Interface Guidelines</a> as is practical</li></ul><li>Eye candy</li><ul><li>Switching Documents to use GNOME <a href="http://primates.ximian.com/~tigert/new_stock_project/">document icons</a></li><li>Adding GNOME stock icons to buttons where appropriate</li><li>Selecting identifier icons for several different resource types in OpenPSA</li><ul><li>Person <img src="http://jimmac.musichall.cz/ikony/i61/stock_person.png" /></li><li>Company (or department) <img src="http://jimmac.musichall.cz/ikony/i61/stock_people.png" /></li><li>Document (attachment) <img src="http://primates.ximian.com/~tigert/new_stock_project/icons16/stock_attach-16.png" /></li><li>Event (calendar reservation) <img src="http://jimmac.musichall.cz/ikony/i61/calendar.png" /></li><li>Project</li><li>Task (or TODO item)<img src="http://jimmac.musichall.cz/ikony/i61/todo.png" /></li></ul><li>Using <a href="http://primates.ximian.com/~tigert/new_stock_project/pics/ximian-palette.png">GNOME palette</a> for the default UI colors</li></ul></ul><p>
+I'll update this document as we go. If you have any additional items, please <a href="mailto:henri.bergius@nemein.com">let me know</a>.
+</p><p>
+The icons above are deep linked from their authors' sites. I know this is the wrong approach but I'm in a bit of haste. Sorry.
+</p>
+
+<p>
+<strong>Updated 2004-12-15 14:35</strong>: There have been quite many CSS and API changes today, including a complete overhaul of the UI colors to GNOME palette and introduction of the <tt>openpsa_icon()</tt> interface for easily using icons from library in the applications.
+</p>
+
+<p>
+Before:<br />
+<img src="http://bergie.iki.fi/midcom-serveattachmentguid-7059cdceb49c8118202fc9a8cb265351/personeditor-old.jpg" border="0" height="201" width="401" alt="personeditor-old.jpg" />
+</p>
+
+<p>
+After:<br />
+<img src="http://bergie.iki.fi/midcom-serveattachmentguid-fc08c2d73aec36d29397cb4774d87577/personeditor-new.jpg" border="0" height="202" width="400" alt="personeditor-new.jpg" />
+</p>
+
+<p>
+This is a good start, but getting OpenPSA to the GNOME level of usability will still be a long road.
+</p>

@@ -1,0 +1,51 @@
+---
+  title: "Testing Ubuntu, blogging on GNOME"
+  categories: 
+    - "desktop"
+  layout: "post"
+
+---
+
+<p>Kerttu needs a computer to accompany the <a href="http://bergie.iki.fi/blog/2004-09-15-000.html">Psion notepad</a> for her biology studies. Since I didn't want to get a desktop system, I took one of the old <a href="http://www.nemein.com/">company</a> HP Omnibook 500 laptops and set up Linux on it. This gave me a perfect opportunity to try the new <a href="http://www.ubuntulinux.org/">Ubuntu</a> distribution.</p>
+
+<p>
+The first installation was a problem because the system had some data from an old Red Hat 8 installation that I wanted to preserve. Ubuntu refused to install on the existing filesystem, and only worked after I copied the data to my <a href="http://www.apple.com/ibook/">iBook</a> and let the Ubuntu installer format the hard drive. Other than that the installation was very smooth. Ubuntu probed all the hardware correctly, including my D-Link WLAN card and the display. However, on startup X refused to work.
+</p>
+
+<p>
+To solve this I had to manually install the <strong>xserver-xfree86</strong> and <strong>xbase-fonts</strong> packages.
+</p>
+
+<p>
+After that the system has behaved nicely, presenting a very attractive desktop with a good set of tools preinstalled, including Firefox and Openoffice.org. The only problem that still lingers is that the Omnibook display tends to turn white after a while of use. This is a <a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?admit=716493758+1101911846209+28353475&threadId=121645">known hardware problem</a> apparently caused by loose display connector.</p>
+<p style="text-align: center;"><img src="/attachment/1c9911cd91578c9791796c44fea32890/7eae2249b6b4400b67cd1bb4197e0846/ubuntu-desktop-20041201.jpg" />
+</p>
+
+<h2>Blogging on GNOME</h2>
+
+<p>
+Having a new <a href="http://www.gnome.org/">GNOME</a> installation in front of me allowed me to finally test the blogging functionality of the desktop.
+</p>
+
+<p>
+By default Ubuntu doesn't include any blog-related tools, but they were easily available from the universe repository. Simply edit the <em>/etc/apt/sources.list</em> file and uncomment the two lines pointing to universe. You can probably also enable them in the Repositories window of Synaptic.
+</p>
+
+<p>
+After editing the APT sources list, I fired up <a href="http://www.nongnu.org/synaptic/">Synaptic package manager</a>, which is the default package installation tool for Ubuntu. The three packages relevant to blogging were <a href="http://www.imendio.com/projects/blam/">blam</a>, an RSS news reader, <a href="http://www.gnome.org/~seth/gnome-blog/">gnome-blog</a>, a simplistic blog poster and <a href="http://blogtk.sourceforge.net/">blogtk</a>, a slightly more comprehensive weblog editor.</p>
+<p>
+<strong>Blam</strong> is an RSS news reader. It uses a three-pane layout where the subscribed channels and their unread item counts are shown on left, headlines of current channel on top and the content at the bottom. Blam also adds a notification icon to the GNOME panel reporting when new items are available. Unfortunately Blam doesn't do too well in comparison to the popular Mac OS X newsreader, <a href="http://ranchero.com/netnewswire/">NetNewsWire</a>. The UI feels much clunkier and simple tasks like removing multiple subscribed feeds are not possible. <a href="http://ranchero.com/netnewswire/features/externalEditors.php">Integration with desktop blogging tools</a> is also missing.</p>
+<p style="text-align: center;"><img src="/attachment/1c9911cd91578c9791796c44fea32890/9e635cf18324a5666c74bbb1999d0aba/blam.jpg" />
+</p>
+
+<p>
+The blogging tools, <strong>gnome-blog</strong> and <strong>BloGTK</strong> also fare quite badly against the common Mac OS X or Windows tools for the task like <a href="http://ranchero.com/marsedit/">MarsEdit</a> and <a href="http://ecto.kung-foo.tv/">ecto</a>. Neither application supported <a href="http://archipelago.phrasewise.com/stories/storyReader$1330">RSD auto-probing</a> of MetaWebLog settings, or uploading of attachments using the <a href="http://www.xmlrpc.com/metaWeblogApi#metaweblognewmediaobject">metaWeblog.newMediaObject</a> API. Gnome-blog aims to be a quick tool for blogging notes, and its simplistic interface integrated with the GNOME panel fits this paradigm well. However, with BloGTK the editing of existing posts has been needlessly hidden under a menu item. The <a href="http://ranchero.com/images/marsedit/marseditMainScreenshot.png">email-like paradigm</a> used by MarsEdit would work much better, as would initiating the edit calls from Blam.</p>
+<p style="text-align: center;"><img src="/attachment/1c9911cd91578c9791796c44fea32890/f29e2d41ba84f0cb679c307736a79999/gnome-blog.jpg" />
+</p>
+
+<p>
+<strong>Note:</strong> There was an issue preventing the GNOME desktop blogging tools from being used with <a href="http://www.midgard-project.org/">Midgard CMS</a>. A <a href="http://midcom.tigris.org/source/browse/midcom/fs-midcom/lib/de/linkm/newsticker/metaweblog_api.php?r1=1.1&r2=1.2">single line fix</a> was committed today based on my tests. Now blogging from the GNOME desktop to Midgard should work. Another small step in the <a href="http://bergie.iki.fi/blog/project_gnomegard.html">GNOMEgard</a> program.
+</p>
+
+<p>
+This post has been made using <a href="http://blogtk.sourceforge.net/">BloGTK</a> and then edited using <a title="MidCOM Authoring Interface System, editing UI of Midgard CMS" href="http://www.midgard-project.org/projects/midcom/">MidCOM AIS</a> to add images and categorization.<br /> </p>

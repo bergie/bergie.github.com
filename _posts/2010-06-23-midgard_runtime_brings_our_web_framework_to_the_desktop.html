@@ -1,0 +1,26 @@
+---
+  title: "Midgard Runtime brings our web framework to the desktop"
+  categories: 
+    - "desktop"
+    - "midgard"
+  layout: "post"
+
+---
+<p><a href="http://www.midgard-project.org/updates/midgard2_10-05-1-ratatoskr-lts_released/">Midgard2 10.05.1 was released</a> yesterday, bringing a long-waited feature finally to the Midgard installation packages: the <em>Midgard Runtime</em>.</p>
+<p>Midgard Runtime is an application that consists of a simple Qt WebKit viewer that, when run, starts a local Midgard web server on the background and connects to it. This means that you'll have the full Midgard MVC stack available on your own desktop, in a way that is easy to install and easy to run. Get it for your favorite Linux distribution <a href="http://download.opensuse.org/repositories/home:/midgardproject:/ratatoskr/">from OBS</a>!</p>
+<p><img src="/static/1/1df7ebd0f39e0467ebd11dfb50cc71550a9171e171e_midgard-runtime-ratatoskr-small.png" border="0" alt="midgard-runtime-ratatoskr-small.png" title="midgard-runtime-ratatoskr-small.png" /></p>
+<p>As a whole, the Midgard Runtime stack is quite interesting:</p>
+<ul><li>SQLite is used as the default storage through the <a href="http://live.gnome.org/ChooseLibgdaSQLite">libgda4 abstraction layer</a></li>
+<li><a href="http://bergie.iki.fi/blog/getting_started_with_the_midgard_content_repository/">Midgard2 is used as the content repository</a>, brought to PHP through an extension</li>
+<li><a href="http://bergie.iki.fi/blog/midcom_3_at_a_glance/">Midgard MVC</a> provides the web development framework</li>
+<li><a href="http://wiki.github.com/indeyets/appserver-in-php/">Alexey Zakhlestin's AppServer</a> is used as the pure-PHP web server</li>
+<li>The Qt application starts server processes on the background and displays the site in a WebKit view</li>
+<li>Runtime's bundle setup tool uses libraries from the <a href="http://blog.milkfarmsoft.com/2009/08/pake-php5-project-build-system/">Pake build system</a></li>
+</ul><p>The AppServer is particularly something that other PHP projects might find useful. Since the server itself is written in PHP you don't have any additional dependencies besides <em>php-cli</em>. It also means your application can use a lot more efficient caching as files have to be loaded only once, and things can be kept in memory between requests. Of course the downside is that if your PHP script dies, then the whole server is down. But that is easy to deal with by a bit of <a href="http://en.wikipedia.org/wiki/Defensive_programming">defensive programming</a>.</p>
+<p>At this point the Runtime is targeted at web developers interested in trying out Midgard, but eventually we'll be using the bundle system also for distributing full Midgard-powered web applications to the desktop. The progress on this can be followed <a href="http://github.com/midgardproject">on GitHub</a>.</p>
+<p>Compared to <a href="http://www.forum.nokia.com/Develop/Web/">Nokia's Web Runtime</a>, the Midgard Runtime should be more familiar to developers as you'll be able to write also server-side PHP code, not just JavaScript. In addition to PHP, the whole system is <a href="http://devel.akbkhome.com/seed/Midgard.html">also accessible</a> via any language that can handle <a href="http://live.gnome.org/GObjectIntrospection">GObject Introspection</a>.</p>
+<h2>So, what can I do with it?</h2>
+<ul><li>Install a Midgard environment with <em>$ midgard2-runtime-bundle-simple-install</em></li>
+<li>Start the runtime with <em>$ midgard2-runtime-bundle-simple-run</em></li>
+<li>Midgard MVC and components are located in <em>~/.midgard2/simple-bundle/</em>. This is where you can also place your own code</li>
+</ul>
