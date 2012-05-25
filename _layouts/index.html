@@ -2,47 +2,56 @@
 layout: default
 bodyclass: blog
 ---
-<header class="row">
+<header>
   <div class="span10 offset1">
     <h1>{{ site.name }}</h1>
   </div>
 </header>
-    <h2>{% unless paginator.page == 1 %}{{ page.title }} archives - page {{ paginator.page }}/{{ paginator.total_pages }}{% endunless %}</h2>
 
-{{ content }}
+<aside class="span6 offset1">
+  {% unless paginator.page == 1 %}
+  <p>This is page <em>{{ paginator.page }}/{{ paginator.total_pages }}</em> of the <a href="{{ site.url }}">{{ site.name }}</a> blog archives stretching back to 2004. On this page you have articles from {% for post in paginator.posts %}{% if forloop.first %}<em>{{ post.date | date_to_string }}</em> to {% endif %}{% if forloop.last %}<em>{{ post.date | date_to_string }}</em>{% endif %}{% endfor %}.</p>
+  {% else %}
+  {{ content }}
+  {% endunless %}
+</aside>
 
 {% for post in paginator.posts %}
-  <article vocab="http://schema.org/" about="{{ page.url }}" typeof="BlogPosting" class="row">
+<article vocab="http://schema.org/" about="{{ page.url }}" typeof="BlogPosting">
+    <h1 class="span8 offset1"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h1>
     <div class="span8 offset1">
-      <h1><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h1>
       {% if paginator.page == 1 %}
         {{ post.content }}
       {% else %}
-        {{ post.content | truncatewords:60 }}
+        {{ post.content | truncatewords:60 | strip_html }}
         <a href="{{ post.url }}" rel="bookmark">Read more &raquo;</a>
       {% endif %}
     </div>
     <div class="metadata span2">
-      {% if page.location %}
-      in <span rel="contentLocation" typeof="City"><span property="description">{{ post.location }}</span></span>, 
-      {% endif %}
       <span property="datePublished" content="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</span>
+      {% if post.location %}
+      in <span rel="contentLocation" typeof="City"><span property="description">{{ post.location }}</span></span>
+      {% endif %}
       <a rel="author" typeof="Person" href="http://bergie.iki.fi/#me"></a>
       <span property="wordCount" content="{{ post.content | number_of_words }}"></span>
     </div>
   </article>
   {% unless forloop.last %}
-  <hr />
+  <hr class="span8 offset1" />
   {% endunless %}
 {% endfor %}
 
-<div class="span8 offset3">
+<div class="span9 offset1">
   <ul class="pager">
   {% if paginator.next_page %}
     <li><a href="/page{{ paginator.next_page }}">&larr; Older</a></li>
   {% endif %}
   {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+    <li><a href="/">Newer &rarr;</a></li>
+    {% else %}
     <li><a href="/page{{ paginator.previous_page }}">Newer &rarr;</a></li>
+    {% endif %}
   {% endif %}
   </ul>
 </div>

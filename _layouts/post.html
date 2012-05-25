@@ -4,10 +4,10 @@ layout: 'default'
       <article vocab="http://schema.org/" about="{{ page.url }}" typeof="BlogPosting" class="span8 offset1">
         <header>
           <div class="metadata">
-            {% if page.location %}
-            in <span rel="contentLocation" typeof="City"><span property="description">{{ page.location }}</span></span>, 
-            {% endif %}
             <span property="datePublished" content="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</span>
+            {% if page.location %}
+            in <span rel="contentLocation" typeof="City"><span property="description">{{ page.location }}</span></span>
+            {% endif %}
             <a rel="author" typeof="Person" href="http://bergie.iki.fi/#me"></a>
             <span property="wordCount" content="{{ content | number_of_words }}"></span>
           </div>
