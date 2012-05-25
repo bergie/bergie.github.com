@@ -20,8 +20,8 @@
           <ul class="thumbnails">
             {% for image in page.images %}
             <li class="span{% if image.gridsize %}{{ image.gridsize }}{% else %}2{% endif %}">
-                <a href="{{ image.original }}" rel="lightbox[profile]" title="{{ image.label }}" class="thumbnail">
-                  <img src="{% if image.thumb %}{{ image.thumb }}{% else %}{{ image.original }}{% endif %}" alt="{{ image.label }}" />
+                <a href="/about/pictures/{{ image.original }}" rel="lightbox[profile]" title="{{ image.label }}" class="thumbnail">
+                  <img src="/about/pictures/{% if image.thumb %}{{ image.thumb }}{% else %}{{ image.original }}{% endif %}" alt="{{ image.label }}" />
                 </a>
               </li>
             {% endfor %}

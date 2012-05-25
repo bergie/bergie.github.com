@@ -181,7 +181,7 @@ lightbox = new Lightbox options
       left = $window.scrollLeft();
       $lightbox = $('#lightbox');
       $lightbox.css({
-        top: top + 'px',
+        top: (top - 25) + 'px',
         left: left + 'px'
       }).fadeIn(this.options.fadeDuration);
       this.changeImage(imageNumber);
