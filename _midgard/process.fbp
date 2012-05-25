@@ -1,0 +1,31 @@
+# Start by parsing the blogdump JSON and separating entries
+'blogdump.json' -> IN Read(ReadFile) OUT -> IN Parse(ParseJson)
+Parse() OUT -> IN SplitPosts(SplitArray) OUT -> IN GroupPost(GroupByPacket) OUT -> IN Split(Split) OUT -> IN Count(Counter) COUNT -> IN Display(Output)
+
+# Build the filename out of date, name, and suffix
+'buildfilename.fbp' -> GRAPH BuildFileName(Graph)
+Split() OUT -> SPLIT.IN BuildFileName()
+BuildFileName() BUILDFILE.OUT -> FILENAME Save(WriteFile)
+
+# Transform metadata
+'dc:title=title' -> MAP MapMetadata(MapProperty)
+'title' -> ACCEPT FilterMetadata(FilterProperty)
+'layout=default' -> PROPERTY SetLayout(SetProperty)
+Split() OUT -> IN MapMetadata()
+MapMetadata() OUT -> IN FilterMetadata()
+FilterMetadata() OUT -> IN SetLayout() OUT -> IN GetMetadata(ToYaml)
+
+# Extract contents
+'atom:content' -> KEY GetContent(GetObjectKey)
+Split() OUT -> IN GetContent()
+
+# Merge metadata and contents to a file
+GetMetadata() OUT -> IN BuildContents(Concat)
+'---' -> STRING Separator(SendString)
+Split() OUT -> IN Separator() OUT -> IN BuildContents()
+GetContent() OUT -> IN BuildContents()
+BuildContents() OUT -> IN CombineContents(CompileString)
+
+# Save
+CombineContents() OUT -> IN Save() OUT -> IN Display()
+Save() ERROR -> IN Display()
