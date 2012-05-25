@@ -1,26 +1,4 @@
 ---
-layout: default
+layout: index
 title: Blog
 ---
-<h1>{{ page.title }}{% if paginator.page %}{% unless paginator.page == 1 %} - page {{ paginator.page }}{% endunless %}{% endif %}</h1>
-{% for post in paginator.posts %}
-  <article class="row">
-    <header class="span2 offset1">
-    </header>
-    <div class="span8">
-      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      {{ post.content }}
-    </div>
-  </article>
-{% endfor %}
-
-<div class="span8 offset3">
-  <ul class="pager">
-  {% if paginator.next_page %}
-    <li><a href="/page{{ paginator.next_page }}">&larr; Older</a></li>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <li><a href="/page{{ paginator.previous_page }}">Newer &rarr;</a></li>
-  {% endif %}
-  </ul>
-</div>

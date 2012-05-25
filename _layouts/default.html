@@ -2,14 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>{{ page.title }} - {{ site.name }}</title>
+    <title>{{ page.title }} {% if paginator.page %}{% unless paginator.page == 1 %} archive {{ paginator.page }}/{{ paginator.total_pages }} {% endunless %}{% endif %}- {{ site.name }}{% if page.location %} in {{ page.location }}{% endif %}</title>
     <link rel="stylesheet" href="/style/css/bootstrap.css" />
     <link rel="stylesheet" href="/style/css/bergie-2012.css" />
-    <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css' />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-  <body{% if page.location %} class="{{ page.location }}"{% endif %}>
+  <body{% if page.bodyclass %} class="{{ page.bodyclass }} {% if paginator.page == 1 %} front{%endif %}"{% endif %}>
     <div class="container">
       {{ content }}
     </div>
