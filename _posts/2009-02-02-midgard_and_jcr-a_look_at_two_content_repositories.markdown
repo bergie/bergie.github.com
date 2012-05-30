@@ -1,0 +1,25 @@
+---
+  title: "Midgard and JCR: a look at two content repositories"
+  categories: 
+    - "midgard"
+    - ""
+  layout: "post"
+
+---
+<p>
+I've been following the <a href="http://en.wikipedia.org/wiki/Content_repository_API_for_Java">Java Content Repository</a> story since the <a href="http://www.oscom.org/events/">OSCOM conferences</a> of old. Last week, I took a new look at it as <a href="http://grep.codeconsult.ch/">Bertrand Delacretaz</a> from <a href="http://www.day.com/content/day/en.html">Day</a> held a JCR presentation in the <a href="http://bergie.iki.fi/blog/starting_the_interactive_knowledge_project/">Interactive Knowledge Consortium meeting</a>. And you know what? <a href="http://en.wikipedia.org/wiki/Midgard_(software)">Midgard</a> and JCR resemble each other quite a lot:
+</p><ul><li>Both follow a <a href="http://www.spectrum-systems.com/white_papers/wp_repository_centric_ea.pdf">repository-centric</a> approach, where the content repository is the point of integration between different tools and applications, with signals flying to inform about actions performed. In JCR this is done with Java events, and in Midgard with <a href="http://teroheikkinen.iki.fi/blog/midgard_workshop_at_fscons/">D-Bus signals</a>.</li>
+<li>Both are tree-based, enabling objects to be accessed either via their <a href="http://www.midgard-project.org/documentation/mgdschema-method-get_by_path/">path in the tree</a>, a <a href="http://www.midgard-project.org/development/mrfc/0018/">UUID</a>, or various queries. With JCR, the queries are typically <a href="http://wiki.gxdeveloperweb.com/confluence/display/GXDEV/XPath+JCR+Sample+Queries">XPath</a>, while with Midgard there is the <a href="http://www.midgard-project.org/documentation/midgardquerybuilder/">Query Builder</a>.</li>
+<li>Both also provide a reasonably simple way to define new data types. In JCR's case the <a href="http://jackrabbit.apache.org/node-type-notation.html">Node Type Notation</a> has a somewhat Ruby-like syntax, while <a href="http://www.midgard-project.org/documentation/mgdschema-file/">Midgard's MgdSchema</a> uses XML. Unstructured data is supported in both by extending the content objects with additional attributes.</li>
+<li>Both provide the notion of a <a href="http://www.nabble.com/JCR-workspace-usage-td3893800.html">workspace</a>, an ability to have multiple "virtual repositories" within one installation. In Midgard, this was originally implemented to support easier hosting and is called "<a href="http://www.midgard-project.org/documentation/concepts-sitegroups/">Sitegroups</a>".</li>
+</ul><p>
+There are some important differences, though:
+</p><ul><li>JCR is a <a href="http://jcp.org/en/jsr/detail?id=170">Java-centric specification</a>, with <a href="http://jackrabbit.apache.org/">Apache Jackrabbit</a> acting as the reference implementation. Midgard has only <a href="http://www.midgard-project.org/download/">one implementation</a>, but with bindings to multiple programming languages like <a href="http://www.midgard-project.org/documentation/python_midgard/">Python</a>, <a href="http://www.midgard-project.org/documentation/mgdschema-in-php/">PHP</a> and <a href="http://jaiku.com/channel/midgard/presence/52080041">C#</a>, allowing developers to work with the tools they are familiar with. Midgard APIs could of course be reimplemented natively in any of the languages, as was done with pure-PHP <a href="http://en.wikipedia.org/wiki/Midgard_Lite">Midgard-Lite</a> years ago.</li>
+<li>In JCR, everything is stored in a single content tree. In Midgard, the content tree can be multi-rooted, and there can be "<a href="http://www.midgard-project.org/discussion/developer-forum/mgdschema_dependent_objects/">independent</a>" objects that exist outside the tree hierarchy.</li>
+<li>The JCR specification allows for version control, which in Midgard is handled using <a href="http://www.midgard-project.org/documentation/midcom-services-rcs/">external tools</a>.</li>
+<li>Midgard supports <a href="http://www.midgard-project.org/documentation/php-midgard_replicator/">content replication</a>, which JCR does not.</li>
+<li>Midgard handles <a href="http://www.midgard-project.org/documentation/midgard-and-multilingual-content/">internationalization of content objects</a> as part of its API, but does not support multivalued properties as JCR does. To bridge this gap between the two repository APIs, I have posted <a href="http://trac.midgard-project.org/search?q=jcr&amp;noquickjump=1&amp;ticket=on">a series of feature requests</a> to Midgard's tracker.</li>
+</ul><p>
+Even with these differences, Midgard and JCR remain surprisingly similar on the conceptual level. It would be an interesting experiment to finally create the Midgard-JCR bindings that <a href="http://bergie.iki.fi/blog/jukka_back_from_hiatus__jcr_for_midgard/">Jukka Zitting started long time ago</a>.
+</p>
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/jcr" rel="tag">jcr</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/repository" rel="tag">repository</a></p>

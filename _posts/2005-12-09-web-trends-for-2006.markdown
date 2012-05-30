@@ -1,0 +1,54 @@
+---
+  title: "Web trends for 2006"
+  categories: 
+    - "midgard"
+  layout: "post"
+
+---
+It is December now, and my [RSS reader][1] is filling up with predictions for the [year 2006][15]. Here are snippets from some good ones:
+
+[37signals][6] challenges webmasters to [make their sites smaller][2]:
+
+> See what you can say in 3 pages instead of 6. Do you really need that extra page? Do you really need to add one more paragraph? Can&rsquo;t you explain that in 2 sentences instead of 4? Be wiser, not a know-it-all. Be the one who choses their words carefully, not the one who never shuts up.
+
+[Cameron Moll][7] makes guesses at [what is in and what is out in web design][5]. Two on the "ins":
+
+> __The fluid layout__ - I actually anticipated more wide-scale adoption of fluid layouts in 2005, but they didn&rsquo;t take hold as firmly as expected. Though I&rsquo;ve got hopes for 2006. So much so, in fact, that my case study site for [CSS Mastery][3] is a fluid one.
+
+> __JavaScript & DOM scripting__ - I&rsquo;ve been able to get by the last few years with my measly JavaScript skills, you know where you just copy and paste existing scripts? Yeah, those skills. That&rsquo;ll change in 2006. The traditional role of &ldquo;web designer/developer&rdquo; will add JS/DOM to the existing XHTML/CSS mix. Those of us with sorry skills will expect to see a copy of Jeremy Keith&rsquo;s [DOM Scripting][4] under the tree this Christmas.
+
+[Andy Budd][8] talks about the [visual design trends][9]:
+
+> Designs will soften, with more rounded corners, pastel colours and hinted boxes. Drop shadows and gradients will remain, but in a much subtler form to avoid visual clutter. 2006 will also be a year of transparency, with a profusion of fade effects and the PNG becoming the rightful heir to the image crown.
+
+I find myself agreeing with many of these. In the latter half of 2005 I've noticed myself starting to pay a lot more attention, and actually use things like _AJAX_, _Javascript_, _fluid layouts_, _CSS versions for handhelds_, and obviously, _rounded corners_.
+
+The main complaint for the [AJAX][10] hype has been that the technology has been around for a long time already. But just like with CSS and RSS, it took a while before there was enough knowledge and compelling case examples of AJAX around for people to actually trust in the technology. Javascript incompatibilities bit web developers badly in the old days, and it takes a while to get over it.
+
+As for [Midgard][11] predictions for 2006, it is actually a bit difficult to pick the right trends. So huge amount of stuff happened in 2005 that we never could anticipate. What I'd like to happen though would be:
+
+* __Simplification__ - Removing all the unnecessary UIs and other legacy cruft as we near the 2.0 release
+
+* __Clarification__ - Making the strong points of Midgard like the templating system, editable content schemas and the plethora of components more clearly visible for end users
+
+* __Connectivity__ - Starting to really use tools like RSS, microformats and [DBE][12] for connecting sites and servers with each other
+
+* __Performance__ - The [metadata system][13] in MidCOM 2.4 hurt Midgard's performance quite badly, and we really need to get it back
+
+These, together with all the application development projects into the [OpenPsa][14] suite we've been contracted to do will make 2006 quite a busy year.
+
+[1]: http://ranchero.com/netnewswire/
+[2]: http://37signals.com/svn/archives2/a_challenge_for_2006_cut_your_site_in_half.php
+[3]: http://www.amazon.com/exec/obidos/ASIN/1590596145/authenticbore-20
+[4]: http://www.amazon.com/exec/obidos/ASIN/1590595335/authenticbore-20
+[5]: http://www.cameronmoll.com/archives/000666.html
+[6]: http://37signals.com/svn/
+[7]: http://www.cameronmoll.com/
+[8]: http://www.andybudd.com/
+[9]: http://www.andybudd.com/archives/2005/12/web_design_and_development_trends_for_2006/
+[10]: http://bergie.iki.fi/links/ajax.html
+[11]: http://www.midgard-project.org/
+[12]: http://www.digital-ecosystem.org/
+[13]: http://www.midgard-project.org/midcom-permalink-c25d278a232a61cc6218d726215916e4
+[14]: http://www.openpsa.org/
+[15]: http://en.wikipedia.org/wiki/2006
