@@ -1,0 +1,531 @@
+---
+title: Transcript from first Midgard IRC meeting
+layout: post
+categories:
+  - midgard
+---
+<p>The almost-unedited IRC transcript from the first Midgard meeting. (22nd Jul. 1999)</p>
+
+<p>
+16:57:07 &lt;bergie> Hmm... our network connection is hiccupping a bit,
+so don't be confused if we get disconnected. :-(
+<br>16:58:47 &lt;bergie> Ok, 15:00 GMT now.
+<br>17:00:51 &lt;bergie> Jukka is still writing some email, so lets wait
+for him before we begin...
+<br>17:01:55 &lt;bergie> BTW. The Midgard-PHP patch for PHP 3.0.11 is now
+available on the Midgard Web site.
+<br>17:02:10 &lt;is> it's 3:08 ..
+<br>17:05:44 &lt;hukka> Hiho!
+<br>17:06:01 &lt;bergie> Ok, shall we begin?
+<br>17:06:12 &lt;yo>
+<br>17:06:23 &lt;hukka> Yeah, let's go!
+<br>17:06:43 &lt;bergie> I just threw a reminder email to Midgard mailing
+list, and if more people are coming from there, they can catch up then...
+<br>17:07:09 *** irc (emile@boha.uci.kun.nl) has joined #midgard
+<br>17:07:31 &lt;bergie> Hi, emile!
+<br>17:07:45 &lt;hukka> The reason for calling together this meeting is
+that as Midgard now is becoming a more and more steady and usable platform,
+we two alone won't be able to do everything with Midgard.
+<br>17:07:55 &lt;irc> He, Hi. I was wondering wether this thing was on
+:)
+<br>17:08:10 &lt;irc> Oh boy, and have I got a load of things I want to
+have/do
+<br>17:08:34 *** Offering DCC CHAT to bergie
+<br>17:08:34 &lt;bergie> We are just beginning.
+<br>17:08:49 *** bipo (bipo@ns.pages.at) has joined #midgard
+<br>17:09:02 &lt;irc> Right, which means this is the time to think about
+how to incorporate aal the functionality
+<br>17:09:11 &lt;irc> Is there a roadmap/design available?
+<br>17:09:16 &lt;hukka> So I'd like to introduce new people to the Midgard
+internals and tell a bit about what's going on with the development.
+<br>17:09:59 &lt;hukka> The current roadmap is at http://www.midgard-project.org/article/997.html
+<br>17:10:24 &lt;irc> Yes, the 'vision statement'. What I would need to
+get started is a peek inside.
+<br>17:10:54 &lt;bergie> Well, that is why we have this meeting here, isn't
+it? ;-)
+<br>17:11:09 &lt;irc> OK, colour me anxious to get started :)
+<br>17:12:28 &lt;hukka> Yep, perhaps we'll start this by discussing a bit
+about what me and Henri think about the long term goals (a year =) of Midgard
+and then go to more details about how everything could be implemented and
+who can do what.
+<br>17:12:58 &lt;irc> FBM
+<br>17:12:59 &lt;hukka> Of course everyone may (and should) give comments
+and new ideas.
+<br>17:13:43 &lt;bergie> At the moment Midgard is still pretty much what
+it has been all a long - a tool for our own Web building needs.
+<br>17:14:27 &lt;bergie> But by getting also others to work on it and give
+ideas for future developments, we easily improve it to work in many more
+general cases.
+<br>17:16:09 &lt;hukka> The long term vision is to make Midgard a central
+storage and processing engine for a number of different data objects that
+can be accessed over the network through web and a number of other standard
+means.
+<br>17:16:10 &lt;bergie> We have some ideas on where Midgard could go (things
+like CORBA support for interaction with desktop clients and backend applications
+and WAP/PIM functionalities), but extending the system to also other areas
+fill be beneficial to all in Midgard community.
+<br>17:16:57 &lt;Milosch> imho, would be heavily used if workable as a
+db interface designer, for intranet sites...
+<br>17:17:12 &lt;bipo> hi all ... is this "meeting" only supposed for midgard-developers
+or can ordinary users also ask some questions/get awnsers for some problems
+?
+<br>17:17:54 &lt;irc> I too want to use it for an intranet server project.
+Midgard covers a lot of great things that I need, but not all, currently
+<br>17:17:55 &lt;bergie> You can also ask questions about Midgard's usage
+here, but of course the main focus will be on Midgard development. The
+Midgard mailing list is also a good forum for getting help.
+<br>17:18:49 &lt;bergie> We are actually running our employer's corporate
+intranet with Midgard, but then again it was easy for us to customize Midgard
+to fill our needs in the task.
+<br>17:19:14 &lt;bipo> it should be a good forum for getting help ... but
+i sent a mail a frew days ago and got no awnser
+<br>17:19:22 &lt;irc> Hukka, Bergie, how do you want this discussion? Do
+you first want to explain how the internals work? Or should I start whining
+about my needs now and take that as an angle :) ?
+<br>17:19:25 &lt;bipo> i even send it to jukka - no awnser ...
+<br>17:20:20 &lt;hukka> Sorry for not answering yet. I was sick for the
+last two days, and the email's are just drowning me... I'll get around
+to answer the mail, but not immediately... :-(
+<br>17:21:10 &lt;bipo> ok ... that's all i wanted
+<br>17:21:11 &lt;bergie> bipo: it might have been missed out. There are
+mostly only the two of us (Jukka and I) answering questions, and we were
+very much swamped with email after the 1.1 release.
+<br>17:21:16 &lt;bipo> thanks for your help :)
+<br>17:21:59 &lt;bipo> no prob ... i just wanted to know if there's a chance
+getting awnser
+<br>17:22:10 &lt;hukka> Emile (and everybody else too): Please state your
+whishes, it would be good to know also other opinions on what should be
+done.
+<br>17:22:28 *** Aldaron (alokas@mb-u02ip052.mbnet.fi) has joined #midgard
+<br>17:22:37 &lt;Aldaron> Agh, finally here
+<br>17:22:41 &lt;bergie> Greetings, Alokas!
+<br>17:22:45 *** NickG (nick@odin.easysoft.com) has joined #midgard
+<br>17:22:47 &lt;irc> Ha! Here we go: I need to know about CGI integration,
+access control (per page/section), and file upload
+<br>17:23:04 &lt;Aldaron> b: ikkehirvi p&auml;rkele.
+<br>17:23:06 &lt;hukka> Let's then try to combine all of the wishes to
+a clearer vision statement and development plan.
+<br>17:23:39 &lt;Milosch> odbc is good, but I suppose that a mysql interface
+ala phpMyAdmin would be a nice module to aid in setup, or at least give
+show table and select capability on a particular db
+<br>17:24:06 &lt;bergie> irc: Access control for pages/sections and file
+uploading are both already implemented quite nicely (of course there are
+still things to improve), and CGI integration depends on what you need.
+<br>17:24:41 &lt;irc> Oh? Must have missed that. I only found a way to
+secure a whole site (al a admin site).
+<br>17:24:59 *** mauh (muhlig@uranos.cto.us.edu.pl) has joined #midgard
+<br>17:25:09 &lt;hukka> I've myself only used the mysql command line tools
+to administer the databases. Presenting phpMyAdmin as a low level management
+tool for the database might be a good idea.
+<br>17:25:35 &lt;bipo> so, i'm not disturbing you any longer ... cya &amp;
+thx
+<br>17:25:42 *** bipo has quit (Time wasted: 16 minutes 55 seconds)
+<br>17:25:42 &lt;Milosch> hukka: I was thinking insofar as db access for
+a host within midgard
+<br>17:26:29 &lt;irc> Re: CGI: Is there a way to run CGI scripts from a
+midgardized site?
+<br>17:26:37 &lt;hukka> OK, currently Midgard does not lend itself very
+well to general SQL queries as it tries to hide the database structures
+beneath the function interface...
+<br>17:26:56 &lt;Milosch> hukka: right... which is nice for me ;)
+<br>17:27:22 &lt;bergie> irc: Yes, it is. Having sites midgardized doesn't
+remove the possibility to have normal files and CGI scripts there.
+<br>17:27:47 &lt;Milosch> hukka: jsut to be sure I am clear, the midgard
+host is on the midgard db, this host uses another db for which simple tools
+would be nice
+<br>17:28:27 &lt;irc> OK. Re: Access control: where in the admin site would
+I specify what user has access to a specific section?
+<br>17:28:43 &lt;hukka> irc: You can require authentication on a subdirectory
+by setting the authentication:required setting for a page record.
+<br>17:29:18 &lt;irc> Yes, but how to specify only user X and group Y may
+enter?
+<br>17:29:31 *** _BilbO_ (rousseau@ns1.neuronnexion.com) has joined #midgard
+<br>17:29:49 *** _BilbO_ is now known as kdomi
+<br>17:29:54 *** kdomi is now known as domi
+<br>17:29:59 &lt;bergie> irc: If you want to limit some authenticated areas
+to certain users or groups, you can do it as a check in the code-init element
+(you have to write it in PHP/Midgard at the moment).
+<br>17:30:10 *** is (ejb@tart.brum2600.org) has left #midgard
+<br>17:30:27 &lt;hukka> Currently only with PHP code (mgd_list_memberships($midgard->user)),
+but it would be quite easy to modify the Midgard access control code to
+allow limiting access to specific groups.
+<br>17:30:50 &lt;irc> OK, I'll look into it. Re: uploads: what I meant
+was not uploading of entire files, but HTML snippets for the template mech.
+<br>17:31:22 &lt;hukka> Currently the authentication:required setting is
+only a flag, but it could easily be changed to be the ID number of a group
+(or 0 if authentication not required).
+<br>17:32:24 &lt;bergie> irc: that kind of file uploading would require
+some handling of the files in Midgard/PHP.
+<br>17:32:48 &lt;hukka> Milosch: Using the Midgard interface to access
+another db than the midgard db could be a bit troublesome. I'd believe
+using the standard PHP database functions would be enough.
+<br>17:33:26 &lt;irc> Correct. As I have mentionened on the list earlier:
+my users are very non-tech. They must be able to use WYSIWYG tools, or
+they'll panic :)
+<br>17:34:02 &lt;hukka> However I've though about a generic midgard functions
+(mgd_get, mgd_list, mgd_create, ...) for user-defined tables within the
+Midgard database.
+<br>17:34:42 &lt;domi> irc: you can also educate them, i think there no
+people so stupid that they can't learn a little step by step process
+<br>17:34:43 &lt;bergie> Ok. If you only need simple text, then using the
+Midgard text parser might be enough. I've seen very nontechinical people
+learn it in minutes. Of course, if you need more complex layouting, then
+WYSIWYG is what you need.
+<br>17:35:30 &lt;irc> You obviously haven't met my userbase :)
+<br>17:35:50 &lt;bergie> irc: ;-)
+<br>17:35:58 &lt;domi> irc: :o)
+<br>17:35:59 &lt;hukka> It could be also relatively easy to port a system
+like phpMyAdmin to work on top of Midgard. It would still be just PHP...
+<br>17:36:44 &lt;irc> Education would indeed solve the problem. I must
+face the fact that many of my users will be unwilling, though :(
+<br>17:37:08 &lt;bergie> irc: What kind of WYSIWYG tool are you looking
+for, FrontPage? Word? Handling HTML files wouldn't bee too complex, I guess.
+<br>17:37:27 &lt;hukka> Let's backtrack a bit. Irc and Bergie, you're still
+talking about file upload?
+<br>17:38:27 &lt;irc> I would say any tool that can spit out HTML and upload
+it via HTTP put.
+<br>17:38:58 &lt;domi> irc: if you present the things in a favorable fashion,
+they could be more interested, but yeah, it could be quite tricky :o))
+<br>17:39:24 &lt;hukka> We'd have a user that uses FrontPage to create
+a HTML file and to upload it to the server. She'd want the page to then
+be available on the net?
+<br>17:39:30 &lt;bergie> irc: Ok, so something like Communicator's editor?
+I believe adding functionality like this will require some work in Midgard's
+internals, but will help many people struggling with the same problem.
+<br>17:39:43 &lt;hukka> Embedded in a Midgardized site style?
+<br>17:40:10 &lt;domi> wouldn't webdav fullfill the need ? any way of doing
+a webdav module for midgard ?
+<br>17:40:21 &lt;bergie> I used to do this with FrontPage and SSI-based
+templates in pre-Midgard days, but it required some editing by hand.
+<br>17:40:41 &lt;bergie> webdav sounds very interesting, but we haven't
+yet had time to take a look at it.
+<br>17:41:08 &lt;irc> Yep. What I was thinking is 3 'kinds' of upload:
+1. Content to be embedded in a template. For this you can use the title
+and the body of the upload. 2. Master template, use the entire upload,
+or 3. template snippet, use only the body.
+<br>17:41:31 &lt;irc> Yep in reaction to embedding, BTW
+<br>17:42:15 &lt;hukka> OK, the type 1 upload should be relatively easy
+to implement.
+<br>17:43:23 &lt;hukka> We'll need a HTML parser (perhaps the xml parser
+of php could do) that parses the uploaded document. Then we'd just feed
+the data into a page or an article record.
+<br>17:43:30 &lt;domi> irc: you can also create some editing interface,
+where they just fill in the holes with the text
+<br>17:43:48 &lt;domi> which integrate itself into template that knowledged
+people design
+<br>17:44:25 &lt;domi> either they type directly in the form, or they do
+cut'n'paste
+<br>17:44:42 &lt;domi> I've got somethin like that working with really
+non-technical people
+<br>17:44:42 &lt;bergie> domi: that is what we are doing with our Intranet
+right now.
+<br>17:46:15 &lt;hukka> The only real limitation of the form approach is
+that you don't have any wysiwyg formatting capabilities. (Is that good
+or bad? ;-)
+<br>17:52:22 *** Disconnected.
+<br>17:52:26 *** Connected. Now logging in..
+<br>17:52:38 &lt;Aldaron> Haha ;-).
+<br>17:53:01 &lt;hukka> Ho, our connection breaks sometimes...
+<br>17:53:13 &lt;bergie> Damn, our ISP is hiccupping again. Hopefully this
+stays online from now on...
+<br>17:53:14 &lt;Aldaron> hukka: Up again?
+<br>17:53:25 &lt;Aldaron> Ah, ok =).
+<br>17:53:32 &lt;bergie> Where were we?
+<br>17:53:50 &lt;irc> Re: ugly HTML: yes, but my employer has little interest
+in how the HTML looks, just how it renders in IE and NN latest versions.
+We run an intranet, so we can 'force' our users to a certain version.
+<br>17:54:32 &lt;hukka> Uh, sounds bad... =(
+<br>17:54:39 &lt;bergie> BTW. emile's RPMs are now available at http://www.midgard-project.org/person/1007.html
+<br>17:54:55 &lt;hukka> Thanks, Emile!
+<br>17:55:14 &lt;bergie> emile: will you announce them on the list?
+<br>17:55:29 &lt;domi> irc: I meant ugly result :) (neither good on IE,
+NN either Win or Linux) because of each passing it through it's beloved
+wysiwyg tool and messing with the whole thing
+<br>17:55:36 &lt;irc> Darn, that's fast. They were checked in 2 minutes
+ago :) Yes, I'll announce.
+<br>17:55:44 &lt;bergie> Oops... wrong URL, correct one here: http://www.midgard-project.org/article/1095.html
+<br>17:57:32 &lt;Aldaron> I'll have to go. Happy midgarding ;-).
+<br>17:57:33 *** Aldaron has quit (Leaving)
+<br>17:58:18 &lt;bergie> BTW. Aldaron (Jonni Lehtiranta) is our FAQ maintainer.
+<br>17:59:26 &lt;hukka> About the FAQ, I just updated bits and pieces there.
+It should now be more or less accurate for the 1.1 series.
+<br>17:59:42 &lt;irc> Re: ugly HTML: OK, but that's a tunable process,
+and not necessarily done better by having the computer-phobic type in straight
+HTML in a textarea.
+<br>17:59:45 &lt;bergie> Very good. Jonni also promised to go through it
+soon.
+<br>18:00:00 &lt;domi> regarding IRC meeting like this, wouldn't it be
+wise of putting an irc.midgard-project.org that points to irc.openprojects
+? because I had to think twice before thinking about openprojects :o)
+<br>18:00:00 &lt;bergie> irc: that is true.
+<br>18:00:25 &lt;bergie> domi: We'll think about it. I've never set up
+an IRC server, tho'
+<br>18:00:29 &lt;domi> irc: yes, just don't let them type HTML :)
+<br>18:00:50 &lt;domi> (I know it's a little problematic when you nedd
+tables ;o)
+<br>18:00:53 *** mauh has quit (Ping timeout for mauh[uranos.cto.us.edu.pl])
+<br>18:01:28 &lt;hukka> Re: ugly HTML: letting dummy users directly edit
+the HTML is always a bit problematic...
+<br>18:01:48 &lt;domi> bergie: no need for the server itself, just having
+a DNS record that has a cnam to irc.openprojects.net
+<br>18:02:02 *** mauh (muhlig@uranos.cto.us.edu.pl) has joined #midgard
+<br>18:02:08 &lt;bergie> But anyhow, I like the WebDAV idea. If someone
+just had time to work on supporting it in Midgard...
+<br>18:02:25 &lt;hukka> perhaps the files should be run through a validator
+and then through some kind of a cleanup process... =) Just a wild idea...
+<br>18:04:34 &lt;hukka> Are there any decent WebDAV clients around?
+<br>18:04:42 &lt;irc> Re: ugly..: But that's what I'm looking at. I want
+to administer the site and help with the templates, but let the users handle
+the content.
+<br>18:04:54 &lt;domi> hukka: IE5 does it I think
+<br>18:05:09 &lt;irc> Re: webdav: only IE.latest I believe. And some from
+w3.org.
+<br>18:05:46 &lt;hukka> OK, that's not top priority then, but if someone
+is interested, adding DAV support for Midgard might be interesting.
+<br>18:06:50 &lt;irc> DAV: mainly adds versioning and locking control
+<br>18:06:58 &lt;domi> hukka: I think there was something discussed about
+it on the PHP lists also...
+<br>18:07:38 &lt;hukka> irc: Re: ugly HTML: Do you need to allow your users
+to edit the style elements also? Is it enough if they may only edit the
+content?
+<br>18:08:12 &lt;irc> Content would be sufficient, Templates would be a
+big plus.
+<br>18:08:34 &lt;domi> irc: and what sort of content would they have to
+edit ?
+<br>18:09:04 &lt;domi> quite rigid (like says a newletter, articles) or
+completely free form ?
+<br>18:09:39 &lt;irc> Free form, in principle, although the template itself
+may offer restrictions, size-wise.
+<br>18:10:00 &lt;hukka> I'm trying to follow the discussions on the PHP
+lists but I never have enough time... Wish there were a summary service
+like kernel traffic for the PHP lists.
+<br>18:10:34 &lt;irc> My main target would be, ATM, to ensure that the
+site maintains a non-optional common look &amp; feel (menus and stuff)
+<br>18:10:41 &lt;domi> yes or MWS (not sure of the initials of the Midgard
+Weekly thing :o)
+<br>18:11:31 &lt;bergie> BTW. isn't there already some kind of WebDAV module
+for Apache. If some of you want to take the project checking that out might
+be a good starting point.
+<br>18:12:20 &lt;irc> Yes, there is a DAV module available. To do the things
+I want, though, you'ld have to act immediately after the upload to strip
+it and put it in the DB
+<br>18:13:01 &lt;bergie> irc: I think the module would need some hacking
+to make it Midgard-aware, but it might still be worth trying
+<br>18:13:35 &lt;irc> Definately, *if* the module offers http put. Not
+much sense otherwise, if no client supports DAV, right?
+<br>18:14:18 &lt;hukka> Re: ugly...: Hmm, dropping HTML flow content from
+the uploaded files inside a style template could be enough. We'd need a
+some soft of a validator though.
+<br>18:14:23 &lt;bergie> irc: Right. But you can support HTTP put to some
+extent on Midgard already now, AFAIK
+<br>18:15:11 &lt;hukka> DAV: I'd believe that the existing DAV modules
+do support HTTP PUT. Also PHP does that.
+<br>18:15:38 &lt;irc> You mean the file uploads (like the attachments)?
+Yes, that would work too. But having PUT work you could just upload to
+the 'current' spot without having to go to the admin site or having a browse
+field on every page
+<br>18:15:38 &lt;bergie> If we had a simple SGML/XML parser in Midgard
+it should be easy enough to rip the content of the uploaded file to pieces
+that can be inserted to the Article table.
+<br>18:16:19 &lt;irc> That would be simple. Plenty parsers around.
+<br>18:16:38 &lt;domi> bergie: php already integrate an xml parser I beleive
+<br>18:17:11 &lt;hukka> irc: No, I mean real HTTP PUT, see http://www.php.net/manual/features.file-upload.put-method.php3.
+<br>18:17:40 &lt;bergie> domi: I didn't know that. Jukka has been talking
+of using GNOME's parser for it, but f PHP already has one...
+<br>18:17:47 &lt;domi> any news about php4/midgard cohabitation ?
+<br>18:18:07 &lt;domi> bergie: I think they link against expat
+<br>18:18:08 &lt;bergie> Jukka was sick for the last two days so we haven't
+even downloaded the PHP4 beta yet.
+<br>18:18:27 &lt;bergie> domi: ok, expat sounds good.
+<br>18:19:04 &lt;irc> Re: HTTP PUT in PHP: looks good, but it needs the
+page to be 'upload aware'. &lt;whine>And I want the access control to only
+allow it to certain users at certain places&lt;/whine> :)
+<br>18:19:42 &lt;bergie> irc: Jukka can send you some code examples on
+the access control after this meeting.
+<br>18:20:03 &lt;hukka> Not yet. I'd first need to contact the PHP team
+with the Midgard-PHP patch and ask if the Midgard parts could be merged
+to the PHP3 code tree. Then we could easily move up to PHP4.
+<br>18:20:11 &lt;bergie> BTW. any volunteers for the WebDAV project?
+<br>18:20:30 &lt;irc> Cool. I'll draft my ideas about access control over
+the weekend, and put it on the mailing list.
+<br>18:20:58 &lt;irc> I'll volunteer for the DAV stuff, but mainly to look
+into it. I can't plan much time (yet) for implementation.
+<br>18:21:09 &lt;hukka> irc: Yes, you could do a style or page element
+that checks whether ther request is a HTTP PUT and act's accordingly.
+<br>18:21:14 *** mauh has quit (Ping timeout for mauh[uranos.cto.us.edu.pl])
+<br>18:21:55 &lt;bergie> The Web site for mod_dav is at http://www.webdav.org/mod_dav/
+<br>18:22:03 &lt;irc> That would work, but I want the access to the access
+control quite restricted
+<br>18:22:24 &lt;hukka> Great! At first we'd really only need some kind
+of a vision of how the DAV and Midgard systems would interface. After that
+we can think about the implementation.
+<br>18:22:48 *** NickG (nick@odin.easysoft.com) has left #midgard
+<br>18:23:31 &lt;hukka> irc: The style element could check the authentication
+of the user. Can we require authentication from all users or would only
+PUT request need to be authenticated?
+<br>18:24:19 &lt;irc> In my case, I would have to be able to mix-n-match:
+open GET, restricted PUT, and tightly restricted who gets to set the policy
+(me)
+<br>18:24:30 *** mauh (muhlig@uranos.cto.us.edu.pl) has joined #midgard
+<br>18:25:04 &lt;irc> And parts closed GET, too
+<br>18:25:09 &lt;hukka> OK, that might require minor changes to the mod_midgard
+code, but won't be a problem.
+<br>18:25:54 &lt;irc> Really? Great. Since I'm the one with the big demands,
+I'll hapilly help where possible/necessary.
+<br>18:28:30 &lt;hukka> Yes. I'll do an initial example of the required
+style element and send the code to you. If you could specify your access
+control needs a bit more, then we could go on implementing them. Perhaps
+we'll then release 1.1.2 with the changes you need.
+<br>18:29:08 &lt;domi> you should have a look also at how Zope have integrated
+DAV support into their tool
+<br>18:29:10 &lt;bergie> Is there anything else that should go to 1.1.2?
+Jukka, you mentioned some slight but in midgard-php?
+<br>18:29:16 &lt;irc> Perfect. If you can mail me what you have on access
+control ATM, I'll draft out what I need/would deem cool for midgard over
+the weekend
+<br>18:29:17 &lt;domi> to pick some ideas :o)
+<br>18:30:35 &lt;hukka> irc: OK, we can work this thing together from this
+on. I'll mail you already this evening.
+<br>18:31:38 &lt;hukka> 1.1.2: The release could mainly use a few bug fixes
+(minor ones) and still some updating of the Admin site. Mainly the Host
+and Style administration tools could need to be updated.
+<br>18:31:39 &lt;irc> Fun. Hey, guys (i assume), great thing we're working
+on here. Gotta dash!
+<br>18:31:51 *** irc has quit (Leaving)
+<br>18:32:49 &lt;bergie> True. They are still in pretty much the same shape
+as they were in 1.0.0. Some UI improvements could be in order - at least
+to get them match with the new Group and Topic admins.
+<br>18:33:51 &lt;bergie> Ok, now... any other ideas people want to throw
+around?
+<br>18:35:46 &lt;domi> I wondered if midgard was only php specific or is
+it bound to apache to ?
+<br>18:36:04 &lt;hukka> Yes, bound to both of them...
+<br>18:36:37 &lt;bergie> BTW. We were contacted today by people from the
+unixODBC project (http://www.unixodbc.org), who are also making an Open
+Source database connectivity system. We'll see what will come out of that
+one...
+<br>18:36:38 &lt;domi> if/when php is supported on other servers (says
+roxen) you couldn't have direct midgard support ?
+<br>18:37:30 &lt;hukka> About 1.2: the roadmap says late july with a number
+of nice new features. Let's&nbsp; see what we'll be able to fit in...
+<br>18:38:05 &lt;hukka> domi: No, mainly the mod_midgard part is heavily
+dependent of Apache (it's an Apache module...)
+<br>18:38:46 &lt;hukka> One would need to implement the mod_midgard functionality
+for another server in order to port Midgard...
+<br>18:39:13 &lt;hukka> 1.2: We'll probably get working ODBC support next
+week.
+<br>18:45:58 &lt;hukka> 1.2: User preferences will be a nice small addition.
+<br>18:46:45 *** Disconnected.
+<br>18:46:45 *** Connected. Now logging in..
+<br>18:47:09 &lt;jpa> Hi! About access restrictions, I think we must add
+one level of description. We have groups and users. And we restrict access
+by group (or user). But when you retrieve data from an application, you
+can have access to a small part of the tool, like firstname, lastname,
+but not for salary! For an application you can some groups, for a user
+some rights, the restriction is group (auth) x right (appli).
+<br>18:47:12 &lt;hukka> Huh, back here...
+<br>18:47:15 &lt;domi> berg: nope :)
+<br>18:48:37 &lt;hukka> jpa: In fact such fine-grained access control is
+already partially implemented in Midgard. You may specify the fields of
+a person record which are publicly accessible and which require authentication
+to be visible.
+<br>18:49:22 &lt;hukka> However as page authentication, you can still only
+require an user to be authenticated, you cannot limit access based on user
+groups.
+<br>18:54:05 &lt;hukka> I think we'll first change the authentication flags
+to group IDs. Then we might later implement more fine grained access control
+like the one in person records.
+<br>18:55:39 &lt;hukka> The fine grained control still needs some thought
+though... Will we need to set the access groups for all records or should
+there be some grouping for the access control.
+<br>18:58:22 *** domi (rousseau@ns1.neuronnexion.com) has left #midgard
+<br>18:58:37 &lt;hukka> But hey, it's soon two hours since we started,
+and I think we'll soon close this meeting. If you still have something
+to say then please do so.
+<br>18:58:54 &lt;hukka> Otherwise I'll try to summarise the results of
+this meeting.
+<br>19:00:22 &lt;bergie> Yes... what we've been discussed today has been
+mostly of WebDAV and access control. Both are important topics.
+<br>19:00:27 &lt;hukka> The last two hours have been very enjoyable. It's
+nice to see also other people show such interest in Midgard!
+<br>19:00:48 &lt;bergie> If there is more you want to discuss about, just
+post to the list.
+<br>19:00:56 &lt;hukka> It also seems that we're going to have a few new
+developers. =)
+<br>19:01:12 &lt;bergie> I think we could call another meeting like this
+later on, too.
+<br>19:02:40 &lt;hukka> Yes, definitely. I'd suggest that we'll get through
+the 1.2 release and then arrange another IRC meeting.
+<br>19:03:03 &lt;bergie> Ok, so ODBC support and more access control stuff
+first...
+<br>19:03:09 &lt;hukka> Perhaps we could do some smaller and more task-oriented
+meetings along the line.
+<br>19:03:25 &lt;bergie> True. We hardly had time to discuss the internals
+of Midgard.
+<br>19:03:48 &lt;hukka> Yes, I think those two will be the major new features
+of release 1.2.
+<br>19:04:50 &lt;hukka> The internals can probably wait still a bit longer.
+As soon as people start really working on the Midgard cvs, we'd need to
+arrange another meeting just to discuss the code layout and other such
+matters.
+<br>19:05:27 &lt;hukka> Before that the code in the CVS is still largely
+my responsibility.
+<br>19:05:42 &lt;bergie> Then there is the Web site. We have now given
+access to two new volunteers, Emile and Mark. Any others who would like
+to work on it?
+<br>19:05:48 &lt;Milosch> so, in conclusion? ;)
+<br>19:06:13 &lt;Milosch> I am not much of a programmer, but I could help
+with mysql
+<br>19:06:52 &lt;bergie> Ok. The database stuff is very important, esp.
+when we get the ODBC part working...
+<br>19:07:20 &lt;hukka> We're going to need some instructions on using
+the MyODBC system for existing MySQL installations.
+<br>19:07:21 &lt;Milosch> I can only offer a few hours a week at best,
+fulltime job and all
+<br>19:07:43 &lt;Milosch> hukka: ime, that is slow, at least fromaccess
+<br>19:08:35 &lt;hukka> Hmm, then perhaps we'll need to maintain direct
+MySQL access and use ODBC to support other databases...
+<br>19:08:42 &lt;Milosch> at least at work with one db, a query on 5000
+records took 20 minutes, vs 20 seconds max via web interface
+<br>19:08:54 &lt;Milosch> not sure what was up with that ;)
+<br>19:09:19 &lt;Milosch> are you talking from windows web servers?
+<br>19:09:52 &lt;hukka> So we'll need some benchmarking before deciding
+whether to use direct MySQL connection or the ODBC driver.
+<br>19:10:07 &lt;Milosch> ok
+<br>19:10:44 &lt;Milosch> you said 'MyODBC' which implied apache/IIS on
+windows
+<br>19:11:02 &lt;bergie> That should've been iODBC, I think
+<br>19:11:08 &lt;Milosch> ah ok ;)
+<br>19:11:18 &lt;Milosch> better ;)
+<br>19:12:11 &lt;bergie> The iODBC system sounds quite nice. You can check
+it at http://www.iodbc.org Another option would be unixODBC (at http://www.unixodbc.org)
+<br>19:12:28 &lt;hukka> Nope. iODBC is the ODBC client which uses the different
+ODBC drivers to access the databases. I tried the MyODBC driver with the
+iODBC client for some simple queries and it seemed to work just OK. The
+system was Linux, I compiled MyODBC from sources with no difficulties.
+<br>19:13:00 &lt;Milosch> I have messed with iodbc only a little, with
+Applix, which was a real treat ;)
+<br>19:13:59 &lt;bergie> Applix uses iODBC?
+<br>19:15:06 &lt;Milosch> an old version I think
+<br>19:15:25 &lt;bergie> Ok.
+<br>19:15:29 &lt;Milosch> for client server for non-native support
+<br>19:15:47 &lt;Milosch> iow, they have oracle and sybase built in iirc
+<br>19:16:25 &lt;Milosch> applix data is clunky to say the least ;)
+<br>19:16:30 &lt;Milosch> imho
+<br>19:17:14 &lt;bergie> Ok.
+<br>19:17:36 &lt;bergie> But now I think it starts to be the time to close
+this meeting...
+<br>19:17:40 &lt;Milosch> right
+<br>19:17:42 &lt;Milosch> sorry...
+<br>19:17:49 &lt;Milosch> was mowinfg lawn ;)
+<br>19:18:07 &lt;Milosch> s/nfg/ng
+<br>19:18:07 &lt;bergie> Thanks to everyone for attending! Lets continue
+the discussion in the Midgard mailing list.
+<br>19:18:24 &lt;jpa> bye!
+<br>19:18:29 &lt;Milosch> thanks
+<br>19:18:43 &lt;hukka> OK, bergie promised to take the IRC log and edit
+it to a more readable report of the meeting.
+<br>19:18:45 &lt;bergie> I'll post this log soon...
+<br>19:19:01 &lt;hukka> Till next time, bye!
+<br>19:19:08 *** bergie has quit (X-Chat!)
+</p>
