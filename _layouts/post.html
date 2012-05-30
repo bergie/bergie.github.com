@@ -18,7 +18,8 @@ layout: 'default'
         </div>
         {% for category in page.categories %}
           {% case category %}
-            {% when 'midgard' %}
+              {% when 'midgard' %}
+              <hr />
               {% include category_midgard.html %}
           {% endcase %}
         {% endfor %}

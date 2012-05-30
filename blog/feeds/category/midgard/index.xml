@@ -5,7 +5,7 @@ categorization: midgard
 <rss version="2.0">
 	<channel>
     <title>{{ site.name }} - {{ page.categorization | capitalize }}</title>
-    <description>Posts categorized with '{{ page.categorization }}'</description>
+    <description>Latest posts in category '{{ page.categorization }}'</description>
     <link>{{ site.url }}</link>
     <language>{{ site.language }}</language>
     <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>

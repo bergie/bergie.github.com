@@ -1,0 +1,25 @@
+---
+layout: default
+bodyclass: blogcategory
+---
+<header>
+  <div class="span10 offset1">
+    <h1><a href="/">{{ site.name }} - {{ page.categorization | capitalize }} posts</a></h1>
+  </div>
+</header>
+
+<div class="span6 offset1">
+  {% case page.categorization %}
+  {% when 'midgard' %}
+  {% include category_midgard.html %}
+  {% endcase %}
+</div>
+
+<ol class="span8 offset1 categoryposts">
+  {% for post in site.categories[page.categorization] %}
+  <li>
+    <a href="{{ post.url }}" class="title">{{ post.title }}</a>
+    <span class="metadata">{{ post.date | date_to_string }}{% if post.location %} in {{ post.location }}{% endif %}</span>
+  </li>
+  {% endfor %}
+</ol>
