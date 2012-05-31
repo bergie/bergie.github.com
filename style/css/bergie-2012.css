@@ -153,6 +153,11 @@ article ol {
   padding-left: 0px;
 }
 
+article li ul,
+article li ol {
+  margin-left: 2em;
+}
+
 article ul {
   list-style-type: square;
 }
