@@ -172,6 +172,10 @@ article pre code {
   border: none;
 }
 
+article .contentSource {
+  font-style: italic;
+}
+
 hr {
   height: 80px;
   background-image: url('/style/img/flyingpig.png');

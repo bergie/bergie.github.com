@@ -20,6 +20,12 @@ layout: 'default'
         <div property="articleBody">
           {{ content }}
         </div>
+        {% if page.source %}
+        <div class="contentSource">
+          <hr />
+          <p>This post originally appeared on <a href="{{ page.source }}" rel="source">{{ page.source | truncate: 60 }}</a></p>
+        </div>
+        {% endif %}
         {% for category in page.categories %}
           {% case category %}
               {% when 'midgard' %}
