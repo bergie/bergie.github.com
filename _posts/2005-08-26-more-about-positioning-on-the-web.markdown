@@ -19,7 +19,7 @@ As a person can be only in one place at a time, this system should be quite fool
 
 Currently I maintain the position information via SMS. But for more accurate reporting, this would obviously become expensive and bothersome. When we were in Moscow [Rich Bowen had an idea][6] about getting the location information based on current network, and now there actually is a service for doing this. [Plazes][7] uses a small desktop applet called [Launcher][8] for storing current network identifier, which then is connected to a location. As your Plazes information can be queried via a [WhereAmI web service][9], it would be easy to set up a cron job to update the position data in Midgard using this information:
 
-![Where is Bergie?](http://bergie.iki.fi/midcom-serveattachmentguid-f03394f53ac68bd910c9cc140b077d1f/plazes-whereis-bergie.jpg)
+![Where is Bergie?](/files/plazes-whereis-bergie.jpg)
 
 While Plazes can solve the problem of positioning entries made when in normal network or office environments, for more [adventurous][10] locations importing [GPX logs][11] from a GPS device might be optimal.
 

@@ -9,7 +9,7 @@
 
 The editor supports both regular group assignees and the "magic" assignees like `EVERYONE`. All assignees that have a privilege to the current object are shown in the management tool, and new assignees can be added from the pulldown:
 
-![MidCOM's ACL editor](http://bergie.iki.fi/midcom-serveattachmentguid-b23dbfa03112cf818d7164b03d9b0d2f/midcom-acl-editor-100.jpg)
+![MidCOM's ACL editor](/files/midcom-acl-editor-100.jpg)
 
 For now adding persons or virtual groups as assignees is not supported by the UI, but that will be fixed soon.
 

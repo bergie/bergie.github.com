@@ -23,19 +23,19 @@ Still, being a developer, I could not launch a new version of the site without b
 
 The film strip is used to display either [pictures][23] from the week a page was written, or 10 latest pictures
 
-![Film strip and pictures from Brazil](http://bergie.iki.fi/midcom-serveattachmentguid-c5e9f0b8b07811db9cf5cd42d9e44cd14cd1/bergie_filmstrip2.jpg)
+![Film strip and pictures from Brazil](/files/bergie_filmstrip2.jpg)
 
 [Positioning][22] is now powered by real, mostly [Plazes-powered][8] coordinates and a [real database of cities][7] and [airports][9]. This brings with itself some [Microformat][11] and [GeoRSS][12] goodness, like [live maps][13]
 
-![Positions on the blog entries](http://bergie.iki.fi/midcom-serveattachmentguid-1895947ab07911db924391fd117a722e722e/bergie_blog_position.jpg)
+![Positions on the blog entries](/files/bergie_blog_position.jpg)
 
 My contact information is available as a [machine-readable hCard][28] on most pages
 
-![What Tails extension understands of my contact info](http://bergie.iki.fi/midcom-serveattachmentguid-bf28a732b07911dba76cafb8e760b8f3b8f3/bergie_microformats_tails.jpg)
+![What Tails extension understands of my contact info](/files/bergie_microformats_tails.jpg)
 
 The contact information card also has a simple [informal status message][27] powered by [Twitter][26]
 
-![The contact card](http://bergie.iki.fi/midcom-serveattachmentguid-6e875512b07911db99c34b88e9f199ef99ef/bergie_card.jpg)
+![The contact card](/files/bergie_card.jpg)
 
 Also, less visually:
 
@@ -55,7 +55,7 @@ There is also my picture on the pages. I realised that it is actually nice to se
 
 The old design:
 
-![The old, black design](http://bergie.iki.fi/midcom-serveattachmentguid-8aff36d2b07a11dbbc37515571d1f2cbf2cb/bergie_layout_2005.jpg)
+![The old, black design](/files/bergie_layout_2005.jpg)
 
 The new design:
 

@@ -10,7 +10,7 @@ My [DBE tutorial][1] in [F&oacute;rum GNOME][2] went quite well. Learning from t
 
 The presentation generated lots of interest in the [Digital Business Ecosystem][6], and I was asked to give a short briefing on the subject for students of the [ESEEI university][7] together with [Nathan Wilson][8] from [DreamWorks][9].
 
-[Digital Business Ecosystem slides in English (392KB PDF)](http://bergie.iki.fi/midcom-serveattachmentguid-79141919caf80ffc01daa91c71c51d76/OpenPsa_DBE_20051127-en.pdf)
+[Digital Business Ecosystem slides in English (392KB PDF)](/files/OpenPsa_DBE_20051127-en.pdf)
 
 DBE was also [being presented][11] in the [World Summit on the Information Society][10], and the [Brazilian][13] delegation including Minister of Culture [Gilberto Gil][12] got interested in bringing the concept to their country. The [Free Software movement][14] is very strong in the area, and it will be interesting to watch where they will be able to take DBE.
 

@@ -8,7 +8,7 @@
 ---
 While I [appreciate][1] the fact that [Gizmo][2] uses [open standards][3] for internet telephony, and that it is available for my [Nokia 770][4], it still has to be mentioned that [its user interface][5] has a lot to learn from the [latest Skype beta][6]. You just have to love the simple, purpose-driven UI:
 
-![Skype 1.5 beta main screen](http://bergie.iki.fi/midcom-serveattachmentguid-4409ca24b1b27235ae6bd9f0c7239b92/skype-15-beta.jpg)
+![Skype 1.5 beta main screen](/files/skype-15-beta.jpg)
 
 Hopefully an updated [Adium plugin][7] would bring similar simplicity for Gizmo. 
 

@@ -22,4 +22,4 @@ But why Europe would voluntarily adopt a policy that will only burden its softwa
 But maybe there would still be time to <a href="http://www.ffii.org/swpat/group/todo/index.en.html">do something about this</a>?
 </p>
 
-<p style="text-align: center;"><a href="http://demo.ffii.org/"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-c189ca427906d69f5c3a30dadb0c7311/banana-union.jpg" border="0" height="90" width="400" alt="banana-union.jpg" style="border: none;" /></a></p>
+<p style="text-align: center;"><a href="http://demo.ffii.org/"><img src="/files/banana-union.jpg" border="0" height="90" width="400" alt="banana-union.jpg" style="border: none;" /></a></p>

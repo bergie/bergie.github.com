@@ -6,7 +6,7 @@
   layout: "post"
 
 ---
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-9458751cc1565e7672f8d1dfa2e69ca1/geourl.jpg" border="0" height="83" width="112" alt="geourl.jpg" title="Site locations on the GeoURL map" align="right" />
+<img src="/files/geourl.jpg" border="0" height="83" width="112" alt="geourl.jpg" title="Site locations on the GeoURL map" align="right" />
 
 One thing I've been thinking about quite a bit is adding [location awareness][1] to web content. On my site this is currently being done on city level, and the info is attached to all items: blog posts, photos, moblogs etc.
 

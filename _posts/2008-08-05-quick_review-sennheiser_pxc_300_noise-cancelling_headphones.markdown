@@ -7,7 +7,7 @@
 
 ---
 <p>
-<a href="http://bergie.iki.fi/midcom-serveattachmentguid-763a207a62e111dd93c74dc6e40d5adf5adf/sennheiser_pxc_300_in_flight.JPG"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-7988529262e111dda013079df360ccbbccbb/sennheiser_pxc_300_in_flight-tm.jpg" height="250" width="187" border="0" align="right" hspace="8" vspace="4" alt="Sennheiser PXC 300 in-flight" title="Sennheiser PXC 300 in-flight" /></a>
+<a href="/files/sennheiser_pxc_300_in_flight.JPG"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-7988529262e111dda013079df360ccbbccbb/sennheiser_pxc_300_in_flight-tm.jpg" height="250" width="187" border="0" align="right" hspace="8" vspace="4" alt="Sennheiser PXC 300 in-flight" title="Sennheiser PXC 300 in-flight" /></a>
 <br />As a <a href="http://www.dopplr.com/traveller/bergie">frequent traveler</a>, I've been long thinking about getting proper <a href="http://reviews.cnet.com/headphones/sennheiser-pxc-300/4505-7877_7-31296835.html?tag=txt">noise-cancelling headphones</a>. Now, en-route to a <a href="http://haedong-kumdo.org/news/1211234116.html">Haedong Kumdo seminar in Ireland</a> I managed to forget my usual headphones home, and so it was time to take the plunge.
 </p><p>
 Here is a quick review:

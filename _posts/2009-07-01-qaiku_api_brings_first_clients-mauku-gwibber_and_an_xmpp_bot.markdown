@@ -12,15 +12,15 @@
 </p><p>
 <a href="http://mauku.henrikhedberg.com/">Mauku</a> is a microblogging client for Maemo. The new <a href="http://www.flickr.com/photos/29499609@N03/3323727244/">Fremantle version</a> supports Qaiku nicely:
 </p><p>
-<a href="http://bergie.iki.fi/midcom-serveattachmentguid-017b01ea667e11deb6f1634161e5a6c9a6c9/mauku-fremantle-qaiku.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-03f2efa0667e11deb40d953dd143f8d8f8d8/mauku-fremantle-qaiku-tm.jpg" height="240" width="400" border="1" hspace="4" vspace="4" alt="Mauku for Maemo 5 displaying my Qaiku" title="Mauku for Maemo 5 displaying my Qaiku" /></a>
+<a href="/files/mauku-fremantle-qaiku.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-03f2efa0667e11deb40d953dd143f8d8f8d8/mauku-fremantle-qaiku-tm.jpg" height="240" width="400" border="1" hspace="4" vspace="4" alt="Mauku for Maemo 5 displaying my Qaiku" title="Mauku for Maemo 5 displaying my Qaiku" /></a>
 </p><p>
 <a href="http://live.gnome.org/Gwibber/">Gwibber</a> is a Linux desktop microblogging client. Qaiku support is <a href="https://bugs.launchpad.net/gwibber/+bug/342536">now available</a> in the development version:
 </p><p>
-<a href="http://bergie.iki.fi/midcom-serveattachmentguid-fa70517a667d11deba3cdd9ed57c59045904/gwibber-qaiku-markdownpng.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-fe75e1ae667d11deaa8189a5b37088618861/gwibber-qaiku-markdownpng-tm.jpg" height="400" width="272" border="1" hspace="4" vspace="4" alt="Gwibber displaying Markdown-formatted Qaikus" title="Gwibber displaying Markdown-formatted Qaikus" /></a>
+<a href="/files/gwibber-qaiku-markdownpng.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-fe75e1ae667d11deaa8189a5b37088618861/gwibber-qaiku-markdownpng-tm.jpg" height="400" width="272" border="1" hspace="4" vspace="4" alt="Gwibber displaying Markdown-formatted Qaikus" title="Gwibber displaying Markdown-formatted Qaikus" /></a>
 </p><p>
 There is also <a href="http://www.qaiku.com/channels/show/Qaiku/view/1de60cffb5ffba260cf11de8ee757cb9be5b882b882/">an XMPP bot</a> that we're going to launch soon for wider use. This enables you to monitor your mentions or some channels and post via any Jabber client:
 </p><p>
-<a href="http://bergie.iki.fi/midcom-serveattachmentguid-067b82fa667e11deabb27d2ba80e2e7b2e7b/qaikubot-in-adium.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-08bcceb6667e11de8d9b9f6e5165bd1abd1a/qaikubot-in-adium-tm.jpg" height="160" width="400" border="1" hspace="4" vspace="4" alt="QaikuBot in Adium" title="QaikuBot in Adium" /></a>
+<a href="/files/qaikubot-in-adium.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-08bcceb6667e11de8d9b9f6e5165bd1abd1a/qaikubot-in-adium-tm.jpg" height="160" width="400" border="1" hspace="4" vspace="4" alt="QaikuBot in Adium" title="QaikuBot in Adium" /></a>
 </p><p>
 If you're doing something cool with <a href="http://www.qaiku.com/api/usage/">the API</a>, please let me know! The <a href="http://www.qaiku.com/channels/show/Qaiku-api/">#Qaiku-api channel</a> is good for usage questions and ideas.
 </p><p>

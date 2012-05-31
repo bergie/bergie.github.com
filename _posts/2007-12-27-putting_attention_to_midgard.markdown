@@ -13,7 +13,7 @@ After being able to calculate objective <a href="http://radar.oreilly.com/archiv
 
 <a href="http://www.apml.org/">APML</a> is an <a href="http://en.wikipedia.org/wiki/APML">emerging standard</a> for syndicating attention profiling information between web services and applications. While not many services support it directly, there are <a href="http://tastebroker.org/">some third-party tools</a> for gathering the data from various sites.
 
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-9af41d32b47511dc9a62e967f5e1adcaadca/apml-flow.jpg" height="143" width="398" border="1" hspace="4" vspace="4" alt="Apml-Flow" />
+<img src="/files/apml-flow.jpg" height="143" width="398" border="1" hspace="4" vspace="4" alt="Apml-Flow" />
 
 There are many places in Midgard where attention profiling could be used to provide better service to users. My plan for APML support is following:
 

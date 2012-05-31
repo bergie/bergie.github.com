@@ -7,7 +7,7 @@
 ---
 Thanks to [the efforts][1] by [Solt][2] and [Piotras][3], we finally have the [MidCOM][4], the _Midgard Component Framework_ running on top of [PHP 5.1][5].
 
-![Simple MidCOM site running on PHP5](http://bergie.iki.fi/midcom-serveattachmentguid-89ab869aa56c8580a9da4c31e7c6b783/midcom-php5-initial.jpg)
+![Simple MidCOM site running on PHP5](/files/midcom-php5-initial.jpg)
 
 While we got [PHP5 support into Midgard][6] already in August 2004, the big issue has been the tens of thousands of lines of code in the MidCOM framework that had several PHP4 constructions.
 

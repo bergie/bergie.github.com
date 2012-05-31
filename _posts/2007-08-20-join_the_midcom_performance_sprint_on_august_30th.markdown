@@ -11,7 +11,7 @@
 <ul><li>In 2004 MidCOM code <a href="http://bergie.iki.fi/blog/2004-09-08-001.html">moved from database to file system</a> for both performance and ease-of-development reasons, though later the performance point has been disputed by Alexander's tests that revealed 10% speed advantage for loading code from DB.</li><li>In 2005 we <a href="http://bergie.iki.fi/blog/performance-tips-for-midcom-2-5.html">stopped using the shared "MidCOM site template"</a> in favor of faster, static MidCOM start-up for websites.</li><li>In 2006 I removed lots of query duplication with navigation and ACLs, with <a href="http://bergie.iki.fi/blog/optimizing-the-latest-midcom.html">quite dramatic speed improvements</a> on big sites.</li></ul>MidCOM has again gathered some heft, and so this year we have to do more:
 
 
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-0c9e00364f2911dca7397355b31d4cf64cf6/midcom-performance-sprint-beforeafter.jpg" height="334" width="398" border="0" hspace="4" vspace="4" alt="Midcom-Performance-Sprint-Beforeafter" />
+<img src="/files/midcom-performance-sprint-beforeafter.jpg" height="334" width="398" border="0" hspace="4" vspace="4" alt="Midcom-Performance-Sprint-Beforeafter" />
 
 Lots of MidCOM code is still from the <a href="http://www.midgard-project.org/documentation/reference/#9f42c2021f0b0efedacd0ae9d6801c5c">old Midgard 1.x API</a> and PHP4 times. In <a href="http://trac.midgard-project.org/query?status=new&amp;status=assigned&amp;status=reopened&amp;milestone=MidCOM+3.0">MidCOM 3</a> we can build everything around <a href="http://www.midgard-project.org/documentation/reference/#3855e6325f5459c1d4f3b9863bc7debe">modern Midgard API</a> and PHP 5.2, which will make performance a lot easier. Some of the focus areas will be:
 

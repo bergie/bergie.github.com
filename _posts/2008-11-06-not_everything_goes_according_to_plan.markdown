@@ -13,4 +13,4 @@ Distance also magnifies the impact of negative feelings like longing and suspici
 </blockquote><p>
 What next? I don't know, maybe focus on some core competencies...
 </p><p>
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-f53a01ccac4411dd959f59033a6910911091/royal_enfield_somewhere_in_poland.jpg" height="340" width="398" border="1" hspace="4" vspace="4" alt="Royal Enfield somewhere in Poland" title="Royal Enfield somewhere in Poland" /></p>
+<img src="/files/royal_enfield_somewhere_in_poland.jpg" height="340" width="398" border="1" hspace="4" vspace="4" alt="Royal Enfield somewhere in Poland" title="Royal Enfield somewhere in Poland" /></p>

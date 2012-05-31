@@ -13,7 +13,7 @@ This is exactly why we added email archiving support into [OpenPsa 2][2]. Lots o
 
 With OpenPsa 2 the approach is that there is a shared "archiving" mailbox where all users can drag-and-drop relevant emails. OpenPsa monitors the mailbox and reads them in. Then it produces a wiki page out of them and links the message according to its time sender and receivers into the people and tasks concerned.
 
-![Imported email shown in a task](http://bergie.iki.fi/midcom-serveattachmentguid-a5b91a7900396c53992b85fe88c4295e/openpsa2-email-import.jpg)
+![Imported email shown in a task](/files/openpsa2-email-import.jpg)
 
 This way the important emails are stored in a secure and easy to find location, and the [email client][3] can handle its [actual task][4], the sending and receiving of the day-by-day email.
 

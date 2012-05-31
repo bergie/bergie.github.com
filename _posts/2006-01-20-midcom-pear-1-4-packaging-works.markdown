@@ -9,7 +9,7 @@ After a bit of discussion and [goading][6] from the PEAR community, we decided t
 
 This decision meant a bit of extra work for me as I had to rewrite the supporting utilities that handle component packaging. However, now that work is done, and I made my first PEAR-powered MidCOM installation today. The result was a working but a bit limited MidCOM environment, as can be seen from this [AIS][12] screenshot:
 
-![Component selector in AIS](http://bergie.iki.fi/midcom-serveattachmentguid-c5bf91fafb5a1f2929b9024ece0acf04/pear-packaged-ais.jpg)
+![Component selector in AIS](/files/pear-packaged-ais.jpg)
 
 ## Nice points
 

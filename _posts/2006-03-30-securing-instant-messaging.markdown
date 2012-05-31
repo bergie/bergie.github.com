@@ -22,11 +22,11 @@ After this you can have encrypted conversations with any Jabber user whose [publ
 
 Here is a screenshot of me having an IM conversation and switching encryption on and off couple times:
 
-![Encrypted Jabber chat with Psi](http://bergie.iki.fi/midcom-serveattachmentguid-5b4a08a7e02b0e584f13802eed7ac041/psi-encrypted-chat.jpg)
+![Encrypted Jabber chat with Psi](/files/psi-encrypted-chat.jpg)
 
 And here is how the raw Jabber XML output with encrypted messages looks like:
 
-![Raw encrypted XMPP messaging](http://bergie.iki.fi/midcom-serveattachmentguid-cd4dcd34a2fa1f08ba027fc69cf4ac11/psi-encrypted-chat-rawxml.jpg)
+![Raw encrypted XMPP messaging](/files/psi-encrypted-chat-rawxml.jpg)
 
 The GPG encrypted Jabber conversations with Psi follow the [JEP-0027: Current Jabber OpenPGP Usage][17] specification.
 

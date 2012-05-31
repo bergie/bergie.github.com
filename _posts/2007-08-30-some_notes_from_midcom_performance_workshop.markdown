@@ -11,7 +11,7 @@ Today we've been hacking [in the woods][1] as part of the [MidCOM Performance Sp
 While [results][12] obviously were not as dramatic [as the last time][5] due to better overall status of the code, we still scored about _20% reduction_ in database I/O and debug log lines dropping from over 700 to a _more readable 103_ per regular, fully debugged request. _Memory usage_ should be much better now as well.
 
 
-<p style="text-align:center;"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-1d6f4e9a573211dca77ef15f61ae5bdc5bdc/jerry_and_bugless_macbook.jpg" height="225" width="300" border="1" hspace="4" vspace="4" alt="Jerry and bug-free Macbook Pro" title="Jerry and bug-free Macbook Pro" /></p>
+<p style="text-align:center;"><img src="/files/jerry_and_bugless_macbook.jpg" height="225" width="300" border="1" hspace="4" vspace="4" alt="Jerry and bug-free Macbook Pro" title="Jerry and bug-free Macbook Pro" /></p>
 
 Focus areas today were:
 

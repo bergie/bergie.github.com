@@ -14,7 +14,7 @@
 
 The part on [destroying the Helsinki-Malmi airport][5] has now been removed from the land use plan. Another win for [The Friends of Malmi Airport Society][6]!
 
-![Landing to Helsinki-Malmi, March 2005](http://bergie.iki.fi/midcom-serveattachmentguid-dc4dd3166e6e11dbb6a109a1038918441844/Landing-to-EFHF-with-OH-PRT.jpg)
+![Landing to Helsinki-Malmi, March 2005](/files/Landing-to-EFHF-with-OH-PRT.jpg)
 
 __Updated 2006-11-08:__ I have to agree with Phil that Mr. Pajunen's behavior [is definitely corruption][7].
 

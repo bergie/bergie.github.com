@@ -7,7 +7,7 @@
   layout: "post"
 
 ---
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-dbd58acc50b411dc89e69f3f21eaa7c7a7c7/froscon-logo.png" height="128" width="128" border="0" align="right" hspace="8" vspace="8" alt="FrOSCon 2007" title="FrOSCon 2007" />
+<img src="/files/froscon-logo.png" height="128" width="128" border="0" align="right" hspace="8" vspace="8" alt="FrOSCon 2007" title="FrOSCon 2007" />
 
 This weekend I will be speaking in the <a href="http://froscon.phpugdo.de/">PHP at Froscon</a> track in <a href="http://www.froscon.org/">FrOSCon conference</a> in <a href="http://en.wikipedia.org/wiki/Sankt_Augustin">Sankt Augustin</a>, Germany about <a href="http://2007.oscms-summit.org/node/181">managing your personal information space with Midgard</a>:
 

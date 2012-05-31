@@ -8,7 +8,7 @@
 
 ---
 <p>
-<a href="http://bergie.iki.fi/midcom-serveattachmentguid-151c922433bf11ddb372997ece6234243424/lifehacker-iphone-location.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-18b09fca33bf11dd8b1b43e85fb333e333e3/lifehacker-iphone-location-tm.jpg" height="259" width="300" border="1" align="right" hspace="8" vspace="4" alt="iPhone location-awareness on Lifehacker" title="iPhone location-awareness on Lifehacker" /></a>
+<a href="/files/lifehacker-iphone-location.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-18b09fca33bf11dd8b1b43e85fb333e333e3/lifehacker-iphone-location-tm.jpg" height="259" width="300" border="1" align="right" hspace="8" vspace="4" alt="iPhone location-awareness on Lifehacker" title="iPhone location-awareness on Lifehacker" /></a>
 <br /><a href="http://lifehacker.com/">Lifehacker</a> has an interesting story on <a href="http://lifehacker.com/395171/how-your-location+aware-iphone-will-change-your-life">how location-aware iPhone will change things</a>:
 </p><blockquote>
 There's a lot of speculation as to what we can expect from next week's iPhone announcements, but there's one thing you can be sure of: The iPhone's location-aware features will change your life. Whether that means pinpointing your location on a Google Map (which iPhones already do), tracking your friends when you go out, or giving you a heads-up on the best place to eat within a three-block radius, the location-aware future is bright.

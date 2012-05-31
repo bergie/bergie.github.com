@@ -11,10 +11,10 @@
 <p>
 <a href="http://guadec.org/">GUADEC</a> is held in <a href="http://en.wikipedia.org/wiki/Istanbul">Istanbul</a> this year, and as has been the custom in <a href="http://bergie.iki.fi/blog/synchronization-and-the-free-software-desktop-in-guadec.html">2006</a> and <a href="http://bergie.iki.fi/blog/geoclue_is_appearing.html">2007</a>, I again came there to discuss making the Linux desktop location aware. 
 </p><p>
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-b354b9e44e8b11ddbd7fb5e3c3866f016f01/Guadec_2008_Aya_Sofiya.jpg" height="261" width="398" border="1" hspace="4" vspace="4" alt="Hagia Sophia from the ferry" title="Hagia Sophia from the ferry" /></p><p>
+<img src="/files/Guadec_2008_Aya_Sofiya.jpg" height="261" width="398" border="1" hspace="4" vspace="4" alt="Hagia Sophia from the ferry" title="Hagia Sophia from the ferry" /></p><p>
 This year I gave the "<a href="http://guadec.expectnation.com/guadec08/public/schedule/detail/32">GeoClue and Gypsy - geo-information frameworks for mobile Linux desktops</a>" talk together with <a href="http://vilunki.wordpress.com/">Jussi Kukkonen</a> and <a href="http://blogs.gnome.org/iain/">Iain Holmes</a>. 
 </p><p>
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-b08c5b9a4e8b11ddb96bd31001832a8c2a8c/Guadec_2008_GeoClue_map.jpg" height="271" width="400" border="1" hspace="4" vspace="4" alt="Guadec 2008 GeoClue talk" title="Guadec 2008 GeoClue talk" /></p><p>
+<img src="/files/Guadec_2008_GeoClue_map.jpg" height="271" width="400" border="1" hspace="4" vspace="4" alt="Guadec 2008 GeoClue talk" title="Guadec 2008 GeoClue talk" /></p><p>
 With Linux devices hitting <a href="http://www.openmoko.com/">more</a> and <a href="http://europe.nokia.com/A4568578">more</a> pockets time was finally ripe for the talk, and hopefully soon we shall see GeoClue in places like the <a href="http://linuxowns.wordpress.com/2008/03/26/gnome-222-clock-in-ubuntu-710/">GNOME Panel Clock</a> and <a href="http://telepathy.freedesktop.org/wiki/">Telepathy</a>.
 </p><p>
 Slides are available from both <a href="http://docs.google.com/Presentation?id=dd4m6zsj_5z2jbjqc9">Google Docs</a> and <a href="http://www.slideshare.net/bergie/geoclue-and-gypsy/">Slideshare</a>.
@@ -27,9 +27,9 @@ Other things to take out from this conference:
 <li><a href="http://en.wikipedia.org/wiki/Dondurma">Turkish ice cream</a> is a bit <a href="http://live.gnome.org/GUADEC/2008/Events/IceCreamDeathmatch">weird but good</a></li>
 <li>Red wine and <a href="http://www.deathmonkey.org/view/being-a-monkey.html">white suits</a> don't mix, even if it is a cocktail party :-)</li>
 </ul><p>
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-aa9751544e8b11dd81e1774ec4d50a0d0a0d/Guadec_2008_Cocktail_Party.jpg" height="263" width="400" border="1" hspace="4" vspace="4" alt="Guadec 2008 Cocktail Party" title="Guadec 2008 Cocktail Party" /></p><p>
+<img src="/files/Guadec_2008_Cocktail_Party.jpg" height="263" width="400" border="1" hspace="4" vspace="4" alt="Guadec 2008 Cocktail Party" title="Guadec 2008 Cocktail Party" /></p><p>
 Latest information about <a href="http://www.gnome.org/~behdad/akademy+guadec-2009-bids/">where GUADEC and aKademy will be held in 2009</a> is that it is still open. Apparently <a href="http://www.kde.org/">KDE's</a> vote ended in draw between <a href="http://grancanariadesktopmeeting.eslic.es/index.php/Portada_english">Gran Canaria</a> and <a href="http://bergie.iki.fi/blog/tampere_is_a_candidate_for_guadec_and_akademy_2009.html">Tampere</a>, and now the boards of both foundations are considering the options.
 </p><p>
 Tonight we will go to <a href="http://cass.no-ip.com/~cassidy/blog/index.php/post/2008/07/10/Collabora-boat-party-tonight">a cruise</a> <a href="http://flickr.com/search/?q=bosphorus&amp;m=tags&amp;ss=2&amp;s=int">on the Bosphorus</a>...
 </p><p>
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-b9e812f64e8b11dd9e6d0d6376a669a369a3/Guadec_2008_Rumeli_Hisari-1.jpg" height="181" width="398" border="1" hspace="4" vspace="4" alt="Rumeli Hisari" title="Rumeli Hisari" /></p>
+<img src="/files/Guadec_2008_Rumeli_Hisari-1.jpg" height="181" width="398" border="1" hspace="4" vspace="4" alt="Rumeli Hisari" title="Rumeli Hisari" /></p>

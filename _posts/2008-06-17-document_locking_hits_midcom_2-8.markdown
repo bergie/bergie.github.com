@@ -11,7 +11,7 @@
 </p><p>
 When user starts editing a document via <a href="http://midgardwiki.contentcontrol-berlin.de/index.php/MidCOM_Datamanager">datamanager</a>-powered form, the document will be marked as locked for that user. Other users accessing the document will see a notice:
 </p><p>
-<a href="http://bergie.iki.fi/midcom-serveattachmentguid-e8a0d5f83c3c11dda44bc9d1af8acdddcddd/midcom-28-locked-document-fi.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-f0c81e123c3c11dd8ac1436f47d216a316a3/midcom-28-locked-document-fi-tm.jpg" height="74" width="296" border="1" hspace="4" vspace="4" alt="MidCOM 2.8 lock notice" title="MidCOM 2.8 lock notice" /></a>
+<a href="/files/midcom-28-locked-document-fi.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-f0c81e123c3c11dd8ac1436f47d216a316a3/midcom-28-locked-document-fi-tm.jpg" height="74" width="296" border="1" hspace="4" vspace="4" alt="MidCOM 2.8 lock notice" title="MidCOM 2.8 lock notice" /></a>
 </p><p>
 Unlocking permissions can be granted via the <a href="http://bergie.iki.fi/blog/new_user_management_tool_for_midgard.html">Asgard user manager</a>.
 </p><p>

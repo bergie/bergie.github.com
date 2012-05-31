@@ -8,7 +8,7 @@
 ---
 Here are some updates while reading the news in the [SOLISC][1] speakers' room: Yesterday's session on [DBE][2] went well, with [Anahuac][3] doing the translation. The session was held in a slot shared with Izabel's [GNOME][4] talk. After the days' programs we returned to the [Dolphin House][5] for dinner.
 
-![River running through Morretes in Parana, Brazil](http://bergie.iki.fi/midcom-serveattachmentguid-517a6de6795970e5c5641c6f3ff39362/Morretes_river.jpg)
+![River running through Morretes in Parana, Brazil](/files/Morretes_river.jpg)
 
 Some interesting blog posts found in my [NetNewsWire][8] summary while waiting for tonight's beach barbeque and tomorrow's [OpenBeach][5]...
 

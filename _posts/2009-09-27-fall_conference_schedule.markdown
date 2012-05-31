@@ -18,7 +18,7 @@ After a <a href="http://bergie.iki.fi/blog/on_to_new_motorcycle_adventures/">bri
 <li>November 11th - 13th: <strong><a href="http://www.iks-project.eu/civicrm/event/info?reset=1&amp;id=3">Semantic Search workshop</a></strong> in Rome, Italy<br /> Together with a general meeting of IKS Project participants<br /><br /></li>
 <li>November 13th - 15th: <strong><a href="http://www.fscons.org/">FSCONS</a></strong> in Gothenburg, Sweden<br /> The annual Nordic free software gathering where <a href="http://www.fscons.org/schedule">I'll be speaking</a> about <a href="http://bergie.iki.fi/blog/how_midgard_and_midgard2_differ/">Midgard2</a></li>
 </ul><p>
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-1deab7ea36b0f1eab7e11de8ca11d7dd48aeed5eed5/bergie-signals-gcds.jpg" height="287" width="400" border="1" hspace="4" vspace="4" alt="Explaining signals at Gran Canaria Desktop Summit" title="Explaining signals at Gran Canaria Desktop Summit" />
+<img src="/files/bergie-signals-gcds.jpg" height="287" width="400" border="1" hspace="4" vspace="4" alt="Explaining signals at Gran Canaria Desktop Summit" title="Explaining signals at Gran Canaria Desktop Summit" />
 </p><p>
 Looking forward to all the interesting discussions and ideas that will surely come up from these events. If you will be around in one of those, make sure to <a href="http://bergie.iki.fi/">look me up</a> and we can chat. The events will also be covered in <a href="http://www.qaiku.com/home/bergie/">my Qaiku stream</a>.
 </p>

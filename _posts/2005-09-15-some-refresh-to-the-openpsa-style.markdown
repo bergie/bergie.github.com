@@ -7,7 +7,7 @@
 ---
 Flash designer [Joonas Kallioinen][1] of [Itse Valtiaat][2] fame contributed a minor refresh to the OpenPsa 2 style:
 
-![OpenPsa Calenda with the new look](http://bergie.iki.fi/midcom-serveattachmentguid-b12577c2886cdd2030ab303241eb006b/openpsa-new-style-calendar.jpg)
+![OpenPsa Calenda with the new look](/files/openpsa-new-style-calendar.jpg)
 
 Compare with the [OpenPsa 1 Calendar][3] and the [previous OpenPsa 2 design][4]. The new design is also much more IE-friendly.
 

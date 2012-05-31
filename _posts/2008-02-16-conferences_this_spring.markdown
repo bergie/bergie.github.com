@@ -18,7 +18,7 @@ Looking forward to meeting many of you in these events! The July conferences of 
 </p><p>
 It is possible to follow my movements <a href="http://www.dopplr.com/traveller/bergie">through Dopplr</a>:
 </p><p>
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-73c4fed2efb411dcb11c07d70557430f430f/dopplr-travel-map-2008-1.jpg" height="257" width="400" border="1" hspace="4" vspace="4" alt="Dopplr travel map" title="Dopplr travel map" /><br /><span style="font-size:10pt;">
+<img src="/files/dopplr-travel-map-2008-1.jpg" height="257" width="400" border="1" hspace="4" vspace="4" alt="Dopplr travel map" title="Dopplr travel map" /><br /><span style="font-size:10pt;">
 <br /></span>
 </p><p style="text-align:right;">
 <span style="font-size:10pt;">

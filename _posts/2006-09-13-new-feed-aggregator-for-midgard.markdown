@@ -9,7 +9,7 @@
 
 For _MidCOM 2.6_ I decided to overhaul the system, and implement some new ideas. Now instead of being cached by [Magpie RSS][4], the news items are stored locally into the Midgard database and displayed by the regular [news-handling component][5]. This gives flexibility in presentation and better performance.
 
-![Feed management view](http://bergie.iki.fi/midcom-serveattachmentguid-058ddb472f8cde390bc9f9eb65c60ef8/net_nemein_rss_manage_small.jpg)
+![Feed management view](/files/net_nemein_rss_manage_small.jpg)
 
 Feeds are now refreshed from hourly [MidCOM cron][6], or manually. For Planet usage I'm also planning to add support for refreshing feeds based on [weblog pings][7].
 

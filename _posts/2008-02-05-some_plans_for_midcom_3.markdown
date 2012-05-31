@@ -7,7 +7,7 @@
 
 ---
 <p>
-<a href="http://bergie.iki.fi/midcom-serveattachmentguid-19f07b14efb611dca333bf078a4a3e293e29/request-flow-1.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-86f1f17aefb611dc8bf775425fd60e690e69/request-flow-1-tm.jpg" height="450" width="240" border="1" align="right" hspace="8" vspace="4" alt="MidCOM 3 request flow" title="MidCOM 3 request flow" /></a>
+<a href="/files/request-flow-1.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-86f1f17aefb611dc8bf775425fd60e690e69/request-flow-1-tm.jpg" height="450" width="240" border="1" align="right" hspace="8" vspace="4" alt="MidCOM 3 request flow" title="MidCOM 3 request flow" /></a>
 </p><p>
 <a href="http://www.midgard-project.org/documentation/midcom">MidCOM</a> is the PHP framework used for building sites with <a href="http://www.midgard-project.org/">Midgard CMS</a>. Over years it has accumulated lots of components and features, and currently weights <a href="http://www.ohloh.net/projects/3309?p=Midgard">around half million lines of code</a>. At the same time the design, while being well designed, suffers from having to work around lots of limitations in PHP4 and the <a href="http://www.midgard-project.org/documentation/reference/#9f42c2021f0b0efedacd0ae9d6801c5c">old Midgard API</a>.
 </p><p>

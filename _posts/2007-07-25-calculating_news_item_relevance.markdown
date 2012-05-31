@@ -14,11 +14,11 @@ Every day brings dozens of maemo-related posts via various channels, and keeping
 
 Interestingly, a new service called <a href="http://www.aiderss.com/">AideRSS </a>went live today with <a href="http://slashdot.org/article.pl?sid=07/07/24/2241222">quite much publicity</a>. AideRSS is a new breed of RSS aggregator that uses <a href="http://www.aiderss.com/blog/faq#postrank">various metrics</a> to determine the relevancy of new items. This is what AideRSS says about most interesting stuff now on <a href="http://planet.maemo.org/">Planet Maemo</a>:
 
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-e52e42683aab11dcba6de54e307a85258525/aiderss-ranking-planetmaemo.jpg" height="257" width="398" border="1" hspace="4" vspace="4" alt="Aiderss-Ranking-Planetmaemo" /><span style="font-size:0pt;">
+<img src="/files/aiderss-ranking-planetmaemo.jpg" height="257" width="398" border="1" hspace="4" vspace="4" alt="Aiderss-Ranking-Planetmaemo" /><span style="font-size:0pt;">
 
 </span>While I don't have access to their secret sauce, using a bit similar metrics I get quite similar results as well:
 
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-feb977163aab11dcb592079c25510bd60bd6/org-maemo-socialnews-ranking-planetmaemo.jpg" height="85" width="400" border="1" hspace="4" vspace="4" alt="Org-Maemo-Socialnews-Ranking-Planetmaemo" /><span style="font-size:0pt;">
+<img src="/files/org-maemo-socialnews-ranking-planetmaemo.jpg" height="85" width="400" border="1" hspace="4" vspace="4" alt="Org-Maemo-Socialnews-Ranking-Planetmaemo" /><span style="font-size:0pt;">
 
 </span>The way the new <a href="http://trac.midgard-project.org/browser/trunk/midcom/org.maemo.socialnews/calculator.php?rev=11348">org.maemo.socialnews score calculator</a> works is that it looks for number of votes or links from various sources, gives them <a href="http://trac.midgard-project.org/browser/trunk/midcom/org.maemo.socialnews/config/config.inc?rev=11348">configurable weight</a>, and then builds a relevancy value out of that. This seems to work quite well, although I guess I will end up tuning it quite a bit when we start syndicating larger amounts of data.
 

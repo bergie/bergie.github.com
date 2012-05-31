@@ -8,7 +8,7 @@
 ---
 September 22nd is the [OneWebDay][1]. It is a day when users of the World Wide Web are encouraged to show how the Internet affects their lives. The purpose of the event is to globally celebrate online life.
 
-![One Web Day](http://bergie.iki.fi/midcom-serveattachmentguid-645610afc2e82805620cca59fadde56e/onewebday.jpg)
+![One Web Day](/files/onewebday.jpg)
 
 While there are no OneWebDay events in Helsinki, I've noted the day by publishing a bunch of [new packages][2] for [Midgard CMS][3], a tool designed to improve the web.
 

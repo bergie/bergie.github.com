@@ -12,7 +12,7 @@ Here's how to use it with Midgard:
 
 ## Install the plugin
 
-![Photon installer on OS X](http://bergie.iki.fi/midcom-serveattachmentguid-8bc44e4ce6b88e14fd6a466e01345bab/photon-installer.jpg)
+![Photon installer on OS X](/files/photon-installer.jpg)
 
 ## Check the MetaWeblog URL of your blog
 
@@ -22,7 +22,7 @@ Here's how to use it with Midgard:
 
 Photo's settings can be found in the _Share_ menu item in iPhoto. In addition to the regular items like _File Export_ and _Web Page_, there should be a new _Weblog_ tab.
 
-![iPhoto's Share Weblog tab](http://bergie.iki.fi/midcom-serveattachmentguid-c91e8eaf0b3bb90fa583cfc829c11a73/photon-weblog-tab.jpg)
+![iPhoto's Share Weblog tab](/files/photon-weblog-tab.jpg)
 
 Here you should select the Weblog _Settings..._ to add your Midgard-powered blog into the list.
 
@@ -32,17 +32,17 @@ Unfortunately since Midgard is not yet an officially supported blogging system i
 
 Photon allows you to configure what information is stored into what standard Metaweblog entry field. The selections here depend on how you have configured your [content schema][9], but these are fairly good defaults:
 
-![Weblog entry creation settings in iPhoto](http://bergie.iki.fi/midcom-serveattachmentguid-3f73e70be550f92f1646f1a436182221/photon-weblog-settings.jpg)
+![Weblog entry creation settings in iPhoto](/files/photon-weblog-settings.jpg)
 
 ## Posting photos
 
 After the setup has been done, simply select a photo in iPhoto, possibly write title and [keywords][10] for it, and select _Share_-_Export_ (Shift-Command-E). If you are [using categories][11] with your blog you can select them here:
 
-![Exporting photos into the blog from iPhoto](http://bergie.iki.fi/midcom-serveattachmentguid-e644427db72d3e33aa5031a176b26e2a/photon-export-photo.jpg)
+![Exporting photos into the blog from iPhoto](/files/photon-export-photo.jpg)
 
 And that's it. Now your photo should appear in the blog:
 
-![Photoblogged picture online](http://bergie.iki.fi/midcom-serveattachmentguid-5793cb420b342bb52ad735363720047e/photon-picture-online.jpg)
+![Photoblogged picture online](/files/photon-picture-online.jpg)
 
 While this is already nice, it would be even nicer to be able to add Photon support into [MidCOM's photo gallery component][12]. Since Photon source is now open and it is easy to see what it actually does this should be fairly simple and require only porting the MetaWeblog handlers from newsticker.
 

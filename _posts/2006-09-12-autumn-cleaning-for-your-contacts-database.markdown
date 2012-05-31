@@ -7,7 +7,7 @@
 ---
 I've just [uploaded][4] [Rambo's][1] latest improvement to [OpenPsa Contacts][2]: The ability to find and merge duplicate contact persons.
 
-![OpenPsa Contacts merge tool](http://bergie.iki.fi/midcom-serveattachmentguid-1163f9032a4837167d747967fcfc17be/openpsa_contacts_duplicate_merge_small.jpg)
+![OpenPsa Contacts merge tool](/files/openpsa_contacts_duplicate_merge_small.jpg)
 
 There are several ways you might end up having duplicates in the database, especially if you have been importing contacts from multiple sources like Excel registries and vCards.
 

@@ -6,7 +6,7 @@
   layout: "post"
 
 ---
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-ed2def354d999300645be7fc5198c225/EU_flag.jpg" style="float:right;margin-left:8px;" alt="EU_flag.jpg" />
+<img src="/files/EU_flag.jpg" style="float:right;margin-left:8px;" alt="EU_flag.jpg" />
 A week ago I spent some time in Berlin <a href="http://bergie.iki.fi/blog/in_coss_steering_group.html">representing the Finnish Centre for Open Source Solutions</a> (COSS). The event was about building a new pan-European network for Open Source companies.
 
 The result of that meeting is the <a href="http://www.obooe.eu/">Open Business Organizations of Europe</a> (OBOOE), which is focused on creating a voice for the thousands of Open Source SMEs which are a currently under-represented industry and a vital part of the European economy.

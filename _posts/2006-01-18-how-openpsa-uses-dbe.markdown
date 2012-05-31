@@ -13,7 +13,7 @@ However, [we][4] feel that this is quite a bit too difficult, and that the [Digi
 
 With the [DBE implementation][7] in [OpenPsa][6], the only point where user becomes aware of DBE being used is when they add new contacts to the registry. One of the contact editable fields is _Digital Business Ecosystem ServiceID_:
 
-![](http://bergie.iki.fi/midcom-serveattachmentguid-57b480c22047aa8050c19c26784c2d45/dbe-serviceid-openpsa-person.jpg)
+![](/files/dbe-serviceid-openpsa-person.jpg)
 
 The _ServiceID_ in this case is the identifier of the [Sitegroup][8] entry in the [Midgard][9] database, which means it is essentially the identifier of an OpenPsa installation. The identifiers follow the [UUID spec][10] and so should be unique across the scale-free network.
 
@@ -25,7 +25,7 @@ Remote users and local users are identified in person listings by different icon
 
 Since OpenPsa has been implemented as set of [MidCOM][13] components written in PHP, it can't connect with DBE directly. To make the connection, [Exorcist][14] is being run as the _DBE Service_. It watches for changes in the Midgard database, and replicates them across the DBE network as required. Here's roughly how it works:
 
-![OpenPsa DBE connection](http://bergie.iki.fi/midcom-serveattachmentguid-412ef01605cb98f01d84c3b2920054fe/openpsa-dbe-connection.png)
+![OpenPsa DBE connection](/files/openpsa-dbe-connection.png)
 
 ## Security model
 

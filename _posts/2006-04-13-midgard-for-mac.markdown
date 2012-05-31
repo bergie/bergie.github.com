@@ -10,7 +10,7 @@ Thanks to [Jyrki Wahlstedt][1] there is now a new way to install [Midgard CMS][2
 
 I'm now testing his packages and will update the [installation instructions][4] as soon as I'm done.
 
-![DarwinPorts Mac installer](http://bergie.iki.fi/midcom-serveattachmentguid-cd5129842c1fd7281a64e907a91e65cf/darwinports-installer.jpg)
+![DarwinPorts Mac installer](/files/darwinports-installer.jpg)
 
 __Updated 2006-04-21:__ I've got the DarwinPorts Midgard now running on my PowerBook G4.  At first look, it is __a lot faster__ than the Fink packages, possibly due to using MySQL 5.
 

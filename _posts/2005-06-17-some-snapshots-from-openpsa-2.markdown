@@ -9,23 +9,23 @@
 
 __Calendar week view__. No tables, reservations scaled based on their real duration:
 
-![Calendar week](http://bergie.iki.fi/midcom-serveattachmentguid-1a4038a4c2f37bdd6eac0c91dadddd40/openpsa2-calendar-week.jpg)
+![Calendar week](/files/openpsa2-calendar-week.jpg)
 
 __Calendar month view__. No images, past days are grayed out
 
-![Calendar month](http://bergie.iki.fi/midcom-serveattachmentguid-6170172019b40d23faf5d4b7f678c0d8/openpsa2-calendar-month.jpg)
+![Calendar month](/files/openpsa2-calendar-month.jpg)
 
 __Calendar reservation editor with date widget__. Participants chosen using AJAX live search, whole editor customizable using [datamanager schemas][4]:
 
-![Calendar event editor](http://bergie.iki.fi/midcom-serveattachmentguid-1c0d41d9e3d51c9efc0c4fe751b4d0c6/openpsa2-calendar-edit-datewidget.jpg)
+![Calendar event editor](/files/openpsa2-calendar-edit-datewidget.jpg)
 
 __Contacts person view__. New features include belonging to multiple organizations, easier [account editing][5] and datamanager-handled features like the photo:
 
-![Person card in Contacts](http://bergie.iki.fi/midcom-serveattachmentguid-e875b568168ac76d0cb185fa7e61877b/openpsa2-contacts-person.jpg)
+![Person card in Contacts](/files/openpsa2-contacts-person.jpg)
 
 __Contacts chooser__. This is the new datamanager widget used everywhere in OpenPSA 2 for connecting persons to documents, projects and calendar reservations. Type a search into the field, and it will query the Contacts database [FOAF][6] interface using AJAX and list results below. Select a contact and she will be added to the list above. As can be seen from the Georgian name, this is fully internationalized:
 
-![Contacts chooser](http://bergie.iki.fi/midcom-serveattachmentguid-0ad8e4d1576baefdb3f5dfe1dbaf7837/openpsa2-contactschooser.jpg)
+![Contacts chooser](/files/openpsa2-contactschooser.jpg)
 
 The user interface concept is still somewhat unfinished, and is being worked on by [Arttu][7]. But even at this stage there seem to be several benefits:
 

@@ -5,7 +5,7 @@
   layout: "post"
 
 ---
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-275176932815198de0eb609c3ca80351/OSCOM-official.png" style="float: right; margin-left: 10px;" alt="OSCOM" title="OSCOM" />
+<img src="/files/OSCOM-official.png" style="float: right; margin-left: 10px;" alt="OSCOM" title="OSCOM" />
 
 [OSCOM][1], the central organization for Open Source Content Management has been [having  organizational problems][2] for last couple of years. Latest setback was [Sandro Groganz setting down today][3] from being the OSCOM chairman.
 

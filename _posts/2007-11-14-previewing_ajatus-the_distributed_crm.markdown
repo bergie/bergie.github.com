@@ -9,7 +9,7 @@
 ---
 While there is no public release yet, I though to give a heads-up on a project we're working on with <a href="http://protoblogr.net/">Jerry</a>: <strong><a href="http://www.ajatus.info/">Ajatus</a></strong> is a distributed, or peer-to-peer CRM system built on top of <a href="http://bergie.iki.fi/blog/jquery_and_couchdb-001.html">CouchDb</a>.
 
-<a href="http://bergie.iki.fi/midcom-serveattachmentguid-ccc35b2292fe11dc8b034b3a121aeccaecca/ajatus-note-related.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-d18c08d492fe11dc8b034b3a121aeccaecca/ajatus-note-related-tm.jpg" height="246" width="398" border="1" hspace="4" vspace="4" alt="Ajatus-Note-Related" /></a>
+<a href="/files/ajatus-note-related.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-d18c08d492fe11dc8b034b3a121aeccaecca/ajatus-note-related-tm.jpg" height="246" width="398" border="1" hspace="4" vspace="4" alt="Ajatus-Note-Related" /></a>
 
 What makes Ajatus so special is the approach we're taking with it. Having with <a href="http://www.openpsa.org/">OpenPsa</a> found the traditional, hierarchical CRM approach unworkable we wanted to solve the problem in a different way:
 

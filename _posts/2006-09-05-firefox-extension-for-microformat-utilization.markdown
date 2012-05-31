@@ -10,11 +10,11 @@ I'm now running [Tails][1], a Firefox extension that recognizes and handles [Mic
 
 It seems to like at least the Microformats embedded in various Midgard applications. For example, [OpenPsa Calendar][3]:
 
-![Tails displaying hCalendar entries in OpenPsa Calendar](http://bergie.iki.fi/midcom-serveattachmentguid-803fced058973b4c943167741c599a35/tails-extension-openpsa-calendar-small.jpg)
+![Tails displaying hCalendar entries in OpenPsa Calendar](/files/tails-extension-openpsa-calendar-small.jpg)
 
 and [OpenPsa Contacts][4]:
 
-![Tails displaying hCars entries in OpenPsa Contacts](http://bergie.iki.fi/midcom-serveattachmentguid-9853f72d536a03f01d534ed7ada745e2/tails-extension-openpsa-contacts-small.jpg)
+![Tails displaying hCars entries in OpenPsa Contacts](/files/tails-extension-openpsa-contacts-small.jpg)
 
 The Tails extension is also scriptable, allowing developers to [build their own][7] actions to be made available for Microformats. For example, if I wanted my browser to support adding events directly to OpenPsa Calendar instead of the desktop calendar, I could write a [Tails Script][7] for it.
 

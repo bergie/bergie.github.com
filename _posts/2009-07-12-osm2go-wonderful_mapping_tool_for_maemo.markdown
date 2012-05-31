@@ -11,7 +11,7 @@
 <p>
 Today in the <a href="http://www.stateofthemap.org/">State of the Map conference</a> I gave a lightning talk introducing Till Harbaum's <a href="http://maemo.org/downloads/product/OS2008/osm2go/">OSM2Go</a>, a wonderfully simple tool for contributing to <a href="http://www.openstreetmap.org/">OpenStreetMap</a>.
 </p><p>
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-8b6d28406ee611de8035cb79cd71fd15fd15/osm2go-hietalahti.jpg" height="240" width="400" border="1" hspace="4" vspace="4" alt="OSM2Go editing Hietalahti, Helsinki" title="OSM2Go editing Hietalahti, Helsinki" />
+<img src="/files/osm2go-hietalahti.jpg" height="240" width="400" border="1" hspace="4" vspace="4" alt="OSM2Go editing Hietalahti, Helsinki" title="OSM2Go editing Hietalahti, Helsinki" />
 </p><p>
 If you want to contribute to a <a href="http://wiki.openstreetmap.org/wiki/Main_Page">freely available map</a> of the world, <a href="http://maemo.org/downloads/product/OS2008/osm2go/">download OSM2Go</a> to your tablet and start mapping! My slides are <a href="http://www.slideshare.net/bergie/osm2go">available on SlideShare</a>.
 </p><p>

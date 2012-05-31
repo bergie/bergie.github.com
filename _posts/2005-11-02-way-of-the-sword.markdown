@@ -5,7 +5,7 @@
   layout: "post"
 
 ---
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-25d9d2d1b52c692ac62e655d6fa42c92/sabre-hit-areas.gif" border="0" height="102" width="87" alt="Valid hit areas with sabre" title="Valid hit areas with sabre" align="right" />
+<img src="/files/sabre-hit-areas.gif" border="0" height="102" width="87" alt="Valid hit areas with sabre" title="Valid hit areas with sabre" align="right" />
 We went with Kerttu to a [fencing][1] lesson for the first time yesterday. The [sabre][2] course feels interesting, and the connections to [Kendo][3], the other sword sport I've practiced are definitely visible.
 
 A very small course at [Ylioppilasmiekkailijat][4], so we practically get private instruction.

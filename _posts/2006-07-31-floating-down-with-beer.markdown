@@ -9,7 +9,7 @@ Last saturday we participated in the [Kaljakellunta][1] - beer floating event. T
 
 Faulty oars ensured only 50% of the [Death Monkey][4] team reached the goal, but it was a really nice event in any case. Everybody was in surprisingly good mood and helpful, which is totally unheard of in typical Finnish booze-oriented events. Next year again!
 
-![AK and Janos floating down](http://bergie.iki.fi/midcom-serveattachmentguid-c940b1d967fd286621a94dbae037c234/Kaljakellunta_2006_Janos_AK_small.jpg)
+![AK and Janos floating down](/files/Kaljakellunta_2006_Janos_AK_small.jpg)
 
 Lots of nice [Kaljakellunta photos here][5].
 

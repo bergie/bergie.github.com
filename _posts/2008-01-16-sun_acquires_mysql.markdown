@@ -8,7 +8,7 @@
 ---
 <a href="http://www.mysql.org/">MySQL</a>, the world's most popular open source database <a href="http://www.mysql.com/news-and-events/sun-to-acquire-mysql.html">has today been bought by Sun Microsystems</a>. Congratulations to <a href="http://en.wikipedia.org/wiki/Michael_Widenius">Monty</a> and the rest of the team! Billion dollars, <a href="http://blogs.mysql.com/kaj/2008/01/16/sun-acquires-mysql/">quite a deal</a> in the free software space.
 
-<p><img src="http://bergie.iki.fi/midcom-serveattachmentguid-e626775ec46b11dcbea2d958095643394339/sun-mysql.jpg" height="153" width="400" border="1" hspace="4" vspace="4" alt="Sun-Mysql" /></p>
+<p><img src="/files/sun-mysql.jpg" height="153" width="400" border="1" hspace="4" vspace="4" alt="Sun-Mysql" /></p>
 
 <a href="http://blogs.sun.com/jonathan/entry/winds_of_change_are_blowing">Jonathan Schwartz writes</a>:
 <blockquote>This puts products like MySQL in an interesting position. They're a part of every web company's infrastructure, to be sure. And though many of the more traditional companies use MySQL (from auto companies to financial institutions to banks and retailers), many have been waiting for a Fortune 500 vendor willing to step up, to provide mission critical global support.<br /><br />

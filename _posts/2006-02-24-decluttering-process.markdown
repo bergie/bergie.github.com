@@ -7,7 +7,7 @@
 ---
 During this week we've hauled about one and half [Land Rover][3] loads of furniture and old stuff to [recycling][2].
 
-![Decluttering in process](http://bergie.iki.fi/midcom-serveattachmentguid-98bdb1f39c74cd8929f1fd1abe8f6947/Decluttering_project.jpg)
+![Decluttering in process](/files/Decluttering_project.jpg)
 
 I have to say [decluttering][1] feels really good. Living in the western society you end up accumulating incredible amounts of unnecessary things.
 

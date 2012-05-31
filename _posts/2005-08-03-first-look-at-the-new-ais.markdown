@@ -21,11 +21,11 @@ I did some basic CSS work for the Simple version of AIS today.
 
 The main view of AIS now combines the different toolbars into a unified item, and hides the navigation by default to give more room for the content being edited. Typography comes from the site style.
 
-![Simple AIS with hidden navigation](http://bergie.iki.fi/midcom-serveattachmentguid-c41a500c5518baaff1185f0a0f880583/ais-new-simple-look.jpg)
+![Simple AIS with hidden navigation](/files/ais-new-simple-look.jpg)
 
 To go to manage another part of the MidCOM site, user can expand the navigation by clicking the "location arrow".
 
-![Simple AIS with navigation shown](http://bergie.iki.fi/midcom-serveattachmentguid-50fd2ede32128af80e50fcdeb81c8d4d/ais-new-simple-look-navi.jpg)
+![Simple AIS with navigation shown](/files/ais-new-simple-look-navi.jpg)
 
 Get the new AIS from [MidCOM CVS][6].
 

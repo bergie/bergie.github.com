@@ -10,7 +10,7 @@
 <p>
 <a href="http://bergie.iki.fi/blog/on_usb_fingers_and_world_news/">The tale</a> of <a href="http://protoblogr.net/">Jerry's</a> <a href="http://bergie.iki.fi/blog/when_reality_meets_product_concepts/">prosthetic USB finger</a> continues. Helsingin Sanomat has posted the <a href="http://www.hs.fi/videot/1135244765883?kategoria=Uutiset">recent Reuters interview video</a> with him:
 </p><p>
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-fd93a99c1cfe11debc0fb95a37b5249e249e/jerry-usb-reuters-hs.jpg" height="348" width="400" border="1" hspace="4" vspace="4" alt="Jerry's Reuters interview on Hesari" title="Jerry's Reuters interview on Hesari" />
+<img src="/files/jerry-usb-reuters-hs.jpg" height="348" width="400" border="1" hspace="4" vspace="4" alt="Jerry's Reuters interview on Hesari" title="Jerry's Reuters interview on Hesari" />
 </p><p>
 While the hs.fi site is in Finnish, the interview video is in English.
 </p>

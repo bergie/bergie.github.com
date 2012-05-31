@@ -8,8 +8,8 @@
 ---
 This morning I've been exploring the <a href="http://jaiku.com/">Jaiku</a> service. Jaiku is a combination of a <a href="http://jaiku.com/tour/2">social web service</a> and a <a href="http://jaiku.com/tour/3">mobile phone application</a> that takes the <a href="http://www.lifehack.org/articles/lifehack/twitter-use-it-productively.html">personal status and presence ideas of Twitter</a> quite a bit further. The idea is to combine data from various services to provide <a href="http://www.zylstra.org/blog/archives/2006/12/presence_means.html">a presence feed</a> that can be shared with friends and colleagues. 
 
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-51a37218e73911db90f81d0e419952345234/personal-presence-aggregation-jaiku.jpg" height="250" width="355" border="1" hspace="4" vspace="4" alt="Personal-Presence-Aggregation-Jaiku" /> 
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-4bbb2224e73911db90f81d0e419952345234/personal-presence-aggregation-midgard.jpg" height="250" width="354" border="1" hspace="4" vspace="4" alt="Personal-Presence-Aggregation-Midgard" />
+<img src="/files/personal-presence-aggregation-jaiku.jpg" height="250" width="355" border="1" hspace="4" vspace="4" alt="Personal-Presence-Aggregation-Jaiku" /> 
+<img src="/files/personal-presence-aggregation-midgard.jpg" height="250" width="354" border="1" hspace="4" vspace="4" alt="Personal-Presence-Aggregation-Midgard" />
 
 <a href="http://ahtisaari.typepad.com/moia/2007/04/why_i_use_jaiku.html">Marko Ahtisaari writes</a>:
 <blockquote>For me Jaiku is about:

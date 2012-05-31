@@ -14,7 +14,7 @@
 
 Some [examples][5] of the first, Firefox-only toolbar are [now available][4]. I tested them on a [Nokia 770][6], and they seem to be working just fine:
 
-![Midgard toolbar on Maemo](http://bergie.iki.fi/midcom-serveattachmentguid-d25e0159d59b4502af9bd257f433e91a/midcom-toolbar-770.jpg)
+![Midgard toolbar on Maemo](/files/midcom-toolbar-770.jpg)
 
 This is promising as I definitely want to be able to manage my websites using the small internet tablet.
 

@@ -13,7 +13,7 @@ I was returning back <a href="http://www.dopplr.com/traveller/bergie">from Switz
 </p><p>
 I'd seen the machines there before, and as I now wasn't in a hurry, I decided to try them. The experience is quite cool, but somehow it also feels a bit scary to validate your entry to your home country to a machine.
 </p><p>
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-baea1c78dcff11dda69d5999979179787978/automatic-border-on-efhk.jpg" height="271" width="400" border="1" hspace="4" vspace="4" alt="Automated border controls at Helsinki-Vantaa" title="Automated border controls at Helsinki-Vantaa" /></p><p>
+<img src="/files/automatic-border-on-efhk.jpg" height="271" width="400" border="1" hspace="4" vspace="4" alt="Automated border controls at Helsinki-Vantaa" title="Automated border controls at Helsinki-Vantaa" /></p><p>
 To <a href="http://www.raja.fi/rvl/home.nsf/pages/BB81D9DD58E23D0EC225747F004CCA09?Opendocument">enter the country</a> you insert the passport into a reader, which then opens the first gate. Inside that gate is another machine in front of which you need to stand. It takes a picture, and apparently compares that to the one stored on the chip in the passport. If the pictures match, a second gate opens and you're in the country.
 </p><p>
 I considered keeping <a href="http://www.flickr.com/photos/bergie/tags/hat/">my hat</a> on to see what happens if the identification fails, but then decided not to bother.

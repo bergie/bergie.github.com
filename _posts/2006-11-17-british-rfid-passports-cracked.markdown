@@ -9,7 +9,7 @@
 
 > "If you can read the chip, then you can clone it," he says. "You could use this to clone a passport that would exploit the system to illegally enter another country."
 
-![Finnish e-Passport](http://bergie.iki.fi/midcom-serveattachmentguid-47f6241678c311db9842c76e9c51df3ddf3d/finnish-e-passport.jpg)
+![Finnish e-Passport](/files/finnish-e-passport.jpg)
 
 I unfortunately was forced to get this new "[mark of the beast][3]" last month when my previous 10 year passport had again been mutilated by some border guards, breaking off the information page. So now I lost couple years of passport validity (RFID passports are valid only for 5 years), and have a passport that most likely contains similar security holes as the passports used in USA, UK, Germany and The Netherlands.
 

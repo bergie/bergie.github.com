@@ -6,7 +6,7 @@
   layout: "post"
 
 ---
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-b8b8e07c987411dcbb13ffd47bcde2d8e2d8/thumbs-up.jpg" height="298" width="187" border="0" align="right" hspace="8" vspace="4" alt="Vali likes the Content Cache" title="Vali likes the Content Cache" />
+<img src="/files/thumbs-up.jpg" height="298" width="187" border="0" align="right" hspace="8" vspace="4" alt="Vali likes the Content Cache" title="Vali likes the Content Cache" />
 <a href="http://www.midgard-project.org/">Midgard</a> is quite a <a href="http://www.ohloh.net/projects/3309/analyses/latest">huge framework</a>, and so <a href="http://en.wikipedia.org/wiki/Cache">caching</a> is needed to keep things efficient. To that effect, <a href="http://www.midgard-project.org/updates/view/midcom-2_4_0.html">MidCOM 2.4 in 2005</a> added a <a href="http://www.midgard-project.org/documentation/concepts-midcom-specs-subsystems-cache/">major feature of caching</a> generated pages until they needed reconstructing.
 
 However, with the 2005 technology the caching system proved to be troublesome: Berkeley DB corruption, faulty invalidation mechanisms and other problems. When we started working on <a href="http://www.midgard-project.org/updates/view/midcom-2_5_0.html">MidCOM 2.5</a> we decided to remove MidCOM's own content caching infrastructure in favor of using a <a href="http://www.midgard-project.org/documentation/setting-up-squid-reverse-proxy/">Squid reverse proxy</a>.

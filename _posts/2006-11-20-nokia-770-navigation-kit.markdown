@@ -5,7 +5,7 @@
   layout: "post"
 
 ---
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-9d47647a78b411dbb0345923c20c57015701/770-navicore-personal.jpg" border="0" height="117" width="200" alt="Navicore Personal on 770, image from Nokia.com" title="Navicore Personal on 770, image from Nokia.com" align="right" hspace="6" />
+<img src="/files/770-navicore-personal.jpg" border="0" height="117" width="200" alt="Navicore Personal on 770, image from Nokia.com" title="Navicore Personal on 770, image from Nokia.com" align="right" hspace="6" />
 Nokia has released a [Navigation kit for 770][1], providing GPS navigation capabilities to this [Linux device][2]. The navigation software used is [Navicore Personal][3] which application [requires Tablet OS 2006][4]. The announcement says:
 
 > One of the most wanted features for the Nokia 770 Internet Tablet has been navigation. Now we have good news for those of you who have been waiting for it. The Navigation Kit for Nokia 770 is now available for purchase through [nokia.com][9], now with free shipping.

@@ -8,7 +8,7 @@
 
 ---
 <p>
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-1bd103081aae11deaf74679efb5520432043/vali-party.jpg" height="175" width="200" border="0" align="right" hspace="8" vspace="4" alt="Vali raises a toast to ten years of Midgard" title="Vali raises a toast to ten years of Midgard" />
+<img src="/files/vali-party.jpg" height="175" width="200" border="0" align="right" hspace="8" vspace="4" alt="Vali raises a toast to ten years of Midgard" title="Vali raises a toast to ten years of Midgard" />
 <br /><a href="http://www.linuxtoday.com/developer/1999050701705NWSW">May 8th 1999</a>:
 </p><blockquote>
 The Midgard Project has finally released the first public version of Midgard Application Server Suite. The new release contains Midgard core libraries, a PHP3-based web application server for the Apache platform and the needed web-based administration tools.

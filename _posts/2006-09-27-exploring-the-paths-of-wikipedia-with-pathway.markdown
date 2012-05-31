@@ -8,7 +8,7 @@
 ---
 [Pathway][1] is an OS X desktop client for the [Wikipedia][2], the free encyclopedia. It  keeps track of relations between pages you read using a [handy network map][3], and makes them searchable via [Spotlight][4]. It is also able to save the researched network of pages for later use.
 
-![Researching with Pathway](http://bergie.iki.fi/midcom-serveattachmentguid-3f01b4149eedfa14f78c441cf000fe0c/pathway-midgard-small.jpg)
+![Researching with Pathway](/files/pathway-midgard-small.jpg)
 
 Via [TUAW][5].
 

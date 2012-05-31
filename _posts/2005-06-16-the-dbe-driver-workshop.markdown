@@ -5,7 +5,7 @@
   layout: "post"
 
 ---
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-fca366e10568eb4d1bd4d3df06cf5cff/dbe-driver-workshop.jpg" border="0" height="195" width="260" alt="dbe-driver-workshop.jpg" align="right" />
+<img src="/files/dbe-driver-workshop.jpg" border="0" height="195" width="260" alt="dbe-driver-workshop.jpg" align="right" />
 The first [Driver workshop][1] for companies integrating open source business applications to the [Digital Business Ecosystem][2] was held this week in Tampere.
 
 [Nemein][3] is one of the companies [participating][4] in the project. The plan is to integrate the [OpenPSA][5] project management system into the framework together with [Jukka Zitting][6] from [Yukatan][7]. Once this integration has been done, companies can use OpenPSA to distribute tasks and report hours with their business partners.
@@ -20,7 +20,7 @@ While DBE has lots of challenges ahead of it, including the fact that the funded
 
 Look for more updates in [Planet DBE][18].
 
-![Digital Business Ecosystem](http://bergie.iki.fi/midcom-serveattachmentguid-2d00272408d21c24e22f32c30c90b52f/dbe.gif)
+![Digital Business Ecosystem](/files/dbe.gif)
 
 [1]: http://www.digital-ecosystems.org/de/refs/ref_event.html
 [2]: http://www.digital-ecosystem.org/html/

@@ -11,7 +11,7 @@ Installation on N800 was not very easy as the download link provided in <a href=
 
 In any case, when installed Rhapsody populates an icon to the Maemo menu (by default to "Favorites" but this can be changed). Clicking it launches the application in full-screen state, a bit like <a href="http://downloads.maemo.org/product/canola/">Canola</a>:
 
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-5e08175edc9c11dbaf5507d659795b685b68/rhapsody-n800.jpg" height="240" width="400" border="1" hspace="4" vspace="4" alt="Rhapsody-N800" />
+<img src="/files/rhapsody-n800.jpg" height="240" width="400" border="1" hspace="4" vspace="4" alt="Rhapsody-N800" />
 
 When launched, I was asked whether I already had <a href="http://learn.rhapsody.com/plans?pageid=unagi.11894418.wrapper&amp;pageregion=A1&amp;src=rotw.learn_overview&amp;pcode=rn&amp;opage=rotw.learn_overview">a Rhapsody account</a>, or whether I wanted to try a 30 day trial. I opted for the trial since I don't know if Rhapsody will be useful for me or not.
 

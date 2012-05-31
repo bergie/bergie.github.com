@@ -10,7 +10,7 @@
 <p>
 I've got no information on the validity of the <a href="http://gizmodo.com/5260260/nokias-leaked-future-tablet-screenshot-large-smartphone">claimed Harmattan screenshots</a> that are floating around, but anyway wanted to comment on a part of it:
 </p><p>
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-83b27dd6447e11debd9a256f61f170667066/possible-harmattan-activity-map.jpg" height="181" width="398" border="1" hspace="4" vspace="4" alt="Today's activities on a map" title="Today's activities on a map" />
+<img src="/files/possible-harmattan-activity-map.jpg" height="181" width="398" border="1" hspace="4" vspace="4" alt="Today's activities on a map" title="Today's activities on a map" />
 </p><p>
 Having your today's meetings on a map would be really cool.
 </p><p>

@@ -6,7 +6,7 @@
   layout: "post"
 
 ---
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-2cfaa99d13db223314f445b93f23f97a/goodbye_im.png" border="0" height="96" width="96" alt="Goodbye proprietary IM" title="Goodbye proprietary IM" align="right" />
+<img src="/files/goodbye_im.png" border="0" height="96" width="96" alt="Goodbye proprietary IM" title="Goodbye proprietary IM" align="right" />
 
 __May 19th__ is the [Open Discussion Day][1]. The idea is to promote [open][2] instant messaging protocols [over the proprietary and closed ones][3]:
 

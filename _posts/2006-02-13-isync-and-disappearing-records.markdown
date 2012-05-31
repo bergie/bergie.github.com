@@ -14,7 +14,7 @@ It seems Apple's [iSync][1] and Sony-Ericsson phones are having a severe synchro
 
 Since both of have Sony-Ericsson phones (Rambo has a P800, and I have a K700) I wasn't particularly surprised to see this:
 
-![iSync wants to delete all my contacts](http://bergie.iki.fi/midcom-serveattachmentguid-98144d9ca390f9ff849b5747d4621ef9/dangerous-isync-merge.jpg)
+![iSync wants to delete all my contacts](/files/dangerous-isync-merge.jpg)
 
 The only way to fix synchronization was to allow this operation, so I as a precaution exported my [Address Book][3] contacts as vCards. As suspected, the synchronization run wiped out my whole calendar, and modified the contacts to unrecognizable shape.
 

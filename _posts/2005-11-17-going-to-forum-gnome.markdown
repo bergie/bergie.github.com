@@ -6,7 +6,7 @@
   layout: "post"
 
 ---
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-083f71fd56dbb2fd780bb3cfd4efe7c5/forum-gnome-2005.jpg" border="0" height="113" width="250" alt="Fórum GNOME 2005" style="margin-left: 10px;" align="right" />
+<img src="/files/forum-gnome-2005.jpg" border="0" height="113" width="250" alt="Fórum GNOME 2005" style="margin-left: 10px;" align="right" />
 I'm traveling next week to the [Fórum GNOME][1] conference in [Curitiba][2], [Brazil][3]. The actual conference is held together with [Latinoware Mercosul][8] on November 26th - 27th.
 
 My two sessions in the event are:

@@ -7,7 +7,7 @@
 
 ---
 <p style="text-align:right;">
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-8f08f2c25e2511dd90532d13af95a3b0a3b0/beer_and_pastel.jpg" height="192" width="250" border="0" align="right" hspace="8" vspace="4" alt="Beer And Pastel" /></p><p>
+<img src="/files/beer_and_pastel.jpg" height="192" width="250" border="0" align="right" hspace="8" vspace="4" alt="Beer And Pastel" /></p><p>
 It seems many people <a href="http://geekwhat.com/2008/07/13/what-merits-a-facebook-friend-request/">are struggling</a> with how to classify different contacts in the social networking services you use: is your boss your "friend" on Orkut, and are your drinking buddies valid LinkedIn contacts?
 </p><p>
 To make things easy, let me introduce the <strong>beer rule</strong>:

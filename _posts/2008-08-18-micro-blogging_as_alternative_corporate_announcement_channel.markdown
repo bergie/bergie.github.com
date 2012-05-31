@@ -11,7 +11,7 @@ Today <a href="http://www.nebula.fi/">our ISP</a> is having <a href="http://www.
 </p><p>
 <a href="http://jaiku.com/channel/Nemein">http://jaiku.com/channel/Nemein</a>
 </p><p>
-<a href="http://bergie.iki.fi/midcom-serveattachmentguid-14b4442c6cfd11dd837fe1d95a0d537b537b/jaiku-channel-nemein.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-1684f18e6cfd11dda310f95a2b716fc16fc1/jaiku-channel-nemein-tm.jpg" height="178" width="400" border="1" hspace="4" vspace="4" alt="Jaiku's Nemein channel" title="Jaiku's Nemein channel" /></a>
+<a href="/files/jaiku-channel-nemein.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-1684f18e6cfd11dda310f95a2b716fc16fc1/jaiku-channel-nemein-tm.jpg" height="178" width="400" border="1" hspace="4" vspace="4" alt="Jaiku's Nemein channel" title="Jaiku's Nemein channel" /></a>
 </p><p>
 If you are a Jaiku user, feel free to join the channel. Others can follow it via the <a href="http://jaiku.com/channel/Nemein/feed/rss">RSS feed</a>.
 </p>

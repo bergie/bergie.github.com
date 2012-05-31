@@ -13,7 +13,7 @@ For the last month we've been working in Salzburg to build such a system, the [I
 
 But first, here is how our system looks like:
 
-![Proggis displaying IKS project plan](/midcom-serveattachmentguid-1e0e47ad96fbfcee47a11e08d46e7126c9836c236c2/proggis-iks-projectplan-500.png)
+![Proggis displaying IKS project plan](/files/proggis-iks-projectplan-500.png)
 
 ## Where does the data come from?
 
@@ -87,7 +87,7 @@ Any business analytics system dealing with moderate amounts of data can be built
 * Analytics based on the data are done with CouchDB map/reduce
 * Visualization happens with a CouchApp using [JavaScript InfoVis Toolkit](http://thejit.org/)
 
-![Simple architecture for a business analytics system](/midcom-serveattachmentguid-1e0e47b247c04d2e47b11e08d46e7126c9836c236c2/proggis-architecture.png)
+![Simple architecture for a business analytics system](/files/proggis-architecture.png)
 
 This way you have a business analytics environment that is easy to extend with more data when it becomes available. New analysis can be done by writing reasonably simple map/reduce functions, and CouchDB's replication capabilities allow you to take the system and data with you.
 

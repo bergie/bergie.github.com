@@ -11,7 +11,7 @@
 <p>
 The <a href="http://www.fsf.org/">Free Software Foundation's</a> GNU project <a href="http://www.fsf.org/news/freedom-fry/">turned 25 last week</a>, and the English humorist <a href="http://www.gnu.org/fry/">Stephen Fry made a video</a> to commemorate it:
 </p><p>
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-0e732ce87cfe11dd9a59a57a77692ad52ad5/freedom-fry.jpg" height="352" width="400" border="1" hspace="4" vspace="4" alt="Stephen Fry on 25 years of Free Software" title="Stephen Fry on 25 years of Free Software" /></p><p>
+<img src="/files/freedom-fry.jpg" height="352" width="400" border="1" hspace="4" vspace="4" alt="Stephen Fry on 25 years of Free Software" title="Stephen Fry on 25 years of Free Software" /></p><p>
 <a href="http://mako.cc/">Benjamin Mako Hill</a> posted some thoughts on how <a href="http://mako.cc/copyrighteous/20080906-00">the first generation of free software developers</a> has grown:
 </p><blockquote>
 Certainly, GNU has matured and accomplished wonderful things in last quarter-century. More importantly perhaps, it's produced wonderful progeny. It has spawned hundreds of thousands of free software projects, thousands of free or nearly-free operating systems, and an unbelievably vibrant global free and open source software community. Beyond the software realm, the free culture movement, most free licensing projects, and much of the access to knowledge movement can trace a connection back to GNU. We are living, and building, a new generation of the free software movement.

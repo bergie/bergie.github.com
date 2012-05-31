@@ -6,7 +6,7 @@
   layout: "post"
 
 ---
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-fa453c2ec6ba11dc8cc6630ca633865d865d/driving_in_lesotho.jpg" height="181" width="300" border="1" align="right" hspace="8" vspace="4" alt="Driving In Lesotho" />
+<img src="/files/driving_in_lesotho.jpg" height="181" width="300" border="1" align="right" hspace="8" vspace="4" alt="Driving In Lesotho" />
 A <a href="http://news.bbc.co.uk/2/hi/technology/7106998.stm">BBC article is reporting</a> how cell phones have become ubiquitous in the developing world, and how they instead of &quot;regular&quot; computers will be the communications, learning and business platform in many of those regions.
 <blockquote>If I had told you ten years ago that by the end of 2007 there would be an international network of wirelessly-connected computers throughout the developing world, you might well have said it wasn't possible.
 <br /><br />

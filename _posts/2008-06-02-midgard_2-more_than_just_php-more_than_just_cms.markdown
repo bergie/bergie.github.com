@@ -8,7 +8,7 @@
 <p>
 As <a href="http://bergie.iki.fi/blog/midgard_2-finally_legacy-free.html">Midgard 2 is already in alpha stage</a>, I though it would be good to update the architecture diagram to showcase the new Midgard structure. This includes multiple language bindings, <a href="http://bergie.iki.fi/blog/midcom_3_at_a_glance.html">MidCOM3</a>, <a href="http://bergie.iki.fi/blog/interprocess_communications_in_midgard-d-bus_comes_to_the_web.html">D-Bus interprocess communications</a> and other things.
 </p><p>
-<a href="http://bergie.iki.fi/midcom-serveattachmentguid-953deb42308611dd805e3142fd528dfd8dfd/midgard2-architecture.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-98647d0e308611dd8d6235f6e27d4ed74ed7/midgard2-architecture-tm.jpg" height="374" width="400" border="1" hspace="4" vspace="4" alt="Midgard 2 architecture" title="Midgard 2 architecture" /></a>
+<a href="/files/midgard2-architecture.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-98647d0e308611dd8d6235f6e27d4ed74ed7/midgard2-architecture-tm.jpg" height="374" width="400" border="1" hspace="4" vspace="4" alt="Midgard 2 architecture" title="Midgard 2 architecture" /></a>
 </p><p>
 With these changes Midgard 2 can function either as a full-fledged CMS, a <a href="http://bergie.iki.fi/blog/midcom_3_at_a_glance.html">PHP MVC framework</a>, or a <a href="http://bergie.iki.fi/blog/introduction_to_midgards_database_abstraction_system.html">persistent storage framework</a> for multiple different programming languages.
 </p><p>

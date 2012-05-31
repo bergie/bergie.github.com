@@ -6,7 +6,7 @@
   layout: "post"
 
 ---
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-efc9865cb06c11db93ca91e16866ee53ee53/mini_rfid_ads_small.jpg" border="0" height="213" width="187" alt="mini_rfid_ads_small.jpg" title="Personalized ads for Mini drivers" style="float: right; margin-left: 8px;" />
+<img src="/files/mini_rfid_ads_small.jpg" border="0" height="213" width="187" alt="mini_rfid_ads_small.jpg" title="Personalized ads for Mini drivers" style="float: right; margin-left: 8px;" />
 Maybe I'm a [neo-luddite][6], but [this sounds a bit scary][1]:
 
 > The boards, which usually carry typical advertising, are programmed to identify approaching Mini drivers through a coded signal from a radio chip embedded in their key fob. The messages are personal, based on questionnaires that owners filled out.

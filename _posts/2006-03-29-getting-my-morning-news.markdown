@@ -7,7 +7,7 @@
 ---
 In order to make my news-reading process less time consuming, I've now switched from [NetNewsWire][1] running all the time on my PowerBook to the [Bloglines][2] web service primarily used through my [Nokia 770][3] handheld browser.
 
-![Reading morning news on Nokia 770](http://bergie.iki.fi/midcom-serveattachmentguid-c17a58e9ae2c6d1eae1e8963aaeedb8c/Morning_news_with_770.jpg)
+![Reading morning news on Nokia 770](/files/Morning_news_with_770.jpg)
 
 Why use Bloglines? There are some good reasons:
 

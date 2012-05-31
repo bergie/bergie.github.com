@@ -8,7 +8,7 @@
 ---
 [Growl][1] is a very nice notification system for [Mac OS X][2]. It displays bubble-styled messages on the screen about various events like new instant messages or emails. We were looking for a new user interface messaging system for the [Midgard web toolkit][3] and decided to model it based on the Growl concept:
 
-![Two protoGrowl messages](http://bergie.iki.fi/midcom-serveattachmentguid-ccd236eeac1912af3139788336876073/protoGrowl-beta-small.jpg)
+![Two protoGrowl messages](/files/protoGrowl-beta-small.jpg)
 
 [Jerry Jalava][6] from [Incognito][4] took the task, and as result we now have the first version of the [protoGrowl Javascript library][5]. The library can be used to display user interface messages both in Midgard applications and in any Javascript-supporting web page. Enjoy!
 

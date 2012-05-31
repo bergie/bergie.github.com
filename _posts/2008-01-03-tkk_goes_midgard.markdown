@@ -8,7 +8,7 @@
 ---
 <a href="http://www.tkk.fi/">Helsinki University of Technology</a> (TKK), the oldest university of technology in Finland launched their new site today:
 
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-022f77b6b9f911dc83b28978488267aa67aa/tkk-frontpage-midgard.jpg" height="304" width="400" border="1" hspace="4" vspace="4" alt="TKK frontpage with Midgard" title="TKK frontpage with Midgard" />
+<img src="/files/tkk-frontpage-midgard.jpg" height="304" width="400" border="1" hspace="4" vspace="4" alt="TKK frontpage with Midgard" title="TKK frontpage with Midgard" />
 
 From <a href="http://www.tkk.fi/en/current_affairs/news/view/tkk_uudisti_paaverkkosivunsa.html">the announcement</a>:
 <blockquote>The goal is for all TKK units to gradually adopt the new content management system. This would standardise the appearance of all TKK web pages as well as their style of presenting information.<br /><br />

@@ -8,7 +8,7 @@
 ---
 Since [we][1] have some new members in [the team][2], it was time to grab some new Intel [MacBooks][3]. I also decided to switch and recycle my 12" PowerBook to another team member.
 
-![The white MacBook](http://bergie.iki.fi/midcom-serveattachmentguid-2e5375a6378df89f85ec2478c4ed64b8/intel-macbook.jpg)
+![The white MacBook](/files/intel-macbook.jpg)
 
 As usual the switch between Macs was reasonably painless - just connect the two laptops with a FireWire cable and wait. However, after the switch my [DarwinPorts-built][4] [Midgard][5] ceased to work.
 

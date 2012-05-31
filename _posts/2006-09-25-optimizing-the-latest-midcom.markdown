@@ -63,7 +63,7 @@ Now memcached is only being used for ACL and parent hierarchy caching, but in ne
 
 Polish translation of MidCOM 2.6 is just off the press, courtesy of [Solt][9]:
 
-![MidCOM 2.6 metadata editor in polish](http://bergie.iki.fi/midcom-serveattachmentguid-76636990c5c1958bf12d52022ee2a71a/midcom-2.6-metadata-pl-small.jpg)
+![MidCOM 2.6 metadata editor in polish](/files/midcom-2.6-metadata-pl-small.jpg)
 
 In addition to user interface localization, I've been working on [multilingual content in MidCOM][11]. At the moment the situation looks [really promising][12]...
 

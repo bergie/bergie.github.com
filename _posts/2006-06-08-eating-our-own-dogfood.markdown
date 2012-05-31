@@ -13,7 +13,7 @@ First one of these was the calendar. OpenPsa 2 has a nice [automated buddy list]
 
 So what I did today was add a system for deciding which of your buddies to display in the calendar through a simple AJAX interface:
 
-![Choosing buddies to display in calendar](http://bergie.iki.fi/midcom-serveattachmentguid-3aeb5b2e1fed2b6cb18a6d42544884c4/openpsa2-calendar-subscription.jpg)
+![Choosing buddies to display in calendar](/files/openpsa2-calendar-subscription.jpg)
 
 Expect to see many such improvements soon as we encounter things to improve in our use of the software.
 

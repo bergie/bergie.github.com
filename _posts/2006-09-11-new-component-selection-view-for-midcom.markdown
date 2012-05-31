@@ -9,7 +9,7 @@
 
 We had a mini Midgard developer meeting over the weekend, with sauna and an [archipelago cruise][3]. In addition to lots of talk about multilingual sites and replication, this also resulted in a slightly clarified folder creation screen:
 
-![MidCOM 2.6 folder creation screen](http://bergie.iki.fi/midcom-serveattachmentguid-47478e2a6796a48279d874654aa73230/midcom-2.6-create-folder-small.jpg)
+![MidCOM 2.6 folder creation screen](/files/midcom-2.6-create-folder-small.jpg)
 
 The main point in this change is to make it easier to understand the different components available, and to tell the admin that more components can be installed easily.
 
@@ -17,7 +17,7 @@ Once the [Tango icons][4] are [properly packaged][5], we will also include nice 
 
 __Updated:__ Here is a screenshot of the credits screen. The data there is generated from the [manifest files][6] of installed components, so it is the same as used on the PEAR packages:
 
-![MidCOM 2.6 credits screen](http://bergie.iki.fi/midcom-serveattachmentguid-688183029f8a890949e8d003b8fea7ed/midcom-2.6-credits-small.jpg)
+![MidCOM 2.6 credits screen](/files/midcom-2.6-credits-small.jpg)
 
 [1]: http://www.midgard-project.org/documentation/midcom/
 [2]: http://www.midgard-project.org/midgard/1.7/

@@ -7,7 +7,7 @@
 
 ---
 <p>
-<a href="http://bergie.iki.fi/midcom-serveattachmentguid-1576a250efb811dc8e759ba02488be9ebe9e/te_black_box_voting-1.jpg"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-1710b6f0efb811dca06e3bc92c4718ce18ce/te_black_box_voting-1-tm.jpg" height="299" width="200" border="1" align="right" hspace="8" vspace="4" alt="It is not who votes that counts" title="It is not who votes that counts" /></a>
+<a href="/files/te_black_box_voting-1.jpg"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-1710b6f0efb811dca06e3bc92c4718ce18ce/te_black_box_voting-1-tm.jpg" height="299" width="200" border="1" align="right" hspace="8" vspace="4" alt="It is not who votes that counts" title="It is not who votes that counts" /></a>
 </p><p>
 According to the <a href="http://www.om.fi/">Finnish Ministry of Justice</a>, the new electronic voting system that <a href="http://www.tietoenator.fi/default.asp?path=1,93,16080,210,9278,27901">will be used in next municipal elections</a> is a proprietary system.
 </p><p>

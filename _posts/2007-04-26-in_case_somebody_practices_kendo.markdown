@@ -7,7 +7,7 @@
 ---
 I'm selling my old <a href="http://www.huuto.net/fi/showitem.php3?itemid=52582730">bogu (kendo armor) on Huuto.net</a>:
 
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-6e0ed808f42b11db8f9c6f67af440e270e27/kendo-bogu-for-sale.jpg" height="325" width="400" border="1" hspace="4" vspace="4" alt="Kendo-Bogu-For-Sale" /><span style="font-size:0pt;">
+<img src="/files/kendo-bogu-for-sale.jpg" height="325" width="400" border="1" hspace="4" vspace="4" alt="Kendo-Bogu-For-Sale" /><span style="font-size:0pt;">
 
 </span>It has been gathering dust for last couple of years, and now it looks like I won't be making a <a href="http://en.wikipedia.org/wiki/Kendo">kendo</a> comeback because I'm quite taken with <a href="http://en.wikipedia.org/wiki/Haidong_Gumdo">Haidong Gumdo</a>. Besides, it is better to <a href="http://unclutterer.com/">de-clutter</a> since I'm moving soon.
 

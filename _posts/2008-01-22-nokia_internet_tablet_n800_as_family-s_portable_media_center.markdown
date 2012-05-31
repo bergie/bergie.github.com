@@ -7,7 +7,7 @@
 
 ---
 <p>
-<a href="http://bergie.iki.fi/midcom-serveattachmentguid-bc6707b8efb711dc9f53aff5202532143214/jyrki_outi_n800.jpg"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-bd368902efb711dc98def52122c307a207a2/jyrki_outi_n800-tm.jpg" height="320" width="240" border="1" align="right" hspace="8" vspace="4" alt="Jyrki and Outi huddled around the Internet Tablet" title="Jyrki and Outi huddled around the Internet Tablet" /></a><strong><em>
+<a href="/files/jyrki_outi_n800.jpg"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-bd368902efb711dc98def52122c307a207a2/jyrki_outi_n800-tm.jpg" height="320" width="240" border="1" align="right" hspace="8" vspace="4" alt="Jyrki and Outi huddled around the Internet Tablet" title="Jyrki and Outi huddled around the Internet Tablet" /></a><strong><em>
 <br /></em></strong>
 </p><p>
 <strong><em>This is a guest blog by </em></strong><strong><em><a href="http://www.wahlstedt.fi/">Outi and Jyrki Wahlstedt</a></em></strong><strong><em>. I loaned my </em></strong><strong><em><a href="http://en.wikipedia.org/wiki/Nokia_N800">N800</a></em></strong><strong><em> to them in late December and here they write about their experiences with the device.</em></strong>

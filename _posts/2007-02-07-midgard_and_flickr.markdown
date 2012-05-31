@@ -12,11 +12,11 @@ There are <a href="http://www.flickr.com/tools/">dozens of tools</a> that can up
 Luckily Flickr has a <a href="http://www.flickr.com/services/api/">quite comprehensive API</a> for photo management. By using the nice <a href="http://phpflickr.com/">phpFlickr library</a> I am able to synchronize the photos uploaded to Flickr to my blog. The result is that I can upload photos more easily, and both Flickr users and my blog readers can see them. Here are the first photos imported:
 
 
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-b6ce1950b6e111db90a379a48fc801d301d3/photostream-flickr-import-latest.jpg" height="272" width="336" border="1" hspace="4" vspace="4" alt="Photostream-Flickr-Import-Latest" />
+<img src="/files/photostream-flickr-import-latest.jpg" height="272" width="336" border="1" hspace="4" vspace="4" alt="Photostream-Flickr-Import-Latest" />
 
 The way this works is that I've subscribed my <a href="http://www.midgard-project.org/documentation/midcom-components/">org.routamc.photostream</a> installation to my Flickr account. By default it checks every hour whether there are new photos, but I can also do a manual synchronization:
 
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-b2232878b6e111db979c57a68e43bcd1bcd1/photostream-flickr-import-raw.jpg" height="169" width="336" border="0" hspace="4" vspace="4" alt="Photostream-Flickr-Import-Raw" />
+<img src="/files/photostream-flickr-import-raw.jpg" height="169" width="336" border="0" hspace="4" vspace="4" alt="Photostream-Flickr-Import-Raw" />
 
 This functionality is available in <a href="http://www.midgard-project.org/documentation/running-latest-midcom-from-subversion/">MidCOM SVN trunk</a>.
 

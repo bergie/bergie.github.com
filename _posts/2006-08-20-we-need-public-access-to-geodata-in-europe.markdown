@@ -12,7 +12,7 @@
 If we want to support European tourism and software industries, we must open the geographical databases. This would enable new types of [innovative][6] [services][5] and business models to emerge.
 
 <p>
-<a href="http://rejectinspire.publicgeodata.org"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-7fbc4f97682bd892441a21017612f04e/geodata-banner.png" border="0" height="60" width="467" alt="Vote for Public Maps - Reject INSPIRE!" title="Vote for Public Maps - Reject INSPIRE!" /></a>
+<a href="http://rejectinspire.publicgeodata.org"><img src="/files/geodata-banner.png" border="0" height="60" width="467" alt="Vote for Public Maps - Reject INSPIRE!" title="Vote for Public Maps - Reject INSPIRE!" /></a>
 </p>
 
 Via [Mapping Hacks][8].

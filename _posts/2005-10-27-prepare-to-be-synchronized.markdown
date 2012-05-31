@@ -7,7 +7,7 @@
 ---
 Something interesting is going to happen with [OpenPsa][1] and [Digital Business Ecosystem][2]:
 
-![Person's account status in OpenPsa](http://bergie.iki.fi/midcom-serveattachmentguid-57b480c22047aa8050c19c26784c2d45/dbe-serviceid-openpsa-person.jpg)
+![Person's account status in OpenPsa](/files/dbe-serviceid-openpsa-person.jpg)
 
 The DBE integration can be seen in action in [Link&ouml;ping Midgard developer meeting][3] this weekend, or in [Tampere DBE workshop][4] on monday.
 

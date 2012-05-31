@@ -16,17 +16,17 @@ As things are, here is how you set up Ajatus replication on a Mac OS X system:
 
 First allow CouchDb to talk to the outside world (<strong>note:</strong> it is a good idea to keep the firewall up when not replicating!):
 
-<a href="http://bergie.iki.fi/midcom-serveattachmentguid-e06ac9eaba3511dcb36e0964b98f3e553e55/beam-accept-connections-leopard.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-e2bfa65cba3511dc8d8b792ae493de99de99/beam-accept-connections-leopard-tm.jpg" height="109" width="258" border="1" hspace="4" vspace="4" alt="Beam-Accept-Connections-Leopard" /></a>
+<a href="/files/beam-accept-connections-leopard.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-e2bfa65cba3511dc8d8b792ae493de99de99/beam-accept-connections-leopard-tm.jpg" height="109" width="258" border="1" hspace="4" vspace="4" alt="Beam-Accept-Connections-Leopard" /></a>
 
 Then access the CouchDb <a href="http://bergie.iki.fi/blog/couchdb_0-7-0_is_out.html">management console</a> in <a href="http://localhost:5984/_utils/">http://localhost:5984/_utils/</a> and go to &quot;Replication&quot;. Set up the replication paths there. The database you're interested in is &quot;<em>ajatus_db_content</em>&quot; (by default, see <a href="http://www.ajatus.info/documentation/installation/#d3f49ff7e6e57d0a1a3671214fc1681a">advanced setup</a>):
 
-<a href="http://bergie.iki.fi/midcom-serveattachmentguid-deb00d22ba3511dcb15917ca467db9f8b9f8/ajatus-replication-setup.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-df6beb0aba3511dc80e977c26d0abfa1bfa1/ajatus-replication-setup-tm.jpg" height="104" width="398" border="1" hspace="4" vspace="4" alt="Ajatus-Replication-Setup" /></a>
+<a href="/files/ajatus-replication-setup.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-df6beb0aba3511dc80e977c26d0abfa1bfa1/ajatus-replication-setup-tm.jpg" height="104" width="398" border="1" hspace="4" vspace="4" alt="Ajatus-Replication-Setup" /></a>
 
 Once you have entered the paths just click &quot;Replicate&quot; and wait a sec. Replication is one way, so remember to also replicate back from the other server!
 
 When replication is done your Ajatus system should have data entered on multiple systems:
 
-<a href="http://bergie.iki.fi/midcom-serveattachmentguid-d9684e1aba3511dc8d8b792ae493de99de99/ajatus-multiple-creators.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-dd283074ba3511dc8f284911300608c408c4/ajatus-multiple-creators-tm.jpg" height="81" width="296" border="1" hspace="4" vspace="4" alt="Ajatus-Multiple-Creators" /></a>
+<a href="/files/ajatus-multiple-creators.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-dd283074ba3511dc8f284911300608c408c4/ajatus-multiple-creators-tm.jpg" height="81" width="296" border="1" hspace="4" vspace="4" alt="Ajatus-Multiple-Creators" /></a>
 
 <a href="http://www.nemein.com/en/">My company</a> is now <a href="http://en.wikipedia.org/wiki/Dogfooding">dogfooding</a> Ajatus. At the moment we use it in <a href="http://jaiku.com/channel/ajatus/presence/22541792">full peer-to-peer mode</a>, but there are some plans to install a central server for security and backup purposes. I will post some notes on our experiences later this month.
 

@@ -5,7 +5,7 @@
   layout: "post"
 
 ---
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-5249e56bacef68595cbb5db0a8084cbe/DC3_and_Ju52_on_EFHF.jpg" border="0" height="132" width="200" alt="DC-3 and Ju-52" title="Airveteran DC-3 and Lufthansa Ju-52 on top of Helsinki-Malmi airport" style="margin-left: 10px;" align="right" />
+<img src="/files/DC3_and_Ju52_on_EFHF.jpg" border="0" height="132" width="200" alt="DC-3 and Ju-52" title="Airveteran DC-3 and Lufthansa Ju-52 on top of Helsinki-Malmi airport" style="margin-left: 10px;" align="right" />
 The budgetary question for Air New Zealand's Intranet [seems to be][1]:
 
 > Does it make the planes fly?

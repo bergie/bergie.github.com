@@ -6,7 +6,7 @@
   layout: "post"
 
 ---
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-0ea47dba993411dc98411dd440f485648564/time-machine.jpg" height="190" width="200" border="1" align="right" hspace="10" vspace="4" alt="Time-Machine" />
+<img src="/files/time-machine.jpg" height="190" width="200" border="1" align="right" hspace="10" vspace="4" alt="Time-Machine" />
 Like probably everybody else, I've been quite lazy taking backups. Through the <a href="http://www.ajatus.info/documentation/ajatus_manifesto/#632d8b863e781e93a8430a09f779985e">Linus backup philosophy</a> this hasn't been so bad: my code is in various repositories and my photos are <a href="http://www.flickr.com/photos/bergie/">on Flickr</a>. But when <a href="http://bergie.iki.fi/blog/slight-pause-in-development.html">a hard drive died on me</a> last year, a bunch of small things were still lost.
 
 Because of this I thought the <a href="http://www.apple.com/macosx/features/timemachine.html">Time Machine</a> feature of <a href="http://www.apple.com/macosx/">OS X Leopard</a> was <a href="http://lifehacker.com/software/mac-os-x-leopard/the-simplicity-of-time-machine-compels-you-315924.php">quite cool</a>. Until I found out that it would work only with external USB or FireWire disks, that is. I know that if I need to plug something in, I wouldn't do it.

@@ -8,7 +8,7 @@
 ---
 [We][1] spent the last two days driving from Helsinki to [Poznan][3], Poland for the [Midgard Developer Meeting][2]. This proved to be a good field test for [Maemo 2.0][14] as we needed to instruct people back home about some project details using [Google Talk][15].
 
-![Instructing office through Maemo's Google Talk](http://bergie.iki.fi/midcom-serveattachmentguid-9b72d7b9f9422e8e61c0570794e89040/Arttu_using_770.jpg)
+![Instructing office through Maemo's Google Talk](/files/Arttu_using_770.jpg)
 
 ## Saturday
 
@@ -22,13 +22,13 @@ While the trip was a long one, it has definitely been worth it. So far we've cov
 * Rambo and Alessio have been looking at the [Red5 media streaming server][13] for Flash
 * We [discussed][31] the [MidgardCollector proposal][32] which will eventually simplify parameter and ACL retrieval, and help with [caching][33]
 
-![Exploring Poznan's night life](http://bergie.iki.fi/midcom-serveattachmentguid-df0b01a0e54fe25428ef47a97df9cda8/Poznan_old_town.jpg)
+![Exploring Poznan's night life](/files/Poznan_old_town.jpg)
 
 ## Sunday
 
 We hit the old square of Poznan again on saturday night after watching the [Italy-USA game][21] with Alessio, and toured the local bars until about 4am.
 
-![In Columbus Pub](http://bergie.iki.fi/midcom-serveattachmentguid-5f1e1d7b1a083edb19cb06cf457e83c9/Basement_of_Columbus_pub_Poznan.jpg)
+![In Columbus Pub](/files/Basement_of_Columbus_pub_Poznan.jpg)
 
 We continued the meeting around 11am, have covered the following:
 
@@ -39,7 +39,7 @@ We continued the meeting around 11am, have covered the following:
 * Juhana tried to set up the [jLibrary document manager][25] that we want to integrate with Midgard, but didn't quite get it working
 * And most importantly, we acquired four boxes of Russian [sparkling wine][29], most of it for Osku's upcoming wedding, and some for [sabrage practice][30]
 
-![Piotras explains fashionability of different Midgard releases](http://bergie.iki.fi/midcom-serveattachmentguid-c4e184c52abc9aaadf5c8be79334ff9b/Piotras_explains_Midgard_fashionability.jpg)
+![Piotras explains fashionability of different Midgard releases](/files/Piotras_explains_Midgard_fashionability.jpg)
 
 Soon we start the long trip back home through Germany, Denmark and Sweden, completing the circle around the [Baltic Sea][23].
 

@@ -17,7 +17,7 @@ Of course Midgard as a [C and PHP][15] project doesn't directly have anything to
 
 In the other news, somebody in the event will be lucky enough to win a cool [Midgard messenger bag][14] designed by Tony Lee
 
-![Midgard messenger bag](http://bergie.iki.fi/midcom-serveattachmentguid-498acd82b2208dbe47720bf2db1917d2/Midgard_messenger_bag.jpg)
+![Midgard messenger bag](/files/Midgard_messenger_bag.jpg)
 
 [1]: http://jroller.com/page/glongman?entry=examining_the_eclipsecon_oss_pavilion
 [2]: http://www.eclipsecon.org/2006/Sub.do?type=pavillion

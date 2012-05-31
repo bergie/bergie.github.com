@@ -9,7 +9,7 @@
 
 ---
 <p style="text-align:right;">
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-c2ca82c86bb311de8b335be47077c124c124/midgard2-bubble-1.png" height="137" width="128" border="0" align="right" hspace="8" vspace="4" alt="Midgard2" title="Midgard2" />
+<img src="/files/midgard2-bubble-1.png" height="137" width="128" border="0" align="right" hspace="8" vspace="4" alt="Midgard2" title="Midgard2" />
 </p><p>
 I gave my <a href="http://www.grancanariadesktopsummit.org/node/210">Midgard2: Content repository for desktop and the web</a> talk yesterday in <a href="http://www.grancanariadesktopsummit.org/">GCDS</a>. The <a href="http://www.slideshare.net/bergie/midgard2-content-repository-for-desktop-and-the-web">slides are available on SlideShare</a>. The main idea was that any application that deals with structured data could benefit from using a content repository like <a href="http://www.midgard2.org/">Midgard2</a> or <a href="http://couchdb.apache.org/">CouchDB</a>.
 </p><p>

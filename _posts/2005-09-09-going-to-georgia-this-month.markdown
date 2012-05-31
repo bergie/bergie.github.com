@@ -6,7 +6,7 @@
   layout: "post"
 
 ---
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-ce2c77cddbadff05d762eafba025d485/Finland-Georgia-Midgard.jpg" style="border: none; margin-left: 6px" height="198" width="187 alt="Finnish-Georgian Midgard cooperation (logo by Ania Walczac)" title="Finnish-Georgian Midgard cooperation (logo by Ania Walczac)" align="right" />
+<img src="/files/Finland-Georgia-Midgard.jpg" style="border: none; margin-left: 6px" height="198" width="187 alt="Finnish-Georgian Midgard cooperation (logo by Ania Walczac)" title="Finnish-Georgian Midgard cooperation (logo by Ania Walczac)" align="right" />
 I booked the tickets today for a Sep 22nd - Oct 3rd visit to [Nemein Georgia][1] in [Tbilisi][2]. The purpose of the trip is to help [Taya][3] with [MidCOM site building][4] and hopefully persuade some Georgian ISPs to host [Midgard CMS][5].
 
 In addition to the serious part of the trip, I'm really looking forward for spending some time in the country. We had lots of fun [the last time][6], and this should be good diversion especially after this summer's [missed trip][7].

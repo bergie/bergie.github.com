@@ -12,7 +12,7 @@ I've written earlier how <a href="http://bergie.iki.fi/blog/making_public_transp
 
 In addition to buses, trams and metros, bicycles are a very environment-friendly way of commuting. The <a href="http://en.wikipedia.org/wiki/Helsinki">City of Helsinki</a> is starting to <a href="http://www.helsinki.fi/en/index/matkailu/liikunta/katevastipyoraillen.html">realize and promote this</a>, both by <a href="http://www.hs.fi/kaupunki/artikkeli/Helsinkiin+rakennetaan+paljon+uusia+py%C3%B6r%C3%A4teit%C3%A4/1135230650447">adding new bicycle routes</a> and by being part of the handy <a href="http://kevytliikenne.ytv.fi/">bicycle route planner</a>:
 
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-8b1571fc7b3311dca9a64b62e4a567a967a9/ytv-kevytliikenne-reittiopas.jpg" height="219" width="398" border="1" hspace="4" vspace="4" alt="Ytv-Kevytliikenne-Reittiopas" />
+<img src="/files/ytv-kevytliikenne-reittiopas.jpg" height="219" width="398" border="1" hspace="4" vspace="4" alt="Ytv-Kevytliikenne-Reittiopas" />
 
 Again however the actual data for such route planning is behind closed doors and available only via a web interface. And since most <a href="http://en.wikipedia.org/wiki/Automotive_navigation_system">GPS navigator</a> producers are only interested in the car navigation market it is unlikely that someone will make bicycle-friendly options of them.
 
@@ -22,11 +22,11 @@ It would be great if more people from the Helsinki cycle commuting area would <a
 
 That could be one of the components easing the transition from this:
 
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-a1927a6a7b3311dca9a64b62e4a567a967a9/ekurvine_helsinki_traffic.jpg" height="300" width="400" border="1" hspace="4" vspace="4" alt="Ekurvine Helsinki Traffic" />
+<img src="/files/ekurvine_helsinki_traffic.jpg" height="300" width="400" border="1" hspace="4" vspace="4" alt="Ekurvine Helsinki Traffic" />
 
 To this:
 
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-a07fba847b3311dca9a64b62e4a567a967a9/samipii_critical_mass.jpg" height="300" width="400" border="1" hspace="4" vspace="4" alt="Samipii Critical Mass" />
+<img src="/files/samipii_critical_mass.jpg" height="300" width="400" border="1" hspace="4" vspace="4" alt="Samipii Critical Mass" />
 
 This post was written as part of the <a href="http://blogactionday.org/">2007 Blog Action Day</a>. Now I will take the bus home :-)
 

@@ -7,7 +7,7 @@
 
 ---
 <p>
-<a href="http://bergie.iki.fi/midcom-serveattachmentguid-6d7a06d478fe11dd91c201bb3cfc84878487/context-aware-life-coaching.jpg"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-71401cf478fe11dd9f2e016560e4630b630b/context-aware-life-coaching-tm.jpg" height="254" width="200" border="1" align="right" hspace="8" vspace="4" alt="Context-aware life coaching ad" title="Context-aware life coaching ad" /></a>
+<a href="/files/context-aware-life-coaching.jpg"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-71401cf478fe11dd9f2e016560e4630b630b/context-aware-life-coaching-tm.jpg" height="254" width="200" border="1" align="right" hspace="8" vspace="4" alt="Context-aware life coaching ad" title="Context-aware life coaching ad" /></a>
 <br />I know, according to <a href="http://bergie.iki.fi/blog/midgard_and_synchronized_releases.html">roadmap</a> we all should be now focusing in hammering out bugs in <a href="http://www.midgard-project.org/updates/view/1219823947.html">Midgard 8.09</a>, or as we call it, "<em>Ragnaroek</em>" instead of working on <a href="http://github.com/bergie/midcom">MidCOM 3</a>. But <a href="http://teroheikkinen.iki.fi/">Tero</a> had <a href="http://tepheikk.jaiku.com/presence/43534559">a specific problem</a> he needed to solve, and I wanted to ensure it was done right. And so I <a href="http://github.com/bergie/midcom/commit/1b590f1d9ad9e14dba69bdbe0628cc116935b2d7">ended up adding</a> support for <em>context injectors</em> into MidCOM 3.
 <br /><span style="font-size:14pt;"><strong>
 <br />What about contexts anyway?

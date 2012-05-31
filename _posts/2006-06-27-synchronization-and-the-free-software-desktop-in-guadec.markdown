@@ -9,7 +9,7 @@
 ---
 We held the _[Feeds, Synchronization and the Free Software Desktop][6]_ talk with [Tigert][5] today. Despite the [Fluendo party][1] the night before, there was a quite good crowd in the old [Museu Balaguer library][7].
 
-![Speech in the Biblioteca Museu Victor Balaguer](http://bergie.iki.fi/midcom-serveattachmentguid-f70db43ba16d656fe5b1bc1387124cf2/Tigert_and_Bergie_talk_in_Balaguer.jpg)
+![Speech in the Biblioteca Museu Victor Balaguer](/files/Tigert_and_Bergie_talk_in_Balaguer.jpg)
 
 The key ideas from the talk were:
 
@@ -25,7 +25,7 @@ As a tangent we discussed also integrating "where" into the desktop:
 
 Same ideas would also work on [770][8].
 
-You can download the slides here: [guadec-feeds-2006-06-27.pdf](http://bergie.iki.fi/midcom-serveattachmentguid-876b2aafde41d415e6bbafe8697c4e81/guadec-feeds-2006-06-27.pdf) (776KB PDF)
+You can download the slides here: [guadec-feeds-2006-06-27.pdf](/files/guadec-feeds-2006-06-27.pdf) (776KB PDF)
 
 __In the other news,__ due to the [big badge swap][2] of last night, I'm currently carrying the identity of _[Chema Casanova][3]_.
 

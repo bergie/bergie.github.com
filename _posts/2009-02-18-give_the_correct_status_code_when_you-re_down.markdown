@@ -11,7 +11,7 @@
 </p><p>
 And they report it only in human-readable way, not in fashion a browser, a proxy or a search engine would understand it. While being down, Jaiku still responds with <a href="http://en.wikipedia.org/wiki/HTTP_200">HTTP 200 OK</a>:
 </p><p>
-<a href="http://bergie.iki.fi/midcom-serveattachmentguid-1aa85df0fdc611dd84724dd9d30d87c187c1/jaiku-down-error-200.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-1c04ad52fdc611dd944df373056b0d3e0d3e/jaiku-down-error-200-tm.jpg" height="210" width="398" border="1" hspace="4" vspace="4" alt="Jaiku down: Error 200 OK" title="Jaiku down: Error 200 OK" /></a>
+<a href="/files/jaiku-down-error-200.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-1c04ad52fdc611dd944df373056b0d3e0d3e/jaiku-down-error-200-tm.jpg" height="210" width="398" border="1" hspace="4" vspace="4" alt="Jaiku down: Error 200 OK" title="Jaiku down: Error 200 OK" /></a>
 </p><p>
 <a href="http://www.checkupdown.com/status/E503.html">HTTP 503 Service unavailable</a> would be much nicer. For instance, that is what <a href="http://www.midgard-project.org/">Midgard</a> produces if the database goes down.
 </p>

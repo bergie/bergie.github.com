@@ -10,11 +10,11 @@ Following Kaukola's [Support ticker viewer][1] and kindly financed by our friend
 
 The web user interface is fairly simplistic at the moment, simply listing unapproved hour reports for all projects where the user's [company][5] has been marked as the customer (screenshot without any CSS):
 
-![Hour approval view](http://bergie.iki.fi/midcom-serveattachmentguid-57b921ec67777079179e27d850fb8926/hourview-ui.jpg)
+![Hour approval view](/files/hourview-ui.jpg)
 
 When the user approves some hours, or simply submits the form, an email will be sent to the project manager listing the user's comments and which hours were approved or not approved:
 
-![Email about approved hours](http://bergie.iki.fi/midcom-serveattachmentguid-4c4afba8f6026c8dd988647178d4afb5/hourview-email.jpg)
+![Email about approved hours](/files/hourview-email.jpg)
 
 Another nice addition to the [Professional Service Automation][6] cycle...
 

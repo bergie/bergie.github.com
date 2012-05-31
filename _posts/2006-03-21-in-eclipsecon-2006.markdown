@@ -7,7 +7,7 @@
 ---
 The [Midgard][1] booth is now all set up in [EclipseCon 2006][2] Open Source Pavilion. If you read this, feel free to drop in to __booth 416__ and enjoy an [__M__ candy][8] and some Midgard talk.
 
-![Midgard in EclipseCon](http://bergie.iki.fi/midcom-serveattachmentguid-c5ba2ac8878d7949e970c2a5ddcda723/EclipseCon-Midgard-booth.jpg)
+![Midgard in EclipseCon](/files/EclipseCon-Midgard-booth.jpg)
 
 So far the Open Source Pavilion has been quite quiet, but I already had one Midgard user to drop in and chat a bit. The conference is sold out, so we can expect the day to be busy later on.
 
@@ -17,7 +17,7 @@ __Updated 2006-03-22:__ I had some interesting conversations yesterday with both
 
 The [Midgard Bag][5] was awarded to Martin Perez from the [jLibrary][6] project:
 
-![Happy owner of a Midgard bag](http://bergie.iki.fi/midcom-serveattachmentguid-fe0482684f6e3900e05f734d5ef754a2/Martin_Perez_bag.jpg)
+![Happy owner of a Midgard bag](/files/Martin_Perez_bag.jpg)
 
 jLibrary is an interesting desktop document management client that uses Java Content Repository as its back-end. Theoretically it could be made to work as an [OpenPsa Documents][7] front-end.
 

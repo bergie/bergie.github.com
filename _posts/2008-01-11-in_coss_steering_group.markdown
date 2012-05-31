@@ -7,7 +7,7 @@
   layout: "post"
 
 ---
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-75a1ae46c03711dc92528b02e27a79a979a9/COSSlogo_vert_rgb.jpg" height="212" width="140" border="0" align="right" hspace="8" vspace="4" alt="COSS" title="COSS" /><a href="http://www.coss.fi/">COSS</a> - the Finnish Centre for Open Source Solutions - is a national development agency for open source business ecosystem. COSS consists of 125 Finnish Open Source companies, several universities and public administration.
+<img src="/files/COSSlogo_vert_rgb.jpg" height="212" width="140" border="0" align="right" hspace="8" vspace="4" alt="COSS" title="COSS" /><a href="http://www.coss.fi/">COSS</a> - the Finnish Centre for Open Source Solutions - is a national development agency for open source business ecosystem. COSS consists of 125 Finnish Open Source companies, several universities and public administration.
 
 My company <a href="http://www.nemein.com/">Nemein</a> has been a <a href="http://directories.coss.fi/fi/yrityshakemisto/yritykset/df06f0852631363ed8b82ea3801f1c9b.html">COSS member</a> for quite a while and benefited from the <a href="http://coss.fi/web/coss/casesnnewsletters/4-02openpsa">publicity</a> and collaborative efforts in the organization. An important part of our work with COSS was the <a href="http://bergie.iki.fi/blog/first-look-at-digital-business-ecosystem.html">Digital Business Ecosystem project</a> where we developed some P2P <a href="http://bergie.iki.fi/blog/networked-project-management-with-dbe.html">inter-company project management tools</a> and did some <a href="http://bergie.iki.fi/blog/digital-business-ecosystem-in-fisl.html">evangelization work</a> in various conferences.
 

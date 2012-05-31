@@ -14,7 +14,7 @@ Having a mobile version of Plazes that doesn't require me to carry a computer or
 
 Good work, Plazes team!
 
-![Seeking Wi-Fi access points with the Mobile Plazer](http://bergie.iki.fi/midcom-serveattachmentguid-e90a6d668c5f34c7e0af033da5fa39b8/n90-plazes.jpg)
+![Seeking Wi-Fi access points with the Mobile Plazer](/files/n90-plazes.jpg)
 
 __In the other news,__ [Geominder][7] uses the cell phone base station identifiers for connecting TODO items into different locations.
 

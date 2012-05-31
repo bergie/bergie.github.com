@@ -12,7 +12,7 @@ OpenLayers is a very nice addition to the Mapstraction stack, as it can be displ
 
 Some initial OpenLayers integration had been in Mapstraction for a while, but as I need to display <a href="http://www.openstreetmap.org/">OpenStreetMaps</a> with it in a project I decided to finish the implementation together with <a href="http://highearthorbit.com/">Andrew Turner</a>. It is not completely tested yet, but for example <a href="http://bergie.iki.fi/blog/position_editing_widget_for_midgard.html">Midgard's positioning widget</a> works quite nicely with it already:
 
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-2869954c865a11dc8390e3d8337c1c971c97/midgard-position-editing-openlayers-osm.jpg" height="359" width="400" border="1" hspace="4" vspace="4" alt="Midgard-Position-Editing-Openlayers-Osm" />
+<img src="/files/midgard-position-editing-openlayers-osm.jpg" height="359" width="400" border="1" hspace="4" vspace="4" alt="Midgard-Position-Editing-Openlayers-Osm" />
 
 Grab the <a href="http://mapstraction.com/svn/source/">code from SVN</a> or take a look at <a href="http://mapstraction.com/demo.php?map=openstreetmap">an implementation example</a>!
 

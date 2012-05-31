@@ -6,7 +6,7 @@
   layout: "post"
 
 ---
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-7e3074f56e5b30a22435a092e849b023/Tymoshenko_rides.jpg" border="0" height="289" width="200" alt="Yulia Tymoshenko on a bike" align="right" />
+<img src="/files/Tymoshenko_rides.jpg" border="0" height="289" width="200" alt="Yulia Tymoshenko on a bike" align="right" />
 
 It has to be said the Ukrainian political advertising scena has changed quite a bit from [what I saw][1] during the [Orange Revolution][2].
 

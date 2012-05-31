@@ -13,7 +13,7 @@ I've just upgraded to the latest [Democracy Player][1] "Internet TV" version:
 
 In addition to being able to subscribe to [PodCasts][2], it can also perform searches on YouTube and Google Video, and subscribe to the search results. This way I get automatically all new [Haidong Gumdo][3] videos to my desktop for example.
 
-![YouTube search with the Democracy Player](http://bergie.iki.fi/midcom-serveattachmentguid-c233116c7fcb11dba244b9143f387b1c7b1c/democracy-youtube-search-small.jpg)
+![YouTube search with the Democracy Player](/files/democracy-youtube-search-small.jpg)
 
 Now, if only it was also available for [my 770][4]...
 

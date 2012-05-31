@@ -13,7 +13,7 @@
 </p><p>
 In the talk he also shows how easy it is to edit the <a href="http://www.openstreetmap.org/">OpenStreetMaps</a>, a bit like <a href="http://bergie.iki.fi/blog/openstreetmap-s_user-generated_data_wins_when_there_are_changes/">I've done before</a>.
 </p><p>
-<img src="http://bergie.iki.fi/midcom-serveattachmentguid-602f53c646fd11de867821e00810c04ac04a/ted-linkeddata-openstreetmap.jpg" height="294" width="400" border="1" hspace="4" vspace="4" alt="TED talk: OpenStreetMap editing" title="TED talk: OpenStreetMap editing" />
+<img src="/files/ted-linkeddata-openstreetmap.jpg" height="294" width="400" border="1" hspace="4" vspace="4" alt="TED talk: OpenStreetMap editing" title="TED talk: OpenStreetMap editing" />
 </p><p>
 <a href="http://bergie.iki.fi/blog/openstreetmap_helsinki_is_getting_pretty_good/">Promoting OpenStreetMap</a> is great. But is this <a href="http://linkeddata.org/">Linked Data</a>? I'd say no.
 </p><p>
