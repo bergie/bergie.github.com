@@ -1,9 +1,8 @@
 ---
 mainfont: "'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif"
-focusfont: "'Bilbo', cursive"
-focusfont_old: "'Raleway',  'DejaVu Sans', 'Verdana', sans-serif"
+focusfont: "'Raleway',  'DejaVu Sans', 'Verdana', sans-serif"
 ---
-@import url(http://fonts.googleapis.com/css?family=Bilbo);
+@import url('http://fonts.googleapis.com/css?family=Raleway:100');
 body {
   font-family: {{ page.mainfont }};
   background-color: #ffffff;
