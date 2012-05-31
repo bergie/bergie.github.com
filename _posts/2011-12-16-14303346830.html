@@ -1,0 +1,118 @@
+---
+layout: post
+title: Running CoffeeScript on Microsoft Azure
+---
+
+<p>It is quite easy to run CoffeeScript applications on <a href="https://www.windowsazure.com/en-us/">Azure</a> now that they support Node.js. You can mostly follow the steps of <a href="https://www.windowsazure.com/en-us/develop/nodejs/tutorials/web-app-with-express/">their Node.js and Express tutorial</a>, with couple of modifications.</p>
+
+<p>Add a <em>package.json</em> into your application root and depend on CoffeeScript and Express:</p>
+
+<pre>{
+
+  "name": "myapp",
+
+  "version": "0.0.1",
+
+  "dependencies": {
+
+    "coffee-script": "*",<br/>    "express": "*"<br/>  }
+
+}
+
+</pre>
+
+<p>Then just have NPM install CoffeeScript by running in the <em>Windows Azure PowerShell for Node.js</em>:</p>
+
+<pre>npm install
+
+</pre>
+
+<p>Once this is done, you can decouple your actual application from the <em>server.js</em> that Azure uses to start your app. The app (in this case, <em>app.coffee</em>) itself could look like this:</p>
+
+<pre>http = require 'express'
+
+
+
+exports.application = app = http.createServer()<br/><br/>app.get '/', (req, res) -&gt;<br/>  res.send "Hello, CoffeeScript on Azure!"
+
+</pre>
+
+<p>Note that the application doesn&#8217;t start a server, it just exposes it through <em>exports</em>. Starting can happen in server.js:</p>
+
+<pre>// Include the CoffeeScript interpreter so that .coffee files will work
+
+var coffee = require('coffee-script');
+
+
+
+// Include our application file
+
+var app = require('./app.coffee');
+
+
+
+// Start the server
+
+app.application.listen(process.env.port);</pre>
+
+<p>And that is it! Now you can work with CoffeeScript just like you would work with any Node.js code on Azure. The only limitation is that if you want to include CoffeeScript files, you need to add the <em>.coffee</em> suffix to the module require call.</p>
+
+<p>Here is how the deployed application looks (note that deployment can take a long time. My first deployment was about 30 minutes):</p>
+
+<p><img src="http://media.tumblr.com/tumblr_lwahuukhnX1qhw5db.png"/></p>
+
+<p>For data storage and queue handling, the Azure storage services are exposed through the <em>azure</em> module which is available <a href="http://search.npmjs.org/#/azure">via NPM</a> or <a href="https://github.com/WindowsAzure/azure-sdk-for-node">GitHub</a>.</p>
+
+<h3>Using Azure workers</h3>
+
+<p>With cloud services one important part is to split your application into different functional modules. The web server front-ends should only handle HTTP requests and display data, and any heavier computing should be offloaded to separate workers.</p>
+
+<p>Azure&#8217;s Queue feature provides a handy way of offloading tasks to be handled by worker nodes. For example, we could use a queue to send information on every request received on the web front-end so that workers can process it. For this, we need to install the <em>azure</em> module. Add this to the dependencies section of your application:</p>
+
+<pre>  "dependencies": {
+
+    ...
+
+    "azure": "*"
+
+  }
+
+</pre>
+
+<p>Then let NPM install the module:</p>
+
+<pre>npm install</pre>
+
+<p>Now we can easily work with the Queue service. First initialize a <em>&#8216;request&#8217;</em> queue in your <em>app.coffee</em>:</p>
+
+<pre># Get the queue service<br/>cloud = require 'azure'<br/>queue = cloud.createQueueService()<br/><br/># Ensure the queue exists<br/>queue.createQueueIfNotExists 'request', (error) -&gt;<br/>  return unless error<br/>  console.log "Failed to create queue", error</pre>
+
+<p>Then start sending information on new requests to the queue by creating a new Express middleware:</p>
+
+<pre># Send URL of each request to queue<br/>app.use (req, res, next) -&gt;<br/>  queue.createMessage 'request', req.url, (error) -&gt;<br/>    return unless error<br/>    console.log "Error sending", error<br/>  do next</pre>
+
+<h3>Creating a worker</h3>
+
+<p>Then we just need to create a worker. It can be initialized using the a PowerShell command:</p>
+
+<pre>C:\node\testapp&gt; Add-AzureNodeWorkerRole queue</pre>
+
+<p>Now go to the created <em>queue</em> directory, and add a <em>package.json</em>:</p>
+
+<pre>{<br/>  "name": "test-queue",<br/>  "version": "0.0.1",<br/>  "dependencies": {<br/>    "coffee-script": "*",<br/>    "azure": "*"<br/>  }<br/>}</pre>
+
+<p>Again we&#8217;re going to make the actual heavy lifting in CoffeeScript, so change your worker&#8217;s <em>server.js</em> to say:</p>
+
+<pre>var coffee = require('coffee-script');<br/>var worker = require('./worker.coffee');</pre>
+
+<p>Then edit <em>worker.coffee</em> and add the following:</p>
+
+<pre>cloud = require 'azure'<br/>queue = cloud.createQueueService()<br/><br/># Function that receives new requests from queue and outputs them<br/>checkQueue = -&gt;<br/>  queue.getMessages 'request', (error, messages) -&gt;<br/>    return if error<br/><br/>    for message in messages<br/>      console.log message<br/><br/>      # Destroy the message after we've caught it<br/>      queue.deleteMessage 'request', message.messageid, message.popreceipt, (error) -&gt;<br/>        return if error<br/>        console.log "Message #{message.messageid} deleted from queue"<br/><br/># Poll queue every 0.2 secs<br/>console.log "Setting up queue polling"<br/>setInterval checkQueue, 200</pre>
+
+<p>If you deploy now, you should have both a worker and a web server available. In the Azure Emulator you can see all web requests getting logged by the worker.</p>
+
+<h3>About pricing</h3>
+
+<p>Azure has an <a href="https://www.windowsazure.com/en-us/pricing/calculator/advanced/">interesting pricing model</a>: every running instance costs, and then for storage you have to pay for both the amount of data used, and per transaction.</p>
+
+<p>The polling worker alone, without any requests to the server, would cost 148.50$ per month. Add to that two web front-ends, and say 400 requests per day and you&#8217;d be at 208.63$ per month.</p>

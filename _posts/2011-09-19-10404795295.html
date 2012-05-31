@@ -1,0 +1,22 @@
+---
+layout: post
+title: Tutorial on sending and receiving email with Node.js
+---
+
+<a href="https://gist.github.com/1226809">Tutorial on sending and receiving email with Node.js</a><br/><p>Today I wrote some <a href="https://gist.github.com/1226809">examples of sending and receiving emails</a> with Node.js.</p>
+
+<p>This uses the following libraries:</p>
+
+<ul><li><a href="https://github.com/eleith/emailjs">emailjs</a> for sending email</li>
+
+<li><a href="https://github.com/mscdex/node-imap">node-imap</a> for receiving email</li>
+
+<li><a href="https://github.com/andris9/mailparser">mailparser</a> for parsing received emails</li>
+
+</ul><h2>Running the examples:</h2>
+
+<p>Copy <code>config.json.example</code> to <code>config.json</code> and enter your email account details.</p>
+
+<p>Run <code>coffee send.coffee</code> to send yourself an email with an attachment.</p>
+
+<p>Run <code>coffee read.coffee</code> to receive the sent email and write the attachment back to disk with a new name.</p>

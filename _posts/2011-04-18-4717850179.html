@@ -1,0 +1,26 @@
+---
+layout: post
+title: Asynchronous Programming in JavaScript
+---
+
+<a href="http://www.infoq.com/articles/surviving-asynchronous-programming-in-javascript">Asynchronous Programming in JavaScript</a><br/><p><a href="http://tyb.tumblr.com/post/4632849630">tyb</a> on using <a href="http://blog.jcoglan.com/2011/03/11/promises-are-the-monad-of-asynchronous-programming/">Promises</a> for preventing spaghetti code in asynchronous development:</p>
+
+<blockquote>
+
+<p> <strong>Single Thread vs. Blocking IO:</strong></p>
+
+<p>… <em>if you’re writing code in Javascript that uses blocking I/O </em>or other long running operations, sequential coding is out of the question because<em> blocking the only thread </em>in the system is a very bad idea. The solution is to implement algorithms using asynchronous callbacks, ie. <em>spread out sequential code over multiple callbacks</em>.</p>
+
+<p><strong>Graphs of Callbacks vs. Sequential Synchronous Programs: </strong></p>
+
+<p>… we lose the ability to write down a sequential algorithm; instead for non-trivial sequential code, <em>we end up with a graph of callbacks</em>.</p>
+
+<p><strong>Bottleneck of Using Callbacks - Callback Hammer: </strong></p>
+
+<p>This becomes even more critical for large scale applications that make heavy use of asynchronicity. Using callback-passing for asynchronous actions does not compose very well and <em>might create complex flows of passing callbacks around to handle return values.</em></p>
+
+<p><strong>Promise:</strong></p>
+
+<p>The <a href="http://wiki.commonjs.org/wiki/CommonJS">CommonJS group</a> has an answer for this in the form of <a href="http://wiki.commonjs.org/wiki/Promises">Promises</a>, which aim to provide an interface for i<em>nteracting with an object that represents the result of an action that is performed asynchronously</em>, and may or may not be finished at any given point in time. This way different components can return promises for asynchronous actions and consumers can utilize the promises in a predictable manner. Promises can also provide the fundamental entity to be leveraged for more syntactically convenient language-level extensions that assist with asynchronicity.</p>
+
+</blockquote>

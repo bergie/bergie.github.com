@@ -1,0 +1,30 @@
+---
+layout: post
+title: Make the web editable
+---
+
+<p><a href="http://blog.whatwg.org/the-road-to-html-5-contenteditable">contentEditable</a> is the HTML5 feature that enables rich text editing on web pages. The <a href="http://www.w3.org/People/Berners-Lee/WorldWideWeb">original web browser</a> that Tim Berners-Lee created was also a web editor, and contentEditable brings <a href="http://news.bbc.co.uk/2/hi/technology/4132752.stm">this possibility</a> to all browsers.</p>
+
+<blockquote>
+
+<p>The idea was that anybody who used the web would have a space where they could write and so the first browser was an editor, it was a writer as well as a reader. Every person who used the web had the ability to write something. It was very easy to make a new web page and comment on what somebody else had written, which is very much what blogging is about.</p>
+
+</blockquote>
+
+<p>There are some great rich text editors built on top of contentEditable, the open source <a href="http://aloha-editor.org/">Aloha Editor</a> being my personal favorite.</p>
+
+<p>But in some situations you&#8217;ll want a different user experience than this CMS-oriented tool. For those situations, here is a list of resources about rolling your own web editors:</p>
+
+<ul><li><a href="http://dev.opera.com/articles/view/rich-html-editing-in-the-browser-part-1/">Rich HTML editing in the browser, part 1</a></li>
+
+<li><a href="http://dev.opera.com/articles/view/rich-html-editing-in-the-browser-part-2/">Rich HTML editing in the browser, part 2</a></li>
+
+<li><a href="https://developer.mozilla.org/en/rich-text_editing_in_mozilla">Rich Text Editing in Mozilla</a></li>
+
+<li><a href="http://niichavo.wordpress.com/2009/01/06/contentEditable-div-cursor-position/">Finding cursor position in contentEditable</a></li>
+
+<li><a href="http://code.google.com/p/jquery-clean/">jQuery Clean, HTML cleaning library</a></li>
+
+</ul><p>I&#8217;m using these resources in building <a href="https://github.com/bergie/hallo">Hallo</a>, a simplistic rich text editor written in CoffeeScript on top of jQuery UI.</p>
+
+<p><strong>Note</strong>: unfortunately some popular mobile platforms like iOS <a href="http://stackoverflow.com/questions/723592/why-doesnt-contenteditable-work-on-the-iphone">do not support contentEditable</a> correctly. If you need to support mobile editing, then the <a href="https://github.com/dnewcome/richie">Richie editor</a> might be of interest.</p>

@@ -1,0 +1,62 @@
+---
+layout: post
+title: Using VIE for server-side templating
+---
+
+<p>In our <a href="https://github.com/bergie/ViePalsu">Palsu</a> collaborative meeting tool we&#8217;re using <a href="http://bergie.iki.fi/blog/vie_decoupled_content_management_moves_forward/">VIE</a> for server-side page generation. This effectively means <a href="http://semantic-interaction.org/blog/2011/03/04/so-rdfa-talking-about/">RDFa</a> is our templating language. The CoffeeScript looks like the following:</p>
+
+<pre># Serve the list of meetings
+
+server.get '/dashboard', (request, response) -&gt;
+
+    # Read our HTML template file
+
+    return fs.readFile "#{process.cwd()}/templates/index.html", "utf-8", (err, data) -&gt;
+
+        
+
+        # Prepare a JSDOM window for the template
+
+        document = jsdom.jsdom data
+
+        window = document.createWindow()
+
+        jQ = jQuery.create window
+
+
+
+        # Find RDFa entities and load them
+
+        VIE.RDFaEntities.getInstances jQ "*"
+
+        # Get the Calendar object
+
+        calendar = VIE.EntityManager.getBySubject 'urn:uuid:e1191010-5bb1-11e0-80e3-0800200c9a66'
+
+
+
+        # Query for events that have the calendar as component
+
+        events = calendar.get 'rdfcal:has_component'
+
+        events.predicate = "rdfcal:component"
+
+        events.object = calendar.id
+
+        return events.fetch
+
+            success: (eventCollection) -&gt;
+
+                VIE.cleanup()
+
+                return response.send window.document.innerHTML
+
+            error: (collection, error) -&gt;
+
+                VIE.cleanup()
+
+                return response.send window.document.innerHTML
+
+</pre>
+
+<p>While this isn&#8217;t the most elegant example of page generation with <a href="http://expressjs.com/">Express</a>, the obvious benefit of RDFa as templating language is there: <a href="http://en.wikipedia.org/wiki/Don't_repeat_yourself">don&#8217;t repeat yourself</a>. The same templating mark-up serves as templating on the server-side, client-side and for SEO and integration purposes.</p>

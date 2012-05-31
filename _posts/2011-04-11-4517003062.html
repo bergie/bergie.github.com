@@ -1,0 +1,16 @@
+---
+layout: post
+title: Useful setTimeout patterns
+---
+
+<blockquote><p>Any halfway experienced JavaScripter is familiar with the setTimeout function. It takes two arguments: a function, and a number n. It will delay calling the function until n milliseconds (give or take a few) have passed. The delay is performed asynchronously. This means that the rest of your program will not halt while the timeout is ticking down.</p>
+
+
+
+<p>SetTimeout provides a building block for many other useful patterns appearing in typical JavaScript development. In this article, I will document a few that I use frequently. I am interested in hearing what setTimeout patterns you have found useful in the comments.</p></blockquote>&#8212;<p>Nick Fitzgerald on <a href="http://fitzgeraldnick.com/weblog/35/"><strong>useful setTimeout patterns</strong></a>, including forcing anything to execute asynchronously. Example:</p>
+
+<pre class="sh_javascript">function async (fn) {
+
+    setTimeout(fn, 20);
+
+}</pre>

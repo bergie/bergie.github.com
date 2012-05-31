@@ -1,0 +1,24 @@
+---
+layout: post
+title: Use JavaScript events correctly
+---
+
+<p><a href="http://fuelyourcoding.com/jquery-events-stop-misusing-return-false/">JavaScript Events, or stop misusing <em>return false</em></a>:</p>
+
+<blockquote>
+
+<p>The main reason <em>return false</em> is so widely misused is because it appears to be doing what we want. Link callbacks no longer redirect the browser, form submit callbacks no longer submit the form, etc. So why is it so bad?</p>
+
+<p>First off, <em>return false</em> is actually doing three very separate things when you call it:</p>
+
+<ul><li><em>event.preventDefault();</em></li>
+
+<li><em>event.stopPropagation();</em></li>
+
+<li>Stops callback execution and returns immediately when called.</li>
+
+</ul><p>“Wait a minute,” you cry! I only needed to stop the default behavior! I don’t need these other two items… I think.</p>
+
+</blockquote>
+
+<p>Very good introduction to JS event handling.</p>

@@ -1,0 +1,26 @@
+---
+layout: post
+title: Windows 8 JavaScript code examples
+---
+
+<a href="http://code.msdn.microsoft.com/windowsapps/site/search?f%5B0%5D.Type=ProgrammingLanguage&amp;f%5B0%5D.Value=JavaScript&amp;f%5B0%5D.Text=JavaScript">Windows 8 JavaScript code examples</a><br/><p>As seen from the list, JavaScript is a first-class citizen in the Windows 8 world. For example, dealing with Contacts:</p>
+
+<pre>var basketContact = new Windows.ApplicationModel.Contacts.Contact();
+
+var fields = basketContact.fields;
+
+basketContact.name = contact.name;
+
+
+
+// Add the emails
+
+appendEmail(fields, contact.homeEmail, Windows.ApplicationModel.Contacts.ContactFieldCategory.home);
+
+appendEmail(fields, contact.workEmail, Windows.ApplicationModel.Contacts.ContactFieldCategory.work);
+
+// ...
+
+</pre>
+
+<p>There is also <a href="http://msdn.microsoft.com/en-us/library/windows/apps/br211377">an API reference</a> available.</p>

@@ -1,0 +1,20 @@
+---
+layout: post
+title: Domain-specific language for Flow-Based Programming
+---
+
+<p>There is now a domain-specific language for designing <a href="http://en.wikipedia.org/wiki/Flow-based_programming">control flows</a>:</p>
+
+<pre>'package.json' -&gt; SOURCE Read(ReadFile) OUT -&gt; IN Split(SplitStr)
+
+Split() OUT -&gt; IN Count(Counter) COUNT -&gt; IN Display(Output)
+
+Read() ERROR -&gt; IN Display()</pre>
+
+<p><a href="https://github.com/bergie/noflo">NoFlo</a>, showcased in <a href="http://universalruntime.tumblr.com/post/8998693776/node-js-powered-web-server-written-with-the-noflo">my earlier post</a>, already supports this, allowing you to specify flows in this language and then execute them on <a href="http://nodejs.org/">Node.js</a>. Example:</p>
+
+<pre>$ noflo examples/linecount/count.fbp 
+
+32</pre>
+
+<p>The language itself is not new, <a href="http://groups.google.com/group/flow-based-programming/msg/243ee49f32130ca2">coming from</a> the 70s-era IBM <a href="http://en.wikipedia.org/wiki/Flow-based_programming#History">Data Flow Development Manager</a> (DFDM) system, NoFlo just brings it to the modern era through what could be called <em>software archaeology</em>.</p>
