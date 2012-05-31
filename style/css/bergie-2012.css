@@ -35,6 +35,10 @@ a:hover {
   color: #8f5902;
 }
 
+code {
+  color: #333333;
+}
+
 article {
   display: block;
 }
