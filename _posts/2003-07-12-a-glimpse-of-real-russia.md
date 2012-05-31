@@ -4,7 +4,7 @@ location: Valdaj, Russia
 author: Skoll
 layout: post
 categories:
-  - desktop
+  - motorcycles
 ---
 Friday greeted us with a deprssingly gray atmosphere. After a quick breakfast we loaded the bikes. My Ural was running nicely. To our surprise the can of Binding beer was gone. We were sorry we weren't there to see the exprssion of whoever took the beer, when he first tasted it. It had, after all, been with us for almost a year and several thousand kilometers.
 

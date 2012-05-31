@@ -4,7 +4,7 @@ location: Veliki Luki, Russia
 author: Skoll
 layout: post
 categories:
-  - desktop
+  - motorcycles
 ---
 The Saturday morning in Valdaj was once again gray. To our surprise the bikes were still there. Still, even when we were loading the bikes, we were instructed to take them to guarded parking area (stajanka). Despite of our plans, we decided to push on one more day and have a look a Tver. Before leaving I also adjusted the valve clearance in my Urals left cylider which had made knocking sound.
 
