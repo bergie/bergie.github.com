@@ -10,11 +10,11 @@ As initially <a href="http://www.tigert.com/archives/2005/11/16/tango-ui-for-web
 
 <a href="http://bergie.iki.fi/blog/building_a_new_admin_interface_for_midgard.html">Asgard</a> looks quite nice with the new icons:
 
-<a href="/files/asgard-tango-icons.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-d931ccd87fa611dc82a355d3c9a731e631e6/asgard-tango-icons-tm.jpg" height="210" width="400" border="1" hspace="4" vspace="4" alt="Asgard-Tango-Icons" /></a><span style="font-size:0pt;">
+<a href="/files/asgard-tango-icons.png"><img src="/files/asgard-tango-icons-tm.jpg" height="210" width="400" border="1" hspace="4" vspace="4" alt="Asgard-Tango-Icons" /></a><span style="font-size:0pt;">
 
 </span><a href="http://bergie.iki.fi/blog/midgard-s-new-toolbar.html">The floating toolbar</a> is also improved:
 
-<a href="/files/midcom-toolbar-tango-1.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-dc58b4f87fa611dc82a355d3c9a731e631e6/midcom-toolbar-tango-1-tm.jpg" height="121" width="260" border="1" hspace="4" vspace="4" alt="Midcom-Toolbar-Tango-1" /></a><span style="font-size:0pt;">
+<a href="/files/midcom-toolbar-tango-1.png"><img src="/files/midcom-toolbar-tango-1-tm.jpg" height="121" width="260" border="1" hspace="4" vspace="4" alt="Midcom-Toolbar-Tango-1" /></a><span style="font-size:0pt;">
 
 </span>For <a href="http://www.midgard-project.org/discussion/developer-forum/we_may_need_midgard_1-9_after_all/">Midgard 1.9</a> we will try to do more visual updating of the toolbars together with <a href="http://www.andreasn.se/blog/">Andreas</a>.
 

@@ -28,7 +28,7 @@ Back in the earlier days of <a href="http://oscom.org/">OSCOM</a> we had another
 </p><p>
 Luckily <a href="http://www.wyona.com/people/michael-wechner/index.html">Michael Wechner</a>, of OSCOM and <a href="http://lenya.apache.org/">Apache Lenya</a> fame didn't let the idea die. He worked it onwards, naming the protocol used for conversation between the client and the server <a href="http://neutron.wyona.org/">Neutron Publishing Protocol</a>, a play on Atom. He also built a new client, <a href="http://www.yulup.org/index.html">Yulup</a>, as a Firefox extension that could manage content on compatible servers.
 </p><p>
-<a href="/files/michael_wechner_in_horgenberg.jpg"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-4ce43d7a65f511dd9a98255b6b8079727972/michael_wechner_in_horgenberg-tm.jpg" height="249" width="400" border="1" hspace="4" vspace="4" alt="Michael Wechner in Horgenberg" title="Michael Wechner in Horgenberg" /></a>
+<a href="/files/michael_wechner_in_horgenberg.jpg"><img src="/files/michael_wechner_in_horgenberg-tm.jpg" height="249" width="400" border="1" hspace="4" vspace="4" alt="Michael Wechner in Horgenberg" title="Michael Wechner in Horgenberg" /></a>
 </p><p>
 In summer 2007 I saw a demo of Yulup and discussed Neutron with Michi and was impressed. But was back then too depressed by <a href="http://bergie.iki.fi/blog/when_a_holiday_gets-interesting.html">the Czech episode</a> and other personal issues to press on with the idea. Having watched another year of the directions the community is taking Midgard CMS to, and how clients view CMS deployments, I'm starting to think the time would be ripe for going full forward with Neutron.
 </p><p>

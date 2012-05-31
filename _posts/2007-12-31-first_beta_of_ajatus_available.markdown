@@ -8,7 +8,7 @@
 ---
 Barely made it in December, but first beta of <a href="http://www.ajatus.info/">Ajatus</a>, the distributed CRM is <a href="http://www.ajatus.info/download/ajatus_0_5_0.html">now available</a>. Enjoy!
 
-<a href="/files/ajatus-on-20071231.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-db7a94c4b7b011dca728c3c4a02f424c424c/ajatus-on-20071231-tm.jpg" height="192" width="400" border="1" hspace="4" vspace="4" alt="Ajatus-On-20071231" /></a>
+<a href="/files/ajatus-on-20071231.png"><img src="/files/ajatus-on-20071231-tm.jpg" height="192" width="400" border="1" hspace="4" vspace="4" alt="Ajatus-On-20071231" /></a>
 
 Read the <a href="http://www.ajatus.info/documentation/installation/">installation instructions</a> to get started. Once <a href="http://www.couchdb.org/">CouchDb</a> 0.7+ has proper installers available things will be much easier.
 

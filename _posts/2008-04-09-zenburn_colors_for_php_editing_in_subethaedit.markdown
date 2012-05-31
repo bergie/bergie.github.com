@@ -13,7 +13,7 @@ Yesterday's <a href="http://del.icio.us/popular/">del.icio.us popular</a> alerte
 </p><p>
 To try it out, I made a SubEthaEdit color scheme for using it with the PHP-HTML <a href="http://www.codingmonkeys.de/subethaedit/modes.html">mode</a>:
 </p><p>
-<a href="/files/zenburn-subethaedit-php.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-94fc60f4063411dd903af15d771341ec41ec/zenburn-subethaedit-php-tm.jpg" height="129" width="398" border="1" hspace="0" vspace="4" alt="Zenburn in SubEthaEdit's PHP mode" title="Zenburn in SubEthaEdit's PHP mode" /></a>
+<a href="/files/zenburn-subethaedit-php.png"><img src="/files/zenburn-subethaedit-php-tm.jpg" height="129" width="398" border="1" hspace="0" vspace="4" alt="Zenburn in SubEthaEdit's PHP mode" title="Zenburn in SubEthaEdit's PHP mode" /></a>
 </p><p>
 The color scheme file is <a href="http://www.nehmer.net/~bergie/ZenBurn-PHP-HTML.seestyle">available for download</a>. If others are interested in collaborating on this, the scheme is also in a <a href="http://github.com/bergie/subethaedit-zenburn/tree/master">GitHub repo</a>.
 </p>

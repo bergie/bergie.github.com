@@ -7,7 +7,7 @@
 
 ---
 <p>
-<a href="/files/ididwork-reporting-interface.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-c0455de2647b11dd98d267b909470cf50cf5/ididwork-reporting-interface-tm.jpg" height="206" width="238" border="1" align="right" hspace="8" vspace="4" alt="ididwork.com reporting interface" title="ididwork.com reporting interface" /></a>
+<a href="/files/ididwork-reporting-interface.png"><img src="/files/ididwork-reporting-interface-tm.jpg" height="206" width="238" border="1" align="right" hspace="8" vspace="4" alt="ididwork.com reporting interface" title="ididwork.com reporting interface" /></a>
 <br /><a href="http://www.ididwork.com/">ididwork.com</a>, a simple workstreaming service <a href="http://www.ididwork.com/blog/?p=3">has launched</a> this week. <a href="http://webworkerdaily.com/2007/03/03/workstreaming-the-new-face-time/">Workstreaming</a> means utilizing <a href="http://en.wikipedia.org/wiki/Micro-blogging">micro-blogging</a> services to keep your colleagues aware of what you're doing. This helps with coordinating geographically dispersed teams of <a href="http://webworkerdaily.com/2006/09/04/going-bedouin/">web workers</a>.
 </p><p>
 As part of <a href="http://bergie.iki.fi/blog/scrum_in_management_of_a_small_software_consultancy.html">redesigning our processes</a>, <a href="http://nemein.com/en/">our company</a> has been looking for a workstreaming solution. While <a href="http://www.jeffro2pt0.com/jaiku-launches-channels-feature">private channels</a> support in <a href="http://jaiku.com/">Jaiku</a> would probably be the best option, we will now be testing ididwork.com for our needs.

@@ -23,7 +23,7 @@ But still, there is <a href="http://wiki.openstreetmap.org/index.php/WikiProject
 
 <strong>Updated 2007-10-05:</strong> Just look at the level of detail here:
 
-<a href="/files/osm-kampinkeskus-20071005-mapnik.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-39eaf978734f11dca4360333feb1f96af96a/osm-kampinkeskus-20071005-mapnik-tm.jpg" height="237" width="400" border="1" hspace="4" vspace="4" alt="Osm-Kampinkeskus-20071005-Mapnik" /></a><span style="font-size:0pt;">
+<a href="/files/osm-kampinkeskus-20071005-mapnik.png"><img src="/files/osm-kampinkeskus-20071005-mapnik-tm.jpg" height="237" width="400" border="1" hspace="4" vspace="4" alt="Osm-Kampinkeskus-20071005-Mapnik" /></a><span style="font-size:0pt;">
 </span><span style="font-size:0pt;">
 </span>Google Maps doesn't <a href="http://maps.google.com/?ie=UTF8&amp;ll=60.170074,24.934856&amp;spn=0.002647,0.007821&amp;z=17&amp;om=1">even get close</a>.
 

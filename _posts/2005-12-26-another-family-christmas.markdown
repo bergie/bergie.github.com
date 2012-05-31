@@ -15,7 +15,7 @@ It was very nice to see the "family" come together after last year's [bourgeois]
 
 ![Ball-shaped Christmas Tree](/files/Kerttu_Reetta_Christmas_2005.jpg)
 
-<a href="http://bergie.iki.fi/moblog/2005-12-25-1135520104"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-d9c1c72c19bc8146cc5e4e1ecf72982d/thumbnail_2005-12-25-1135520104" alt="Stuffing the bird" title="Stuffing the bird" /></a> <a href="http://bergie.iki.fi/moblog/2005-12-25-1135524002"><img src="/files/thumbnail_2005-12-25-1135524002" alt="Punikki beer" title="Punikki beer" /></a> <a href="http://bergie.iki.fi/moblog/2005-12-25-1135536902"><img src="/files/thumbnail_2005-12-25-1135536902" alt="Enjoying the turkey" title="Enjoying the turkey" /></a>
+<a href="http://bergie.iki.fi/moblog/2005-12-25-1135520104"><img src="/files/thumbnail_2005-12-25-1135520104" alt="Stuffing the bird" title="Stuffing the bird" /></a> <a href="http://bergie.iki.fi/moblog/2005-12-25-1135524002"><img src="/files/thumbnail_2005-12-25-1135524002" alt="Punikki beer" title="Punikki beer" /></a> <a href="http://bergie.iki.fi/moblog/2005-12-25-1135536902"><img src="/files/thumbnail_2005-12-25-1135536902" alt="Enjoying the turkey" title="Enjoying the turkey" /></a>
 
 __Updated 2005-12-27:__ Joe Suicide has blogged [his version of the story][13].
 

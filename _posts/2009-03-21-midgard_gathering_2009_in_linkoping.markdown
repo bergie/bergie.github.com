@@ -9,7 +9,7 @@
 <p>
 As is customary, <a href="http://www.midgard-project.org/">Midgardians</a> are again <a href="http://www.midgard-project.org/community/events/gathering_march_2009/">meeting in Linköping</a>, Sweden. This time most of the focus is on <a href="http://bergie.iki.fi/blog/midgard_2-more_than_just_php-more_than_just_cms/">Midgard 9.03 "Vinland"</a> familiarization, and discussing what shall be done for <a href="http://trac.midgard-project.org/milestone/9.09%20Mjolnir">9.09</a>.
 </p><p>
-<a href="/files/midgardians-linkoping-20090321-small.jpg"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-f45a68ea161711deabc6dd70ecc2912c912c/midgardians-linkoping-20090321-small-tm.jpg" height="206" width="400" border="1" hspace="4" vspace="4" alt="Midgardians in Linköping" title="Midgardians in Linköping" /></a>
+<a href="/files/midgardians-linkoping-20090321-small.jpg"><img src="/files/midgardians-linkoping-20090321-small-tm.jpg" height="206" width="400" border="1" hspace="4" vspace="4" alt="Midgardians in Linköping" title="Midgardians in Linköping" /></a>
 </p><p>
 So far discussed:
 </p><ul>

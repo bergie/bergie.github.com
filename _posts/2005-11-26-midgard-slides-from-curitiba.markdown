@@ -15,7 +15,7 @@ Here are also some quick snapshots from the event:
 
 ![Curitiba at night from Bristol Brazil 500 hotel](/files/Curitiba_at_night.jpg)
 
-![Attendees queuing for translation headphones](http://bergie.iki.fi/midcom-serveattachmentguid-baa92b8fe38aa66d3da1952351fa30a2/People_queuing_for_translation_headphones.jpg)
+![Attendees queuing for translation headphones](/files/People_queuing_for_translation_headphones.jpg)
 
 ![Joao translating Midgard slides](/files/Joao_translating_slides.jpg)
 

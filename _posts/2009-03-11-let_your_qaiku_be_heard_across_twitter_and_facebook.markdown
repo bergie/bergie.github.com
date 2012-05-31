@@ -12,19 +12,19 @@
 </p><p>
 The first step is to register to <a href="http://ping.fm/">ping.fm</a>, a service that can post your microblogs to a large number of different social web services:
 </p><p>
-<a href="/files/pingfm-beta-microblogs.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-95366e780e1e11dea1f8cde9460d78b678b6/pingfm-beta-microblogs-tm.jpg" height="268" width="400" border="1" hspace="4" vspace="4" alt="Ping.fm: Post to different microblogs" title="Ping.fm: Post to different microblogs" /></a>
+<a href="/files/pingfm-beta-microblogs.png"><img src="/files/pingfm-beta-microblogs-tm.jpg" height="268" width="400" border="1" hspace="4" vspace="4" alt="Ping.fm: Post to different microblogs" title="Ping.fm: Post to different microblogs" /></a>
 </p><p>
 After registering, add the credentials to whatever sites you want ping.fm to post to:
 </p><p>
-<a href="/files/pingfm-add-sites.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-9393622e0e1e11deb620f3b62983ef2aef2a/pingfm-add-sites-tm.jpg" height="343" width="400" border="1" hspace="4" vspace="4" alt="Ping.fm: Add services" title="Ping.fm: Add services" /></a>
+<a href="/files/pingfm-add-sites.png"><img src="/files/pingfm-add-sites-tm.jpg" height="343" width="400" border="1" hspace="4" vspace="4" alt="Ping.fm: Add services" title="Ping.fm: Add services" /></a>
 </p><p>
 Then go <a href="http://www.qaiku.com/">back to Qaiku</a> and get the Atom feed address of your posts:
 </p><p>
-<a href="/files/qaiku-feed-address.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-90635a3c0e1e11de93b2a9ca4e1ec89bc89b/qaiku-feed-address-tm.jpg" height="96" width="400" border="1" hspace="4" vspace="4" alt="Qaiku: get your feed address" title="Qaiku: get your feed address" /></a>
+<a href="/files/qaiku-feed-address.png"><img src="/files/qaiku-feed-address-tm.jpg" height="96" width="400" border="1" hspace="4" vspace="4" alt="Qaiku: get your feed address" title="Qaiku: get your feed address" /></a>
 </p><p>
 ...and sign up with <a href="http://openid.net/get/">your OpenID account</a> to <a href="http://twitterfeed.com/">Twitterfeed</a>, and add your feed address and <a href="http://twitterfeed.wordpress.com/2009/01/17/twitterfeed-now-supports-posting-to-pingfm/">ping.fm credentials</a>:
 </p><p>
-<a href="/files/twitterfeed-add-qaiku-feed.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-91bb5bd20e1e11dea1f8cde9460d78b678b6/twitterfeed-add-qaiku-feed-tm.jpg" height="344" width="400" border="1" hspace="4" vspace="4" alt="Twitterfeed: Add Qaiku feed" title="Twitterfeed: Add Qaiku feed" /></a>
+<a href="/files/twitterfeed-add-qaiku-feed.png"><img src="/files/twitterfeed-add-qaiku-feed-tm.jpg" height="344" width="400" border="1" hspace="4" vspace="4" alt="Twitterfeed: Add Qaiku feed" title="Twitterfeed: Add Qaiku feed" /></a>
 </p><p>
 After this, your Qaikus should start appearing in the other microblogs. This way, my friends on Twitter, Identi.ca and Facebook can easily follow <a href="http://www.qaiku.com/home/bergie/">what I'm up to</a>!
 </p>

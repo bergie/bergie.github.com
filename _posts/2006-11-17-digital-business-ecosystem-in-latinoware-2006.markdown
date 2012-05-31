@@ -10,7 +10,7 @@ Like [last year][1] and [FISL][3], I'm again representing [DBE][4] [in LatinoWar
 
 ![Speaking in LatinoWare, photo by Fernando da Rosa Morena](/files/Speaking_in_LatinoWare_Foz_do_Iguacu.jpg)
 
-My slides are now [available in PDF format](http://bergie.iki.fi/midcom-serveattachmentguid-00bd7874768411db9f1a3f07ed4318191819/dbe-latinoware-2006.pdf") (6MB). I also have most of the talk in cell phone video format that I will try to process and YouTube at some point. 
+My slides are now [available in PDF format](/files/dbe-latinoware-2006.pdf") (6MB). I also have most of the talk in cell phone video format that I will try to process and YouTube at some point. 
 
 After the talk I've been mostly hanging out in the conference cafeteria, discussing free software with other speakers and participants. 
 

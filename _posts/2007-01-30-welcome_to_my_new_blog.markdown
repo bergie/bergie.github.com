@@ -59,7 +59,7 @@ The old design:
 
 The new design:
 
-![The new, earthy design](http://bergie.iki.fi/midcom-serveattachmentguid-b5f92c08b07a11dba4ad5d446a6fe1b9e1b9/bergie_layout_2006.jpg)
+![The new, earthy design](/files/bergie_layout_2006.jpg)
 
 ## Midgard template
 

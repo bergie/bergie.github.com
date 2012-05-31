@@ -9,7 +9,7 @@
 <p>
 I spent this week at <a href="http://www.salzburgresearch.at/company/index_e.php">Salzburg Research</a> in Austria attending the kick-off meeting of the <a href="http://www.iks-project.eu/">Interactive Knowledge Consortium</a>, a €6,5m <a href="http://cordis.europa.eu/fp7/">EU-funded</a> project to introduce <a href="http://www.w3.org/DesignIssues/Semantic.html">semantic</a> capabilities into <a href="http://en.wikipedia.org/wiki/Category:Open_source_content_management_systems">open source content management systems</a>.
 </p><p>
-<a href="/files/iks-salzburg-20090128.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-3d075d8cef3011dd93eab169a99922692269/iks-salzburg-20090128-tm.jpg" height="191" width="398" border="1" hspace="4" vspace="4" alt="IKS project team in Salzburg" title="IKS project team in Salzburg" /></a>
+<a href="/files/iks-salzburg-20090128.png"><img src="/files/iks-salzburg-20090128-tm.jpg" height="191" width="398" border="1" hspace="4" vspace="4" alt="IKS project team in Salzburg" title="IKS project team in Salzburg" /></a>
 </p><p>
 <a href="http://nemein.com/en/">Nemein</a> is participating in the project as one of the six industrial partners. For the next four years we will be working together with cool CMS companies like <a href="http://www.day.com/content/day/en.html">Day</a> and <a href="http://www.nuxeo.com/en/">Nuxeo</a>, as well as with some of the leading European researchers in the field of <a href="http://en.wikipedia.org/wiki/Semantic_Web">Semantic Web</a>.
 </p><p>

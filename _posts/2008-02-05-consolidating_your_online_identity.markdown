@@ -16,7 +16,7 @@ Having a portable online identity and contact network would be very useful, as i
 </p><p>
 To experiment with the concept I <a href="http://bergie.iki.fi/about/">added my various online profiles</a> into <a href="http://bergie.iki.fi/">my home page</a>, and <a href="http://www.plaxo.com/opensocialgraph.py?url=http%3A%2F%2Fbergie.iki.fi%2F&amp;output=&amp;verbose=1">gave the URL</a> to <a href="http://www.plaxo.com/info/opensocialgraph">Plaxo's Online Identity Consolidator</a>. It was able to find quite a good set of profiles and connect them to me:
 </p><p>
-<a href="/files/plaxo-online-identities-debug-1.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-825bc120efb811dca30c4b77617928172817/plaxo-online-identities-debug-1-tm.jpg" height="285" width="400" border="1" hspace="4" vspace="4" alt="Plaxo-Online-Identities-Debug-1" /></a>
+<a href="/files/plaxo-online-identities-debug-1.png"><img src="/files/plaxo-online-identities-debug-1-tm.jpg" height="285" width="400" border="1" hspace="4" vspace="4" alt="Plaxo-Online-Identities-Debug-1" /></a>
 </p><p>
 It will be interesting to see how various websites will start utilizing <a href="http://code.google.com/apis/socialgraph/docs/">Google's new services</a>. I've <a href="http://groups.google.com/group/dataportability-public/web/action-groups">joined</a> the <a href="http://groups.google.com/group/dataportabilityactionimplementation">Data Portability action group</a> in order to implement some of these things in <a href="http://www.midgard-project.org/">Midgard CMS</a>.
 </p><p>

@@ -11,7 +11,7 @@ In the recent <a href="http://www.mindtrek.org/openmind/">OpenMind conference</a
 </p><p>
 Last few weeks have been a great example of this. <a href="http://nemein.com/en/">Nemein</a> is the company which originally built the <a href="http://www.openpsa.org/version2">OpenPsa2</a> suite of project management and CRM tools for consulting companies. In last two years there have been some shifts in strategy, and so we ceased working on the product.
 </p><p>
-<a href="/files/openpsa2-ragnaroek-20081015.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-d34177ac9ac511ddb9fb4bc603430e8f0e8f/openpsa2-ragnaroek-20081015-tm.jpg" height="214" width="400" border="1" hspace="4" vspace="4" alt="OpenPsa2 under Midgard Ragnaroek" title="OpenPsa2 under Midgard Ragnaroek" /></a>
+<a href="/files/openpsa2-ragnaroek-20081015.png"><img src="/files/openpsa2-ragnaroek-20081015-tm.jpg" height="214" width="400" border="1" hspace="4" vspace="4" alt="OpenPsa2 under Midgard Ragnaroek" title="OpenPsa2 under Midgard Ragnaroek" /></a>
 </p><p>
 Luckily for our users, <a href="http://freshmeat.net/projects/openpsa">OpenPsa has been out</a> under the GNU <a href="http://www.gnu.org/licenses/gpl.html">General Public License</a> <a href="http://bergie.iki.fi/blog/2004-04-29-001/">since 2004</a>. This meant that while commercial development had stopped, they were able to step in and continue where we left off. It took a while, but during this fall <a href="http://www.midgard-project.org/community/whoswho/group/a5767170112c11dca0ce71a6e774ad7bad7b/flack/">Andreas Flack</a> from <a href="http://www.contentcontrol-berlin.de/">Content Control</a> started maintaining the software.
 </p><p>

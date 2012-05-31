@@ -13,7 +13,7 @@ As we're nearing first release, the plan is to start <a href="http://en.wikipedi
 
 Fast, nice, and separate from whatever I may be doing in my actual browsing sessions. I like it.
 <p style="text-align:center;"><img src="/files/fluid-setup-ajatus.jpg" height="180" width="398" border="1" hspace="4" vspace="4" alt="Initial Fluid setup" title="Initial Fluid setup" /><br />
-Setting up Ajatus in Fluid</p><p style="text-align:center;"><a href="/files/fluid-ajatus.png"><img src="http://bergie.iki.fi/midcom-serveattachmentguid-959fd89ea9bc11dcbdd62d6289af13e213e2/fluid-ajatus-tm.jpg" height="292" width="400" border="1" hspace="4" vspace="4" alt="Ajatus running as a Fluid app" title="Ajatus running as a Fluid app" /></a><br />
+Setting up Ajatus in Fluid</p><p style="text-align:center;"><a href="/files/fluid-ajatus.png"><img src="/files/fluid-ajatus-tm.jpg" height="292" width="400" border="1" hspace="4" vspace="4" alt="Ajatus running as a Fluid app" title="Ajatus running as a Fluid app" /></a><br />
 Ajatus as a Mac desktop app!</p><strong>Note:</strong> <a href="http://labs.mozilla.com/2007/11/prism-prototype-now-available-on-mac-and-linux/">Mozilla Lab's Prism</a> does the same with a more cross-platform, but I like Fluid for the <a href="http://webkit.org/">WebKit</a> speed and simplicity.
 
 <!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/ajatus" rel="tag">ajatus</a>, <a href="http://www.technorati.com/tag/crm" rel="tag">crm</a>, <a href="http://www.technorati.com/tag/fluid" rel="tag">fluid</a>, <a href="http://www.technorati.com/tag/osx" rel="tag">osx</a>, <a href="http://www.technorati.com/tag/prism" rel="tag">prism</a></p><!-- technorati tags end -->
