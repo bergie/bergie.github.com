@@ -22,6 +22,8 @@ Since the content is handled as Markdown files in a Git repository, I'm mostly w
 
 Before June 2012 this blog ran on top of the [MidCOM](http://midgard-project.org/midcom) PHP framework and the posts of that time were produced using it and stored to [Midgard1](http://midgard-project.org/midgard1/). All the old Midgard contents have been converted to the Jekyll format using a simple [NoFlo](http://noflojs.org/) program.
 
+Some of the older posts have also been migrated from my other websites, like [Qaiku](http://www.qaiku.com/home/bergie/) and [Tumblr](http://universalruntime.tumblr.com/). Thanks to [Wayback Machine](http://wayback.archive.org/web/*/http://bergie.greywolves.org/) I was able to also import a lot of my earlier posts from 1997 to 2004.
+
 ## Semantics
 
 An [RSS feed](/blog/rss.xml) of the latest blog contents is available. In addition, the HTML pages are made machine-readable through [RDFa annotations](http://www.w3.org/TR/rdfa-primer/), in this case following the [schema.org](http://schema.org/) vocabularies.
