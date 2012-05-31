@@ -14,4 +14,4 @@ Watch the <a href="http://s2.streamingfarm.tv/streamingfarm/skysails_clips/20070
 
 <em>In sailing-related news</em>, I <a href="http://www.flickr.com/photos/bergie/sets/72157603284046477/">posted some photos</a> of the 2001 <a href="http://www.qnet.fi/rus-project/">Heimlösa Rus</a> reconstructed viking ship <a href="http://www.qnet.fi/rus-project/voyage2001engl.html">trip from Russia to Finland</a> to Flickr.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/ecology" rel="tag">ecology</a>, <a href="http://www.technorati.com/tag/kite" rel="tag">kite</a>, <a href="http://www.technorati.com/tag/oil" rel="tag">oil</a>, <a href="http://www.technorati.com/tag/sailing" rel="tag">sailing</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/ecology" rel="tag">ecology</a>, <a href="http://www.technorati.com/tag/kite" rel="tag">kite</a>, <a href="http://www.technorati.com/tag/oil" rel="tag">oil</a>, <a href="http://www.technorati.com/tag/sailing" rel="tag">sailing</a></p>

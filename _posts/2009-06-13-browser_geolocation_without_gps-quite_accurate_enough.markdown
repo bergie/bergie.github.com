@@ -15,4 +15,4 @@ In our <a href="http://www.slideshare.net/bergie/geoclue-geoinformation-framewor
 </p><p>
 This is just a gentle reminder to allow other location sources that just GPS. By using <a href="http://www.freedesktop.org/wiki/Software/GeoClue">GeoClue</a> you get that for free.
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/firefox" rel="tag">firefox</a>, <a href="http://www.technorati.com/tag/geoclue" rel="tag">geoclue</a>, <a href="http://www.technorati.com/tag/openstreetmap" rel="tag">openstreetmap</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/firefox" rel="tag">firefox</a>, <a href="http://www.technorati.com/tag/geoclue" rel="tag">geoclue</a>, <a href="http://www.technorati.com/tag/openstreetmap" rel="tag">openstreetmap</a></p>

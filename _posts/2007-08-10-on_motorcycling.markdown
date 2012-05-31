@@ -21,4 +21,4 @@ Everybody is invited to make their own decisions on which view is more correct..
 
 FTW!
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/motorcycle" rel="tag">motorcycle</a>, <a href="http://www.technorati.com/tag/travel" rel="tag">travel</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/motorcycle" rel="tag">motorcycle</a>, <a href="http://www.technorati.com/tag/travel" rel="tag">travel</a></p>

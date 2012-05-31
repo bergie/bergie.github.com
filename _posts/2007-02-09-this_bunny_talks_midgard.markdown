@@ -21,4 +21,4 @@ A bit later, <a href="http://www.nabaztag.com/en/index.html">the bunny</a> wiggl
 
 Quite cool!
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/nabaztag" rel="tag">nabaztag</a>, <a href="http://www.technorati.com/tag/webservices" rel="tag">webservices</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/nabaztag" rel="tag">nabaztag</a>, <a href="http://www.technorati.com/tag/webservices" rel="tag">webservices</a></p>

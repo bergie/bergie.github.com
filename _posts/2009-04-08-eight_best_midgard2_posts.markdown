@@ -21,4 +21,4 @@
 </ul><p>
 This post has been made for <a href="http://www.problogger.net/archives/2009/04/07/write-a-list-post/">Day 2</a> of the <a href="http://www.problogger.net/31-days-to-build-a-better-blog-join-9100-other-bloggers-today/">31 Days to Build a Better Blog</a> campaign.
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p>

@@ -21,4 +21,4 @@ To make all of this happen, a group of Midgard hackers will gather on August 30t
 
 Everybody attending the sprint will get a cool Midgard t-shirt designed by <a href="http://www.andreasn.se/">Andreas Nilsson</a>.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midcom" rel="tag">midcom</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midcom" rel="tag">midcom</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p>

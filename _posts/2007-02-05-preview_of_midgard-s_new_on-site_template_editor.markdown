@@ -33,4 +33,4 @@ When user clicks an element, its default value coming either from component or t
 
 This system obviously still needs quite a lot of CSS and UI love, but it is already now quite functional. If you're interested in it, <a href="http://www.midgard-project.org/documentation/running-latest-midcom-from-subversion/">grab a copy of SVN version of MidCOM</a> and give it a spin. And be sure to let me know what you think :-)
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/cms" rel="tag">cms</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/templating" rel="tag">templating</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/cms" rel="tag">cms</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/templating" rel="tag">templating</a></p>

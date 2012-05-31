@@ -14,4 +14,4 @@ Quality is crappy, as is to be expected with such a simple camera. I've scaled t
 
 <strong>In other news,</strong> the <a href="http://jaaksi.blogspot.com/2007/02/high-level-roadmap.html">long-promised IT OS 2007 upgrade</a> seems to <a href="http://europe.nokia.com/link?cid=PLAIN_TEXT_80293">be slowly leaking out</a>... Might be worthwhile to check out the <a href="http://maemo.org/downloads/Nokia_N800_OS.php">N800 download page</a>.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a></p>

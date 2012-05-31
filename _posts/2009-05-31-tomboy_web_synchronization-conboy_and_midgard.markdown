@@ -29,4 +29,4 @@ With the Midgard storage back-end Conboy will gain all the regular benefits of u
 </ul><p>
 While <a href="https://garage.maemo.org/forum/forum.php?forum_id=3759">there are plans</a> to add web synchronization to next release of Conboy, the Midgard version will also be able to <a href="http://teroheikkinen.iki.fi/blog/how_midgard_2_talks_between_between_machines/">synchronize via XMPP</a> in true <a href="http://bergie.iki.fi/blog/midgard2_at_fscons-your_data-everywhere/">peer-to-peer fashion</a>.
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p>

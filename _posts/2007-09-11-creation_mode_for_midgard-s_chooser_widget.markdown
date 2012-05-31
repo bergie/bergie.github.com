@@ -41,4 +41,4 @@ Enabling creation mode in a chooser is relatively simple. Just point the chooser
 The UI model used here closely resembles how <a href="http://upcoming.yahoo.com/">Yahoo's Upcoming</a> handles addition of new event venues:
 
 <p style="text-align:center;"><img src="/files/upcoming-add-new-venue.jpg" height="269" width="400" border="1" hspace="4" vspace="4" alt="Upcoming-Add-New-Venue" /></p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midcom" rel="tag">midcom</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midcom" rel="tag">midcom</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p>

@@ -27,4 +27,4 @@ I don't think much of that would have happened if I had worked with proprietary 
 </p><p>
 Now, ten years into the project it is <a href="http://www.midgard-project.org/10/">time to celebrate</a> the successes. And then dedicate ourselves efforts to the new generation of the project, <a href="http://www.midgard2.org/">Midgard2</a>, <a href="http://bergie.iki.fi/blog/midgard2_stable-generic_content_repository_for_web-desktop_and_mobile/">released just before</a> the <a href="http://www.midgard-project.org/10/">10th Anniversary</a>. Thanks to everybody involved! I hope you will all join me in raising a toast for <a href="http://www.midgard-project.org/">The Midgard Project</a>.
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p>

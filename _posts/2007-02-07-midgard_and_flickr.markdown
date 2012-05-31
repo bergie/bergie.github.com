@@ -22,4 +22,4 @@ This functionality is available in <a href="http://www.midgard-project.org/docum
 
 <strong>In related news</strong>, thanks to the <a href="http://beta.plazes.com/raffle/">Plazes raffle</a> last year, I now have two more years of <a href="http://www.flickr.com/upgrade/">Flickr pro account</a> available. And <a href="http://blog.thinkphp.de/archives/189-Plazes,-European-PHP-Startup,-raised-EUR-2.7-Mio-Venture-Capital.html">Plazes seems to be doing well</a> all around.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/flickr" rel="tag">flickr</a>, <a href="http://www.technorati.com/tag/photos" rel="tag">photos</a>, <a href="http://www.technorati.com/tag/php" rel="tag">php</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/flickr" rel="tag">flickr</a>, <a href="http://www.technorati.com/tag/photos" rel="tag">photos</a>, <a href="http://www.technorati.com/tag/php" rel="tag">php</a></p>

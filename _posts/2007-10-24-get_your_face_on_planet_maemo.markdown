@@ -12,4 +12,4 @@ The new <a href="http://maemo.org/news/announcements/view/1192708879.html">Maemo
 
 So, if your blog is syndicated there, go and <a href="https://maemo.org/profile/publish/">upload an avatar</a> for yourself! Easier than begging an administrator to add a hackergotchi...
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/planet" rel="tag">planet</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/planet" rel="tag">planet</a></p>

@@ -18,4 +18,4 @@
 </p><p>
 I will probably also have to defend <a href="http://bergie.iki.fi/blog/at_least_we_won_the_ice_cream_deathmatch/">my title in the Ice Cream Deathmatch</a>. See you <a href="http://www.dopplr.com/trip/bergie/552467">there</a>!
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/geoclue" rel="tag">geoclue</a>, <a href="http://www.technorati.com/tag/gnome" rel="tag">gnome</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/libchamplain" rel="tag">libchamplain</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/geoclue" rel="tag">geoclue</a>, <a href="http://www.technorati.com/tag/gnome" rel="tag">gnome</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/libchamplain" rel="tag">libchamplain</a></p>

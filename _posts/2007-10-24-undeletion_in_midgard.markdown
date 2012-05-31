@@ -35,4 +35,4 @@ Going back to the site we can see that the folder and articles under it are ther
 
 <img src="/files/midcom-undeleted-folder-is-back.jpg" height="163" width="397" border="1" hspace="4" vspace="4" alt="Midcom-Undeleted-Folder-Is-Back" />
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/asgard" rel="tag">asgard</a>, <a href="http://www.technorati.com/tag/midcom" rel="tag">midcom</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/asgard" rel="tag">asgard</a>, <a href="http://www.technorati.com/tag/midcom" rel="tag">midcom</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p>

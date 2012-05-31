@@ -17,4 +17,4 @@ If we accept that the grapevine is our best marketing tool, what sort of actions
 </p><p>
 And if we want to get the bandwagon rolling, we need to support our "software <a href="http://en.wikipedia.org/wiki/Missionary">missionaries</a>" somehow. That can mean <a href="https://shipit.ubuntu.com/">free CDs</a> or <a href="http://www.flickr.com/photos/bergie/2845878056/">T-shirts</a>, but could it also mean some sort of web services? Something new on top of the traditional project infrastructure of IRC channels and mailing lists?
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/freesoftware" rel="tag">freesoftware</a>, <a href="http://www.technorati.com/tag/marketing" rel="tag">marketing</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/freesoftware" rel="tag">freesoftware</a>, <a href="http://www.technorati.com/tag/marketing" rel="tag">marketing</a></p>

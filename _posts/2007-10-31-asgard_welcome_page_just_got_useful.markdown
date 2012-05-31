@@ -12,4 +12,4 @@
 
 While this is a good start there are some ideas on how to improve it:
 <ul><li>Authenticated RSS feed with the same data</li><li>Mass action plugin API</li><li>Other data views than just time-based, including:</li></ul><ul><li>User-based (documents written by Jerry)</li><li>Permission-based (documents I can edit)</li><li>Status-based (deleted documents, documents about to expire)</li></ul>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/asgard" rel="tag">asgard</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/asgard" rel="tag">asgard</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p>

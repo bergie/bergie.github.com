@@ -27,4 +27,4 @@ Thanks to <a href="http://www.inventive.fi/">Lasse Larvanko</a> and <a href="htt
 
 <strong>Updated 2007-08-17:</strong> Lasse has a <a href="http://www.inventive.fi/sosiaalista-suunnittelua-maemoorg-news/">very good write-up of the service in Finnish</a>.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/blogpaper" rel="tag">blogpaper</a>, <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/rss" rel="tag">rss</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/blogpaper" rel="tag">blogpaper</a>, <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/rss" rel="tag">rss</a></p>

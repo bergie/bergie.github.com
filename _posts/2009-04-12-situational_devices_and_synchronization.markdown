@@ -22,4 +22,4 @@ Having solved this, we still face the problem is that <a href="http://www.guardi
 </p><p>
 Via <a href="http://www.internettablettalk.com/2009/04/10/a-device-for-every-situation/">Internet Tablet Talk</a>.
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/crunchpad" rel="tag">crunchpad</a>, <a href="http://www.technorati.com/tag/dataportability" rel="tag">dataportability</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/weave" rel="tag">weave</a>, <a href="http://www.technorati.com/tag/synchronization" rel="tag">synchronization</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/crunchpad" rel="tag">crunchpad</a>, <a href="http://www.technorati.com/tag/dataportability" rel="tag">dataportability</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/weave" rel="tag">weave</a>, <a href="http://www.technorati.com/tag/synchronization" rel="tag">synchronization</a></p>

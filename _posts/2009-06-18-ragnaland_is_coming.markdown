@@ -19,4 +19,4 @@ Still requires some tweaking and bug fixes, but consider the possibilities:
 <li>Midgard1 and Midgard2 sites coexisting in same installation and database</li>
 <li>Applications like <a href="http://www.openpsa.org/">OpenPSA</a> that you can install and run like any OS X <em>.app</em>, thanks to <a href="http://www.midgard-project.org/documentation/midgard_app_builder/">App Builder</a></li>
 </ul>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midcom" rel="tag">midcom</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/osx" rel="tag">osx</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midcom" rel="tag">midcom</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/osx" rel="tag">osx</a></p>

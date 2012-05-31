@@ -34,4 +34,4 @@ Every now and then people ask me why we're doing <a href="http://www.qaiku.com/"
 </ul><p>
 If you want to comment, you'll anyway find me both <a href="http://www.qaiku.com/home/bergie/">on Qaiku</a> and <a href="http://twitter.com/bergie">on Twitter</a>.
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/mauku" rel="tag">mauku</a>, <a href="http://www.technorati.com/tag/gwibber" rel="tag">gwibber</a>, <a href="http://www.technorati.com/tag/qaiku" rel="tag">qaiku</a>, <a href="http://www.technorati.com/tag/xmpp" rel="tag">xmpp</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/mauku" rel="tag">mauku</a>, <a href="http://www.technorati.com/tag/gwibber" rel="tag">gwibber</a>, <a href="http://www.technorati.com/tag/qaiku" rel="tag">qaiku</a>, <a href="http://www.technorati.com/tag/xmpp" rel="tag">xmpp</a></p>

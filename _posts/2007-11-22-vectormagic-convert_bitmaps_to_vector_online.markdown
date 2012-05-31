@@ -14,4 +14,4 @@ Here is how it dealt with the <a href="http://www.midgard-project.org/">Midgard 
 
 Via <a href="http://www.boingboing.net/2007/11/21/web-site-converts-ph.html">Boing Boing</a>.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/image" rel="tag">image</a>, <a href="http://www.technorati.com/tag/conversion" rel="tag">conversion</a>, <a href="http://www.technorati.com/tag/vector" rel="tag">vector</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/image" rel="tag">image</a>, <a href="http://www.technorati.com/tag/conversion" rel="tag">conversion</a>, <a href="http://www.technorati.com/tag/vector" rel="tag">vector</a></p>

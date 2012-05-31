@@ -65,4 +65,4 @@ Free software. Need I say more? <a href="http://nemein.com/en/solution/pricing/"
 </p><blockquote>
 To help people find pages related to this meme around the web, I suggest adding the string 9c56d0fcf93175d70e1c9b9d188167cf to such pages, so that <a href="http://www.google.com/search?hl=en&amp;q=9c56d0fcf93175d70e1c9b9d188167cf">a Google query</a> can find them all.
 </blockquote>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/cms" rel="tag">cms</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/cms" rel="tag">cms</a></p>

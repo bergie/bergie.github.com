@@ -22,4 +22,4 @@ This is a very good way of providing an SMS service. The <a href="http://bergie.
 
 And since probably most recipients of the message will find it useful, it doesn't <a href="http://bergie.iki.fi/blog/motorcycles-and-targeted-marketing.html">get considered SMS spam</a>.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/aviation" rel="tag">aviation</a>, <a href="http://www.technorati.com/tag/finnair" rel="tag">finnair</a>, <a href="http://www.technorati.com/tag/sms" rel="tag">sms</a>, <a href="http://www.technorati.com/tag/travel" rel="tag">travel</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/aviation" rel="tag">aviation</a>, <a href="http://www.technorati.com/tag/finnair" rel="tag">finnair</a>, <a href="http://www.technorati.com/tag/sms" rel="tag">sms</a>, <a href="http://www.technorati.com/tag/travel" rel="tag">travel</a></p>

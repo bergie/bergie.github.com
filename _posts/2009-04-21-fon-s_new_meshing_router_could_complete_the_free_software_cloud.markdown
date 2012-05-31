@@ -23,4 +23,4 @@ If mesh networking became popular, it could provide an important part of a <a hr
 </p><p>
 Via <a href="http://www.boingboing.net/2009/04/21/fon-releases-open-me.html">Boing Boing</a>.
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/mesh" rel="tag">mesh</a>, <a href="http://www.technorati.com/tag/p2p" rel="tag">p2p</a>, <a href="http://www.technorati.com/tag/fon" rel="tag">fon</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/mesh" rel="tag">mesh</a>, <a href="http://www.technorati.com/tag/p2p" rel="tag">p2p</a>, <a href="http://www.technorati.com/tag/fon" rel="tag">fon</a></p>

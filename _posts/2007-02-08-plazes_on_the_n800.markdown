@@ -19,4 +19,4 @@ After we get this properly packaged and integrated with the <a href="http://maem
 
 <a href="http://beta.plazes.com/user/ferenc/">Ferenc</a> has promised to package Maemo Plazer next weekend. Before that, you can <a href="https://garage.maemo.org/plugins/scmsvn/viewcvs.php/?root=maemoplazer">grab the sources from SVN</a> and install it manually to your device. If you place the maemoplazer.desktop file to the <code>/usr/share/applications/hildon/</code> directory there will even be a clickable icon in the "Extras" folder to start the application with.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/plazes" rel="tag">plazes</a>, <a href="http://www.technorati.com/tag/python" rel="tag">python</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/plazes" rel="tag">plazes</a>, <a href="http://www.technorati.com/tag/python" rel="tag">python</a></p>

@@ -16,4 +16,4 @@ Some initial OpenLayers integration had been in Mapstraction for a while, but as
 
 Grab the <a href="http://mapstraction.com/svn/source/">code from SVN</a> or take a look at <a href="http://mapstraction.com/demo.php?map=openstreetmap">an implementation example</a>!
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/openlayers" rel="tag">openlayers</a>, <a href="http://www.technorati.com/tag/openstreetmap" rel="tag">openstreetmap</a>, <a href="http://www.technorati.com/tag/mapstraction" rel="tag">mapstraction</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/openlayers" rel="tag">openlayers</a>, <a href="http://www.technorati.com/tag/openstreetmap" rel="tag">openstreetmap</a>, <a href="http://www.technorati.com/tag/mapstraction" rel="tag">mapstraction</a></p>

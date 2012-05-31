@@ -19,4 +19,4 @@ When you install it, <a href="https://wiki.mozilla.org/Labs/Ubiquity/Latest_Ubiq
 </p><p>
 More APIs will be coming soon, planned to be fully compatible with <a href="http://apiwiki.twitter.com/REST+API+Documentation">Twitter API</a> for easy client support.
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/ubiquity" rel="tag">ubiquity</a>, <a href="http://www.technorati.com/tag/qaiku" rel="tag">qaiku</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/ubiquity" rel="tag">ubiquity</a>, <a href="http://www.technorati.com/tag/qaiku" rel="tag">qaiku</a></p>

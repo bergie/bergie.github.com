@@ -27,4 +27,4 @@ Good stuff. Some discussions are happening in <a href="http://www.qaiku.com/chan
 </p><p>
 See also Linköping Gatherings from <a href="http://bergie.iki.fi/blog/midgard_developers_in_linkoping/">2008</a>, <a href="http://bergie.iki.fi/blog/midgard_developer_meeting-winter_2007/">2007</a>, <a href="http://bergie.iki.fi/blog/midgard-meeting-in-linkoping/">2005</a> and <a href="http://bergie.iki.fi/blog/the_connected_gathering/">2004</a>.
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/cms" rel="tag">cms</a>, <a href="http://www.technorati.com/tag/midcom" rel="tag">midcom</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/cms" rel="tag">cms</a>, <a href="http://www.technorati.com/tag/midcom" rel="tag">midcom</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p>

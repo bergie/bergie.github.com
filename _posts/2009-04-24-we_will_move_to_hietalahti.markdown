@@ -23,4 +23,4 @@ The new office will be a lot closer to many of our important clients, and has <a
 </p><p>
 After Tuesday Apr 28th the new address will be Hietalahdenkatu 8 A 22.
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/nemein" rel="tag">nemein</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/nemein" rel="tag">nemein</a></p>

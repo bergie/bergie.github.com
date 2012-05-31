@@ -14,4 +14,4 @@
 </p><p>
 While the hs.fi site is in Finnish, the interview video is in English.
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/video" rel="tag">video</a>, <a href="http://www.technorati.com/tag/usb" rel="tag">usb</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/video" rel="tag">video</a>, <a href="http://www.technorati.com/tag/usb" rel="tag">usb</a></p>

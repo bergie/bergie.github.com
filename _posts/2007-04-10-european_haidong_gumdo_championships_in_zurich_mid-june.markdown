@@ -16,4 +16,4 @@ The current plan is to ride to Zürich with <a href="http://bergie.iki.fi/blog/r
 
 <strong>In related news,</strong> there are some nice new videos from our Haidong Gumdo club: <a href="http://www.youtube.com/watch?v=pqdGiSqKbGs">paper cutting</a>, <a href="http://www.youtube.com/watch?v=oLy_rCveRZM">swordfighting display</a> and <a href="http://video.google.com/videoplay?docid=-7279634482235012752&amp;hl=en">full HDGD demonstration</a>.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/haidonggumdo" rel="tag">haidonggumdo</a>, <a href="http://www.technorati.com/tag/hdgd" rel="tag">hdgd</a>, <a href="http://www.technorati.com/tag/swordmanship" rel="tag">swordmanship</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/haidonggumdo" rel="tag">haidonggumdo</a>, <a href="http://www.technorati.com/tag/hdgd" rel="tag">hdgd</a>, <a href="http://www.technorati.com/tag/swordmanship" rel="tag">swordmanship</a></p>

@@ -20,4 +20,4 @@ Get the <a href="http://trac.midgard-project.org/browser/trunk/midcom/midcom.cor
 
 Via <a href="http://ajaxian.com/archives/writemapscom-eases-website-planning">Ajaxian</a>.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midcom" rel="tag">midcom</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/writemaps" rel="tag">writemaps</a>, <a href="http://www.technorati.com/tag/sitemap" rel="tag">sitemap</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midcom" rel="tag">midcom</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/writemaps" rel="tag">writemaps</a>, <a href="http://www.technorati.com/tag/sitemap" rel="tag">sitemap</a></p>

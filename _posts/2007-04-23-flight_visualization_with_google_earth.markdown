@@ -22,4 +22,4 @@ The flight was very nice also without the techie aspect. Weather was clear and b
 
 <img src="/files/efjo_sunset.jpg" height="300" width="400" border="1" hspace="4" vspace="4" alt="Efjo Sunset" />
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/aviation" rel="tag">aviation</a>, <a href="http://www.technorati.com/tag/efhf" rel="tag">efhf</a>, <a href="http://www.technorati.com/tag/googleearth" rel="tag">googleearth</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/aviation" rel="tag">aviation</a>, <a href="http://www.technorati.com/tag/efhf" rel="tag">efhf</a>, <a href="http://www.technorati.com/tag/googleearth" rel="tag">googleearth</a></p>

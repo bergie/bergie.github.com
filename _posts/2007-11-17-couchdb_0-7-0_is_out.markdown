@@ -14,4 +14,4 @@ Main changes in 0.7.0 were:
 <a href="/files/couchdb-0_7-admintool.png"><img src="/files/couchdb-0_7-admintool-tm.jpg" height="224" width="398" border="1" hspace="4" vspace="4" alt="Couchdb-0 7-Admintool" /></a>
 
 With the new release Ajatus is a lot <a href="http://www.ajatus.info/documentation/installation/">easier to set up</a> as CouchDb can be installed straight from release packages.
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/couchdb" rel="tag">couchdb</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/couchdb" rel="tag">couchdb</a></p>

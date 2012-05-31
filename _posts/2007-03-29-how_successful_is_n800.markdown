@@ -16,4 +16,4 @@ Advertisements for N800 also seem to be popping up quite frequently both online 
 <strong>Updated 2007-04-02:</strong> During the weekend I saw somebody browsing the web with a N800 in the  <a href="http://www.nightvisions.info/">Night Visions film festival</a>, this being the first time I see somebody I don't know just using the device in public.
 
 <a href="http://www.internettablettalk.com/forums/showthread.php?t=1429&amp;highlight=magazine">Internet Tablet talk had some speculation</a> on this last fall.
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/amazon" rel="tag">amazon</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/amazon" rel="tag">amazon</a></p>

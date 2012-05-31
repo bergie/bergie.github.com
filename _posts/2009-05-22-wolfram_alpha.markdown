@@ -21,4 +21,4 @@ How about Babylon 5?
 </p><p>
 <a href="/files/wolframalpha-discourse.png" onclick="window.open('http://bergie.iki.fi/midcom-serveattachmentguid-7820cc7e470e11deb15a21dc43fed369d369/wolframalpha-discourse.png','popup','width=577,height=257,scrollbars=no,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=yes,left=0,top=0');return false"><img src="/files/wolframalpha-discourse-tm.jpg" height="178" width="400" border="1" hspace="4" vspace="4" alt="Wolfram Alpha doesn't speak Shadow" title="Wolfram Alpha doesn't speak Shadow" /></a>
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/montypython" rel="tag">montypython</a>, <a href="http://www.technorati.com/tag/wolframalpha" rel="tag">wolframalpha</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/montypython" rel="tag">montypython</a>, <a href="http://www.technorati.com/tag/wolframalpha" rel="tag">wolframalpha</a></p>

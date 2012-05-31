@@ -18,4 +18,4 @@ You can find <a href="http://www.flickr.com/photos/bergie/sets/72157601177213555
 </p><p>
 <img src="/files/riding_monkey_to_gibraltar.jpg" height="300" width="400" border="1" hspace="4" vspace="4" alt="Riding 50cc Monkey to Gibraltar" title="Riding 50cc Monkey to Gibraltar" />
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/motorcycle" rel="tag">motorcycle</a>, <a href="http://www.technorati.com/tag/adventure" rel="tag">adventure</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/motorcycle" rel="tag">motorcycle</a>, <a href="http://www.technorati.com/tag/adventure" rel="tag">adventure</a></p>

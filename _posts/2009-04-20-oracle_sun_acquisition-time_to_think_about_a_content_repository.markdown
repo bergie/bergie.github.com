@@ -21,4 +21,4 @@ For web development, there are two good alternatives:
 </ul><p>
 In addition to database abstraction repositories often provide other services like <a href="http://wiki.apache.org/jackrabbit/mix:versionable">versioning</a>, <a href="http://www.midgard-project.org/documentation/midgard-and-multilingual-content/">multilingual content</a> handling and <a href="http://teroheikkinen.iki.fi/blog/midgard_workshop_at_fscons/">signals between multiple applications</a> using the same repo.
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/jcr" rel="tag">jcr</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/mysql" rel="tag">mysql</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/jcr" rel="tag">jcr</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/mysql" rel="tag">mysql</a></p>

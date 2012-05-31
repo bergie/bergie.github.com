@@ -15,4 +15,4 @@
 </blockquote><p>
 With <a href="http://www.midgard-project.org/">Midgard</a> we <a href="http://bergie.iki.fi/blog/2004-06-17-000/">have prior art on some software patents</a>. Software patents only promote big multinational monopolies, and therefore are <a href="http://bergie.iki.fi/blog/eu_agriculture_ministers_threaten_again_with_software_patents/">against the interests of both Europe and the Free Software movement</a>. They're silly, <a href="http://bergie.iki.fi/blog/no-to-european-software-patents/">don't apply here</a>, and therefore the only rational response is to ignore them.
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/softwarepatents" rel="tag">softwarepatents</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/softwarepatents" rel="tag">softwarepatents</a></p>

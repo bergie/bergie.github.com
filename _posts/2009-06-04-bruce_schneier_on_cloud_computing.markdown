@@ -22,4 +22,4 @@ In a world of <a href="http://arstechnica.com/tech-policy/news/2009/06/what-a-no
 </p><p>
 <strong>EDIT:</strong> While I'm critical of going fully cloud-only, I have to recommend Nicholas Carr's <a href="http://www.nicholasgcarr.com/bigswitch/">The Big Switch</a> which provides many compelling arguments and historical analysis for <a href="http://en.wikipedia.org/wiki/Utility_computing">utility computing</a>.
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/cloud" rel="tag">cloud</a>, <a href="http://www.technorati.com/tag/privacy" rel="tag">privacy</a>, <a href="http://www.technorati.com/tag/security" rel="tag">security</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/cloud" rel="tag">cloud</a>, <a href="http://www.technorati.com/tag/privacy" rel="tag">privacy</a>, <a href="http://www.technorati.com/tag/security" rel="tag">security</a></p>

@@ -23,4 +23,4 @@ The results were not perfect, of course, but at least West European and Scandina
 
 <img src="/files/utf8-transliteration-tests.jpg" height="178" width="400" border="1" hspace="4" vspace="4" alt="Utf8-Transliteration-Tests" />
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/i18n" rel="tag">i18n</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/wiki" rel="tag">wiki</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/i18n" rel="tag">i18n</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/wiki" rel="tag">wiki</a></p>

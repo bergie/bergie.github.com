@@ -19,4 +19,4 @@ The item will also be marked as buried for you:
 
 Also related to the <a href="http://maemo.org/news/">Social News service</a> is that the <a href="http://maemo.org/news/best">best of maemo news highlights</a> is now available for browsing. Go and check out the most popular items related to the project!
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/blogpaper" rel="tag">blogpaper</a>, <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/blogpaper" rel="tag">blogpaper</a>, <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p>

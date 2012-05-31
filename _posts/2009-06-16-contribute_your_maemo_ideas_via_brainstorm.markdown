@@ -39,4 +39,4 @@ Some work is still being done on Brainstorm, including a dedicated search for th
 </p><p>
 And be sure to report any issues or ideas you have about Brainstorm itself!
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/brainstorm" rel="tag">brainstorm</a>, <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/moderation" rel="tag">moderation</a>, <a href="http://www.technorati.com/tag/ideatorrent" rel="tag">ideatorrent</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/brainstorm" rel="tag">brainstorm</a>, <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/moderation" rel="tag">moderation</a>, <a href="http://www.technorati.com/tag/ideatorrent" rel="tag">ideatorrent</a></p>

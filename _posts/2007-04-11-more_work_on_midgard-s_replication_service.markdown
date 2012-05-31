@@ -20,4 +20,4 @@ The replication queues are managed in a user interface on the MidCOM site itself
 
 </span><strong>Updated 2007-04-12:</strong> Replication seems to work quite fine, but we're still running tests with it. Those who want to play with it will benefit from the <a href="http://www.midgard-project.org/documentation/staging_to_live_setup_with_midcom/">setup instructions draft</a>.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/replication" rel="tag">replication</a>, <a href="http://www.technorati.com/tag/synchronization" rel="tag">synchronization</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/replication" rel="tag">replication</a>, <a href="http://www.technorati.com/tag/synchronization" rel="tag">synchronization</a></p>

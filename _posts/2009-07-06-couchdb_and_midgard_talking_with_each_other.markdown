@@ -28,4 +28,4 @@ Midgard record replicated successfully into CouchDb:
 </p><p>
 I'll talk more about this and <em>repository-oriented application development</em> in my <a href="http://www.grancanariadesktopsummit.org/node/210">Midgard2: Content repository for desktop and the web</a> talk <a href="http://www.grancanariadesktopsummit.org/node/270">tomorrow at 16:45</a>. Be there!
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/couchdb" rel="tag">couchdb</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/replication" rel="tag">replication</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/couchdb" rel="tag">couchdb</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/replication" rel="tag">replication</a></p>

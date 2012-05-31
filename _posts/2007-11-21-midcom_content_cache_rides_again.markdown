@@ -20,4 +20,4 @@ It is already available in both MidCOM trunk and in latest <a href="http://pear.
 <pre>$GLOBALS['midcom_config_local']['cache_module_content_uncached'] = false;
 </pre>Thanks to <a href="http://teroheikkinen.iki.fi/">Tero Heikkinen</a> for <a href="http://www.slideshare.net/tepheikk/caching-idea-for-midcom/">pushing this through</a>!
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midcom" rel="tag">midcom</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/cache" rel="tag">cache</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midcom" rel="tag">midcom</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/cache" rel="tag">cache</a></p>

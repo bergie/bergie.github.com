@@ -25,4 +25,4 @@ This is exactly why I've <a href="http://bergie.iki.fi/blog/why_you_should_use_a
 </p><p>
 And good repositories also provide <a href="http://bergie.iki.fi/blog/couchdb_and_midgard_talking_with_each_other/">easy synchronization tools</a> so you can have your data available on all of your computers, and even <a href="http://bergie.iki.fi/blog/tomboy_web_synchronization-conboy_and_midgard/">on the web</a>. If they can also do peer-to-peer sharing, we're close to achieving the <a href="http://bergie.iki.fi/blog/free_desktop_and_the_cloud/">fully free cloud</a>.
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/couchdb" rel="tag">couchdb</a>, <a href="http://www.technorati.com/tag/gnome" rel="tag">gnome</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/couchdb" rel="tag">couchdb</a>, <a href="http://www.technorati.com/tag/gnome" rel="tag">gnome</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p>

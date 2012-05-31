@@ -23,4 +23,4 @@ OpenPsa finds this information and adds it to the entry:
 <a href="/files/openpsa-contacts-organization-details.png" onclick="window.open('http://bergie.iki.fi/midcom-serveattachmentguid-88613160b21311dba3208183f5f73b423b42/openpsa-contacts-organization-details.png','popup','width=377,height=360,scrollbars=no,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=yes,left=0,top=0');return false"><img src="/files/openpsa-contacts-organization-details-tm.jpg" height="220" width="229" border="1" hspace="4" vspace="4" alt="Openpsa-Contacts-Organization-Details" /></a>
 
 Couldn't be much easier. Now if only more sites provided hCards...
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/hcard" rel="tag">hcard</a>, <a href="http://www.technorati.com/tag/microformats" rel="tag">microformats</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/hcard" rel="tag">hcard</a>, <a href="http://www.technorati.com/tag/microformats" rel="tag">microformats</a></p>

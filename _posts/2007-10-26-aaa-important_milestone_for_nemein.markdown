@@ -11,4 +11,4 @@ The coveted Triple-A certificate arrived in mail this week:
 
 <a href="/files/nemein-aaa-bergie-joe.png"><img src="/files/nemein-aaa-bergie-joe-tm.jpg" height="255" width="398" border="1" hspace="4" vspace="4" alt="Nemein-Aaa-Bergie-Joe" /></a>
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/nemein" rel="tag">nemein</a>, <a href="http://www.technorati.com/tag/rating" rel="tag">rating</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/nemein" rel="tag">nemein</a>, <a href="http://www.technorati.com/tag/rating" rel="tag">rating</a></p>

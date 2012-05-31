@@ -23,4 +23,4 @@ Technically the Karma system was implemented as a feature of <a href="http://www
 
 It will be interesting to see how Karma builds up when we start pulling it from different pieces of the open source community infrastructure and external services like <a href="http://www.ohloh.net/">Ohloh</a>.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/karma" rel="tag">karma</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/karma" rel="tag">karma</a></p>

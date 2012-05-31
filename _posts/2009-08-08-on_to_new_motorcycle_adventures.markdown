@@ -16,4 +16,4 @@ Tonight we're taking the <a href="http://www.finnlines.com/index.php/passenger_e
 </p><p>
 You can follow our trip <a href="http://www.qaiku.com/home/bergie/">on Qaiku</a> (<a href="http://www.qaiku.com/feeds/qaikus/1de04e7a425656e04e711de8b8b03b7a324e879e879">feed</a>) and <a href="http://www.flickr.com/photos/bergie/">Flickr</a>. If you are somewhere on that prospective travel route, feel free to send me <a href="http://bergie.iki.fi/">an SMS</a> and maybe we can have a beer :-)
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/adventure" rel="tag">adventure</a>, <a href="http://www.technorati.com/tag/motorcycle" rel="tag">motorcycle</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/adventure" rel="tag">adventure</a>, <a href="http://www.technorati.com/tag/motorcycle" rel="tag">motorcycle</a></p>

@@ -26,4 +26,4 @@ In near future there will also be support for <a href="http://www.qaiku.com/chan
 </p><p>
 So, if you're doing anything on maemo.org, <a href="http://www.qaiku.com/settings/registration/">sign up on Qaiku</a> and <a href="http://www.qaiku.com/channels/show/maemork/">start posting your updates</a>!
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/microblogging" rel="tag">microblogging</a>, <a href="http://www.technorati.com/tag/qaiku" rel="tag">qaiku</a>, <a href="http://www.technorati.com/tag/workstreaming" rel="tag">workstreaming</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/microblogging" rel="tag">microblogging</a>, <a href="http://www.technorati.com/tag/qaiku" rel="tag">qaiku</a>, <a href="http://www.technorati.com/tag/workstreaming" rel="tag">workstreaming</a></p>

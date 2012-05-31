@@ -13,4 +13,4 @@ I'm selling my old <a href="http://www.huuto.net/fi/showitem.php3?itemid=5258273
 
 I originally bought the bogu back in 1999 when I was practicing Kendo in <a href="http://www.helsinki.fi/jarj/kendo/index.shtml?lang=eng">Helsinki University Kendo Club</a>.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/kendo" rel="tag">kendo</a>, <a href="http://www.technorati.com/tag/bogu" rel="tag">bogu</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/kendo" rel="tag">kendo</a>, <a href="http://www.technorati.com/tag/bogu" rel="tag">bogu</a></p>

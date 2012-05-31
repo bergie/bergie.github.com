@@ -16,4 +16,4 @@ With both Firefox 3.5 and <a href="http://conceptdev.blogspot.com/2009/06/iphone
 </p><p>
 There is even a <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=485472">patch to make Firefox use GeoClue</a> for its location needs.
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/firefox" rel="tag">firefox</a>, <a href="http://www.technorati.com/tag/geoclue" rel="tag">geoclue</a>, <a href="http://www.technorati.com/tag/iphone" rel="tag">iphone</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/firefox" rel="tag">firefox</a>, <a href="http://www.technorati.com/tag/geoclue" rel="tag">geoclue</a>, <a href="http://www.technorati.com/tag/iphone" rel="tag">iphone</a></p>

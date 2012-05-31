@@ -33,4 +33,4 @@ I believe Finland, with its reasonably<a href="http://www.visitfinland.com/w5/in
 
 <img src="/files/matkafi-route-planner.jpg" height="173" width="397" border="1" hspace="4" vspace="4" alt="Matkafi-Route-Planner" />
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/googletransport" rel="tag">googletransport</a>, <a href="http://www.technorati.com/tag/public transport" rel="tag">public transport</a>, <a href="http://www.technorati.com/tag/travel" rel="tag">travel</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/googletransport" rel="tag">googletransport</a>, <a href="http://www.technorati.com/tag/public transport" rel="tag">public transport</a>, <a href="http://www.technorati.com/tag/travel" rel="tag">travel</a></p>

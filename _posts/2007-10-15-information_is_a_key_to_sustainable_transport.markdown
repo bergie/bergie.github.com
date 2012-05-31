@@ -34,4 +34,4 @@ This post was written as part of the <a href="http://blogactionday.org/">2007 Bl
 
 <strong>Note</strong>: the photos are CC-licensed images from Flickr users <a href="http://flickr.com/photos/ekurvine/550878169/">ekurvine</a> and <a href="http://flickr.com/photos/samipii/454313268/">samipii</a>.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/ecology" rel="tag">ecology</a>, <a href="http://www.technorati.com/tag/openstreetmap" rel="tag">openstreetmap</a>, <a href="http://www.technorati.com/tag/public transport" rel="tag">public transport</a>, <a href="http://www.technorati.com/tag/blog action day" rel="tag">blog action day</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/ecology" rel="tag">ecology</a>, <a href="http://www.technorati.com/tag/openstreetmap" rel="tag">openstreetmap</a>, <a href="http://www.technorati.com/tag/public transport" rel="tag">public transport</a>, <a href="http://www.technorati.com/tag/blog action day" rel="tag">blog action day</a></p>

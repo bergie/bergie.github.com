@@ -18,4 +18,4 @@ This is something I've wanted to do with <a href="http://www.openpsa.org/">OpenP
 </p><p>
 <a href="http://en.wikipedia.org/wiki/Geocoding">Geocoding</a> meeting and TODO item locations would be a problem, but if that was solved this would be a killer feature. Maybe something we could do with <a href="http://folks.o-hand.com/jku/geoclue-docs/Geocode.html">GeoClue</a> and <a href="http://projects.gnome.org/libchamplain/">libchamplain</a>?
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a></p>

@@ -15,4 +15,4 @@ So, my home <a href="http://www.nas-central.org/index.php?title=Projects/OpenLin
 
 The result is quite cool: while backups take a long time to make, they start automatically when I open the laptop at home. And the <a href="http://en.wikipedia.org/wiki/Zeroconf">Howl setup</a> also makes my <a href="http://en.wikipedia.org/wiki/Nokia_N800">N800 Media Player</a> automatically find music from the LinkStation.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/backup" rel="tag">backup</a>, <a href="http://www.technorati.com/tag/osx" rel="tag">osx</a>, <a href="http://www.technorati.com/tag/openlink" rel="tag">openlink</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/backup" rel="tag">backup</a>, <a href="http://www.technorati.com/tag/osx" rel="tag">osx</a>, <a href="http://www.technorati.com/tag/openlink" rel="tag">openlink</a></p>

@@ -16,4 +16,4 @@ Makes me think, especially as I have to find a new apartment by the end of July 
 
 More <a href="http://gizmodo.com/gadgets/gadgets/micro-compact-home-trailer-park-living-with-that-euro-design-flair-233959.php">pictures of the Micro Compact Home on Gizmodo</a>.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/compact" rel="tag">compact</a>, <a href="http://www.technorati.com/tag/future" rel="tag">future</a>, <a href="http://www.technorati.com/tag/home" rel="tag">home</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/compact" rel="tag">compact</a>, <a href="http://www.technorati.com/tag/future" rel="tag">future</a>, <a href="http://www.technorati.com/tag/home" rel="tag">home</a></p>

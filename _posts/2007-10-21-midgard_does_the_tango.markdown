@@ -18,4 +18,4 @@ As initially <a href="http://www.tigert.com/archives/2005/11/16/tango-ui-for-web
 
 </span>For <a href="http://www.midgard-project.org/discussion/developer-forum/we_may_need_midgard_1-9_after_all/">Midgard 1.9</a> we will try to do more visual updating of the toolbars together with <a href="http://www.andreasn.se/blog/">Andreas</a>.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/asgard" rel="tag">asgard</a>, <a href="http://www.technorati.com/tag/midcom" rel="tag">midcom</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/tango" rel="tag">tango</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/asgard" rel="tag">asgard</a>, <a href="http://www.technorati.com/tag/midcom" rel="tag">midcom</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/tango" rel="tag">tango</a></p>

@@ -26,4 +26,4 @@ Learn more about <a href="http://www.midgard2.org/">Midgard2</a> via the <a href
 </p><p>
 The first stable release of Midgard2 coincides with the <a href="http://www.midgard-project.org/10/">10th anniversary of the project</a>, to be held in Helsinki, Finland next week. Come and <a href="http://www.midgard-project.org/10/registration/">join the celebration</a>!
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p>

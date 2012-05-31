@@ -15,4 +15,4 @@ MWS has been running before, with <a href="http://lwn.net/Articles/5414/">66 iss
 </p><p>
 Notices about new published summaries will be sent to the <a href="http://www.midgard-project.org/community/support-discussion/">Midgard user mailing list</a>, <a href="http://www.qaiku.com/channels/show/midgard/">Qaiku #midgard channel</a>, <a href="http://twitter.com/MidgardProject">Twitter @MidgardProject</a> and are available <a href="http://www.midgard-project.org/updates/mws/rss.xml">via RSS</a>. Enjoy!
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a></p>

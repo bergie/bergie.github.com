@@ -17,4 +17,4 @@ You could see this as a continuation with Tarjei's <a href="http://www.midgard-p
 <code>http://www.example.net/__mfa/asgard/object/edit/GUID/</code>
 
 If our plans succeed, Asgard will be the default administrative interface in <a href="http://www.midgard-project.org/development/roadmap/1-9/">Midgard 1.9 series</a>.
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/asgard" rel="tag">asgard</a>, <a href="http://www.technorati.com/tag/mgdschema" rel="tag">mgdschema</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/cms" rel="tag">cms</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/asgard" rel="tag">asgard</a>, <a href="http://www.technorati.com/tag/mgdschema" rel="tag">mgdschema</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/cms" rel="tag">cms</a></p>

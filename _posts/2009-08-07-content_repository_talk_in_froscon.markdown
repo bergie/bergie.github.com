@@ -17,4 +17,4 @@ Unlike shown in the program, the talk will be given by <a href="http://www.kaktu
 </p><p>
 <a href="http://www.flickr.com/photos/bergie/231727544/"><img src="http://farm1.static.flickr.com/82/231727544_dc4c74b75f.jpg" alt="Tank surfing" title="Tank surfing" /></a>
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/froscon" rel="tag">froscon</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/php" rel="tag">php</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/froscon" rel="tag">froscon</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/php" rel="tag">php</a></p>

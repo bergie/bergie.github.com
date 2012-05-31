@@ -17,4 +17,4 @@ Since my top photos are all <a href="http://flickr.com/help/organizr/#199">geota
 
 </span>Via <a href="http://www.boingboing.net/2007/08/17/tool_to_create_a_set.html">Boing Boing</a>.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/photos" rel="tag">photos</a>, <a href="http://www.technorati.com/tag/flickr" rel="tag">flickr</a>, <a href="http://www.technorati.com/tag/rating" rel="tag">rating</a>, <a href="http://www.technorati.com/tag/travel" rel="tag">travel</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/photos" rel="tag">photos</a>, <a href="http://www.technorati.com/tag/flickr" rel="tag">flickr</a>, <a href="http://www.technorati.com/tag/rating" rel="tag">rating</a>, <a href="http://www.technorati.com/tag/travel" rel="tag">travel</a></p>

@@ -18,4 +18,4 @@ If you have an <a href="http://www.nokia.com/n800">N800</a> please install the a
 
 Please note that this does <strong>not</strong> run in the <a href="http://maemo.org/downloads/download-sdk.html">SDK</a> since some required command-line utilities are missing from there.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/plazes" rel="tag">plazes</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/plazes" rel="tag">plazes</a></p>

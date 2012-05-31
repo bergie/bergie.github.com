@@ -17,4 +17,4 @@ Now, how about <a href="http://maemo.org/community/brainstorm/view/sms_via_the_i
 </p><p>
 <img src="/files/rudi-phone-gas-mileage.jpg" height="244" width="398" border="1" hspace="4" vspace="4" alt="Calculating gas mileage with a phone in Lesotho" title="Calculating gas mileage with a phone in Lesotho" />
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/google" rel="tag">google</a>, <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/africa" rel="tag">africa</a>, <a href="http://www.technorati.com/tag/sms" rel="tag">sms</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/google" rel="tag">google</a>, <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/africa" rel="tag">africa</a>, <a href="http://www.technorati.com/tag/sms" rel="tag">sms</a></p>

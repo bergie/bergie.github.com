@@ -18,4 +18,4 @@ When I got <a href="http://bergie.iki.fi/blog/when_a_holiday_gets-interesting.ht
 
 I know Greg from the <a href="http://www.oscom.org/">OSCOM</a> circles, and it really sucks that this happened to him.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/crime" rel="tag">crime</a>, <a href="http://www.technorati.com/tag/gregstein" rel="tag">gregstein</a>, <a href="http://www.technorati.com/tag/paypal" rel="tag">paypal</a>, <a href="http://www.technorati.com/tag/thieves" rel="tag">thieves</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/crime" rel="tag">crime</a>, <a href="http://www.technorati.com/tag/gregstein" rel="tag">gregstein</a>, <a href="http://www.technorati.com/tag/paypal" rel="tag">paypal</a>, <a href="http://www.technorati.com/tag/thieves" rel="tag">thieves</a></p>

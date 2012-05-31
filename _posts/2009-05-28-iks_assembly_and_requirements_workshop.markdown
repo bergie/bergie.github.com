@@ -17,4 +17,4 @@ My notes from the meeting days can be found <a href="http://www.qaiku.com/home/b
 </ul><p>
 As things are happening, it is also possible to follow progress on the <a href="http://www.qaiku.com/channels/show/iks-project/">#iks-project Qaiku channel</a> or the <a href="http://twitter.com/#search?q=%23iks-project">#iks-project Twitter hashtag</a>.
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/iks-project" rel="tag">iks-project</a>, <a href="http://www.technorati.com/tag/semanticweb" rel="tag">semanticweb</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/iks-project" rel="tag">iks-project</a>, <a href="http://www.technorati.com/tag/semanticweb" rel="tag">semanticweb</a></p>

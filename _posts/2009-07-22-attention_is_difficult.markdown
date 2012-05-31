@@ -18,4 +18,4 @@ How to solve the issue of constant distractions? Maybe we'll need to be <a href=
 </p><p>
 <em>Confession: I must've switched browser tabs a dozen time while reading the Salon article. Concentration indeed...</em>
 </p>
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/attention" rel="tag">attention</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/attention" rel="tag">attention</a></p>

@@ -27,4 +27,4 @@ Based on these quick tests, I don't think I'm ready to pay the 10$ or 15$ per mo
 
 <strong>Updated:</strong> I kind of understand why such proprietary content distribution system has to be closed source, but it should be a <a href="https://garage.maemo.org/tracker/index.php?func=detail&amp;aid=213&amp;group_id=125&amp;atid=532">Canola backend</a> instead of providing its own, slightly weird UI. Hopefully <a href="http://www.jonobacon.org/?p=925">open content alternatives</a> appear sometime soon...
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/music" rel="tag">music</a>, <a href="http://www.technorati.com/tag/rhapsody" rel="tag">rhapsody</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/music" rel="tag">music</a>, <a href="http://www.technorati.com/tag/rhapsody" rel="tag">rhapsody</a></p>

@@ -27,4 +27,4 @@ But still, there is <a href="http://wiki.openstreetmap.org/index.php/WikiProject
 </span><span style="font-size:0pt;">
 </span>Google Maps doesn't <a href="http://maps.google.com/?ie=UTF8&amp;ll=60.170074,24.934856&amp;spn=0.002647,0.007821&amp;z=17&amp;om=1">even get close</a>.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/helsinki" rel="tag">helsinki</a>, <a href="http://www.technorati.com/tag/openstreetmap" rel="tag">openstreetmap</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/helsinki" rel="tag">helsinki</a>, <a href="http://www.technorati.com/tag/openstreetmap" rel="tag">openstreetmap</a></p>

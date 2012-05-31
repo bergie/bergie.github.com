@@ -16,4 +16,4 @@ The <a href="http://en.wikipedia.org/wiki/Autumn_leaf_color">"ruska season"</a> 
 
 </span>Weather was a bit rainy on Saturday, but with good gear this was not much of a problem. More <a href="http://www.flickr.com/photos/bergie/sets/72157602045266843/">pictures on Flickr</a>.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/hiking" rel="tag">hiking</a>, <a href="http://www.technorati.com/tag/evo" rel="tag">evo</a>, <a href="http://www.technorati.com/tag/travel" rel="tag">travel</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/hiking" rel="tag">hiking</a>, <a href="http://www.technorati.com/tag/evo" rel="tag">evo</a>, <a href="http://www.technorati.com/tag/travel" rel="tag">travel</a></p>

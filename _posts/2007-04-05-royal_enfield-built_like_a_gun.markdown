@@ -17,4 +17,4 @@ This week finally things changed, and I bought a brand new Indian-built <a href=
 
 <strong>Update:</strong> For those wondering about the fate of my trusty Triumph, it is now being fixed and will be ridden by <a href="http://flickr.com/photos/bergie/427380213/in/set-72157600010088557/">Juha</a>.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/motorcycle" rel="tag">motorcycle</a>, <a href="http://www.technorati.com/tag/enfield" rel="tag">enfield</a>, <a href="http://www.technorati.com/tag/royalenfield" rel="tag">royalenfield</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/motorcycle" rel="tag">motorcycle</a>, <a href="http://www.technorati.com/tag/enfield" rel="tag">enfield</a>, <a href="http://www.technorati.com/tag/royalenfield" rel="tag">royalenfield</a></p>

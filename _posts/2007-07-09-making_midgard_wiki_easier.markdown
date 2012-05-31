@@ -31,4 +31,4 @@ The Markdown toolbar is based on <a href="http://livepipe.net/projects/control_t
 
 <strong>Note:</strong> this has been tagged to appear also on <a href="http://planet.maemo.org/">Planet Maemo</a> since the changes discussed here were requested by them.
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/markdown" rel="tag">markdown</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/wiki" rel="tag">wiki</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/markdown" rel="tag">markdown</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/wiki" rel="tag">wiki</a></p>

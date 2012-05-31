@@ -28,4 +28,4 @@ To do this, enter an address and click the "refresh" icon in the corner, then wa
 </span>You can also edit the straight coordinates:<span style="font-size:0pt;">
 </span><p style="text-align:center;"><img src="/files/positioning-widget-coordinates.jpg" height="166" width="350" border="1" hspace="4" vspace="4" alt="Positioning-Widget-Coordinates" /></p>Get it <a href="http://trac.midgard-project.org/browser">from SVN</a> while it is hot!
 
-<!-- technorati tags start --><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midcom" rel="tag">midcom</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/poi" rel="tag">poi</a>, <a href="http://www.technorati.com/tag/geocode" rel="tag">geocode</a></p><!-- technorati tags end -->
+<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midcom" rel="tag">midcom</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/poi" rel="tag">poi</a>, <a href="http://www.technorati.com/tag/geocode" rel="tag">geocode</a></p>
