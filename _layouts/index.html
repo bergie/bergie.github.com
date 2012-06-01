@@ -17,7 +17,7 @@ bodyclass: blog
 </aside>
 
 {% for post in paginator.posts %}
-<article vocab="http://schema.org/" about="{{ page.url }}" typeof="BlogPosting">
+<article vocab="http://schema.org/" about="{{ post.url }}" typeof="BlogPosting">
     <h1 class="span8 offset1"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h1>
     <div class="span8 offset1">
       {% if paginator.page == 1 %}
