@@ -1,6 +1,8 @@
 ---
 title: New site version online
 layout: post
+categories:
+  - life
 ---
 The version 5.0 of Bergie's site is now available in <http://www.iki.fi/bergie>
 

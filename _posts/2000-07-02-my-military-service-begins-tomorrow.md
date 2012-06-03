@@ -1,6 +1,8 @@
 ---
 title: My military service begins tomorrow
 layout: post
+categories:
+  - life
 ---
 My 180 days long military service begins tomorrow, so I'm now going offline. As my email connectivity will be unsteady at best, I'll unsubscribe the Midgard mailing lists now.
 

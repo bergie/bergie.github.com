@@ -1,6 +1,9 @@
 ---
 title: Gettin' Stoned ;-)
 layout: post
+categories:
+  - life
+  - midgard
 ---
 Bergie switches job and becomes the webmaster of a network security software company.
 

@@ -1,6 +1,8 @@
 ---
 title: Writing a CV
 layout: post
+categories:
+  - life
 ---
 Bergie takes time to finally write his CV.
 

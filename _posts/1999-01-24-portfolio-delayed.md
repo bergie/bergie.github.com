@@ -1,6 +1,8 @@
 ---
 title: Portfolio delayed
 layout: post
+categories:
+  - life
 ---
 Despite Bergie's original intentions, the launching of his Design Portfolio site gets delayed.
 

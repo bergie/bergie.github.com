@@ -1,6 +1,8 @@
 ---
 title: Some site improvements
 layout: post
+categories:
+  - life
 ---
 There have been some small improvements made for Bergie's Web site.
 

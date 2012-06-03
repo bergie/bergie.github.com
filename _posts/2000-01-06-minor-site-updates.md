@@ -1,6 +1,8 @@
 ---
 title: Minor site updates
 layout: post
+categories:
+  - life
 ---
 Another small-scale update to the site.
 

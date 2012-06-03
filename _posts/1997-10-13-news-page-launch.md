@@ -1,6 +1,8 @@
 ---
 title: News page launch
 layout: post
+categories:
+  - life
 ---
 The news page has been created.
 

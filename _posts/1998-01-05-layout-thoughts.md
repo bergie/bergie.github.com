@@ -1,6 +1,8 @@
 ---
 title: Layout thoughts
 layout: post
+categories:
+  - life
 ---
 The need for new layout.
 

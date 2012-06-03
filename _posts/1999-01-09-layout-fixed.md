@@ -1,6 +1,8 @@
 ---
 title: Layout fixed
 layout: post
+categories:
+  - life
 ---
 Bergie fixes a Netscape problem in the site's layout. (9th Jan. 1999)
 
