@@ -13,6 +13,7 @@ The whole blog:
 Personal stuff:
 
 * [Motorcycle adventures](/blog/category/motorcycles/) ([RSS feed](/blog/category/motorcycles/rss.xml))
+* [General Aviation](/blog/category/flying/) ([RSS feed](/blog/category/flying/rss.xml))
 * [Notes on personal life](/blog/category/life/) ([RSS feed](/blog/category/life/rss.xml))
 * [Politics](/blog/category/politics/) ([RSS feed](/blog/category/politics/rss.xml))
 
@@ -31,3 +32,4 @@ Specific computing platforms or projects:
 * [MeeGo mobile platform](/blog/category/meego/) ([RSS feed](/blog/category/meego/rss.xml))
 * [OpenPSA business suite](/blog/category/openpsa/) ([RSS feed](/blog/category/openpsa/rss.xml))
 * [JavaScript](/blog/category/javascript/) ([RSS feed](/blog/category/javascript/rss.xml))
+* [CoffeeScript](/blog/category/coffeescript/) ([RSS feed](/blog/category/coffeescript/rss.xml))
