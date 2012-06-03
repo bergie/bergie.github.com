@@ -21,3 +21,5 @@ I've seen this in action several times, especially in the Open Source CMS market
 The lesson to draw is that when you hear people dismissing an entrant as _just a toy_, you should really start paying attention. Otherwise it will be too late. And this applies equally to products as to programming tools or technologies. A free software project [may never die](/blog/free_software_at_work-openpsa2_is_making_a_return/), but it can still become a lot less exciting as a result of such disruption.
 
 I've written about [why this is happening with tablets](/blog/why_the_tablet_form_factor_is_winning/) already earlier.
+
+**Update:** [Critical Path](http://5by5.tv/criticalpath) is a great podcast on disruption in the mobile market. Especially the [one hour interview with Clayton Christensen](http://5by5.tv/criticalpath/36) is worth listening to.
