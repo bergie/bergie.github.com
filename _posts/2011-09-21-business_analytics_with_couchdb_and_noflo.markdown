@@ -4,6 +4,8 @@
     - "business"
     - "openpsa"
     - "oscom"
+    - coffeescript
+    - nodejs
   layout: "post"
 
 ---

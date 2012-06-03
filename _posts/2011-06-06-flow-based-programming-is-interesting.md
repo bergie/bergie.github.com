@@ -6,6 +6,8 @@ location: San Francisco, California
 categories:
   - fbp
   - javascript
+  - coffeescript
+  - nodejs
 ---
 [Quite a different way](http://en.wikipedia.org/wiki/Flow-based_programming) of doing software:
 
