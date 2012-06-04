@@ -100,4 +100,4 @@ Once all of this is done and you have a working [Symfony2 server setup](http://s
 
 The site can be found under the `/app_dev.php/` path of your server, so for example on my system it is in <http://cmf.lo/app_dev.php/en>.
 
-[![Editing content in Symfony CMF](/files/cmf-sandbox-midgard2-edit-small.png)](/files/cmf-sandbox/midgard2-edit.png)
+[![Editing content in Symfony CMF](/files/cmf-sandbox-midgard2-edit-small.png)](/files/cmf-sandbox-midgard2-edit.png)
