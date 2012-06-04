@@ -52,24 +52,24 @@ Copy the `app/config/parameters.yml.dist` file to `app/config/parameters.yml` an
 
         phpcr_backend:
             type: midgard2
-            dbtype: SQLite
-            dbname: cmf
-            dbdir: /tmp
-            dbinit: true
+            db_type: SQLite
+            db_name: cmf
+            db_dir: /tmp
+            db_init: true
             blobdir: /tmp/cmf-blobs
             loglevel: warn
         phpcr_workspace: default
         phpcr_user: admin
         phpcr_pass: password
 
-With a MySQL database, the `db*` parameters would be something like:
+With a MySQL database, the `db_*` parameters would be something like:
 
         phpcr_backend:
             type: midgard2
-            dbtype: MySQL
-            dbname: midgard2
-            dbusername: root
-            dbpassword: password
+            db_type: MySQL
+            db_name: midgard2
+            db_username: root
+            db_password: password
 
 ### Installing with Composer
 
