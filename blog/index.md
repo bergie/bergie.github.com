@@ -16,6 +16,7 @@ Personal stuff:
 * [General Aviation](/blog/category/flying/) ([RSS feed](/blog/category/flying/rss.xml))
 * [Notes on personal life](/blog/category/life/) ([RSS feed](/blog/category/life/rss.xml))
 * [Politics](/blog/category/politics/) ([RSS feed](/blog/category/politics/rss.xml))
+* [Martial Arts](/blog/category/haidonggumdo/) ([RSS feed](/blog/category/haidonggumdo/rss.xml))
 
 Information technology:
 
