@@ -294,3 +294,11 @@ In your migration:
 * Create a binding to existing calls so your old code will remain working
 
 Now your service will be instantiated only once and it can have a centralized configuration. And it is easy to override or change when needed.
+
+## Symfony2 Jeopardy
+
+The last session of the day was pure fun: a Symfony community version of Jeopardy! _What is Silex?_
+
+![Symfony Jeopardy](/files/symfony_live_2012_jeopardy.jpg)
+
+*More to come tomorrow, when I'm also giving my [Create.js](http://createjs.org) talk*
