@@ -1,8 +1,10 @@
 ---
 title: Notes from Symfony Live 2012
 layout: post
+location: Paris, France
 categories:
   - midgard
+  - php
 ---
 *This is a liveblog from the Symfony Live 2012 event, and will be updated as the conference progresses. You can also follow the `#Symfony_live` Twitter hashtag*
 
@@ -29,3 +31,4 @@ Out of Symfony's components, Drupal uses:
 
 Many of these would also make our older frameworks, like MidCOM and Midgard MVC a lot easier to maintain. And it would improve interoperability and code-sharing between us and the greater PHP world.
 
+The ideas of Decoupled Content Management seem to be reaching an audience here as well. So far everybody I've talked with has already known about Create.js. Tomorrow I'll be speaking about the big picture of decoupled CMS with PHPCR and Create, and Lukas will have a talk about the specific Symfony2 implementation of Symfony CMF.
