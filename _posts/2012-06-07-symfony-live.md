@@ -142,4 +142,18 @@ To use multiple authentication systems, like Facebook, Twitter, and local accoun
 
 You can also ensure account completeness by having a request listener that checks whether there is an user that is not "complete", and redirects user to an account completion form then.
 
+## Composer
 
+I've [written about Composer before](/blog/composer_solves_the_php_code-sharing_problem/), so this is just a quick status update:
+
+1500 packages now on Packagist, of which 450 were added in May. 350K package installs via Packagist. Alpha4 will be released soon, and Symfony 2.1 will come with Composer install by default. Facebook's PHP SDK is now supporting Composer, as is Zend Framework:
+
+> If you find a library that doesn't support Composer, just send them a pull request with a `composer.json` instead of adding a custom repository to your own configuration.
+
+Some PaaS providers also are going to support Composer. There is my pull request to [add this to Heroku](/blog/using_composer_to_manage_dependencies_in_heroku_php_apps/), and ServerGrove is also interested.
+
+Plea from the Composer developers:
+
+> Look around. Write small libs. Share code. Reuse things. Reinvigorate PHP
+
+> If it becomes normal in PHP to not build everything yourself, but instead to reuse things others have built, we can all build things that are bigger and better, more cheaply
