@@ -46,6 +46,9 @@ Unfortunately I missed quite a lot of the BBC talk because of scheduling changes
 * All requests go through Varnish to ensure the site is fast
 * Data access happens through an API, so you can work with the same information whether you're writing PHP, JavaScript, or JavaScript
 * Web design is done in a responsive way where the same pages can be delivered to desktops, mobile, and tablets with only some CSS and JavaScript changes
+
+> Render templates and translation on the server, and keep them simple. JavaScript rendering can be slower
+
 * BBC uses Zend Framework, but with Symfony's Dependency Injection Container added
 * Symfony's Event Dispatcher allows decoupling the system so that some process can start in PHP, and then continue in JavaScript
 * Dependency Injection and event-based programming allows BBC to replace their current implementation with Symfony piece-by-piece instead of having to do one huge rewrite
@@ -64,6 +67,6 @@ Simple AMD module example:
 	  }
     );
 
-BBC works in two-week sprints Cucumber-based BBD. Their Wally tool gives a simple, end-user friendly overview on all their defined behaviors and their status. This way management can instantly see what is the status of various initiatives, and what is being worked on.
+BBC works in two-week sprints using Cucumber-based BBD. Their Wally tool gives a simple, end-user friendly overview on all their defined behaviors and their status. This way management can instantly see what is the status of various initiatives, and what is being worked on.
 
-> I belive native apps have a place, but at the same time that it is possible to reuse our responsive pages inside them. Handling advertisements in responsive pages can be difficult
+> I believe native apps have a place, but at the same time that it is possible to reuse our responsive pages inside them. Handling advertisements in responsive pages can be difficult
