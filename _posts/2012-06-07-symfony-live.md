@@ -193,3 +193,104 @@ Unit tests are in no way Silex-specific. Functinal tests are, and Symfony compon
 The components you use only for tests should be in `require-dev` of your Composer configuration, so they're only installed when you intend to do testing or development.
 
 The whole Silex example application can be found from <https://github.com/igorw/trashbin>.
+
+## Symfony components to the rescue of your PHP projects
+
+In the last couple of years, a lot has changed in PHP: 5.3 brought us namespaces and proper closures, Composer provides a better way to share code, and unit testing a continuous integration have gained more acceptance, especially thanks to Travis. PHP has become more professional.
+
+PSR-0 is the autoloading standard that most modern PHP code follows. It, together with Composer, makes it very easy to use libraries from other projects in your application. This way we can finally get rid of the PHP tradition of everybody having to re-invent all the wheels.
+
+Symfony2 is in the bleeding edge of these developments, providing components that other frameworks can also use to replace their homegrown code for common tasks like request/response handling, authentication, and application bootstrapping.
+
+> Composer is like apt-get on Debian. Not only the libraries you need will be installed, but also their dependencies. You can write your own post-install scripts to clear caches or to do other common tasks. This makes deployment much easier.
+
+> Definitely forget about PEAR or distro packages. Just use Packagist.
+
+Conclusions:
+
+* PHP is not anymore an amateur language
+  - Continuous Integration (Jenkins, Sismo, and Travis)
+  - Unit tests (PHPUnit, SimpleTest, Atoum)
+  - Code quality analysis and metrics
+  - Code improvement tools (PHP Coding Standards fixer)
+* PHP developers have grown up since 2002
+  - The language is more mature
+  - The community is too
+
+While not PHP-specific, GitHub has given the community a social coding platform that makes it a lot easier to collaborate around PHP code.
+
+> It should be compulsory for a developer to know GitHub by now
+
+The old, bad PHP was different:
+
+* HTML and PHP were fixed
+* The `@` operator was used to hide warnings
+* URLs tied to code structure
+* Duplicate code
+
+> The shit of today was great yesterday
+
+But that was 10 years ago, and there was no PHP5 with a strong object model. How have things improved since?
+
+* First professional PHP frameworks, like Zend Framework, CodeIgniter, CakePHP, Symfony1, (MidCOM), ...
+* These brought conventions, and concepts like ORM, Ajax support, caching, unit tests, i18n, routing, MVC, ... _Developers say hurra_
+* They had severe limits, like being monolithic, inflexible, and were performing badly
+
+After this wave, the frameworks got better. But how to migrate your old projects? There are lots of big projects written in these old frameworks that are now starting to suffer from all the accumulated technical debt.
+
+> You'd like to trash all the code, and code like in 2012
+
+But [full rewrites are always risky](http://www.joelonsoftware.com/articles/fog0000000069.html):
+
+* Pros
+  - A new and solid framework
+  - Leave behind the old crappy codebase
+  - Feel more happy
+* Cons
+  - Stops the company's business
+  - Spend more than a year re-developing everything
+  - Clients usually don't want to finance or wait for rewrites
+
+A more gradual approach is safer:
+
+* Rewrite step-by-step
+* Control the way you build things
+* Use parts of a framework, now a whole framework. Choose the parts you use
+* Gradually raise the competence level of your team
+* Keep the application constantly in a working state
+
+What to do first? Switch to 5.3 or 5.4 **now**. PHP 5.2 is not supported any longer. If you're on Debian or Ubuntu, upgrade your distro version and update packages, and you'll have newer PHP in 5 seconds. For OS X there is <http://php-osx.liip.ch>.
+
+Then start building a new solid foundation for future developments. This can happen on the side of the old codebase. New code should be written on the new foundation. New code and old code should be able to run side-by-side.
+
+Use Symfony2 components, like DependencyInjection, ClassLoader, and HTTPFoundation. This will make life a lot easier. And install these dependencies with Composer instead of using Git submodules or straight copies of code.
+
+ClassLoader allows autoloading to happen in a standards-based way. DependencyInjection allows you to restructure your application piece-by-piece, and reducing risk of backwards-compatibility breaks. HTTPFoundation gives you a better way to deal with HTTP requests and responses. If you're using Composer, then autoloading will be already be handled by it.
+
+With HTTPFoundation you can move from using old superglobals like `$_GET` whenever you work on some part of your old codebase. With it, as with any other new-style library you want to use, the migration process is similar:
+
+* Integrate the component, make it loaded
+* Use it in new code
+* Refactor old code piece-by-piece
+* Add tests
+
+Just remember to keep your codebase constantly in a runnable state! It is best to only add one new library at a time.
+
+While there are lots of useful libraries on Packagist, Symfony Components are a great starting point. They're well-documented and tested standalone libraries, and Symfony2 is simply a framework built by combinding them.
+
+Symfony Console is useful writing cronjobs, or commandline tasks. It manages input and output for you, and has ways to handle different options. It should be easy to migrate your existing commandline tools to it, and that generally won't disrupt the other parts of your application, so that may be a good place to practice the usage of 3rd-party Composer libraries and PHP 5.3 coding standards.
+
+Dependency injection allows you to expose services or APIs inside your application in a way that allows them to work more robustly when you need to change things. For example, if the signature of a function changes, access to it via the DependencyInjectionContainer will still work.
+
+Your existing application probably already sends emails, writes logs, and stores things to a database. These can be refactored to happen through dependency injection.
+
+* Resources are instantiated only when needed
+* Services can be extended
+* Each item in DIC is called a _service_
+
+In your migration:
+
+* Convert "service" functionalities in your application into real Symfony services
+* Create a binding to existing calls so your old code will remain working
+
+Now your service will be instantiated only once and it can have a centralized configuration. And it is easy to override or change when needed.
