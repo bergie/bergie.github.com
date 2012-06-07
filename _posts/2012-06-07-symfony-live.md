@@ -67,6 +67,79 @@ Simple AMD module example:
 	  }
     );
 
-BBC works in two-week sprints using Cucumber-based BBD. Their Wally tool gives a simple, end-user friendly overview on all their defined behaviors and their status. This way management can instantly see what is the status of various initiatives, and what is being worked on.
+BBC works in two-week sprints using Cucumber-based BBD. Their [Wally tool](https://github.com/BBC/Wally) gives a simple, end-user friendly overview on all their defined behaviors and their status. This way management can instantly see what is the status of various initiatives, and what is being worked on.
 
 > I believe native apps have a place, but at the same time that it is possible to reuse our responsive pages inside them. Handling advertisements in responsive pages can be difficult
+
+## Security on Symfony2
+
+Authentication works in the following way:
+
+* FirewallListener passes requests to FirewallMap
+* FirewallMap passes requests to enabled listeners
+* Listeners can be things like SessionAuthenticationStrategy and AuthSuccessHandler/AuthFailureHandler
+* Actual authentication is handled by AuthenticationProvider which provides tokens that authentication strategies can use
+* AuthenticationProviders can talk to UserProviders and UserCheckers, but these are not mandatory
+
+Authorization (the actual permissions, _who can do what_) is handled separately from authentication:
+
+* There is an AccessListener, SecurityContext, and MethodSecurityInspector
+* MethodSecurityInspector can be used with PHP annotations to generate proxy classes for your code that handle security checks
+* All of the components talk with an AccessDecisionManager, which allows Voters to vote whether a particular operation should be allowed
+* There are voters like AclVoters that use a PermissionMap, RoleVoter that looks at user role, and AuthenticatedVoter that just cares whether there is an authenticated user
+* ACLs can be provided by AclProviders
+* Roles are provided by a RoleHierarchy
+* There is also an ExpressionVoter that can replace all other voters. This allows faster authorization decisions by not having to load all the dependencies of the various other Voters
+
+Expression authorization example with annotations:
+
+    <?php
+	class PostController
+	{
+		/**
+		 * @PreAuthorize("isAuthenticated() && hasPermission("Edit", #post)")
+		 */
+	    public function postEditAction(Post $post) {}
+    }
+
+_I want to functionally test my application. How can I test parts that need a logged in user?_
+
+If you're using Basic Auth, then just include authentication to your tests. Form-based authentication should also be part of a test suite, even if this can be slow.
+
+_In my application I want to customize what happens when access is denied_
+
+Technically you could listen for AccessDeniedExceptions, but this is not a good idea as it can either end up in real access denied, but it can just as well end up providing the user a way to log in, depending on your configuration. You may also have multiple firewalls (for instance, for API and application separately), where you want different behavior. It is better to use an AccessDeniedHandler. Just register your handled class as the `default_access_denied_handler` in the Dependency Injection Controller, and configure `access_denied_handler` to point to it.
+
+_I want my application to use the ACL system. How to integrate it?_
+
+For basic ACL checks, use a listener-based approach. Listener is better than doing checks in controllers, because this way you can make sure no operations pass without being checked. This however means that you also need to populate the security context in your console scripts. You'll need a SuperAdminVoter for the following code to pass:
+
+        /**
+		 * @RunAs("ROLE_IDDQD")
+         */
+        public function fetchFeeds()
+        {
+		    // All security checks will pass here
+        }
+
+To handle authentication failures on a AJAX back-end you can provide a separate authentication failure handles, that check that the request is an XmlHttpRequest before proceeding, and then serve their message as JSON.
+
+JMSI18nRoutingBundle allows localized routing for login actions. As long as their names are `login` and `login_action`. You can also disable i18n for one of these.
+
+To use multiple authentication systems, like Facebook, Twitter, and local accounts, you need to provide a UserProvider for each of them. You also need entry points for each of them, and you can route to each of them in a DefaultEntryPoint.
+
+    firewalls:
+	    default:
+		    provider: id_based
+			entry_point: default_entry_point
+
+			fos_facebook:
+			  provider: facebook
+			  ...
+
+			login:
+			  provider: email
+
+You can also ensure account completeness by having a request listener that checks whether there is an user that is not "complete", and redirects user to an account completion form then.
+
+
