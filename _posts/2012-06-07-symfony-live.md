@@ -157,3 +157,39 @@ Plea from the Composer developers:
 > Look around. Write small libs. Share code. Reuse things. Reinvigorate PHP
 
 > If it becomes normal in PHP to not build everything yourself, but instead to reuse things others have built, we can all build things that are bigger and better, more cheaply
+
+## Silex
+
+[Silex](http://silex.sensiolabs.org/) is a microframework for PHP that is built on top of some of the Symfony2 components. If you've used Sinatra with Ruby, or Express with Node.js, the concept will already be familar to you.
+
+This allows you to build routes like:
+
+    <?php
+    $app = new Silex\Application();
+    $app->get('/page/{id}', function($id) use ($app) {
+	    return "Hello, " . $app->escape($id);
+	});
+	return $app;
+
+Then you should have another file that actually starts your application:
+
+    <?php
+    require __DIR__ .'/vendor/autoload.php';
+    $app = require __DIR__.'/../src/app.php';
+	$app->run();
+
+And finally just require Silex with Composer:
+
+    {
+	  "require": {
+	    "silex/silex": "dev-master"
+	  }
+	}
+
+Silex applications are reasonably easy to test, both as unit tests (individual classes/methods) and functional tests (whole application, or a part of it). Functional tests can be slow, as they always need to prepare and clean up your data store between tests.
+
+Unit tests are in no way Silex-specific. Functinal tests are, and Symfony components like BrowserKit, CssSelector, and DomCrawler help in making these. These classes essentially model HTTP requests inside PHP, so you can simulate requests in memory.
+
+The components you use only for tests should be in `require-dev` of your Composer configuration, so they're only installed when you intend to do testing or development.
+
+The whole Silex example application can be found from <https://github.com/igorw/trashbin>.
