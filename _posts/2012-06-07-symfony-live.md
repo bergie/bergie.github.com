@@ -301,7 +301,7 @@ The last session of the day was pure fun: a Symfony community version of Jeopard
 
 ![Symfony Jeopardy](/files/symfony_live_2012_jeopardy.jpg)
 
-*Intermission, notes from my [Create.js](http://createjs.org) talk coming later*
+*Intermission, was giving my [Create.js](http://createjs.org) and PHPCR talk. [Slides are available](http://www.slideshare.net/mobile/bergie/decoupling-content-management-with-createjs-and-phpcr)*
 
 ## Drupal 8 meets Symfony2
 
@@ -413,3 +413,81 @@ CMF provides a bunch of components and bundles so that users can pick and choose
 Storage uses Doctrine ODM, so the APIs are similar to the MongoDB interface, but everything related to content management is easier.
 
 PHPCR and ODM, especially running on Jackrabbit, are already production-ready. The first alpha version of the whole CMF is coming soon. You can read more about CMF, and see a screencast [on the Symfony.com blog](http://symfony.com/blog/the-symfony-content-management-framework-is-getting-ready).
+
+## WebSockets
+
+The web is built on the concept of requests and responses. This is a powerful concept that has allowed the web to expand, but it is not without issues:
+
+* HTTP requests are unidirectional. A client has to ask for data for the server to send it
+
+> HTTP is like the annoying donkey in Shrek, where the browser has to constantly poll for information. _Are we there yet, are we there yet_
+
+* Latency can be a problem as each HTTP request is essentially a new TCP connection (HTTP 1.1 keepalive helps here, SPDY will do more)
+* HTTP is stateless, so every request has to contain all the information needed to identify that request and user. This means the requests can become big, especially with cookies
+
+> What if we could use the underlaying TCP session and expose that?
+
+The WebSocket specification does exactly this, allowing persistent, bidirectional connections on the web. With the WebSocket protocol specifies things like the connection handshake and TCP framing. After upgrading a HTTP request it becomes a WebSocket connection where both sides can send data at any time using the existing connection. While TCP is just an infinite stream of data, WebSockets provides you with messages.
+
+Some proxies cause issues with WebSockets, as they may reject the session, or just kill it after 30 seconds. This can be worked around by using SSL. WebSockets are specified in RFC 6455.
+
+WebSocket API:
+
+    var ws = new WebSocket("ws://example.net");
+
+	ws.onopen = function() {
+	  ws.send("hello");
+	}
+
+	ws.onmessage = function(event) {
+	  console.log(event.data);
+	}
+
+Use cases for WebSockets include:
+
+* Games
+* Notifications
+* Collaboration
+* Statistics
+* Chat
+
+Supporting WebSockets in traditional server-side programming frameworks can be tricky, but Node.js does it very well. There is also the Pusher service that provides managed WebSocket connections.
+
+Google Wave was a good example of the collaboration possibilities given by WebSockets. Similar things can be done in Node.js applications with ShareJS.
+
+Chrome 4.0+, Firefox 6.0+, Safari 5+, IE 10+, etc. support WebSockets. Socket.io is useful because it provides fallbacks for browsers that don't support WebSockets. But Socket.io also bundles lots of features like broadcasting, serialization, and more in the monolithic bundle which has a different API than WebSockets. SockJS is simpler in that it only provides the transport layer.
+
+    var ws = new SockJS(url);
+
+> Think of it as a sort of WebSockets polyfill
+
+If you want to have a server that can support long-running WebSocket sessions, you'll probably want an asynchronous stack. With PHP, you'd need a process for each connected user, which becomes heavy quickly. SockJS integrates nicely on the standard Node.js + Express stack. You could also use something like Tornado or EventMachine if you can't use Node.js.
+
+PHP is optimized for the traditional HTTP use case, where the server starts the PHP interpreter for a request, PHP handles it, and then gets killed. This makes it quite unsuitable for WebSockets.
+
+This means you may end up with two stacks side-by-side:
+
+* Async stack for handling WebSockets
+* Synchronous stack, like PHP, Symfony, and Nginx for the actual web application
+
+How do you make them talk to each other? One solution is a message queue, like 0MQ. Most message queues need a daemon for providing the queue, which makes your stack more complicated. 0MQ is nice in that in it your processes talk directly with each other so you can skip this step. In PHP 0MQ can be installed as an extension.
+
+    <?php
+	$ctx = new ZMQContext();
+
+	$pub = $ctx->getSocket(ZMG::SOCKET_PUB);
+	$pub->connect('tcp://127.0.0.1:5555');
+
+	$pub->send("Some message");
+
+Node.js subscriber:
+
+	var sub = zmq.socket('sub');
+	sub.suscribe('');
+	sub.bind('tcp://*:5555');
+
+	sub.on('message', function(message) {
+	    console.log(message);
+	});
+
+Another option for communicating between Node.js and PHP would be [my DNode library](/blog/dnode-make_php_and_node-js_talk_to_each_other/).
