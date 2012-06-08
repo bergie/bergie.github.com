@@ -373,3 +373,43 @@ One of the first contributions from the Drupal developers to the upstream Symfon
 > My hope is that Symfony and Drupal working together will end up with stronger framework in Symfony, and a stronger CMF in Drupal
 
 DrupalCon Munich will be a big gathering of Drupal developers, with over 2000 expected. It will also be their first event to feature speakers from outside projects, including some Symfony talks, and my talk on Create.js.
+
+## Symfony CMF
+
+CMF provides all the infrastructure you need to build a CMS. It doesn't attempt to compete with CMSs like Drupal or TYPO3, but instead to offer tools for situations where more customized solutions are needed, or where Symfony2 developers need to add some manageable content into their applications. CMF is essentially a set of bunles that focus on scalability, usability, documentation, and testing.
+
+> Some find the architecture of the CMF quite complex, but in the end the API for developers won't be very compilated
+
+> Developers just write normal Symfony code and use Doctrine ODM.
+
+Symfony CMF has been under development by Liip for two years.
+
+> We feel that it is important that there is something in the ecosystem that allows customized CMSs to be built
+
+The CMF Sandbox offers a simple way to install and play with the Symfony CMF. Routing comes straight out of the content repository, as do content blocks and menus. Everything is inline-editable (using Create.js). 
+
+All content can be translated, but the layouts don't need to deal with localization as all of that is handled in the ODM backend. If something is not translated, CMF provides a rule system on whether and how the site should fall back to other languages if something hasn't been translated. The translatability of content can be defined on a per-property basis.
+
+There is also an administrative interface on the back-end, where you can manipulate the whole PHPCR content tree.
+
+![Demoing the CMF admin interface](/files/symfony_live_2012_cmf_admin.jpg)
+
+The menu struture and routing is completely decoupled from the actual content structure, which gives more flexibility on how the site can be built. This way it is a lot easier to do multi-channel publishing where for example some content is not served for mobile. It also allows defining different routing structures for different languages, so you can also have localized URLs. But if you want, the routing and menu can also just simply follow the content stucture, as it usually does in traditional CMSs.
+
+Because CMF knows where a particular piece of content is displayed on a website, it can allow websites to actively invalidate caches like Varnish when content changes.
+
+Blocks and pages on the site can be pointed either to content inside the respository, or actions inside Symfony.
+
+Apache Stanbol allows the CMF front-end editor to automatically tag content based on recognized entities inside the content. So mentioning people, companies, places, or whatever you have in your Stanbol knowledge base, becomes suggested tags for the content. The tags are used by the image handling tools to suggest related pictures for the content.
+
+Content in CMF stored into a PHPCR-compliant repository, which allows using the hugely-scalable Apache Jackrabbit Java project, or a relational database using Midgard2. The CMF Sandbox functional tests are run against all these different repository variants on Travis.
+
+PHPCR comes from the Java Content Repository standard, where the Java guys have spent ten years thinking about and refining the repository concepts. This makes PHPCR very consistent and well thought out. The PHPCR API test suite provides more than thousand tests to ensure interoperability between the implementations.
+
+On the front-end CMF uses Create.js, which allows decoupling also on the editing side of things. A generic admin interface won't work in all scenarios, and so having a standard API there as well makes sense.
+
+CMF provides a bunch of components and bundles so that users can pick and choose what they need. The ChainRouter allows chaining different Symfony2 routers after each other. This way some routes can come from the database, and others can be traditional static routes. With the Dynamic Content Router, the matched content objects will be automatically placed in the request object so that it will be available to the controller.
+
+Storage uses Doctrine ODM, so the APIs are similar to the MongoDB interface, but everything related to content management is easier.
+
+PHPCR and ODM, especially running on Jackrabbit, are already production-ready. The first alpha version of the whole CMF is coming soon. You can read more about CMF, and see a screencast [on the Symfony.com blog](http://symfony.com/blog/the-symfony-content-management-framework-is-getting-ready).
