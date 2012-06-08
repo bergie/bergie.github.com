@@ -491,3 +491,15 @@ Node.js subscriber:
 	});
 
 Another option for communicating between Node.js and PHP would be [my DNode library](/blog/dnode-make_php_and_node-js_talk_to_each_other/).
+
+Debugging WebSockets can be difficult, but at least the Canary build of Chrome provides a WebSocket connection inspector in the developer tools. wssh is a command-line debugging client and server for WebSockets. ngrep allows seeking for content in network connections. zmqc is a bit like netcat for 0MQ, and can also be useful.
+
+In nutshell:
+
+* Use SockJS instead of Socket.IO, as it plays nicely with existing solutions
+* Polyglot applications are the future
+* Learn from message queues
+
+Examples at <http://github.com/igorw/websockets-talk>.
+
+For those who don't want to go polyglot, [ReactPHP](http://nodephp.org) brings asynchronous I/O into PHP, making it possible to do WebSockets and other async communications in PHP.
