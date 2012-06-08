@@ -301,4 +301,75 @@ The last session of the day was pure fun: a Symfony community version of Jeopard
 
 ![Symfony Jeopardy](/files/symfony_live_2012_jeopardy.jpg)
 
-*More to come tomorrow, when I'm also giving my [Create.js](http://createjs.org) talk*
+*Intermission, notes from my [Create.js](http://createjs.org) talk coming later*
+
+## Drupal 8 meets Symfony2
+
+Drupal is the biggest PHP CMS out there, but its PHP4-style codebase has caused a lot of problems for developers. Drupal's focus is on the end-user experience, not developers, and this shows. A lot of focus has been put into the administrative interface.
+
+> Clients want Drupal, because that is what they know is used for a lot of sites. This makes it extremely easy to sell.
+
+But for developers, Drupal sucks, especially if what you need is a framework.
+
+> Drupal is a CMS 1st, a framework only 2nd
+
+* No clean separation of configuration, logic, and content
+* No clean deployment and staging and concept
+* No good caching strategy
+* Callback-based AOP-style programming paradigm can be strange
+* Lots of legacy baggage
+* Not Invented Here syndrome (like many other traditional PHP4 projects)
+
+The NiH syndrome is getting better in the PHP world, especially through PSR standards and Composer. But the other issues also need fixing. Drupal 8 has a Web Servicex and Context Core Initiative, where the plan is to transform Drupal from a CMS to a REST server that happens to have a CMS on top.
+
+Drupal's templating model shows a strong background in blog-style systems and makes it hard to write more sophisticated layouts. In Drupal 8, the page flow will be completely rewritten to use proper Request, application kernel, and routing components.
+
+> As long as we're fixing that, we might as well bake in proper REST support
+
+At this point Drupal developers realized that they're not the only ones tackling these problems. They looked at PECL HTTP, Symfony2's HttpFoundation, and Zend Framework. Symfony components won because they're more flexible and powerful. Zend Framework's Contributor License Agreement was another hurdle the Drupal Project didn't want to deal with. Input and engagement from Symfony2 developers also played a major part.
+
+> Community matters more than code when choosing libraries. And this is a community we felt we can rely on
+
+Distributions, Contrib Modules, Core Modules, and Core Libraries in Drupal 7 are not very well separated, and have lots of interdependencies. Distributions are an increasingly popular concept of _prepackaged Drupal sites_.
+
+Symfony, on the other hand has much cleaner separation of concerns. Silex proves that a completely different web framework can also be built on Symfony components.
+
+> We're all in. Drupal 8 is now powered by HttpKernel, HttpFoundation, Routing, and EventDispatcher
+
+> This should make it possible to run other Symfony applications inside Drupal, and vice versa
+
+Right now the Drupal 8 router just wraps the old Drupal router in Symfony's router. A typical Drupal site has over 1000 routes, and improvements here can really help. Database-backed routing will follow the Apache negotiation module concepts.
+
+> We're not doing anything esoteric here. We want to make the core of the system as Symfony-like as possible.
+
+Dependency Injection will be used to slowly get rid of Drupal's old global dependencies.
+
+> "Dependency Injection Container" - the scariest name for a giant array of objects we could come up with
+
+Drupal already has an event system, called _hooks_. They use `function_exists` for registering, but this makes them hard to test. It is faster that Symfony EventDispatcher. But on the other hand, no autoloading means all code has to be loaded for events to work. And each module can only have one hook. The current best guess for Drupal 8 is that it will have both EventDispatcher (used in core), and hooks (used in modules). But this is mostly because converting everything takes time.
+
+Drupal 7 follows the _PHP as a templating language_ approach, with preprocessing and filtering capabilities. This is very flexible and makes it easy for front-end developers to get started.
+
+> All templating languages eventually become Turing-complete. We just decided to cut the chase and use PHP
+
+But this has issues. For example Edge Side Includes don't play well with this.
+
+> We must get rid of these Arrays of Doom
+
+Twig is substantially more secure, and opens the potential to use Twig.js for client-side templating. But it is completely different than old Drupal templates, and so the migration will be difficult.
+
+> We could use help from Twig developers to get going
+
+Drupal is also considering to use YAML and Composer, as well as the Symfony CMF ChainRouter. Also some non-Symfony libraries, like Zend Atom.
+
+> Drupal 8 means not just some dozen Symfony newbies, but instead thousands. This is an enormous influx of people who want to learn Symfony
+
+If you want to see what is going on, checkout out the _symfony_ tag in Drupal issue tracker.
+
+One of the first contributions from the Drupal developers to the upstream Symfony ecosystem will be an improved "Flash message" API. File Streaming in HttpFoundation is also being worked on.
+
+> Work with the upstream. Make less code in the world! Anybody else excited?
+
+> My hope is that Symfony and Drupal working together will end up with stronger framework in Symfony, and a stronger CMF in Drupal
+
+DrupalCon Munich will be a big gathering of Drupal developers, with over 2000 expected. It will also be their first event to feature speakers from outside projects, including some Symfony talks, and my talk on Create.js.
