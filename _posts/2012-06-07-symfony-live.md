@@ -10,9 +10,11 @@ categories:
 
 The Symfony Live event is held in the old Cite Universitaire building in Paris. While tomorrow the RER strike will make things slightly more complicated, more than 600 developers have made it here. A very active crowd. I even got to give a quick tutorial on Flow-Based Programming with PhpFlo/NoFlo during the first coffee break.
 
+![Symfony Live 2012 venue](/files/symfony_live_2012_venue.jpg)
+
 ## Keynote
 
-First session of the day was Fabian Potenciers's keynote on the community. The numbers there are simply staggering, as the PHP community seems to converge on this project:
+First session of the day was Fabien Potenciers's keynote on the community. The numbers there are simply staggering, as the PHP community seems to converge on this project:
 
 * More than 1000 pull requests have been merged into Symfony2 since July 2011, from 250 different contributors
 * Symfony is the most popular and active PHP project on GitHub, and 12th most popular GitHub project overall
