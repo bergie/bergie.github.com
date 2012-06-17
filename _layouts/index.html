@@ -20,12 +20,8 @@ bodyclass: blog
 <article vocab="http://schema.org/" about="{{ post.url }}" typeof="BlogPosting">
     <h1 class="span8 offset1"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h1>
     <div class="span8 offset1">
-      {% if paginator.page == 1 %}
-        {{ post.content }}
-      {% else %}
-        {{ post.content | truncatewords:60 | strip_html }}
-        <a href="{{ post.url }}" rel="bookmark">Read more &raquo;</a>
-      {% endif %}
+      {{ post.content | truncatewords:60 | strip_html }}
+      <a href="{{ post.url }}" rel="bookmark">Read more &raquo;</a>
     </div>
     <div class="metadata span2">
       <span property="datePublished" content="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</span>
