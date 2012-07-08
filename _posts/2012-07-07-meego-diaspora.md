@@ -241,7 +241,9 @@ Indeed it appears Jolla has learned many lessons from the earlier stages of the 
 
 > And for the record, JollaMobile is not Mer. Mer is not JollaMobile. JollaMobile uses and contributes to Mer. Mer is a mobile core (without UIs and Hardware adaptations), usable and used by many different companies, with many different contributors.
 
-Will all of this work? Who knows, the world of mobile is a difficult one, with many failed efforts in its history. The things going for Jolla are a the excellent technical base of Linux, Mer, and Qt, the battle-scarred people who were able to produce the excellent Nokia N9 phone, and hopefully the existing Maemo community. I wish them luck in their endeavors, and look forward to the day when I can again proudly show [my MeeGon](/blog/me_on_meego/):
+Will all of this work? Who knows, the world of mobile is a difficult one, with many failed efforts in its history. The things going for Jolla are a the excellent technical base of Linux, Mer, and Qt, the battle-scarred people who were able to produce the excellent Nokia N9 phone, and hopefully the existing Maemo community.
+
+I wish them luck in their endeavors, and look forward to the day when I can again proudly show [my MeeGon](/blog/me_on_meego/):
 
 ![Bergie on MeeGo](/files/1dfeb285a49033ceb2811dfa01fef8418608bb28bb2_bergie_meego_100x100.png)
 
