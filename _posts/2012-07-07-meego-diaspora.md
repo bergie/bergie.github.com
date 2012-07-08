@@ -179,6 +179,12 @@ A major part of MeeGo was Nokia's ongoing [Harmattan](http://flors.wordpress.com
 
 > The N9 is flawed and doomed, but you have to understand, I don’t care. The overriding experience of using this phone is one of delight and desire. Yes, it can get bamboozled and freeze up, and no, you won’t be finding an avalanche of awesome new apps for it, but those downsides fade in comparison to the abundance of positives. The Harmattan UI is fresh, slick, and as natural as anything the smartphone world has yet introduced, while the physical design is unmatched. Not even the shiny new iPhone 4S feels as luxurious in the hand as the N9. I started off by comparing Nokia’s latest handset to a supercar and the parallels run deep. Like Italy’s finest mechanical produce, the N9 won’t be found in many shops, has a tendency to break down, and inspires an emotional rather than pragmatical response. There’s an added underdog charm in knowing it has been discarded by its maker and deemed unworthy to carry the Nokia crown.
 
+For much of its time, MeeGo was widely misunderstood as _Android without Java_. I sought to set the record straight in my [Understanding MeeGo](/blog/understanding_meego/) post from June 2011:
+
+> MeeGo is much more than just handsets or tablets. It is an attempt at creating a standardized industrial Linux distribution that can be used anywhere from in-vehicle infotainment devices to TVs to, indeed, handsets.
+
+> It is a true open and collaborative environment, managed by [Linux Foundation](http://www.linuxfoundation.org/). The [governance model](https://meego.com/about/governance) is there to ensure that MeeGo stays a vendor-neutral platform that anybody can build their products on top. 
+
 ## Empire Strikes Back, the mobile Linux winter
 
 By the late summer of 2011 [both MeeGo](http://www.theverge.com/2011/9/28/2456253/meego-is-dead-resurrected-as-tizen-another-new-linux-based-open) and [webOS were dead](http://www.theverge.com/2012/6/5/3062611/palm-webos-hp-inside-story-pre-postmortem). MeeGo because Nokia entered the world of Redmond, and webOS largely because HP couldn't decide what they wanted to be when they grew up.
