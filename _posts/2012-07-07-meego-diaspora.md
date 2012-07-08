@@ -167,7 +167,7 @@ While I had been traveling, Nokia and Intel had announced joining forces to form
 
 Eventually much of these questions would get sorted out. MeeGo would largely run its own infrastructure, but with several of the _good parts_, like Social News and Downloads copied over.
 
-One effect of the MeeGo transition was that conferences became more grandiose. Suddenly we were holding presentations in football stadiums and major hotels, with the conference parties having whole breweries booked for them. And conference handouts were getting better as well, with people getting tablets and MeeGo netbooks to develop with. The going joke was the _next year we'll all get a MeeGo-powered car_.
+One effect of the MeeGo transition was that conferences became more grandiose. Suddenly we were holding presentations in football stadiums and major hotels, with the conference parties having whole breweries booked for them. And conference handouts were getting better as well, with people getting tablets and MeeGo netbooks to develop with. The going joke was that _next year we'll all get a MeeGo-powered car_.
 
 ![New MeeGo netbooks](/files/new-meego-netbook.jpg)
 
