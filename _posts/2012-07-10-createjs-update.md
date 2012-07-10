@@ -5,7 +5,7 @@ location: Berlin, Germany
 categories:
   - midgard
   - oscom
-published: false
+published: true
 ---
 [Create.js](http://createjs.org) is our take on modern web editing built on [semantic technologies](http://viejs.org) and the ideas of [Decoupled Content Management](http://bergie.iki.fi/blog/decoupling_content_management/).
 
