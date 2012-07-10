@@ -48,7 +48,9 @@ Editable, Storage, and Workflows can place buttons
 
 We will hold a [Create.js hackathon in Berlin](http://wiki.iks-project.eu/index.php/DevWorkshops/VieBerlin) on July 19-20 2012. The event is organized by [IKS](http://iks-project.eu/) and will be hosted by [Theseus Innovationszentrum](http://theseus-programm.de/de/tiz.php).
 
-Any interested CMS and JavaScript hackers are welcome to join the event by [registering on the Lanyrd page](http://lanyrd.com/2012/createjs-hackathon-berlin/). You will be joined by developers from many CMS projects, including [Midgard](http://midgard-project.org/), [Symfony CMF](http://cmf.symfony.com/), [OpenCms](http://www.opencms.org/en/), and the [Drupal Create.js module](http://drupal.org/project/create).
+Any interested CMS and JavaScript hackers are welcome to join the event by [registering on the Lanyrd page](http://lanyrd.com/2012/createjs-hackathon-berlin/).
+
+You will be joined by developers from many CMS projects, including [Midgard](http://midgard-project.org/), [Symfony CMF](http://cmf.symfony.com/), [OpenCms](http://www.opencms.org/en/), and the [Drupal Create.js module](http://drupal.org/project/create).
 
 ## DrupalCon Munich and Create.js
 
