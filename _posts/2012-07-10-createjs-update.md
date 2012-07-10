@@ -13,7 +13,7 @@ With Create, CMS developers can provide a fresh way for their users to write con
 
 There are even some libraries like [CreatePHP](https://github.com/flack/createphp) and [VIE-GWT](https://github.com/alkacon/vie-gwt/) to make this easier. Those wanting to do the integration from scratch can also take a look at [Blogsiple](https://github.com/bergie/blogsiple) our Node.js testbed for Create.js.
 
-Here is a quick update of the latest happenings in Create.js land.
+Here is a quick update of the latest happenings in Create.js land. If you want to follow the project in more detail, feel free to [watch it on GitHub](https://github.com/bergie/create).
 
 ## Integration Guide
 
