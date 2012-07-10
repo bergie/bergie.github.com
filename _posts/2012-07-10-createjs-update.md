@@ -5,6 +5,7 @@ location: Berlin, Germany
 categories:
   - midgard
   - oscom
+published: false
 ---
 [Create.js](http://createjs.org) is our take on modern web editing built on [semantic technologies](http://viejs.org) and the ideas of [Decoupled Content Management](http://bergie.iki.fi/blog/decoupling_content_management/).
 
@@ -29,6 +30,8 @@ It also explains the base design of Create:
 > The Create.js interface was then rebuilt on top of this new VIE library by writing a bunch of [jQuery UI widgets](http://sebastian.germes.in/blog/2011/07/jquery-ui-widget-factory-v-1-8/). This way we have an overall default UX that we can ship, but still provide a bunch of different widgets for CMS vendors to pick-and-choose.
 
 ![Create.js structure](/files/createjs-structure-small.png)
+
+> Some CMSs use the full Create UX, and some use just parts to provide the UX they want to have. Examples of custom UXs include [Symfony CMF](http://blog.iks-project.eu/semantic-enhanced-cmf-editor-now-available/) and [OpenCms](http://iks.alkacon.com/en/).
 
 The different widgets in Create.js are also documented, including:
 
@@ -70,3 +73,4 @@ Drupal has its own next-generation in-place editing project called [Spark](http:
 While currently the Prose tool is heavily dependent on plain text formatting, they have [ambitious plans](https://github.com/substance/surface/blob/master/README.md) on building a new, reusable WYSIWYG editing core library based on [Operational Transforms](http://en.wikipedia.org/wiki/Operational_transformation).
 
 [Collaboration with this effort](https://github.com/bergie/hallo/issues/5) would bring a much more solid editing foundation to [Hallo](http://hallojs.org/), the default rich text editor used in Create.js.
+
