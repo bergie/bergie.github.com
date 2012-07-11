@@ -21,7 +21,10 @@ bodyclass: blog
     <h1 class="span8 offset1"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h1>
     <div class="span8 offset1">
       {{ post.content | truncatewords:60 | strip_html }}
-      <a href="{{ post.url }}" rel="bookmark">Read more &raquo;</a>
+      <div class="links">
+        <a href="{{ post.url }}" rel="bookmark">Read more &raquo;</a>
+        <a class="commentscount" rel="comment" href="{{ post.url }}#disqus_thread">Comments</a>
+      </div>
     </div>
     <div class="metadata span2">
       <span property="datePublished" content="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</span>

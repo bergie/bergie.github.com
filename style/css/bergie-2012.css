@@ -91,6 +91,11 @@ body.blog article h1 a {
   color: #2e3436;
 }
 
+body.blog article a.commentscount {
+  margin-left: 3em;
+  text-transform: lowercase;
+}
+
 body.blog article .metadata {
   font-weight: bold;
   font-style: italic;
