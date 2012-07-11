@@ -9,7 +9,11 @@ Those who have been following my blog have probably seen the [Hallo Editor](http
 
 Hallo.js is a simple rich text editor built as a [jQuery UI](http://jqueryui.com/) widget and utilizing the [HTML5 contentEditable](http://blog.whatwg.org/the-road-to-html-5-contenteditable) functionality for allowing in-place editing. This sort of real in-place editing differs from more traditional editors like [TinyMCE](http://www.tinymce.com/) in that the content is never detached from its place on a page, and so for instance all CSS rules apply to it. This makes the editing experience much more _true WYSIWYG_.
 
-The Hallo Editor effort was started in the [IKS Project](http://iks-project.eu/) as part of our [Create.js](http://createjs.org) effort in order to provide a permissively-licensed editor option. Create.js had originally been written with [Aloha Editor](http://aloha-editor.org/) in mind, but its licensing model made it complicated for some CMS projects to adopt. With Hallo we were able to provide an editor option that can be used anywhere, from open source projects to commercial web applications. Create.js now fully supports both of the editors.
+The Hallo Editor effort was started in the [IKS Project](http://iks-project.eu/) as part of our [Create.js](http://createjs.org) effort in order to provide a MIT-licensed editor option.
+
+Create.js had originally been written with [Aloha Editor](http://aloha-editor.org/) in mind, but its licensing model made it complicated for some CMS projects to adopt. With Hallo we were able to provide an editor option that can be used anywhere, from open source projects to commercial web applications.
+
+Create now fully supports both of the editors.
 
 ## User interface
 
@@ -61,7 +65,7 @@ To keep things concise, the editor has been written in [CoffeeScript](http://cof
 
     $ cake build
 
-Hallo 1.0.0 was released recently, and now the development focuses on some performance improvements and bug fixing. We're also watching the [Substance Surface](https://github.com/substance/surface), which may provide us a more [robust editor core](https://github.com/bergie/hallo/issues/5) in the future.
+[Hallo 1.0.0](http://hallojs.org/js/hallo.js) was released recently, and now the development focuses on some performance improvements and bug fixing. We're also watching the [Substance Surface](https://github.com/substance/surface), which may provide us a more [robust editor core](https://github.com/bergie/hallo/issues/5) in the future.
 
 This being said, there are already many projects using Hallo. See for instance the [Symfony CMF editor](http://blog.iks-project.eu/semantic-enhanced-cmf-editor-now-available/) for a nice integrated approach.
 
