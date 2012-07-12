@@ -4,6 +4,7 @@ layout: post
 location: Berlin, Germany
 categories:
   - oscom
+  - coffeescript
 ---
 Those who have been following my blog have probably seen the [Hallo Editor](http://hallojs.org/) mentioned in my Create.js posts. But for those who haven't seen it yet, here is a brief introduction.
 
