@@ -58,9 +58,9 @@ You will be joined by developers from many CMS projects, including [Midgard](htt
 
 This event is coming at an especially interesting time, given that [JSON-LD](http://json-ld.org/), the content format used by Create.js by default was recently chosen as the [web services data format](http://groups.drupal.org/node/237443) in Drupal 8.
 
-Last week the Drupal 8 team also [chose Aloha Editor](https://drupal.org/node/1580210) as the rich text editor in their interface. Given that Aloha Editor is optionally supported in Create.js, and [TYPO3 will be using](http://typo3.org/news/article/typo3-phoenix-becomes-iks-early-adaptor/) the same editor with VIE and Create.js widgets, the projects are indeed converging.
-
 Drupal has its own next-generation in-place editing project called [Spark](http://drupal.org/project/spark). We feel Spark to be very similar to the goals behind VIE and Create.js, and so would be happy to collaborate with the Drupal team on these.
+
+Last week the Spark team also [chose Aloha Editor](https://drupal.org/node/1580210) as the rich text editor in their interface. Given that Aloha Editor is optionally supported in Create.js, and [TYPO3 will be using](http://typo3.org/news/article/typo3-phoenix-becomes-iks-early-adaptor/) the same editor with VIE and Create.js widgets, the projects are indeed converging.
 
 ![I'm a speaker](/files/drupalcon_2012_speaker.png)
 
