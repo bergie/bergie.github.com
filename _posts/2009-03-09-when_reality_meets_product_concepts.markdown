@@ -4,6 +4,7 @@
     - "desktop"
     - "life"
     - "motorcycles"
+    - "bestof"
   layout: "post"
 
 ---

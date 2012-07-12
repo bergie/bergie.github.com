@@ -3,7 +3,7 @@
   categories: 
     - "motorcycles"
     - "desktop"
-    - ""
+    - "bestof"
   layout: "post"
 
 ---
