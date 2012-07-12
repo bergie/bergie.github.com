@@ -2,6 +2,7 @@
   title: "Literate programming with PHP"
   categories: 
     - "midgard"
+    - "bestof"
   layout: "post"
 
 ---
