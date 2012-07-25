@@ -60,6 +60,8 @@ An interesting new integration is [with Drupal](http://drupal.org/project/create
 
 For PHP projects interested in Create.js, the [CreatePHP](https://github.com/flack/createphp) library should make things a lot easier. In the hackathon its interfaces were clarified quite a bit, and now it powers the inline editing capabilities in both [MidCOM](http://midgard-project.org/midcom/) and [Symfony CMF](http://cmf.symfony.com/), with [TYPO3](http://typo3.org/news/article/typo3-phoenix-becomes-iks-early-adaptor/) coming soon.
 
+If you consider [my secret plan for PHP content management systems](/blog/my_secret_agenda_for_php_content_management_systems/) from last summer, there is clearly some progress.
+
 There was also work done on integrations into popular frameworks like Ruby on Rails and Django. I hope we'll hear more of these in the coming weeks.
 
 ## More visibility for Create.js and Hallo
