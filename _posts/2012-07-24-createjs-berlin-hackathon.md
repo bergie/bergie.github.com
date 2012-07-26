@@ -62,6 +62,8 @@ For PHP projects interested in Create.js, the [CreatePHP](https://github.com/fla
 
 If you consider [my secret plan for PHP content management systems](/blog/my_secret_agenda_for_php_content_management_systems/) from last summer, there is clearly some progress.
 
+![Create.js in Symfony CMF](/files/createjs-symfony-after-berlin-hackathon.png)
+
 There was also work done on integrations into popular frameworks like Ruby on Rails and Django. I hope we'll hear more of these in the coming weeks.
 
 ## More visibility for Create.js and Hallo
