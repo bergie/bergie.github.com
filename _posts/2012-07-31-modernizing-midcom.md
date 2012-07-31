@@ -4,7 +4,7 @@ location: Berlin, Germany
 layout: post
 categories:
   - midgard
-published: false
+published: true
 ---
 For those who haven't been following the [Midgard](http://midgard-project.org/)-land, there have been some interesting developments recently. The [long-term supported](http://bergie.iki.fi/blog/long-term_support_for_midgard-ragnaroek_is_here/) Ragnaroek branch of [Midgard1](http://midgard-project.org/midgard1/) is slowly fading away, and much of the recent activity has focused on making [Midgard2](http://midgard-project.org/midgard2/) available via the [PHPCR](http://midgard-project.org/phpcr/) standard, and on the new [Create.js](http://createjs.org/) inline editing tool.
 
@@ -16,7 +16,7 @@ This post focuses on the new improved state of [MidCOM](http://midgard-project.o
 
 In 2012 the obvious question might be: _why bother with MidCOM at all?_ Haven't modern PHP frameworks like [Zend](http://framework.zend.com/) and [Symfony](http://symfony.com/) already made it obsolete?
 
-Well, yes and no. MidCOM is a web framework that has been going on for quite a long time. And as such, it has organizations like Nokia, Lufthansa, and Aalto University that have big and important websites and applications running on it. And it has a lot of functionality needed for building content-oriented web services.
+Well, yes and no. MidCOM is a web framework that has been going on for quite a long time. And as such, it has organizations like Nokia and Lufthansa that have big and important websites and applications running on it. And it has a lot of functionality needed for building content-oriented web services.
 
 [An old saying](http://www.joelonsoftware.com/articles/fog0000000017.html) in the industry is that _it takes ten years to build great software_, and with MidCOM this very much holds true. While new technologies have emerged, few of them can match MidCOM when you get to details.
 
@@ -30,9 +30,11 @@ Having been [launched in 2003](http://bergie.iki.fi/blog/why-midcom-rocks/), the
 
 If you want to modernize a big framework like MidCOM, the obvious first place to start is tests. You want enough coverage that when you change something, you can be sure that it won't break something else. Otherwise the refactoring effort would be like _dancing tango on a minefield_.
 
-Flack's team has built an [extensive suite](http://travis-ci.org/#!/nemein/openpsa/builds/1684520) of PHPUnit tests for their MidCOM fork, and recently we made them run in the [Travis Continuous Integration service](http://travis-ci.org). With Travis we can easily cover not only the environments developers use, but also variants like different PHP versions. So yes, the new MidCOM supports PHP 5.4 without problems.
+Flack's team has built an [extensive suite](http://travis-ci.org/#!/flack/openpsa/) of PHPUnit tests for their MidCOM fork, and recently we made them run in the [Travis Continuous Integration service](http://travis-ci.org). With Travis we can easily cover not only the environments developers use, but also variants like different PHP versions. So yes, the new MidCOM supports PHP 5.4 without problems.
 
 Support for Midgard2 was added into MidCOM already during my exploratory [Ragnaland work](http://bergie.iki.fi/blog/ragnaland_is_coming/) back in 2009, but was never finalized then. The renewed MidCOM development efforts have now brought this to the limelight, and now MidCOM runs just as well on both Midgard1 and Midgard2.
+
+![MidCOM on Midgard2](/files/midcom-bootstrap-about.png)
 
 The migration to Midgard2 is critical, as the older Midgard generation is starting to show age, and will be EOLd next year. This will allow the Midgard community to focus on a single content repository implementation, and provides developers new powerful tools like [MidgardQuery](http://midgard-project.org/docs/api/core/ratatoskr/midgard-Midgard-Query.html).
 
@@ -64,7 +66,9 @@ The first step towards the files was taken when MidCOM 2.0 [migrated its codebas
 
 With the new MidCOM we aim to change this, and bring everything needed to bootstrap and develop and application to standard, version-controllable files. _Content remains in the Midgard2 content repository, but everything related to running code should be loaded from files._
 
-Inspired by the [Symfony Standard Edition](https://github.com/symfony/symfony-standard/) and the [CMF Sandbox](https://github.com/symfony-cmf/cmf-sandbox), we've built a new [MidCOM Project Template](https://github.com/flack/midcom-project-template) to guide developers to this new approach. The Project Template provides a simple, standardized structure for your MidCOM applications:
+Inspired by the [Symfony Standard Edition](https://github.com/symfony/symfony-standard/) and the [CMF Sandbox](https://github.com/symfony-cmf/cmf-sandbox), we've built a new [MidCOM Project Template](https://github.com/midgardproject/midcom-project-template) to guide developers to this new approach. The Project Template provides a simple, standardized structure for your MidCOM applications:
+
+![A new MidCOM project](/files/midcom-bootstrap-structure.png)
 
 * `config` for MidCOM, Midgard, and component configuration, and for the MgdSchemas
 * `src` for application-specific components
@@ -74,7 +78,7 @@ Inspired by the [Symfony Standard Edition](https://github.com/symfony/symfony-st
 
 For long-time MidCOM users, the main point here is moving component configuration from `sitegroup-config` snippets to the `config` directory, and the Midgard2 style templates to the `theme` directory.
 
-As soon as the Project Template stabilizes, you'll be able to bootstrap new MidCOM projects simply with:
+As soon as the Project Template stabilizes, you'll be able to bootstrap new MidCOM projects on the current machine simply with:
 
     $ composer create-project midgard/midcom-project-template myproject
 
@@ -90,11 +94,13 @@ I feel strongly that this is the right way to run and test applications. Instead
 
 Vagrant is essentially a wrapper on [VirtualBox](https://www.virtualbox.org/) which provides handy [command-line tools](http://vagrantup.com/v1/docs/commands.html) for creating and starting and stopping virtual machines. It also comes with a full integration with the [Puppet](http://puppetlabs.com/) configuration management system that allows us to do the full setup needed for MidCOM on the first run.
 
-The MidCOM Project Template includes a [ready-made Vagrant setup](https://github.com/flack/midcom-project-template/tree/master/setup/vagrant). You simply have to go to the `setup/vagrant` folder, and run:
+The MidCOM Project Template includes a [ready-made Vagrant setup](https://github.com/midgardproject/midcom-project-template/tree/master/setup/vagrant). You simply have to go to the `setup/vagrant` folder, and run:
 
     $ vagrant up
 
 This is a great time to get some coffee. The first Vagrant VM initialization will take quite some time, as it needs to fetch a Ubuntu image, and run all the MidCOM setup on it.
+
+![New MidCOM site](/files/midcom-bootstrap-toolbar.png)
 
 In the end of the process you will have _a fully configured MidCOM setup with Midgard2 and PHP 5.3_. Just point your browser to <http://localhost:8181> and start using it!
 
@@ -102,6 +108,34 @@ If the complexity of the Midgard CMS stack has been putting you off, _this is a 
 
 ## Building a migration path
 
+While Midgard2 has been the main focus of development at least [since 2006](http://bergie.iki.fi/blog/midgard2-is-becoming-reality/), most users of Midgard are still on version 1. Midgard2 would've been [ready to run](http://bergie.iki.fi/blog/midgard_2-finally_legacy-free/) since 2008, but as the [architectures differ](http://bergie.iki.fi/blog/how_midgard_and_midgard2_differ/) people have been reluctant to make the jump.
+
+In the [IKS Salzburg workshop](http://blog.iks-project.eu/iks-salzburg-workshop-june-2012/) last June we did some planning, and I think now we have [a reasonable migration path](http://lists.midgard-project.org/pipermail/dev/2012-June/003189.html).
+
+In nutshell the migration path requires the following actions:
+
+* Switching to Flack's MidCOM fork and making that the official version
+* Switching from PEAR to a Composer-based installation
+* Building an easy-to-setup project sandbox
+* Writing data migration scripts
+* Emulating [sitegroup](http://midgard-project.org/midgard1/#sitegroups) and [multilang APIs](http://midgard-project.org/midgard1/#multilang) with [workspaces](http://midgard-project.org/midgard2/#workspaces)
+
+As you can see from this post, a month after our initial planning session the first three steps are already completed. The other two require still work.
+
+![Asgard in the new MidCOM](/files/midcom-bootstrap-asgard.png)
+
+This means that for users still on Ragnaroek MidCOM versions, the right time to start testing the new MidCOM and its deployment model is _now_.
+
 ## Next steps
 
-_Written on a hot summer evening on the terrace of the Helion pub in Wilmersdorf, after a long workday in Kreuzberg._
+Apart from the migration path from Midgard1, there are also other things going on in the MidCOM space. We need to reduce the size of our own codebase by migrating as much as we can to run on top of common PHP libraries like Symfony Components.
+
+And more importantly, we need to make [Create.js](http://createjs.org/) the new main editing interface in order to provide a modern user experience.
+
+As you've probably seen from [Content Control's demo site](http://demo.contentcontrol-berlin.de/), MidCOM already runs quite smoothly with Create.js. So the main thing to do is to make all the main components support it, and merge our [older toolbar](http://bergie.iki.fi/blog/midgard-s-new-toolbar/) and [notifications](http://bergie.iki.fi/blog/make-your-site-growl/) with the ones from Create.js.
+
+![Create.js sorting in MidCOM](/files/midcom-createjs-sort.png)
+
+So, a lot of work to be done. But in the end we will have a faster and simpler MidCOM with a great editing tools. And it will not be an isolated island, but instead part of a [thriving PHP ecosystem](http://packagist.org/).
+
+_Originally written on a hot summer evening on the terrace of the Helion pub in Wilmersdorf, after a long workday in Kreuzberg._
