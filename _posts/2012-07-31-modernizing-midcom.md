@@ -30,7 +30,7 @@ Having been [launched in 2003](http://bergie.iki.fi/blog/why-midcom-rocks/), the
 
 If you want to modernize a big framework like MidCOM, the obvious first place to start is tests. You want enough coverage that when you change something, you can be sure that it won't break something else. Otherwise the refactoring effort would be like _dancing tango on a minefield_.
 
-Flack's team has built an [extensive suite](http://travis-ci.org/#!/flack/openpsa/) of PHPUnit tests for their MidCOM fork, and recently we made them run in the [Travis Continuous Integration service](http://travis-ci.org). With Travis we can easily cover not only the environments developers use, but also variants like different PHP versions. So yes, the new MidCOM supports PHP 5.4 without problems.
+Flack's team has built an [extensive suite](http://travis-ci.org/#!/flack/openpsa) of PHPUnit tests for their MidCOM fork, and recently we made them run in the [Travis Continuous Integration service](http://travis-ci.org). With Travis we can easily cover not only the environments developers use, but also variants like different PHP versions. So yes, the new MidCOM supports PHP 5.4 without problems.
 
 Support for Midgard2 was added into MidCOM already during my exploratory [Ragnaland work](http://bergie.iki.fi/blog/ragnaland_is_coming/) back in 2009, but was never finalized then. The renewed MidCOM development efforts have now brought this to the limelight, and now MidCOM runs just as well on both Midgard1 and Midgard2.
 
