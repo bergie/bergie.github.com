@@ -11,7 +11,7 @@ Much of this material has been gathered from old blog posts, various version con
 
 ## 1999
 
-The first Midgard website, designed by [Janne Puonti](http://puonti.net/) had a distinct Art Deco wibe to it. Back then terms like _Content Management System_ were not that established, and so at first we called Midgard an application server:
+The first Midgard website, designed by [Janne Puonti](http://puonti.net/) had a distinct Art Deco vibe to it. Back then terms like _Content Management System_ were not that established, and so at first we called Midgard an application server:
 
 [![Midgard Project in 1999](/files/midgard-visuals/midgardproject-1999-small.png)](/files/midgard-visuals/midgardproject-1999.png)
 
@@ -98,10 +98,6 @@ and bags:
 In 2004 it was time to [celebrate the fifth anniversary](http://bergie.iki.fi/blog/2004-05-05-000/) of the project, _a better web for 5 years_:
 
 ![Midgard 5th anniversary](/files/midgard-visuals/midgard-anniversary-05.jpg)
-
-This was also the time we were getting closer [to the GNOME community](http://bergie.iki.fi/blog/project_gnomegard/):
-
-![Midgard with GNOME](/files/midgard-visuals/with-2004-gnome.png)
 
 This was the first time when we produced a graphic for a particular release version, in this case [Midgard 1.6](http://lwn.net/Articles/86552/) - _power, flexibility, out of the box_:
 
