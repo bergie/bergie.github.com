@@ -160,7 +160,7 @@ As [Midgard2](http://midgard-project.org/midgard2/) would support many different
 
 ### Vali
 
-The new Midgard mascot, [Vali son of Odin](http://en.wikipedia.org/wiki/V%C3%A1li_%28son_of_Odin%29) appeared during this time. Drawn by Andreas Nilsson, Vali is the Viking that is fated to survive the Ragnaroek.
+The new Midgard mascot, [Vali son of Odin](http://en.wikipedia.org/wiki/V%C3%A1li_%28son_of_Odin%29) appeared during this time. Drawn by Andreas Nilsson and Kalle Persson, Vali is the Viking that is fated to survive the Ragnaroek.
 
 If you install and run Midgard, you'll make Vali happy:
 
