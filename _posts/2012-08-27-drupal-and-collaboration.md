@@ -12,7 +12,7 @@ Especially with DrupalCon I didn't really know what to expect. In past the commu
 
 But how would they react to [our front-end ideas](http://createjs.org/), especially given their well-advanced homegrown [Spark effort](http://drupal.org/project/spark)?
 
-To cut the long story short, I had a great time in in the event. Lots of good conversations around cross-project collaboration and various standards. There were a surprisingly large number of people I already knew from the Symfony and Linked Data circles, and the [Drupal Berlin Usergroup](http://drupalberlin.de/) folks were especially friendly.
+To cut the long story short, I had a great time in in the event. Lots of good conversations around cross-project collaboration and various standards. There were a surprisingly large number of people I already knew from the Symfony and Linked Data circles. The [Drupal Berlin Usergroup](http://drupalberlin.de/) folks were especially friendly.
 
 After [my talk](http://munich2012.drupal.org/program/sessions/decoupling-content-management) (video available already!), we ended up spending the last two days of the event porting the Spark inline editing features to [run on top of Create.js](http://github.com/wimleers/edit-createjs) with [Wim Leers](http://wimleers.com/).
 
