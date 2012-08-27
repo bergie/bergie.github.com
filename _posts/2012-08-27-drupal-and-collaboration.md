@@ -8,7 +8,7 @@ categories:
 ---
 I spent the last week in [DrupalCon Munich](http://munich2012.drupal.org/) followed by [FrOSCon](http://www.froscon.de/startseite/), and gave a talk on the [Decoupled Content Management](http://decoupledcms.org/) story in both.
 
-With DrupalCon I didn't really know what to expect. In past the community has been quite insular, a common trend among PHP projects. With Drupal 8, they're now opening up to new ideas and new code from outside the project. [Using Symfony2 components](http://symfony.com/blog/symfony2-meets-drupal-8) is a great example of this.
+With DrupalCon I didn't really know what to expect. In past the community has been quite insular, a common trend among PHP projects. As part of Drupal 8, they're now opening up to new ideas and new code from outside the project. [Using Symfony2 components](http://symfony.com/blog/symfony2-meets-drupal-8) is a great example of this.
 
 But how would they react to [our front-end ideas](http://createjs.org/), given their well-advanced homegrown [Spark effort](http://drupal.org/project/spark)?
 
