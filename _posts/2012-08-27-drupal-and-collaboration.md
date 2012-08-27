@@ -10,7 +10,7 @@ I spent the last week in [DrupalCon Munich](http://munich2012.drupal.org/) follo
 
 With DrupalCon I didn't really know what to expect. In past the community has been quite insular, a common trend among PHP projects. As part of Drupal 8, they're now opening up to new ideas and new code from outside the project. [Using Symfony2 components](http://symfony.com/blog/symfony2-meets-drupal-8) is a great example of this.
 
-But how would they react to [our front-end ideas](http://createjs.org/), given their well-advanced homegrown [Spark effort](http://drupal.org/project/spark)?
+But how would they react to [our front-end ideas](http://createjs.org/), given their well-advanced homegrown [Spark effort](http://www.sparkdrupal.com/)?
 
 To cut the long story short, I had a great time in in the event. Lots of good conversations around cross-project collaboration and various standards. There were a surprisingly large number of people I already knew from the Symfony and Linked Data circles. The [Drupal Berlin Usergroup](http://drupalberlin.de/) folks were especially friendly.
 
