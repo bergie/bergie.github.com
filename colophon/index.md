@@ -27,3 +27,16 @@ Some of the older posts have also been migrated from my other websites, like [Qa
 ## Semantics
 
 An [RSS feed](/blog/rss.xml) of the latest blog contents is available. In addition, the HTML pages are made machine-readable through [RDFa annotations](http://www.w3.org/TR/rdfa-primer/), in this case following the [schema.org](http://schema.org/) vocabularies.
+
+## Syndication
+
+Various sites syndicate either my whole blog or parts of it. These include:
+
+* [Nemein blog](http://nemein.com/en/blog/)
+* [Planet FSFe](http://planet.fsfe.org/)
+* [Planet GNOME](http://planet.gnome.org/)
+* [Planet KDE](http://planetkde.org/)
+
+![MVB](/files/mvb.png)
+
+Selected posts will also appear [on DZone](http://dzone.com/users/bergie) as part of their [Most Valuable Blogger](http://www.dzone.com/aboutmvb) program.

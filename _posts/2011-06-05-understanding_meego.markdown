@@ -6,6 +6,7 @@
     - "kde"
     - "meego"
     - "mobility"
+    - "bestof"
   layout: "post"
 
 ---

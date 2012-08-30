@@ -2,7 +2,7 @@
   title: "Quality of Life: Helsinki gets good score"
   categories: 
     - "life"
-    - ""
+    - "bestof"
   layout: "post"
 
 ---

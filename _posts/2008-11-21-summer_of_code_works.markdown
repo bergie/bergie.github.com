@@ -3,7 +3,7 @@
   categories: 
     - "desktop"
     - "mobility"
-    - ""
+    - "bestof"
   layout: "post"
 
 ---

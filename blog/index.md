@@ -10,6 +10,8 @@ The whole blog:
 
 ## Themes
 
+* [Best of the Blog](/blog/category/bestof/) ([RSS feed](/blog/category/bestof/rss.xml))
+
 Personal stuff:
 
 * [Motorcycle adventures](/blog/category/motorcycles/) ([RSS feed](/blog/category/motorcycles/rss.xml))

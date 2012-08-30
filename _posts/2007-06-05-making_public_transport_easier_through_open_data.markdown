@@ -3,7 +3,7 @@
   categories: 
     - "mobility"
     - "politics"
-    - ""
+    - "bestof"
   layout: "post"
 
 ---

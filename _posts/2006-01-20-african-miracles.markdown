@@ -2,6 +2,7 @@
   title: "African miracles"
   categories: 
     - "life"
+    - "bestof"
   layout: "post"
 
 ---

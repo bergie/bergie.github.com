@@ -3,6 +3,7 @@
   categories: 
     - "flying"
     - "motorcycles"
+    - "bestof"
   layout: "post"
 
 ---

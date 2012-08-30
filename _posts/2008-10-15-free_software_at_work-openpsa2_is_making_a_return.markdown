@@ -2,7 +2,7 @@
   title: "Free software at work: OpenPsa2 is making a return"
   categories: 
     - "openpsa"
-    - ""
+    - "bestof"
   layout: "post"
 
 ---

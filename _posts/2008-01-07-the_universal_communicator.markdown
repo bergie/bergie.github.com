@@ -2,6 +2,7 @@
   title: "The universal communicator"
   categories: 
     - "mobility"
+    - "bestof"
   layout: "post"
 
 ---

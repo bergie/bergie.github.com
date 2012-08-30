@@ -2,7 +2,7 @@
   title: "Fat Catherine: the Medieval cannon that microblogs"
   categories: 
     - "guns"
-    - ""
+    - "bestof"
   layout: "post"
 
 ---

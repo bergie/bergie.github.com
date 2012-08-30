@@ -30,5 +30,8 @@
     <footer>
       {% include footer.html %}
     </footer>
+    {% if page.bodyclass == 'blog' %}
+      {% include commentscount.html %}
+    {% endif %}
   </body>
 </html>
