@@ -20,7 +20,7 @@ bodyclass: blog
 <article vocab="http://schema.org/" about="{{ post.url }}" typeof="BlogPosting">
     <h1 class="span8 offset1"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h1>
     <div class="span8 offset1">
-      {{ post.content | truncatewords:60 | strip_html }}
+      {{ post.content | strip_html | truncatewords:60 }}
       <div class="links">
         <a href="{{ post.url }}" rel="bookmark">Read more &raquo;</a>
         <a class="commentscount" rel="comment" href="{{ post.url }}#disqus_thread">Comments</a>
