@@ -52,10 +52,12 @@ header h1 {
   margin-bottom: 1em;
   font-family: {{ page.focusfont }};
   font-size: 28pt;
+  line-height: 32pt;
 }
 
 header h1 a {
   color: #2e3436;
+  text-shadow: 0px 0px 0px #ffffff;
 }
 
 body.blog header,
@@ -70,6 +72,11 @@ body.blogcategory header div {
   background-repeat: no-repeat;
   padding-top: 175px;
   height: 125px;
+}
+
+body.blog header h1,
+body.blogcategory header h1 {
+  margin-right: 250px;
 }
 
 body.front header div {
