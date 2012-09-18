@@ -261,20 +261,20 @@ footer .avatar .switcher {
 }
 
 footer .avatar img {
-	position:absolute;
-	left:0;
+  position:absolute;
+  left:0;
   cursor:pointer;
-	-webkit-transition: opacity 1s ease-in-out;
-	-moz-transition: opacity 1s ease-in-out;
-	-o-transition: opacity 1s ease-in-out;
-	-ms-transition: opacity 1s ease-in-out;	
-	transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out; 
+  transition: opacity 1s ease-in-out;
 }
 
 footer:hover .avatar img.drawing,
 footer .avatar img.transparent {
-	opacity:0;
-}	
+  opacity:0;
+} 
 
 footer ul.nav {
   margin-left: 120px;
@@ -284,4 +284,11 @@ footer ul.nav {
 footer ul.nav li a {
   background-color: #ffffff;
   margin-right: 1em;
+}
+
+@media (max-width: 767px) {
+  body.blog article .metadata {
+    font-weight: normal;
+    text-align: right;
+  }
 }
