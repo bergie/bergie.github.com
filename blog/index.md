@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Blog archives"
+bodyClass: blog
 ---
 Welcome to [my](/about/) blog. I'll write here thoughts on free software, decoupled content management, motorcycle adventures, and everything in between.
 
