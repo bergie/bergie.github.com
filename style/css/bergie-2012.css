@@ -34,6 +34,15 @@ body.about ul {
   margin: 0px;
 }
 
+body.about .nav {
+  margin-top: 2em;
+}
+
+body.about .nav > li > a:hover {
+  background-color: transparent;
+  text-decoration-underline;
+}
+
 a {
   color: #c17d11;
 }
