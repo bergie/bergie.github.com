@@ -9,7 +9,7 @@ categories:
 ---
 <img src="/files/gjallarhorn.png" style="margin-left: 10px; float: right; width: 273px; height: 400px;" alt="Gjallarhorn" title="Heimdallr with Gjallarhorn by Lorenz Frølich, public domain" />
 
-The new stable series of the [Midgard2 Content Repository](http://midgard-project.org/midgard2/) library was [released recently](http://lists.midgard-project.org/pipermail/dev/2012-September/003202.html). This series builds on the long-term supported [Ratatoskr](http://bergie.iki.fi/blog/ratatoskr_is_out-midgard2_content_repository_goes_lts/) series, adding some new features:
+The new stable series of the [Midgard2 Content Repository](http://midgard-project.org/midgard2/) library was [released recently](http://lists.midgard-project.org/pipermail/dev/2012-September/003202.html). This version builds on the long-term supported [Ratatoskr](http://bergie.iki.fi/blog/ratatoskr_is_out-midgard2_content_repository_goes_lts/) series, adding some new features:
 
 * Asynchronous I/O operations with the content repository
 * Easier migration from the [Midgard1](http://midgard-project.org/midgard1/) series
@@ -52,4 +52,4 @@ There are two ways to use the Midgard2 content repository with PHP:
 
 For those looking for a CMS running on Midgard2, both [MidCOM](http://midgard-project.org/midcom/) and [Symfony CMF](http://cmf.symfony.com/) work with it out-of-the-box.
 
-*[Gjallarhorn](http://en.wikipedia.org/wiki/Gjallarhorn) of the Viking mythology is the horn that sounds marking Ragnaroek. With our release it signifies the callback pattern of asynchronous I/O, and the time for Midgard1 users to migrate over. The picture is public domain from [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:403px-Heimdallr_by_Froelich.jpg)*
+*[Gjallarhorn](http://en.wikipedia.org/wiki/Gjallarhorn) of the Viking mythology is the horn that sounds marking Ragnaroek. With our release it signifies the callback pattern of asynchronous I/O, and the time for Midgard1 users to migrate over. The picture is public domain from [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:403px-Heimdallr_by_Froelich.jpg).*
