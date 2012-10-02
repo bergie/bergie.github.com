@@ -18,7 +18,7 @@ Asynchronous I/O is important when the content repository is used in persistent 
 
 ## Why a content repository?
 
-From the release notes:
+From [the release notes](http://lists.midgard-project.org/pipermail/dev/2012-September/003202.html):
 
 > Midgard2 is a library which provides content storage and retrieval
 services to applications. It is essentially a higher-level access
