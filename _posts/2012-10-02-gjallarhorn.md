@@ -14,7 +14,7 @@ The new stable series of the [Midgard2 Content Repository](http://midgard-projec
 * Asynchronous I/O operations with the content repository
 * Easier migration from the [Midgard1](http://midgard-project.org/midgard1/) series
 
-Asynchronous I/O is important when the content repository is used in persistent applications like desktop software or Node.js where Midgard can be used via [node-gir](https://npmjs.org/package/gir). You can read more about async operations [in the documentation](http://midgard-project.org/midgard2/#asynchronous).
+Asynchronous I/O is important when the content repository is used in persistent applications like desktop software or Node.js, where Midgard can be used via [node-gir](https://npmjs.org/package/gir) ([see examples](https://github.com/piotras/node-gir/tree/master/tests/midgard)). You can read more about async operations [in the documentation](http://midgard-project.org/midgard2/#asynchronous).
 
 ## Why a content repository?
 
