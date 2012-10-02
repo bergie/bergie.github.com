@@ -17,9 +17,9 @@ Now, most of this is because the [tablet form factor](http://bergie.iki.fi/blog/
 
 I have [a long history with tablets](http://bergie.iki.fi/blog/meego-diaspora/), stretching from the mid-2000s Nokia Linux tablets to the iPads and the excellent, affordable [Nexus 7](http://www.google.com/nexus/#/7). This has given me a lot of time to think where they fit in my life. I've even produced quite a lot of media on the [smartphones of old](http://bergie.iki.fi/blog/with_nokia_you-re_not_just_a_consumer/).
 
-Much of my work is [programming](https://github.com/bergie), which, until ideas like like [flow-based programming](http://noflojs.org/) take off, is still mainly textual. There are developers who have [adapted their workflows](http://yieldthought.com/post/12239282034/swapped-my-macbook-for-an-ipad) to a tablet, even doing professional software development [for a year on an iPad](http://yieldthought.com/post/31857050698/ipad-linode-1-year-later).
+Much of my work is [developing software](https://github.com/bergie), which, until ideas like like [flow-based programming](http://noflojs.org/) take off, is still mainly textual. There are developers who have [adapted their workflows](http://yieldthought.com/post/12239282034/swapped-my-macbook-for-an-ipad) to a tablet, even doing professional software development [for a whole year on an iPad](http://yieldthought.com/post/31857050698/ipad-linode-1-year-later).
 
-I may follow this example when the lease of my current laptop expires, but for now the tablet is purely a leisure machine.
+I may follow this example when the lease of my [current laptop](http://bergie.iki.fi/blog/11-macbook_air-the_best_computer_i-ve_ever_had/) expires, but for now the tablet is purely a leisure machine.
 
 ## What will be the VisiCalc moment?
 
@@ -27,7 +27,7 @@ With PCs the factor that made them from simple video games and hobbyist programm
 
 > VisiCalc is one of the most important programs ever created for microcomputers. It was not only the first spreadsheet program but is also generally regarded as the first "killer app." It was the top selling program for four years, selling more than 200,000 copies in its first two years alone. Its popularity helped to drive early personal computer sales; many people bought a personal computer just to use VisiCalc.
 
-This is an important point to consider for tablets. VisiCalc made a PC something you'd want to have because it took a lot of the pain away from accounting and business estimation.
+This is an important point to consider for tablets. VisiCalc made a PC something you'd want to have because *it took a lot of the pain away* from accounting and business estimation.
 
 ## This is not a laptop
 
@@ -43,9 +43,9 @@ These mean that we also need a different class of productivity software. I'd eve
 
 ## Cultural changes
 
-Until now, text has been the dominant way of handling business communications. Touchscreens are bad for writing, and so for now the professions that have most benefitied from them have been from outside the traditional business domain: [musicians](http://www.techradar.com/news/mobile-computing/tablets/how-musicians-are-using-the-ipad-921391), [photographers](http://terrywhite.com/techblog/ipad-fits-photography-workflow/), and many others not bound to a desk, can already do some things better on a tablet than they could on a traditional computer.
+Until now, text has been the dominant way of handling business communications. Touchscreens are bad for writing, and so for now the professions that have most benefitied from them have been from outside the traditional business domain: [musicians](http://www.techradar.com/news/mobile-computing/tablets/how-musicians-are-using-the-ipad-921391), [photographers](http://terrywhite.com/techblog/ipad-fits-photography-workflow/), and many others can already do some things better on a tablet than they could on a traditional computer.
 
-But if you're dealing with text, the PC is probably still the tool for you. For now.
+*If you're dealing with text, the PC is probably still the tool for you. For now.*
 
 With tablets and smartphones becoming ubiquitous, it might not be far-fetched to imagine the business culture to change as well. Consider:
 
