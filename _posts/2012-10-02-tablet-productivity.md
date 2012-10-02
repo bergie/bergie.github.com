@@ -55,6 +55,8 @@ With tablets and smartphones becoming ubiquitous, it might not be far-fetched to
 * Bringing software and connectivity to areas outside of traditional office work
 * Replacing dedicated hardware for measurements, analysis, etc
 
+Every major shift in computing has brought its new big companies. PCs gave us Microsoft, web Google and Facebook. In the tablet space the focus has so far been on hardware and platforms, but I'm quite certain *there will be winners in the productivity software space* as well, companies that we may not have even heard of yet. Maybe your company is going to be one of them?
+
 One interesting area is _user interfaces you don't actually have to use_, using sensors and machine learning to [make software contextual](http://worrydream.com/MagicInk/), to react to the environment and needs of the user before they know them. [Google Now](http://www.google.com/landing/now/) is an interesting, but so far short step into this direction.
 
 *Previously on my blog: "[It is just a toy](http://bergie.iki.fi/blog/it-is-just-a-toy/)".*
