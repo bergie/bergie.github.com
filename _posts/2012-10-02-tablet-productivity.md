@@ -34,7 +34,7 @@ This is an important point to consider for tablets. VisiCalc made a PC something
 Some consider tablets just _bad laptops with a detachable keyboard_, a point which Microsoft [seems to agree](http://www.microsoft.com/surface/en/us/default.aspx) with to some extent. However, there are several aspects that make tablets very different from the computers we've had before:
 
 * All-screen user interfaces with multi-touch
-* Long battery life. You're no longer tethered to a desk or forced to spend your days hunting for outlets on airports
+* Long battery life. You're no longer tethered to a desk or forced to spend your days hunting for outlets at airports
 * Mobility, especially the fact that you can use them easily when standing
 * Accelerometers, compasses, GPSs, cameras, and other sensors
 * Simplicity in not needing to care about viruses and back-ups
