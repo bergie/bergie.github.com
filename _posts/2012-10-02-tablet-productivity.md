@@ -43,7 +43,7 @@ These mean that we also need a different class of productivity software. I'd eve
 
 ## Cultural changes
 
-Until now, text has been the dominant way of handling business communications. Touchscreens are bad for writing, and so for now the professions that have most benefitied from them have been from outside the traditional business domain: [musicians](http://www.techradar.com/news/mobile-computing/tablets/how-musicians-are-using-the-ipad-921391), [photographers](http://terrywhite.com/techblog/ipad-fits-photography-workflow/), and many others can already do some things better on a tablet than they could on a traditional computer.
+Until now, text has been the dominant way of handling business communications. Touchscreens are bad for writing, and so the professions that have most benefitied from them have been from outside the traditional business domain: [musicians](http://www.techradar.com/news/mobile-computing/tablets/how-musicians-are-using-the-ipad-921391), [photographers](http://terrywhite.com/techblog/ipad-fits-photography-workflow/), and many others can already do some things better on a tablet than they could on a traditional computer.
 
 *If you're dealing with text, the PC is probably still the tool for you. For now.*
 
