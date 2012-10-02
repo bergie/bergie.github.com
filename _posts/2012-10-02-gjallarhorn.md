@@ -52,4 +52,10 @@ There are two ways to use the Midgard2 content repository with PHP:
 
 For those looking for a CMS running on Midgard2, both [MidCOM](http://midgard-project.org/midcom/) and [Symfony CMF](http://cmf.symfony.com/) work with it out-of-the-box.
 
+## Getting Midgard2
+
+It will take some time before the new release trickles down to distributions like [Debian](http://packages.debian.org/search?keywords=midgard&searchon=names&suite=testing&section=all) and [Ubuntu](http://packages.ubuntu.com/search?keywords=midgard&searchon=names&suite=precise&section=all). In the meanwhile, [source tarballs](https://github.com/midgardproject/midgard-core/downloads) are available.
+
+If you have any issues getting started, feel free to contact us on the [mailing list](http://lists.midgard-project.org/mailman/listinfo/dev) or [on IRC](irc://irc.freenode.net/midgard).
+
 *[Gjallarhorn](http://en.wikipedia.org/wiki/Gjallarhorn) of the Viking mythology is the horn that sounds marking Ragnaroek. With our release it signifies the callback pattern of asynchronous I/O, and the time for Midgard1 users to migrate over. The picture is public domain from [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:403px-Heimdallr_by_Froelich.jpg).*
