@@ -19,7 +19,7 @@ I have [a long history with tablets](http://bergie.iki.fi/blog/meego-diaspora/),
 
 Much of my work is [developing software](https://github.com/bergie), which, until ideas like like [flow-based programming](http://noflojs.org/) take off, is still mainly textual. There are developers who have [adapted their workflows](http://yieldthought.com/post/12239282034/swapped-my-macbook-for-an-ipad) to a tablet, even doing professional software development [for a whole year on an iPad](http://yieldthought.com/post/31857050698/ipad-linode-1-year-later).
 
-I may follow this example when the lease of my [current laptop](http://bergie.iki.fi/blog/11-macbook_air-the_best_computer_i-ve_ever_had/) expires, but for now the tablet is purely a leisure machine.
+I may follow this example when the lease of my [current laptop](http://bergie.iki.fi/blog/11-macbook_air-the_best_computer_i-ve_ever_had/) expires, but for now the tablet is purely a leisure and testing machine.
 
 ## What will be the VisiCalc moment?
 
