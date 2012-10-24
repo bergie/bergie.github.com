@@ -9,6 +9,18 @@ categories:
 
 For a while now I've wanted a nice logo for this editor project, and now we have several proposals from people in the community. Please [write your comments](#disqus_thread) below.
 
+**Updated Oct 24th**: We have a top three, please focus your comments to these.
+
+## Top three
+
+Based on the comments we've received, it seems these three are the most popular:
+
+* Number 6 ![Hallo by Texrat](/files/hallo_logos/texrat6.png) ![Hallo by Texrat](/files/hallo_logos/texrat6a.png)
+* Number 7 ![Hallo by Salzburg Research](/files/hallo_logos/srfg1.png)
+* Number 10 ![Hallo by Salzburg Research](/files/hallo_logos/srfg4.png)
+
+## All logo proposals received
+
 1. ![Hallo by Texrat](/files/hallo_logos/texrat1.png)
 2. ![Hallo by Texrat](/files/hallo_logos/texrat2.png)
 3. ![Hallo by Texrat](/files/hallo_logos/texrat3.png)
