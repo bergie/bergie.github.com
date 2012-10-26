@@ -7,7 +7,7 @@
   layout: "post"
 
 ---
-<a href="http://www.midgard-project.org/">Midgard</a> has had quite cool <a href="http://en.wikipedia.org/wiki/GeoCMS">GeoCMS features</a> for a while now: <a href="http://bergie.iki.fi/blog/the-midgard-position.html">any objects can be positioned</a> and retrieved via position, and <a href="http://bergie.iki.fi/blog/maps_in_midgard-abstracted.html">maps are easy to display</a> anywhere. We also can use cool services like <a href="http://www.plazes.com/">Plazes</a> for automatically positioning new content created by users. 
+<a href="http://www.midgard-project.org/">Midgard</a> has had quite cool <a href="http://en.wikipedia.org/wiki/GeoCMS">GeoCMS features</a> for a while now: <a href="http://bergie.iki.fi/blog/the-midgard-position/">any objects can be positioned</a> and retrieved via position, and <a href="http://bergie.iki.fi/blog/maps_in_midgard-abstracted/">maps are easy to display</a> anywhere. We also can use cool services like <a href="http://www.plazes.com/">Plazes</a> for automatically positioning new content created by users. 
 
 However, what has been lacking has been a way to easily edit the location of an item in the CMS. This has been now fixed by the new position widget we did with <a href="http://protoblogr.net/">Jerry</a>:
 

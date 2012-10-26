@@ -10,7 +10,7 @@
 
 OpenLayers is a very nice addition to the Mapstraction stack, as it can be displayed without need for any API codes or registration. With <a href="http://wiki.openstreetmap.org/index.php/Deploying_your_own_Slippy_Map#Creating_Tiles">local OpenStreetMap tiles</a> it could even be used on web servers that are not connected to the regular internet.
 
-Some initial OpenLayers integration had been in Mapstraction for a while, but as I need to display <a href="http://www.openstreetmap.org/">OpenStreetMaps</a> with it in a project I decided to finish the implementation together with <a href="http://highearthorbit.com/">Andrew Turner</a>. It is not completely tested yet, but for example <a href="http://bergie.iki.fi/blog/position_editing_widget_for_midgard.html">Midgard's positioning widget</a> works quite nicely with it already:
+Some initial OpenLayers integration had been in Mapstraction for a while, but as I need to display <a href="http://www.openstreetmap.org/">OpenStreetMaps</a> with it in a project I decided to finish the implementation together with <a href="http://highearthorbit.com/">Andrew Turner</a>. It is not completely tested yet, but for example <a href="http://bergie.iki.fi/blog/position_editing_widget_for_midgard/">Midgard's positioning widget</a> works quite nicely with it already:
 
 <img src="/files/midgard-position-editing-openlayers-osm.jpg" height="359" width="400" border="1" hspace="4" vspace="4" alt="Midgard-Position-Editing-Openlayers-Osm" />
 

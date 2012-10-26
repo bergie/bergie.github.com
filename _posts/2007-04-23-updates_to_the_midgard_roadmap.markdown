@@ -37,7 +37,7 @@ There has been discussion on some changes to the near future roadmap of [Midgard
 [4]: http://www.midgard-project.org/documentation/mgdschema-metadata-object/
 [5]: http://www.midgard-project.org/documentation/php-midgard_collector/
 [6]: http://www.midgard-project.org/documentation/reference-oop-methods-parameter/
-[7]: http://bergie.iki.fi/blog/more_work_on_midgard-s_replication_service.html
+[7]: http://bergie.iki.fi/blog/more_work_on_midgard-s_replication_service/
 [8]: http://www.midgard-project.org/documentation/building-multilingual-sites-with-midcom/
 [9]: http://www.midgard-project.org/documentation/midcom-services-indexer-installation/
 [10]: http://maetl.coretxt.net.nz/datetime-in-php

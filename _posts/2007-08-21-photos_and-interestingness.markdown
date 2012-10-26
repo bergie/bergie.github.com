@@ -6,7 +6,7 @@
   layout: "post"
 
 ---
-I've been working on <a href="http://bergie.iki.fi/blog/calculating_news_item_relevance.html">determining relevancy of news items</a> recently. Something similar can be done to photos using the various metrics <a href="http://www.flickr.com/">Flickr</a> provides for <a href="http://flickr.com/explore/interesting/">interestingness</a>, and not surprisingly, there is a service that enables you to do exactly this: <a href="http://www.dopiaza.org/flickr/setmgr/">Dopiaza's Flickr Set Manager</a>.
+I've been working on <a href="http://bergie.iki.fi/blog/calculating_news_item_relevance/">determining relevancy of news items</a> recently. Something similar can be done to photos using the various metrics <a href="http://www.flickr.com/">Flickr</a> provides for <a href="http://flickr.com/explore/interesting/">interestingness</a>, and not surprisingly, there is a service that enables you to do exactly this: <a href="http://www.dopiaza.org/flickr/setmgr/">Dopiaza's Flickr Set Manager</a>.
 
 I used the tool to generate a <a href="http://www.flickr.com/photos/bergie/sets/72157601512952655/">set of my most interesting pictures</a>, but also a <a href="http://www.flickr.com/photos/bergie/sets/72157601507591464/">set of the least interesting</a>. Usually a "top" list perpetuates the interestingness of the items, and I'm eager to find out whether the least interesting pictures are affected the same way.
 

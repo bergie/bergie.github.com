@@ -7,7 +7,7 @@
   layout: "post"
 
 ---
-<a href="http://en.wikipedia.org/wiki/Public_transport">Public transport</a> is efficient, cheap and <a href="http://www.treehugger.com/files/2005/07/how_to_green_yo.php">quite green</a>, which is why I've been very happy about new services hitting Helsinki Public Transport, like <a href="http://bergie.iki.fi/blog/helsinki-to-provide-wifi-hotspots-in-public-transportation.html">WiFi connectivity</a>, and of the fact that nowadays it is possibly to wait for Espooi buses comfortably <a href="http://www.kampinkeskus.fi/english/terminals/map.html">inside and underground</a>. However, having used public transport in dozens of cities and countries, I'd say the biggest hindrance to adoption is the difficulty of making connections between transport options.
+<a href="http://en.wikipedia.org/wiki/Public_transport">Public transport</a> is efficient, cheap and <a href="http://www.treehugger.com/files/2005/07/how_to_green_yo.php">quite green</a>, which is why I've been very happy about new services hitting Helsinki Public Transport, like <a href="http://bergie.iki.fi/blog/helsinki-to-provide-wifi-hotspots-in-public-transportation/">WiFi connectivity</a>, and of the fact that nowadays it is possibly to wait for Espooi buses comfortably <a href="http://www.kampinkeskus.fi/english/terminals/map.html">inside and underground</a>. However, having used public transport in dozens of cities and countries, I'd say the biggest hindrance to adoption is the difficulty of making connections between transport options.
 
 In the Helsinki area we have the excellent <a href="http://aikataulut.ytv.fi/reittiopas/en/">YTV route planner</a>:
 

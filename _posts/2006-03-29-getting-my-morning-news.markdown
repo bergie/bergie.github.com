@@ -29,7 +29,7 @@ If these two issues would be resolved, I would have a quite perfect news-reading
 
 [1]: http://ranchero.com/netnewswire/
 [2]: http://www.bloglines.com/
-[3]: http://bergie.iki.fi/blog/first-day-with-nokia-770.html
+[3]: http://bergie.iki.fi/blog/first-day-with-nokia-770/
 [4]: http://www.bloglines.com/public/henribergius
 [5]: http://www.opml.org/
 [6]: http://del.icio.us/bergie

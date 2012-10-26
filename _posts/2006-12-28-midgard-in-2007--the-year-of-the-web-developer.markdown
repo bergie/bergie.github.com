@@ -63,7 +63,7 @@ The [Midgard developer meeting][1] in Sweden on January 19th - 21st will provide
 [18]: http://www.openpsa.org/version2/documentation/funambol-syncml-setup/
 [19]: http://www.midgard-project.org/documentation/midcom/
 [20]: http://www.georss.org/blog/?p=44
-[21]: http://bergie.iki.fi/blog/happy-new-year--and-a-look-back-at-2005.html
+[21]: http://bergie.iki.fi/blog/happy-new-year--and-a-look-back-at-2005/
 [22]: http://www.midgard-project.org/documentation/microformat-usage-in-midcom/
 [23]: http://desdeamericaconamor.org/blog/node/309
 [24]: http://en.wikipedia.org/wiki/Saint_Petersburg

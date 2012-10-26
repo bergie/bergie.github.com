@@ -22,6 +22,6 @@ history|awk '{print $2}'|awk 'BEGIN {FS=&quot;|&quot;} {print $1}'|sort|uniq -c 
   12 ~/ajatus_ssh_replicate
   12 scp
 </pre><p>
-Interesting to see how the <a href="http://bergie.iki.fi/blog/top-ten-unix-shell-commands.html">stats have changed in one and half years</a>. Main changes are due to <a href="http://www.ajatus.info/">Ajatus</a> <a href="http://bergie.iki.fi/blog/replicating_ajatus_with_your_colleagues.html">replication</a>, and <a href="http://repo.or.cz/w/midcom.git">git</a> being used for <a href="http://bergie.iki.fi/blog/midcom_3_at_a_glance.html">MidCOM 3 development</a>.
+Interesting to see how the <a href="http://bergie.iki.fi/blog/top-ten-unix-shell-commands/">stats have changed in one and half years</a>. Main changes are due to <a href="http://www.ajatus.info/">Ajatus</a> <a href="http://bergie.iki.fi/blog/replicating_ajatus_with_your_colleagues/">replication</a>, and <a href="http://repo.or.cz/w/midcom.git">git</a> being used for <a href="http://bergie.iki.fi/blog/midcom_3_at_a_glance/">MidCOM 3 development</a>.
 </p>
 <p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/history">history</a>, <a href="http://www.technorati.com/tag/shell">shell</a>, <a href="http://www.technorati.com/tag/unix">unix</a></p>

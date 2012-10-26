@@ -31,7 +31,7 @@ Will be interesting to see what happens. There are lots of promising communities
 In any case, I [had a good time with OSCOM][10]. It is a shame to see its demise.
 
 [1]: http://www.oscom.org/
-[2]: http://bergie.iki.fi/blog/the-doubtful-future-of-oscom.html
+[2]: http://bergie.iki.fi/blog/the-doubtful-future-of-oscom/
 [3]: http://contenthere.blogspot.com/2006/09/sandro-groganz-steps-down-from-oscom.html
 [4]: http://www.oscom.org/get-involved/organization/
 [5]: http://www.aiim.org/

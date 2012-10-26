@@ -18,16 +18,16 @@ As [WiFi is becoming more ubiquitous][22] there definitely is demand for small a
 
 [1]: http://www.linuxdevices.com/news/NS9981902594.html
 [2]: http://maemo.org/
-[3]: http://bergie.iki.fi/blog/first-day-with-nokia-770.html
+[3]: http://bergie.iki.fi/blog/first-day-with-nokia-770/
 [4]: http://www.compusa.com/
 [5]: http://www.nokia.com/n800
 [6]: http://www.engadget.com/2007/01/05/nokia-n800-internet-tablet-unboxed/
 [7]: http://mikecane.wordpress.com/2007/01/04/nokia-770-plumbs-new-depths-of-shit/
-[8]: http://bergie.iki.fi/blog/switching-to-intel-macbook.html
-[9]: http://bergie.iki.fi/blog/watching-movies-on-the-nokia-770.html
-[10]: http://bergie.iki.fi/blog/slight-pause-in-development.html
+[8]: http://bergie.iki.fi/blog/switching-to-intel-macbook/
+[9]: http://bergie.iki.fi/blog/watching-movies-on-the-nokia-770/
+[10]: http://bergie.iki.fi/blog/slight-pause-in-development/
 [11]: http://www.deathmonkey.org/
-[12]: http://bergie.iki.fi/blog/the-real-hitchhiker-s-guide-to-the-galaxy.html
+[12]: http://bergie.iki.fi/blog/the-real-hitchhiker-s-guide-to-the-galaxy/
 [13]: http://en.wikipedia.org/wiki/Main_Page
 [14]: http://live.gnome.org/GeoClue
 [15]: http://maemo-hackers.org/wiki/MaemoBlog
@@ -37,7 +37,7 @@ As [WiFi is becoming more ubiquitous][22] there definitely is demand for small a
 [19]: http://thoughtfix.blogspot.com/2007/01/critical-question-answered-yes-n800-is.html
 [20]: http://www.nemein.com/people/piotras/
 [21]: http://www.midgard-project.org/
-[22]: http://bergie.iki.fi/blog/helsinki-to-provide-wifi-hotspots-in-public-transportation.html
+[22]: http://bergie.iki.fi/blog/helsinki-to-provide-wifi-hotspots-in-public-transportation/
 [23]: http://test.maemo.org/applications/
 [24]: http://www.linuxdevices.com/articles/AT5858395674.html
 [25]: http://www.georss.org/blog/?p=44

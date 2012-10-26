@@ -24,7 +24,7 @@ In summers I commute [by motorbike][4], but that has nothing to do with ecology 
 
 [1]: http://www.protie.fi/en/
 [2]: http://www.kaktus.cc/weblog/why-do-i-prefer-sitting-in-a-bus-to-driving-a-car.html
-[3]: http://bergie.iki.fi/blog/bad_taxi_day.html
+[3]: http://bergie.iki.fi/blog/bad_taxi_day/
 [4]: http://www.routamc.org/bikes/triumph-legend.html
 [5]: http://www.ketchum.org/ls101.html
 [6]: http://www.kaktus.cc/

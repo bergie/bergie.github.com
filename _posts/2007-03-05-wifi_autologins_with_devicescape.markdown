@@ -15,12 +15,12 @@ While I'm not entirely happy about [giving my passwords][5] to an external servi
 
 FON and [Sonera HomeRun][7], two of the three WiFi networks requiring web login that I use frequently are supported by Devicescape. Now if they could add support for the free [City of Helsinki WiFi][8]...
 
-[1]: http://bergie.iki.fi/blog/maemo_plazer_released.html
+[1]: http://bergie.iki.fi/blog/maemo_plazer_released/
 [2]: http://www.linuxdevices.com/news/NS4622554621.html
 [3]: http://www.devicescape.com/download/
 [4]: http://www.wi-fi.org/
 [5]: http://www.devicescape.com/learnmore/started.php
-[6]: http://bergie.iki.fi/blog/fon-for-free-in-finland.html
+[6]: http://bergie.iki.fi/blog/fon-for-free-in-finland/
 [7]: http://www.homerun.telia.com/eng/start/
 [8]: http://www.hel.fi/wps/portal/Helsinki_en/Artikkeli?WCM_GLOBAL_CONTEXT=/en/Helsinki/City+government/City+administration+and+economy/Transactions/WLAN
 [9]: http://english.martinvarsavsky.net/fon/fon-improves-wifi-log-on-.html

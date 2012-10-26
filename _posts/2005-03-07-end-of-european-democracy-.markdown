@@ -8,7 +8,7 @@
 <p>
 Against the <a href="http://swpat.ffii.org/papers/europarl0309/cons0401/tab/index.en.html">decision of European Parliament</a>, the EU Council <a href="http://www.vnunet.com/news/1161751">has approved</a> the <a href="http://swpat.ffii.org/index.en.html">software patent</a> directive against <a href="http://wiki.ffii.org/Cons050307En">its own rules</a>.
 </p><p>
-This was a clear example of how <a href="http://www.vnunet.com/news/1160192">big business</a> lobbies can thwart the democratic process, in this case <a href="http://bergie.iki.fi/blog/eu_agriculture_ministers_threaten_again_with_software_patents.html">threatening</a> local IT innovation and opening the door to ridiculous US-style intellectual property lawsuits.
+This was a clear example of how <a href="http://www.vnunet.com/news/1160192">big business</a> lobbies can thwart the democratic process, in this case <a href="http://bergie.iki.fi/blog/eu_agriculture_ministers_threaten_again_with_software_patents/">threatening</a> local IT innovation and opening the door to ridiculous US-style intellectual property lawsuits.
 </p><p>
 This is a sad day for the European economic sphere, the IT industry, and the <a href="http://www.opensource.org/">Open Source</a> movement. <a href="http://www.lessig.org/blog/archives/002774.shtml">Lessig comments</a>:</p>
 

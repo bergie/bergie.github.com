@@ -7,7 +7,7 @@
 
 ---
 <p>
-<a href="http://www.midgard-project.org/documentation/midcom">MidCOM</a> is a PHP <a href="http://en.wikipedia.org/wiki/Model-view-controller">MVC</a> framework where you <a href="http://www.midgard-project.org/documentation/howto-midcom/">create a site</a> by building a tree structure and assigning components for the various folders. Each component is <a href="http://bergie.iki.fi/blog/midcom_3_at_a_glance.html">its own PHP application</a> that can handle all URL requests under that folder using a set of configured routes.
+<a href="http://www.midgard-project.org/documentation/midcom">MidCOM</a> is a PHP <a href="http://en.wikipedia.org/wiki/Model-view-controller">MVC</a> framework where you <a href="http://www.midgard-project.org/documentation/howto-midcom/">create a site</a> by building a tree structure and assigning components for the various folders. Each component is <a href="http://bergie.iki.fi/blog/midcom_3_at_a_glance/">its own PHP application</a> that can handle all URL requests under that folder using a set of configured routes.
 </p><p>
 In addition to making normal requests to the various routes available, routes provided by other folders can be <a href="http://www.midgard-project.org/documentation/midcom-method-dynamic_load/">loaded dynamically</a> anywhere on the site. This is useful for instance for loading five latest news items to front page.
 </p><p>

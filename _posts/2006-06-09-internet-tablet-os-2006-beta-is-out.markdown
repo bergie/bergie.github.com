@@ -18,7 +18,7 @@ The [OS X flashing instructions][5] work too, though the software needed for the
 __Updated 2006-06-12:__ Jeff Waugh [said it well][8]: Nokia 770 is ready for the enterprise.
 
 [1]: http://www.maemo.org/downloads/nokia_770
-[2]: http://bergie.iki.fi/blog/first-day-with-nokia-770.html
+[2]: http://bergie.iki.fi/blog/first-day-with-nokia-770/
 [3]: http://maemo.org/nokia/os2006_featurenote.html
 [4]: http://www.tigert.com/
 [5]: http://maemo.org/maemowiki/HOWTO_FlashLatestNokiaImageWithMacOSX

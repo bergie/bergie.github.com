@@ -39,7 +39,7 @@ Registering the name of schema used by component is optional, and so far only th
 [2]: http://www.midgard-project.org/documentation/midcom-2-5-datamanager-rewrite-requirements/
 [3]: http://www.midgard-project.org/documentation/midcom-2-5-datamanager-rewrite-schema-definition/
 [4]: http://www.midgard-project.org/documentation/page-management-with-midcom/
-[5]: http://bergie.iki.fi/blog/changing-schemas-on-the-fly.html
+[5]: http://bergie.iki.fi/blog/changing-schemas-on-the-fly/
 [6]: http://www.37signals.com/svn/archives2/case_study_reusing_styles_with_a_body_class.php
 [7]: http://www.midgard-project.org/documentation/concepts-midcom-specs-subsystems-style-engine/
 [8]: http://www.midgard-project.org/api-docs/midcom/dev/midcom/midcom_application.html#substyle_append

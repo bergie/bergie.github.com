@@ -22,7 +22,7 @@ __Updated 2006-11-15:__ My talk [has been rescheduled][8] to 3pm.
 [1]: http://en.wikipedia.org/wiki/Foz_do_Igua%C3%A7u
 [2]: http://www.latinoware.org/modules/news/
 [3]: http://www.digital-ecosystem.org/
-[4]: http://bergie.iki.fi/blog/digital-business-ecosystem-in-fisl.html
+[4]: http://bergie.iki.fi/blog/digital-business-ecosystem-in-fisl/
 [5]: http://test.maemo.org/applications/6b25daa80465b7a4077e446ba053d548/
 [6]: http://maemo.org/maemowiki/ApplicationCatalog2006
 [7]: https://stage.maemo.org/svn/maemo/projects/haf/trunk/osso-application-installer/doc/repository.txt

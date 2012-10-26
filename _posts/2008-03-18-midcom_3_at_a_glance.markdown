@@ -173,7 +173,7 @@ Everybody interested in MidCOM 3 is welcome to install a [Midgard 1.9 nightly][1
 
 [1]: http://www.ietf.org/internet-drafts/draft-gregorio-uritemplate-02.txt
 [2]: http://www.djangoproject.com/documentation/overview/
-[3]: http://bergie.iki.fi/blog/some_plans_for_midcom_3.html
+[3]: http://bergie.iki.fi/blog/some_plans_for_midcom_3/
 [4]: http://www.midgard-project.org/
 [5]: http://www.midgard-project.org/documentation/midcom
 [6]: http://www.midgard-project.org/documentation/concepts-midcom-specs-architecture-namespacing/
@@ -188,6 +188,6 @@ Everybody interested in MidCOM 3 is welcome to install a [Midgard 1.9 nightly][1
 [15]: http://www.midgard-project.org/nightly/
 [16]: http://repo.or.cz/w/midcom.git
 [17]: http://repo.or.cz/w/midcom.git?a=blob_plain;f=midcom_core/documentation/usage.txt;hb=HEAD
-[18]: http://bergie.iki.fi/blog/building_a_new_admin_interface_for_midgard.html
+[18]: http://bergie.iki.fi/blog/building_a_new_admin_interface_for_midgard/
 [19]: http://bergie.iki.fi/blog/
 [20]: http://repo.or.cz/w/midcom.git?a=tree;f=midcom_core/documentation;h=ed16da4a61d1b2bb775690a6fd198b61d27f673b;hb=HEAD

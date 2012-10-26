@@ -52,9 +52,9 @@ The new MWS editions are edited collaboratively to make the editing burden easie
 [7]: http://jaakko.psa2.fi/blog/
 [8]: http://www.ftc.fi/
 [9]: http://www.ftc.fi/ajankohtaista/view/ftc-n-henkilostomaara-kasvaa.html
-[10]: http://bergie.iki.fi/blog/jukka_back_from_hiatus__jcr_for_midgard.html
+[10]: http://bergie.iki.fi/blog/jukka_back_from_hiatus__jcr_for_midgard/
 [11]: http://www.nemein.com/people/piotras/view/1174377090.html
 [12]: http://www.mono-project.com/Main_Page
-[13]: http://bergie.iki.fi/blog/midgard_and_the_finnish_parliamentary_election.html
-[14]: http://bergie.iki.fi/blog/resource-bookings-with-midgard.html
+[13]: http://bergie.iki.fi/blog/midgard_and_the_finnish_parliamentary_election/
+[14]: http://bergie.iki.fi/blog/resource-bookings-with-midgard/
 [15]: http://pear.midcom-project.org/index.php?package=net_nemein_reservations&release=1.0.0&downloads

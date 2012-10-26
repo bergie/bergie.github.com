@@ -25,7 +25,7 @@ To add touristic capabilities to this feature I created a <a href="http://www.ne
 <img src="/files/maemomapper-wikipedia-poi-detail.jpg" height="240" width="400" border="1" hspace="4" vspace="4" alt="Maemomapper-Wikipedia-Poi-Detail" />
 
 
-Another step closer to the <a href="http://bergie.iki.fi/blog/the-real-hitchhiker-s-guide-to-the-galaxy.html">real-world Hitchhiker's Guide to the Galaxy</a>...
+Another step closer to the <a href="http://bergie.iki.fi/blog/the-real-hitchhiker-s-guide-to-the-galaxy/">real-world Hitchhiker's Guide to the Galaxy</a>...
 
 <strong>Updated 14:33:</strong> Switched the <a href="http://wiki.openstreetmap.org/index.php/Component_overview#Tiles_and_tile_rendering">OpenStreetMap tile source</a> from Osmarender to Mapnik since the maps look nicer this way. I think it is also appropriate to note that OpenStreetMap <a href="http://www.dankarran.com/blog/archives/2007/03/14/google_maps_vs_openstreetmap.php">can already produce better maps</a> for some places than Google Maps does.
 

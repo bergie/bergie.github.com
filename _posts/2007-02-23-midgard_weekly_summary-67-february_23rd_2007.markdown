@@ -42,7 +42,7 @@ Places to see Midgard in Action:
 * <http://www.vti.fi/en/>
 * <http://protoblogr.net/>
 
-[1]: http://bergie.iki.fi/blog/for_a_collaborative_mws.html
+[1]: http://bergie.iki.fi/blog/for_a_collaborative_mws/
 [2]: http://del.icio.us/tag/midgardweeklysummary
 [3]: http://www.flickr.com/photos/tags/midgardweeklysummary
 [4]: http://www.linkedin.com/pub/1/a17/5b3
@@ -52,7 +52,7 @@ Places to see Midgard in Action:
 [8]: http://downloads.maemo.org/product/maemo-blog/
 [9]: http://europe.nokia.com/phones/n800
 [10]: http://en.wikipedia.org/wiki/Hungarian_language
-[11]: http://bergie.iki.fi/blog/midgard_and_flickr.html
+[11]: http://bergie.iki.fi/blog/midgard_and_flickr/
 [12]: http://www.flickr.com/
 [13]: http://www.nokia.com/lifeblog
 [14]: http://2007.oscms-summit.org/node/181

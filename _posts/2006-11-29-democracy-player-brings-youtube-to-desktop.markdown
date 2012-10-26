@@ -22,5 +22,5 @@ __Updated:__ Lifehacker has a [nice short review on Democracy Player][5].
 [1]: http://www.getdemocracy.com/
 [2]: http://www.getdemocracy.com/help/feeds.php
 [3]: http://en.wikipedia.org/wiki/Haidong_Gumdo
-[4]: http://bergie.iki.fi/blog/watching-movies-on-the-nokia-770.html
+[4]: http://bergie.iki.fi/blog/watching-movies-on-the-nokia-770/
 [5]: http://lifehacker.com/software/bittorrent/hack-attack-get-your-tv-season-pass-with-democracy-204057.php

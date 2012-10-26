@@ -45,4 +45,4 @@ The new MWS editions are edited collaboratively to make the editing burden easie
 [6]: http://maemo.org/
 [7]: http://www.nokiausa.com/internettablet
 [8]: http://www.nemein.com/people/piotras/view/1178275038.html
-[9]: http://bergie.iki.fi/blog/building_a_new_admin_interface_for_midgard.html
+[9]: http://bergie.iki.fi/blog/building_a_new_admin_interface_for_midgard/

@@ -8,7 +8,7 @@
 ---
 It is time to move and I'm packing my things. I loved the "<a href="http://bergie.iki.fi/moblog/photo/6a69df2ea6a911db88d7aba5a20d8ebf8ebf/">little family</a>" we ran for a while, the view we had <a href="http://www.flickr.com/photos/bergie/231692206/">over the roofs of Helsinki</a>, and living in close proximity of some of my friends that enabled shared sauna evenings. 
 
-However, the <a href="http://bergie.iki.fi/blog/new_apartment.html">Five Corners apartment</a> was part of a relationship, and together with it, <a href="http://bergie.jaiku.com/presence/2685576">it must go</a>. I really wonder where all the stuff has come from, though.
+However, the <a href="http://bergie.iki.fi/blog/new_apartment/">Five Corners apartment</a> was part of a relationship, and together with it, <a href="http://bergie.jaiku.com/presence/2685576">it must go</a>. I really wonder where all the stuff has come from, though.
 
 
 <img src="/files/packing_five_corners_away.jpg" height="300" width="400" border="1" hspace="4" vspace="4" alt="Packing Five Corners Away" /><span style="font-size:0pt;">

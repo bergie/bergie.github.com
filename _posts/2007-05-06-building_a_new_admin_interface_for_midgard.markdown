@@ -5,7 +5,7 @@
   layout: "post"
 
 ---
-We had a 19-hour hacking session last Friday with <a href="http://www.kaktus.cc/">Arttu</a>, <a href="http://www.nemein.com/people/rambo/">Rambo</a> and <a href="http://protoblogr.net/">Jerry</a> to build new "general <a href="http://www.midgard-project.org/documentation/midgard-administration-interfaces/">Midgard admin UI</a>" targeted at replacing <a href="http://www.midgard-project.org/documentation/aegir">Aegir</a> and <a href="http://www.midgard-project.org/development/projects/spider/">Spider Admin</a> with something that follows both <a href="http://www.midgard-project.org/documentation/mgdschema/">MgdSchema</a> and <a href="http://www.midgard-project.org/documentation/midcom-dba/">MidCOM DBA</a> rules and APIs, and so is compatible with <a href="http://bergie.iki.fi/blog/midgard-2-time.html">Midgard 2</a>.
+We had a 19-hour hacking session last Friday with <a href="http://www.kaktus.cc/">Arttu</a>, <a href="http://www.nemein.com/people/rambo/">Rambo</a> and <a href="http://protoblogr.net/">Jerry</a> to build new "general <a href="http://www.midgard-project.org/documentation/midgard-administration-interfaces/">Midgard admin UI</a>" targeted at replacing <a href="http://www.midgard-project.org/documentation/aegir">Aegir</a> and <a href="http://www.midgard-project.org/development/projects/spider/">Spider Admin</a> with something that follows both <a href="http://www.midgard-project.org/documentation/mgdschema/">MgdSchema</a> and <a href="http://www.midgard-project.org/documentation/midcom-dba/">MidCOM DBA</a> rules and APIs, and so is compatible with <a href="http://bergie.iki.fi/blog/midgard-2-time/">Midgard 2</a>.
 
 Now it can:
 

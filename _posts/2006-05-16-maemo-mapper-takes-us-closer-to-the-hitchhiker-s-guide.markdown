@@ -27,7 +27,7 @@ It remains to be seen is whether Nokia and their [newfound partner][13] Google w
 
 __Updated 18:07Z:__ On a second thought, [we][14] might be willing to sponsor Plazes integration to Nokia 770 (and Maemo Mapper) a bit. If somebody is interested in working on that, please [contact me][15].
 
-[1]: http://bergie.iki.fi/blog/the-real-hitchhiker-s-guide-to-the-galaxy.html
+[1]: http://bergie.iki.fi/blog/the-real-hitchhiker-s-guide-to-the-galaxy/
 [2]: http://www.nokia.com/770
 [3]: http://press.nokia.com/PR/200605/1051308_5.html
 [4]: http://gnuite.com:8080/nokia770/maemo-mapper/
@@ -36,7 +36,7 @@ __Updated 18:07Z:__ On a second thought, [we][14] might be willing to sponsor Pl
 [7]: http://beta.plazes.com/api/plazes/
 [8]: http://en.wikipedia.org/wiki/GPS
 [9]: http://www.placeopedia.com/data/
-[10]: http://bergie.iki.fi/blog/maemo-and-free-software-innovation.html
+[10]: http://bergie.iki.fi/blog/maemo-and-free-software-innovation/
 [11]: http://en.wikipedia.org/wiki/Wikipedia:Copyrights
 [12]: http://www.maemo.org/
 [13]: http://www.internettablettalk.com/content/view/175/2

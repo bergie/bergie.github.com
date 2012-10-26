@@ -27,10 +27,10 @@ Focus areas today were:
 Thanks to everybody involved!
 
 [1]: http://www.plazes.com/plazes/61207:ingels
-[2]: http://bergie.iki.fi/blog/join_the_midcom_performance_sprint_on_august_30th.html
+[2]: http://bergie.iki.fi/blog/join_the_midcom_performance_sprint_on_august_30th/
 [3]: http://bergie.jaiku.com/presence/10604235
 [4]: http://trac.midgard-project.org/timeline?from=08%2F30%2F07&#38;daysback=1&#38;changeset=on&#38;update=Update
-[5]: http://bergie.iki.fi/blog/optimizing-the-latest-midcom.html
+[5]: http://bergie.iki.fi/blog/optimizing-the-latest-midcom/
 [6]: http://trac.midgard-project.org/changeset/11843
 [7]: http://www.midgard-project.org/documentation/midgardquerybuilder/
 [8]: http://www.midgard-project.org/documentation/php-midgard_collector/

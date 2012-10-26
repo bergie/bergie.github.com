@@ -35,7 +35,7 @@ If content is revealed only on city level, it could be converted back to coordin
 
 This would probably work better in this concept than the GeoURL-style [ICBM][7] tag that is limited to only coordinate information.
 
-[1]: http://bergie.iki.fi/blog/adding_location_awareness_to_blogs.html
+[1]: http://bergie.iki.fi/blog/adding_location_awareness_to_blogs/
 [2]: http://drbacchus.com/wordpress/?p=950
 [3]: http://geourl.org/
 [4]: http://www.midgard-project.org/midcom-permalink-c25d278a232a61cc6218d726215916e4

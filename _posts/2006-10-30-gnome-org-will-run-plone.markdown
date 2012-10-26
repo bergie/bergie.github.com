@@ -20,7 +20,7 @@ From what I've seen, Plone is a quite nice system. But the big question is wheth
 In any case, while I'm a bit disappointed on the decision, I will watch the deployment project with interest. Especially the concept of using PO files for site content localization is something that could be worthwhile to implement if the process actually works as well as the GNOME i18n guys claim.
 
 [1]: http://www.gnome.org/
-[2]: http://bergie.iki.fi/blog/help-gnome-choose-its-cms.html
+[2]: http://bergie.iki.fi/blog/help-gnome-choose-its-cms/
 [3]: http://drupal.org/
 [4]: http://ez.no/
 [5]: http://plone.org/

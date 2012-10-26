@@ -18,7 +18,7 @@ I've been considering it for a while, and now decided to join the organization [
 [1]: http://www.fsfeurope.org/
 [2]: http://www.fsfe.org/en/fellows/greve/freedom_bits
 [3]: http://fisl.softwarelivre.org/7.0/
-[4]: http://bergie.iki.fi/blog/no-to-european-software-patents.html
+[4]: http://bergie.iki.fi/blog/no-to-european-software-patents/
 [5]: http://en.wikipedia.org/wiki/European_Union
 [6]: http://www.fsfe.org/en
 [7]: http://sandro.groganz.com/weblog/fellow_of_free_software_foundation_europe

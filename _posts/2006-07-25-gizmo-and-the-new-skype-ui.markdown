@@ -16,7 +16,7 @@ In the meanwhile, I could wonder why the VoIP vendors want to stick [instant mes
 
 __Updated 2006-07-26:__ ThoughtFix has a [quite favorable Gizmo-on-770 review][10]. Sounds promising.
 
-[1]: http://bergie.iki.fi/blog/more-on-secure-instant-messaging.html
+[1]: http://bergie.iki.fi/blog/more-on-secure-instant-messaging/
 [2]: http://www.gizmoproject.com/
 [3]: http://en.wikipedia.org/wiki/Session_Initiation_Protocol
 [4]: http://www.gizmoproject.com/learnmore-nokia770.html

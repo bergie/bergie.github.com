@@ -16,7 +16,7 @@ So no wonder over the course of the meeting we saw the maemo application manager
 </p><p>
 <a href="/files/os2008_n800_midgard2_installed_piotras-1.jpg"><img src="/files/os2008_n800_midgard2_installed_piotras-1-tm.jpg" height="300" width="400" border="1" hspace="4" vspace="4" alt="Midgard 2.0 installed on N800 running OS2008" title="Midgard 2.0 installed on N800 running OS2008" /></a>
 </p><p>
-Expect some announcement about that soon. And about some other things, like <a href="http://bergie.iki.fi/blog/some_plans_for_midcom_3.html">MidCOM 3</a> as well. Initially it <a href="http://bergie.jaiku.com/presence/26331259">looks very promising</a>.<span style="font-size:10pt;">
+Expect some announcement about that soon. And about some other things, like <a href="http://bergie.iki.fi/blog/some_plans_for_midcom_3/">MidCOM 3</a> as well. Initially it <a href="http://bergie.jaiku.com/presence/26331259">looks very promising</a>.<span style="font-size:10pt;">
 <br /></span>
 </p><p style="text-align:right;">
 <span style="font-size:10pt;">

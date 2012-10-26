@@ -27,5 +27,5 @@ It is of course only the first step. When finally I upgrade my local development
 [3]: http://www.openpsa.org/version2/openpsa/contacts.html
 [4]: http://www.georss.org/
 [5]: http://geourl.org/add.html
-[6]: http://bergie.iki.fi/blog/midcom-on-php5--finally.html
+[6]: http://bergie.iki.fi/blog/midcom-on-php5--finally/
 [7]: http://allinthehead.com/hkit

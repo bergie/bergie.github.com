@@ -22,6 +22,6 @@ __Updated 2006-11-08:__ I have to agree with Phil that Mr. Pajunen's behavior [i
 [2]: http://www.hel.fi/wps/portal/Helsinki_en/Artikkeli?WCM_GLOBAL_CONTEXT=/en/Helsinki/City+government/Mayors/Lord+Mayor+Jussi+Pajunen
 [3]: http://www.finavia.fi/airport_helsinki-malmi
 [4]: http://www.hs.fi/kaupunki/artikkeli/KHO+Pajunen+oli+esteellinen+p%C3%A4%C3%A4tt%C3%A4m%C3%A4%C3%A4n+Malmin+lentokent%C3%A4st%C3%A4/1135222827665?ref=rss
-[5]: http://bergie.iki.fi/blog/historical_helsinki-malmi_airport_threatened.html
+[5]: http://bergie.iki.fi/blog/historical_helsinki-malmi_airport_threatened/
 [6]: http://www.pelastamalmi.org/en/index.html
 [7]: http://www.finlandforthought.net/2006/11/08/this-is-defnitely-corruption/

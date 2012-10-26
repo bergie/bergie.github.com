@@ -11,7 +11,7 @@ My <a href="http://www.flickr.com/photos/bergie/tags/skoll">good friend Skoll</a
 <blockquote>One of me favourite bands Manowar one sang "Riding horses made of steel". What kind of mental image does that provoke? Riding a Harley Davidson to sunset on an empty hightway, a beautiful young girl on your back seat?
 
 What a load of bullcrap! Motorcycling is about rain, it's about being soaking wet and freezing your ass off. It's about losing your friends in the traffic because you can see shit in the rain. It's about jams, about highways full of trucks and mobile homes and passing them being scared your ass off because there's no traction. It's about acheing shoulders, acheing back and numb ass. It's about water finally reaching your balls through your so called waterproof gear (yeah, I know, my pants are only water resistant). It's about waking at 6:30 am and driving 800 km.</blockquote>
-Now, there have been times when the things above have been <a href="http://www.deathmonkey.org/">very</a> <a href="http://bergie.iki.fi/blog/when_a_holiday_gets-interesting.html">true</a>. But there have also been times when the biker's life has been closer to the initial mental image, including the nice ride to Porvoo yesterday.
+Now, there have been times when the things above have been <a href="http://www.deathmonkey.org/">very</a> <a href="http://bergie.iki.fi/blog/when_a_holiday_gets-interesting/">true</a>. But there have also been times when the biker's life has been closer to the initial mental image, including the nice ride to Porvoo yesterday.
 
 Everybody is invited to make their own decisions on which view is more correct...
 

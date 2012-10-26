@@ -7,7 +7,7 @@
   layout: "post"
 
 ---
-<a href="http://www.ajatus.info/">Ajatus</a>, our new <a href="http://bergie.iki.fi/blog/previewing_ajatus-the_distributed_crm.html">distributed CRM app</a> is evolving very quickly. For example, this week <a href="http://jaiku.com/channel/ajatus/presence/20513937">we got</a> form validation and <a href="http://blog.shivku.com/2007/04/usability-auto-saving-users-work.html">auto-saving</a> support, and there has been talk of supporting binary file attachments.
+<a href="http://www.ajatus.info/">Ajatus</a>, our new <a href="http://bergie.iki.fi/blog/previewing_ajatus-the_distributed_crm/">distributed CRM app</a> is evolving very quickly. For example, this week <a href="http://jaiku.com/channel/ajatus/presence/20513937">we got</a> form validation and <a href="http://blog.shivku.com/2007/04/usability-auto-saving-users-work.html">auto-saving</a> support, and there has been talk of supporting binary file attachments.
 
 As we're nearing first release, the plan is to start <a href="http://en.wikipedia.org/wiki/Eating_one%27s_own_dog_food">dogfooding</a> Ajatus quite soon. For me personally this has been cause of some concern, as Ajatus is quite browser-intensive and my <a href="http://developer.mozilla.org/devnews/index.php/2007/11/19/firefox-3-beta-1-now-available-for-download/">Firefox 3 beta</a> has proven to be crashy. So, a <a href="http://webworkerdaily.com/2007/12/13/do-you-need-a-site-specific-browser/">Web Worker Daily story on site-specific browsers</a> came at a very good time: in a couple of minutes I had <a href="http://fluidapp.com/">Fluid</a> installed and was having a separate Ajatus window launchable straight from the <a href="http://en.wikipedia.org/wiki/Dock_(computing)">OS X Dock</a>.
 

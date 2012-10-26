@@ -8,7 +8,7 @@
 
 ---
 <p>
-While <a href="http://bergie.iki.fi/blog/tampere_is_a_candidate_for_guadec_and_akademy_2009.html">Tampere</a> <a href="http://dot.kde.org/1215794861/">was lost</a>, we won't return from <a href="http://guadec.expectnation.com/public/content/main">GUADEC</a> without any medals: I <a href="http://flickr.com/photos/keybuk/2664226776/">won</a> the <a href="http://live.gnome.org/GUADEC/2008/Events/IceCreamDeathmatch">ice cream deathmatch</a> held during the Collabora boat party on Bosphorus.
+While <a href="http://bergie.iki.fi/blog/tampere_is_a_candidate_for_guadec_and_akademy_2009/">Tampere</a> <a href="http://dot.kde.org/1215794861/">was lost</a>, we won't return from <a href="http://guadec.expectnation.com/public/content/main">GUADEC</a> without any medals: I <a href="http://flickr.com/photos/keybuk/2664226776/">won</a> the <a href="http://live.gnome.org/GUADEC/2008/Events/IceCreamDeathmatch">ice cream deathmatch</a> held during the Collabora boat party on Bosphorus.
 </p><p>
 <a href="http://www.vuntz.net/journal/2008/07/11/481-guadec-notes-3">From Vincent Untz</a>:
 </p><blockquote>

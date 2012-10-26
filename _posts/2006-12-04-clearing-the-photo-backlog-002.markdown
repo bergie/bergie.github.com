@@ -36,8 +36,8 @@ Like in some [earlier][1] [situations][2], I've again gotten a bit backlogged wi
 
 [Hiking in the Kevo area and driving to Saint Petersburg, fall 2003][8]
 
-[1]: http://bergie.iki.fi/blog/clearing-the-photo-backlog-001.html
-[2]: http://bergie.iki.fi/blog/clearing-the-photo-backlog.html
+[1]: http://bergie.iki.fi/blog/clearing-the-photo-backlog-001/
+[2]: http://bergie.iki.fi/blog/clearing-the-photo-backlog/
 [3]: http://flickr.com/photos/bergie/
 [4]: http://flickr.com/photos/68308325@N00/
 [5]: http://flickr.com/photos/68308325@N00/sets/72157594396015034/

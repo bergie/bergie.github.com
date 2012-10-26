@@ -23,4 +23,4 @@ This is promising as I definitely want to be able to manage my websites using th
 [3]: http://permalink.gmane.org/gmane.comp.web.midgard.devel/6607
 [4]: http://www.kaktus.cc/weblog/midcom-toolbar.html
 [5]: http://www.kaktus.cc/?toolbar
-[6]: http://bergie.iki.fi/blog/first-day-with-nokia-770.html
+[6]: http://bergie.iki.fi/blog/first-day-with-nokia-770/

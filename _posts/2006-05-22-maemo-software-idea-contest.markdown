@@ -25,8 +25,8 @@ Via [Finnish Centre for Open Source Software][6].
 
 [1]: http://www.open-tuesday.com/770.html
 [2]: http://planet.maemo.org/
-[3]: http://bergie.iki.fi/blog/first-day-with-nokia-770.html
+[3]: http://bergie.iki.fi/blog/first-day-with-nokia-770/
 [4]: http://www.nokia.com/770
-[5]: http://bergie.iki.fi/blog/maemo-mapper-takes-us-closer-to-the-hitchhiker-s-guide.html
+[5]: http://bergie.iki.fi/blog/maemo-mapper-takes-us-closer-to-the-hitchhiker-s-guide/
 [6]: http://www.coss.fi/fi/ajankohtaista/open-source--sovelluskehityskilpailu-nokia-770--laitteelle.html
 [7]: http://www.open-tuesday.com/

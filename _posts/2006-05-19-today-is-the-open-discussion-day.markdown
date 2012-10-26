@@ -28,7 +28,7 @@ __Updated 2006-05-28:__ [IM federation][15] is a site promoting interconnected I
 [2]: http://www.jabber.org/about/overview.shtml
 [3]: http://digg.com/technology/Friday_is_Open_Discussion_Day_,_For_One_Day_Use_Only_Open_Protocal_IM
 [4]: http://en.wikipedia.org/wiki/Information_society
-[5]: http://bergie.iki.fi/blog/securing-instant-messaging.html
+[5]: http://bergie.iki.fi/blog/securing-instant-messaging/
 [6]: http://bergie.iki.fi/about/contact/
 [7]: http://www.deepdarc.com/2006/05/19/full-time-jabber/
 [8]: http://en.wikipedia.org/wiki/Instant_messaging

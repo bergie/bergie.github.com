@@ -46,7 +46,7 @@ The new MWS editions are edited collaboratively to make the editing burden easie
 [3]: http://www.flickr.com/photos/tags/midgardweeklysummary
 [4]: http://www.midgard-project.org/community/events/midgard_developer_meeting.html
 [5]: http://www.midgard-project.org/documentation/staging_to_live_setup_with_midcom/
-[6]: http://bergie.iki.fi/blog/updates_to_the_midgard_roadmap.html
+[6]: http://bergie.iki.fi/blog/updates_to_the_midgard_roadmap/
 [7]: http://pooteeweet.org/blog/671
 [8]: http://www.midgard-project.org/updates/view/1177510714.html
 [9]: http://www.midgard-project.org/download/1.8.html

@@ -7,7 +7,7 @@
   layout: "post"
 
 ---
-<a href="http://flors.wordpress.com/">Quim</a> wrote earlier on <a href="http://desdeamericaconamor.org/blog/node/393">why red hearts matter in maemo news</a>. The red hearts are important as they <a href="http://bergie.iki.fi/blog/calculating_news_item_relevance.html">bring important news items forward</a> in the <a href="http://bergie.iki.fi/blog/maemo_social_news_launched.html">maemo social news aggregator</a>. But sometimes there are also news items that are not at all relevant to the <a href="http://maemo.org/">maemo</a> community. To solve the problem with them we've now added a burying option:
+<a href="http://flors.wordpress.com/">Quim</a> wrote earlier on <a href="http://desdeamericaconamor.org/blog/node/393">why red hearts matter in maemo news</a>. The red hearts are important as they <a href="http://bergie.iki.fi/blog/calculating_news_item_relevance/">bring important news items forward</a> in the <a href="http://bergie.iki.fi/blog/maemo_social_news_launched/">maemo social news aggregator</a>. But sometimes there are also news items that are not at all relevant to the <a href="http://maemo.org/">maemo</a> community. To solve the problem with them we've now added a burying option:
 
 <img src="/files/socialnews-favbuttons.png" height="97" width="132" border="1" hspace="4" vspace="4" alt="Socialnews-Favbuttons" />
 

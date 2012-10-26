@@ -19,7 +19,7 @@ Here are also some quick snapshots from the event:
 
 ![Joao translating Midgard slides](/files/Joao_translating_slides.jpg)
 
-[1]: http://bergie.iki.fi/blog/going-to-forum-gnome.html
+[1]: http://bergie.iki.fi/blog/going-to-forum-gnome/
 [2]: http://www.forumgnome.com.br/
 [3]: http://en.wikipedia.org/wiki/Brazil
 [4]: http://www.gimp.org/

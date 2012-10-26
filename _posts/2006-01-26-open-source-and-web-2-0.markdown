@@ -18,7 +18,7 @@ I was talking about the benefit of Open Source in Web 2.0 earlier in "[Working o
 Via [Sam Ruby][5].
 
 [1]: http://rollerweblogger.org/page/roller?entry=open_source_web_2_0
-[2]: http://bergie.iki.fi/blog/working-over-the-web.html
+[2]: http://bergie.iki.fi/blog/working-over-the-web/
 [3]: http://www.openpsa.org/
 [4]: http://www.midgard-project.org/midcom-permalink-8d125757a16d36c7cde202561554d21c
 [5]: http://www.intertwingly.net/blog/2006/01/26/Open-Source-Web-2-0

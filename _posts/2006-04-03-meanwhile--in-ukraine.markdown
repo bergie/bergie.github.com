@@ -20,7 +20,7 @@ During the revolution the streets were mostly filled with orange banners and sti
 
 Via [Wikipedia][9].
 
-[1]: http://bergie.iki.fi/blog/weekend_in_ukraine.html
+[1]: http://bergie.iki.fi/blog/weekend_in_ukraine/
 [2]: http://en.wikipedia.org/wiki/Orange_Revolution
 [3]: http://www.boingboing.net/2006/04/02/ukrainian_election_p.html
 [4]: http://en.wikipedia.org/wiki/Yulia_Tymoshenko_Electoral_Bloc

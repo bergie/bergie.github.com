@@ -21,7 +21,7 @@ New setup:
 
 Thanks to [Torben][5] for hosting me for the past couple of years!
 
-[1]: http://bergie.iki.fi/blog/solution_to_slowness_of_my_site_coming.html
+[1]: http://bergie.iki.fi/blog/solution_to_slowness_of_my_site_coming/
 [2]: http://www.kotisivut.com/
 [3]: http://www.midgard-project.org/documentation/setting-up-squid-reverse-proxy.html
 [4]: http://www.kaktus.cc/

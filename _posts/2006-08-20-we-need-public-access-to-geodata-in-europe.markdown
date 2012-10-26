@@ -21,8 +21,8 @@ Via [Mapping Hacks][8].
 [2]: http://publicgeodata.org/Open_Letter_Third_Reading
 [3]: http://publicgeodata.org/Contact_Your_Minister
 [4]: http://publicgeodata.org/Arguments
-[5]: http://bergie.iki.fi/blog/maemo-mapper-takes-us-closer-to-the-hitchhiker-s-guide.html
-[6]: http://bergie.iki.fi/blog/the-real-hitchhiker-s-guide-to-the-galaxy.html
+[5]: http://bergie.iki.fi/blog/maemo-mapper-takes-us-closer-to-the-hitchhiker-s-guide/
+[6]: http://bergie.iki.fi/blog/the-real-hitchhiker-s-guide-to-the-galaxy/
 [7]: http://www.geonames.org/
 [8]: http://mappinghacks.com/2006/08/20/public-access-to-geodata-in-europe/
 [9]: http://www.primet.org/documents/weiss%20-%20borders%20in%20cyberspace.htm

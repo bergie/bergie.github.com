@@ -7,7 +7,7 @@
   layout: "post"
 
 ---
-While there is no public release yet, I though to give a heads-up on a project we're working on with <a href="http://protoblogr.net/">Jerry</a>: <strong><a href="http://www.ajatus.info/">Ajatus</a></strong> is a distributed, or peer-to-peer CRM system built on top of <a href="http://bergie.iki.fi/blog/jquery_and_couchdb-001.html">CouchDb</a>.
+While there is no public release yet, I though to give a heads-up on a project we're working on with <a href="http://protoblogr.net/">Jerry</a>: <strong><a href="http://www.ajatus.info/">Ajatus</a></strong> is a distributed, or peer-to-peer CRM system built on top of <a href="http://bergie.iki.fi/blog/jquery_and_couchdb-001/">CouchDb</a>.
 
 <a href="/files/ajatus-note-related.png"><img src="/files/ajatus-note-related-tm.jpg" height="246" width="398" border="1" hspace="4" vspace="4" alt="Ajatus-Note-Related" /></a>
 

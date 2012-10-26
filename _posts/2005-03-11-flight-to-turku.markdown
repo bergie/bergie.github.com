@@ -35,7 +35,7 @@ This is my first blog post using the new [Midgard support][9] for the [Markdown 
 [6]: http://bergie.iki.fi/midcom-serveattachmentguid-51a6365e17f698813e2648a7fe21652d/home_from_air.jpg
 [7]: http://gallery.tigert.com/gallery/lance-eftu-200503
 [8]: http://bergie.iki.fi/midcom-serveattachmentguid-97aa0b0f0ed2c3b008d7d85c8d489037/efhf_touchdown.jpg
-[9]: http://bergie.iki.fi/blog/markdown-support-for-midgard.html
+[9]: http://bergie.iki.fi/blog/markdown-support-for-midgard/
 [10]: http://daringfireball.net/projects/markdown/
 [11]: http://ranchero.com/marsedit/changenotes/1.0b8.php
 [12]: http://www.netikka.net/air.pilot/nummijarvi/

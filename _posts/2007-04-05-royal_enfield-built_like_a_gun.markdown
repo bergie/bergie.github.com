@@ -5,9 +5,9 @@
   layout: "post"
 
 ---
-My <a href="http://www.routamc.org/bikes/triumph-legend.html">Triumph Legend TT</a>, which has been a trusty companion on <a href="http://www.routamc.org/gallery/">various adventures</a>, <a href="http://bergie.iki.fi/blog/a-motorcycle-update.html">had an engine failure</a> last summer. As a result, I've been without a working motorcycle for almost a year.
+My <a href="http://www.routamc.org/bikes/triumph-legend.html">Triumph Legend TT</a>, which has been a trusty companion on <a href="http://www.routamc.org/gallery/">various adventures</a>, <a href="http://bergie.iki.fi/blog/a-motorcycle-update/">had an engine failure</a> last summer. As a result, I've been without a working motorcycle for almost a year.
 
-This week finally things changed, and I bought a brand new Indian-built <a href="http://en.wikipedia.org/wiki/Royal_Enfield#Enfield_India">Royal Enfield Bullet</a>. I've been drooling after this simple and beautiful bike for years, but have been hesitant. Finally last summer's <a href="http://bergie.iki.fi/blog/back-on-duty.html">Death Monkey rally</a> with the <a href="http://www.deathmonkey.org/about/honda-monkey.html">50cc mopeds</a> convinced me that motorcycle adventures can be enjoyable also on a less powerful bike. 
+This week finally things changed, and I bought a brand new Indian-built <a href="http://en.wikipedia.org/wiki/Royal_Enfield#Enfield_India">Royal Enfield Bullet</a>. I've been drooling after this simple and beautiful bike for years, but have been hesitant. Finally last summer's <a href="http://bergie.iki.fi/blog/back-on-duty/">Death Monkey rally</a> with the <a href="http://www.deathmonkey.org/about/honda-monkey.html">50cc mopeds</a> convinced me that motorcycle adventures can be enjoyable also on a less powerful bike. 
 
 220 kilometers later, I can say I'm already very happy about the purchase. While the Enfield isn't really a bike for quick dashes through Germany on the Autobahn, it compensates by happily thumping along on an enjoyable pace on the country road. And it is gorgeous too:
 

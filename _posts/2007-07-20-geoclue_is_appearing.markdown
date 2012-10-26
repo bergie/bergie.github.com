@@ -8,7 +8,7 @@
   layout: "post"
 
 ---
-Last weekend and this week I've been off to <a href="http://bergie.iki.fi/blog/notes_from_the_state_of_the_map_conference.html">State of the Map in Manchester</a> and <a href="http://guadec.org/node/581">GUADEC in Birmingham</a> to speak about the <a href="http://www.freedesktop.org/wiki/Software/GeoClue/">GeoClue project</a> with <a href="http://highearthorbit.com/">Andrew Turner</a> and <a href="http://www.tigert.org/">Tuomas Kuosmanen</a>.
+Last weekend and this week I've been off to <a href="http://bergie.iki.fi/blog/notes_from_the_state_of_the_map_conference/">State of the Map in Manchester</a> and <a href="http://guadec.org/node/581">GUADEC in Birmingham</a> to speak about the <a href="http://www.freedesktop.org/wiki/Software/GeoClue/">GeoClue project</a> with <a href="http://highearthorbit.com/">Andrew Turner</a> and <a href="http://www.tigert.org/">Tuomas Kuosmanen</a>.
 
 GeoClue is a system for giving easy access to location information for applications over the D-BUS. Lots of people have shown interest in adding geographical awareness in their software, and I really think GeoClue is the right way to move forward, especially for <a href="http://www.gnome.org/mobile/">mobile devices</a>.
 <p style="text-align:center;"><img src="/files/geoclue-large.jpg" height="250" width="250" border="0" hspace="4" vspace="4" alt="Geoclue-Large" /></p>

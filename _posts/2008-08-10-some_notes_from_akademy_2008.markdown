@@ -9,7 +9,7 @@
 
 ---
 <p>
-I'm currently in <a href="http://akademy.kde.org/">aKademy</a>, the KDE conference, talking about adding the <a href="http://worrydream.com/MagicInk/#inferring_context_from_the_environment">geographical context</a> into the Linux desktop. <a href="http://geoclue.freedesktop.org/">GeoClue</a>, our solution to this problem is built to be <a href="http://www.freedesktop.org/wiki/">desktop-agnostic</a> <a href="http://en.wikipedia.org/wiki/D-Bus">service</a>, and therefore the same talk has been held in both <a href="http://bergie.iki.fi/blog/notes_from_guadec_istanbul.html">GUADEC</a> and aKademy.
+I'm currently in <a href="http://akademy.kde.org/">aKademy</a>, the KDE conference, talking about adding the <a href="http://worrydream.com/MagicInk/#inferring_context_from_the_environment">geographical context</a> into the Linux desktop. <a href="http://geoclue.freedesktop.org/">GeoClue</a>, our solution to this problem is built to be <a href="http://www.freedesktop.org/wiki/">desktop-agnostic</a> <a href="http://en.wikipedia.org/wiki/D-Bus">service</a>, and therefore the same talk has been held in both <a href="http://bergie.iki.fi/blog/notes_from_guadec_istanbul/">GUADEC</a> and aKademy.
 </p><p>
 Here are some notes from the conference:
 </p><ul><li>There was quite a good amount of interest in GeoClue. Both Plasma and Marble teams were talking with me, and I also gave an interview for <a href="http://www.linux-magazin.de/">Linux-Magazin Online</a></li>

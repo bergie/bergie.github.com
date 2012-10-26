@@ -5,7 +5,7 @@
   layout: "post"
 
 ---
-<a href="http://bergie.iki.fi/blog/midgard-replication-service-starts-to-shape-up.html">Midgard's new replication service</a> has been under work since January. Now the work is finally starting to bear fruit, as we're doing the first tests with real production data.
+<a href="http://bergie.iki.fi/blog/midgard-replication-service-starts-to-shape-up/">Midgard's new replication service</a> has been under work since January. Now the work is finally starting to bear fruit, as we're doing the first tests with real production data.
 
 This week lots of functionality has been added to the system, including scheduled replication runs (for <a href="http://www.midgard-project.org/documentation/midcom-helper-metadata-approvals/">scheduled publication</a>) and a nice debug view for seeing the replication status of an object:
 

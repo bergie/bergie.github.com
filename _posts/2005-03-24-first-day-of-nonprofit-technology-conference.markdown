@@ -53,7 +53,7 @@ After the lunch the evening ended in the Microsoft party in [House of Blues][30]
 [6]: http://www.typepad.com/
 [7]: http://wordpress.org/
 [8]: http://www.ungana-afrika.org/
-[9]: http://bergie.iki.fi/blog/site_creation_wizard_runs.html
+[9]: http://bergie.iki.fi/blog/site_creation_wizard_runs/
 [10]: http://permalink.gmane.org/gmane.comp.web.midgard.devel/5228
 [11]: http://www.nemein.com/en/news/press/2004-02-11-000.html
 [12]: http://en.wikipedia.org/wiki/Moblog

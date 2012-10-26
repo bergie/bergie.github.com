@@ -22,4 +22,4 @@ Expect to see many such improvements soon as we encounter things to improve in o
 [3]: http://en.wikipedia.org/wiki/Eat_one's_own_dog_food
 [4]: http://www.nemein.com/
 [5]: http://www.openpsa.org/version2/
-[6]: http://www.bergie.iki.fi/blog/openpsa2--minor-features-matter.html
+[6]: http://www.bergie.iki.fi/blog/openpsa2--minor-features-matter/

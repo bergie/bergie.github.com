@@ -28,8 +28,8 @@ Fully agreed. Plazes position is already [fully integrated][6] into the [Midgard
 [2]: http://en.wikipedia.org/wiki/Wi-Fi
 [3]: http://beta.plazes.com/tools/mobile.php
 [4]: http://en.wikipedia.org/wiki/Base_station
-[5]: http://bergie.iki.fi/blog/more-about-positioning-on-the-web.html
-[6]: http://bergie.iki.fi/blog/the-midgard-position.html
+[5]: http://bergie.iki.fi/blog/more-about-positioning-on-the-web/
+[6]: http://bergie.iki.fi/blog/the-midgard-position/
 [7]: http://ludimate.com/products/geominder/
 [8]: http://blog.plazes.com/?p=116
 [9]: ttp://highearthorbit.com/

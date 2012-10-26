@@ -53,5 +53,5 @@ As soon as the library is hooked to the blog component it will replace the [old 
 [4]: http://pear.midcom-project.org/index.php?category=1&page=1
 [5]: http://pear.midcom-project.org/index.php?category=1&page=1
 [6]: http://www.geonames.org/export/
-[7]: http://bergie.iki.fi/blog/adding_location_awareness_to_blogs.html
+[7]: http://bergie.iki.fi/blog/adding_location_awareness_to_blogs/
 [8]: http://www.deathmonkey.org/route/

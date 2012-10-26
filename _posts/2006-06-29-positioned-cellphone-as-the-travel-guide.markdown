@@ -20,8 +20,8 @@ Via [Boing Boing][2]
 [1]: http://www.nytimes.com/2006/06/28/technology/28locate.html?ex=1309147200&en=4aedeed4b5af1f05&ei=5090&partner=rssuserland&emc=rss
 [2]: http://www.boingboing.net/2006/06/28/realworld_search_on_.html
 [3]: http://www.geovector.com/
-[4]: http://bergie.iki.fi/blog/synchronization-and-the-free-software-desktop-in-guadec.html
-[5]: http://bergie.iki.fi/blog/maemo-mapper-takes-us-closer-to-the-hitchhiker-s-guide.html
+[4]: http://bergie.iki.fi/blog/synchronization-and-the-free-software-desktop-in-guadec/
+[5]: http://bergie.iki.fi/blog/maemo-mapper-takes-us-closer-to-the-hitchhiker-s-guide/
 [6]: http://www.geonames.org/about.html
 [7]: http://wikitravel.org/en/Main_Page
 [8]: http://habitat.igc.org/wealth-of-networks/#part-1

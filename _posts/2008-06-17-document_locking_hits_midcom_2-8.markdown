@@ -13,7 +13,7 @@ When user starts editing a document via <a href="http://midgardwiki.contentcontr
 </p><p>
 <a href="/files/midcom-28-locked-document-fi.png"><img src="/files/midcom-28-locked-document-fi-tm.jpg" height="74" width="296" border="1" hspace="4" vspace="4" alt="MidCOM 2.8 lock notice" title="MidCOM 2.8 lock notice" /></a>
 </p><p>
-Unlocking permissions can be granted via the <a href="http://bergie.iki.fi/blog/new_user_management_tool_for_midgard.html">Asgard user manager</a>.
+Unlocking permissions can be granted via the <a href="http://bergie.iki.fi/blog/new_user_management_tool_for_midgard/">Asgard user manager</a>.
 </p><p>
 Unlike the older and <a href="http://www.midgard-project.org/updates/view/security-advisory--unauthorized-locking-in-midcom.html">somewhat troublesome</a> method, the new locking system uses <a href="http://www.midgard-project.org/documentation/mgdschema-metadata-object/">regular Midgard metadata</a> properties and has a <a href="http://www.kaktus.cc/weblog/view/1212160768.html">clean API available</a>.
 </p>

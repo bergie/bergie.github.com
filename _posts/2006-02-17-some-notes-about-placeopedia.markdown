@@ -26,7 +26,7 @@ I noticed the map mode issue when trying to place [Petja's question][6].
 [1]: http://www.placeopedia.com/
 [2]: http://en.wikipedia.org/wiki/Main_Page
 [3]: http://websearch.about.com/b/a/188136.htm
-[4]: http://bergie.iki.fi/blog/the-real-hitchhiker-s-guide-to-the-galaxy.html
+[4]: http://bergie.iki.fi/blog/the-real-hitchhiker-s-guide-to-the-galaxy/
 [5]: http://en.wikipedia.org/wiki/Wikipedia:WikiProject_Geographical_coordinates
 [6]: http://www.ihmiskunta.org/wp/?p=594
 [7]: http://www.placeopedia.com/data/

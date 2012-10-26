@@ -7,7 +7,7 @@
 
 ---
 <p>
-We're currently in the stage where <a href="http://bergie.iki.fi/blog/some_midgard_roadmapping.html">two branches</a> of <a href="http://www.midgard-project.org/">Midgard</a>: <a href="http://trac.midgard-project.org/milestone/Midgard%201.9">1.9</a> and <a href="http://trac.midgard-project.org/milestone/Midgard%202.0">2.0</a> are both in active development. Midgard 2 is the fully <a href="http://bergie.iki.fi/blog/midgard_2-finally_legacy-free.html">legacy-free next generation of Midgard</a>, and 1.9 is a transitional release that provides both Midgard 2 and Midgard 1 APIs to ease migration.
+We're currently in the stage where <a href="http://bergie.iki.fi/blog/some_midgard_roadmapping/">two branches</a> of <a href="http://www.midgard-project.org/">Midgard</a>: <a href="http://trac.midgard-project.org/milestone/Midgard%201.9">1.9</a> and <a href="http://trac.midgard-project.org/milestone/Midgard%202.0">2.0</a> are both in active development. Midgard 2 is the fully <a href="http://bergie.iki.fi/blog/midgard_2-finally_legacy-free/">legacy-free next generation of Midgard</a>, and 1.9 is a transitional release that provides both Midgard 2 and Midgard 1 APIs to ease migration.
 </p><p>
 The active development status means that bugs are bound to be found in them. For people living on the <a href="http://www.midgard-project.org/nightly/">bleeding edge</a>, it is good to know how to enable SQL-level debugging in case of issues.
 <br /><span style="font-size:14pt;"><strong>

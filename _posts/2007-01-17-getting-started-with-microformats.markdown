@@ -23,7 +23,7 @@ However, I've noticed lots of customers and even web professionals are not reall
 [4]: http://www.readwriteweb.com/archives/mozilla_does_microformats_firefox3.php
 [5]: http://blog.codeeg.com/tails-firefox-extension-03/
 [6]: http://www.nemein.com/
-[7]: http://bergie.iki.fi/blog/contact-management-in-semantic-web.html
+[7]: http://bergie.iki.fi/blog/contact-management-in-semantic-web/
 [8]: http://www.midgard-project.org/documentation/microformat-usage-in-midcom/
 [9]: http://blog.mozilla.com/faaborg/
 [10]: http://blog.mozilla.com/faaborg/2006/12/11/microformats-part-0-introduction/

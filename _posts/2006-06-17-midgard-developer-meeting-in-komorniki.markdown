@@ -58,12 +58,12 @@ __In the other news,__ [Oskari is blogging][16] the trip in finnish. [First part
 [11]: http://www.midgard-project.org/documentation/midcom-component-development/
 [12]: http://www.kaktus.cc/weblog/midgard-developer-meeting.html
 [13]: http://osflash.org/red5
-[14]: http://bergie.iki.fi/blog/internet-tablet-os-2006-beta-is-out.html
+[14]: http://bergie.iki.fi/blog/internet-tablet-os-2006-beta-is-out/
 [15]: http://www.google.com/talk/
 [16]: http://www.affronter.com/
 [17]: http://www.affronter.com/blog_comment.asp?entry=83
 [18]: http://www.affronter.com/blog_comment.asp?entry=84
-[19]: http://bergie.iki.fi/blog/midgard-for-mac.html
+[19]: http://bergie.iki.fi/blog/midgard-for-mac/
 [20]: http://en.wikipedia.org/wiki/Inverter_%28electrical%29
 [21]: http://en.wikipedia.org/wiki/2006_FIFA_World_Cup#Group_E
 [22]: http://www.midgard-project.org/documentation/concepts-quota/
@@ -80,7 +80,7 @@ __In the other news,__ [Oskari is blogging][16] the trip in finnish. [First part
 [33]: http://www.midgard-project.org/development/mrfc/0031.html
 [34]: http://www.nathan-syntronics.de/midgard/midcom/midcom-2_6/acl-tutorial.html
 [35]: http://www.nathan-syntronics.de/midgard/midcom/midcom-2_6/db-api.html
-[36]: http://www.bergie.iki.fi/blog/midcom-and-content-update-notifications.html
+[36]: http://www.bergie.iki.fi/blog/midcom-and-content-update-notifications/
 [37]: http://www.midgard-project.org/api-docs/midcom/dev/midcom.services/midcom_services_cron.html
 [38]: http://www.midgard-project.org/documentation/midcom-2-5-datamanger-rewrite/
 [39]: http://www.affronter.com/blog_comment.asp?entry=88

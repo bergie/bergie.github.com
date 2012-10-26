@@ -36,7 +36,7 @@ So we instead synchronize only those contacts that are in user's buddy list. The
 [3]: http://www.skype.com/share/buttons/status.html
 [4]: http://share.skype.com/sites/en/2006/02/skypeweb_is_now_available.html
 [5]: http://www.skypejournal.com/blog/archives/2005/04/conference_call_1.php
-[6]: http://bergie.iki.fi/blog/how-openpsa-uses-dbe.html
-[7]: http://bergie.iki.fi/blog/prepare-to-be-synchronized.html
+[6]: http://bergie.iki.fi/blog/how-openpsa-uses-dbe/
+[7]: http://bergie.iki.fi/blog/prepare-to-be-synchronized/
 [8]: http://www.midgard-project.org/documentation/net-nemein-wiki/
 [9]: http://www.funambol.com/opensource/

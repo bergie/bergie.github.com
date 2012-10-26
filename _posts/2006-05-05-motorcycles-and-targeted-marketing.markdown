@@ -35,7 +35,7 @@ As [Joe writes][9]:
 To make direct marketing work, you need a combination of good tools and good ideas about what to send and to who. Otherwise you will only manage to annoy potential customers.
 
 [1]: http://www.moto-seinajoki.fi/default.aspx
-[2]: http://bergie.iki.fi/blog/direct-marketing-component-for-openpsa.html
+[2]: http://bergie.iki.fi/blog/direct-marketing-component-for-openpsa/
 [3]: http://pear.midcom-project.org/index.php?package=org_openpsa_directmarketing
 [4]: http://www.routamc.org/bikes/triumph-legend.html
 [5]: http://en.wikipedia.org/wiki/Rice_rocket

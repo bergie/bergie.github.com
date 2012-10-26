@@ -15,7 +15,7 @@ As out there was beautiful autumn weather, and I needed to go somewhere to air m
 </p><p>
 <a href="/files/2008-09-27_iphone_108km_to_geohash.jpg"><img src="/files/2008-09-27_iphone_108km_to_geohash-tm.jpg" height="300" width="225" border="1" hspace="4" vspace="4" alt="iPhone calculates 108km to the hash" title="iPhone calculates 108km to the hash" /></a>
 </p><p>
-Calculating the route with <a href="http://www.mcwetboy.net/maproom/2007/01/iphone_includes.php">iPhone's map software</a> to be 108km, I put on some warmer clothes and jumped on <a href="http://bergie.iki.fi/blog/royal_enfield-built_like_a_gun.html">my bike</a>, heading leisurely north on smaller side roads. I had a lunch stop at <a href="http://www.ravintolakeskus.fi/ravintolat/Rajam%E4ki/Kahvila+Roosa/3975">Roosa</a>, and then made my way to the destination.
+Calculating the route with <a href="http://www.mcwetboy.net/maproom/2007/01/iphone_includes.php">iPhone's map software</a> to be 108km, I put on some warmer clothes and jumped on <a href="http://bergie.iki.fi/blog/royal_enfield-built_like_a_gun/">my bike</a>, heading leisurely north on smaller side roads. I had a lunch stop at <a href="http://www.ravintolakeskus.fi/ravintolat/Rajam%E4ki/Kahvila+Roosa/3975">Roosa</a>, and then made my way to the destination.
 </p><p>
 <a href="/files/2008-09-27_Enfield_near_the_geohash.jpg"><img src="/files/2008-09-27_Enfield_near_the_geohash-tm.jpg" height="300" width="400" border="1" hspace="4" vspace="4" alt="Royal Enfield - the ultimate geohashing machine" title="Royal Enfield - the ultimate geohashing machine" /></a>
 </p><p>

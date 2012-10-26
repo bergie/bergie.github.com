@@ -20,9 +20,9 @@ __Updated 2005-11-30:__ I will be presenting DBE also in [SOLISC][20] tomorrow.
 
 Also there are [two][21] [photos][23] of my talk on the [LatinoWare][22] site.
 
-[1]: http://bergie.iki.fi/blog/going-to-forum-gnome.html
+[1]: http://bergie.iki.fi/blog/going-to-forum-gnome/
 [2]: http://www.forumgnome.com.br/
-[3]: http://bergie.iki.fi/blog/midgard-slides-from-curitiba.html
+[3]: http://bergie.iki.fi/blog/midgard-slides-from-curitiba/
 [4]: http://www.latinoware.org/mercosul/modules/wfchannel/
 [5]: http://en.wikipedia.org/wiki/Interpreting#Simultaneous_interpreting
 [6]: http://www.digitalecosystem.org/
@@ -34,9 +34,9 @@ Also there are [two][21] [photos][23] of my talk on the [LatinoWare][22] site.
 [12]: http://en.wikipedia.org/wiki/Gilberto_Gil
 [13]: http://en.wikipedia.org/wiki/Brazil
 [14]: http://www.softwarelivre.org/
-[15]: http://bergie.iki.fi/blog/midgard-slides-from-curitiba.html#68fa4fc72516ec176e3f35ee1f42982a
+[15]: http://bergie.iki.fi/blog/midgard-slides-from-curitiba/#68fa4fc72516ec176e3f35ee1f42982a
 [16]: http://www.openpsa.org/
-[17]: http://bergie.iki.fi/blog/networked-project-management-with-dbe.html
+[17]: http://bergie.iki.fi/blog/networked-project-management-with-dbe/
 [18]: http://tirloni.blogspot.com/2005/11/latinoware-2005.html
 [19]: http://en.wikipedia.org/wiki/John_maddog_Hall
 [20]: http://www.solisc.org.br/

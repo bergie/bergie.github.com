@@ -18,7 +18,7 @@ As a teaser for that, I've attached an initial HTTP request handling flow chart 
 Some points of interest:
 </p><ul><li>Clean PHP5 and Midgard2 OOP architecture</li>
 <li>Exceptions to replace the old <a href="http://www.midgard-project.org/api-docs/midcom/dev/midcom/midcom_application.html#generate_error">generate_error</a> system</li>
-<li>ACL, versioning and watchers implemented with <a href="http://blogs.nemein.com/people/piotras/view/1182197841.html">signals</a> instead of <a href="http://bergie.iki.fi/blog/introduction_to_midgards_database_abstraction_system.html#ed234e6562394cdd79f9123900e86063">DBA</a></li>
+<li>ACL, versioning and watchers implemented with <a href="http://blogs.nemein.com/people/piotras/view/1182197841.html">signals</a> instead of <a href="http://bergie.iki.fi/blog/introduction_to_midgards_database_abstraction_system/#ed234e6562394cdd79f9123900e86063">DBA</a></li>
 <li>Good old <a href="http://www.midgard-project.org/documentation/concepts-page_and_style/">Midgard Templating Engine</a> instead of <a href="http://www.midgard-project.org/documentation/concepts-midcom-specs-subsystems-style-engine/">MidCOM's own implementation</a></li>
 <li>Configurable <a href="http://trac.midgard-project.org/ticket/48">request switches</a></li>
 <li><a href="http://yaml.org/">YAML</a> instead of PHP array format for configs</li>

@@ -28,7 +28,7 @@ __Updated 2006-10-06:__ Google has now fixed their ping interface:
 __In somewhat related news,__ [Alexander Schuster][5] has just released [beta release of Aegir 1.0.4][6], the first update to the legendary [Aegir][7] administrative interface of Midgard since [July 2004][8]. Cool!
 
 [1]: http://pear.midcom-project.org/index.php?package=net_nemein_ping&release=1.0.0&downloads
-[2]: http://bergie.iki.fi/blog/midcom-and-content-update-notifications.html
+[2]: http://bergie.iki.fi/blog/midcom-and-content-update-notifications/
 [3]: http://googleblog.blogspot.com/2006/10/got-blog-will-ping.html
 [4]: http://www.google.com/blogsearch
 [5]: http://privat.galak.dyndns.org/

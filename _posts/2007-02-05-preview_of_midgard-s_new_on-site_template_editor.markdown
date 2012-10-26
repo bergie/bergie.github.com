@@ -5,9 +5,9 @@
   layout: "post"
 
 ---
-<a href="http://www.midgard-project.org/">Midgard</a> has a very powerful page templating system, and <a href="http://bergie.iki.fi/blog/cms-watch-kudos-of-2005.html">this has been noted</a> in <a href="http://www.cmswatch.com/">CMS Watch</a> kudos lists several times.
+<a href="http://www.midgard-project.org/">Midgard</a> has a very powerful page templating system, and <a href="http://bergie.iki.fi/blog/cms-watch-kudos-of-2005/">this has been noted</a> in <a href="http://www.cmswatch.com/">CMS Watch</a> kudos lists several times.
 
-With power there also usually comes some learning curve,  and Midgard certainly <a href="http://www.midgard-project.org/documentation/howto-midcom/">has not been an exception</a> to that rule with its concepts like inheritance, dynamic loads, substyles and other things. With MidCOM 2.7 we seek to lower the learning curve and make the system <a href="http://bergie.iki.fi/blog/midgard-in-2007--the-year-of-the-web-developer.html">more approachable to the regular web developer</a> by moving template editing to the <a href="http://www.midgard-project.org/documentation/content-production-with-midcom/">on-site administration interface</a>. Here's a quick preview on what we have been doing.
+With power there also usually comes some learning curve,  and Midgard certainly <a href="http://www.midgard-project.org/documentation/howto-midcom/">has not been an exception</a> to that rule with its concepts like inheritance, dynamic loads, substyles and other things. With MidCOM 2.7 we seek to lower the learning curve and make the system <a href="http://bergie.iki.fi/blog/midgard-in-2007--the-year-of-the-web-developer/">more approachable to the regular web developer</a> by moving template editing to the <a href="http://www.midgard-project.org/documentation/content-production-with-midcom/">on-site administration interface</a>. Here's a quick preview on what we have been doing.
 
 Style template customization starts with <a href="http://www.midgard-project.org/documentation/folder-management-with-midcom/">editing a folder</a> and setting a custom layout template for it:
 

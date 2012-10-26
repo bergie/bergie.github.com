@@ -20,6 +20,6 @@ We should have first beta of the Funambol OpenPsa Connector in March.
 [2]: http://www.openpsa.org/
 [3]: http://office.microsoft.com/en-us/FX010857931033.aspx
 [4]: http://www.funambol.com/opensource/
-[5]: http://bergie.iki.fi/blog/jukka_back_from_hiatus__jcr_for_midgard.html
+[5]: http://bergie.iki.fi/blog/jukka_back_from_hiatus__jcr_for_midgard/
 [6]: http://www.nemein.com/people/rambo/calendar_syncml.html
 [7]: http://www.openmobilealliance.org/tech/wg_committees/ds.html

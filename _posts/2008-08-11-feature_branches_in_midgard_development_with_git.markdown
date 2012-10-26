@@ -7,7 +7,7 @@
 
 ---
 <p>
-The <a href="http://bergie.iki.fi/blog/midgard_and_synchronized_releases.html">release synchronicity plan</a> was accepted, and therefore Midgard will be switching from SVN to <a href="http://git-scm.com/">git</a>, and the concept of <a href="http://wiki.winehq.org/GitBranches">feature branches</a>.
+The <a href="http://bergie.iki.fi/blog/midgard_and_synchronized_releases/">release synchronicity plan</a> was accepted, and therefore Midgard will be switching from SVN to <a href="http://git-scm.com/">git</a>, and the concept of <a href="http://wiki.winehq.org/GitBranches">feature branches</a>.
 </p><p>
 With feature branches the idea is that each feature or bug fix is being developed in its own branch, and only landed to trunk (master in git terminology) when ready. This keeps the trunk clean and easy to test.
 </p><p>

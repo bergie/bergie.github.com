@@ -22,9 +22,9 @@ Friday morning, slightly hung over, we crossed the [Friendship Bridge][6] to Ciu
 
 __Updated 2006-11-20:__ Dave Neary [has a good write-up][9] on the conference.
 
-[1]: http://bergie.iki.fi/blog/digital-business-ecosystem-slides-from-curitiba.html
-[2]: http://bergie.iki.fi/blog/going-to-latinoware.html
-[3]: http://bergie.iki.fi/blog/digital-business-ecosystem-in-fisl.html
+[1]: http://bergie.iki.fi/blog/digital-business-ecosystem-slides-from-curitiba/
+[2]: http://bergie.iki.fi/blog/going-to-latinoware/
+[3]: http://bergie.iki.fi/blog/digital-business-ecosystem-in-fisl/
 [4]: http://www.digital-ecosystem.org/
 [5]: http://en.wikipedia.org/wiki/Itaipu
 [6]: http://en.wikipedia.org/wiki/Friendship_Bridge_%28Paraguay%E2%80%93Brazil%29

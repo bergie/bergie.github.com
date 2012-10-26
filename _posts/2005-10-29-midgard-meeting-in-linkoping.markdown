@@ -40,7 +40,7 @@ In the saturday evening we had a thai dinner in the [SmallOne Mansion][23].
 [12]: http://www.digitalecosystem.org/
 [13]: http://www.coss.fi/midcom-permalink-1ba0e1f0c2ed5cd13f122cb6bfc7d2a1
 [14]: http://exorcist.sourceforge.net/
-[15]: http://bergie.iki.fi/blog/repligard--your-days-are-numbered.html
+[15]: http://bergie.iki.fi/blog/repligard--your-days-are-numbered/
 [16]: http://www-128.ibm.com/developerworks/java/library/j-jcr/
 [17]: http://www.midgard-project.org/
 [18]: http://www.midgard-project.org/midcom-permalink-2732f47bbdf5a868fd7811d696886149

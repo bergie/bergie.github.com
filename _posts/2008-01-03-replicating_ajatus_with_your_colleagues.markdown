@@ -6,7 +6,7 @@
   layout: "post"
 
 ---
-<a href="http://bergie.iki.fi/blog/previewing_ajatus-the_distributed_crm.html">I've mentioned before</a> that <a href="http://www.ajatus.info/">Ajatus</a> is a P2P CRM, but what does that mean? It means that Ajatus has been <a href="http://www.ajatus.info/documentation/ajatus_manifesto/">designed</a> to be a personal tool for information management, but that is has also been designed to help you connect with anyone you need to work with.
+<a href="http://bergie.iki.fi/blog/previewing_ajatus-the_distributed_crm/">I've mentioned before</a> that <a href="http://www.ajatus.info/">Ajatus</a> is a P2P CRM, but what does that mean? It means that Ajatus has been <a href="http://www.ajatus.info/documentation/ajatus_manifesto/">designed</a> to be a personal tool for information management, but that is has also been designed to help you connect with anyone you need to work with.
 
 The means to that is <a href="http://www.couchdb.org/">CouchDb's</a> integrated <a href="http://www.couchdbwiki.com/index.php?title=Basic_Concepts#Distributed" title="Basic_Concepts#Distributed">replication feature</a>. With it you can easily share your Ajatus data with anybody in the network, or just keep your laptop and desktop system in sync.
 
@@ -18,7 +18,7 @@ First allow CouchDb to talk to the outside world (<strong>note:</strong> it is a
 
 <a href="/files/beam-accept-connections-leopard.png"><img src="/files/beam-accept-connections-leopard-tm.jpg" height="109" width="258" border="1" hspace="4" vspace="4" alt="Beam-Accept-Connections-Leopard" /></a>
 
-Then access the CouchDb <a href="http://bergie.iki.fi/blog/couchdb_0-7-0_is_out.html">management console</a> in <a href="http://localhost:5984/_utils/">http://localhost:5984/_utils/</a> and go to &quot;Replication&quot;. Set up the replication paths there. The database you're interested in is &quot;<em>ajatus_db_content</em>&quot; (by default, see <a href="http://www.ajatus.info/documentation/installation/#d3f49ff7e6e57d0a1a3671214fc1681a">advanced setup</a>):
+Then access the CouchDb <a href="http://bergie.iki.fi/blog/couchdb_0-7-0_is_out/">management console</a> in <a href="http://localhost:5984/_utils/">http://localhost:5984/_utils/</a> and go to &quot;Replication&quot;. Set up the replication paths there. The database you're interested in is &quot;<em>ajatus_db_content</em>&quot; (by default, see <a href="http://www.ajatus.info/documentation/installation/#d3f49ff7e6e57d0a1a3671214fc1681a">advanced setup</a>):
 
 <a href="/files/ajatus-replication-setup.png"><img src="/files/ajatus-replication-setup-tm.jpg" height="104" width="398" border="1" hspace="4" vspace="4" alt="Ajatus-Replication-Setup" /></a>
 

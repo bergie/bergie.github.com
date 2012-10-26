@@ -18,8 +18,8 @@ I was sitting in a meeting about three hours before the flight and suddenly got 
 
 At the airport I then dropped my bag to a luggage drop point, and just walked to the gate. No boarding passes or any other papers beside my passport were needed. And few hours later I was in central Manchester, looking for <a href="http://www.plazes.com/plazes/106829:hotel_britannia">a hotel</a>.
 
-This is a very good way of providing an SMS service. The <a href="http://bergie.iki.fi/blog/bad_taxi_day.html">usual way these services work</a> is that the user has to remember a number and an <a href="http://www.rekaksois.com/keskustelu/showthread.php?threadid=216">obscure syntax</a> for typing the request. On Finnair's service this is not required as the SMS service is initiated from the service provider's end and user is clearly told what to do if they want to continue. Opting out is done by just ignoring the message.
+This is a very good way of providing an SMS service. The <a href="http://bergie.iki.fi/blog/bad_taxi_day/">usual way these services work</a> is that the user has to remember a number and an <a href="http://www.rekaksois.com/keskustelu/showthread.php?threadid=216">obscure syntax</a> for typing the request. On Finnair's service this is not required as the SMS service is initiated from the service provider's end and user is clearly told what to do if they want to continue. Opting out is done by just ignoring the message.
 
-And since probably most recipients of the message will find it useful, it doesn't <a href="http://bergie.iki.fi/blog/motorcycles-and-targeted-marketing.html">get considered SMS spam</a>.
+And since probably most recipients of the message will find it useful, it doesn't <a href="http://bergie.iki.fi/blog/motorcycles-and-targeted-marketing/">get considered SMS spam</a>.
 
 <p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/aviation" rel="tag">aviation</a>, <a href="http://www.technorati.com/tag/finnair" rel="tag">finnair</a>, <a href="http://www.technorati.com/tag/sms" rel="tag">sms</a>, <a href="http://www.technorati.com/tag/travel" rel="tag">travel</a></p>

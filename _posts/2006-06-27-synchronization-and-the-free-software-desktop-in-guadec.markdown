@@ -37,4 +37,4 @@ __In the other news,__ due to the [big badge swap][2] of last night, I'm current
 [6]: http://guadec.org/node/248
 [7]: http://www.victorbalaguer-bmb.org/biblio.htm
 [8]: http://maemo.org/
-[9]: http://bergie.iki.fi/blog/maemo-mapper-takes-us-closer-to-the-hitchhiker-s-guide.html
+[9]: http://bergie.iki.fi/blog/maemo-mapper-takes-us-closer-to-the-hitchhiker-s-guide/

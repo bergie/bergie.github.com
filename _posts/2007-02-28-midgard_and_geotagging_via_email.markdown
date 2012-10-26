@@ -51,7 +51,7 @@ __Updated:__ There is [even a wiki][13] for formalizing [machine tagging convent
 [8]: http://georss.org/
 [9]: http://www.midgard-project.org/documentation/reference-parameter/
 [10]: http://en.wikipedia.org/wiki/Tag_%28metadata%29
-[11]: http://bergie.iki.fi/blog/the-midgard-position.html
+[11]: http://bergie.iki.fi/blog/the-midgard-position/
 [12]: http://microformats.org/wiki/geo
 [13]: http://www.machinetags.org/wiki/Main_Page
 [14]: http://ebiquity.umbc.edu/blogger/2007/01/28/rise-of-the-machine-tags/

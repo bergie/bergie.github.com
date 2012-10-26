@@ -29,5 +29,5 @@ __Updated:__ There is a Midgard documentation page about [Microformat usage in M
 [5]: http://www.apple.com/macosx/features/addressbook/
 [6]: http://www.apple.com/macosx/features/ical/
 [7]: http://blog.codeeg.com/tails-firefox-extension-03/creating-a-tails-script/
-[8]: http://bergie.iki.fi/blog/openpsa-calendar-goes-horizontal.html
+[8]: http://bergie.iki.fi/blog/openpsa-calendar-goes-horizontal/
 [9]: http://www.midgard-project.org/documentation/microformat-usage-in-midcom/

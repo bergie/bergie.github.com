@@ -80,7 +80,7 @@ This part will probably improve when I move the site to [FTC's][14] Midgard host
 [7]: http://www.geonames.org/export/
 [8]: http://beta.plazes.com/user/bergie/
 [9]: http://www.partow.net/miscellaneous/airportdatabase/
-[10]: http://bergie.iki.fi/blog/setting_adium_status_from_a_microsummary.html
+[10]: http://bergie.iki.fi/blog/setting_adium_status_from_a_microsummary/
 [11]: http://microformats.org/wiki/geo
 [12]: http://georss.org/simple.html
 [13]: http://mapufacture.com/georss/map/show/370
@@ -92,7 +92,7 @@ This part will probably improve when I move the site to [FTC's][14] Midgard host
 [19]: http://bergie.iki.fi/blog/category/midgard
 [20]: http://www.iki.fi/index.html
 [21]: http://bergie.iki.fi/blog/category/openpsa
-[22]: http://bergie.iki.fi/blog/the-midgard-position.html
+[22]: http://bergie.iki.fi/blog/the-midgard-position/
 [23]: http://bergie.iki.fi/gallery/photostream/list/bergie/
 [24]: http://openid.net/
 [25]: http://www.openidenabled.com/software

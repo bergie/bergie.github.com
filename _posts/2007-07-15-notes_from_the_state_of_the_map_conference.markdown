@@ -93,7 +93,7 @@ See also [Mikel Maron's][22] or [Andrew Turner's][25] conference notes and the [
 [17]: http://www.leica-geosystems.com/uk/en/lgs_4231.htm
 [18]: http://wiki.openstreetmap.org/index.php/Planet.osm
 [19]: http://wiki.openstreetmap.org/index.php/Beginners%27_Guide
-[20]: http://bergie.iki.fi/blog/maemo_mapper-openstreetmap_and_wikipedia.html
+[20]: http://bergie.iki.fi/blog/maemo_mapper-openstreetmap_and_wikipedia/
 [21]: http://www.slideshare.net/ajturner/geoclue-state-of-the-map-2007/
 [22]: http://brainoff.com/weblog/2007/07/16/1258
 [23]: http://flickr.com/photos/chrisfleming/822333479/in/photostream/

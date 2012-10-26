@@ -8,7 +8,7 @@
 
 ---
 <p>
-I've posted about <a href="http://bergie.iki.fi/blog/midgard_releases_and_marketing.html">new directions needed</a> for Midgard's release coordination and marketing. After <a href="http://www.midgard-project.org/discussion/developer-forum/midgard_releases-marketing_and_documentation/">some discussion</a>, I think it is time to <a href="http://www.midgard-project.org/discussion/developer-forum/vote-midgard_release_synchronicity/">vote</a> and make decisions.
+I've posted about <a href="http://bergie.iki.fi/blog/midgard_releases_and_marketing/">new directions needed</a> for Midgard's release coordination and marketing. After <a href="http://www.midgard-project.org/discussion/developer-forum/midgard_releases-marketing_and_documentation/">some discussion</a>, I think it is time to <a href="http://www.midgard-project.org/discussion/developer-forum/vote-midgard_release_synchronicity/">vote</a> and make decisions.
 </p><p>
 <a href="http://www.midgard-project.org/discussion/developer-forum/vote-midgard_release_synchronicity/">The proposal</a> is to switch to synchronized releases. This would make development more predictable, <a href="http://nettiapina.fi/blog/2008/07/17/marketing-midgard/">marketing efforts</a> clearer and more focused, and align us with the <a href="http://www.markshuttleworth.com/archives/150">release synchronicity movement</a> implemented in related projects like <a href="http://www.gnome.org/">GNOME</a> and <a href="http://www.ubuntu.com/">Ubuntu</a>.
 </p><p>

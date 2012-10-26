@@ -17,7 +17,7 @@ For now the notification manager supports only emailing or disabling notices, bu
 
 The inspiration for creating a sane way to manage notices was the silly amount of [informational popups][9] provided by the [Hearts of Iron][8] strategy game we played yesterday after sauna.
 
-[1]: http://www.bergie.iki.fi/blog/openpsa2--minor-features-matter.html
+[1]: http://www.bergie.iki.fi/blog/openpsa2--minor-features-matter/
 [2]: http://pear.midcom-project.org/index.php?package=org_openpsa_notifications&release=0.0.1&downloads
 [3]: http://www.openpsa.org/version2/
 [4]: http://www.openpsa.org/version2/openpsa/calendar.html

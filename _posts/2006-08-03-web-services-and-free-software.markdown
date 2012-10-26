@@ -18,7 +18,7 @@ Later, if [free peer-to-peer services][8] for similar functionalities emerge we 
 [2]: http://www.oreillynet.com/pub/a/oreilly/tim/news/2005/09/30/what-is-web-20.html
 [3]: http://www.gnu.org/philosophy/free-sw.html
 [4]: http://www.tigert.com/
-[5]: http://bergie.iki.fi/blog/synchronization-and-the-free-software-desktop-in-guadec.html
+[5]: http://bergie.iki.fi/blog/synchronization-and-the-free-software-desktop-in-guadec/
 [6]: http://www.tbray.org/ongoing/When/200x/2006/07/28/Open-Data
 [7]: http://www.gnome.org/
 [8]: http://gondwanaland.com/mlog/2006/07/28/free-software-p2p/

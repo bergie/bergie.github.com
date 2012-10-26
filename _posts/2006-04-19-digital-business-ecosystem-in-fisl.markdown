@@ -240,7 +240,7 @@ __Updated 2006-04-21:__ The [Portland Project][5] is another interesting example
 
 [1]: http://www.digital-ecosystem.org/
 [2]: http://fisl.softwarelivre.org/7.0/www/?q=en
-[3]: http://bergie.iki.fi/blog/in-brazil-now.html
+[3]: http://bergie.iki.fi/blog/in-brazil-now/
 [4]: http://bergie.iki.fi/midcom-serveattachmentguid-e5a20dc78350df7393d9216e8dcb6d95/openpsa-dbe-2006-04-19.pdf
 [5]: http://portland.freedesktop.org/wiki/
 [6]: http://www.desktoplinux.com/news/NS2649626642.html

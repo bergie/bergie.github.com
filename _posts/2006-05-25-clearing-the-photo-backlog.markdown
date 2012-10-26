@@ -38,8 +38,8 @@ If you have an RSS reader or iPhoto, you can [subscribe to my picture feed][17] 
 [1]: http://bergie.iki.fi/gallery/
 [2]: http://www.flickr.com/photos/bergie/
 [3]: http://connectedflow.com/flickrexport/
-[4]: http://bergie.iki.fi/blog/iphoto--photocasting-and-standards.html
-[5]: http://bergie.iki.fi/blog/getting-my-morning-news.html
+[4]: http://bergie.iki.fi/blog/iphoto--photocasting-and-standards/
+[5]: http://bergie.iki.fi/blog/getting-my-morning-news/
 [6]: http://www.midgard-project.org/
 [7]: http://www.phpflickr.com/
 [8]: http://www.apple.com/ilife/iphoto/

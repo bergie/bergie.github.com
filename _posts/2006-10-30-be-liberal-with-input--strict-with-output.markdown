@@ -18,9 +18,9 @@ __Note:__ This change of approach also means that Midgard can communicate with [
 
 [1]: http://www.midgard-project.org/
 [2]: http://www.georss.org/
-[3]: http://bergie.iki.fi/blog/contact-management-in-semantic-web.html
+[3]: http://bergie.iki.fi/blog/contact-management-in-semantic-web/
 [4]: http://pear.midcom-project.org/index.php?package=org_routamc_positioning&release=1.1.0&downloads
-[5]: http://bergie.iki.fi/blog/the-midgard-position.html
+[5]: http://bergie.iki.fi/blog/the-midgard-position/
 [6]: http://www.digitaltrailblazer.com/2006/08/whats_the_geors.html
 [7]: http://highearthorbit.com/
 [8]: http://live.gnome.org/GeoClue

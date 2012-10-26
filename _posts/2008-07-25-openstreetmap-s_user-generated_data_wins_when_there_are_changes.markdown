@@ -7,7 +7,7 @@
 
 ---
 <p>
-I've <a href="http://bergie.iki.fi/blog/openstreetmap_helsinki_is_getting_pretty_good.html">blogged</a> about <a href="http://www.openstreetmap.org/">OpenStreetMap</a>, the <a href="http://wiki.openstreetmap.org/index.php/Main_Page">user-generated open content</a> map service, before. Having <a href="http://wiki.openstreetmap.org/index.php/Protocol">electronic map data</a> freely available will <a href="http://bergie.iki.fi/blog/notes_from_the_state_of_the_map_conference.html">enable completely new solutions</a> for navigation and experiencing our surroundings.
+I've <a href="http://bergie.iki.fi/blog/openstreetmap_helsinki_is_getting_pretty_good/">blogged</a> about <a href="http://www.openstreetmap.org/">OpenStreetMap</a>, the <a href="http://wiki.openstreetmap.org/index.php/Main_Page">user-generated open content</a> map service, before. Having <a href="http://wiki.openstreetmap.org/index.php/Protocol">electronic map data</a> freely available will <a href="http://bergie.iki.fi/blog/notes_from_the_state_of_the_map_conference/">enable completely new solutions</a> for navigation and experiencing our surroundings.
 </p><p>
 Being <a href="http://www.blacksworld.net/blog/2007/09/30/foss4g-openstreetmap-slides/">user-generated</a>, OpenStreetMap can cope with changing environment in a much better way than the proprietary offerings. For instance:
 </p><p>

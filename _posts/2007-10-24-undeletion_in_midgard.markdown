@@ -5,7 +5,7 @@
   layout: "post"
 
 ---
-A trash can feature for Midgard was discussed originally in the <a href="http://bergie.iki.fi/blog/midgard-developer-meeting-in-komorniki.html#8b7051187b9191cdcdae6ed5a10e5adc">2006 Komorniki Midgard developer meeting</a>, and the <a href="http://www.midgard-project.org/documentation/mgdschema-method-undelete/">APIs for it</a> made their way into the <a href="http://www.midgard-project.org/midgard/1.8/">1.8.0 release</a>. Yesterday I added trash can browsing and undeletion support into <a href="http://bergie.iki.fi/blog/building_a_new_admin_interface_for_midgard.html">Asgard</a>, the new administrative interface.
+A trash can feature for Midgard was discussed originally in the <a href="http://bergie.iki.fi/blog/midgard-developer-meeting-in-komorniki/#8b7051187b9191cdcdae6ed5a10e5adc">2006 Komorniki Midgard developer meeting</a>, and the <a href="http://www.midgard-project.org/documentation/mgdschema-method-undelete/">APIs for it</a> made their way into the <a href="http://www.midgard-project.org/midgard/1.8/">1.8.0 release</a>. Yesterday I added trash can browsing and undeletion support into <a href="http://bergie.iki.fi/blog/building_a_new_admin_interface_for_midgard/">Asgard</a>, the new administrative interface.
 
 To use it, first delete a folder:
 

@@ -18,7 +18,7 @@ So far these have been stationary, but now [Helsinki City Transport][4] is pilot
 
 Great! Now the only question remaining is how to mark a moving hotspot [in Plazes][6].
 
-[1]: http://bergie.iki.fi/blog/historical_helsinki-malmi_airport_threatened.html
+[1]: http://bergie.iki.fi/blog/historical_helsinki-malmi_airport_threatened/
 [2]: http://www.hel.fi/wps/portal/Helsinki_en/Artikkeli?WCM_GLOBAL_CONTEXT=/en/Helsinki/City+government/City+administration+and+economy/Transactions/WLAN/WLAN
 [3]: http://en.wikipedia.org/wiki/Helsinki
 [4]: http://www.hel.fi/wps/portal/HKL_en/?WCM_GLOBAL_CONTEXT=/en/Helsinki+City+transport/

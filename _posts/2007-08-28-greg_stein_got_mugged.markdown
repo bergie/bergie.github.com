@@ -14,7 +14,7 @@
 <p>A few weeks prior, he broke one of his legs and had been on crutches when these guys decided to beat the hell out of him.</p>
 <p>What did they get? One hundred dollars and a credit card.</p></blockquote>Ouch.
 
-When I got <a href="http://bergie.iki.fi/blog/when_a_holiday_gets-interesting.html">drugged and robbed in Czech Republic</a> last June, I was quite down because of it for weeks. I'm sure getting mugged is even worse. So, to cheer him up, some people have started <a href="http://factoryjoe.com/blog/2007/08/27/how-do-we-take-care-of-each-other/">a PayPal fundraiser</a> to send him on a holiday. Overflow will be donated to Apache Software Foundation.
+When I got <a href="http://bergie.iki.fi/blog/when_a_holiday_gets-interesting/">drugged and robbed in Czech Republic</a> last June, I was quite down because of it for weeks. I'm sure getting mugged is even worse. So, to cheer him up, some people have started <a href="http://factoryjoe.com/blog/2007/08/27/how-do-we-take-care-of-each-other/">a PayPal fundraiser</a> to send him on a holiday. Overflow will be donated to Apache Software Foundation.
 
 I know Greg from the <a href="http://www.oscom.org/">OSCOM</a> circles, and it really sucks that this happened to him.
 

@@ -12,7 +12,7 @@ Regular users can mark posts as abuse (the message shown is a regular spam mail 
 
 <a href="/files/net_nemein_discussion_report_abuse.png"><img src="/files/net_nemein_discussion_report_abuse-tm.jpg" height="283" width="400" border="1" hspace="4" vspace="4" alt="Net Nemein Discussion Report Abuse" /></a>
 
-Moderators will get an email (or whatever medium they have selected for receiving notifications, including a <a href="http://bergie.iki.fi/blog/meet_nabaztag-our_new_general_manager.html">Nabaztag WiFi bunny</a>) and can see all messages marked as abuse in the moderation view:
+Moderators will get an email (or whatever medium they have selected for receiving notifications, including a <a href="http://bergie.iki.fi/blog/meet_nabaztag-our_new_general_manager/">Nabaztag WiFi bunny</a>) and can see all messages marked as abuse in the moderation view:
 
 <a href="/files/net_nemein_discussion_moderate.png"><img src="/files/net_nemein_discussion_moderate-tm.jpg" height="398" width="400" border="1" hspace="4" vspace="4" alt="Net Nemein Discussion Moderate" /></a>
 

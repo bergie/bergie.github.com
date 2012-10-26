@@ -22,9 +22,9 @@ Great to see that CMS Watch is still actively monitoring [Midgard][7]. Their sit
 [3]: http://www.midgard-project.org/updates/midgard-1-7-6--fotomodelo--released-.html
 [4]: http://www.cmswatch.com/Feature/123-Java-Repository-Spec
 [5]: http://www.midgard-project.org/documentation/installation-authentication/
-[6]: http://bergie.iki.fi/blog/midgard_as_the_modern-day_hansa.html
+[6]: http://bergie.iki.fi/blog/midgard_as_the_modern-day_hansa/
 [7]: http://www.midgard-project.org/
-[8]: http://bergie.iki.fi/blog/cms-watch-kudos-of-2005.html
+[8]: http://bergie.iki.fi/blog/cms-watch-kudos-of-2005/
 [9]: http://www.kaktus.cc/weblog/midcom-ajax-user-interface.html
 [10]: http://www.midgard-project.org/discussion/developer-forum/for-a-more-polished-midgard-release/
 [11]: http://www.midgard-project.org/documentation/midcom/

@@ -12,5 +12,5 @@
 <img src="/files/volkswagen-1-liter.jpg" height="266" width="400" border="1" hspace="4" vspace="4" alt="Volkswagen 1 liter" title="Volkswagen 1 liter" /></p><p>
 It provides the combination of compactness and fuel economy that usually only motorcycles reach, and at the same time protects <a href="http://www.routamc.org/europe2007/view/riding-horses-made-of-steel.html">from the elements</a>. As I've always loved the old <a href="http://en.wikipedia.org/wiki/Messerschmitt_KR200">Messerschmitt mini-cars</a> it resembles I may be strongly tempted when it comes out. 
 </p><p>
-At one liter, the mileage is even better than with my current extremely economical <a href="http://bergie.iki.fi/blog/royal_enfield-built_like_a_gun.html">Royal Enfield</a>...
+At one liter, the mileage is even better than with my current extremely economical <a href="http://bergie.iki.fi/blog/royal_enfield-built_like_a_gun/">Royal Enfield</a>...
 </p>

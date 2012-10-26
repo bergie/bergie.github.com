@@ -16,5 +16,5 @@ Now, this one has been on my TODO list [for a while][1]:
 
 [Trip to LatinoWare and OpenBeach 2005, and the Nivea Sun sailing race in Brazil][2]
 
-[1]: http://bergie.iki.fi/blog/updates-from-florianopolis.html
+[1]: http://bergie.iki.fi/blog/updates-from-florianopolis/
 [2]: http://www.flickr.com/photos/bergie/sets/72157594408754436/

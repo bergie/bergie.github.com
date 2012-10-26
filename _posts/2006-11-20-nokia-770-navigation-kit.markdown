@@ -24,7 +24,7 @@ __Updated 2006-11-27:__ [Navigation kit review by pycage][10], via [Andrew Turne
 [4]: http://www.navicoretech.com/Consumer/Support/FAQ/770/en_GB/770/#a_element_76217353840296102
 [5]: http://planet.maemo.org/
 [6]: http://live.gnome.org/GeoClue
-[7]: http://bergie.iki.fi/blog/maemo-mapper-takes-us-closer-to-the-hitchhiker-s-guide.html
+[7]: http://bergie.iki.fi/blog/maemo-mapper-takes-us-closer-to-the-hitchhiker-s-guide/
 [8]: http://www.fsfeurope.org/documents/freesoftware.en.html
 [9]: http://www.elabs7.com/c.html?rtr=on&s=av3m,11m6,281,751m,2wc,iyqh,6nzx
 [10]: http://www.advogato.org/person/pycage/diary.html?start=46

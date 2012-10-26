@@ -29,7 +29,7 @@ Offline data access is especially important for mobile devices, which is why I f
 So, in my view offline capability is still very important for any application that is useful when traveling. Internet access may be quite well available inside cities, but still in countryside or in tunnels connection can be really bad. If development tools like Midgard make building offline functionality into apps easier this will hopefully become more common.
 
 [1]: http://www.37signals.com/svn/posts/347-youre-not-on-a-fucking-plane-and-if-you-are-it-doesnt-matter
-[2]: http://bergie.iki.fi/blog/finding-resources-automatically-in-openpsa.html
+[2]: http://bergie.iki.fi/blog/finding-resources-automatically-in-openpsa/
 [3]: http://beech.vcu.edu/lspace/notesr5/mcenter.nsf/8214739e835361d18525630600486645/852567e200589e568525679e004d2a9d?OpenDocument
 [4]: http://en.wikipedia.org/wiki/SyncML
 [5]: http://www-128.ibm.com/developerworks/xml/library/x-syncml3.html
@@ -37,10 +37,10 @@ So, in my view offline capability is still very important for any application th
 [7]: http://en.wikipedia.org/wiki/Internet_Message_Access_Protocol
 [8]: http://en.wikipedia.org/wiki/WebDAV
 [9]: http://www.conduit-project.org/
-[10]: http://bergie.iki.fi/blog/midgard-replication-service-starts-to-shape-up.html
+[10]: http://bergie.iki.fi/blog/midgard-replication-service-starts-to-shape-up/
 [11]: http://www.midgard-project.org/documentation/php-midgard_replicator/
 [12]: http://www.opensync.org/
-[13]: http://bergie.iki.fi/blog/midgard-managing_free_software_project_as_a_joint_venture.html
+[13]: http://bergie.iki.fi/blog/midgard-managing_free_software_project_as_a_joint_venture/
 [14]: http://www.sitepen.com/blog/2007/01/02/the-dojo-offline-toolkit/
 [15]: http://www.zimbra.com/blog/archives/2006/11/taking_zimbra_offline.html
 [16]: http://blogs.zdnet.com/BTL/?p=2298
@@ -48,7 +48,7 @@ So, in my view offline capability is still very important for any application th
 [18]: http://downloads.maemo.org/product/canola/
 [19]: https://garage.maemo.org/tracker/index.php?func=detail&aid=229&group_id=125&atid=532
 [20]: http://www.engadget.com/2007/03/27/nokia-and-real-adda-rhapsody-to-the-n800/
-[21]: http://bergie.iki.fi/blog/first_look_at_rhapsody_for_n800.html
+[21]: http://bergie.iki.fi/blog/first_look_at_rhapsody_for_n800/
 [22]: http://www.internettablettalk.com/forums/showthread.php?t=4793
 [23]: http://downloads.maemo.org/product/maemo-mapper/
 [24]: http://www.flickr.com/photos/bergie/sets/72157600010088557/

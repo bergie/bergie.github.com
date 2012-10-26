@@ -5,7 +5,7 @@
   layout: "post"
 
 ---
-When this <a href="http://bergie.iki.fi/blog/meet_nabaztag-our_new_general_manager.html">bunny joined our company</a>, I wrote that the plan was to make our CRM system talk to the <a href="http://en.wikipedia.org/wiki/Nabaztag">Nabaztag</a>. Today the first step was taken by making a <a href="http://pear.php.net/pepr/pepr-proposal-show.php?id=463">Nabaztag notifier</a> plugin for the org.openpsa.notifications library.
+When this <a href="http://bergie.iki.fi/blog/meet_nabaztag-our_new_general_manager/">bunny joined our company</a>, I wrote that the plan was to make our CRM system talk to the <a href="http://en.wikipedia.org/wiki/Nabaztag">Nabaztag</a>. Today the first step was taken by making a <a href="http://pear.php.net/pepr/pepr-proposal-show.php?id=463">Nabaztag notifier</a> plugin for the org.openpsa.notifications library.
 
 After this I was able to tell my test <a href="http://www.openpsa.org/">OpenPsa</a> system to forward all <a href="http://www.midgard-project.org/documentation/net-nemein-wiki/">wiki page</a> update notifications to the bunny:
 

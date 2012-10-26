@@ -56,10 +56,10 @@ The new MWS editions are edited collaboratively to make the editing burden easie
 [10]: http://www.kaktus.cc/weblog/new-features-in--personnel--component.html
 [11]: http://www.midgard-project.org/documentation/reference-components-net.nemein.personnel/
 [12]: http://pear.midcom-project.org/index.php?package=net_nemein_personnel&release=1.0.0beta10&downloads
-[13]: http://bergie.iki.fi/blog/midgard-in-2007--the-year-of-the-web-developer.html
+[13]: http://bergie.iki.fi/blog/midgard-in-2007--the-year-of-the-web-developer/
 [14]: http://www.nemein.com/people/piotras/view/1172609810.html
 [15]: http://www.midgard-project.org/development/roadmap/1-9/
 [16]: http://www.php.net/UPDATE_5_2.txt
-[17]: http://bergie.iki.fi/blog/midgard_and_geotagging_via_email.html
-[18]: http://bergie.iki.fi/blog/the-midgard-position.html
+[17]: http://bergie.iki.fi/blog/midgard_and_geotagging_via_email/
+[18]: http://bergie.iki.fi/blog/the-midgard-position/
 [19]: http://www.georss.org/blog/?p=44

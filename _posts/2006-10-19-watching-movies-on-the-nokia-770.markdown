@@ -19,9 +19,9 @@ Now what remains to be seen is how long the battery of the Nokia device lasts wh
 
 __Updated 2006-10-22:__ I watched the 30s classic aviation film [Hell's Angels][6] on a train ride from Helsinki to Turku yesterday. The movie was definitely watchable on the 770 screen, and the 2 hour trip used one fourth of the battery (as shown by the indicator).
 
-[1]: http://bergie.iki.fi/blog/switching-to-intel-macbook.html
+[1]: http://bergie.iki.fi/blog/switching-to-intel-macbook/
 [2]: http://www.openmind.fi/
 [3]: http://maemo.org/maemowiki/VideoEncoding
 [4]: http://handbrake.m0k.org/
-[5]: http://bergie.iki.fi/blog/first-day-with-nokia-770.html
+[5]: http://bergie.iki.fi/blog/first-day-with-nokia-770/
 [6]: http://en.wikipedia.org/wiki/Hell%27s_Angels_%28movie%29

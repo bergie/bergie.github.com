@@ -7,7 +7,7 @@
 
 ---
 <p>
-Since late 2006 <a href="http://en.wikipedia.org/wiki/Finland">Finland</a> has been quietly <a href="http://www.effi.org/blog/kai-2008-02-18.html">enacting its own form of Internet censorship</a>, a practice more typically connected with <a href="http://en.wikipedia.org/wiki/Internet_censorship_in_the_People%27s_Republic_of_China">various oppressive regimes</a>, and not with a <a href="http://bergie.iki.fi/blog/black_box_voting_comes_to_finland.html">democratic country</a>.
+Since late 2006 <a href="http://en.wikipedia.org/wiki/Finland">Finland</a> has been quietly <a href="http://www.effi.org/blog/kai-2008-02-18.html">enacting its own form of Internet censorship</a>, a practice more typically connected with <a href="http://en.wikipedia.org/wiki/Internet_censorship_in_the_People%27s_Republic_of_China">various oppressive regimes</a>, and not with a <a href="http://bergie.iki.fi/blog/black_box_voting_comes_to_finland/">democratic country</a>.
 </p><p>
 The Finnish variation is a DNS blocking system <a href="http://www.edri.org/edrigram/number3.18/censorshipFinland">ostensibly targeted</a> at child porn. The system is however very dubiously implemented using secret block lists maintained by the police, and it blocks access to many <a href="http://www.effi.org/blog/kai-2008-02-18.html#what-is-censored">sites that contain fully legal content</a>. A <a href="http://www.hs.fi/english/article/1135234057449">well-known case</a> is the police blocking access to the <a href="http://lapsiporno.info/">website of Matti Nikki</a>, an anti-censorship activist. 
 </p><p>

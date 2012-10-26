@@ -23,5 +23,5 @@ __Updated:__ Here is a screenshot of the credits screen. The data there is gener
 [2]: http://www.midgard-project.org/midgard/1.7/
 [3]: http://www.msjlruneberg.fi/index_eng.html
 [4]: http://tango.freedesktop.org/Tango_Icon_Library
-[5]: http://bergie.iki.fi/blog/big-changes-in-the-midcom-project.html
+[5]: http://bergie.iki.fi/blog/big-changes-in-the-midcom-project/
 [6]: http://www.midgard-project.org/midcom-permalink-a49e6562d06a3ce713e88e268ca66ab0

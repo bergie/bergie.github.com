@@ -49,7 +49,7 @@ __Edd Dumbill__ is thinking about [opinionated software][19]:
 Good stuff to think about as we prepare for Midgard 2.
 
 [1]: http://www.solisc.org.br/index.php
-[2]: http://bergie.iki.fi/blog/digital-business-ecosystem-slides-from-curitiba.html
+[2]: http://bergie.iki.fi/blog/digital-business-ecosystem-slides-from-curitiba/
 [3]: http://www.softwarelivresc.org.br/tiki-read_article.php?articleId=19
 [4]: http://www.gnome.org/
 [5]: http://www.openbeach.org.br/current/

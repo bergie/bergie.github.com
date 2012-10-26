@@ -7,7 +7,7 @@
 
 ---
 <p>
-I've been using my N810 as <a href="http://bergie.iki.fi/blog/the_universal_communicator.html">sort of an universal communicator</a> for a while now, and for this it has generally served well. The only thing I really miss is <a href="http://www.internettablettalk.com/2007/12/13/why-the-nokia-n810-isnt-on-times-top-10-gadgets-of-the-year/">Skype video calls</a>.
+I've been using my N810 as <a href="http://bergie.iki.fi/blog/the_universal_communicator/">sort of an universal communicator</a> for a while now, and for this it has generally served well. The only thing I really miss is <a href="http://www.internettablettalk.com/2007/12/13/why-the-nokia-n810-isnt-on-times-top-10-gadgets-of-the-year/">Skype video calls</a>.
 </p><p>
 But other than that, I haven't been using the tablet too much. In real-world usage I've found <a href="http://tabletui.wordpress.com/2008/02/03/tablet-heart-web-browser-part-i/">the browser</a> way too unresponsive, and the RSS reader <a href="http://www.internettablettalk.com/forums/showthread.php?t=13252">too limited</a>. But now, thanks to two very promising projects the tablet is becoming fun again:
 </p><p>

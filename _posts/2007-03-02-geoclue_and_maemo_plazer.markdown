@@ -6,7 +6,7 @@
   layout: "post"
 
 ---
-We had another <a href="http://bergie.iki.fi/blog/plazes_on_the_n800.html">Maemo hacking night</a> here at the office. The plan was to write a proper UI for the <a href="http://downloads.maemo.org/product/maemoplazer/">Maemo Plazer</a>, and integrate it with the <a href="http://live.gnome.org/GeoClue">GeoClue</a> framework. Both of these were partially completed, but will need more thought and testing. Here's a quick snapshot of the new UI:
+We had another <a href="http://bergie.iki.fi/blog/plazes_on_the_n800/">Maemo hacking night</a> here at the office. The plan was to write a proper UI for the <a href="http://downloads.maemo.org/product/maemoplazer/">Maemo Plazer</a>, and integrate it with the <a href="http://live.gnome.org/GeoClue">GeoClue</a> framework. Both of these were partially completed, but will need more thought and testing. Here's a quick snapshot of the new UI:
 
 <img src="/files/maemoplazer-ui-initial.jpg" height="240" width="400" border="1" hspace="4" vspace="4" alt="Maemoplazer-Ui-Initial" /><span style="font-size:0pt;">
 

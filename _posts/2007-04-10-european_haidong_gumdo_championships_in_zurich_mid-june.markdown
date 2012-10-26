@@ -12,7 +12,7 @@
 
 <img src="/files/hdgd-eu-championships-poster-small.jpg" height="368" width="400" border="1" hspace="4" vspace="4" alt="Hdgd-Eu-Championships-Poster-Small" />
 
-The current plan is to ride to Zürich with <a href="http://bergie.iki.fi/blog/royal_enfield-built_like_a_gun.html">my new Enfield</a>, and then enjoy the alps for a week or two afterwards.
+The current plan is to ride to Zürich with <a href="http://bergie.iki.fi/blog/royal_enfield-built_like_a_gun/">my new Enfield</a>, and then enjoy the alps for a week or two afterwards.
 
 <strong>In related news,</strong> there are some nice new videos from our Haidong Gumdo club: <a href="http://www.youtube.com/watch?v=pqdGiSqKbGs">paper cutting</a>, <a href="http://www.youtube.com/watch?v=oLy_rCveRZM">swordfighting display</a> and <a href="http://video.google.com/videoplay?docid=-7279634482235012752&amp;hl=en">full HDGD demonstration</a>.
 

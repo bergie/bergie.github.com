@@ -6,7 +6,7 @@
   layout: "post"
 
 ---
-I've blogged earlier on how <a href="http://bergie.iki.fi/blog/contact-management-in-semantic-web.html" title="Contact management in semantic web">OpenPsa 2 can utilize information pulled from the websites</a> of organizations and persons entered into the system.
+I've blogged earlier on how <a href="http://bergie.iki.fi/blog/contact-management-in-semantic-web/" title="Contact management in semantic web">OpenPsa 2 can utilize information pulled from the websites</a> of organizations and persons entered into the system.
 
 Today I added support for populating <a href="http://microformats.org/wiki/hcard" title="hCard Microformat">Microformatted contact information</a> pulled using the nice <a href="http://allinthehead.com/hkit" title="Microformat library for PHP">hKit library</a>. To use this feature simply create or edit a company and add their website URL:
 

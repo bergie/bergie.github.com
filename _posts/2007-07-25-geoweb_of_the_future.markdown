@@ -27,6 +27,6 @@ Via [Boing Boing][7].
 [6]: http://geoclue.freedesktop.org/
 [7]: http://www.boingboing.net/2007/07/23/bruce_sterlings_fict.html
 [8]: http://www.xmpp.org/extensions/xep-0080.html
-[9]: http://bergie.iki.fi/blog/jaiku-personal_presence_aggregator.html
+[9]: http://bergie.iki.fi/blog/jaiku-personal_presence_aggregator/
 [10]: http://www.gnome.org/mobile/
 [11]: http://en.wikipedia.org/wiki/Japanese_mobile_phone_culture

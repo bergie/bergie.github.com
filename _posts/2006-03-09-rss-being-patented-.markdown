@@ -23,4 +23,4 @@ Via [Miguel de Icaza][4].
 [6]: http://en.wikipedia.org/wiki/Channel_Definition_Format
 [7]: http://en.wikipedia.org/wiki/Active_Desktop
 [8]: http://en.wikipedia.org/wiki/Prior_art
-[9]: http://bergie.iki.fi/blog/iphoto--photocasting-and-standards.html
+[9]: http://bergie.iki.fi/blog/iphoto--photocasting-and-standards/

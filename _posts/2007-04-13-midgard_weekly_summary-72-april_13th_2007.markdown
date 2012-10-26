@@ -44,14 +44,14 @@ The new MWS editions are edited collaboratively to make the editing burden easie
 [3]: http://www.flickr.com/photos/tags/midgardweeklysummary
 [4]: http://www.midgard-project.org/community/events/midgard_developer_meeting.html
 [5]: http://www.tapaturmapaiva.fi/english
-[6]: http://bergie.iki.fi/blog/resource-bookings-with-midgard.html
+[6]: http://bergie.iki.fi/blog/resource-bookings-with-midgard/
 [7]: http://www.midgard-project.org/updates/mws/view/5d271c3deebbce12fbfcfb1da1efcdbe.html
 [8]: http://www.kaktus.cc/weblog/view/1176379192.html
 [9]: http://www.midgard-project.org/documentation/staging-live-setup-with-exorcist/
 [10]: http://www.midgard-project.org/documentation/php-midgard_replicator/
-[11]: http://bergie.iki.fi/blog/more_work_on_midgard-s_replication_service.html
+[11]: http://bergie.iki.fi/blog/more_work_on_midgard-s_replication_service/
 [12]: http://www.midgard-project.org/documentation/staging_to_live_setup_with_midcom/
 [13]: http://www.nemein.com/people/piotras/view/1176378122.html
 [14]: http://www.nemein.com/people/piotras/view/1176379145.html
-[15]: http://bergie.iki.fi/blog/midgard-in-2007--the-year-of-the-web-developer.html
+[15]: http://bergie.iki.fi/blog/midgard-in-2007--the-year-of-the-web-developer/
 [16]: http://www.midgard-project.org/documentation/concepts-repligard/

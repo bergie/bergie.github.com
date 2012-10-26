@@ -19,13 +19,13 @@ Makasiinit had been the subject of a long and [typical][7] political struggle. A
 
 Quite often it is the [cool buildings][1] that must perish.
 
-[1]: http://bergie.iki.fi/blog/2004-05-26-000.html
+[1]: http://bergie.iki.fi/blog/2004-05-26-000/
 [2]: http://www.kangastus.org/makasiinit/
 [3]: http://www.hs.fi/kaupunki/artikkeli/Poliisi+edistynyt+makasiinien+palon+tutkinnassa/1135219791677
 [4]: http://en.wikipedia.org/wiki/The_Abduction_from_the_Seraglio
 [5]: http://bergie.iki.fi/moblog/2006-05-05-1146856203
 [6]: http://www.greywolves.org/kuvat/Keskiaikaiset_Karnevaalit-98.html
-[7]: http://bergie.iki.fi/blog/historical_helsinki-malmi_airport_threatened.html
+[7]: http://bergie.iki.fi/blog/historical_helsinki-malmi_airport_threatened/
 [8]: http://kalimera-athina.blogspot.com/2006/05/rip-makasiinit.html
 [9]: http://en.wikipedia.org/wiki/May_Day
 [10]: http://maps.google.com/?ll=60.173527,24.936358&spn=0.002519,0.007435&t=h&om=1

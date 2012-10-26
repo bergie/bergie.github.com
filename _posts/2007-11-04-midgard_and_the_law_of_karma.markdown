@@ -13,7 +13,7 @@ Many communities struggle with the question of how to recognize their most valua
 
 One part of answering that question (and managing the developer device program in general) was <a href="https://garage.maemo.org/tracker/?func=detail&amp;aid=908&amp;group_id=106&amp;atid=940">developing a CRM system</a> for maemo.org including <a href="http://lists.maemo.org/pipermail/maemo-developers/2007-November/012398.html">karma calculations</a> based on community activity.
 
-<a href="http://en.wikipedia.org/wiki/Karma">Karma</a> is a complex concept which we decided to simplify a bit following the model we implemented for <a href="http://bergie.iki.fi/blog/calculating_news_item_relevance.html">evaluating newsworthiness</a> of incoming blog items in the <a href="http://bergie.iki.fi/blog/maemo_social_news_launched.html">Social News project</a>:
+<a href="http://en.wikipedia.org/wiki/Karma">Karma</a> is a complex concept which we decided to simplify a bit following the model we implemented for <a href="http://bergie.iki.fi/blog/calculating_news_item_relevance/">evaluating newsworthiness</a> of incoming blog items in the <a href="http://bergie.iki.fi/blog/maemo_social_news_launched/">Social News project</a>:
 
 <ul><li>count different contributions user has made</li><li>run those through a rating system (forum moderation, app catalog stars, social news favs, ...)</li><li>apply a contribution type modifier</li><li>add them up</li></ul>...and <a href="http://maemo.org/profile/list">we have karma</a>:
 

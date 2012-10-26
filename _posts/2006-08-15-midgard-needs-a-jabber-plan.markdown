@@ -25,7 +25,7 @@ Lots of plumbing is already in place, including a [buddy list manager][11] and a
 [6]: http://en.wikipedia.org/wiki/Jabber
 [7]: http://cjphp.netflint.net/?section=about
 [8]: http://www.jabber.org/software/libraries.shtml
-[9]: http://bergie.iki.fi/blog/more-on-secure-instant-messaging.html
+[9]: http://bergie.iki.fi/blog/more-on-secure-instant-messaging/
 [10]: http://www.midgard-project.org/
 [11]: http://pear.midcom-project.org/index.php?package=net_nehmer_buddylist
 [12]: http://pear.midcom-project.org/index.php?package=org_openpsa_notifications

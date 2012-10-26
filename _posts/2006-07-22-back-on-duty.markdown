@@ -27,7 +27,7 @@ In addition, Kerttu just bought me a bicycle which I will be able to test on the
 [1]: http://www.tigert.com/archives/2006/07/19/they-made-it/
 [2]: http://www.deathmonkey.org/view/monkeys--meet-monkeys.html
 [3]: http://www.deathmonkey.org/about/honda-monkey.html
-[4]: http://bergie.iki.fi/blog/the-midgard-position.html
+[4]: http://bergie.iki.fi/blog/the-midgard-position/
 [5]: http://www.midgard-project.org/
 [6]: http://www.nokia.com/nseries/index.html?loc=inside,main_n90
 [7]: http://europe.nokia.com/phones/e70

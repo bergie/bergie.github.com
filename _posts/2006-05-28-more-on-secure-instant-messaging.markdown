@@ -23,7 +23,7 @@ We haven't yet made decisions about [Gizmo vs. Skype][18]. While [Skype][17] has
 
 [1]: http://www.nemein.com/
 [2]: http://psi-im.org/
-[3]: http://bergie.iki.fi/blog/securing-instant-messaging.html
+[3]: http://bergie.iki.fi/blog/securing-instant-messaging/
 [4]: http://psi.affinix.com/psi_docs/encryption.html
 [5]: http://www.adiumx.com/index.php
 [6]: http://gaim.sourceforge.net/

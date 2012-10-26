@@ -69,7 +69,7 @@ These missing pieces should be resolves quickly after the [mRFC 0021][5] gets ap
 [3]: http://www.nemein.com/people/piotras/table-and-columns-ok.html
 [4]: http://www.schlitt.info/applications/blog/index.php?/archives/308-Set-up-your-own-PEAR-channel.html
 [5]: http://www.midgard-project.org/midcom-permalink-912ed7142e595c67b0339d1217e93d25
-[6]: http://bergie.iki.fi/blog/pear-packager-tries-to-be-too-smart.html#comments
+[6]: http://bergie.iki.fi/blog/pear-packager-tries-to-be-too-smart/#comments
 [7]: http://www.midgard-project.org/midcom-permalink-fc278b300819f654e0e561c6e233c67f
 [8]: http://pear.php.net/manual/en/guide.developers.package2.php
 [9]: http://www.openpsa.org/documentation/openpsa-2-installation/

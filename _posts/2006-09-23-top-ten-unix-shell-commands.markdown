@@ -24,7 +24,7 @@ Continuing with [another blog meme][1], here is the list of top ten Unix shell c
 No idea why the history lists so few runs of them, though. Maybe OS X clears bash history on reboot?
 
 [1]: http://err.no/personal/blog/tech/memes/2006-09-23-08-53_top_ten_unix_commands.html
-[2]: http://bergie.iki.fi/blog/switching-to-intel-macbook.html
+[2]: http://bergie.iki.fi/blog/switching-to-intel-macbook/
 [3]: http://www.midgard-project.org/
 [4]: http://gforge.nehmer.net/plugins/scmsvn/viewcvs.php/?root=midcom
 [5]: http://phing.info/trac/

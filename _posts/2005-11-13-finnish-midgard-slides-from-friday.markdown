@@ -20,6 +20,6 @@ While the slides were made half-asleep on an early morning train from the [Tampe
 It went across quite well to both organizations. Expect to hear some announcements related to that later on.
 
 [1]: http://www.midgard-project.org/
-[2]: http://bergie.iki.fi/blog/finnish-centre-for-open-source-software-in-2006.html
+[2]: http://bergie.iki.fi/blog/finnish-centre-for-open-source-software-in-2006/
 [3]: http://presentationzen.blogs.com/presentationzen/
 [4]: http://www.nemein.com/

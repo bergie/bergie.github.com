@@ -86,13 +86,13 @@ Tomorrow would be the [Chicago Penguin Day][35]. However, my flight is leaving q
 [20]: http://www.midgard-project.org/framework/
 [21]: http://www.midgard-project.org/documentation/installation/authentication.html
 [22]: http://www.midgard-project.org/documentation/concepts/repligard/
-[23]: http://bergie.iki.fi/blog/jukka_back_from_hiatus__jcr_for_midgard.html
+[23]: http://bergie.iki.fi/blog/jukka_back_from_hiatus__jcr_for_midgard/
 [24]: http://midgard.tigris.org/source/browse/midgard/src/apis/ruby/
 [25]: http://snip.yukatan.fi/space/start/2005-02-21/1#CMS_migration_with_the_Exorcist
 [26]: http://www.jcp.org/en/jsr/detail?id=170
 [27]: http://www.nten.org/ntc-2005-together
 [28]: http://subversion.tigris.org/
-[29]: http://bergie.iki.fi/blog/comparing_midgard_and_wordpress.html
+[29]: http://bergie.iki.fi/blog/comparing_midgard_and_wordpress/
 [30]: http://bergie.iki.fi/midcom-serveattachmentguid-018d27a26b35193d051f956c9983c771/opensource-panel-people-scaled.jpg
 [31]: http://bergie.iki.fi/moblog/2005/03/
 [32]: http://www.flickr.com/photos/tags/nten05/
