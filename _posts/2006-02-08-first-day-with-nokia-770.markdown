@@ -41,7 +41,7 @@ Of course, the current 770 is just a first iteration, and there are several thin
 * There is no way to switch the browser to use `handheld` [CSS profile][6], now it always shows web pages in "desktop screen" mode
 
 [1]: http://www.saki.com.au/mirror/vi/define.php3
-[2]: http://www.eng.hawaii.edu/Tutor/vi.html
+[2]: http://www.susnet.co.uk/mastering-the-vi-editor.html
 [3]: http://www.bleb.org/software/770/#vim
 [4]: http://diveintomark.org/archives/2002/05/30/rss_autodiscovery
 [5]: http://koti.welho.com/jpavelek/tmp/770/
