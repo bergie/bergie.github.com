@@ -89,6 +89,7 @@ body.blogcategory header {
 body.blog header div,
 body.blogcategory header div {
   background-image: url('/style/img/bergie_istanbul_small.jpg');
+  background-size: 369px 300px;
   background-position: top right;
   background-repeat: no-repeat;
   padding-top: 175px;
@@ -107,6 +108,7 @@ body .container {
 
 body.front header div {
   background-image: url('/style/img/bergie_istanbul_big.jpg');
+  background-size: 491px 400px;
   padding-top: 230px;
   height: 180px;
 }
@@ -235,6 +237,7 @@ article .contentSource {
 hr {
   height: 80px;
   background-image: url('/style/img/flyingpig.png');
+  background-size: 89px 80px;
   background-position: center;
   background-repeat: no-repeat;
   margin: 0;
@@ -308,5 +311,21 @@ footer ul.nav li a {
   body.blog article .metadata {
     font-weight: normal;
     text-align: right;
+  }
+}
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.3),
+only screen and (-moz-min-device-pixel-ratio: 1.3),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.3) {
+  body.blog header div,
+  body.blogcategory header div {
+    background-image: url('/style/img/bergie_istanbul_small_2x.jpg');
+  }
+  body.front header div {
+    background-image: url('/style/img/bergie_istanbul_big_2x.jpg');
+  }
+  hr {
+    background-image: url('/style/img/flyingpig_2x.png');
   }
 }
