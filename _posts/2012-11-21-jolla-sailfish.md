@@ -119,3 +119,25 @@ Stefano Mosconi:
 > You out there are the interconnected organisms. We want to swim in the Open Source, we want to live and breath it. And when you're in the ecosystem, you can contribute, you can affect the way things go.
 
 The SDK is based on Qt Creator and will be shown tomorrow.
+
+Antti Saarnio:
+
+> There will be Jolla-branded phones, always leading by example. They will be the spearhead of the Sailfish ecosystem. But partners and operators can also sell Sailfish phones on their own branding. Other smartphone vendors can also use Sailfish. We're talking with several companies about this.
+
+> This industry is at the moment looking for change. Jolla and its partners can be the change by disrupting how the industry works. We don't have an existing business or cost base to defend.
+
+Logos like D.Phone, Opera, DNA, ST Ericsson on the stage
+
+Marc back on stage, showing the Jolla UI video. There was an Android logo in one of the screenshots!
+
+Two taps on the screen activate the lockscreen. Scroll up and you'll see status information, and finally get to the homescreen. Swiping up again goes to the apps listing.
+
+Sailfish has true multitasking, just like N9 or N900 had. When you open an application, the homescreen will have a large widget-like tile showing it. These widgets show status data from the app, and can have controls for the app, like pausing or forwarding music you're listening to.
+
+> This is true multi-tasking. You no longer have to go deep into an application to do something. You can leave your favorite applications open all the time.
+
+Swiping gestures change between views inside an app.
+
+The whole UI takes its ambience, its color scheme out of the wallpaper you choose for the wallpaper.
+
+Swiping down from the homescreen brings you back to the lock screen, and swiping down again locks. So the whole UI is spatial
