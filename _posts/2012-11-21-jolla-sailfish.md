@@ -172,7 +172,7 @@ For developers, the interesting part is the platform itself. Mer is the core OS 
 
 I asked about the Android logo in the demo video. It seems it was an easter egg that most people noticed, probably because the logo is so common nowadays. The answer:
 
-> You can run Android applications on Sailfish. But native tools are encouraged. Sailfish can run Android but is not Android. More integrated UI needs Qt.
+> You can run Android applications on Sailfish. But native tools are encouraged. Sailfish can run Android apps but is not Android. More integrated UI needs Qt.
 
 And the application story stretches beyond just Qt and Android APIs. You can also deploy HTML5 apps via PhoneGap, as Qt Cordova runs already on Sailfish.
 
