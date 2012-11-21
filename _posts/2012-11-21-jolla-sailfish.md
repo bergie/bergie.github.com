@@ -72,6 +72,8 @@ Jolla's website is finally up at <http://jolla.com/>. The website is also showin
 
 There is also a [wiki for Sailfish OS](https://sailfishos.org/wiki/Main_Page) now available.
 
+![Sailfish OS logo](/files/Sailfish-black.jpg)
+
 Another exciting pre-keynote announcement is that Finnish operator [DNA will sell Jolla phones](http://www.talouselama.fi/uutiset/jollapuhelimet+tulevat+myyntiin+suomessa/a2156416).
 
 ## Jolla launch keynote
