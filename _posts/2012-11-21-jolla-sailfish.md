@@ -43,3 +43,15 @@ Jolla has grown very quickly from a start-up to a medium-sized technology compan
 ![Marc Dillon from Jolla](/files/slush12_press_marc.jpg)
 
 The fact that Finland's prime minister will be opening the actual event shows how important innovative new companies like Jolla are for the nation.
+
+## Opening session
+
+Peter Vesterbacka:
+
+> This is not California. Most of the year it is cold, dark, and there is slush on the ground. But this is also an advantage. You have time to build amazing things like IRC, Linux, or Angry Birds
+
+![Peter Vesterbacka opening Slush](/files/slush12_opening_vesterbacka.jpg)
+
+In addition to Finnish companies, there are also 100 Russian start-ups attending.
+
+> If you look at the markets nearby, there are places like Russia and China practically next door.
