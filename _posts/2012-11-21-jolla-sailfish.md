@@ -67,3 +67,7 @@ Jyrki Katainen, Finnish PM:
 ## Jolla launch keynote
 
 *For those unable to be here in person, there is [a livestream available](http://new.livestream.com/slushlive/mainstage).*
+
+Jolla's website is finally up at <http://jolla.com/>. The website is also showing the event livestream:
+
+![Jolla's new website](/files/jolla_website.png)
