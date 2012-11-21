@@ -8,8 +8,6 @@ categories:
 ---
 *I'm in Helsinki today in order to cover Jolla's Sailfish OS launch event in the [Slush](http://slush.fi/en/) conference. This post will be updated as the day progresses, so keep hitting reload or following the [RSS feed](/blog/category/mobility/rss.xml).*
 
-*I will be interviewing some Jolla team members in the afternoon. If you have questions you'd like to get asked, please add them to the comments below.*
-
 This week has been a busy one for a [hacker-nomad](http://bergie.iki.fi/blog/hacker-nomadism/). Weekend in Paris for the JS.Everywhere conference, then on Monday a talk at the Hamburg JavaScript meetup. And now I'm in Helsinki. Slush, the conference I'm attending, is the biggest start-up event in Nordic countries. But even at that, it seems the Jolla announcements of today have been able to hijack most of the buzz around the event.
 
 Thanks to the kind invitation from the Jolla team, I will spend today in the conference. This post will include the things I learn about Sailfish, their new mobile OS. I've been equipped with a list of questions from the Maemo community, and will try to pry answers to some of those during the day. In the meanwhile, I recommend reading my [Dreams of the MeeGo Diaspora](http://bergie.iki.fi/blog/meego-diaspora/) post before this one to get the background on where Jolla comes from.
@@ -159,3 +157,30 @@ The whole UI takes its ambience, its color scheme out of the wallpaper you choos
 ![Sailfish ambience from wallpaper](/files/slush12_jolla_ambience.jpg)
 
 Swiping down from the homescreen brings you back to the lock screen, and swiping down again locks. So the whole UI is spatial
+
+## Interview
+
+I had a chance to sit down and talk briefly with Sami Pienimäki, Harri Hakulinen, and Carsten Munk from the Jolla team. The Maemo community (and commenters of this blog post) had provided me with a set of questions, and here are answers to some of them.
+
+In general, the Jolla team was very happy with the demo and the keynote, stuff worked and people were interested, both on-site and online.
+
+> There is much more to the UX than was shown yet
+
+For developers, the interesting part is the platform itself. Mer is the core OS used, with various middleware pieces coming from the Nemo project. Qt Creator is used for building applications, with the Sailfish SDK being shown tomorrow.
+
+> Qt/QML story is the main story. And then a set of Linux APIs that make sense
+
+I asked about the Android logo in the demo video. It seems it was an easter egg that most people noticed, probably because the logo is so common nowadays. The answer:
+
+> You can run Android applications on Sailfish. But native tools are encouraged. Sailfish can run Android but is not Android. More integrated UI needs Qt.
+
+And the application story stretches beyond just Qt and Android APIs. You can also deploy HTML5 apps via PhoneGap, as Qt Cordova runs already on Sailfish.
+
+> We don't like to talk about security frameworks. We talk about user privacy frameworks. The OS will protect user privacy. User privacy framework will be open sourced
+I also enquired about various things about the form factor that will be relevant to developers, like screen sizes and HW/SW keyboards, but there have been no HW announcements yet -- as expected. The first Jolla device will probably be out in the summer, at least for customers in China and Finland. There are ongoing negotiations also with other European channels.
+
+There may be a N900-like developer device program, but this depends on the partners. They want to ensure a program would make sense for both them, the developer community, and the operator partners out there.
+
+Sailfish supports chipsets from ST Ericsson, and can already run also on other chipsets, as well as a VM. ST Ericsson's Snowball is already available developer device
+
+*Intermission. On the way to a meeting between the sessions I walked past the former Nokia Research Center building in Ruoholahti. It felt weird to see the place without the familiar logos...*
