@@ -63,3 +63,7 @@ Jyrki Katainen, Finnish PM:
 ![Jyrki Katainen](/files/slush12_opening_katainen.jpg)
 
 > But seriously, we as a country have been losing market share in many important markets. The ways to solve this is through research and entrepreneurship. The focus on R&D was what lifted Finland from the recession of the early 90s. We want to become the largest hub of start-ups in Northern Europe. We need to create an atmosphere were new entrepreneurs and venture capitalists can meet in easier ways.
+
+## Jolla launch keynote
+
+*For those unable to be here in person, there is [a livestream available](http://new.livestream.com/slushlive/mainstage).*
