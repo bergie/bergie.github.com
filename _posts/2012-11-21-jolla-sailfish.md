@@ -28,4 +28,18 @@ I arrived at Slush right around when the doors opened. Quite a few members of th
 
 ![Jolla - Unlike](/files/slush12_jollabanner.jpg)
 
-The Jolla booth is right next to the main entrance.
+The Jolla booth is right next to the main entrance. And there are stickers:
+
+![Jolla sticker on a MacBook Air](/files/slush12_jolla_sticker.jpg)
+
+Before the event started, Jolla's CEO *Marc Dillon* shared the stage in the opening press conference with other Finnish start-up notables like *Peter Vesterbacka* from Rovio. 
+
+![Press event](/files/slush12_press_event.jpg)
+
+Jolla has grown very quickly from a start-up to a medium-sized technology company.
+
+> I think everybody who plays Angry Birds should get a Jolla phone
+
+![Marc Dillon from Jolla](/files/slush12_press_marc.jpg)
+
+The fact that Finland's prime minister will be opening the actual event shows how important innovative new companies like Jolla are for the nation.
