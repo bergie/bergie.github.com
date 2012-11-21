@@ -181,6 +181,38 @@ I also enquired about various things about the form factor that will be relevant
 
 There may be a N900-like developer device program, but this depends on the partners. They want to ensure a program would make sense for both them, the developer community, and the operator partners out there.
 
-Sailfish supports chipsets from ST Ericsson, and can already run also on other chipsets, as well as a VM. ST Ericsson's Snowball is already available developer device
+Sailfish supports chipsets from ST Ericsson, and can already run also on other chipsets, as well as a VM. ST Ericsson's Snowball is a developer device that you can buy.
 
 *Intermission. On the way to a meeting between the sessions I walked past the former Nokia Research Center building in Ruoholahti. It felt weird to see the place without the familiar logos...*
+
+## Sailfish UI
+
+In the evening Jolla's design team held another session on the Sailfish UI and the design philosophy behind it. The basic ideas behind it are simplicity and playfullness.
+
+![Devices are getting bigger](/files/slush12_jolla_scalability.jpg)
+
+Smartphones in general are getting bigger, but the UI has to fit your hand without having to use it with two hands or shift the device around.
+
+Multitasking is important. Normally, the apps take a full screen, but each of them also appears as a widget when either running or pinned to the homescreen. These widgets can present UI elements or data. No chrome where you want to just show content.
+
+![Running apps as widgets](/files/slush12_jolla_widgets.jpg)
+
+The OS tries to be personal and customizable, unlike others.
+
+> We decided to abandon classical UI chrome and high-production visuals. Only using plain visuals would be boring. You need ambience. Everyone will bring their unique touch on how their UI looks. *To stand in the crowd but stand out*
+
+Honesty to the medium, which in case of current smartphones means glass. So, no fake leather or 3D icons.
+
+![Virtual keyboard](/files/slush12_jolla_vkbd.jpg)
+
+Vertical swipes take you between the lockscreen on the top, homescreen in middle, and app list in the bottom. Swiping left and right shows various views of an app. There are also gestures to show available actions, like changing between a VoIP or a regular cellular call. The Jolla team called these different views *covers*, and swiping *pushing*.
+
+Even the lockscreen has some UI options available via swipes, for example to switch the phone to silent mode.
+
+### Continuous integration
+
+Everybody in Jolla team tests their work on actual devices, and gets constant updates on them. This way you can ensure performance stays smooth even on 100$ hardware. QML helps too.
+
+![QML example](/files/slush12_jolla_qml.jpg)
+
+Tomorrow the Jolla team will demo their SDK, but unfortunately I will already be flying out to the next destination of this current tour.
