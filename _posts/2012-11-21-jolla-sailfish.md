@@ -25,3 +25,7 @@ Jolla Tides has a list of [various gossip about the event](http://jollatides.com
 ![Entrance to Slush](/files/slush12_entrance.jpg)
 
 I arrived at Slush right around when the doors opened. Quite a few members of the Jolla team were there already to set up their booth and prepare for the keynote. Looking at all the familiar faces makes this feel very much like a Maemo family gathering.
+
+![Jolla - Unlike](/files/slush12_jollabanner.jpg)
+
+The Jolla booth is right next to the main entrance.
