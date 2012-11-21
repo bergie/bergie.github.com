@@ -82,6 +82,30 @@ Another exciting pre-keynote announcement is that Finnish operator [DNA will sel
 
 ## Jolla launch keynote
 
-
-
 *For those unable to be here in person, there is [a livestream available](http://new.livestream.com/slushlive/mainstage).*
+
+> 2013 will not be like 2013
+
+The whole company came on stage, and each team was introduced with words like:
+
+> Here is the team that designs the most innovative user experience. We have the team that works to put Sailfish on all sorts of hardware. All hardware, whether high or low end, has been performing extremely well with Sailfish. We've been responsible for finding the best engineering talent in the world. We take care of systems, tools, and automation -- yeah, we build robots
+
+Marc Dillon:
+
+> We have the world's best community behind us. There is such a need for another player in the mobile space. People need change, people need openness
+
+> We want to be a company that sells a great user experience, a great operating system. Jolla is not a company. Jolla is a movement
+
+Jolla wants to add more partners to the ecosystem, and to ensure it is an open ecosystem where companies can put Sailfish on different kinds of devices, and create new things on the platform.
+
+> It is a lot of fun what we do every day. I work with the greatest people in the world. The UI should also be fun for the users, for the consumers. We're out there creating friendships and partnerships. It is all about working bilaterally.
+
+> We've seen a company to build a business out of apps, and another company follow them on their terms. We don't have to do that.
+
+> The governance of Sailfish is about contributing. If a company wants to add a new technology or a standard, we're open for that.
+
+China is the first market for Jolla. Sami Pienimäki on stage:
+
+> We're taking Finnish design and bringing it to China. Many people around the world have told us that what you're trying can't be done, that there is a *Red Sea* to block you. But China is the most dynamic market in the world. You need to listen carefully and be polite, and always learn. The management team is constantly on the field. You can't outsource this, you need to feel it yourself
+
+> China is a big country inhabited by many Chinese - Charles de Gaulle
