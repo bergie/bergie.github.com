@@ -86,6 +86,8 @@ Another exciting pre-keynote announcement is that Finnish operator [DNA will sel
 
 > 2013 will not be like 2013
 
+![Jolla team coming on stage](/files/slush12_jolla_team.jpg)
+
 The whole company came on stage, and each team was introduced with words like:
 
 > Here is the team that designs the most innovative user experience. We have the team that works to put Sailfish on all sorts of hardware. All hardware, whether high or low end, has been performing extremely well with Sailfish. We've been responsible for finding the best engineering talent in the world. We take care of systems, tools, and automation -- yeah, we build robots
@@ -93,6 +95,8 @@ The whole company came on stage, and each team was introduced with words like:
 Marc Dillon:
 
 > We have the world's best community behind us. There is such a need for another player in the mobile space. People need change, people need openness
+
+![Marc Dillon on stage](/files/slush12_jolla_marc.jpg)
 
 > We want to be a company that sells a great user experience, a great operating system. Jolla is not a company. Jolla is a movement
 
@@ -108,6 +112,8 @@ China is the first market for Jolla. Sami Pienimäki on stage:
 
 > We're taking Finnish design and bringing it to China. Many people around the world have told us that what you're trying can't be done, that there is a *Red Sea* to block you. But China is the most dynamic market in the world. You need to listen carefully and be polite, and always learn. The management team is constantly on the field. You can't outsource this, you need to feel it yourself
 
+![Sami Pienimäki on stage](/files/slush12_jolla_sami.jpg)
+
 > *"China is a big country inhabited by many Chinese"* - Charles de Gaulle. *"No problem"* - Chinese saying
 
 Stefano Mosconi:
@@ -115,6 +121,8 @@ Stefano Mosconi:
 > Our guys are really staying up until 4am to see that we have Sailfish OS booting on the new hardware. This doesn't happen every day. This is Open Source, it is stubborness, it is great engineering. Open Source is about doing stuff.
 
 > What if you could watch the development of the OS out in the open, and adapt your application little by little, instead of having to wait for the big code drop? Sailfish is the first mobile operating system that is really open 24 hours for your contributions, and your enjoyment.
+
+![Stefano Mosconi on stage](/files/slush12_jolla_stefano.jpg)
 
 > You out there are the interconnected organisms. We want to swim in the Open Source, we want to live and breath it. And when you're in the ecosystem, you can contribute, you can affect the way things go.
 
@@ -126,18 +134,28 @@ Antti Saarnio:
 
 > This industry is at the moment looking for change. Jolla and its partners can be the change by disrupting how the industry works. We don't have an existing business or cost base to defend.
 
-Logos like D.Phone, Opera, DNA, ST Ericsson on the stage
+![Antti Saarnio on stage](/files/slush12_jolla_antti.jpg)
+
+### UI demo
 
 Marc back on stage, showing the Jolla UI video. There was an Android logo in one of the screenshots!
 
+![Sailfish lockscreen](/files/slush12_jolla_lockscreen.jpg)
+
 Two taps on the screen activate the lockscreen. Scroll up and you'll see status information, and finally get to the homescreen. Swiping up again goes to the apps listing.
+
+![Sailfish media player](/files/slush12_jolla_media.jpg)
 
 Sailfish has true multitasking, just like N9 or N900 had. When you open an application, the homescreen will have a large widget-like tile showing it. These widgets show status data from the app, and can have controls for the app, like pausing or forwarding music you're listening to.
 
 > This is true multi-tasking. You no longer have to go deep into an application to do something. You can leave your favorite applications open all the time.
 
+![Sailfish homescreen](/files/slush12_jolla_homescreen.jpg)
+
 Swiping gestures change between views inside an app.
 
 The whole UI takes its ambience, its color scheme out of the wallpaper you choose for the wallpaper.
+
+![Sailfish ambience from wallpaper](/files/slush12_jolla_ambience.jpg)
 
 Swiping down from the homescreen brings you back to the lock screen, and swiping down again locks. So the whole UI is spatial
