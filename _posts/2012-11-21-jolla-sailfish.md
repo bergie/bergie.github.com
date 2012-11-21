@@ -17,3 +17,9 @@ Thanks to the kind invitation from the Jolla team, I will spend today in the con
 Unlike with the smartphone giants, relatively little has leaked out on what Jolla will show us today. What we know is that they are working on a new OS for smartphones based on [Mer](http://merproject.org/) and Qt. During Slush they will show the user interface and the SDK, but there should be no hardware announcements yet.
 
 Jolla Tides has a list of [various gossip about the event](http://jollatides.com/2012/11/16/5-days-to-go-some-more-gossip-in-the-grain/). We'll see how much of that holds true.
+
+## Before the keynote
+
+![Entrance to Slush](/files/slush12_entrance.jpg)
+
+I arrived at Slush right around when the doors opened. Quite a few members of the Jolla team were there already to set up their booth and prepare for the keynote. Looking at all the familiar faces makes this feel very much like a Maemo family gathering.
