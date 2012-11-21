@@ -20,7 +20,7 @@ Unlike with the smartphone giants, relatively little has leaked out on what Joll
 
 Jolla Tides has a list of [various gossip about the event](http://jollatides.com/2012/11/16/5-days-to-go-some-more-gossip-in-the-grain/). We'll see how much of that holds true.
 
-## Before the keynote
+## Before the opening session
 
 ![Entrance to Slush](/files/slush12_entrance.jpg)
 
@@ -76,6 +76,12 @@ There is also a [wiki for Sailfish OS](https://sailfishos.org/wiki/Main_Page) no
 
 Another exciting pre-keynote announcement is that Finnish operator [DNA will sell Jolla phones](http://www.talouselama.fi/uutiset/jollapuhelimet+tulevat+myyntiin+suomessa/a2156416).
 
+[This](https://twitter.com/JollaSuomi/status/271178889261355010) is also interesting, if true:
+
+![Sailfish OS for tablets tweet](/files/jollasuomi_sailfish_tablet.png)
+
 ## Jolla launch keynote
+
+
 
 *For those unable to be here in person, there is [a livestream available](http://new.livestream.com/slushlive/mainstage).*
