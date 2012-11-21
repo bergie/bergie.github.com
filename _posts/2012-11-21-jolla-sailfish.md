@@ -62,12 +62,16 @@ Jyrki Katainen, Finnish PM:
 
 ![Jyrki Katainen](/files/slush12_opening_katainen.jpg)
 
-> But seriously, we as a country have been losing market share in many important markets. The ways to solve this is through research and entrepreneurship. The focus on R&D was what lifted Finland from the recession of the early 90s. We want to become the largest hub of start-ups in Northern Europe. We need to create an atmosphere were new entrepreneurs and venture capitalists can meet in easier ways.
+> But seriously, we as a country have been losing market share in many important markets. The ways to solve this is through research and entrepreneurship. The focus on R&D was what lifted Finland from the recession of the early 90s. We want to become the largest hub of start-ups in Northern Europe. We need to create an atmosphere where new entrepreneurs and venture capitalists can meet in easier ways.
 
-## Jolla launch keynote
-
-*For those unable to be here in person, there is [a livestream available](http://new.livestream.com/slushlive/mainstage).*
+### Before the keynote
 
 Jolla's website is finally up at <http://jolla.com/>. The website is also showing the event livestream:
 
 ![Jolla's new website](/files/jolla_website.png)
+
+Another exciting pre-keynote announcement is that Finnish operator [DNA will sell Jolla phones](http://www.talouselama.fi/uutiset/jollapuhelimet+tulevat+myyntiin+suomessa/a2156416).
+
+## Jolla launch keynote
+
+*For those unable to be here in person, there is [a livestream available](http://new.livestream.com/slushlive/mainstage).*
