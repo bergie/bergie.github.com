@@ -108,4 +108,14 @@ China is the first market for Jolla. Sami Pienimäki on stage:
 
 > We're taking Finnish design and bringing it to China. Many people around the world have told us that what you're trying can't be done, that there is a *Red Sea* to block you. But China is the most dynamic market in the world. You need to listen carefully and be polite, and always learn. The management team is constantly on the field. You can't outsource this, you need to feel it yourself
 
-> China is a big country inhabited by many Chinese - Charles de Gaulle
+> *"China is a big country inhabited by many Chinese"* - Charles de Gaulle. *"No problem"* - Chinese saying
+
+Stefano Mosconi:
+
+> Our guys are really staying up until 4am to see that we have Sailfish OS booting on the new hardware. This doesn't happen every day. This is Open Source, it is stubborness, it is great engineering. Open Source is about doing stuff.
+
+> What if you could watch the development of the OS out in the open, and adapt your application little by little, instead of having to wait for the big code drop? Sailfish is the first mobile operating system that is really open 24 hours for your contributions, and your enjoyment.
+
+> You out there are the interconnected organisms. We want to swim in the Open Source, we want to live and breath it. And when you're in the ecosystem, you can contribute, you can affect the way things go.
+
+The SDK is based on Qt Creator and will be shown tomorrow.
