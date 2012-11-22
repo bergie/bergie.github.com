@@ -80,7 +80,7 @@ Another exciting pre-keynote announcement is that Finnish operator [DNA will sel
 
 ## Jolla launch keynote
 
-*For those unable to be here in person, there is [a livestream available](http://new.livestream.com/slushlive/mainstage).*
+*A video of the launch keynote is [available on YouTube](http://youtu.be/tRZxM9rNyZ4).*
 
 > 2013 will not be like 2013
 
@@ -152,7 +152,7 @@ Sailfish has true multitasking, just like N9 or N900 had. When you open an appli
 
 Swiping gestures change between views inside an app.
 
-The whole UI takes its ambience, its color scheme out of the wallpaper you choose for the wallpaper.
+The whole UI takes its ambience, its color scheme out of the picture you choose for the wallpaper.
 
 ![Sailfish ambience from wallpaper](/files/slush12_jolla_ambience.jpg)
 
@@ -185,7 +185,7 @@ Sailfish supports chipsets from ST Ericsson, and can already run also on other c
 
 *Intermission. On the way to a meeting between the sessions I walked past the former Nokia Research Center building in Ruoholahti. It felt weird to see the place without the familiar logos...*
 
-## Sailfish UI
+## Sailfish UI session
 
 In the evening Jolla's design team held another session on the Sailfish UI and the design philosophy behind it. The basic ideas behind it are simplicity and playfullness.
 
@@ -215,4 +215,56 @@ Everybody in Jolla team tests their work on actual devices, and gets constant up
 
 ![QML example](/files/slush12_jolla_qml.jpg)
 
-Tomorrow the Jolla team will demo their SDK, but unfortunately I will already be flying out to the next destination of this current tour.
+## Thursday: Jolla SDK session
+
+*Unfortunately I had to fly back to Berlin in the morning, but [Jens Wiik](http://fi.linkedin.com/pub/jens-wiik/1a/863/608) agreed to write a report for this blog from the SDK session. The story below is from him:*
+
+Today's major Jolla event was the SDK demo.
+
+![David Greaves on stage](/files/slush12_jolla_david.jpg)
+
+Watching the presentation, I felt like I'd already seen the same thing ten times. And I have.
+
+Which is awesome.
+
+Anyone familiar with Qt and Qt Quick should feel right at home. Qt Mobility is available as well. As far as the individual app developer is concerned, Jolla isn't making any radical departures from the existing frameworks. It remains an excellent way to develop a slick UI, regardless of whether you want to follow platform guidelines or customize everything (more on that later).
+
+The SDK is available in source form now, and we should expect binaries for multiple platforms in the coming weeks (a minor disappointment, but no big deal). Qt Creator lets you deploy your code directly to virtual machines or real devices, and you'll be seeing stronger integration of Sailfish UI components in the near future.
+
+Jolla also encouraged anyone with questions about the build system to contact them. They want to make it easy to support multiple architectures, and even multiple versions of Qt.
+
+The number one thing to remember from this demo is that Jolla is open to people joining discussions online, and in fact strongly encourages it. They said they'd be very welcoming to people who show up on IRC with a good attitude, and want to release preview code early and often so you can help make it fit your needs before it becomes a more strictly defined finished product.
+
+At the event, anyone could have walked up to the CEO and talked to him:
+
+![Marc Dillon in the audience](/files/slush12_jolla_marc_audience.jpg)
+
+Android compatibility can be achieved in three ways:
+
+1. Apps developed using the SDK are Qt apps that can be run on Android.
+2. Many Android apps will already run on Sailfish due to an included VM.
+3. A lot of info will be available about porting apps to get native performance.
+
+The rest of the presentation introduced Qt Quick to those who haven't seen it before. The following screenshots illustrate how to create a simple gallery app that adapts to the user's theme (ambience).
+
+A basic window:
+
+![QML Window code](/files/slush12_jolla_sdk_window.jpg)
+
+QtMobility for finding the pictures, and a gridview for displaying them:
+
+![QtMobility code](/files/slush12_jolla_sdk_qtmobility.jpg)
+
+Adding the Sailfish PullDownMenu is also just a few lines of code:
+
+![Sailfish Pulldown code](/files/slush12_jolla_sdk_pulldown.jpg)
+
+And the final result, with the menu pulled down, now used for changing sorting order in the demo's gridview:
+
+![Demo result](/files/slush12_jolla_sdk_result.jpg)
+
+All in all, getting to that point took about twenty minutes, with Jolla estimating that it should take about an hour without preparation. You even get lots of animations for free by using the provided components.
+
+My personal impressions about Qt Quick are as positive as ever. But seeing this presentation from Jolla instead of Nokia felt different - in a good way.
+
+*Thanks, Jens! And also thanks to the Jolla team for the interesting presentations and the discussions in the Supercell party last night.*
