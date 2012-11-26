@@ -31,7 +31,7 @@ bodyclass: blog
       {% if post.location %}
       in <span rel="contentLocation" typeof="City"><span property="description">{{ post.location }}</span></span>
       {% endif %}
-      <a rel="author" typeof="Person" href="http://bergie.iki.fi/#me"></a>
+      <a rel="author" href="http://bergie.iki.fi/#me"></a>
       <span property="wordCount" content="{{ post.content | number_of_words }}"></span>
     </div>
   </article>
