@@ -7,7 +7,7 @@ layout: 'default'
             {% if page.author %}
             Guest post by <span rel="author" typeof="Person"><span property="name">{{ page.author }}</span></span> on 
             {% else %}
-            <a rel="author" typeof="Person" href="http://bergie.iki.fi/#me"></a>
+            <a rel="author" href="http://bergie.iki.fi/#me"></a>
             {% endif %}
             <span property="datePublished" content="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</span>
             {% if page.location %}
