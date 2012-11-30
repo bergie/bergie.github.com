@@ -3,8 +3,8 @@ title: "Interview: Create.js and VIE in CMSs"
 layout: post
 location: Berlin, Germany
 categories:
-  - midgard
   - oscom
+  - midgard
 ---
 [Create.js](http://createjs.org/) and [VIE](http://viejs.org/) were recently added [to the core of Drupal 8](http://drupal.org/node/1849526). Just like [with TYPO3 Neos](http://bergie.iki.fi/blog/typo3-neos-and-createjs/), I'll write a longer post on how things went later.
 

@@ -28,6 +28,9 @@ layout: 'default'
         {% endif %}
         {% for category in page.categories %}
           {% case category %}
+              {% when 'oscom' %}
+              <hr />
+              {% include category_oscom.html %}
               {% when 'midgard' %}
               <hr />
               {% include category_midgard.html %}
