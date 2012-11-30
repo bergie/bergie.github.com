@@ -26,17 +26,17 @@ layout: 'default'
           <p>This post originally appeared on <a href="{{ page.source }}" rel="source">{{ page.source | truncate: 60 }}</a></p>
         </div>
         {% endif %}
-        {% for category in page.categories %}
-          {% case category %}
-              {% when 'oscom' %}
-              <hr />
-              {% include category_oscom.html %}
-              <p><a href="/blog/category/oscom/">Read more Decoupled CMS posts</a>.<p>
-              {% when 'midgard' %}
-              <hr />
-              {% include category_midgard.html %}
-              <p><a href="/blog/category/midgard/">Read more Midgard posts</a>.<p>
-          {% endcase %}
-        {% endfor %}
+        {% if page.categories contains 'midgard' %}
+          {% unless page.categories contains 'oscom' %}
+            <hr />
+            {% include category_midgard.html %}
+            <p><a href="/blog/category/midgard/">Read more Midgard posts</a>.<p>
+          {% endunless %}
+        {% endif %}
+        {% if page.categories contains 'oscom' %}
+            <hr />
+            {% include category_oscom.html %}
+            <p><a href="/blog/category/oscom/">Read more Decoupled CMS posts</a>.<p>
+        {% endif %}
         {% include comments.html %}
       </article>
