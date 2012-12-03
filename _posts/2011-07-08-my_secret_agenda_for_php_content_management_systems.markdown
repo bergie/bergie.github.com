@@ -53,7 +53,7 @@ This is fine when PHP is being used in the way Rasmus originally intended, as a 
 
 With [AppServer-in-PHP](http://github.com/indeyets/appserver-in-php) (AiP), you have an environment where even a big framework can perform. AiP provides you with a full server environment for PHP, _written in PHP_. In this setup, your framework is loaded when the server boots up, and then each request just runs the request processing part of it.
 
-During the [San Francisco Aloha Dev Con](http://www.aloha-editor.org/wiki/Aloha_Editor_Dev_Con_SanFrancisco_11) we ported TYPO3 to run on AiP, and the performance results where staggering. A simpler request with not much I/O would run 3-4 times faster than the same code on regular PHP setup, and an I/O -intensive request would still be _twice as fast_. AiP can't do much about I/O performance, but at least the cost of having a framework is greatly reduced.
+During the [San Francisco Aloha Dev Con](https://github.com/alohaeditor/Aloha-Editor/wiki/Aloha-Editor-Dev-Con-SanFrancisco-11) we ported TYPO3 to run on AiP, and the performance results where staggering. A simpler request with not much I/O would run 3-4 times faster than the same code on regular PHP setup, and an I/O -intensive request would still be _twice as fast_. AiP can't do much about I/O performance, but at least the cost of having a framework is greatly reduced.
 
 In short, AppServer-in-PHP is something any developer running web services with a PHP framework should consider. It is also a great way for framework developers to see if they have request isolation problems in their design.
 
