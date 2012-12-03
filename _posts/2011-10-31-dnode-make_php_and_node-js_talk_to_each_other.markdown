@@ -2,6 +2,7 @@
   title: "DNode: Make PHP and Node.js talk to each other"
   categories: 
     - "midgard"
+    - bestof
   layout: "post"
 
 ---
