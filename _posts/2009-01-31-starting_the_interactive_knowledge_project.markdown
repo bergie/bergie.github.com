@@ -7,7 +7,7 @@
 
 ---
 <p>
-I spent this week at <a href="http://www.salzburgresearch.at/company/index_e.php">Salzburg Research</a> in Austria attending the kick-off meeting of the <a href="http://www.iks-project.eu/">Interactive Knowledge Consortium</a>, a €6,5m <a href="http://cordis.europa.eu/fp7/">EU-funded</a> project to introduce <a href="http://www.w3.org/DesignIssues/Semantic.html">semantic</a> capabilities into <a href="http://en.wikipedia.org/wiki/Category:Open_source_content_management_systems">open source content management systems</a>.
+I spent this week at <a href="http://www.salzburgresearch.at/">Salzburg Research</a> in Austria attending the kick-off meeting of the <a href="http://www.iks-project.eu/">Interactive Knowledge Consortium</a>, a €6,5m <a href="http://cordis.europa.eu/fp7/">EU-funded</a> project to introduce <a href="http://www.w3.org/DesignIssues/Semantic.html">semantic</a> capabilities into <a href="http://en.wikipedia.org/wiki/Category:Free_content_management_systems">open source content management systems</a>.
 </p><p>
 <a href="/files/iks-salzburg-20090128.png"><img src="/files/iks-salzburg-20090128-tm.jpg" height="191" width="398" border="1" hspace="4" vspace="4" alt="IKS project team in Salzburg" title="IKS project team in Salzburg" /></a>
 </p><p>

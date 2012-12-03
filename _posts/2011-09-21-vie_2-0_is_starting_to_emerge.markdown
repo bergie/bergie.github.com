@@ -8,7 +8,7 @@
 ---
 [VIE](https://github.com/bergie/VIE#readme) is a JavaScript library that makes RDFa-annotated entities on web pages editable. We started the work towards the next major version of it, codenamed [Zart](https://github.com/IKS/zart.js) (for Mozart) in a Salzburg IKS hackathon couple of weeks ago.
 
-![VIE](https://github.com/bergie/VIE/raw/master/vie_logo_100.png)
+![VIE](https://raw.github.com/bergie/VIE/master/design/vie_logo_100.png)
 
 Yesterday I merged the Zart codebase into the [VIE repository](https://github.com/bergie/VIE). This blog post describes some of the improvements it brings.
 

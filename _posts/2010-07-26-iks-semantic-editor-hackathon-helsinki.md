@@ -35,7 +35,7 @@ Now the content edited in Aloha and saved to Midgard2 is also sent to FISE for s
 
 <http://github.com/nemein/eu_iksproject_fise>
 
-Sometimes FISE produces a bit funny results. This is from copy-pasting the [hackathon page](Sometimes FISE produces a bit funny results. This is from copy-pasting the hackathon page to Midgard) to Midgard:
+Sometimes FISE produces a bit funny results. This is from copy-pasting the [hackathon page](http://wiki.iks-project.eu/index.php/Semantic_Editor/Helsinki_hackathon_2010) to Midgard:
 
 ![FISE enhancements](/files/594e6a94998911df9b46a1a76f95c0fac0fa.png)
 
