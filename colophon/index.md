@@ -8,11 +8,11 @@ title: "Colophon"
 
 Both line drawings of me have been produced by [Nina Mutik](http://ninamutik.sarjakuvablogit.com/about/), a Finnish artist.
 
-![Bergie working in Istanbul, by Nina Mutik](/style/img/mdpi/bergie_istanbul_big.jpg)
+[![Bergie working in Istanbul, by Nina Mutik](/style/img/mdpi/bergie_istanbul_big.jpg)](/style/img/orig/bergie_istanbul.jpg)
 
 The flying pig emblem has been drawn by [Susanna Huhtanen](http://cannonerd.wordpress.com/) based on a medieval pilgrim's badge. After all, _a pig that doesn't fly is just an ordinary pig_.
 
-![Flying pig, Medieval-style](/style/img/mdpi/flyingpig_big.png)
+[![Flying pig, Medieval-style](/style/img/mdpi/flyingpig_big.png)](/style/img/orig/flyingpig.png)
 
 The web design is my own, and it has been realized into HTML5 and CSS with the help of the [Bootstrap](http://twitter.github.com/bootstrap/) framework.
 
