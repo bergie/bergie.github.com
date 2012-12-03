@@ -51,7 +51,7 @@ The year 2003 was probably the high water mark for Midgard as a community. We ha
 
 This was the time when we started separating conceptually between Midgard the content repository (then called a _framework_), and Midgard the content management system:
 
-[![Midgard Project in 2003](/files/midgard-visuals/midgardproject-2003-small.png)](/files/midgard-visuals-midgardproject-2003.png)
+[![Midgard Project in 2003](/files/midgard-visuals/midgardproject-2003-small.png)](/files/midgard-visuals/midgardproject-2003.png)
 
 Most of the designs from this period were done by Tony Lee from Japan.
 
