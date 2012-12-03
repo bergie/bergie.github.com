@@ -16,7 +16,7 @@ The whole <a href="http://www.nseries.com/index.html">N series of devices</a> se
 </p><p>
 With Apple, you're given the role of a consumer: browser the web, watch videos, buy music <a href="http://www.defectivebydesign.org/blog/1044">from huge corporations</a>. Just <a href="http://www.fsf.org/blogs/community/why-free-software-and-apples-iphone-dont-mix">don't think different</a>. 
 </p><p>
-Comparing my <a href="http://bergie.iki.fi/moblog/photo/9d36d4cc5cdb11dd9fbb61c594d0dd9edd9e/">current iPhone</a> and previous N95, on the Nokia I uploaded a bit more data than I downloaded, on the iPhone, I've downloaded ten times more than uploaded. With difficult text input and no background applications, the device simply seems to push users into the consumer mindset.
+Comparing my <a href="http://www.flickr.com/photos/bergie/2711355022/">current iPhone</a> and previous N95, on the Nokia I uploaded a bit more data than I downloaded, on the iPhone, I've downloaded ten times more than uploaded. With difficult text input and no background applications, the device simply seems to push users into the consumer mindset.
 </p><p>
 Two years ago we handled the whole <a href="http://www.deathmonkey.org/">Death Monkey Rally</a> experience using three Nseries phones. They took <a href="http://www.flickr.com/photos/bergie/sets/72157594264762462/">our pictures</a> and video, <a href="http://www.deathmonkey.org/archive/month/2006/7.html">all blog entries</a> were written and published with them, and they recorded our stories to <a href="http://www.deathmonkey.org/view/fifteen-minutes-of-fame.html">the YleX radio show</a>. Try doing that on an iPhone!
 </p><p>

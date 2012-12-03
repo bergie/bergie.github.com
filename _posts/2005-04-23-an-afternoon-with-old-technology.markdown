@@ -41,12 +41,12 @@ Now the battery is charging, and I hope that this will cure the ignition problem
 [4]: http://www.routamc.org/journal/jose-to-east-and-back-again/india---the-last-crusade.html
 [5]: http://www.routamc.org/updates/2004-04-13-000.html
 [6]: http://www.routamc.org/updates/2004-06-30-000.html
-[7]: /moblog/2005-04-22-1114161905.html
+[7]: http://www.flickr.com/photos/bergie/8099940797
 [8]: http://www.pelastamalmi.org/en/index.html
 [9]: http://www.motoitalia.fi/
 [10]: http://enfield.ewok.fi/
 [11]: http://en.wikipedia.org/wiki/An-2
 [12]: http://www.netsonic.fi/~hhra/
-[13]: http://www.lennuklubi.org/video/download.php?file=Antonov_45MB.mpg
-[14]: http://bergie.iki.fi/midcom-serveattachmentguid-8935a42cd7ee76ee5cc135b61df3856e/Joses_Enfield_broken_speedo.jpg
-[15]: http://www.lennuklubi.org/index_en.htm
+[13]: http://web.archive.org/web/20070821124326/http://www.lennuklubi.org/video/Antonov_45MB.mpg
+[14]: http://web.archive.org/web/20070216143257/http://bergie.iki.fi/midcom-serveattachmentguid-8935a42cd7ee76ee5cc135b61df3856e/Joses_Enfield_broken_speedo.jpg
+[15]: http://www.lennuklubi.org/
