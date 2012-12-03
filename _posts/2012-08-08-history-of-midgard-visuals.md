@@ -3,6 +3,7 @@ title: A history of Midgard visuals
 location: Berlin, Germany
 categories:
   - midgard
+  - bestof
 layout: post
 ---
 As far as open source CMSs or web frameworks go, [Midgard](http://midgard-project.org/) is one of the oldest ones. We started the work on it somewhere between 1997 and 1998, and the [first version was launched](http://www.linuxtoday.com/developer/1999050701705NWSW) in May 1999. Over the years our communications and visuals have changed quite a bit, and this post aims to show some of that evolution.
