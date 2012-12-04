@@ -9,14 +9,15 @@ bodyclass: blogcategory
 </header>
 
 <div class="span6 offset1">
-  {% case page.categorization %}
-  {% when 'midgard' %}
-  {% include category_midgard.html %}
-  {% when 'bestof' %}
-  {% include category_bestof.html %}
-  {% when 'oscom' %}
-  {% include category_oscom.html %}
-  {% endcase %}
+  {% if page.categorization == 'midgard' %}
+    {% include category_midgard.html %}
+  {% endif %}
+  {% if page.categorization == 'bestof' %}
+    {% include category_bestof.html %}
+  {% endif %}
+  {% if page.categorization == 'oscom' %}
+    {% include category_oscom.html %}
+  {% endif %}
 </div>
 
 <ol class="span8 offset1 categoryposts">
