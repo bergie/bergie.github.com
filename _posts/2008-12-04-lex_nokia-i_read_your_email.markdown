@@ -2,7 +2,6 @@
   title: "Lex Nokia: I read your email"
   categories: 
     - "politics"
-    - ""
   layout: "post"
 
 ---

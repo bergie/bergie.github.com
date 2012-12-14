@@ -4,7 +4,6 @@
     - "geo"
     - "business"
     - "midgard"
-    - ""
   layout: "post"
 
 ---

@@ -4,7 +4,6 @@
     - "oscom"
     - "midgard"
     - "mobility"
-    - ""
   layout: "post"
 
 ---

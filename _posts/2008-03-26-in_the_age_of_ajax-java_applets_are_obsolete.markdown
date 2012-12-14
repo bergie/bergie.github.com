@@ -2,7 +2,6 @@
   title: "In the Age of Ajax, Java applets are obsolete"
   categories: 
     - "oscom"
-    - ""
   layout: "post"
 
 ---

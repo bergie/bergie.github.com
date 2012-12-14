@@ -3,7 +3,6 @@
   categories: 
     - "midgard"
     - "life"
-    - ""
   layout: "post"
 
 ---

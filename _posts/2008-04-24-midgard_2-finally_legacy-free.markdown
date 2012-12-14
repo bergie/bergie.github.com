@@ -2,7 +2,6 @@
   title: "Midgard 2: Finally legacy-free"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

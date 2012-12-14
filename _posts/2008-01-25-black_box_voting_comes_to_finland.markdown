@@ -2,7 +2,6 @@
   title: "Black box voting comes to Finland"
   categories: 
     - "politics"
-    - ""
   layout: "post"
 
 ---

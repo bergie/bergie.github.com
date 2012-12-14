@@ -2,7 +2,6 @@
   title: "Get your face on Planet Maemo"
   categories: 
     - "mobility"
-    - ""
   layout: "post"
 
 ---

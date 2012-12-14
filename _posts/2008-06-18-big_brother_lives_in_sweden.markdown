@@ -2,7 +2,6 @@
   title: "Big Brother lives in Sweden?"
   categories: 
     - "politics"
-    - ""
   layout: "post"
 
 ---

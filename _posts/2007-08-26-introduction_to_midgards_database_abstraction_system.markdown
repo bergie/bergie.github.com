@@ -2,7 +2,6 @@
   title: "Introduction to Midgard's database abstraction system"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

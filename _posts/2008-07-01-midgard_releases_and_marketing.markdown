@@ -2,7 +2,6 @@
   title: "Midgard releases and marketing"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

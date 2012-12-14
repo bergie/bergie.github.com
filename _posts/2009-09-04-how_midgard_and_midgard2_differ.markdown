@@ -2,7 +2,6 @@
   title: "How Midgard and Midgard2 differ"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

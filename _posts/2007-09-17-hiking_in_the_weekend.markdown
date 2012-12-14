@@ -2,7 +2,6 @@
   title: "Hiking in the weekend"
   categories: 
     - "life"
-    - ""
   layout: "post"
 
 ---

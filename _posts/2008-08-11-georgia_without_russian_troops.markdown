@@ -2,7 +2,6 @@
   title: "Georgia without Russian troops"
   categories: 
     - "politics"
-    - ""
   layout: "post"
 
 ---

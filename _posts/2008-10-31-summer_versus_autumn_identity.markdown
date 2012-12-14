@@ -2,7 +2,6 @@
   title: "Summer versus autumn identity"
   categories: 
     - "life"
-    - ""
   layout: "post"
 
 ---

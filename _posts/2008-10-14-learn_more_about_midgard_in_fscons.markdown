@@ -3,7 +3,6 @@
   categories: 
     - "desktop"
     - "midgard"
-    - ""
   layout: "post"
 
 ---

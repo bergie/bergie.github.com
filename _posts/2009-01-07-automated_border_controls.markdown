@@ -2,7 +2,6 @@
   title: "Automated border controls"
   categories: 
     - "politics"
-    - ""
   layout: "post"
 
 ---

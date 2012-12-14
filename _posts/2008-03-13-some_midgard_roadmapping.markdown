@@ -2,7 +2,6 @@
   title: "Some Midgard roadmapping"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

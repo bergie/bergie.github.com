@@ -2,7 +2,6 @@
   title: "Micro-blogging as alternative corporate announcement channel"
   categories: 
     - "business"
-    - ""
   layout: "post"
 
 ---

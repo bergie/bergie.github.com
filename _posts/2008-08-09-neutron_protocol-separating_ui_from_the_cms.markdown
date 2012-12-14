@@ -4,7 +4,6 @@
     - "desktop"
     - "midgard"
     - "oscom"
-    - ""
   layout: "post"
 
 ---

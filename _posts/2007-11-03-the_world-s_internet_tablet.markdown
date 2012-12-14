@@ -2,7 +2,6 @@
   title: "The World's Internet Tablet?"
   categories: 
     - "mobility"
-    - ""
   layout: "post"
 
 ---

@@ -3,7 +3,6 @@
   categories: 
     - "midgard"
     - "geo"
-    - ""
   layout: "post"
 
 ---

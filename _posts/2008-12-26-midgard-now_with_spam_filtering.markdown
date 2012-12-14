@@ -2,7 +2,6 @@
   title: "Midgard: now with spam filtering"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

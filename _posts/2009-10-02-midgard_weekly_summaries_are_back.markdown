@@ -2,7 +2,6 @@
   title: "Midgard Weekly Summaries are back"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

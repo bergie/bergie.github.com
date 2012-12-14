@@ -2,7 +2,6 @@
   title: "Last of the Christmas holidays"
   categories: 
     - "business"
-    - ""
   layout: "post"
 
 ---

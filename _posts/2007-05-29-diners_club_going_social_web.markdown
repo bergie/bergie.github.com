@@ -3,7 +3,6 @@
   categories: 
     - "business"
     - "life"
-    - ""
   layout: "post"
 
 ---

@@ -4,7 +4,6 @@
     - "politics"
     - "desktop"
     - "midgard"
-    - ""
   layout: "post"
 
 ---

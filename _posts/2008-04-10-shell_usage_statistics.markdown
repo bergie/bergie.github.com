@@ -2,7 +2,6 @@
   title: "Shell usage statistics"
   categories: 
     - "desktop"
-    - ""
   layout: "post"
 
 ---

@@ -2,7 +2,6 @@
   title: "Knol - Google's publishing platform"
   categories: 
     - "business"
-    - ""
   layout: "post"
 
 ---

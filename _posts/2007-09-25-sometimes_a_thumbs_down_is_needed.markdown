@@ -3,7 +3,6 @@
   categories: 
     - "midgard"
     - "mobility"
-    - ""
   layout: "post"
 
 ---

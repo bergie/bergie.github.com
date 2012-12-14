@@ -2,7 +2,6 @@
   title: "New moderation UI in Midgard discussion forum"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

@@ -2,7 +2,6 @@
   title: "Midgard Gathering 2009 in Linköping"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

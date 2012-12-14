@@ -2,7 +2,6 @@
   title: "SMS as a query-based \"mobile internet\""
   categories: 
     - "mobility"
-    - ""
   layout: "post"
 
 ---

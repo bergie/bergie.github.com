@@ -2,7 +2,6 @@
   title: "First ten years of Midgard"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

@@ -2,7 +2,6 @@
   title: "Real-world example of a free software project handover"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

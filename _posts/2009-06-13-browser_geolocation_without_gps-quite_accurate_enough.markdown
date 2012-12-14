@@ -4,7 +4,6 @@
     - "mobility"
     - "desktop"
     - "geo"
-    - ""
   layout: "post"
 
 ---

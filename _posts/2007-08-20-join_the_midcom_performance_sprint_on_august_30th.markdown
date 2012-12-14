@@ -2,7 +2,6 @@
   title: "Join the MidCOM Performance Sprint on August 30th"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

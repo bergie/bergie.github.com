@@ -2,7 +2,6 @@
   title: "On Linked Data and OpenStreetMap"
   categories: 
     - "geo"
-    - ""
   layout: "post"
 
 ---

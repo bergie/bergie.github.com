@@ -2,7 +2,6 @@
   title: "With Nokia you're not just a consumer"
   categories: 
     - "mobility"
-    - ""
   layout: "post"
 
 ---

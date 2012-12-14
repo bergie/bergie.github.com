@@ -2,7 +2,6 @@
   title: "Google's Rich Snippets will lead us into Semantic Web"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

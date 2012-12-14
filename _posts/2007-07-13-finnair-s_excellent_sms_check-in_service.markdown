@@ -4,7 +4,6 @@
     - "business"
     - "flying"
     - "mobility"
-    - ""
   layout: "post"
 
 ---

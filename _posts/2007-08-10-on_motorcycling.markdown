@@ -2,7 +2,6 @@
   title: "On motorcycling"
   categories: 
     - "motorcycles"
-    - ""
   layout: "post"
 
 ---

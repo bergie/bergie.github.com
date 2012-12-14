@@ -2,7 +2,6 @@
   title: "Black belt"
   categories: 
     - "haidonggumdo"
-    - ""
   layout: "post"
 
 ---

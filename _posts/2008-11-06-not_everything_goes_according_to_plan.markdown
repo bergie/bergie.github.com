@@ -2,7 +2,6 @@
   title: "Not everything goes according to plan"
   categories: 
     - "life"
-    - ""
   layout: "post"
 
 ---

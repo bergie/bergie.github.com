@@ -2,7 +2,6 @@
   title: "Some plans for MidCOM 3"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

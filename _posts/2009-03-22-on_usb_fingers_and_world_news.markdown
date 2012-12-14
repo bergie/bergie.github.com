@@ -2,7 +2,6 @@
   title: "On USB fingers and world news"
   categories: 
     - "life"
-    - ""
   layout: "post"
 
 ---

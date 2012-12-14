@@ -3,7 +3,6 @@
   categories: 
     - "midgard"
     - "oscom"
-    - ""
   layout: "post"
 
 ---

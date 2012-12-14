@@ -3,7 +3,6 @@
   categories: 
     - "life"
     - "oscom"
-    - ""
   layout: "post"
 
 ---

@@ -2,7 +2,6 @@
   title: "CouchDb 0.7.0 is out"
   categories: 
     - "openpsa"
-    - ""
   layout: "post"
 
 ---

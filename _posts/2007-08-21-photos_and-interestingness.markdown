@@ -2,7 +2,6 @@
   title: "Photos and \"interestingness\""
   categories: 
     - "life"
-    - ""
   layout: "post"
 
 ---

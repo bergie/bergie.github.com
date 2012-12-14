@@ -2,7 +2,6 @@
   title: "Midgard2: Future in the clouds"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

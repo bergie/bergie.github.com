@@ -2,7 +2,6 @@
   title: "Midgard and the CMS reality checklist"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

@@ -2,7 +2,6 @@
   title: "Midgard does the Tango"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

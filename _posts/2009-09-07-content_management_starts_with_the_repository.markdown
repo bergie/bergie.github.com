@@ -2,7 +2,6 @@
   title: "Content management starts with the repository"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

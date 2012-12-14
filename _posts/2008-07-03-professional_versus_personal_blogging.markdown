@@ -2,7 +2,6 @@
   title: "Professional versus personal blogging"
   categories: 
     - "life"
-    - ""
   layout: "post"
 
 ---

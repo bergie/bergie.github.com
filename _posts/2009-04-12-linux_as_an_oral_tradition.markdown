@@ -2,7 +2,6 @@
   title: "Linux as an oral tradition"
   categories: 
     - "desktop"
-    - ""
   layout: "post"
 
 ---

@@ -2,7 +2,6 @@
   title: "Ragnaland is coming"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

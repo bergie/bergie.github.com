@@ -2,7 +2,6 @@
   title: "Document locking hits MidCOM 2.8"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

@@ -2,7 +2,6 @@
   title: "The returning Age of Sail"
   categories: 
     - "flying"
-    - ""
   layout: "post"
 
 ---

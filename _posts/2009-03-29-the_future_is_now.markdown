@@ -2,7 +2,6 @@
   title: "The future is now"
   categories: 
     - "politics"
-    - ""
   layout: "post"
 
 ---

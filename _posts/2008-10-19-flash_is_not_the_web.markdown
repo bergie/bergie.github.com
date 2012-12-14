@@ -3,7 +3,6 @@
   categories: 
     - "oscom"
     - "desktop"
-    - ""
   layout: "post"
 
 ---

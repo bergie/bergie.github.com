@@ -2,7 +2,6 @@
   title: "On Vikings and Free Software"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

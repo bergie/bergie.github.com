@@ -3,7 +3,6 @@
   categories: 
     - "life"
     - "desktop"
-    - ""
   layout: "post"
 
 ---

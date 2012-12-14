@@ -2,7 +2,6 @@
   title: "VectorMagic: convert bitmaps to vector online"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

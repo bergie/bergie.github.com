@@ -2,7 +2,6 @@
   title: "Some thoughts on green programming, PHP, Midgard and simplicity"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

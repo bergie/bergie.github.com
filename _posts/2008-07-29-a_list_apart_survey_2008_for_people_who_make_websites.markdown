@@ -2,7 +2,6 @@
   title: "A List Apart Survey 2008 for people who make websites"
   categories: 
     - "business"
-    - ""
   layout: "post"
 
 ---

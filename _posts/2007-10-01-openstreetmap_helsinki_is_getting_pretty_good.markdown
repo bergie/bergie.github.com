@@ -2,7 +2,6 @@
   title: "OpenStreetMap Helsinki is getting pretty good"
   categories: 
     - "geo"
-    - ""
   layout: "post"
 
 ---

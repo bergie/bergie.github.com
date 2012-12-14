@@ -2,7 +2,6 @@
   title: "Big Midgard release day"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

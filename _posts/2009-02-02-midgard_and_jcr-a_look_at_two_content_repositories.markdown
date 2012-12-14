@@ -2,7 +2,6 @@
   title: "Midgard and JCR: a look at two content repositories"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

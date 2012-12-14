@@ -2,7 +2,6 @@
   title: "Headed out for a walk"
   categories: 
     - "life"
-    - ""
   layout: "post"
 
 ---

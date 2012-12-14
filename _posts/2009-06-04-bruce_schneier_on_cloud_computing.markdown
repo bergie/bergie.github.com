@@ -3,7 +3,6 @@
   categories: 
     - "desktop"
     - "politics"
-    - ""
   layout: "post"
 
 ---

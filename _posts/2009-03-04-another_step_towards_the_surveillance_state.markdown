@@ -2,7 +2,6 @@
   title: "Another step towards the surveillance state"
   categories: 
     - "politics"
-    - ""
   layout: "post"
 
 ---

@@ -2,7 +2,6 @@
   title: "Acting on HTTP errors"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

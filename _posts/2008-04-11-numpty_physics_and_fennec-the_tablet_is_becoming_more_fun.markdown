@@ -2,7 +2,6 @@
   title: "Numpty Physics and Fennec: the tablet is becoming more fun"
   categories: 
     - "mobility"
-    - ""
   layout: "post"
 
 ---

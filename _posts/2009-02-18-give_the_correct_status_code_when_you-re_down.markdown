@@ -2,7 +2,6 @@
   title: "Give the correct status code when you're down"
   categories: 
     - "oscom"
-    - ""
   layout: "post"
 
 ---

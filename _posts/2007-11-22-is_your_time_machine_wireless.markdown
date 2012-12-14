@@ -2,7 +2,6 @@
   title: "Is your Time Machine wireless?"
   categories: 
     - "desktop"
-    - ""
   layout: "post"
 
 ---

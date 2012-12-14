@@ -3,7 +3,6 @@
   categories: 
     - "mobility"
     - "openpsa"
-    - ""
   layout: "post"
 
 ---

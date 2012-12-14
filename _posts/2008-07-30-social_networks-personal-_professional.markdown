@@ -2,7 +2,6 @@
   title: "Social networks: personal & professional"
   categories: 
     - "life"
-    - ""
   layout: "post"
 
 ---

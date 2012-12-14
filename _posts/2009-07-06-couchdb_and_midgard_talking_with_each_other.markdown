@@ -5,7 +5,6 @@
     - "desktop"
     - "midgard"
     - "openpsa"
-    - ""
   layout: "post"
 
 ---

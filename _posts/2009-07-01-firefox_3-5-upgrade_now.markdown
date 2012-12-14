@@ -3,7 +3,6 @@
   categories: 
     - "geo"
     - "desktop"
-    - ""
   layout: "post"
 
 ---

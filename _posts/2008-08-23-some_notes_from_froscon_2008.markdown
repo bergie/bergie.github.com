@@ -2,7 +2,6 @@
   title: "Some notes from FrOSCon 2008"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

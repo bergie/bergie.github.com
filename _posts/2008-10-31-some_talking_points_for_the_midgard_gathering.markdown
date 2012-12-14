@@ -2,7 +2,6 @@
   title: "Some talking points for the Midgard Gathering"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

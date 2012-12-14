@@ -2,7 +2,6 @@
   title: "Volkswagen's 1 liter car looks promising"
   categories: 
     - "motorcycles"
-    - ""
   layout: "post"
 
 ---

@@ -3,7 +3,6 @@
   categories: 
     - "midgard"
     - "business"
-    - ""
   layout: "post"
 
 ---

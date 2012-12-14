@@ -2,7 +2,6 @@
   title: "Nokia Internet Tablet N800 as Family's Portable Media Center"
   categories: 
     - "mobility"
-    - ""
   layout: "post"
 
 ---

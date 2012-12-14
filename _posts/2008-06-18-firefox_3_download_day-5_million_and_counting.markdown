@@ -2,7 +2,6 @@
   title: "Firefox 3 Download Day: 5 million and counting"
   categories: 
     - "desktop"
-    - ""
   layout: "post"
 
 ---

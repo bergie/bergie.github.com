@@ -2,7 +2,6 @@
   title: "Site structure planning with WriteMaps"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

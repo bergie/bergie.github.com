@@ -3,7 +3,6 @@
   categories: 
     - "mobility"
     - "geo"
-    - ""
   layout: "post"
 
 ---

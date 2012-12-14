@@ -2,7 +2,6 @@
   title: "GeoNames ambassador to Finland"
   categories: 
     - "geo"
-    - ""
   layout: "post"
 
 ---

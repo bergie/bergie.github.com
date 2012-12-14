@@ -5,7 +5,6 @@
     - "business"
     - "desktop"
     - "life"
-    - ""
   layout: "post"
 
 ---

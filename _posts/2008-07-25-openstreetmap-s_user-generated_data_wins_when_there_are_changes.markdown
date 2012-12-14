@@ -2,7 +2,6 @@
   title: "OpenStreetMap's user-generated data wins when there are changes"
   categories: 
     - "geo"
-    - ""
   layout: "post"
 
 ---

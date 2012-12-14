@@ -2,7 +2,6 @@
   title: "First beta of Ajatus available"
   categories: 
     - "openpsa"
-    - ""
   layout: "post"
 
 ---

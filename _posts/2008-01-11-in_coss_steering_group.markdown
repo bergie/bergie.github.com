@@ -3,7 +3,6 @@
   categories: 
     - "politics"
     - "business"
-    - ""
   layout: "post"
 
 ---

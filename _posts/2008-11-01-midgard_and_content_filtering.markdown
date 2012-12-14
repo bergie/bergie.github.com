@@ -2,7 +2,6 @@
   title: "Midgard and content filtering"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

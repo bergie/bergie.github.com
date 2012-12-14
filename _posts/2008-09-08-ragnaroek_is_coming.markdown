@@ -2,7 +2,6 @@
   title: "Ragnaroek is coming"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

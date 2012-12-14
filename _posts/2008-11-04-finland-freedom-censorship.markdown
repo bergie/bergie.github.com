@@ -2,7 +2,6 @@
   title: "Finland, freedom, censorship"
   categories: 
     - "politics"
-    - ""
   layout: "post"
 
 ---

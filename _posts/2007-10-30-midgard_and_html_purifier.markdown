@@ -2,7 +2,6 @@
   title: "Midgard and HTML Purifier"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

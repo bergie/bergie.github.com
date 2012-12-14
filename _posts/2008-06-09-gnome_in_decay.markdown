@@ -2,7 +2,6 @@
   title: "GNOME in decay?"
   categories: 
     - "desktop"
-    - ""
   layout: "post"
 
 ---

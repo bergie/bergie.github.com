@@ -4,7 +4,6 @@
     - "life"
     - "haidonggumdo"
     - "motorcycles"
-    - ""
   layout: "post"
 
 ---

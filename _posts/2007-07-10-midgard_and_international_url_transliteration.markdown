@@ -2,7 +2,6 @@
   title: "Midgard and international URL transliteration"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

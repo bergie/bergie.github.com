@@ -4,7 +4,6 @@
     - "midgard"
     - "desktop"
     - "mobility"
-    - ""
   layout: "post"
 
 ---

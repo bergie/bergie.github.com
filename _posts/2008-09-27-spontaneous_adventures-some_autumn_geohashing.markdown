@@ -4,7 +4,6 @@
     - "geo"
     - "life"
     - "motorcycles"
-    - ""
   layout: "post"
 
 ---

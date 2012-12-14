@@ -2,7 +2,6 @@
   title: "Wolfram Alpha"
   categories: 
     - "life"
-    - ""
   layout: "post"
 
 ---

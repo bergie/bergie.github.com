@@ -2,7 +2,6 @@
   title: "Content repository talk in FrOSCon"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

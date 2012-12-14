@@ -2,7 +2,6 @@
   title: "Asgard welcome page just got useful"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

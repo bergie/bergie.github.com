@@ -2,7 +2,6 @@
   title: "Meme: Ten years"
   categories: 
     - "life"
-    - ""
   layout: "post"
 
 ---

@@ -2,7 +2,6 @@
   title: "Quick review: Sennheiser PXC 300 noise-cancelling headphones"
   categories: 
     - "flying"
-    - ""
   layout: "post"
 
 ---

@@ -2,7 +2,6 @@
   title: "SQL-level debugging with Midgard"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

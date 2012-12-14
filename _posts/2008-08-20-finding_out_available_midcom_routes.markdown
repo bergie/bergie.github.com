@@ -2,7 +2,6 @@
   title: "Finding out available MidCOM routes"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

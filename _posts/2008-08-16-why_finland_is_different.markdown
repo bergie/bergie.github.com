@@ -3,7 +3,6 @@
   categories: 
     - "geo"
     - "life"
-    - ""
   layout: "post"
 
 ---

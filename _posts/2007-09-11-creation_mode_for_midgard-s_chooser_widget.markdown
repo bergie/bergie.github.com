@@ -2,7 +2,6 @@
   title: "Creation mode for Midgard's chooser widget"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

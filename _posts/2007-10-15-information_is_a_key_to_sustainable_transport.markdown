@@ -4,7 +4,6 @@
     - "life"
     - "geo"
     - "politics"
-    - ""
   layout: "post"
 
 ---

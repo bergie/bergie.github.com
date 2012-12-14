@@ -2,7 +2,6 @@
   title: "Zenburn colors for PHP editing in SubEthaEdit"
   categories: 
     - "desktop"
-    - ""
   layout: "post"
 
 ---

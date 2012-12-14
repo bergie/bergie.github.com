@@ -2,7 +2,6 @@
   title: "Embedding simple PHP scripts in Midgard"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

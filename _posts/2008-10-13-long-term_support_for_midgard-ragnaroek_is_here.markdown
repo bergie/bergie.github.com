@@ -2,7 +2,6 @@
   title: "Long-Term Support for Midgard: Ragnaroek is here!"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

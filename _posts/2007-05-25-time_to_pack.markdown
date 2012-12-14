@@ -2,7 +2,6 @@
   title: "Time to pack"
   categories: 
     - "life"
-    - ""
   layout: "post"
 
 ---

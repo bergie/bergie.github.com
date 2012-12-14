@@ -2,7 +2,6 @@
   title: "Some notes from MidCOM performance workshop"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

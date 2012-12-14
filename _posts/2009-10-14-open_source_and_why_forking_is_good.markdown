@@ -3,7 +3,6 @@
   categories: 
     - "business"
     - "desktop"
-    - ""
   layout: "post"
 
 ---

@@ -2,7 +2,6 @@
   title: "Feature branches in Midgard development with git"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

@@ -4,7 +4,6 @@
     - "midgard"
     - "business"
     - "politics"
-    - ""
   layout: "post"
 
 ---

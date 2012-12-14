@@ -2,7 +2,6 @@
   title: "Next Midgard will be PHP5 only"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

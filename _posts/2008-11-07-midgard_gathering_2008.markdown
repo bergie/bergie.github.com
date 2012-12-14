@@ -2,7 +2,6 @@
   title: "Midgard Gathering 2008"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

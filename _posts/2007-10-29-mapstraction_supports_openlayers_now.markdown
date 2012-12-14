@@ -2,7 +2,6 @@
   title: "Mapstraction supports OpenLayers now"
   categories: 
     - "geo"
-    - ""
   layout: "post"
 
 ---

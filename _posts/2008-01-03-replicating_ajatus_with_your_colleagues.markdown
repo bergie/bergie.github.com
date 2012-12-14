@@ -2,7 +2,6 @@
   title: "Replicating Ajatus with your colleagues"
   categories: 
     - "openpsa"
-    - ""
   layout: "post"
 
 ---

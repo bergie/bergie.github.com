@@ -2,7 +2,6 @@
   title: "MidCOM content cache rides again"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

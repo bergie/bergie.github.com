@@ -2,7 +2,6 @@
   title: "MidCOM 3 and context injectors"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

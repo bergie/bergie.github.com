@@ -2,7 +2,6 @@
   title: "Hello Planet GNOME"
   categories: 
     - "desktop"
-    - ""
   layout: "post"
 
 ---

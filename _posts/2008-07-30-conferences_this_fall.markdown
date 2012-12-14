@@ -6,7 +6,6 @@
     - "geo"
     - "midgard"
     - "mobility"
-    - ""
   layout: "post"
 
 ---

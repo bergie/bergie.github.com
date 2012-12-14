@@ -2,7 +2,6 @@
   title: "Qaiku and Mozilla Ubiquity"
   categories: 
     - "desktop"
-    - ""
   layout: "post"
 
 ---

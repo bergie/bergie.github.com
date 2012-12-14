@@ -2,7 +2,6 @@
   title: "Podcast on Nikola Tesla"
   categories: 
     - "life"
-    - ""
   layout: "post"
 
 ---

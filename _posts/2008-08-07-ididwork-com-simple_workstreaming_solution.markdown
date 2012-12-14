@@ -2,7 +2,6 @@
   title: "ididwork.com: Simple workstreaming solution"
   categories: 
     - "business"
-    - ""
   layout: "post"
 
 ---

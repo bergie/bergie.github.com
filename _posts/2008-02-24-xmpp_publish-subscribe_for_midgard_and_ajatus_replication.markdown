@@ -3,7 +3,6 @@
   categories: 
     - "openpsa"
     - "midgard"
-    - ""
   layout: "post"
 
 ---

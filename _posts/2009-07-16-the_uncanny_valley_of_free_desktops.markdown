@@ -2,7 +2,6 @@
   title: "The uncanny valley of free desktops"
   categories: 
     - "desktop"
-    - ""
   layout: "post"
 
 ---

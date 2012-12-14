@@ -2,7 +2,6 @@
   title: "Tracking impact instead of effort"
   categories: 
     - "business"
-    - ""
   layout: "post"
 
 ---

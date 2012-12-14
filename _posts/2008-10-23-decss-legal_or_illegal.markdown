@@ -2,7 +2,6 @@
   title: "DeCSS, legal or illegal?"
   categories: 
     - "politics"
-    - ""
   layout: "post"
 
 ---

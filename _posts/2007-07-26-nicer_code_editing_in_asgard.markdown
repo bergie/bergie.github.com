@@ -2,7 +2,6 @@
   title: "Nicer code editing in Asgard"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

@@ -2,7 +2,6 @@
   title: "Midgard uses Trac now"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

@@ -2,7 +2,6 @@
   title: "On Finnish Internet censorship"
   categories: 
     - "politics"
-    - ""
   layout: "post"
 
 ---

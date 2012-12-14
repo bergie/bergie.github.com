@@ -2,7 +2,6 @@
   title: "We will move to Hietalahti"
   categories: 
     - "business"
-    - ""
   layout: "post"
 
 ---

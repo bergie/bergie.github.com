@@ -2,7 +2,6 @@
   title: "GitHub for MidCOM 3 developers"
   categories: 
     - "midgard"
-    - ""
   layout: "post"
 
 ---

@@ -3,7 +3,6 @@
   categories: 
     - "desktop"
     - "openpsa"
-    - ""
   layout: "post"
 
 ---

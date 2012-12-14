@@ -2,7 +2,6 @@
   title: "Firefox 3: soon"
   categories: 
     - "desktop"
-    - ""
   layout: "post"
 
 ---
