@@ -1,6 +1,6 @@
 ---
 title: Workflow for Midgard
-category:
+categories:
   - midgard
 layout: post
 source: "http://www.midgard-project.org/updates/2003-06-05-000.html"

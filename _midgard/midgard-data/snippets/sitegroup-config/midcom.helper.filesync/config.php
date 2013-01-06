@@ -1,1 +1,0 @@
-'filesync_path'  => '/home/bergie/midgard-data',
