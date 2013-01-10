@@ -42,15 +42,15 @@ bodyclass: blog
 
 <div class="span9 offset1">
   <ul class="pager">
-  {% if paginator.next_page %}
-    <li><a href="/page{{ paginator.next_page }}/">&larr; Older</a></li>
-  {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-    <li><a href="/">Newer &rarr;</a></li>
+    <li><a rel="prev" href="/">&larr; Newer</a></li>
     {% else %}
-    <li><a href="/page{{ paginator.previous_page }}/">Newer &rarr;</a></li>
+    <li><a rel="prev" href="/page{{ paginator.previous_page }}/">&larr; Newer</a></li>
     {% endif %}
+  {% endif %}
+  {% if paginator.next_page %}
+    <li><a rel="next" href="/page{{ paginator.next_page }}/">Older &rarr;</a></li>
   {% endif %}
   </ul>
 </div>
