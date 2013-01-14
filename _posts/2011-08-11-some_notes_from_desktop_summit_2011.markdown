@@ -4,6 +4,7 @@
     - "desktop"
     - "kde"
     - "midgard"
+    - fbp
   layout: "post"
 
 ---

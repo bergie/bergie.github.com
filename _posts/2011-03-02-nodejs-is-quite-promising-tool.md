@@ -4,6 +4,7 @@ source: "http://www.qaiku.com/channels/show/programming/view/d7411884449711e0b11
 location: Helsinki, Finland
 categories:
   - javascript
+  - nodejs
 layout: post
 ---
 <http://www.theregister.co.uk/2011/03/01/the_rise_and_rise_of_node_dot_js/>

@@ -4,6 +4,7 @@ location: Berlin, Germany
 layout: post
 categories:
   - coffeescript
+  - fbp
 ---
 [NoFlo](http://noflojs.org/) is an implementation of the [Flow-Based Programming](http://en.wikipedia.org/wiki/Flow-based_programming) model for Node.js. Today I've released [version 0.2.0](https://npmjs.org/package/noflo) which provides a handy new feature: the ability to share components via NPM.
 

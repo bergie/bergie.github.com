@@ -28,6 +28,7 @@ Information technology:
 * [Desktop computing](/blog/category/desktop/) ([RSS feed](/blog/category/desktop/rss.xml))
 * [Location-awareness](/blog/category/geo/) ([RSS feed](/blog/category/geo/rss.xml))
 * [Decoupled Content Management](/blog/category/oscom/) ([RSS feed](/blog/category/oscom/rss.xml))
+* [Flow-Based Programming](/blog/category/fbp/) ([RSS feed](/blog/category/fbp/rss.xml))
 
 Specific computing platforms or projects:
 
@@ -37,3 +38,4 @@ Specific computing platforms or projects:
 * [OpenPSA business suite](/blog/category/openpsa/) ([RSS feed](/blog/category/openpsa/rss.xml))
 * [JavaScript](/blog/category/javascript/) ([RSS feed](/blog/category/javascript/rss.xml))
 * [CoffeeScript](/blog/category/coffeescript/) ([RSS feed](/blog/category/coffeescript/rss.xml))
+* [Node.js](/blog/category/nodejs/) ([RSS feed](/blog/category/nodejs/rss.xml))

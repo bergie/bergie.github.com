@@ -6,6 +6,7 @@
     - "oscom"
     - coffeescript
     - nodejs
+    - fbp
   layout: "post"
 
 ---

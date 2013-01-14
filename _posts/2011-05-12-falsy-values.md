@@ -5,6 +5,7 @@ source: "http://www.qaiku.com/channels/show/seminaarikannu/view/e8ecfcde811d11e0
 categories:
   - javascript
   - coffeescript
+  - nodejs
 layout: post
 ---
 Node.js workshop starting. Poll of people participating... most write mainly PHP, Java, Python, Ruby. But everybody also writes JavaScript.
