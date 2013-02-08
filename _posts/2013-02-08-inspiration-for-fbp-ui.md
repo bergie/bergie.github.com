@@ -61,7 +61,11 @@ The key part of making a user interface for NoFlo should be to make flow-based p
 
 <iframe width="500" height="281" src="http://www.youtube.com/embed/PUv66718DII" frameborder="0" allowfullscreen></iframe>
 
-Flow-based programming tools can help a lot here, as the main logic of a program is anyway depicted as a visual graph. With NoFlo we can even connect the user interface to a already running piece of software, allowing users to see what is going on and to make changes while the application is runs. Think of the [mimic boards in nuclear power plants](http://ec.europa.eu/avservices/photo/photoDetails.cfm?sitelang=en&mgid=503#14) where the operators can constantly see the status of every part of the process.
+Flow-based programming tools can help a lot here, as the main logic of a program is anyway depicted as a visual graph.
+
+With NoFlo we can even connect the user interface to a already running piece of software, allowing users to see what is going on and to make changes while the application is runs. Think of the [mimic boards in nuclear power plants](http://ec.europa.eu/avservices/photo/photoDetails.cfm?sitelang=en&mgid=503#14) where the operators can constantly see the status of every part of the process.
+
+![Mimic board in a power plant](/files/fbp-ui/mimicboard.png)
 
 ### Visual identity
 
