@@ -48,6 +48,6 @@ If you're using both systems, then the Kanban wall is also aware of the presence
 
 ## Interested yet?
 
-So far we've only trialed the system in our own office, but are not looking for some pilot customers to try the system out. If you're interested in making your workplace smarter, [get in touch](mailto:info@nemein.com).
+So far we've only trialed the system in our own office, but are now looking for some pilot customers to try the system out. If you're interested in making your workplace smarter, [get in touch](mailto:info@nemein.com).
 
 For those who like to tinker with these things, all the sensor software is available as open source at <http://github.com/nemein>.
