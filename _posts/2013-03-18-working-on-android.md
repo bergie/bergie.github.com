@@ -5,7 +5,7 @@ location: Berlin, Germany
 categories:
   - mobility
   - desktop
-date: "2013-03-18 19:00:00"
+date: "2013-03-18 18:00:00"
 ---
 As mentioned in my post [Hacker-nomad's toolkit, 2012 edition](http://bergie.iki.fi/blog/toolkit-2012/), the lease period of my lovely &mdash; Linux-driven &mdash; [11" MacBook Air](http://bergie.iki.fi/blog/11-macbook_air-the_best_computer_i-ve_ever_had/) expired this month, and I had to consider what kind of gear to go with next.
 
