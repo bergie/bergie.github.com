@@ -59,7 +59,7 @@ I also prefer the rugged, rubberized look-and-feel of the Nexus 10 to the cold m
 
 ### Software used
 
-![Nexus 10 homescreen](/files/nexus10-homescreen.jpg)
+![Nexus 10 homescreen](/files/nexus10-homescreen-small.jpg)
 
 I really don't need much for my daily work &mdash; just a browser and a terminal. Here are the apps I use on a daily basis:
 
