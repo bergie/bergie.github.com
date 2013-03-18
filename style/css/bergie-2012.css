@@ -82,12 +82,14 @@ header h1 a {
 }
 
 body.blog header,
-body.blogcategory header {
+body.blogcategory header,
+body.post header{
   padding-top: 0;
 }
 
 body.blog header div,
-body.blogcategory header div {
+body.blogcategory header div,
+body.post header div {
   background-image: url('/style/img/mdpi/bergie_istanbul_small.jpg');
   background-size: 369px 300px;
   background-position: top right;
@@ -97,7 +99,8 @@ body.blogcategory header div {
 }
 
 body.blog header h1,
-body.blogcategory header h1 {
+body.blogcategory header h1,
+body.post header h1 {
   margin-right: 250px;
 }
 
@@ -176,15 +179,13 @@ body.blogcategory ol.categoryposts li .metadata {
   font-size: 12pt;
 }
 
-article header .metadata {
-  height: 70px;
-  text-align: right;
-  font-weight: bold;
+body.post article .metadata {
   font-style: italic;
-
   font-family: {{ page.mainfont }};
-  font-size: 18pt;
+  font-size: 12pt;
   color: #555753;
+  text-align: right;
+  padding-bottom: 1em;
 }
 
 article div,
@@ -311,11 +312,18 @@ footer ul.nav li a {
 }
 
 @media (max-width: 980px) {
-  body.blog header div, body.blogcategory header div {
+  body.blog header div,
+  body.blogcategory header div,
+  body.post header div {
     padding-top: 275px;
   }
+  body.blog header h1,
+  body.blogcategory header h1,
+  body.post header h1 {
+    margin-right: 40px;
+  }
   body.front header div {
-    padding-top: 360px;
+    padding-top: 365px;
   }
 }
 
@@ -331,7 +339,8 @@ only screen and (-moz-min-device-pixel-ratio: 1.3),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.3) {
   body.blog header div,
-  body.blogcategory header div {
+  body.blogcategory header div,
+  body.post header div {
     background-image: url('/style/img/hdpi/bergie_istanbul_small.jpg');
   }
   body.front header div {
@@ -353,7 +362,8 @@ only screen and (-moz-min-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 3) {
   body.blog header div,
-  body.blogcategory header div {
+  body.blogcategory header div,
+  body.post header div {
     background-image: url('/style/img/xhdpi/bergie_istanbul_small.jpg');
   }
   body.front header div {
