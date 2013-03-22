@@ -13,22 +13,15 @@ The whole blog:
 
 * [Best of the Blog](/blog/category/bestof/) ([RSS feed](/blog/category/bestof/rss.xml))
 
-Personal stuff:
-
-* [Motorcycle adventures](/blog/category/motorcycles/) ([RSS feed](/blog/category/motorcycles/rss.xml))
-* [General Aviation](/blog/category/flying/) ([RSS feed](/blog/category/flying/rss.xml))
-* [Notes on personal life](/blog/category/life/) ([RSS feed](/blog/category/life/rss.xml))
-* [Politics](/blog/category/politics/) ([RSS feed](/blog/category/politics/rss.xml))
-* [Martial Arts](/blog/category/haidonggumdo/) ([RSS feed](/blog/category/haidonggumdo/rss.xml))
-
 Information technology:
 
 * [Software business](/blog/category/business/) ([RSS feed](/blog/category/business/rss.xml))
 * [Mobile computing](/blog/category/mobility/) ([RSS feed](/blog/category/mobility/rss.xml))
 * [Desktop computing](/blog/category/desktop/) ([RSS feed](/blog/category/desktop/rss.xml))
-* [Location-awareness](/blog/category/geo/) ([RSS feed](/blog/category/geo/rss.xml))
+* [Tablet productivity](/blog/category/tablet/) ([RSS feed](/blog/category/tablet/rss.xml))
 * [Decoupled Content Management](/blog/category/oscom/) ([RSS feed](/blog/category/oscom/rss.xml))
 * [Flow-Based Programming](/blog/category/fbp/) ([RSS feed](/blog/category/fbp/rss.xml))
+* [Location-awareness](/blog/category/geo/) ([RSS feed](/blog/category/geo/rss.xml))
 
 Specific computing platforms or projects:
 
@@ -39,3 +32,11 @@ Specific computing platforms or projects:
 * [JavaScript](/blog/category/javascript/) ([RSS feed](/blog/category/javascript/rss.xml))
 * [CoffeeScript](/blog/category/coffeescript/) ([RSS feed](/blog/category/coffeescript/rss.xml))
 * [Node.js](/blog/category/nodejs/) ([RSS feed](/blog/category/nodejs/rss.xml))
+
+Personal stuff:
+
+* [Motorcycle adventures](/blog/category/motorcycles/) ([RSS feed](/blog/category/motorcycles/rss.xml))
+* [General Aviation](/blog/category/flying/) ([RSS feed](/blog/category/flying/rss.xml))
+* [Notes on personal life](/blog/category/life/) ([RSS feed](/blog/category/life/rss.xml))
+* [Politics](/blog/category/politics/) ([RSS feed](/blog/category/politics/rss.xml))
+* [Martial Arts](/blog/category/haidonggumdo/) ([RSS feed](/blog/category/haidonggumdo/rss.xml))

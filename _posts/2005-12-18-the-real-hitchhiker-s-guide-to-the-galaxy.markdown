@@ -3,6 +3,7 @@
   categories: 
     - "life"
     - "mobility"
+    - "tablet"
   layout: "post"
 
 ---

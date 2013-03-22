@@ -3,6 +3,7 @@
   categories: 
     - "mobility"
     - "bestof"
+    - "tablet"
   layout: "post"
 
 ---

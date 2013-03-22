@@ -8,6 +8,7 @@ categories:
   - javascript
   - coffeescript
   - nodejs
+  - tablet
 ---
 [Quite a different way](http://en.wikipedia.org/wiki/Flow-based_programming) of doing software:
 

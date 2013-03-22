@@ -5,6 +5,7 @@ layout: post
 categories:
   - business
   - mobility
+  - tablet
 ---
 Great post by John Lilly discussing why [PC will be the truck](http://lilly.tumblr.com/post/23719699951/computers-trucks):
 

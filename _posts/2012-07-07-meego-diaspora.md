@@ -6,6 +6,7 @@ categories:
   - mobility
   - desktop
   - bestof
+  - tablet
 location: Berlin, Germany
 ---
 Much has been written about the emerging Post-PC era, about the new possibilities it brings, and the limitations it imposes on developer creativity.

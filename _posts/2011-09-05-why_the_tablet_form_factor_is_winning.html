@@ -3,6 +3,7 @@
   categories: 
     - "desktop"
     - "mobility"
+    - "tablet"
   layout: "post"
 
 ---

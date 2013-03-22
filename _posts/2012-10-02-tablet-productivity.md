@@ -7,6 +7,7 @@ categories:
   - mobility
   - business
   - bestof
+  - tablet
 ---
 Tablet usage is growing rapidly. Ars Technica [wrote about an interesting study today](http://arstechnica.com/gadgets/2012/10/study-shows-25-of-americans-own-a-tablet/):
 

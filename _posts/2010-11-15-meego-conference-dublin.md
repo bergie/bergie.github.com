@@ -4,6 +4,7 @@ source: "http://www.qaiku.com/channels/show/MeeGo/view/a353cb4cf09711df9e6133ce7
 categories:
   - meego
   - mobility
+  - tablet
 layout: post
 location: Dublin, Ireland
 ---

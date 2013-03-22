@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
     - "mobility"
+    - "tablet"
   layout: "post"
 
 ---

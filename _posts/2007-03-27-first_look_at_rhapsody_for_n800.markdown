@@ -2,6 +2,7 @@
   title: "First look at Rhapsody for N800"
   categories: 
     - "mobility"
+    - "tablet"
   layout: "post"
 
 ---

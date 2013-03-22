@@ -3,6 +3,7 @@
   categories: 
     - "business"
     - "mobility"
+    - "tablet"
   layout: "post"
 
 ---
