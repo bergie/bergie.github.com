@@ -18,6 +18,9 @@ bodyclass: blogcategory
   {% if page.categorization == 'oscom' %}
     {% include category_oscom.html %}
   {% endif %}
+  {% if page.categorization == 'tablet' %}
+    {% include category_tablet.html %}
+  {% endif %}
 </div>
 
 <ol class="span8 offset1 categoryposts">

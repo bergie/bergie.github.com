@@ -42,6 +42,11 @@ bodyclass: 'post'
             {% include category_oscom.html %}
             <p><a href="/blog/category/oscom/">Read more Decoupled CMS posts</a>.<p>
         {% endif %}
+        {% if page.categories contains 'tablet' %}
+            <hr />
+            {% include category_tablet.html %}
+            <p><a href="/blog/category/tablet/">Read more Tablet Productivity posts</a>.<p>
+        {% endif %}
         {% include comments.html %}
         </div>
       </article>
