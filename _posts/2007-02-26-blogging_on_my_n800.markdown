@@ -2,6 +2,7 @@
   title: "Blogging on my N800"
   categories: 
     - "mobility"
+    - "tablet"
   layout: "post"
 
 ---

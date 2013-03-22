@@ -2,6 +2,7 @@
   title: "First day with Nokia 770"
   categories: 
     - "mobility"
+    - "tablet"
   layout: "post"
 
 ---
