@@ -1,5 +1,5 @@
 ---
-title: Why Wordpress needs to get Decoupled
+title: Why WordPress needs to get Decoupled
 location: Berlin, Germany
 layout: post
 categories:
@@ -46,11 +46,11 @@ Over the past two years I've given tens of talks about Decoupled Content Managem
 
 Symfony activist Lukas Smith [has noticed the same](https://news.ycombinator.com/item?id=5414441):
 
-> I think the first step would be that the Wordpress core developers start to mingle with the PHP community. I simply have not met a single Wordpress core developer at any PHP conference and I tend to go to 6-10 a year in various countries around the world.
+> I think the first step would be that the WordPress core developers start to mingle with the PHP community. I simply have not met a single WordPress core developer at any PHP conference and I tend to go to 6-10 a year in various countries around the world.
 
-> I have also not seen any Wordpress core dev participate on an php-src internals discussion let alone something like the Framework Interoperability Group that outs out the PSRs.
+> I have also not seen any WordPress core dev participate on an php-src internals discussion let alone something like the Framework Interoperability Group that outs out the PSRs.
 
-> But without communication the chances of collaboration are low and without collaboration imho its going to be hard for Wordpress to identify and assess the potential for new directions.
+> But without communication the chances of collaboration are low and without collaboration imho its going to be hard for WordPress to identify and assess the potential for new directions.
 
 ## Moving forward
 
