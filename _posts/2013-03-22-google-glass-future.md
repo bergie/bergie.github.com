@@ -32,13 +32,17 @@ They even [sell stickers](http://www.redbubble.com/people/stopthecyborgs).
 
 ## Consider the possibilities
 
-Since the privacy battle is already lost, shouldn't we instead focus on the possibilities they can bring? While Google has shown very little of the capabilities of the Glass software apart from videoconferencing and making web searches, various books can provide clues.
+Since the privacy battle is already lost, shouldn't we instead focus on the possibilities they can bring? While Google has shown very little of the capabilities of the Glass software apart from videoconferencing and making web searches, various books can provide clues. 
+
+Many of them describe a world where you can share with anybody what you see with your own eyes, or access any information without having to hold a bulky device.
 
 It is a little hard to provide good context of the use cases from the books just by short snippets, but here are some. Feel free to provide your own in the comments.
 
 In Daniel Suarez's [Daemon series](http://en.wikipedia.org/wiki/Daemon_%28technothriller_series%29), Glass-like devices are used for connecting and coordinating a full economy, called the Darknet. Here is a view of an office with augmented reality displays and [motion controls](https://www.leapmotion.com/):
 
 > The center of the room looked to be a staging area, bustling with your people, all wearing eyewear and gloves. To the side was a raised platformn lined with office chairs where a dozen people were grabbing, pulling, and pushing at invisible objects in the air. They were all speaking to unseen people, as though it were a call center.
+
+I could easily imagine manipulating my [flow based programs](http://noflojs.org) in this way.
 
 The Daemon series also feature other Google products, like [driverless cars](http://en.wikipedia.org/wiki/Google_driverless_car) and an augmented reality game much like [Ingress](http://www.ingress.com/).
 
@@ -47,7 +51,7 @@ Vernor Vinge's [Rainbows End](http://en.wikipedia.org/wiki/Rainbows_End) has eve
 > Vaz strolled to the stone barrier and looked down. If he blocked out all the tourism fantasy [augmented by the Glass], he could see the freight harbor almost two hundred meters below and a kilometer away. The place was an immensity of freight containers rambling this way and that, chaos. If he invoked his government powers, he could see the flow of carge, even see the security certificates...
 
 And of course people interact with the augmented reality projections of others just like they were present:
-[[[[[[
+
 > Even when her friends were gone physically, they were often still around, invisible presences [without the Glass] like Robert's doctors. Miri walked around the backyard talking and arguing with nobody&mdash;a parody of all the cellphone discourtesy that Robert remembered
 
 For the less pleasant view of something like Glass, Neal Stephenson's [Snow Crash](http://en.wikipedia.org/wiki/Snow_Crash) focuses on the surveillance aspects, with people using AR displays being called *Gargoyles*:
@@ -66,4 +70,4 @@ I'd love to have Glass, even if it is clunky in the beginning.
 
 Wearable computing is one of the possible trajectories we're going with, from room-sized mainframes to desk-bound personal computers to these amazing small slabs of glass and antennas we now carry in our pockets.
 
-Just like with [smart spaces](http://bergie.iki.fi/blog/smart-collaboration-space/), or [tablets many years ago](http://bergie.iki.fi/blog/the-real-hitchhiker-s-guide-to-the-galaxy/), I'd love to explore the new interaction possibilities.
+Just like with [smart spaces](http://bergie.iki.fi/blog/smart-collaboration-space/), or [tablets many years ago](http://bergie.iki.fi/blog/the-real-hitchhiker-s-guide-to-the-galaxy/), I'm keen to explore the new interaction possibilities.
