@@ -49,6 +49,7 @@ bodyclass: blog
     <li><a rel="prev" href="/page{{ paginator.previous_page }}/">&larr; Newer</a></li>
     {% endif %}
   {% endif %}
+  <li><a href="/blog/rss.xml">RSS feed</a></li>
   <li><a href="/blog/">Archive</a></li>
   {% if paginator.next_page %}
     <li><a rel="next" href="/page{{ paginator.next_page }}/">Older &rarr;</a></li>
