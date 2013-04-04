@@ -79,3 +79,5 @@ Currently there are many different ideas floating around on how to build user ex
 I don't think the "post-PC" world is yet complete. What MeeGo gives is a fast way to build products differentiating from that crowd. It just needs companies who are willing to go for it.
 
 The next couple of years will be quite interesting.
+
+**Update:** everything written in this blog post should be applied to [Mer Project](http://merproject.org/) as the proper heir of MeeGo.
