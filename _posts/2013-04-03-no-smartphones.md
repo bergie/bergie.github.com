@@ -74,4 +74,4 @@ PCs will still remain as the main productivity tool for some years, mainly thank
 
 For now, I'm considering my adventures in the tablet productivity world an experiment. But day by day, my [work tablet setup](http://bergie.iki.fi/blog/working-on-android/) is feeling more and more comfortable.
 
-Right now I don't miss my laptop.
+Right now I don't miss my laptop. Or having a phone number.
