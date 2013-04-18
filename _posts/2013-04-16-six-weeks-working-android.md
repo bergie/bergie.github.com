@@ -127,7 +127,7 @@ What I lose is the ability to work fully offline, though somewhat alleviated by 
 
 ### Moving forward
 
-The experiment will keep continue. In these six months, I haven't seen any negative impact on my productivity from working on an Android tablet instead of a laptop, and many positive ones. *Portability, battery life, and the emphasis on tests and automation* are probably the foremost.
+The experiment will keep continue. In these six weeks, I haven't seen any negative impact on my productivity from working on an Android tablet instead of a laptop, and many positive ones. *Portability, battery life, and the emphasis on tests and automation* are probably the foremost.
 
 Of course, new devices come to the market, and eventually something will come that beats the current setup. But then I'll be able to switch without even losing my cursor position, so the only cost is the hardware itself.
 
