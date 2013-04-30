@@ -47,4 +47,6 @@ What Annotate.js does is not merely creating links, but it also marking the mach
 
 It is easy to see Create.js (like Drupal did, [unfortunately](http://drupal.org/node/1979784)) as just an easy way to add nice inline editing features to your CMS. However, while that is a good initial step, the addition of being able to interact with your content on the semantic level can do a lot more. Automated linking is just another demonstration of that.
 
-As the ecosystem around Create.js and VIE matures, and it ships in more systems, there will be things that we can't even imagine now built on the stack. And if your CMS is [properly decoupled](http://bergie.iki.fi/blog/decoupling_content_management/), you can benefit from that immediately.
+As the ecosystem around Create.js and VIE matures, and it ships in more systems, there will be things that we can't even imagine now built on the stack.
+
+If your CMS is [properly decoupled](http://bergie.iki.fi/blog/decoupling_content_management/), you can benefit from that immediately.
