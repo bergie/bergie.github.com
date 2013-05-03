@@ -332,6 +332,9 @@ footer ul.nav li a {
     font-weight: normal;
     text-align: right;
   }
+  body.post article iframe {
+    width: auto;
+  }
 }
 
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.3),
