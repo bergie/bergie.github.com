@@ -40,7 +40,7 @@ Object-oriented programming and Model-View-Controller have been the dominant pro
 
 Software has [become one of the most important aspects](http://online.wsj.com/article/SB10001424053111903480904576512250915629460.html) of business and the society. As an effect, the demand for programmers [vastly outstrips](http://blog.nwjobs.com/careercenter/talking_code_demand_for_programmers_software_engineers_outstrips_supply.html) the amount of computer science graduates we're able to produce.
 
-The tools side of things isn't looking much better, either. While IDEs are admittedly improving all the time, most of the talented programmers have ditched them and moved back to the console-based editors of the 80s like vim and Emacs, many following the [Unix as your IDE](http://blog.sanctum.geek.nz/unix-as-ide-introduction/) idea.
+The tools side of things isn't looking much better, either. While IDEs are admittedly improving all the time, most of the talented programmers have ditched them and moved back to the console-based editors of the 80s like vim and Emacs, many following the [Unix as your IDE](http://blog.sanctum.geek.nz/unix-as-ide-introduction/) idea. Clearly the productivity boost given by IDEs doesn't yet match the overhead of using them.
 
 These areas are where flow-based programming can help.
 
