@@ -30,7 +30,7 @@ Having worked with component architectures and Unix pipes before, the idea reson
 
 ![The coastal road in Oregon](/files/oregon-coast.jpg)
 
-Implementing your own is usually the best method for learning a new concept, and so when I got back to the Bay Areay, I decided to write an [FBP system of my own](https://github.com/bergie/noflo) on Node.js.
+Implementing your own is usually the best method for learning a new concept, and so when I got back to the Bay Area, I decided to write an [FBP system of my own](https://github.com/bergie/noflo) on Node.js.
 
 I also kept a [Qaiku](http://en.wikipedia.org/wiki/Qaiku) thread on the things I discovered, parts of which I later [republished on this site](http://bergie.iki.fi/blog/flow-based-programming-is-interesting/).
 
@@ -95,7 +95,7 @@ What we have with NoFlo is already a quite solid programming environment:
 * [Flow-based engine](https://github.com/bergie/noflo) that works well in both browser and Node.js
 * Growing ecosystem of [reusable open source components](https://npmjs.org/browse/depended/noflo)
 * Framework for quickly [scaffolding](https://github.com/bergie/grunt-init-noflo) and [testing](https://github.com/bergie/noflo-test) new components
-* Domain-specific language for [defining NoFlo graphs](http://bergie.iki.fi/blog/9915130395/)
+* Domain-specific language for [defining NoFlo graphs](https://github.com/noflo/fbp#language-for-flow-based-programming)
 
 However, the missing part is a tool that would allow viewing and editing NoFlo graphs visually. Sure, [DrawFBP](http://www.jpaulmorrison.com/cgi-bin/wiki.pl?DrawFBP) is there, and can be used with NoFlo. But something fitting modern touchscreen interactions and more connected to the live graphs would be better.
 
