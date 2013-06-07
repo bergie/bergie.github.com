@@ -35,7 +35,7 @@ This changes web design substantially. Even in the old world of different PC bro
 
 Instead:
 
-* Think in *visual components instead of full pages*. The composition of a page out of these components can wary for different screen sizes
+* Think in *visual components instead of full pages*. The composition of a page out of these components can vary for different screen sizes
 * Design the compositions always for at *three screen form factors*: a full-sized desktop or tablet screen, a smartphone screen, and the 7" tablet in between
 * Make your *user interface elements big enough* to be used on inaccurate touch screens
 * *Never, ever require a plugin* to access some content or functionality
