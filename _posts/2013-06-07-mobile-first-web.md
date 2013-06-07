@@ -42,6 +42,8 @@ Instead:
 
 [CSS Media Queries](http://css-tricks.com/css-media-queries/) make responding to different form factors quite easy. And besides that, they also make it easy to optimize for the [different screen densities](http://developer.android.com/training/multiscreen/screendensities.html#TaskProvideAltBmp) we now have. This way your images will look sharp on anything the users have, from the "retina-class devices" to the lowest-specced Chinese smartphone, while requiring the user to only download the assets that their device can utilize.
 
+The devices people use to access the services you provide will vary greatly not only in their display capabilities, but also in the ways you can do input. Some will have mice and physical keyboards, but an increasing amount will instead have a touchscreen. For these users, it is a big service to use the correct [HTML5 input types](http://sixrevisions.com/html5/new-html5-form-input-types/) so that the on-screen keyboards and widgets can adapt to the content being entered.
+
 ## The web is not native
 
 The web is its own platform, and as such it is *foolish to try and mimic traditional desktop applications*. It will never feel quite right whatever you do.
