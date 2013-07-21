@@ -14,6 +14,7 @@
     {% capture page_url %}{{ site.url }}{{ page.url }}{% endcapture %}
     <link rel="payment" href="https://flattr.com/submit/auto?url={{ page_url | cgi_escape }}&amp;user_id=bergie" type="text/html" />
     <link rel="bitcoin" href="bitcoin:13SqhsZN78KVrJFYdac4WX2edoRrSys5qu" />
+    <meta property="fb:admins" content="722463139" />
     {% if page.categorization %}
     <link rel="alternate" type="application/rss+xml" href="/blog/category/{{ page.categorization }}/rss.xml" title="'{{ page.categorization }}' feed" />
     {% else %}
