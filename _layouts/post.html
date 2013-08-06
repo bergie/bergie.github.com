@@ -32,9 +32,11 @@ bodyclass: 'post'
           {% endif %}
         {% if page.categories contains 'midgard' %}
           {% unless page.categories contains 'oscom' %}
+          {% unless page.categories contains 'fbp' %}
             <hr />
             {% include category_midgard.html %}
             <p><a href="/blog/category/midgard/">Read more Midgard posts</a>.<p>
+          {% endunless %}
           {% endunless %}
         {% endif %}
         {% if page.categories contains 'oscom' %}
