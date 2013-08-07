@@ -96,6 +96,6 @@ One important area of attention is publishing more demos and examples of NoFlo i
 
 We also have quite a lot of content lined up and waiting for editing. Something of interest to everybody working with flow-based or functional programming will be the long cut of the interview we made with [J. Paul Morrison](http://en.wikipedia.org/wiki/John_Paul_Morrison), the father of FBP. My hope is that video will be live by the end of the next week.
 
-If you're interested in the developments, make sure to follow NoFlo on [Twitter](https://twitter.com/noflojs), [Facebook](https://www.facebook.com/noflo), or [Google+](https://plus.google.com/u/0/112372998187205178398). If you back [our campaign](http://www.kickstarter.com/projects/noflo/noflo-development-environment), you'll also receive the updates via Kickstarter.
+If you're interested in the developments, make sure to follow NoFlo on [Twitter](https://twitter.com/noflo), [Facebook](https://www.facebook.com/noflo), or [Google+](https://plus.google.com/u/0/112372998187205178398). If you back [our campaign](http://www.kickstarter.com/projects/noflo/noflo-development-environment), you'll also receive the updates via Kickstarter.
 
 Thanks everybody for helping to make this possible! Keep spreading the world and giving [your support](http://www.kickstarter.com/projects/noflo/noflo-development-environment)!
