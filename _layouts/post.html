@@ -22,7 +22,7 @@ bodyclass: 'post'
             {% if page.location %}
             in <span rel="contentLocation" typeof="City"><span property="name">{{ page.location }}</span></span>
             {% endif %}
-            <span property="wordCount" content="{{ content | number_of_words }}"></span>
+            <span property="wordCount" content="{{ content | strip_html | number_of_words }}"></span>
           </div>
           {% if page.source %}
           <div class="contentSource">

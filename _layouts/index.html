@@ -32,7 +32,7 @@ bodyclass: blog
       in <span rel="contentLocation" typeof="City"><span property="description">{{ post.location }}</span></span>
       {% endif %}
       <a rel="author" href="http://bergie.iki.fi/#me"></a>
-      <span property="wordCount" content="{{ post.content | number_of_words }}"></span>
+      <span property="wordCount" content="{{ post.content | strip_html | number_of_words }}"></span>
     </div>
   </article>
   {% unless forloop.last %}
