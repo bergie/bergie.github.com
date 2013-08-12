@@ -35,7 +35,7 @@ When I started working with the rest of [The Grid](https://www.facebook.com/theg
 
 Since we're very much a NoFlo shop, it felt natural to take Jekyll as sort of a specification, and reimplement it using FBP techniques. Initially this was an internal effort, but then we decided, very much in the nature of [GitHub's "open source (nearly) everything"](http://tom.preston-werner.com/2011/11/22/open-source-everything.html) philosophy, that this should be opened as well.
 
-I got noflo-jekyll into a running state pretty in about a week, and then moved my attention to other things we needed to build. And so the finishing touches and a public release were postponed to a better day.
+I got noflo-jekyll into a running state in about a week, and then moved my attention to other things we needed to build. And so the finishing touches and a public release were postponed to a better day.
 
 As it happens, [Jekyll development resumed](http://blog.parkermoore.de/2013/05/06/jekyll-1-dot-0-released/) pretty soon after that. But there are still many reasons why noflo-jekyll can be quite cool.
 
