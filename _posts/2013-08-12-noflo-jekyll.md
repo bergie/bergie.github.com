@@ -44,7 +44,7 @@ As it happens, [Jekyll development resumed](http://blog.parkermoore.de/2013/05/0
 Here are some reasons why especially Node.js developers should care about this project:
 
 * **Pure JavaScript**, no need for Ruby or other runtimes in your environment. Especially handy if you're using [Grunt](http://gruntjs.com/) for site generation
-* **Other data sources**, in NoFlo everything is just a flow of data. You could easily plug in other data sources that the file system. For example, database query results
+* **Other data sources**, in NoFlo everything is just a flow of data. You could easily plug in other data sources than the file system. For example, database query results
 * **Different converters**, don't want to use Markdown? Just plug in your own mark-up processor component
 * **Different template engines**, don't want to use Liquid? Just plug in your own template processor component
 * **Use as library or executable**, this Jekyll implementation is just a NoFlo graph. You can use it in [other NoFlo applications](https://github.com/the-grid/noflo-jekyll#usage-in-noflo-graphs), as [a Node.js module](https://github.com/the-grid/noflo-jekyll#command-line-usage), or as [a command-line executable](https://github.com/the-grid/noflo-jekyll#command-line-usage)
