@@ -53,7 +53,7 @@ However, as with any reimplementation of a application being actively developed,
 
 ## A NoFlo example
 
-Most of the existing NoFlo applications out there are dealing with various business processes, and so very little of that is available out in the open. As such, [noflo-jekyll](https://github.com/the-grid/noflo-jekyll) can probably show how to build bigger systems out of flow-based graphs, and also how to connect then with the rest of the Node.js ecosystem.
+Most of the existing NoFlo applications out there are dealing with various business processes, and so very little of that is available out in the open. As such, [noflo-jekyll](https://github.com/the-grid/noflo-jekyll) can probably show how to build bigger systems out of flow-based graphs, and also how to connect them with the rest of the Node.js ecosystem.
 
 noflo-jekyll is now available under the MIT license for your static site generation needs. But as it happens, it wasn't the only interesting NoFlo example to be released this week. You may want to also check out how to [handle HTTP requests in NoFlo](https://github.com/kenhkan/noflo-woute#readme) with the Woute module. There is even [an example project](https://github.com/kenhkan/noflo-woute/tree/master/examples/echo_server) available.
 
