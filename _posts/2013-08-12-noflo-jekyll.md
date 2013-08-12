@@ -9,7 +9,7 @@ categories:
 layout: post
 location: Berlin, Germany
 ---
-[Jekyll](http://jekyllrb.com/) is a delightful piece of software. A Ruby application that turns your Markdown and HTML files to a nicely constructed static website. Since the generated site is static, you can deploy and serve it from anywhere with no security or performance concerns. As a matter of fact, [this site](http://bergie.iki.fi/) is [build](http://bergie.iki.fi/colophon/) with Jekyll.
+[Jekyll](http://jekyllrb.com/) is a delightful piece of software. A Ruby application that turns your Markdown and HTML files to a nicely constructed static website. Since the generated site is static, you can deploy and serve it from anywhere with no security or performance concerns. As a matter of fact, [this site](http://bergie.iki.fi/) is [built](http://bergie.iki.fi/colophon/) with Jekyll.
 
 For websites that don't need to offer dynamic functionality this is in many ways the culmination of [Decoupled Content Management](http://bergie.iki.fi/blog/decoupling_content_management/) &mdash; you can write the post using whatever editor, use GitHub as the content repository, and deploy the pages to any web server you want.
 
