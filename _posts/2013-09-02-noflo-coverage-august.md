@@ -46,6 +46,7 @@ But even with all this coverage, it was probably [Vinod Khosla](http://en.wikipe
 * Brazilian Portuguese: [Plataforma inteligente ajuda leigos a programar](http://olhardigital.uol.com.br/pro/noticia/36417/36417)
 * Turkish: [Akış tabanlı programlama platformu NoFlo, Kickstarter kampanyasını başlattı](http://www.webrazzi.com/2013/08/03/noflo-akis-tabanli-programlama/)
 * Chinese: [NoFlo的目标：借助Kickstarter基金实现基于流的JavaScript可视化编程](http://www.infoq.com/cn/news/2013/08/noflow-kickstarter)
+* Japanese: [NoFloでFlow-based programmingを試してみる](http://safx-dev.blogspot.jp/2013/08/nofloflow-based-programming.html)
 * German: [Messaging als Programmiermodell](http://daraff.ch/2013/08/messaging-als-programmiermodell/)
 
 ## Talks
