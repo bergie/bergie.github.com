@@ -18,4 +18,8 @@ This will obviously be more interesting when we have the rest of the motion comm
 
 You can see some example flows in [Susanna's](http://cannonerd.wordpress.com/) [droning project](https://github.com/cannonerd/droning).
 
+NoFlo and flying robots. What could go wrong? Just a little hint from [back in April](https://twitter.com/bergie/status/327906353957990400/photo/1):
+
+![skynet likes NoFlo](/files/skynet-small.png)
+
 *The [NoFlo Kickstarter](http://www.kickstarter.com/projects/noflo/noflo-development-environment) reached 100% of the funding goal this morning! Now that things are going smoothly there, I can focus more on this and [other examples](http://noflojs.org/example/). Stay tuned!*
