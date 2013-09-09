@@ -30,6 +30,11 @@ bodyclass: 'post'
             <p>This post originally appeared on <a href="{{ page.source }}" rel="source">{{ page.source | truncate: 60 }}</a></p>
           </div>
           {% endif %}
+        {% if page.categories contains 'fbp' %}
+            <hr />
+            {% include category_fbp.html %}
+            <p><a href="/blog/category/fbp/">Read more Flow-Based Programming posts</a>.<p>
+        {% endif %}
         {% if page.categories contains 'midgard' %}
           {% unless page.categories contains 'oscom' %}
           {% unless page.categories contains 'fbp' %}
@@ -40,14 +45,18 @@ bodyclass: 'post'
           {% endunless %}
         {% endif %}
         {% if page.categories contains 'oscom' %}
+          {% unless page.categories contains 'fbp' %}
             <hr />
             {% include category_oscom.html %}
             <p><a href="/blog/category/oscom/">Read more Decoupled CMS posts</a>.<p>
+          {% endunless %}
         {% endif %}
         {% if page.categories contains 'tablet' %}
+          {% unless page.categories contains 'fbp' %}
             <hr />
             {% include category_tablet.html %}
             <p><a href="/blog/category/tablet/">Read more Tablet Productivity posts</a>.<p>
+          {% endunless %}
         {% endif %}
         {% include comments.html %}
         </div>
