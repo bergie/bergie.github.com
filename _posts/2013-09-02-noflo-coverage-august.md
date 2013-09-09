@@ -48,6 +48,7 @@ But even with all this coverage, it was probably [Vinod Khosla](http://en.wikipe
 * Chinese: [NoFlo的目标：借助Kickstarter基金实现基于流的JavaScript可视化编程](http://www.infoq.com/cn/news/2013/08/noflow-kickstarter)
 * Japanese: [NoFloでFlow-based programmingを試してみる](http://safx-dev.blogspot.jp/2013/08/nofloflow-based-programming.html)
 * German: [Messaging als Programmiermodell](http://daraff.ch/2013/08/messaging-als-programmiermodell/)
+* German: [Flow-basierte JS-Entwicklung: NoFlo erreicht Kickstarter-Ziel](http://phpmagazin.de/news/Flow-basierte-JS-Entwicklung-NoFlo-erreicht-Kickstarter-Ziel-167202)
 
 ## Talks
 
