@@ -9,6 +9,38 @@ body {
   margin: 0px;
 }
 
+nav {
+  opacity: 0;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  height: 100vh;
+  width: 50px;
+  transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+}
+nav.shown {
+  opacity: 1;
+}
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+nav ul li {
+  margin: 0px;
+  padding: 0px;
+  height: 8vh;
+  text-align: right;
+}
+nav ul li a {
+  color: hsl(195, 8%, 20%);
+  text-decoration: none;
+}
+nav ul li a.current:before {
+  content: '> ';
+}
+
 article header {
   height: 80vh;
   padding-top: 30vh;
@@ -147,6 +179,7 @@ article section.description {
 @media (max-width: 767px) {
   article section, article aside {
     padding-left: 10%;
+    padding-right: 12%;
   }
   article section h1 {
     float: none;
@@ -168,6 +201,10 @@ article section.description {
   article section.description {
     text-align: left;
     padding-left: 10%;
+  }
+
+  nav {
+    font-size: 10pt;
   }
 }
 
