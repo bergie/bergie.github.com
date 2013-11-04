@@ -177,7 +177,7 @@ article section.description {
   color: hsl(195, 8%, 30%);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1300px) {
   article section, article aside {
     padding-left: 10%;
     padding-right: 12%;
