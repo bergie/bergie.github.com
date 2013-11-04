@@ -67,6 +67,7 @@ article section h1 {
 article section h2 {
   font-family: 'Marcellus SC', serif;
   margin: 0px;
+  margin-bottom: 1em;
   font-size: 20pt;
   line-height: 24pt;
 }
