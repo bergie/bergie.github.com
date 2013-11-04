@@ -12,6 +12,7 @@ body {
 nav {
   opacity: 0;
   position: fixed;
+  font-size: 8pt;
   right: 0px;
   top: 0px;
   height: 100vh;
@@ -34,7 +35,7 @@ nav ul li {
   text-align: right;
 }
 nav ul li a {
-  color: hsl(195, 8%, 20%);
+  color: hsl(195, 8%, 60%);
   text-decoration: none;
 }
 nav ul li a.current:before {
@@ -202,9 +203,4 @@ article section.description {
     text-align: left;
     padding-left: 10%;
   }
-
-  nav {
-    font-size: 10pt;
-  }
 }
-
