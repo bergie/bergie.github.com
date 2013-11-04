@@ -1,0 +1,172 @@
+@import url(http://fonts.googleapis.com/css?family=Marcellus+SC);
+
+body {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+  background-color: #ffffff;
+  color: hsl(195, 8%, 20%);
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0px;
+}
+
+article header {
+  height: 80vh;
+  padding-top: 30vh;
+  text-align: center;
+}
+article header h1 {
+  font-size: 42pt;
+  font-family: 'Marcellus SC', serif;
+}
+
+article a {
+  color: hsl(195, 8%, 30%);
+}
+
+article p:last-child {
+  margin-bottom: 0px;
+}
+article p q {
+  font-style: italic;
+}
+article p q:before {
+  content: '\201C';
+}
+article p q:after {
+  content: '\201D';
+}
+
+article section, article aside {
+  padding-left: 33%;
+  padding-right: 10%;
+  font-size: 14pt;
+  line-height: 20pt;
+  text-align: justify;
+  text-justify: distribute;
+  margin-bottom: 3em;
+}
+article section:last-child, article aside:last-child {
+  margin-bottom: 0px;
+}
+article aside {
+  clear: right;
+  background-color: hsl(195, 8%, 90%);
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+article section h1 {
+  font-family: 'Marcellus SC', serif;
+  float: left;
+  clear: left;
+  margin: 0px;
+  margin-left: -50%;
+  width: 40%;
+  font-size: 28pt;
+  line-height: 32pt;
+}
+article section h2 {
+  font-family: 'Marcellus SC', serif;
+  margin: 0px;
+  font-size: 20pt;
+  line-height: 24pt;
+}
+article section p:first-of-type,
+article aside p:first-of-type {
+  margin-top: 0px;
+}
+article section h3, article aside h1 {
+  float: left;
+  font-size: 14pt;
+  line-height: 20pt;
+  margin: 0px;
+  padding: 0px;
+  padding-right: 1em;
+}
+article section h3:after, article aside h1:after {
+  content: ".";
+}
+
+article section figure,
+article aside figure {
+  display: block;
+  padding: 6px;
+  overflow: hidden;
+  text-align: center;
+}
+article section figure:hover:after,
+article aside figure:hover:after {
+  content: attr(data-source);
+  font-size: 10pt;
+}
+article section figure img,
+article aside figure img {
+  max-width: 100%;
+}
+article section figure.thumbnail {
+  margin-left: 2em;
+  margin-right: 0px;
+  margin-top: 0px;
+  float: right;
+  clear: right;
+  width: 200px;
+}
+
+article blockquote {
+  display: block;
+  text-align: left;
+  margin-left: -50%;
+  width: 150%;
+  font-size: 28pt;
+  line-height: 32pt;
+  font-style: italic;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: hsl(195, 8%, 30%);
+}
+article blockquote cite {
+  font-style: normal;
+  font-size: 14pt;
+}
+article blockquote cite:before {
+  content: "\2014";
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+article section.description {
+  padding-left: 5%;
+  padding-right: 10%;
+  font-size: 20pt;
+  line-height: 28pt;
+  margin-bottom: 20vh;
+  font-style: italic;
+  color: hsl(195, 8%, 30%);
+}
+
+@media (max-width: 767px) {
+  article section, article aside {
+    padding-left: 10%;
+  }
+  article section h1 {
+    float: none;
+    margin-left: 0px;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  article section h2 {
+    margin-bottom: 1em;
+  }
+  article blockquote, article section figure, article aside figure {
+    margin-left: 0px;
+    width: 100%;
+  }
+  article blockquote cite {
+    display: block;
+  }
+
+  article section.description {
+    text-align: left;
+    padding-left: 10%;
+  }
+}
+
