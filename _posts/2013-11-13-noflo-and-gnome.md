@@ -34,6 +34,8 @@ This is of course only the first steps, but shows a little bit of the potential.
 
 > An author can write a book, a musician a song, a painter  a painting. Most UI designers cannot realize their creation
 
+[Zeeshan](http://www.linkedin.com/in/zeenix) also wrote about similar ideas for GNOME in his [Pentu](https://wiki.gnome.org/Pentu) project proposal two years ago.
+
 ## Bringing the GNOME platform to NoFlo
 
 The big part of enabling flow-based GNOME development would be to provide [NoFlo components](http://noflojs.org/library/) for the various APIs in the GNOME ecosystem. This could be done manually, but quite possibly we could automate at least parts of the process by some smart [GObject Introspection](https://wiki.gnome.org/GObjectIntrospection) hacking.
