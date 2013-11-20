@@ -7,7 +7,7 @@ Welcome to [my](/about/) blog. I'll write here thoughts on free software, decoup
 
 The whole blog:
 
-* [Blog index from latest](/) ([RSS feed](/blog/rss.xml))
+* [Blog index from latest](/) ([RSS feed](/blog/rss.xml), [Google Play Newsstand](http://www.google.com/producer/editions/CAow6-vZBw/henri_bergius))
 
 ## Themes
 
