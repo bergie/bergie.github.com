@@ -1,7 +1,7 @@
 ---
 title: BitCoin as a Medium of Exchange
 layout: post
-location: Santa Rosa, CA
+location: Santa Rosa, California
 categories:
   - politics
   - business
