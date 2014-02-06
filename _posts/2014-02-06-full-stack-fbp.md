@@ -15,15 +15,17 @@ The screenshots below are from [Jon Nordby's](http://jonnor.com/) [Flow-Based Pr
 
 [MicroFlo](http://microflo.org/) running on an Arduino Microcontroller and monitoring a temperature sensor:
 
-![MicroFlo on Arduino](/files/fullstack-microcontroller-small.png)
+[![MicroFlo on Arduino](/files/fullstack-microcontroller-small.png)](/files/fullstack-microcontroller.png)
 
 [NoFlo](http://noflojs.org/) running on Node.js and communicating with the Arduino over a serial port:
 
-![NoFlo on Node.js](/files/fullstack-server-embedded-small.png)
+[![NoFlo on Node.js](/files/fullstack-server-embedded-small.png)](/files/fullstack-server-embedded.png)
 
 NoFlo running in browser and communicating with the Node.js process over WebSockets:
 
-![NoFlo on browser](/files/fullstack-browser-small.png)
+[![NoFlo on browser](/files/fullstack-browser-small.png)](/files/fullstack-browser.png)
+
+*(click to see the full-size picture)*
 
 ## Taking this further
 
