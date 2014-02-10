@@ -11,7 +11,11 @@ The idea of [Full-Stack Development](http://coding.smashingmagazine.com/2013/11/
 
 With Flow-Based Programming and the emerging [Flowhub](http://flowhub.io/) ecosystem, we can take this even further. Thanks to the [FBP network protocol](http://noflojs.org/documentation/protocol/) we can build and monitor graphs spanning multiple devices and flow-based environments.
 
-The screenshots below are from [Jon Nordby's](http://jonnor.com/) [Flow-Based Programming talk in FOSDEM](https://fosdem.org/2014/schedule/event/deviot02/) Internet of Things track last weekend. His demo was running a FBP network comprising of three different environments that talk together.
+[Jon Nordby](http://jonnor.com/) gave a [Flow-Based Programming talk in FOSDEM](https://fosdem.org/2014/schedule/event/deviot02/) Internet of Things track last weekend. His demo was running a FBP network comprising of three different environments that talk together. You can [find the talk online](http://mirrors.dotsrc.org/fosdem/2014/AW1121/Sunday/Flowbased_programming_for_heterogeneous_systems.webm).
+
+<video controls src="http://mirrors.dotsrc.org/fosdem/2014/AW1121/Sunday/Flowbased_programming_for_heterogeneous_systems.webm"></video>
+
+Here are some screenshots of the different graphs.
 
 [MicroFlo](http://microflo.org/) running on an Arduino Microcontroller and monitoring a temperature sensor:
 
