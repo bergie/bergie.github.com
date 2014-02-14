@@ -332,8 +332,10 @@ footer ul.nav li a {
     font-weight: normal;
     text-align: right;
   }
-  body.post article iframe {
+  body.post article iframe,
+  body.post article video {
     width: auto;
+    max-width: 100%;
   }
 }
 
