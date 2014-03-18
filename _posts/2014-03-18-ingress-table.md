@@ -4,6 +4,7 @@ location: Berlin, Germany
 layout: post
 categories:
 - fbp
+- desktop
 ---
 The [c-base space station](http://c-base.org/) &mdash; a culture carbonite and a hackerspace &mdash; is the focal point of Berlin's thriving tech scene. It is also the place where many of the city's [Ingress](http://www.ingress.com/) agents converge after an evening of hectic raiding or farming.
 
@@ -27,7 +28,7 @@ We considered integrating a regular screen to have maximum flexibility in the fa
 
 The hardware and software also needed some thought, especially since some of the parts needed might have long shipping times. Eventually we settled on the combination of a [BeagleBone Black](http://beagleboard.org/Products/BeagleBone+Black) ARM computer as the brains of the system, and a [LaunchPad Tiva](http://www.ti.com/tool/ek-tm4c123gxl) as the microcontroller running the hardware. The computer would run NoFlo on Linux, and we'd flash the microcontroller with MicroFlo.
 
-By the time of arriving to c-base, many Ingress agents have their phones and battery packs depleted, and so we incorporated eight USB power ports into the port design. Simply plug in your own cable and you can charge your device while enjoying the beer and the chat.
+By the time of arriving to c-base, many Ingress agents have their phones and battery packs depleted, and so we incorporated eight USB power ports into the table design. Simply plug in your own cable and you can charge your device while enjoying the beer and the chat.
 
 Once the plans had been set, a flurry of preparations began. We would need lots of things, ranging from wood and glass parts for the table shell, to various different electronics and computer parts for the insides. And some of these would have to be ordered from China. Would they arrive in time?
 
