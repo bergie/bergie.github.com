@@ -24,9 +24,11 @@ The tabletop would be a map of c-base and the surrounding area, and it would sho
 
 We considered integrating a regular screen to have maximum flexibility in the face of the changing world of Ingress, but eventually decided that most people at c-base already spend much of their waking hours looking at a screen, and so we'd do something more ambient and just use a set of physical lights.
 
-[![Exploded view](/files/ingress-table-exploded-small.jpg)](/files/ingress-table-exploded.jpg)[![Assembled view](/files/ingress-table-assembled-small.jpg)](/files/ingress-table.assembled.jpg)
+[![Exploded view](/files/ingress-table-exploded-small.jpg)](/files/ingress-table-exploded.jpg)[![Assembled view](/files/ingress-table-assembled-small.jpg)](/files/ingress-table-assembled.jpg)
 
 The hardware and software also needed some thought, especially since some of the parts needed might have long shipping times. Eventually we settled on the combination of a [BeagleBone Black](http://beagleboard.org/Products/BeagleBone+Black) ARM computer as the brains of the system, and a [LaunchPad Tiva](http://www.ti.com/tool/ek-tm4c123gxl) as the microcontroller running the hardware. The computer would run NoFlo on Linux, and we'd flash the microcontroller with MicroFlo.
+
+![Our BeagleBone Black](/files/ingress-table-bbb-small.jpg)
 
 By the time of arriving to c-base, many Ingress agents have their phones and battery packs depleted, and so we incorporated eight USB power ports into the table design. Simply plug in your own cable and you can charge your device while enjoying the beer and the chat.
 
@@ -56,6 +58,8 @@ Eventually we settled on a NoFlo graph that would poll the portal data in, and r
 
 *(and yes, the graph you see above is the actuall running code of the table)*
 
+[![Software team at robolab](/files/ingress-table-robolab-small.jpg)](/files/ingress-table-robolab.jpg)[![Software team at robolab](/files/ingress-table-robolab2-small.jpg)](/files/ingress-table-robolab2.jpg)
+
 Since the electronics wouldn't be working for a while still, we decided to build also a *Ingress Table Emulator* in HTML and NoFlo. This would give us something to test the data and our graphs while the other teams where still working on their things. This proved to be a very useful thing, as this way we were able to watch a big Ingress battle through our simulated blinking lights already in the Saturday evening, and see our emulated table go through pretty much all the different states we were interested in.
 
 [![The software team at work](/files/ingress-table-software-team1-small.jpg)](/files/ingress-table-software-team1.jpg)[![The software team at work](/files/ingress-table-software-team2-small.jpg)](/files/ingress-table-software-team2.jpg)
@@ -66,9 +70,11 @@ Once the table shell had been built and the paint was drying, the hardware team 
 
 For electronics we noticed that we had still some parts missing from the inventory, and so I had to do a quick supply run on Saturday. But once we got those, the team got into calculations and soldering.
 
+[![Electronics work](/files/ingress-table-electronics1-small.jpg)](/files/ingress-table-electronics1.jpg)[![Electronics work](/files/ingress-table-electronics2-small.jpg)](/files/ingress-table-electronics2.jpg)
+
 Every project has its setbacks, and in this case it came in the form of running pre-released software. It turned out that the LaunchPad port of MicroFlo still had some issues, and so most of Sunday was spent debugging the communications protocol and tuning the components. But the end result is a much better improved MicroFlo, and eventually we got the major moment of triumph of seeing the street lights start animating for the first time. LED strips controlled by a LaunchPad Tiva, in turn controlled by animation loops running in a NoFlo graph on Node.js.
 
-[![Electronics work](/files/ingress-table-electronics1-small.jpg)](/files/ingress-table-electronics1.jpg)[![Electronics work](/files/ingress-table-electronics2-small.jpg)](/files/ingress-table-electronics2.jpg)
+[![Food time](/files/ingress-table-food-small.jpg)](/files/ingress-table-food.jpg)[![Figuring out communications problems](/files/ingress-table-robolab3-small.jpg)](/files/ingress-table-robolab3.jpg)
 
 On Monday evening we convened at c-base for the final push. Street lights were ready, but there were still some issues with getting the table connected wirelessly to the space station network. And we would still need to implement the MicroFlo component for the portal lights. The latter resulting in an epic parallel programming and debugging session between Jon in Norway and Uwe in Berlin. But by the end of the evening we were able to test the full system for the first time, and carry the table to its new home.
 
