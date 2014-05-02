@@ -8,9 +8,11 @@ location: Berlin, Germany
 ---
 I've spent the last three days in the [GNOME Developer Experience hackfest](https://wiki.gnome.org/Hackfests/DeveloperExperience2014) working on the [NoFlo](http://noflojs.org) runtime for [GNOME](http://gnome.org) with [Lionel Landwerlin](https://github.com/djdeath).
 
-[![GNOME development in Flowhub](/files/noflo-gnome-ui-small.png)](/files/noflo-gnome-ui.png)
+[![GNOME Developer Experience hackfest participants](/files/gnome-dx-2014-small.jpg)](/files/gnome-dx-2014.jpg)
 
 What the resulting project does is give the ability to build and debug GNOME applications in a visual way with the [Flowhub](http://flowhub.io/) user interface. You can interact with large parts of the [GNOME API](https://developer.gnome.org/) using either automatically generated components, or hand-built ones. And while your software is running, you can see all the data passing through the connections in the Flowhub UI.
+
+[![GNOME development in Flowhub](/files/noflo-gnome-ui-small.png)](/files/noflo-gnome-ui.png)
 
 The way this works is the following:
 
