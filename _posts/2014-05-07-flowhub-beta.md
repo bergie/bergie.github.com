@@ -18,13 +18,7 @@ This post will go into more detail on how the new Flowhub interface works in a b
 
 Make sure to read the [Getting Started guides](http://flowhub.io/documentation/) and check out the [Flowhub FAQ](http://flowhub.io/documentation/flowhub-faq/). There is also a [new video available](http://flowhub.io/#video):
 
-<video controls>
-  <source type="video/mp4" src="//cdn.thegrid.io.s3.amazonaws.com/flowhub/flowhub-201405-720.mp4">
-  <source type="video/webm" src="//cdn.thegrid.io.s3.amazonaws.com/flowhub/flowhub-201405-720.webm">
-  <source type="video/mp4" src="//cdn.thegrid.io.s3.amazonaws.com/flowhub/flowhub-201405-360.mp4">
-  <source type="video/webm" src="//cdn.thegrid.io.s3.amazonaws.com/flowhub/flowhub-201405-360.webm">
-  <track src="//cdn.thegrid.io.s3.amazonaws.com/flowhub/flowhub-201405-captions.vtt" kind="subtitles" srclang="en" label="English" />
-</video>
+<iframe width="640" height="360" src="//www.youtube.com/embed/8Dos61_6sss" frameborder="0" allowfullscreen></iframe>
 
 Both the web version and the Chrome app are built following the [offline first](http://offlinefirst.org/) philosophy, and keep everything you need stored locally inside your browser. The Chrome app and the upcoming iOS and Android builds will enable us to later introduce capabilities that are not possible inside regular browsers, like talking directly to [MicroFlo](http://microflo.org/) runtimes over USB or Bluetooth. But other than that they're similar in features and user experience.
 
