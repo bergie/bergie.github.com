@@ -310,11 +310,6 @@ footer ul.nav li a {
   background-color: #ffffff;
   margin-right: 1em;
 }
-body.post article iframe,
-body.post article video {
-  width: auto;
-  max-width: 100%;
-}
 
 @media (max-width: 980px) {
   body.blog header div,
@@ -336,6 +331,11 @@ body.post article video {
   body.blog article .metadata {
     font-weight: normal;
     text-align: right;
+  }
+  body.post article iframe,
+  body.post article video {
+    width: auto;
+    max-width: 100%;
   }
 }
 
