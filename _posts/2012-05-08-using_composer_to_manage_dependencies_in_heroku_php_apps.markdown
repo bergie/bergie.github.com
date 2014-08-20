@@ -5,6 +5,8 @@
   layout: "post"
 
 ---
+**Update:** since April 2014, Heroku's default PHP environment has [supported Composer out of the box](https://blog.heroku.com/archives/2014/4/29/introducing_the_new_php_on_heroku).
+
 [Heroku](http://www.heroku.com/) is a very nice [Platform-as-a-Service](http://en.wikipedia.org/wiki/Platform_as_a_service) provider that allows you to focus on writing applications instead of managing servers. If your application code is already managed in Git, in most cases you only need to create a Heroku app setup, and then `git push` to deploy it on Heroku. [Scaling your app](http://www.heroku.com/how/scale) is easy and there are many [useful add-ons](https://addons.heroku.com/) available in their "app store".
 
 While Heroku [got its start](http://www.flourish.org/blog/?p=687) from hosting Ruby on Rails applications, it nowadays supports [many different environments](https://devcenter.heroku.com/articles/cedar) in the Cedar stack. Node.js is what many use, but they also [do support PHP](http://www.gravitywell.co.uk/blog/post/deploying-php-apps-to-heroku).
