@@ -7,7 +7,7 @@ categories:
 location: Berlin, Germany
 layout: post
 ---
-When I left to [sail across the Atlantic](https://www.flickr.com/photos/bergie/sets/72157649721117029/) in late November, there was excitement in the air. [Nemein](http://nemein.com/) &mdash; the software company I started in 2001 with [Henri Hovi](http://www.patidure.com/) and [Johannes Hentunen](http://www.haedong-kumdo.fi/), and left later to build an [AI-driven web publishing tool](https://thegrid.io/#6) &mdash; was about to be sold.
+When I flew to Tenerife to [sail across the Atlantic](https://www.flickr.com/photos/bergie/sets/72157649721117029/) in late November, there was excitement in the air. [Nemein](http://nemein.com/) &mdash; the software company I started in 2001 with [Henri Hovi](http://www.patidure.com/) and [Johannes Hentunen](http://www.haedong-kumdo.fi/), and left later to build an [AI-driven web publishing tool](https://thegrid.io/#6) &mdash; was about to be sold.
 
 Today, I'm happy to tell that [Nemein has been acquired](https://www.andersinnovations.com/en/news/181/anders-innovations-inc-purchases-helsinki-based-software-company-grow-international-business/) by [Anders Innovations](https://www.andersinnovations.com/en/), a fast-growing software company.
 
