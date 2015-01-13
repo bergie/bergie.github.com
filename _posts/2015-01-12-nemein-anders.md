@@ -25,5 +25,6 @@ Nemein has also been a valuable contributor to the [Flowhub](https://flowhub.io/
 
 * [Anders purchases Helsinki-based software company to grow international business](https://www.andersinnovations.com/en/news/181/anders-innovations-inc-purchases-helsinki-based-software-company-grow-international-business/)
 * [Turun Sanomat: Ohjelmistoyritys Anders Innovations laajenee](http://ts.fi/uutiset/talous/721924/Ohjelmistoyritys+Anders+Innovations+laajenee)
+* [TiVi: Anders osti it-osaajia &mdash; "ratkaisimme rekrytointiongelmat"](http://www.tivi.fi/kaikki_uutiset/anders+osti+itosaajia+ndash+quotratkaisimme+rekrytointiongelmatquot/a1041525)
 
 *For those interested in the background of Nemein, I wrote a longish story of the [company's first ten years](http://bergie.iki.fi/blog/ten_years_of_nemein/) back in 2011. I also promise to write about [The Grid](https://thegrid.io/#6) soon!*
