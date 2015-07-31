@@ -17,8 +17,8 @@ bodyclass: blog
 </aside>
 
 {% for post in paginator.posts %}
-<article vocab="http://schema.org/" about="{{ post.url }}" typeof="BlogPosting">
-    <h1 class="span8 offset1"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h1>
+<article vocab="http://schema.org/" about="{{ post.url }}" typeof="BlogPosting" class="h-entry">
+    <h1 class="span8 offset1"><a href="{{ post.url }}" rel="bookmark" class="p-name u-url">{{ post.title }}</a></h1>
     <div class="span8 offset1">
       {{ post.content | strip_html | truncatewords:60 }}
       <div class="links">
