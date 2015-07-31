@@ -2,23 +2,23 @@
 layout: 'default'
 bodyclass: 'post'
 ---
-      <article vocab="http://schema.org/" about="{{ page.url }}" typeof="BlogPosting" class="span8 offset1">
+      <article vocab="http://schema.org/" about="{{ page.url }}" typeof="BlogPosting" class="span8 offset1 h-entry">
         <header class="span9">
           <div>
-            <h1 property="headline">{{ page.title }}</h1>
+            <h1 property="headline" class="p-name">{{ page.title }}</h1>
           </div>
         </header>
         <div class="span8">
-          <div property="articleBody">
+          <div property="articleBody" class="e-content">
             {{ content }}
           </div>
           <div class="metadata">
             {% if page.author %}
-            Guest post by <span rel="author" typeof="Person"><span property="name">{{ page.author }}</span></span> on 
+            Guest post by <span rel="author" typeof="Person"><span property="name" class="p-author">{{ page.author }}</span></span> on 
             {% else %}
-            <a rel="author" href="http://bergie.iki.fi/#me"></a>
+            <a rel="author" href="http://bergie.iki.fi/#me" class="p-author"></a>
             {% endif %}
-            <span property="datePublished" content="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</span>
+            <span property="datePublished" content="{{ page.date | date_to_xmlschema }}" class="dt-published">{{ page.date | date_to_long_string }}</span>
             {% if page.location %}
             in <span rel="contentLocation" typeof="City"><span property="name">{{ page.location }}</span></span>
             {% endif %}
@@ -27,7 +27,7 @@ bodyclass: 'post'
           {% if page.source %}
           <div class="contentSource">
             <hr />
-            <p>This post originally appeared on <a href="{{ page.source }}" rel="source">{{ page.source | truncate: 60 }}</a></p>
+            <p>This post originally appeared on <a href="{{ page.source }}" rel="source syndication">{{ page.source | truncate: 60 }}</a></p>
           </div>
           {% endif %}
         {% if page.categories contains 'fbp' %}
