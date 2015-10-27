@@ -21,7 +21,7 @@ Now in my server's cron I have the line:
 </pre><p>
 And this seems to give quite decent results:
 </p><p>
-<a href="/files/fire-eagle-from-jaiku.png"><img src="/files/fire-eagle-from-jaiku-tm.jpg" height="313" width="400" border="1" hspace="4" vspace="4" alt="Fire Eagle location from Jaiku" title="Fire Eagle location from Jaiku" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fire-eagle-from-jaiku.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fire-eagle-from-jaiku-tm.jpg" height="313" width="400" border="1" hspace="4" vspace="4" alt="Fire Eagle location from Jaiku" title="Fire Eagle location from Jaiku" /></a>
 </p><p>
 In this case <a href="http://bergie.jaiku.com/">my Jaiku location</a> string was <em>Etu-Töölö, Helsinki, Finland</em>. I passed the neighborhood name through <a href="http://www.geonames.org/export/geonames-search.html">GeoNames search</a>, and that mapped the Helsinki district of Etu-Töölö to coordinates to only some hundred meters from my home. Not bad!
 </p><p>

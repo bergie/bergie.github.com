@@ -9,7 +9,7 @@ I've just downloaded the [Internet Tablet OS 2006 edition Beta][1] to my [Nokia 
 
 I even had my first chat using the thumb keyboard, and a 15 minute VoIP call with [Tigert][4].
 
-![Maemo OS 2006 beta](/files/maemo-os-2006beta.jpg)
+![Maemo OS 2006 beta](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemo-os-2006beta.jpg)
 
 Very promising. I hope [Maemo Mapper][7] and the [Plazer][6] get ported to the new OS version soon.
 

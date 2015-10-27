@@ -8,7 +8,7 @@
 ---
 Thanks to help from <a href="http://beta.plazes.com/user/ferenc/">Ferenc</a>, <a href="http://downloads.maemo.org/product/maemoplazer">Maemo Plazer</a>, the <a href="http://beta.plazes.com/help/screencasts.php">Plazes</a> client for the <a href="http://www.linuxdevices.com/articles/AT8033409446.html">Nokia N800</a> Internet Tablet is <a href="http://downloads.maemo.org/product/maemoplazer">now available</a>:
 
-<img src="/files/maemoplazer-downloads-site.jpg" height="270" width="400" border="1" hspace="4" vspace="4" alt="Maemoplazer-Downloads-Site" /><span style="font-size:0pt;">
+<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemoplazer-downloads-site.jpg" height="270" width="400" border="1" hspace="4" vspace="4" alt="Maemoplazer-Downloads-Site" /><span style="font-size:0pt;">
 
 </span>This is the first time a desktop (well, handheld, really) application I've contributed to has been released. It is definitely a cool first step into the <a href="http://maemo.org/">Maemo world</a>.
 

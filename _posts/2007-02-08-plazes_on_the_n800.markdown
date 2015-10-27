@@ -9,7 +9,7 @@
 <a href="http://www.towelday.kojv.net/">Intergalactic hitchhikers</a> get another treat: We have updated the <a href="http://sapir.mooo.de/2006/05/25/nokia-770-and-plazes/">older Maemo Plazer</a> to work with the <a href="http://api.plazes.com/wiki/index.php/Main_Page">new Plazer API</a> and the <a href="http://maemo.org/platform/docs/howtos/Maemo_tutorial_bora.html">Maemo 3.0</a> that is on <a href="http://www.nokia.com/n800">N800</a>. We also integrated it more closely with the UI:
 
 
-<img src="/files/maemoplazer-initial2.jpg" height="240" width="400" border="1" hspace="4" vspace="4" alt="Maemoplazer-Initial2" />
+<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemoplazer-initial2.jpg" height="240" width="400" border="1" hspace="4" vspace="4" alt="Maemoplazer-Initial2" />
 
 This means that N800 users can now easily position their devices using the vast database of WiFi access points the <a href="http://beta.plazes.com/help/screencasts.php">Plazes network</a> has. And if they stumble on a new one, a web browser window is opened to form where they can enter the network devices to add the new AP to the database.
 

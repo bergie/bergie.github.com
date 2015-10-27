@@ -48,7 +48,7 @@ However, by default datamanager doesn't allow you to change a page's schema afte
 
 * Now the page schema should be easy to change:
 
-![Changing a page schema](/files/midcom-edit-page-change-schema.jpg)
+![Changing a page schema](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midcom-edit-page-change-schema.jpg)
 
 __Note:__ This quick tutorial applies only to components utilizing [Datamanager 2][2] but should be easy to adapt to also old-style components.
 

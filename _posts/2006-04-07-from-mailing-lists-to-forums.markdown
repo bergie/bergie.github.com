@@ -9,7 +9,7 @@ The [Midgard mailing lists][1] have been offline for a while because their hosti
 
 Currently the forums are [publicly readable][5], but posting requires [registration][3] and [logging in][4].
 
-![Midgard forums](/files/midgard-forums.jpg)
+![Midgard forums](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midgard-forums.jpg)
 
 Switching from mailing lists to online forums is a big cultural change for the community. To make the change easier, we will soon be adding alternative access options to the forum contents including RSS and email subscription.
 

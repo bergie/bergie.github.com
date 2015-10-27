@@ -37,6 +37,6 @@ Various sites syndicate either my whole blog or parts of it. These include:
 * [Planet GNOME](http://planet.gnome.org/)
 * [Planet KDE](http://planetkde.org/)
 
-![MVB](/files/mvb.png)
+![MVB](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/mvb.png)
 
 Selected posts will also appear [on DZone](http://dzone.com/users/bergie) as part of their [Most Valuable Blogger](http://www.dzone.com/aboutmvb) program.

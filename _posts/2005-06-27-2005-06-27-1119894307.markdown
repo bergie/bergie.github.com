@@ -7,19 +7,19 @@
 ---
 __2005-06-27 17:45Z:__ Anchored for the night at [N61.49,45 E36.06,73][1]. We have made a tent out of the sail and wait on river Vodla for the forecasted SE wind.
 
-![Sail tent](/files/Shnjaka_tent.jpg)
+![Sail tent](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Shnjaka_tent.jpg)
 
 __2005-06-28 06:25Z:__ As forecasted, the wind turned in the morning. After a few miles of rowing, we're finally under sail in a small rain.
 
 __2005-06-28 10:45Z:__ When the headwind died we were able to row out of the river. Now we'll head slowly into north towards Povenets
 
-![Rowing down the Vodla river](/files/Shnjaka_rowing_Vodla_river.jpg)
+![Rowing down the Vodla river](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Shnjaka_rowing_Vodla_river.jpg)
 
 __2005-06-28 16:55Z:__ We've covered 32km during the evening sailing and plan to continue overnight before wind turns against us. Pos [N62,03 S35,38][2]
 
 __2005-06-29 06:50Z:__ The night's sailing has been succesful, and now when the wind died we float near the north end of Onega.
 
-![Shnjaka sailing](/files/Shjaka_sailing.jpg)
+![Shnjaka sailing](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Shjaka_sailing.jpg)
 
 __2005-06-29 12:05Z:__ During the day the wind died and we've been floating and cooking food on Povenets bay 29km from city. Disturbing thunder in the south.
 
@@ -29,13 +29,13 @@ __2005-06-29 15:05Z:__ When a boat of locals came to check us out, our old belie
 
 __2005-06-29 16:45Z:__ Povenets in sight. An impregnable wall of dragon-shaped rainclouds speed at us from south and a big fishing boat came to check us out.
 
-![Sailing in rain](/files/Shnjaka_rain.jpg)
+![Sailing in rain](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Shnjaka_rain.jpg)
 
 __2005-06-29 20:00Z:__ We're now anchored in Povenets right next to the mouth of the White Sea - Baltic channel (Belomorkanal). Fredrik will camp on the shore. Pos [N62.50,10' E 34.50,07'][4]
 
 __2005-06-30 10:10Z:__ We need to be towed through the Stalin's channel and arranging that will take some days, so I'll leave the ship here and head home.
 
-![Belomorkanal gates](/files/Belomorkanal.jpg)
+![Belomorkanal gates](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Belomorkanal.jpg)
 
 __2005-06-30 10:30Z:__ Before departure we need to get Fredrik's moped out and the strong north wind prevents us from rowing ashore.
 
@@ -43,7 +43,7 @@ __2005-06-30 10:30Z:__ The trip on Shnjaka has been a very rewarding one. I doub
 
 __2005-06-30 14:25Z:__ Povenets was the east frontier of the WW2 Great Finland. I'm looking for a ride to Medvezhegorsk, thus ending the Viking adventure.
 
-![Fredrik and the moped in Medvezhegorsk](/files/Fredrik_moped_Medvezhegorsk.jpg)
+![Fredrik and the moped in Medvezhegorsk](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Fredrik_moped_Medvezhegorsk.jpg)
 
 __2005-06-30 21:40Z:__ The lady at the railway station was most helpful, arranging me tickets in the sold out St. Petersburg train and allowing me to recharge.
 

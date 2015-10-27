@@ -16,7 +16,7 @@ which, to my experience is somewhat true. I went to <a href="http://guadec.org/"
 </p><p>
 However, just integrating with Google's services is not enough for free software to do. Let me post a slide from the <a href="http://www.slideshare.net/bergie/midgard-2-the-cloud-you-can-control-presentation">Midgard 2 - The cloud you can control</a> presentation in <a href="http://fscons.org/2008/">last FSCONS</a>:
 </p><p>
-<img src="/files/firefox-cloud-fscons.jpg" height="299" width="398" border="1" hspace="4" vspace="4" alt="Firefox, the only relevant free software in the cloud" title="Firefox, the only relevant free software in the cloud" /></p><p>
+<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/firefox-cloud-fscons.jpg" height="299" width="398" border="1" hspace="4" vspace="4" alt="Firefox, the only relevant free software in the cloud" title="Firefox, the only relevant free software in the cloud" /></p><p>
 The <a href="http://bergie.iki.fi/blog/midgard2_at_fscons-your_data-everywhere/">point we were making</a> there was:
 </p><blockquote>
 ...<a href="http://www.guardian.co.uk/technology/2008/sep/29/cloud.computing.richard.stallman">the cloud is a trap</a> that will move your data, and your applications beyond your control to proprietary data servers and web applications run by multinational corporations. If free software <a href="http://itmanagement.earthweb.com/osrc/article.php/3760206/Free+and+Open+Source+Software+vs.+Cloud+Computing.htm">doesn't provide</a> a compelling answer to that, we risk irrelevance.

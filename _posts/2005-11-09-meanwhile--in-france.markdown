@@ -6,7 +6,7 @@
   layout: "post"
 
 ---
-<img src="/files/delacroix-liberty-leading-people.jpg" border="0" height="274" width="200" alt="Eug&egrave;ne Delacroix - La libert&eacute; guidant le peuple" style="margin-left: 8px" title="Eug&egrave;ne Delacroix - La libert&eacute; guidant le peuple" align="right" />
+<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/delacroix-liberty-leading-people.jpg" border="0" height="274" width="200" alt="Eug&egrave;ne Delacroix - La libert&eacute; guidant le peuple" style="margin-left: 8px" title="Eug&egrave;ne Delacroix - La libert&eacute; guidant le peuple" align="right" />
 The [riots in France][6] are running for the 12th night, and the country is now in [state of emergency][1]. [John Robb][5] of Global Guerillas is [analyzing the situation][2]:
 
 > The open source war in France continues to rapidly evolve (as of Sunday night). Not only did it increased in scale (the torched car index reached 1408 cars on Sunday) it has also increased in scope (982 of those torched cars were outside Paris and Germany/Belgium reported their first incidents). The tactics of this [new Blitzkrieg][3] are also evolving. Higher value commercial targets are being torched and policemen are being engaged in wasting attacks -- incidents that engage and tie up forces. There are even signs that [bazaar][4] transactions are present: a commercial bomb factory, with 150 incendiaries on the "factory" floor, was found.

@@ -13,17 +13,17 @@ Maemo Brainstorm, <a href="http://wiki.maemo.org/Task:Maemo_brainstorm">develope
 </p><p>
 Users can propose new ideas:
 </p><p>
-<a href="/files/maemo-brainstorm-newidea.png"><img src="/files/maemo-brainstorm-newidea-tm.jpg" height="199" width="398" border="1" hspace="4" vspace="4" alt="Maemo Brainstorm: propose a new idea" title="Maemo Brainstorm: propose a new idea" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemo-brainstorm-newidea.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemo-brainstorm-newidea-tm.jpg" height="199" width="398" border="1" hspace="4" vspace="4" alt="Maemo Brainstorm: propose a new idea" title="Maemo Brainstorm: propose a new idea" /></a>
 </p><p>
 Users can also comment and propose solutions for ideas:
 </p><p>
-<a href="/files/maemo-brainstorm-solutions.png"><img src="/files/maemo-brainstorm-solutions-tm.jpg" height="225" width="400" border="1" hspace="4" vspace="4" alt="Maemo Brainstorm: proposed solutions" title="Maemo Brainstorm: proposed solutions" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemo-brainstorm-solutions.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemo-brainstorm-solutions-tm.jpg" height="225" width="400" border="1" hspace="4" vspace="4" alt="Maemo Brainstorm: proposed solutions" title="Maemo Brainstorm: proposed solutions" /></a>
 </p><p>
 The ideas then enter "Sandbox", from where moderators can put them through <a href="http://wiki.maemo.org/Task:Maemo_brainstorm#Workflow">the Brainstorm workflow</a>:
 </p><p>
-<a href="/files/maemo-brainstorm-editidea-toolbar.png"><img src="/files/maemo-brainstorm-editidea-toolbar-tm.jpg" height="91" width="400" border="1" hspace="4" vspace="4" alt="Maemo Brainstorm: Edit idea" title="Maemo Brainstorm: Edit idea" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemo-brainstorm-editidea-toolbar.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemo-brainstorm-editidea-toolbar-tm.jpg" height="91" width="400" border="1" hspace="4" vspace="4" alt="Maemo Brainstorm: Edit idea" title="Maemo Brainstorm: Edit idea" /></a>
 </p><p>
-<a href="/files/maemo-brainstorm-idea-status-pulldown.png"><img src="/files/maemo-brainstorm-idea-status-pulldown-tm.jpg" height="160" width="400" border="1" hspace="4" vspace="4" alt="Maemo Brainstorm: Idea status" title="Maemo Brainstorm: Idea status" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemo-brainstorm-idea-status-pulldown.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemo-brainstorm-idea-status-pulldown-tm.jpg" height="160" width="400" border="1" hspace="4" vspace="4" alt="Maemo Brainstorm: Idea status" title="Maemo Brainstorm: Idea status" /></a>
 </p><p>
 After voting, popular ideas may then be chosen to be implemented by a team of <a href="http://wiki.maemo.org/Task:Maemo_brainstorm#Moderators">moderators</a>.
 </p><p>

@@ -9,7 +9,7 @@
 
 [Jukka][1] developed a new query builder addition to the [MgdSchema][2] system that enables Midgard developers to easily optimize the SQL queries used in their applications.
 
-![Jukka's Query Builder presentation](/files/MgdSchema_Workshop_Query_Builder.jpg)
+![Jukka's Query Builder presentation](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/MgdSchema_Workshop_Query_Builder.jpg)
 
 Currently the Query Builder is available in the Midgard C API, and the PHP mapping should be relatively easy to do. [Piotras][3] or Jukka will implement it next week.
 
@@ -55,7 +55,7 @@ Once the Query Builder is available for PHP, we can start really developing __Mi
 
 While [PHP][7] is still the web development language of choice in [Midgard CMS][8], Java programming language support is also rising. Jukka has already [implemented][9] support for the [Java Content Repository][10] standard. JCR has been originally developed by [Day Software][11] in Switzerland as a generic content management API, the "[JDBC of Content Management Systems][12]".
 
-![Site building tutorial](/files/MgdSchema_Workshop_Sitebuilders.jpg)
+![Site building tutorial](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/MgdSchema_Workshop_Sitebuilders.jpg)
 
 ### JSR-170, the Java Content Repository
 
@@ -69,7 +69,7 @@ Midgard JCR support also supports [XPath][18] queries and XML import/export we a
 
 With the JCR Server system, the Midgard repository is also available through [RMI][20] and [WebDAV][21].
 
-![Preparing for the sightseeing flight](/files/MgdSchema_Workshop_Sightseeing_Flight.jpg)
+![Preparing for the sightseeing flight](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/MgdSchema_Workshop_Sightseeing_Flight.jpg)
 
 The big question with JCR is whether the standard will be adopted by different CMS developers. If it catches up, the [benefits][22] will be big especially in creating cross-CMS tools. IBM has [already announced][23] support for the standard, and it has also been noted by [OSCOM][24].
 
@@ -87,7 +87,7 @@ Jukka will try to produce an installation HOWTO for setting up _midgard-java_ to
 
 With the search system, users can easily query either text from anywhere in the Midgard content structure, or using [advanced syntax][30] for searching based on specific content fields or value ranges.
 
-![Discussion after sauna](/files/MgdSchema_Workshop_After_Sauna.jpg)
+![Discussion after sauna](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/MgdSchema_Workshop_After_Sauna.jpg)
 
 Documents are organized within the MidCOM index based on their _resource identifier_, which is typically the [object GUID][31]. The fields are indexed separately, but they are also combined into the _content_ field for the regular full-text search of all data. For native MidCOM content, the _topic_ field is also stored into the index. External indexed data like [OpenPSA content][32] should not utilize that field.
 

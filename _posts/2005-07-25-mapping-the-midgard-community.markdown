@@ -7,7 +7,7 @@
 ---
 [Midgard 1.7][1], the first release sporting _Midgard2_ features like MgdSchema and Query Builder was [released today][2]. To celebrate this, I made a new design for the website, following the "_Prepare for the New Day_" slogan:
 
-![Midgard site circa 2005-07-25](/files/midgard-17-small.jpg)
+![Midgard site circa 2005-07-25](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midgard-17-small.jpg)
 
 The [photo][10] in the bottom right corner is from our [climb to Drakensberg][8] with the [Ungana-Afrika][9] people.
 

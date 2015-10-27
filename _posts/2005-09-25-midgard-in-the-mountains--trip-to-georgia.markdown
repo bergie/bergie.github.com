@@ -20,7 +20,7 @@ Lasha was waiting for me, and we drove to [his and Taya's place][7] where I am s
 
 Having arrived at 4am, I slept quite late, waking up to the sounds of Tiko watching the Soviet classic cartoon [Nu, pogodi!][9]. We drove Tiko to Taya's parents and continued to the [Open Society Institute][10] office where Taya and the other [eRiders][11] are headquartered.
 
-![Taya and Zviad in the eRider office](/files/Georgian_eRider_office.jpg) ![Tbilisi Science academy](/files/Tbilisi_science_academy.jpg)
+![Taya and Zviad in the eRider office](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Georgian_eRider_office.jpg) ![Tbilisi Science academy](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Tbilisi_science_academy.jpg)
 
 We quickly fixed the local Midgard [installation issues][12] and prepared to go on a tour, as a group of [demonstrators][15] closed the office driveway. They were supporters of the late [Zviad Gamsakhurdia][13] who were demonstrating against us "Imperialist swine". They gave way to our car, however, and we were able to drive to the first meeting of the day.
 
@@ -28,7 +28,7 @@ The eRiders were setting up [Kubuntu][14] to the "First School" of Georgia where
 
 After the school installations we went to meet the IT people of [Georgian parliament][17] and [Georgian Computer Society][20]. We demoed Ubuntu installation for them, and talked about [Midgard CMS][18]. Especially the possibilities of Midgard in eLearning sector would be very promising. The tools in Midgard have already been partially localized to [Georgian][19], leaving availability of hosting as the main issue for success.
 
-![Courtyard of the parliament](/files/Georgian_parliament_courtyard.jpg) ![Lasha on the khinkali dinner](/files/Khinkali_dinner_in_Kolkheti.jpg)
+![Courtyard of the parliament](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Georgian_parliament_courtyard.jpg) ![Lasha on the khinkali dinner](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Khinkali_dinner_in_Kolkheti.jpg)
 
 For dinner we went to a [khinkali][22] place _Kolkheti_ on the Mtkvari river with Ia and Zviad.
 
@@ -38,13 +38,13 @@ Saturday was a day off from regular Midgard work, and we started the day by driv
 
 After stuffing ourselves with beans and [khachapuri][25] we went to the 11th century [Sveticxoveli][26] church. The church was being renovated after decades of neglect during the Soviet times, and was bustling with activity. In addition to a mass there was a constant procession of weddings going on. Some of the old murals were interesting, showing monsters, alleged UFOs and Christ surrounded by signs of the [Zodiac][27].
 
-![Church-inside-a-church in Sveticxoveli](/files/Church_inside_the_church.jpg) ![Tiko lights a candle in the church](/files/Tiko_lights_a_candle.jpg)
+![Church-inside-a-church in Sveticxoveli](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Church_inside_the_church.jpg) ![Tiko lights a candle in the church](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Tiko_lights_a_candle.jpg)
 
 The next location for the tour was the old monastery nearby. There we were unable to enter the church because of my shorts, but we saw the graveyard and the garden where holy oil comes from the ground. Everywhere old beggars were selling bottles of this oil of claimed miraculous properties.
 
 We also climbed to the ruins of a fortress guarding the [Georgian Military Highway][28] leading up to [Kazbegi][29] and Ossetia in the north. The view over the valley was very pleasant and there was a group of children playing and climbing all over the old walls.
 
-![Fortress in the Mtskheta valley](/files/Fortress_in_Mtskheta_valley.jpg) ![Tbilisi Sea around sunset](/files/The_Tbilisi_Sea.jpg)
+![Fortress in the Mtskheta valley](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Fortress_in_Mtskheta_valley.jpg) ![Tbilisi Sea around sunset](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/The_Tbilisi_Sea.jpg)
 
 As it was getting late we drove to the shore of the [Tbilisi Sea][31] reservoir and watched the sun fall behind the hills covered by old Soviet beach-side resorts now occupied by [Abkhazian][32] refugees.
 
@@ -54,7 +54,7 @@ On sunday we decided to take it easy with the touristic thing, and leave for the
 
 Cows and stray dogs were touring the grounds while we prepared the fire and roasted some [basturma meat][33] we'd made earlier on skewers. This proved to be delicious when eaten together with Georgian bread, fried aubergines and fresh vegetables.
 
-![Datschas on the hills surrounding Tbilisi](/files/Datschas_in_the_hills.jpg) ![Making the basturma](/files/Making_shashlik.jpg)
+![Datschas on the hills surrounding Tbilisi](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Datschas_in_the_hills.jpg) ![Making the basturma](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Making_shashlik.jpg)
 
 
 In the evening we drove back over the potholes, enjoying the view at the lights of Tbilisi as we descended towards it.
@@ -67,7 +67,7 @@ Taya needed to handle some paperwork related to obtaining a passport for [Tiko][
 
 There however the lady running the office went through the papers and noticed that in one of them, Taya's birth-date had a typo in it. With this information we had to drive fifteen kilometers to another office to request it to be fixed. However, they declined to make the fix, as we did not have a written request for fixing by the previous office.
 
-![Georgian Department of Road Works](/files/Georgian_Road_Works_Department.jpg) ![Dinner in the Biergarten](/files/Biergarten_Stelze_dinner.jpg)
+![Georgian Department of Road Works](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Georgian_Road_Works_Department.jpg) ![Dinner in the Biergarten](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Biergarten_Stelze_dinner.jpg)
 
 At this point most of the day had already been spent, and so we had to return to the Soros building to set up the first public Midgard server there. We met the [GRENA][37] system administrator, and he helped us set the server's network settings. We also fixed some booting issues by properly setting up [apmd][39] on the system.
 

@@ -9,11 +9,11 @@
 
 Regular users can mark posts as abuse (the message shown is a regular spam mail I found from my inbox):
 
-<a href="/files/net_nemein_discussion_report_abuse.png"><img src="/files/net_nemein_discussion_report_abuse-tm.jpg" height="283" width="400" border="1" hspace="4" vspace="4" alt="Net Nemein Discussion Report Abuse" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/net_nemein_discussion_report_abuse.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/net_nemein_discussion_report_abuse-tm.jpg" height="283" width="400" border="1" hspace="4" vspace="4" alt="Net Nemein Discussion Report Abuse" /></a>
 
 Moderators will get an email (or whatever medium they have selected for receiving notifications, including a <a href="http://bergie.iki.fi/blog/meet_nabaztag-our_new_general_manager/">Nabaztag WiFi bunny</a>) and can see all messages marked as abuse in the moderation view:
 
-<a href="/files/net_nemein_discussion_moderate.png"><img src="/files/net_nemein_discussion_moderate-tm.jpg" height="398" width="400" border="1" hspace="4" vspace="4" alt="Net Nemein Discussion Moderate" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/net_nemein_discussion_moderate.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/net_nemein_discussion_moderate-tm.jpg" height="398" width="400" border="1" hspace="4" vspace="4" alt="Net Nemein Discussion Moderate" /></a>
 
 If they confirm the message as abuse or junk it will disappear from the site. If they confirm it as &quot;<em>not abuse</em>&quot; it will stay on site and the &quot;<em>report abuse</em>&quot; button will be removed from it.
 The full moderation history is kept with posts and displayed to moderators so they see if multiple people have marked something as abuse, for instance.

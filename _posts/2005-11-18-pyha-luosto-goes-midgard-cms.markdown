@@ -7,7 +7,7 @@
 ---
 [Pyhä][1] and [Luosto][2], two skiing centers in [Lapland][3] are now powered by [Midgard CMS][4]. Their websites are portals containing both general travel information and the sub-sites of hundreds of local hotels, restaurants and other businesses.
 
-<a href="/files/pyha-frontpage.jpg"><img src="/files/pyha-frontpage-small.jpg" border="0" height="157" width="200" alt="Pyhä front page" title="Pyhä portal front page" /></a> <a href="/files/luosto-hotel-page.jpg"><img src="/files/luosto-hotel-page-small.jpg" border="0" height="157" width="200" alt="Hotel Luostotunturi sub-site" title="Hotel Luostotunturi sub-site" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/pyha-frontpage.jpg"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/pyha-frontpage-small.jpg" border="0" height="157" width="200" alt="Pyhä front page" title="Pyhä portal front page" /></a> <a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/luosto-hotel-page.jpg"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/luosto-hotel-page-small.jpg" border="0" height="157" width="200" alt="Hotel Luostotunturi sub-site" title="Hotel Luostotunturi sub-site" /></a>
 
 The portals were designed by advertisement agency [Linnunrata][5] and mainly built by [Arttu Manninen][6] from [Protie][7]. The Midgardization was supervised by [Nemein][9]. Hosting for the portals is provided by [Nebula's][8] _Midgard Webhotel_ service.
 

@@ -10,7 +10,7 @@ There are several places in [OpenPsa][1] where persons are displayed in some lis
 
 With this library the listings provide all the basic contact information in a nicely formatted manner:
 
-![MidCOM contact widget in action](/files/openpsa-contactwidget.jpg)
+![MidCOM contact widget in action](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/openpsa-contactwidget.jpg)
 
 The nice part about this is that the output is in the [hCard microformat][4], enabling it to be machine-readable, and easily [converted into vCards][5].
 

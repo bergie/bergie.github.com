@@ -30,7 +30,7 @@ I wrote a still-popular post titled [Decoupling Content Management](http://bergi
 
 In nutshell, the transition I want CMSs &mdash; WordPress included &mdash; to make is this:
 
-![Decoupling Content Management](/files/decoupled-cms-architecture.png)
+![Decoupling Content Management](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/decoupled-cms-architecture.png)
 
 Here is my [talk on the subject](http://youtu.be/j4NoAFK-KNY) from JS.everywhere in Paris late last year:
 

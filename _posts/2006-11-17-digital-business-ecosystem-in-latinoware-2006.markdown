@@ -8,15 +8,15 @@
 ---
 Like [last year][1] and [FISL][3], I'm again representing [DBE][4] [in LatinoWare][2]. My talk was yesterday, and this time I focused a bit more on the practical applications of DBE instead of the politics.
 
-![Speaking in LatinoWare, photo by Fernando da Rosa Morena](/files/Speaking_in_LatinoWare_Foz_do_Iguacu.jpg)
+![Speaking in LatinoWare, photo by Fernando da Rosa Morena](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Speaking_in_LatinoWare_Foz_do_Iguacu.jpg)
 
-My slides are now [available in PDF format](/files/dbe-latinoware-2006.pdf") (6MB). I also have most of the talk in cell phone video format that I will try to process and YouTube at some point. 
+My slides are now [available in PDF format](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/dbe-latinoware-2006.pdf") (6MB). I also have most of the talk in cell phone video format that I will try to process and YouTube at some point. 
 
 After the talk I've been mostly hanging out in the conference cafeteria, discussing free software with other speakers and participants. 
 
 The conference is held in the technology center of [Itaipu][5], world's largest hydroelectric plant. On thursday evening we went to see the light show on the massive dam wall, and after that to a _Open Bar_ student party.
 
-![Lights of the Itaipu dam](/files/Itaipu_dam_lights.jpg)
+![Lights of the Itaipu dam](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Itaipu_dam_lights.jpg)
 
 Friday morning, slightly hung over, we crossed the [Friendship Bridge][6] to Ciudad del Este, [Paraguay][8]. The city had the strongly commercialized feeling of a border town, closely resembling Vyborg for example. But that was quickly forgotten by getting to try a [motorcycle taxi][7] on the way back.
 

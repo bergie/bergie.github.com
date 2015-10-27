@@ -20,7 +20,7 @@ __Updated 07:56:__ This is what the pinger library stores into the MidCOM debug 
 
 And as can be seen, the response from Google is quite fast (the article was in searches much earlier than 1 hour after posting, but I didn't realise to take a screenshot):
 
-![This article on Google Blog Search](/files/google-blog-search.jpg)
+![This article on Google Blog Search](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/google-blog-search.jpg)
 
 The current implementation of pinger has two limitations. First of all, as the pings are now run during the HTTP request that saves an article, the request can become slow if there is heavy traffic at one of the services. The solution for this would be to store the notifications into a temporary record, and then process them via MidCOM's new [cron service][15].
 

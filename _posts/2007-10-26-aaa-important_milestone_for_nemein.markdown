@@ -9,6 +9,6 @@ We <a href="http://bergie.jaiku.com/presence/10633126">found out a while back</a
 
 The coveted Triple-A certificate arrived in mail this week:
 
-<a href="/files/nemein-aaa-bergie-joe.png"><img src="/files/nemein-aaa-bergie-joe-tm.jpg" height="255" width="398" border="1" hspace="4" vspace="4" alt="Nemein-Aaa-Bergie-Joe" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nemein-aaa-bergie-joe.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nemein-aaa-bergie-joe-tm.jpg" height="255" width="398" border="1" hspace="4" vspace="4" alt="Nemein-Aaa-Bergie-Joe" /></a>
 
 <p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/nemein" rel="tag">nemein</a>, <a href="http://www.technorati.com/tag/rating" rel="tag">rating</a></p>

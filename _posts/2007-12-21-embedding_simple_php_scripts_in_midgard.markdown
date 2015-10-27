@@ -13,12 +13,12 @@ Another change made yesterday was making the &quot;<em>nullcomponent</em>&quot;,
 
 Now you can configure it to execute code stored in the folder:
 
-<img src="/files/asgard-libconfig-nullcomponent.jpg" height="104" width="400" border="1" hspace="4" vspace="4" alt="Asgard-Libconfig-Nullcomponent" />
+<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/asgard-libconfig-nullcomponent.jpg" height="104" width="400" border="1" hspace="4" vspace="4" alt="Asgard-Libconfig-Nullcomponent" />
 
 Then just edit the code:
 
-<img src="/files/asgard-edit-topic-code.jpg" height="179" width="400" border="1" hspace="4" vspace="4" alt="Asgard-Edit-Topic-Code" />
+<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/asgard-edit-topic-code.jpg" height="179" width="400" border="1" hspace="4" vspace="4" alt="Asgard-Edit-Topic-Code" />
 
 And it will be executed in the folder:
 
-<img src="/files/nullcomponent-phpinfo.jpg" height="220" width="400" border="1" hspace="4" vspace="4" alt="Nullcomponent-Phpinfo" /><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/asgard">asgard</a>, <a href="http://www.technorati.com/tag/midcom">midcom</a>, <a href="http://www.technorati.com/tag/midgard">midgard</a></p>
+<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nullcomponent-phpinfo.jpg" height="220" width="400" border="1" hspace="4" vspace="4" alt="Nullcomponent-Phpinfo" /><p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/asgard">asgard</a>, <a href="http://www.technorati.com/tag/midcom">midcom</a>, <a href="http://www.technorati.com/tag/midgard">midgard</a></p>

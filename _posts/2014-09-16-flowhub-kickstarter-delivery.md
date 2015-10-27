@@ -12,7 +12,7 @@ When we set out on this crazy adventure, we still mostly had only [NoFlo](http:/
 
 Here is how the runtime registration screen looks with [the latest release](https://www.kickstarter.com/projects/noflo/noflo-development-environment/posts/985898):
 
-[![Flowhub Runtime Registration](/files/flowhub-runtime-registration-small.png)](/files/flowhub-runtime-registration.png)
+[![Flowhub Runtime Registration](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-runtime-registration-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-runtime-registration.png)
 
 This hopefully highlights a bit of the possibilities of what can be done with [Flowhub](http://flowhub.io/) right now. I know there are several other runtimes that are not yet listed there. We should have something interesting to announce in that space soon!
 
@@ -34,4 +34,4 @@ Just like with [Travis](https://travis-ci.org/) and [GitHub](https://github.com/
 
 If you have any questions about Flow-Based Programming or how to use Flowhub, please check out the various ways to get in touch on the [NoFlo support page](http://noflojs.org/support/).
 
-[![Kickstarter Backer badge](/files/flowhub-backer-badge-small.png)](/files/flowhub-backer-badge.png)
+[![Kickstarter Backer badge](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-backer-badge-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-backer-badge.png)

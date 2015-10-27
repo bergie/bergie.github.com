@@ -15,7 +15,7 @@ Jabber itself has been working just great, and as it is a [federated network][22
 
 While looking for better alternatives I decided to test [Adium][5], the native Mac instant messaging application built on top of [GAIM's][6] multi-protocol libraries. Adium uses [Off-the-Record encryption][7] for [securing the conversations][14]. OTR has [several advantages][8] over [GPG][9] for IM purposes and supports several clients including Adium, GAIM and [Trillian][10]. We'll have to see how well OTR works over some weeks of testing.
 
-![OTR encryption in Adium](/files/adium-otr-encryption.jpg)
+![OTR encryption in Adium](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/adium-otr-encryption.jpg)
 
 Other nice things about Adium include [Plazes integration][11], [Growl notifications][12] and support for the [Gizmo VoIP network][13].
 

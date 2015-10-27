@@ -7,7 +7,7 @@
 ---
 [Chris Glass][5] has posted a HOWTO on a [more humane mousetrap][1]:
 
-> ![Humane mousetrap illustration by Chris Glass](/files/humane-mousetrap.jpg)
+> ![Humane mousetrap illustration by Chris Glass](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/humane-mousetrap.jpg)
 
 >  Balance the tube precariously on the edge of a table or counter with the treat hanging directly over the tall sided receptacle.
 The mouse will scurry to the treat (they like tunnels) and fall into the trap.

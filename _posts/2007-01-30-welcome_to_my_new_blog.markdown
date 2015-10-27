@@ -23,19 +23,19 @@ Still, being a developer, I could not launch a new version of the site without b
 
 The film strip is used to display either [pictures][23] from the week a page was written, or 10 latest pictures
 
-![Film strip and pictures from Brazil](/files/bergie_filmstrip2.jpg)
+![Film strip and pictures from Brazil](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie_filmstrip2.jpg)
 
 [Positioning][22] is now powered by real, mostly [Plazes-powered][8] coordinates and a [real database of cities][7] and [airports][9]. This brings with itself some [Microformat][11] and [GeoRSS][12] goodness, like [live maps][13]
 
-![Positions on the blog entries](/files/bergie_blog_position.jpg)
+![Positions on the blog entries](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie_blog_position.jpg)
 
 My contact information is available as a [machine-readable hCard][28] on most pages
 
-![What Tails extension understands of my contact info](/files/bergie_microformats_tails.jpg)
+![What Tails extension understands of my contact info](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie_microformats_tails.jpg)
 
 The contact information card also has a simple [informal status message][27] powered by [Twitter][26]
 
-![The contact card](/files/bergie_card.jpg)
+![The contact card](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie_card.jpg)
 
 Also, less visually:
 
@@ -55,11 +55,11 @@ There is also my picture on the pages. I realised that it is actually nice to se
 
 The old design:
 
-![The old, black design](/files/bergie_layout_2005.jpg)
+![The old, black design](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie_layout_2005.jpg)
 
 The new design:
 
-![The new, earthy design](/files/bergie_layout_2006.jpg)
+![The new, earthy design](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie_layout_2006.jpg)
 
 ## Midgard template
 

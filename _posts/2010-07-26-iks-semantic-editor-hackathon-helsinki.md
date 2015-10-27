@@ -37,9 +37,9 @@ Now the content edited in Aloha and saved to Midgard2 is also sent to FISE for s
 
 Sometimes FISE produces a bit funny results. This is from copy-pasting the [hackathon page](http://wiki.iks-project.eu/index.php/Semantic_Editor/Helsinki_hackathon_2010) to Midgard:
 
-![FISE enhancements](/files/594e6a94998911df9b46a1a76f95c0fac0fa.png)
+![FISE enhancements](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/594e6a94998911df9b46a1a76f95c0fac0fa.png)
 
-![RDFa annotation](/files/182bc2c0999611dfa68cddcc93875b5b5b5b.png)
+![RDFa annotation](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/182bc2c0999611dfa68cddcc93875b5b5b5b.png)
 
 Managed to get Jerry's latest Aloha version working (Ext JS forms plugin was missing from the bundle). With it the RDFa editing is even cooler. Here's an example of the HTML after annotating a person.
 
@@ -47,4 +47,4 @@ Time to wrap up the hackathon and head for beer :-)
 
 Seems the sidebar is also looking a bit nicer now:
 
-![Aloha details sidebar](/files/8d38bed49af811df973847511a0fdfe9dfe9.png)
+![Aloha details sidebar](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/8d38bed49af811df973847511a0fdfe9dfe9.png)

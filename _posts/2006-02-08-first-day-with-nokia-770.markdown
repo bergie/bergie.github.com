@@ -14,7 +14,7 @@ Yesterday I had to go to a store to buy a new WiFi base station, as the previous
 
 In addition to this, I've also used it for quick net banking while on the move. Very handy!
 
-![The 770 surfing to Death Monkeys](/files/770-deathmonkey-small.jpg)
+![The 770 surfing to Death Monkeys](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/770-deathmonkey-small.jpg)
 
 Since the device runs Linux, I'm also looking forward to [developing some Python applications][12] to make mobile work easier. Especially I'm interested in exploring the use of position information to create the [real-world Hitchhiker's Guide to the Galary][21]. [Placeopedia RSS feed][22] will be an excellent starting point for finding "information near you".
 

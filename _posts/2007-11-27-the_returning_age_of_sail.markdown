@@ -7,7 +7,7 @@
 ---
 It seems that with the <a href="http://en.wikipedia.org/wiki/Peak_oil">rising oil prices</a> the <a href="http://en.wikipedia.org/wiki/Age_of_Sail">Age of Sail</a> is returning, even if in a modified format. <a href="http://www.skysails.info/index.php?L=1">SkySails</a> is a system that enables freighters to tap into high-altitude winds with a <a href="http://en.wikipedia.org/wiki/Power_kite">power kite</a> to reduce fuel consumption.
 
-<img src="/files/skysail.png" height="235" width="298" border="0" hspace="8" vspace="4" alt="SkySail" title="SkySail" />
+<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/skysail.png" height="235" width="298" border="0" hspace="8" vspace="4" alt="SkySail" title="SkySail" />
 
 Watch the <a href="http://s2.streamingfarm.tv/streamingfarm/skysails_clips/20070823_SkySails_Erklaerfilm_e03_768k.wmv">video presentation</a> for more information. Everything old is new again! Via <a href="http://hardware.slashdot.org/hardware/07/11/26/1925210.shtml">Slashdot</a>.
 

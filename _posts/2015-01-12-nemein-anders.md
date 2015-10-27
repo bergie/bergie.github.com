@@ -11,11 +11,11 @@ When I flew to Tenerife to [sail across the Atlantic](https://www.flickr.com/pho
 
 Today, I'm happy to tell that [Nemein has been acquired](https://www.andersinnovations.com/en/news/181/anders-innovations-inc-purchases-helsinki-based-software-company-grow-international-business/) by [Anders Innovations](https://www.andersinnovations.com/en/), a fast-growing software company.
 
-[![Nemein joins Anders Innovations](/files/nemein_anders_small.png)](/files/nemein_anders.png)
+[![Nemein joins Anders Innovations](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nemein_anders_small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nemein_anders.png)
 
 I had a videoconference this morning with Nemein's and Anders Inno's CEOs Lauri and Tomi, and it seems the team Nemein has indeed found [a good home](https://www.andersinnovations.com/en/company/people/).
 
-![Lauri and Tomi](/files/nemein_andersinno_lauri_tomi_small.jpg)
+![Lauri and Tomi](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nemein_andersinno_lauri_tomi_small.jpg)
 
 Technologically, the companies are a good fit. Both companies have a strong emphasis on building business systems on top of the [Django](https://www.djangoproject.com/) framework. To this mix, Nemein will also bring its long background with [Midgard CMS](http://midgard-project.org/) and mobile ecosystems like [MeeGo](http://bergie.iki.fi/blog/meego-diaspora/) and its successor, [Sailfish](http://bergie.iki.fi/blog/jolla-sailfish/).
 

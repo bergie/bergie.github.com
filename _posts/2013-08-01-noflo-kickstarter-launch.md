@@ -46,7 +46,7 @@ However, there still remains a role for text-based code. The actual components, 
 
 My original [NoFlo UI prototype](http://bergie.iki.fi/blog/inspiration-for-fbp-ui/) already included the code editor for modifying and creating new components. By the principles of [TDD](http://en.wikipedia.org/wiki/Test-driven_development), each component is always edited alongside its unit tests, and the tests can be run at any point with a single click. We're now bringing that back into the new UI:
 
-[![Editing code in the NoFlo UI](/files/noflo-ui-code-small.jpg)](/files/noflo-ui-code.jpg)
+[![Editing code in the NoFlo UI](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo-ui-code-small.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo-ui-code.jpg)
 
 For those who don't want this UI, NoFlo is still fully usable also without it. As a matter of fact, we don't have a UI before the Kickstarter succeeds, and yet many companies are already building their applications with NoFlo. One way is by using the [`.fbp` language](http://noflojs.org/documentation/fbp/).
 

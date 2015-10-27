@@ -13,7 +13,7 @@ Boing Boing has a [story about a car crash][1]:
 
 This reminds me of the crash we encountered while [driving to Murmansk][2] couple years ago. There was a crashed car on the side of the road about 8km east of [Utsjoki][3].
 
-![Car crash on the Utsjoki road](/files/Utsjoki_car_crash.jpg)
+![Car crash on the Utsjoki road](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Utsjoki_car_crash.jpg)
 
 We of course stopped to see what was wrong. The driver's seat was empty, and there was a quite drunken and a bit bloody old guy sitting in the passenger side. We woke him up and asked if he needed any help, to which he said _yes_. Then we asked about calling the police and he said that _no, he didn't need any help_.
 

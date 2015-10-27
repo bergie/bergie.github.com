@@ -15,4 +15,4 @@ In addition to us Finns, the Midgard guys from <a href="http://www.anykey.se/">a
 </p><p>
 If you're interested in free software in the North, <a href="http://fscons.org/registration/">come to FSCONS</a>. Irrespective where you side with your web technology choices, looking forward to discussing with you!
 </p><p>
-<img src="/files/fscons-2008-banner.jpg" height="49" width="396" border="0" hspace="0" vspace="0" alt="FSCONS 2008" title="FSCONS 2008" /></p>
+<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fscons-2008-banner.jpg" height="49" width="396" border="0" hspace="0" vspace="0" alt="FSCONS 2008" title="FSCONS 2008" /></p>

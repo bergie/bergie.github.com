@@ -11,7 +11,7 @@
 </p><p>
 For a while this has been done <a href="http://wiki.maemo.org/Maemo.org_Sprints#Daily_reporting">in wiki pages</a>, but since that is not very flexible or connected, better ways have been discussed. The current approach being tested is workstreaming via <a href="http://www.qaiku.com/channels/show/maemork/">a Qaiku channel</a>:
 </p><p>
-<a href="/files/maemork-workstream.png"><img src="/files/maemork-workstream-tm.jpg" height="184" width="400" border="1" hspace="4" vspace="4" alt="#maemork workstream on Qaiku" title="#maemork workstream on Qaiku" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemork-workstream.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemork-workstream-tm.jpg" height="184" width="400" border="1" hspace="4" vspace="4" alt="#maemork workstream on Qaiku" title="#maemork workstream on Qaiku" /></a>
 </p><p>
 <a href="http://www.qaiku.com/">Qaiku</a> is a <a href="http://bergie.iki.fi/blog/microblogging-why_qaiku_might_do_what_twitter_and_brightkite_didn-t/">conversation-oriented microblogging service</a> that suits workstreaming quite well:
 </p><ul>

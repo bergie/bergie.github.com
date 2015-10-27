@@ -9,17 +9,17 @@ Traditionally Finns spend the [Midsummer][12] in the countryside, and we usually
 
 On friday we visited grandmother and helped her access family pictures easier by switching from OmniWeb to Firefox on [her iMac][18]. She had made us some delicious Lappish dishes, like oven cheese. Later we watched Fritz Lang's monumental twenties film [Metropolis][3]. The soundtrack coming with the video release was horrible, but [Rammstein][4] fit there perfectly.
 
-![City scene from 1927 film Metropolis](/files/metropolis_tower.jpg)
+![City scene from 1927 film Metropolis](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/metropolis_tower.jpg)
 
 Saturday was spent [motorcycle cruising][15] in the Porkkala penisula, and enjoying the perfect combination of sauna, [barbeque][13], [sovetskoe shampanskoe][14], and of course, [sabrage][16].
 
 On sunday I woke up in the sauna dressing room, started my bike, and rode home to fetch my conference gear. I slept most of the [Blue1][17] flight, only waking up occasionally to watch mountains and coastlines pass by.
 
-![Towers of Sagrada Familia church](/files/Towers_of_Sagrada_Familia.jpg)
+![Towers of Sagrada Familia church](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Towers_of_Sagrada_Familia.jpg)
 
 Barcelona's sights, the still-unfinished [Sagrada Familia][7] cathedral and [Montjuïc hill][6] were clearly visible already on approach. The day was easily spent strolling on the [La Rambla][5] boulevard, old town, and especially [Eixample][11], the Art Nouveau part of the city.
 
-![Bergie and the Chimneys of La Pedreira](/files/Bergie_in_La_Pedreira.jpg)
+![Bergie and the Chimneys of La Pedreira](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Bergie_in_La_Pedreira.jpg)
 
 I arrived quite late to [Vilanova][8], having been caught by [Gaudi's][9] amazing architecture. As [Tigert][10] and Miia already were hungry we went directly to a tapas place instead of looking for a hotel. So I ended up spending the first night of this trip sleeping on Tigert's couch.
 

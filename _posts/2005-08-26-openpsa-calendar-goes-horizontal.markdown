@@ -7,7 +7,7 @@
 ---
 After a bit of thought we've returned the [Group Calendar module][1] of [OpenPsa 2][2] to using horizontal layout for days. The [earlier versions][3] used a vertical layout designed with [Tigert][4] that proved to be a problem with larger number of resources. This should solve the scalability issue:
 
-![Horizontal weekly calendar in OpenPsa 2](/files/openpsa-calendar-horizontal2.jpg)
+![Horizontal weekly calendar in OpenPsa 2](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/openpsa-calendar-horizontal2.jpg)
 
 In addition to being more flexible, the new calendar layout provides the events in the [hCalendar microformat][5]. The vertical layout of [org.openpsa.calendarwidget][6] will be modernized into similar state and made into a configuration option useful for small organizations. Alan's [XUL calendar interfaces][9] could also be useful although OpenPsa already integrates with [desktop calendars][10] and [mobile phones][11].
 

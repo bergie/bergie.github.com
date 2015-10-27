@@ -11,7 +11,7 @@ I have blogged earlier of our plans to [add WiFi autologin support to MaemoPlaze
 
 While I'm not entirely happy about [giving my passwords][5] to an external service, I tried Devicescape on my N800 and it worked as advertised: As soon as I connected to my [home FON network][6] it performed the web-based login, letting me use the internet without any manual intervention.
 
-![Autoconnection to FON with DeviceScape on N800](/files/devicescape_n800_small.jpg)
+![Autoconnection to FON with DeviceScape on N800](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/devicescape_n800_small.jpg)
 
 FON and [Sonera HomeRun][7], two of the three WiFi networks requiring web login that I use frequently are supported by Devicescape. Now if they could add support for the free [City of Helsinki WiFi][8]...
 

@@ -10,8 +10,8 @@
 
 In any case, <a href="http://www.midgard-project.org/">Midgard</a> powered the web campaigns of at least two candidates: Rapper <a href="http://en.wikipedia.org/wiki/Pikku_G">Pikku G</a> (<a href="http://www.h07.fi/">h07.fi</a>) didn't quite make it, but skier <a href="http://en.wikipedia.org/wiki/Juha_Mieto">Juha Mieto</a> (<a href="http://www.juhamieto.fi/">juhamieto.fi</a>) won in the Vaasa constituency with a landslide.
 
-<img src="/files/midgard-pikkug-2007.jpg" height="160" width="250" border="1" hspace="4" vspace="4" alt="Midgard-Pikkug-2007" />
-<img src="/files/midgard-juhamieto-2007.jpg" height="160" width="248" border="1" hspace="4" vspace="4" alt="Midgard-Juhamieto-2007" />
+<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midgard-pikkug-2007.jpg" height="160" width="250" border="1" hspace="4" vspace="4" alt="Midgard-Pikkug-2007" />
+<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midgard-juhamieto-2007.jpg" height="160" width="248" border="1" hspace="4" vspace="4" alt="Midgard-Juhamieto-2007" />
 
 Midgard provides a very good base for such campaign sites. A campaign blog can easily be <a href="http://bergie.iki.fi/blog/midgard_and_geotagging_via_email/">updated on the road</a> using the email features found in any smartphone, photos and calendar events are easy to maintain, and everything serves machine readable <a href="http://en.wikipedia.org/wiki/RSS">RSS</a> and <a href="http://microformats.org/">microformats</a>. The <a href="http://bergie.iki.fi/blog/direct-marketing-component-for-openpsa/">direct marketing system</a> also makes it possible to keep in touch with campaign activists using email newsletters and SMS.
 

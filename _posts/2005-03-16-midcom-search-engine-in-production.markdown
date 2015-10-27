@@ -21,7 +21,7 @@ Once the initial reindexing has been run all new changes in the Midgard database
 
 Other advantages from this new search system include the fact that the search results are component-aware, enabling us to display thumbnails for image results etc. The searches are also aware of the Midgard permission system, ensuring that users will get results from all documents they're allowed to see. The possibilities of the [Lucene search syntax][8] are also promising.
 
-![Searching Midgard site for Seoul](/files/search-seoul.jpg)
+![Searching Midgard site for Seoul](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/search-seoul.jpg)
 
 Try out the new tool by [searching the Midgard site][4]. It can also be deployed by [installing the indexer][1] and setting MidCOM template to use the _xmltcp_ indexer plugin. I've already done this for [my site][5] and it seems to work really well.
 

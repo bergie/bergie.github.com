@@ -6,7 +6,7 @@
   layout: "post"
 
 ---
-<img src="/files/guadec.jpg" border="0" height="68" width="99" alt="GUADEC" style="float: right; margin-left: 8px;" />
+<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/guadec.jpg" border="0" height="68" width="99" alt="GUADEC" style="float: right; margin-left: 8px;" />
 This year's [GUADEC][1] will be held in [Catalonia][2] on Jun 24th - 30th. We've left [a proposal][4] with  [Tuomas][3], so I hope I will be able to attend.
 
 >  __Summary:__ Web applications, collaboration, information accessible from different devices. How could we integrate web based tools better with our desktop?

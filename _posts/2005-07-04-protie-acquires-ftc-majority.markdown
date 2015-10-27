@@ -5,7 +5,7 @@
   layout: "post"
 
 ---
-<a href="http://www.ftc.fi/"><img src="/files/ftc-100.png" border="0" height="107" width="100" alt="Finnish Teleservice Center" align="right" /></a>
+<a href="http://www.ftc.fi/"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/ftc-100.png" border="0" height="107" width="100" alt="Finnish Teleservice Center" align="right" /></a>
 
 Our support and maintenance partner, [Protie Ltd][2] has just [acquired 60% majority][3] in [Finnish Teleservice Center][4].
 

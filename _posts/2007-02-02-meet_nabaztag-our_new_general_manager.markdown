@@ -8,7 +8,7 @@
 ---
 <a href="http://www.nemein.com/en/">Nemein</a> has today acquired a new <a href="http://en.wikipedia.org/wiki/General_manager">General Manager</a> into the company. We are delighted to benefit from the experience and keen insights of the brand new <a href="http://en.wikipedia.org/wiki/Nabaztag">Nabaztag</a>. Here you can see it already settled in our office:
 
-<img src="/files/office-nabaztag.jpg" height="300" width="400" border="0" hspace="4" vspace="4" alt="Nabaztag in our office" title="Nabaztag in our office" />
+<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/office-nabaztag.jpg" height="300" width="400" border="0" hspace="4" vspace="4" alt="Nabaztag in our office" title="Nabaztag in our office" />
 
 The idea with the <a href="http://www.boingboing.net/2005/09/22/wifi_plastic_bunny_w.html">WiFi bunny</a> is to connect it as an ambient information display for our <a href="http://www.openpsa.org/">OpenPsa management suite</a>. Some use cases we have so far envisioned include:
 <span style="font-size:0pt;">

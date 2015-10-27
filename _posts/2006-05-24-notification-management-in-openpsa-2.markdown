@@ -11,7 +11,7 @@ With the notification manager users and groups can control what things they want
 
 The first OpenPsa component to implement notifications is [OpenPsa Calendar][4], allowing users to choose whether they get emailed about new events or not:
 
-![OpenPsa Calendar notification settings](/files/openpsa2-calendar-notification-management.jpg)
+![OpenPsa Calendar notification settings](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/openpsa2-calendar-notification-management.jpg)
 
 For now the notification manager supports only emailing or disabling notices, but other transports are being planned. For some things [SMS][5], [Jabber][6] or even [Growl][7] could make more sense. For example, it would be nice to get a Growl notice when a client approves a completed project.
 

@@ -5,7 +5,7 @@
   layout: "post"
 
 ---
-<img src="/files/open-tuesday-770-competition.jpg" border="0" style="margin-left: 6px;" height="155" width="300" alt="Open Tuesday Competition" align="right" />
+<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/open-tuesday-770-competition.jpg" border="0" style="margin-left: 6px;" height="155" width="300" alt="Open Tuesday Competition" align="right" />
 
 I'm surprised nobody has mentioned [Open Tuesday's][7] [Nokia 770 Application Development Competition][1] on [Planet Maemo][2] yet.
 

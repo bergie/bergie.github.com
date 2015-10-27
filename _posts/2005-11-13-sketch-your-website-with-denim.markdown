@@ -10,7 +10,7 @@
 
 DENIM is available for Linux, Windows and Mac. I downloaded the [OS X version][8], and scribbled with it for a while. Obviously the results would be nicer if I had a stylus or an [I-pen][6]...
 
-![Simple three-page site with DENIM](/files/denim-simplesite.jpg)
+![Simple three-page site with DENIM](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/denim-simplesite.jpg)
 
 This could be the perfect tool for [rapid web prototyping][7]. Once the site sketch has been created it can be exported as a set of HTML imagemaps for easier sharing.
 

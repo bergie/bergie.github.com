@@ -18,7 +18,7 @@ To tackle this problem we need to win the trust of our users back. In web editin
 
 Luckily, modern JavaScript techniques make this problem solvable for [Create.js](http://createjs.org/). In Create, every key press, and every piece of pasted content gets stored safely into your browser's [localStorage](http://en.wikipedia.org/wiki/Web_storage). And should something go wrong, the next time you access a page you've been editing you will be presented with this friendly dialog:
 
-![Create.js content restore](/files/createjs-storage-restore.png)
+![Create.js content restore](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/createjs-storage-restore.png)
 
 Click _Restore_ and your previous changes will be immediately inserted into the page.
 

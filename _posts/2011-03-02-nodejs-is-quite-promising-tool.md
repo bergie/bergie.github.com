@@ -35,7 +35,7 @@ getting to that situation is a "happy problem", I think.
 
 Trying out the browser-based development tool [Cloud9IDE](http://cloud9ide.com/). Pretty fast and cool, but seems some features (like git commits and running with Node.js module dependencies) are not there yet.
 
-![Cloud9 IDE](/files/4671b67a44b911e0874a7db8a60bcd3dcd3d.png)
+![Cloud9 IDE](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/4671b67a44b911e0874a7db8a60bcd3dcd3d.png)
 
 Kusti says:
 

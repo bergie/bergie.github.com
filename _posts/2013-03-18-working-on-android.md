@@ -19,7 +19,7 @@ Since I already had a [Nexus 10](http://arstechnica.com/gadgets/2012/11/nexus-10
 
 ## The setup
 
-![Nexus 10 as a laptop](/files/nexus10-mobile-small.jpg)
+![Nexus 10 as a laptop](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nexus10-mobile-small.jpg)
 
 The Nexus tablet has a great, "better than retina" screen, which can render my coding sessions and web user interfaces beautifully. The 10" screen is somewhat smaller than what I had on my Air, but not terribly so.
 
@@ -37,7 +37,7 @@ For those prepared to lug a heavier option, there is [a Bluetooth mechanical key
 
 While I'm spending quite a lot of my time on the road, [living out of my backpack](http://bergie.iki.fi/blog/all-you-need-is-good-backpack/), I do have a regular desk in the Berlin office I share with [Content Control](http://www.contentcontrol-berlin.de). Since my coding sessions are often long, I've been a bit concerned with my [programming ergonomics](http://www.codinghorror.com/blog/2007/08/computer-workstation-ergonomics.html) for a while now, even considering a [standing desk](http://blog.liangzan.net/blog/2012/09/29/my-standing-desk-experiment/).
 
-![Nexus 10 as a desktop](/files/nexus10-desk-small.jpg)
+![Nexus 10 as a desktop](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nexus10-desk-small.jpg)
 
 Tablet has the same advantage as a traditional display in that it is decoupled from the input devices, giving you greater freedom in how to position them. I have a [Callstel tablet stand](http://youtu.be/Mmx1wh72hv0) that allows me to place the tablet in practically any place and height above my desk. The current setup is just slightly below my eye height in the normal sitting position, but I'm still experimenting with that.
 
@@ -61,7 +61,7 @@ I also prefer the rugged, rubberized look-and-feel of the Nexus 10 to the cold m
 
 ### Software used
 
-![Nexus 10 homescreen](/files/nexus10-homescreen-small.jpg)
+![Nexus 10 homescreen](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nexus10-homescreen-small.jpg)
 
 I really don't need much for my daily work &mdash; just a browser and a terminal. Here are the apps I use on a daily basis:
 

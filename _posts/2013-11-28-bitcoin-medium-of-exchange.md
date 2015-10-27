@@ -8,13 +8,13 @@ categories:
 ---
 [Bitcoin](http://www.bitcoins.com/) &mdash; the decentralized digital currency &mdash; has been making a lot of headlines lately. Much of this is driven by the [current investment boom](http://www.economist.com/news/leaders/21590901-it-looks-overvalued-even-if-digital-currency-crashes-others-will-follow-bitcoin) around it that has raised the exchange rates over the 1000 USD mark. But really, looking at Bitcoin as a medium for currency or asset speculation is a bad idea. Instead, we should see it purely as a [medium of exchange](http://en.wikipedia.org/wiki/Medium_of_exchange).
 
-![Bitcoin Accepted Here](/files/bitcoin-accepted-here-small.png)
+![Bitcoin Accepted Here](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bitcoin-accepted-here-small.png)
 
 ## Not a great holder of value
 
 Much of the press stories about Bitcoin see it as a speculative investment free of currency manipulation by central banks. By its nature, it is a [deflationary currency](https://en.bitcoin.it/wiki/Deflationary_spiral), given that the global supply of Bitcoins is capped. As long as there is interest in Bitcoin, it means the prices are bound to go up. But at the same time, this is a threat to the currency. Deflation disincentivizes people from spending their money, as tomorrow the value is likely to be higher.
 
-![Bitcoin exchange rates 2013](/files/bitcoin-chart-2013-11-small.png)
+![Bitcoin exchange rates 2013](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bitcoin-chart-2013-11-small.png)
 
 This is a big difference to [fiat currencies](http://en.wikipedia.org/wiki/Fiat_money) where central banks generally act to ensure that there is a little bit of inflation, giving people incentives to spend, invest, and keep the economy running.
 
@@ -37,7 +37,7 @@ Now that we've established that Bitcoins are not the best thing to put your life
 
 Bitcoin is a way of making transactions quickly, safely, and without middlemen. A lot of the articles written about it compare it to gold, but in my view a much closer comparison is [M-Pesa](http://en.wikipedia.org/wiki/M-Pesa), the operator-driven mobile payment network that powers [over 30% of the Kenyan economy](http://qz.com/57504/31-of-kenyas-gdp-is-spent-through-mobile-phones/).
 
-![M-Pesa in action](/files/m-pesa-cell-phone.jpg)
+![M-Pesa in action](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/m-pesa-cell-phone.jpg)
 
 *M-Pesa on a phone, by [Pixel Ballads](http://pixelballads.wordpress.com/2012/01/14/mobile-technology-and-the-unbanked-m-pesa-part-3/)*
 
@@ -57,13 +57,13 @@ Joerg also told me an interesting case where there was a group of tourists havin
 
 > He taps the amount he owes Room 77 into the virtual Bitcoin wallet on his Android phone and, aligning it with a code on the bar's device, presses a button to process the payment. A theatrical "kerching" sound follows and Gallas is grinning from ear to ear. "It could hardly be easier," he insisted.
 
-![Bitcoin Wallet in action](/files/bitcoin-wallet-small.png)
+![Bitcoin Wallet in action](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bitcoin-wallet-small.png)
 
 *Requesting a payment using Bitcoin Wallet for Android*
 
 ### Global currency for the internet
 
-![Bitcoin nodes around the world](/files/bitcoin-nodes-globe-small.png)
+![Bitcoin nodes around the world](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bitcoin-nodes-globe-small.png)
 
 *[Map of global Bitcoin nodes](https://blockchain.info/nodes-globe)*
 

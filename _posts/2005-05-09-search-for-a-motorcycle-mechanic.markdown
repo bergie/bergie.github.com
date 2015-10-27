@@ -9,7 +9,7 @@ In what is becoming a regular [spring][1] [ritual][2], the [Triumph Legend][3] i
 
 A bike shop had already promised to fix the bike, but then they [screwed up][4]. So, if you know a bike maintenance shop in Helsinki region that could help with the Triumph, please [drop me a line][5].
 
-![The Triumph in rainy Kiev](/files/Triumph_Legend_in_Kiev.jpg)
+![The Triumph in rainy Kiev](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Triumph_Legend_in_Kiev.jpg)
 
 __Updated 2005-05-24:__ I finally found a mechanic and after a bit of
 wait, the bike was [towed away][6] today. The verdict: the starter engine had melted.

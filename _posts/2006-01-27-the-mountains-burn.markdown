@@ -7,7 +7,7 @@
 ---
 Slopes of the [Table Mountain][2] and [Signal Hill][3] bordering the city of [Cape Town][4] have [been on fire][5] since yesterday afternoon. Yesterday the smoke cloud covered the whole city centre, making the sun appear only as a thin red disc in the sky.
 
-![Smoke pales the sun](/files/Cape_Town_Fire_2006b.jpg)
+![Smoke pales the sun](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Cape_Town_Fire_2006b.jpg)
 
 [Water bombing][6] helicopters have been flying over the city in a constant chain, but the [60 knot winds][1] fan the flames, making fire fighting much more difficult.
 
@@ -15,7 +15,7 @@ Slopes of the [Table Mountain][2] and [Signal Hill][3] bordering the city of [Ca
 
 > The Table Mountain cable car has been closed and people living nearby have been fleeing their homes as the flames advance. A number of houses are reported to have caught fire.
 
-![Signal Hill inferno at night](/files/Cape_Town_Fire_2006.jpg)
+![Signal Hill inferno at night](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Cape_Town_Fire_2006.jpg)
 
 Apparently the fires were started from a cigarette butt of a British tourist.
 

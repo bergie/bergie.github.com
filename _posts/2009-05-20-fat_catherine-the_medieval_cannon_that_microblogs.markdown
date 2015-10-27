@@ -9,13 +9,13 @@
 <p>
 Some friends of mine founded <a href="http://www.flickr.com/groups/paksu-katariina/">the Fat Catherine Sisterhood</a>, an all-female Medieval cannon association. On Monday I <a href="http://www.qaiku.com/home/bergie/show/1de43a4242ccde243a411de80a637f3fe817d577d57/">got to go</a> to the artillery range with them. Here are <a href="http://www.flickr.com/photos/bergie/sets/72157618369723903/">some pictures</a>:
 </p><p>
-<a href="/files/fat-catherine-sisterhood.png"><img src="/files/fat-catherine-sisterhood-tm.jpg" height="204" width="400" border="1" hspace="4" vspace="4" alt="The Fat Catherine Sisterhood" title="The Fat Catherine Sisterhood" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fat-catherine-sisterhood.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fat-catherine-sisterhood-tm.jpg" height="204" width="400" border="1" hspace="4" vspace="4" alt="The Fat Catherine Sisterhood" title="The Fat Catherine Sisterhood" /></a>
 </p><p>
-<a href="/files/fat-catherine-range.png"><img src="/files/fat-catherine-range-tm.jpg" height="232" width="400" border="1" hspace="4" vspace="4" alt="View down the artillery range" title="View down the artillery range" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fat-catherine-range.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fat-catherine-range-tm.jpg" height="232" width="400" border="1" hspace="4" vspace="4" alt="View down the artillery range" title="View down the artillery range" /></a>
 </p><p>
-<a href="/files/fat-catherine-being-fired.png"><img src="/files/fat-catherine-being-fired-tm.jpg" height="177" width="400" border="1" hspace="4" vspace="4" alt="Boom!" title="Boom!" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fat-catherine-being-fired.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fat-catherine-being-fired-tm.jpg" height="177" width="400" border="1" hspace="4" vspace="4" alt="Boom!" title="Boom!" /></a>
 </p><p>
-<a href="/files/fat-catherine-cleanup.png"><img src="/files/fat-catherine-cleanup-tm.jpg" height="193" width="400" border="1" hspace="4" vspace="4" alt="Cleaning the barrel" title="Cleaning the barrel" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fat-catherine-cleanup.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fat-catherine-cleanup-tm.jpg" height="193" width="400" border="1" hspace="4" vspace="4" alt="Cleaning the barrel" title="Cleaning the barrel" /></a>
 </p><p>
 You can also <a href="http://www.youtube.com/watch?v=UZm5sdTMpaQ">see a shot on YouTube</a>.
 </p><p>

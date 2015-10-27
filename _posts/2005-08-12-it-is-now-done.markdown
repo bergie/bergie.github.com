@@ -9,7 +9,7 @@ After returning from the wedding at 5am this morning and a brief nap I went to t
 
 The check flight took hour and half, during which we did some navigation and stall practices, as well as simulated forced landing and engine malfunction. The result of all this was that the check flight passed. Now the [Flight Safety Authority][4] will analyze my papers, and if everything is OK I should have my license within next two weeks.
 
-![Airplanes ahead](/files/Airplanes_ahead.jpg)
+![Airplanes ahead](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Airplanes_ahead.jpg)
 
 I'll post more about my path to becoming a pilot later.
 

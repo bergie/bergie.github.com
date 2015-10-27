@@ -13,7 +13,7 @@ I've been considering it for a while, and now decided to join the organization [
 
 > Without free software, I would not have the job I have and the life I live. Long live free software!
 
-<a href="http://www.fsfe.org/en"><img src="/files/fellow_me_for_a_free_information_society_banner_imagelarge.png" border="0" height="73" width="360" alt="Fellow Me - Join the Fellowship and protect your Freedom" title="Fellow Me - Join the Fellowship and protect your Freedom" /></a>
+<a href="http://www.fsfe.org/en"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fellow_me_for_a_free_information_society_banner_imagelarge.png" border="0" height="73" width="360" alt="Fellow Me - Join the Fellowship and protect your Freedom" title="Fellow Me - Join the Fellowship and protect your Freedom" /></a>
 
 [1]: http://www.fsfeurope.org/
 [2]: http://www.fsfe.org/en/fellows/greve/freedom_bits

@@ -9,7 +9,7 @@
 
 This will mean some delays in Campaigns component development, as we have to rebuild the testing environment. Luckily all relevant code was [in CVS][5]. Lesson from this is: "_Commit early, commit often_".
 
-![Rambo installing the new disks](/files/rambo-devel-server.jpg)
+![Rambo installing the new disks](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/rambo-devel-server.jpg)
 
 __Updated 11:20:__ It seems the problem is actually with the motherboard, so we're off to get a new box. From [#midgard][6]:
 

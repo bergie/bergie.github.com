@@ -11,7 +11,7 @@
 </p><p>
 in October, I spent quite a bit of time optimizing this release, shaving off an estimated 60-70% of queries through some smart caching and removed redundancies. In addition, a new database server is now in place. Together, these should get us quite far in the "<a href="http://wiki.maemo.org/Task:Fast_Server">Fast Server</a>" agenda.
 </p><p style="text-align:center;">
-<img src="/files/maemo-20081118.jpg" height="230" width="298" border="1" hspace="4" vspace="4" alt="Maemo on Nov 18th" title="Maemo on Nov 18th" /></p><p>
+<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemo-20081118.jpg" height="230" width="298" border="1" hspace="4" vspace="4" alt="Maemo on Nov 18th" title="Maemo on Nov 18th" /></p><p>
 We're however still not done, and now we will do more optimizations that will be part of <a href="http://trac.midgard-project.org/milestone/8.09.3%20Ragnaroek">8.09.3</a>, due next week, and will move static files (images and javascript) to a separate <a href="http://www.lighttpd.net/">lighttpd</a> instance to remove that load from the normal Apache. When all this is done, <a href="http://maemo.org/profile/list/">the Maemo community</a> should have infrastructure that will be able to serve it for a long time.
 </p><p>
 In addition to optimization, <a href="http://wiki.maemo.org/Maemo.org_Sprints/November_08">we've been working</a> on some other features related to the website:

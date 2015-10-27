@@ -11,7 +11,7 @@ Today the garage finally was able to open the engine and discover the issue. Aft
 
 In any case, I'm relieved to hear of progress in the case. Hopefully we can again head for new [adventures][5] soon...
 
-![My Triumph on the Georgian Military Highway](/files/triumph-on-georgian-military-highway.jpg)
+![My Triumph on the Georgian Military Highway](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/triumph-on-georgian-military-highway.jpg)
 
 What has surprised me, though, is how little spending the summer bikeless has stressed me. Probably the 5,000 kilometers on a moped had something to do with it, as did [the company][7] going slightly greener by subsidizing [public transport][6]...
 

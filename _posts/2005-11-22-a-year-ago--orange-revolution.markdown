@@ -12,7 +12,7 @@ A year ago, I spent a [Weekend in Ukraine][1] and saw the [Orange Revolution][2]
 
 > Next morning I escorted the girls to the railway station and airport at 6 am, early enough to avoid most of the demonstrations. When I returned to the center they had already started. The hotel keeper pointed out to the Rynok square and commented laconically: "Revoluzija". I decided to take a closer look, and spent next hours in an old Austrian-style cafe overlooking the Svoboda street where most of the supporters of the opposition candidate, [Yushchenko][3] were gathered.
 
-> ![Early Orange Revolution demonstrations in Lviv](/files/Lviv_demonstration.jpg)
+> ![Early Orange Revolution demonstrations in Lviv](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Lviv_demonstration.jpg)
 
 [Ukraine][5] marks the [anniversary of the revolution][4] today.
 

@@ -9,7 +9,7 @@ I've written before how [Nokia 770][2] is the [real Hitchhiker's Guide to the Ga
 
 However, what has been severely missing from a mobile device earlier has been information about the place the user is in. For that, the [Maemo Mapper][4] is an important first piece - maps and position.
 
-![Navigating in Eira with Maemo Mapper](/files/maemo-mapper.jpg)
+![Navigating in Eira with Maemo Mapper](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemo-mapper.jpg)
 
 The application is still new, and as it doesn't have any formal agreement with [Google Maps][6] requires a bit of [manual setup][5], but it still is able to provide a nicer user experience than some commercial navigation packages I've seen.
 

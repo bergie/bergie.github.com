@@ -13,7 +13,7 @@ The component architecture will provide several benefits, including easily custo
 
 Here's the first running OpenPSA 2.0 screen, a [datamanager schema][8] driven company editor. 
 
-![First look at new OpenPSA Sales](/files/openpsa20_sales_firstscreen.jpg)
+![First look at new OpenPSA Sales](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/openpsa20_sales_firstscreen.jpg)
 
 Iframes have been removed, and the whole UI uses standards-based XHTML and CSS layout. The toolbar floats on the top, and will contain all action buttons, including the _Save_ button for current view.
 

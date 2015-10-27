@@ -7,7 +7,7 @@
 ---
 You may have seen my earlier [post about NoFlo](http://bergie.iki.fi/blog/desktop_summit_flow-based_programming/), the [flow-based programming](http://en.wikipedia.org/wiki/Flow-based_programming) tool I've written for Node.js. It allows you to do quite cool stuff, like [a visually controlled web server](http://universalruntime.tumblr.com/post/8998693776/node-js-powered-web-server-written-with-the-noflo):
 
-![NoFlo-powered web server](/files/tumblr_lq12x0Sf481qies3uo1_500.png)
+![NoFlo-powered web server](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/tumblr_lq12x0Sf481qies3uo1_500.png)
 
 Yesterday Igor Wiedler published [Evenement](https://github.com/igorw/Evenement), a PHP port of the EventEmitter class from Node.js. As [NoFlo](https://github.com/bergie/noflo) builds quite heavily on EventEmitter, I decided to see how far the PHP port could be taken.
 

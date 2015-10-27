@@ -21,7 +21,7 @@ Before I go to the reasons, let me briefly introduce the project itself: [noflo-
 
 Just like any flow-based program, the NoFlo reimplementation of Jekyll is built out of a graph. Here is how the main graph of the application looks like when loaded via the NoFlo UI prototype:
 
-[![NoFlo Jekyll main graph](/files/noflo-jekyll-small.png)](/files/noflo-jekyll.png)
+[![NoFlo Jekyll main graph](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo-jekyll-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo-jekyll.png)
 
 Quite a few of the boxes you see in that graph are actually [subgraphs](https://github.com/the-grid/noflo-jekyll/tree/master/graphs). Since the UI is still under work, the subgraphs have been defined in the more text editor friendly [.fbp syntax](http://noflojs.org/documentation/fbp/).
 

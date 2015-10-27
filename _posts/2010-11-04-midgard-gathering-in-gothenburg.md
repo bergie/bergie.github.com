@@ -119,4 +119,4 @@ Quick update on OpenPSA debian packaging: now the package installs and runs nice
 
 Very initial Midgard3 CMS UI sketch:
 
-![Midgard3 CMS UI](/files/8ff6591ee9b911df83e7dbe57b7f50a850a8.png)
+![Midgard3 CMS UI](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/8ff6591ee9b911df83e7dbe57b7f50a850a8.png)

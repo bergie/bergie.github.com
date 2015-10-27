@@ -16,7 +16,7 @@ To cut the long story short, I had a great time in in the event. Lots of good co
 
 After [my talk](http://munich2012.drupal.org/program/sessions/decoupling-content-management) (video available already!), we ended up spending the last two days of the event porting the Spark inline editing features to [run on top of Create.js](http://github.com/wimleers/edit-createjs) with [Wim Leers](http://wimleers.com/).
 
-![Spark edit running on Create.js](/files/spark-createjs.png)
+![Spark edit running on Create.js](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/spark-createjs.png)
 
 There are obviously still things to do, but what you have if you replace the Spark "Edit" module in your Drupal setup with the contents [of that repository](http://github.com/wimleers/edit-createjs), is the Spark editing UX, but refactored to use [VIE's](http://viejs.org/) entity objects, and running the various editors (like [Aloha](http://aloha-editor.org/) and some special Drupal widgets) through [Create.js editables](http://createjs.org/guide/#editable). [Create.js storage](http://createjs.org/guide/#storage) is also available, so [never losing content](http://bergie.iki.fi/blog/never-lose-content/) is just a matter of providing the UI dialog to allow users to restore their changes.
 

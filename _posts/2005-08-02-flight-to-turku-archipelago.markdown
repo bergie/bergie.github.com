@@ -9,19 +9,19 @@ I had another solo travel flight last weekend, this time with Cessna 152 [OH-CWM
 
 Helsinki [south harbor][4]:
 
-![Helsinki south harbour](/files/Helsinki_south_harbor.jpg)
+![Helsinki south harbour](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Helsinki_south_harbor.jpg)
 
 The [island fortress][6] of [Suomenlinna][7]:
 
-![Suomenlinna main island from air](/files/Suomenlinna_from_air.jpg)
+![Suomenlinna main island from air](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Suomenlinna_from_air.jpg)
 
 The village of Rosala, with the [Viking Centre][3] in the bottom-right corner:
 
-![Rosala village from the air](/files/Rosala.jpg)
+![Rosala village from the air](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Rosala.jpg)
 
 The island of L&ouml;v&ouml; with Kasn&auml;s on the foreground:
 
-![L&ouml;v&ouml; island](/files/Lovo_Kasnas.jpg)
+![L&ouml;v&ouml; island](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Lovo_Kasnas.jpg)
 
 More pictures in [my gallery][2]. See also some old Viking re-enactment photos from Rosala in [1997][11] and [1998][12].
 

@@ -8,7 +8,7 @@
 ---
 Summer holiday is now over, and as [Tigert put it][1], we [made it to Gibraltar][2].
 
-![Skyteam Monkeys in front of Gibraltar](/files/monkeys-and-the-gibraltar-rock.jpg)
+![Skyteam Monkeys in front of Gibraltar](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/monkeys-and-the-gibraltar-rock.jpg)
 
 In addition to showing the beautiful European countryside from a _worm's eye perspective_ of a slow-moving and [small vehicle][3], the trip was also an excellent field test for [Midgard's][5] new [positioning services][4], and for [mobile blogging][8] using the new Nokia [N][6] and [E][7] series phones.
 

@@ -12,7 +12,7 @@ I used the tool to generate a <a href="http://www.flickr.com/photos/bergie/sets/
 Since my top photos are all <a href="http://flickr.com/help/organizr/#199">geotagged</a>, we can also <a href="http://www.flickr.com/photos/bergie/sets/72157601512952655/map/">see where</a> my most interesting pictures come from:
 
 
-<img src="/files/flickr-top-pictures-map-20070818.jpg" height="327" width="400" border="1" hspace="4" vspace="4" alt="Flickr-Top-Pictures-Map-20070818" /><span style="font-size:0pt;">
+<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flickr-top-pictures-map-20070818.jpg" height="327" width="400" border="1" hspace="4" vspace="4" alt="Flickr-Top-Pictures-Map-20070818" /><span style="font-size:0pt;">
 
 </span>Via <a href="http://www.boingboing.net/2007/08/17/tool_to_create_a_set.html">Boing Boing</a>.
 

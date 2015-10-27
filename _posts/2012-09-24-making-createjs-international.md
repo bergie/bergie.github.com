@@ -11,11 +11,11 @@ We're now making good progress at releasing the big _1.0_ of [Create.js](http://
 
 To make things nice for the users, it is also important that Create.js speaks their language. For this, I recently implemented [localization features](https://github.com/bergie/create/issues/48) into the system.
 
-![Create in Russian](/files/create-ru.png) ![Create in Brazilian Portuguese](/files/create-br.png)
+![Create in Russian](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/create-ru.png) ![Create in Brazilian Portuguese](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/create-br.png)
 
 This actually shows the power social networks: I tweeted about localizing Create.js, and within a day we had a nice [selection of translations](https://github.com/bergie/create/tree/master/locale) available, consisting of Czech, Danish, German, Spanish, Finnish, French, Italian, Dutch, Norwegian, Polish, Brazilian Portuguese, and Russian. Thanks again for everybody who contributed!
 
-![Create in German](/files/create-de.png) ![Create in Danish](/files/create-da.png)
+![Create in German](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/create-de.png) ![Create in Danish](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/create-da.png)
 
 ## Running Create.js in your own language
 

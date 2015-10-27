@@ -26,7 +26,7 @@ In a world where a hidden, [pencil-shaped spy camera](http://www.pathgadget.com/
 
 The anti-Glass movement has a benefit. While not exactly a flying car, it is yet another sign that we're living in the future that science fiction authors envisioned. I mean, consider the fact that there is A *movement to ban cyborgs*.
 
-![Stop the Cyborgs](/files/surveillance-ban.png)
+![Stop the Cyborgs](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/surveillance-ban.png)
 
 They even [sell stickers](http://www.redbubble.com/people/stopthecyborgs).
 

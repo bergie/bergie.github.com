@@ -7,7 +7,7 @@
 ---
 [One Six Right][1], the documentary about the [Van Nuys][2] [General Aviation][3] airport in Los Angeles is [available on Google Video][4] (__Updated: not available__)
 
-![One Six Right on Google Video](/files/one-six-right.jpg)
+![One Six Right on Google Video](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/one-six-right.jpg)
 
 The documentary tells the story of this historic airport well, and outlines how important general aviation is to the whole aviation industry. It also shows several beautiful historic airplanes flying from Van Nuys.
 

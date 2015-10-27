@@ -6,7 +6,7 @@
 
 ---
 <p style="text-align:right;">
-<a href="/files/midgard2-cloud-processing.png"><img src="/files/midgard2-cloud-processing-tm.jpg" height="257" width="200" border="0" align="right" hspace="0" vspace="4" alt="Cloud computing with Midgard2" title="Cloud computing with Midgard2" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midgard2-cloud-processing.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midgard2-cloud-processing-tm.jpg" height="257" width="200" border="0" align="right" hspace="0" vspace="4" alt="Cloud computing with Midgard2" title="Cloud computing with Midgard2" /></a>
 </p><p>
 There has been quite a lot of <a href="http://vertonghen.wordpress.com/2008/07/05/erlang-or-utility-computing-vs-appliance-computing/">talk about cloud computing</a> lately. When we had the previous <a href="http://bergie.iki.fi/blog/midcom_3_and_built-in_webdav/">MidCOM3 coding sprint</a> we discussed over beer how <a href="http://bergie.iki.fi/blog/midgard_2-more_than_just_php-more_than_just_cms/">Midgard2</a> could fit into the cloud. As <a href="http://bergie.iki.fi/blog/xmpp_publish-subscribe_for_midgard_and_ajatus_replication/">replication</a> has been a core Midgard feature <a href="http://www.midgard-project.org/documentation/concepts-repligard/">since the early days</a>, that was the obvious angle to start looking from.
 </p><p>

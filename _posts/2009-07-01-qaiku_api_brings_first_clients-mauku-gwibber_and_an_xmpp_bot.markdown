@@ -11,15 +11,15 @@
 </p><p>
 <a href="http://mauku.henrikhedberg.com/">Mauku</a> is a microblogging client for Maemo. The new <a href="http://www.flickr.com/photos/29499609@N03/3323727244/">Fremantle version</a> supports Qaiku nicely:
 </p><p>
-<a href="/files/mauku-fremantle-qaiku.png"><img src="/files/mauku-fremantle-qaiku-tm.jpg" height="240" width="400" border="1" hspace="4" vspace="4" alt="Mauku for Maemo 5 displaying my Qaiku" title="Mauku for Maemo 5 displaying my Qaiku" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/mauku-fremantle-qaiku.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/mauku-fremantle-qaiku-tm.jpg" height="240" width="400" border="1" hspace="4" vspace="4" alt="Mauku for Maemo 5 displaying my Qaiku" title="Mauku for Maemo 5 displaying my Qaiku" /></a>
 </p><p>
 <a href="http://live.gnome.org/Gwibber/">Gwibber</a> is a Linux desktop microblogging client. Qaiku support is <a href="https://bugs.launchpad.net/gwibber/+bug/342536">now available</a> in the development version:
 </p><p>
-<a href="/files/gwibber-qaiku-markdownpng.png"><img src="/files/gwibber-qaiku-markdownpng-tm.jpg" height="400" width="272" border="1" hspace="4" vspace="4" alt="Gwibber displaying Markdown-formatted Qaikus" title="Gwibber displaying Markdown-formatted Qaikus" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/gwibber-qaiku-markdownpng.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/gwibber-qaiku-markdownpng-tm.jpg" height="400" width="272" border="1" hspace="4" vspace="4" alt="Gwibber displaying Markdown-formatted Qaikus" title="Gwibber displaying Markdown-formatted Qaikus" /></a>
 </p><p>
 There is also <a href="http://www.qaiku.com/channels/show/Qaiku/view/1de60cffb5ffba260cf11de8ee757cb9be5b882b882/">an XMPP bot</a> that we're going to launch soon for wider use. This enables you to monitor your mentions or some channels and post via any Jabber client:
 </p><p>
-<a href="/files/qaikubot-in-adium.png"><img src="/files/qaikubot-in-adium-tm.jpg" height="160" width="400" border="1" hspace="4" vspace="4" alt="QaikuBot in Adium" title="QaikuBot in Adium" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/qaikubot-in-adium.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/qaikubot-in-adium-tm.jpg" height="160" width="400" border="1" hspace="4" vspace="4" alt="QaikuBot in Adium" title="QaikuBot in Adium" /></a>
 </p><p>
 If you're doing something cool with <a href="http://www.qaiku.com/api/usage/">the API</a>, please let me know! The <a href="http://www.qaiku.com/channels/show/Qaiku-api/">#Qaiku-api channel</a> is good for usage questions and ideas.
 </p><p>

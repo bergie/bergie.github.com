@@ -14,7 +14,7 @@
 
 The way I noticed Ben's change was that his feed became almost impossible to read in [NetNewsWire][4], causing me to unsubscribe:
 
-![iWeb feed in NetNewsWire](/files/hammersley-iweb-netnewswire.jpg)
+![iWeb feed in NetNewsWire](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hammersley-iweb-netnewswire.jpg)
 
 Come on, Apple! First the [iCal .Mac synchronization lock-in][6], then the [PhotoCast mess][5], and now this. It makes me wonder if anybody at Apple gets the web at all...
 

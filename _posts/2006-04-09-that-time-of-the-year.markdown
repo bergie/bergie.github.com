@@ -7,6 +7,6 @@
 ---
 A couple days ago the world was [full of snow][1], but now the weather has cleared and we can ride again!
 
-![Bergie and the Trusty Triumph](/files/Riding_season_2006_starts.jpg)
+![Bergie and the Trusty Triumph](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Riding_season_2006_starts.jpg)
 
 [1]: http://www.routamc.org/updates/spring-snows-in-helsinki.html

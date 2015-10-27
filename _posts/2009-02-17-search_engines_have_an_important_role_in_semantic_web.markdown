@@ -13,7 +13,7 @@ As always, the big issue is getting the semantic information out there. In a str
 </p><p>
 For this to happen in the web in general, we need to start having the search engines leverage the <a href="http://en.wikipedia.org/wiki/RDFa">semantic information</a>. <a href="http://bergie.iki.fi/blog/semantic_web_is_here-yahoo-and_microformats/">Yahoo! already does this</a> to some extent, making use of <a href="http://microformats.org/">microformats</a> and <a href="http://www.w3.org/TR/xhtml-rdfa-primer/">RDFa</a> in <a href="http://developer.yahoo.net/blog/archives/2009/01/yql_with_microformats.html">Yahoo! Query Language</a> and in the <a href="http://developer.yahoo.net/blog/archives/2008/12/monkey_finds_microformats_and_rdf.html">Search Monkey engine</a>. This means we can already do simple semantic queries like "<a href="http://search.yahoo.com/search;_ylt=A0geu5FiYppJyx0AXotXNyoA?p=bergius+searchmonkeyid%3Acom.yahoo.page.uf.geo+helsinki&amp;y=Search&amp;fr=">pages mentioning Bergius in the Helsinki area</a>":
 </p><p>
-<a href="/files/yahoo-semantic-geo-query.png"><img src="/files/yahoo-semantic-geo-query-tm.jpg" height="295" width="400" border="1" hspace="4" vspace="4" alt="Yahoo! semantic geo query" title="Yahoo! semantic geo query" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/yahoo-semantic-geo-query.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/yahoo-semantic-geo-query-tm.jpg" height="295" width="400" border="1" hspace="4" vspace="4" alt="Yahoo! semantic geo query" title="Yahoo! semantic geo query" /></a>
 </p><p>
 Actually, the Yahoo! results are quite interesting:
 </p><ul><li><a href="http://bergie.iki.fi/">My web page</a> (which shows my current location, so it may depend on time indexed)</li>

@@ -7,7 +7,7 @@
 ---
 Via <a href="http://test.maemo.org/support/irc.html">#maemo</a> I heard that there is a Nokia-made camera application for the N800. Here's a quick first picture from <a href="http://beta.plazes.com/plaze/8703e6abbdf27e13fd548fc1c8c79275/">the office</a>:
 
-<img src="/files/maemocamera_38_36_13-230307.jpg" height="300" width="400" border="1" hspace="4" vspace="4" alt="Maemocamera 38 36 13-230307" /><span style="font-size:0pt;">
+<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemocamera_38_36_13-230307.jpg" height="300" width="400" border="1" hspace="4" vspace="4" alt="Maemocamera 38 36 13-230307" /><span style="font-size:0pt;">
 </span>
 
 Quality is crappy, as is to be expected with such a simple camera. I've scaled the picture down from 640x480.

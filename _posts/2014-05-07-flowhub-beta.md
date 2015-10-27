@@ -25,9 +25,9 @@ Both the web version and the Chrome app are built following the [offline first](
 ## New User Interface
 
 If you read the [NoFlo Update from last October](http://bergie.iki.fi/blog/noflo-update/), you might notice that the new Flowhub user interface looks and feels quite different from it.
-[![Main screen of new Flowhub UI](/files/flowhub-main-small.png)](/files/flowhub-main.png)
+[![Main screen of new Flowhub UI](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-main-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-main.png)
 
-[![Graph editing in new Flowhub UI](/files/flowhub-menu-small.png)](/files/flowhub-menu.png)
+[![Graph editing in new Flowhub UI](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-menu-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-menu.png)
 
 This new design was implemented to improve touch-screen friendliness, as well as to give Flowhub a more focused, unique look. It also allowed us to follow some interesting UX paths that I'll explain next.
 
@@ -35,9 +35,9 @@ This new design was implemented to improve touch-screen friendliness, as well as
 
 One typical problem in visual programming tools is that they can become quite cluttered with information. To solve this, we utilized the concept of [Zooming User Interfaces](http://en.wikipedia.org/wiki/Zooming_user_interface), which allow us to show a clear overview of a program when zoomed out, and reveal all kinds of detail about it when zoomed in.
 
-![Zoomed out](/files/flowhub-zoom-out-small.png)
+![Zoomed out](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-zoom-out-small.png)
 
-![Zoomed in](/files/flowhub-zoom-in-small.png)
+![Zoomed in](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-zoom-in-small.png)
 
 Zooming works with two-finger scroll on typical desktop computers, or with the pinch gesture on touch-enabled devices.
 
@@ -47,15 +47,15 @@ Another interface concept that we used to make interactions faster and more cont
 
 For example, you can easily navigate to subgraphs and component source code with the menu:
 
-![Navigating with the Pie Menu](/files/flowhub-menu-navigation-small.png)
+![Navigating with the Pie Menu](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-menu-navigation-small.png)
 
 When you have selected multiple nodes, you can use the menu to group them or move them to a new subgraph:
 
-![Group selections with the Pie Menu](/files/flowhub-menu-group-small.png)
+![Group selections with the Pie Menu](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-menu-group-small.png)
 
 The menu can also be used for removing edges or nodes:
 
-![Deleting an edge with the Pie Menu](/files/flowhub-menu-edge-small.png)
+![Deleting an edge with the Pie Menu](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-menu-edge-small.png)
 
 You can activate the pie menu in the graph editor with a right mouse click, or with a long press on touch-enabled devices.
 
@@ -63,9 +63,9 @@ You can activate the pie menu in the graph editor with a right mouse click, or w
 
 Another new major feature is in-app component editing. If your runtime supports it, you can at any time create or modify [custom components](http://noflojs.org/documentation/components/) for your project and they'll become immediately available for your graphs.
 
-![Creating a new component](/files/flowhub-new-component-small.png)
+![Creating a new component](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-new-component-small.png)
 
-![Component Editing](/files/flowhub-component-editor-small.png)
+![Component Editing](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-component-editor-small.png)
 
 The programming languages available for component creation depend on the runtime. With NoFlo these are JavaScript and CoffeeScript. With another runtime they might be C, Java, or Python.
 
@@ -77,11 +77,11 @@ Because of this &mdash; and to give software developers the privacy they deserve
 
 We're following a very similar UI concept as [Amazon Kindle](https://kindle.amazon.com/) in that you can download projects locally to your device, or browse the ones you have available in the cloud:
 
-![Local and remote projects](/files/flowhub-projects-small.png)
+![Local and remote projects](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-projects-small.png)
 
 At any point you can push your changes to a graph or a component to GitHub:
 
-![Pushing to GitHub](/files/flowhub-push-small.png)
+![Pushing to GitHub](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-push-small.png)
 
 Runtime discovery happens through a central service, but once you know the address of your FBP runtime, the communications between it and your browser will happen directly. This makes it easy to work with Node.js projects running on your own machine even when offline.
 
@@ -110,7 +110,7 @@ As promised in our Kickstarter, the [NoFlo Development Environment](https://gith
 
 [Flowhub](http://flowhub.io/) is a branded and supported instance of that with some additional network services like the Runtime Registry.
 
-![NoFlo UI vs. Flowhub](/files/noflo-ui-vs-flowhub.png)
+![NoFlo UI vs. Flowhub](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo-ui-vs-flowhub.png)
 
 The [Flowhub plans](http://flowhub.io/preorder/) allow us to continue development of this Flow-Based Programming toolset, as well as to provide the various network services needed for making the experience smooth.
 
@@ -140,7 +140,7 @@ There is also an [ongoing Google Summer of Code project](http://meemoo.org/blog/
 
 The main purpose of this public beta is to allow our backers and other FBP enthusiasts an early access to the Flowhub user interface. Now we will focus on stabilization and bug fixing, aided by the [NoFlo UI issue tracker](https://github.com/noflo/noflo-ui/issues?state=open). We're also gathering feedback from beta testers in form of user surveys and will utilize those to prioritize both bug fixing and feature work.
 
-![Flowhub team testing the UI](/files/flowhub-florence-small.jpg)
+![Flowhub team testing the UI](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-florence-small.jpg)
 
 Right now the main areas of focus are:
 

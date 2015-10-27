@@ -18,15 +18,15 @@ One way to make components more visual was to add icons for them. MidCOM has had
 </p><p>
 Icons clarify component selection when creating a new folder:
 </p><p>
-<a href="/files/ragnaroek-midcom-icons-component-selector.png"><img src="/files/ragnaroek-midcom-icons-component-selector-tm.jpg" height="220" width="400" border="1" hspace="4" vspace="4" alt="MidCOM icons in component selector" title="MidCOM icons in component selector" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/ragnaroek-midcom-icons-component-selector.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/ragnaroek-midcom-icons-component-selector-tm.jpg" height="220" width="400" border="1" hspace="4" vspace="4" alt="MidCOM icons in component selector" title="MidCOM icons in component selector" /></a>
 </p><p>
 Icons visualize how many components a developer has contributed to:
 </p><p>
-<a href="/files/ragnaroek-midcom-icons-credits.png"><img src="/files/ragnaroek-midcom-icons-credits-tm.jpg" height="221" width="400" border="1" hspace="4" vspace="4" alt="MidCOM icons in Ragnaroek credits screen" title="MidCOM icons in Ragnaroek credits screen" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/ragnaroek-midcom-icons-credits.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/ragnaroek-midcom-icons-credits-tm.jpg" height="221" width="400" border="1" hspace="4" vspace="4" alt="MidCOM icons in Ragnaroek credits screen" title="MidCOM icons in Ragnaroek credits screen" /></a>
 </p><p>
 ...and icons also make the localization tool more visual:
 </p><p>
-<a href="/files/ragnaroek-midcom-icons-babel.png"><img src="/files/ragnaroek-midcom-icons-babel-tm.jpg" height="192" width="398" border="1" hspace="4" vspace="4" alt="MidCOM icons in the Babel translation tool" title="MidCOM icons in the Babel translation tool" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/ragnaroek-midcom-icons-babel.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/ragnaroek-midcom-icons-babel-tm.jpg" height="192" width="398" border="1" hspace="4" vspace="4" alt="MidCOM icons in the Babel translation tool" title="MidCOM icons in the Babel translation tool" /></a>
 </p><p>
 Finding good icons for many of the components is quite difficult. We're working with <a href="http://kallepersson.se/blog/">Kalle Persson</a> from the <a href="http://tango.freedesktop.org/Tango_Desktop_Project">Tango project</a> to create new ones as needed.
 </p>

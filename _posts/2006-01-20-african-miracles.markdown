@@ -16,7 +16,7 @@ We had stopped in every village and gas station to try and buy ice, but it was n
 
 But still, the hail melted almost as quickly as it hit the ground, and so we continued with our trunk of warm beer. Driving around another bend, we suddenly saw a pile of hail balls lying in the middle of a clearing. There was no reasonable explanation how it had ended there, as there were no cliffs nearby, and all other hail on the ground had melted. But there it was, and soon our cooler was operational:
 
-![Andrea shows the pile of ice](/files/ice_from_the_heavens.jpg)
+![Andrea shows the pile of ice](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/ice_from_the_heavens.jpg)
 
 We decided: _This is ice from heavens_.
 

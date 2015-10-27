@@ -12,7 +12,7 @@ Happened so far:
 
 [Tarjei][6] ran a pretty interesting demo and [presentation][7] on the [Aegir 2][8] project. It seems that once the _object browser_ is done, we can safely remove both old Aegir and [SpiderAdmin][9] from the distribution.
 
-![Jukka's Exorcist presentation](/files/Jukka_presents_Exorcist.jpg)
+![Jukka's Exorcist presentation](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Jukka_presents_Exorcist.jpg)
 
 After some initial bugs had been hammered out, we also were able to run the [promised][10] demo on managing subcontracted projects with [OpenPsa 2][11] over the [DBE P2P network][12]. I'll try to post screenshots of the whole project workflow after the [Tampere demo][13] on monday.
 
@@ -20,7 +20,7 @@ Another result of the demo was that everybody agreed heartily that [Exorcist][14
 
 We also had a very good discussion about refining Midgard's [style engine][18] to work on a clearer [stack model][19]. This will make [MidCOM's][20] style template system integrate transparently into Midgard's powerful page composition system, and make the eventual page transition of MidCOM much easier.
 
-![Finnish Midgardians at SmallOne's](/files/Hackers_at_SmallOnes.jpg)
+![Finnish Midgardians at SmallOne's](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Hackers_at_SmallOnes.jpg)
 
 Also, the annoying [MySQL 4.1 typecasting bug][21] got fixed, [Midgard 1.9 feature requirements][22] got decided, and many people wrote their first MidCOM component based on Tarjei's tutorial.
 

@@ -17,9 +17,9 @@ Vincent, the whole point is that if you enter a competition, enter it to win. Re
 </p><p>
 <a href="http://flickr.com/photos/pierlux/2656191753/in/pool-813408@N21">Some</a> <a href="http://flickr.com/photos/pierlux/2657021120/in/pool-813408@N21">pictures</a> from <a href="http://flickr.com/people/pierlux/">squidy.info</a>:
 </p><p>
-<a href="/files/Guadec_2008_IceCream_Eating.png"><img src="/files/Guadec_2008_IceCream_Eating-tm.jpg" height="187" width="398" border="1" hspace="4" vspace="4" alt="Guadec 2008 Icecream Deathmatch: Eating" title="Guadec 2008 Icecream Deathmatch: Eating" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Guadec_2008_IceCream_Eating.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Guadec_2008_IceCream_Eating-tm.jpg" height="187" width="398" border="1" hspace="4" vspace="4" alt="Guadec 2008 Icecream Deathmatch: Eating" title="Guadec 2008 Icecream Deathmatch: Eating" /></a>
 </p><p>
-<a href="/files/Guadec_2008_IceCream_Winner.png"><img src="/files/Guadec_2008_IceCream_Winner-tm.jpg" height="241" width="400" border="1" hspace="4" vspace="4" alt="Guadec 2008 Icecream deathmatch: Winner" title="Guadec 2008 Icecream deathmatch: Winner" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Guadec_2008_IceCream_Winner.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Guadec_2008_IceCream_Winner-tm.jpg" height="241" width="400" border="1" hspace="4" vspace="4" alt="Guadec 2008 Icecream deathmatch: Winner" title="Guadec 2008 Icecream deathmatch: Winner" /></a>
 </p><p>
 [1]: No, I wouldn't have watched <a href="http://en.wikipedia.org/wiki/Talladega_Nights:_The_Ballad_of_Ricky_Bobby">that movie</a> if it hadn't been semi-mandatory in-flight show when crossing the Atlantic on <a href="http://en.wikipedia.org/wiki/TAM_Airlines#Flying_Abroad">TAM</a>.
 </p>

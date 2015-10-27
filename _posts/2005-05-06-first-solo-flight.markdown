@@ -11,7 +11,7 @@ The flight was in traffic circuit of RWY 36 of the [Helsinki-Malmi][1] airport w
 
 This was an important step in the training program. I have now 21h35 in my log book. More solo flights are planned for the weekend...
 
-![Flying solo near Porvoo](/files/solo-flight-20050507.jpg)
+![Flying solo near Porvoo](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/solo-flight-20050507.jpg)
 
 __Updated 2005-05-07:__ I did two more solo flights today, on [OH-KLS][4] and [OH-CTH][5] respectively. There was quite heavy traffic including [gliders][7] and a [DC-3][6] on [EFHF][3], and so both flights were to the practice area on Sipoo bay. Very nice weather with about 6 knots of wind from east and the runway 09 in use.
 

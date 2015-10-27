@@ -48,7 +48,7 @@ As I'm currently quite busy on the NoFlo Development Environment, I won't be abl
 
 We're building a quite nice graphical editor and debugger for flow-based programs. You can see the current state in [a UI walkthrough](http://bergie.iki.fi/blog/noflo-update/) I posted last month.
 
-![NoFlo UI in action](/files/noflo-ui/clock-demo-preview-small.png)
+![NoFlo UI in action](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo-ui/clock-demo-preview-small.png)
 
 The [NoFlo UI](https://github.com/noflo/noflo-ui) is a web application that could be brought to the desktop by running it inside a [webview](https://wiki.gnome.org/WebKitGtk). To control the NoFlo runtime inside gjs we would also need a GNOME library for dealing with [WebSockets](https://en.wikipedia.org/wiki/WebSocket), as that is the way we talk with non-browser runtimes like [Node.js](http://nodejs.org/) or the [microflo](https://github.com/jonnor/microflo) environment for Arduino programming.
 

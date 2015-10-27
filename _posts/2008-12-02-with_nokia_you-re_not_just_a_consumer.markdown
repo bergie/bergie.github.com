@@ -6,7 +6,7 @@
 
 ---
 <p>
-<a href="/files/n97.jpg"><img src="/files/n97-tm.jpg" height="200" width="200" border="0" align="right" hspace="8" vspace="4" alt="N97" title="N97" /></a>
+<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/n97.jpg"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/n97-tm.jpg" height="200" width="200" border="0" align="right" hspace="8" vspace="4" alt="N97" title="N97" /></a>
 <br /><a href="http://conversations.nokia.com/home/2008/12/nokia-n97-marks-evolutionary-milestone-for-nseries-and-mobilekind.html">Today's N97 launch</a> reminded me of a big mental difference between using Nokia or Apple phones: with Apple, you're merely a consumer, where Nokia's devices allow you to participate in the information flow, to be a producer. Back in 1932, <a href="http://www.zpub.com/notes/idle.html">Bertrand Russel wrote</a>:
 </p><blockquote>
 The pleasures of urban populations have become mainly passive: seeing cinemas, watching football matches, listening to the radio, and so on. This results from the fact that their active energies are fully taken up with work; if they had more leisure, they would again enjoy pleasures in which they took an active part.

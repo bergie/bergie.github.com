@@ -8,7 +8,7 @@
 <p>
 <a href="http://www.greywolves.org/">Harmaasudet</a>, the <a href="http://en.wikipedia.org/wiki/Living_history">living history</a> group we started in <a href="http://bergie.iki.fi/blog/2004-04-04-000/">mid-90s</a>, and the reason why I originally got into software, recently migrated back into <a href="http://www.midgard-project.org/midgard/">the Midgard platform</a>. 
 </p><p>
-<img src="/files/harmaasudet-header-20081029.jpg" height="165" width="397" border="1" hspace="4" vspace="4" alt="Harmaasudet website" title="Harmaasudet website" /></p><p>
+<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/harmaasudet-header-20081029.jpg" height="165" width="397" border="1" hspace="4" vspace="4" alt="Harmaasudet website" title="Harmaasudet website" /></p><p>
 Their webmaster and <a href="http://nemein.com/">Nemein</a> alumnus <a href="http://nettiapina.fi/blog/">Heikki</a> asked me for <a href="http://nettiapina.fi/blog/2008/10/29/greywolvesorg-goes-back-to-roots/">some history of Midgard</a>, and this is what I wrote:
 </p><blockquote>
 Well, original Midgard was completely programmed in order to run the Grey Wolves site. We hacked it together with <a href="http://jukkaz.wordpress.com/">@jlz</a> in Helsinki Capital of Culture offices in Etelaranta at night time.
