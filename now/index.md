@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Now working on"
-date: 2015-11-04 13:06:54 UTC
+date: 2015-11-04 13:14:56 UTC
 location: Berlin, Germany
 disable_comments: true
 ---
-Here are some things I'm working on:
+Here are some things I'm doing currently:
 
 * Coordinating various development projects and building the back-end of [The Grid](https://thegrid.io/)
 * Exploring the world of [Interplanetary Filesystems](https://ipfs.io/)
