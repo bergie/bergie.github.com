@@ -1,0 +1,14 @@
+#!/bin/bash
+set -x
+
+md_files=$(git status --short | grep -E '^(A|M)' | awk '{ print $2 }' | grep -E '\.md$')
+if [ -z "$md_files" ]; then
+  echo "No Markdown files in commit"
+  exit 0
+fi
+for file in $md_files; do
+  echo $file
+  sed -i '' "s/^date:.*$/date: $(TZ=UTC date "+%Y-%m-%d %H:%M:%S %Z")/" $file
+  git add $file
+done
+exit 0
