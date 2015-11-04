@@ -2,7 +2,8 @@
 layout: 'default'
 bodyclass: 'post'
 ---
-      <article vocab="http://schema.org/" about="{{ page.url }}" typeof="BlogPosting" class="span8 offset1 h-entry">
+      {% include base.html %}
+      <article vocab="http://schema.org/" about="{{ base }}{{ page.url }}" typeof="BlogPosting" class="span8 offset1 h-entry">
         <header class="span9">
           <div>
             <h1 property="headline" class="p-name">{{ page.title }}</h1>
@@ -33,14 +34,14 @@ bodyclass: 'post'
         {% if page.categories contains 'fbp' %}
             <hr />
             {% include category_fbp.html %}
-            <p><a href="/blog/category/fbp/">Read more Flow-Based Programming posts</a>.<p>
+            <p><a href="{{ base }}/blog/category/fbp/">Read more Flow-Based Programming posts</a>.<p>
         {% endif %}
         {% if page.categories contains 'midgard' %}
           {% unless page.categories contains 'oscom' %}
           {% unless page.categories contains 'fbp' %}
             <hr />
             {% include category_midgard.html %}
-            <p><a href="/blog/category/midgard/">Read more Midgard posts</a>.<p>
+            <p><a href="{{ base }}/blog/category/midgard/">Read more Midgard posts</a>.<p>
           {% endunless %}
           {% endunless %}
         {% endif %}
@@ -48,14 +49,14 @@ bodyclass: 'post'
           {% unless page.categories contains 'fbp' %}
             <hr />
             {% include category_oscom.html %}
-            <p><a href="/blog/category/oscom/">Read more Decoupled CMS posts</a>.<p>
+            <p><a href="{{ base }}/blog/category/oscom/">Read more Decoupled CMS posts</a>.<p>
           {% endunless %}
         {% endif %}
         {% if page.categories contains 'tablet' %}
           {% unless page.categories contains 'fbp' %}
             <hr />
             {% include category_tablet.html %}
-            <p><a href="/blog/category/tablet/">Read more Tablet Productivity posts</a>.<p>
+            <p><a href="{{ base }}/blog/category/tablet/">Read more Tablet Productivity posts</a>.<p>
           {% endunless %}
         {% endif %}
         {% unless page.disable_comments %}

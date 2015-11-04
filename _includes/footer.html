@@ -1,3 +1,4 @@
+      {% include base.html %}
       <div class="container">
         <div vocab="http://schema.org/" id="me" about="http://bergie.iki.fi/#me" typeof="Person" class="card span8 offset1 h-card">
           <div class="avatar instapaper_ignore">
@@ -8,28 +9,28 @@
           </div>
           <div class="details">
             <p>
-            <strong class="p-name"><span property="givenName">Henri</span> <span property="familyName">Bergius</span></strong> is an occasional adventurer living in <span rel="homeLocation" typeof="City"><span property="name" class="p-locality">Berlin</span></span> and <a href="/now/" rel="status">working on</a> decoupled software systems, content repositories and free software.
+            <strong class="p-name"><span property="givenName">Henri</span> <span property="familyName">Bergius</span></strong> is an occasional adventurer living in <span rel="homeLocation" typeof="City"><span property="name" class="p-locality">Berlin</span></span> and <a href="{{ base }}/now/" rel="status">working on</a> decoupled software systems, content repositories and free software.
             </p>
             <p>
-            You can reach him by <a rel="email" class="u-email" href="mailto:henri.bergius@iki.fi">email</a> or <a href="xmpp:henri.bergius@gmail.com">instant messaging</a>. Besides writing on this blog, he is also available on <a href="https://twitter.com/bergie" class="u-url" rel="me">Twitter</a>, <a href="https://plus.google.com/100751105859582805241/?rel=author" class="u-url" rel="me">Google+</a>, and <a href="http://www.linkedin.com/in/bergie" class="u-url" rel="me">LinkedIn</a>. Most of Henri's recent code can be found from <a href="https://github.com/bergie" class="u-url" rel="me">GitHub</a>. <a href="/about/">&raquo;</a>
+            You can reach him by <a rel="email" class="u-email" href="mailto:henri.bergius@iki.fi">email</a> or <a href="xmpp:henri.bergius@gmail.com">instant messaging</a>. Besides writing on this blog, he is also available on <a href="https://twitter.com/bergie" class="u-url" rel="me">Twitter</a>, <a href="https://plus.google.com/100751105859582805241/?rel=author" class="u-url" rel="me">Google+</a>, and <a href="http://www.linkedin.com/in/bergie" class="u-url" rel="me">LinkedIn</a>. Most of Henri's recent code can be found from <a href="https://github.com/bergie" class="u-url" rel="me">GitHub</a>. <a href="{{ base }}/about/">&raquo;</a>
             </p>
           </div>
         </div>
         <div class="span8 offset1 hidden-phone">
           <ul class="nav nav-pills nav-wide">
-            <li><a href="/" class="u-url" rel="me">Home</a></li>
-            <li><a href="/about/" class="u-url" rel="me">About Henri</a></li>
-            <li><a href="/blog/category/bestof/">Best Of</a></li>
+            <li><a href="{{ base }}/" class="u-url" rel="me">Home</a></li>
+            <li><a href="{{ base }}/about/" class="u-url" rel="me">About Henri</a></li>
+            <li><a href="{{ base }}/blog/category/bestof/">Best Of</a></li>
             <li><a href="http://bergie.today/" class="u-url" rel="me">Linklog</a></li>
             <li><a href="https://www.flickr.com/photos/bergie/" class="u-url" rel="me">Photos</a></li>
-            <li><a href="/colophon/">Colophon</a></li>
+            <li><a href="{{ base }}/colophon/">Colophon</a></li>
           </ul>
         </div>
         <div class="span8 pull-left visible-phone">
           <ul class="nav nav-pills nav-narrow">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about/">About</a></li>
-            <li><a href="/blog/category/bestof/">Best Of</a></li>
+            <li><a href="{{ base }}/">Home</a></li>
+            <li><a href="{{ base }}/about/">About</a></li>
+            <li><a href="{{ base }}/blog/category/bestof/">Best Of</a></li>
             <li><a href="http://bergie.today/" class="u-url" rel="me">Linklog</a></li>
           </ul>
         </div>

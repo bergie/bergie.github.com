@@ -22,11 +22,11 @@ bodyclass: blogcategory
     {% include category_tablet.html %}
   {% endif %}
 </div>
-
+{% include base.html %}
 <ol class="span8 offset1 categoryposts">
   {% for post in site.categories[page.categorization] %}
   <li>
-    <a href="{{ post.url }}" class="title">{{ post.title }}</a>
+    <a href="{{ base}}{{ post.url }}" class="title">{{ post.title }}</a>
     <span class="metadata">{{ post.date | date_to_string }}{% if post.location %} in {{ post.location }}{% endif %}</span>
   </li>
   {% endfor %}

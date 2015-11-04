@@ -3,21 +3,22 @@
   <head>
     <meta charset="utf-8" />
     <title>{{ site.name }} - {{ page.title }}</title>
-    <link rel="stylesheet" href="/style/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/style/css/bootstrap-responsive.min.css" />
-    <link rel="stylesheet" href="/style/css/bergie-2012.css" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/style/img/favicon/favicon_144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/style/img/favicon/favicon_114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/style/img/favicon/favicon_72.png" />
-    <link rel="apple-touch-icon-precomposed" href="/style/img/favicon/favicon_57.png" />
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    {% include base.html %}
+    <link rel="stylesheet" href="{{ base }}/style/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{ base }}/style/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="{{ base }}/style/css/bergie-2012.css" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ base }}/style/img/favicon/favicon_144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ base }}/style/img/favicon/favicon_114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ base }}/style/img/favicon/favicon_72.png" />
+    <link rel="apple-touch-icon-precomposed" href="{{ base }}/style/img/favicon/favicon_57.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{ base }}/favicon.ico" />
     {% capture page_url %}{{ site.url }}{{ page.url }}{% endcapture %}
     <link rel="payment" href="https://flattr.com/submit/auto?url={{ page_url | cgi_escape }}&amp;user_id=bergie" type="text/html" />
     <link rel="bitcoin" href="bitcoin:13SqhsZN78KVrJFYdac4WX2edoRrSys5qu" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="/style/deps/lightbox/js/jquery-1.7.2.min.js"></script>
-    <script src="/style/deps/lightbox/js/lightbox.js"></script>
-    <link href="/style/deps/lightbox/css/lightbox.css" rel="stylesheet" />
+    <script src="{{ base }}/style/deps/lightbox/js/jquery-1.7.2.min.js"></script>
+    <script src="{{ base }}/style/deps/lightbox/js/lightbox.js"></script>
+    <link href="{{ base }}/style/deps/lightbox/css/lightbox.css" rel="stylesheet" />
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-75936-2']);
@@ -36,9 +37,9 @@
         <div class="span8">
           <ul class="thumbnails">
             {% for image in page.images %}
-            <li class="span{% if image.gridsize %}{{ image.gridsize }}{% else %}2{% endif %}">
-                <a href="/about/pictures/{{ image.original }}" rel="lightbox[profile]" title="{{ image.label }}" class="thumbnail">
-                  <img src="/about/pictures/{% if image.thumb %}{{ image.thumb }}{% else %}{{ image.original }}{% endif %}" alt="{{ image.label }}" />
+              <li class="span{% if image.gridsize %}{{ image.gridsize }}{% else %}2{% endif %}">
+                <a href="{{ base }}/about/pictures/{{ image.original }}" rel="lightbox[profile]" title="{{ image.label }}" class="thumbnail">
+                  <img src="{{ base }}/about/pictures/{% if image.thumb %}{{ image.thumb }}{% else %}{{ image.original }}{% endif %}" alt="{{ image.label }}" />
                 </a>
               </li>
             {% endfor %}

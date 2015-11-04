@@ -16,14 +16,15 @@ bodyclass: blog
   {% endunless %}
 </aside>
 
+{% include base.html %}
 {% for post in paginator.posts %}
-<article vocab="http://schema.org/" about="{{ post.url }}" typeof="BlogPosting" class="h-entry">
-    <h1 class="span8 offset1"><a href="{{ post.url }}" rel="bookmark" class="p-name u-url">{{ post.title }}</a></h1>
+  <article vocab="http://schema.org/" about="{{ base }}{{ post.url }}" typeof="BlogPosting" class="h-entry">
+    <h1 class="span8 offset1"><a href="{{ base }}{{ post.url }}" rel="bookmark" class="p-name u-url">{{ post.title }}</a></h1>
     <div class="span8 offset1">
       {{ post.content | strip_html | truncatewords:60 }}
       <div class="links">
-        <a href="{{ post.url }}" rel="bookmark">Read more &raquo;</a>
-        <a class="commentscount" rel="comment" href="{{ post.url }}#disqus_thread">Comments</a>
+        <a href="{{ base }}{{ post.url }}" rel="bookmark">Read more &raquo;</a>
+        <a class="commentscount" rel="comment" href="{{ base }}{{ post.url }}#disqus_thread">Comments</a>
       </div>
     </div>
     <div class="metadata span2">
@@ -44,15 +45,15 @@ bodyclass: blog
   <ul class="pager">
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-    <li><a rel="prev" href="/">&larr; Newer</a></li>
+    <li><a rel="prev" href="{{ base }}/">&larr; Newer</a></li>
     {% else %}
-    <li><a rel="prev" href="/page{{ paginator.previous_page }}/">&larr; Newer</a></li>
+    <li><a rel="prev" href="{{ base }}/page{{ paginator.previous_page }}/">&larr; Newer</a></li>
     {% endif %}
   {% endif %}
-  <li class="hidden-phone"><a href="/blog/rss.xml">RSS feed</a></li>
-  <li><a href="/blog/">Archive</a></li>
+    <li class="hidden-phone"><a href="{{ base }}/blog/rss.xml">RSS feed</a></li>
+    <li><a href="{{ base }}/blog/">Archive</a></li>
   {% if paginator.next_page %}
-    <li><a rel="next" href="/page{{ paginator.next_page }}/">Older &rarr;</a></li>
+    <li><a rel="next" href="{{ base }}/page{{ paginator.next_page }}/">Older &rarr;</a></li>
   {% endif %}
   </ul>
 </div>
