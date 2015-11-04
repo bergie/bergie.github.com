@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Now working on"
-date: 2015-11-04 13:14:56 UTC
+date: 2015-11-04 13:27:08 UTC
 location: Berlin, Germany
 disable_comments: true
 ---
@@ -12,3 +12,5 @@ Here are some things I'm doing currently:
 * Preparing for the [German sailing license](https://de.wikipedia.org/wiki/Sportbootf%C3%BChrerschein_Binnen) exam
 * Trying to publish daily at my linklog, [Bergie Today](http://bergie.today/)
 * Porting the contents of this site to The Grid
+
+This status page was inspired by [Derek Sivers](https://sivers.org/nowff).
