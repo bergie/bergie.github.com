@@ -1,8 +1,9 @@
 ---
 layout: page
 title: "Now"
+date: 2015-11-04 12:32:56 UTC
 ---
-I'm currently in _Berlin, Germany_. Here are the things I'm working on. You can see some of these in my [GitHub profile](https://github.com/bergie):
+I'm currently in _Berlin, Germany_. Here are some things I'm working on. You can see some of these in my [GitHub profile](https://github.com/bergie):
 
 * Coordinating various development projects and building the back-end of [The Grid](https://thegrid.io/)
 * Exploring the world of [Interplanetary Filesystems](https://ipfs.io/)
