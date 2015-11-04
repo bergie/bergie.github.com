@@ -28,7 +28,7 @@
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:site_name" content="{{ site.name }}" />
     <meta property="og:locale" content="en_US" />
-    <meta property="og:url" content="{{ page_url }}" />
+    <meta property="og:url" content="{{ page_url | replace: 'index.html', '' }}" />
     <meta property="article:author" content="https://www.facebook.com/bergius" />
     <script type="text/javascript">
       var _gaq = _gaq || [];
