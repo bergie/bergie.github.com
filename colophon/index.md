@@ -2,17 +2,18 @@
 layout: page
 title: "Colophon"
 ---
-[This site](/) is the personal blog of [Henri Bergius](/about/). It is powered by [Jekyll](http://jekyllrb.com/), a static site generator. I write my articles in [Markdown](http://daringfireball.net/projects/markdown/), and commit them to [GitHub](https://github.com/), which then produces the pages you're viewing.
+{% include base.html %}
+[This site]({{ base }}/) is the personal blog of [Henri Bergius]({{ base }}/about/). It is powered by [Jekyll](http://jekyllrb.com/), a static site generator. I write my articles in [Markdown](http://daringfireball.net/projects/markdown/), and commit them to [GitHub](https://github.com/), which then produces the pages you're viewing.
 
 ## Design and visuals
 
 Both line drawings of me have been produced by [Nina Mutik](http://ninamutik.sarjakuvablogit.com/about/), a Finnish artist.
 
-[![Bergie working in Istanbul, by Nina Mutik](/style/img/mdpi/bergie_istanbul_big.jpg)](/style/img/orig/bergie_istanbul.jpg)
+[![Bergie working in Istanbul, by Nina Mutik]({{ base }}/style/img/mdpi/bergie_istanbul_big.jpg)]({{ base }}/style/img/orig/bergie_istanbul.jpg)
 
 The flying pig emblem has been drawn by [Susanna Huhtanen](http://cannonerd.wordpress.com/) based on a medieval pilgrim's badge. After all, _a pig that doesn't fly is just an ordinary pig_.
 
-[![Flying pig, Medieval-style](/style/img/mdpi/flyingpig_big.png)](/style/img/orig/flyingpig.png)
+[![Flying pig, Medieval-style]({{ base }}/style/img/mdpi/flyingpig_big.png)]({{ base }}/style/img/orig/flyingpig.png)
 
 The web design is my own, and it has been realized into HTML5 and CSS with the help of the [Bootstrap](http://twitter.github.com/bootstrap/) framework.
 
@@ -26,7 +27,7 @@ Some of the older posts have also been migrated from my other websites, like [Qa
 
 ## Semantics
 
-An [RSS feed](/blog/rss.xml) of the latest blog contents is available. In addition, the HTML pages are made machine-readable through [RDFa annotations](http://www.w3.org/TR/rdfa-primer/), in this case following the [schema.org](http://schema.org/) vocabularies.
+An [RSS feed]({{ base }}/blog/rss.xml) of the latest blog contents is available. In addition, the HTML pages are made machine-readable through [RDFa annotations](http://www.w3.org/TR/rdfa-primer/), in this case following the [schema.org](http://schema.org/) vocabularies.
 
 ## Syndication
 
