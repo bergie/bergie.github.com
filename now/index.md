@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Now working on"
-date: 2015-11-17 12:41:13 UTC
-location: Leeds, United Kingdom
+date: 2016-02-17 14:59:43 UTC
+location: Berlin, germany
 disable_comments: true
 ---
 Here are some things I'm doing currently:
