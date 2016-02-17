@@ -1,6 +1,7 @@
 ---
 title: "The Grid: Web Design by Artificial Intelligence"
 categories:
+  - fbp
   - midgard
   - business
   - desktop
