@@ -10,6 +10,6 @@ layout: post
 ---
 As mentioned [last year](http://bergie.iki.fi/blog/nemein-anders/), I'm working on a Artificial Intelligence that can do web design. It is called [The Grid](https://thegrid.io/#6). Last week I gave a talk at [Lift Conference](http://liftconference.com/lift16) explaining how it all works.
 
-<iframe src="https://livestream.com/accounts/2619102/events/4805866/videos/112147620/player?width=640&height=360&autoPlay=false&mute=false" width="640" height="360" frameborder="0" scrolling="no"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v65HLBGLG_g" frameborder="0" allowfullscreen></iframe>
 
-If you can't see the video embed above, it is also available on [the Livestream site](http://livestream.com/liftconference/events/4805866/videos/112147620).
+If you can't see the video embed above, it is also available on [the Livestream site](http://livestream.com/liftconference/events/4805866/videos/112147620) and [YouTube](https://youtu.be/v65HLBGLG_g).
