@@ -7,9 +7,8 @@ disable_comments: true
 ---
 Here are some things I'm doing currently:
 
-* Coordinating various development projects and building the back-end of [The Grid](https://thegrid.io/)
-* Exploring the world of [Interplanetary Filesystems](https://ipfs.io/)
 * Trying to publish daily at my linklog, [Bergie Today](http://bergie.today/)
-* Porting the contents of this site to The Grid
+* Building the back-end infrastructure for [The Grid](https://thegrid.io/)
+* Setting up [Flowhub](https://flowhub.io) company
 
 This status page was inspired by [Derek Sivers](https://sivers.org/nowff).
