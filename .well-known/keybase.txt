@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/bergie
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://bergie.iki.fi
+  * I am bergie (https://keybase.io/bergie) on keybase.
+  * I have a public key ASDzQtuzxNISbOvbYyPUu_7D8A9A6SCu6Uo7kznIF0FsTAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120f342dbb3c4d2126cebdb6323d4bbfec3f00f40e920aee94a3b9339c817416c4c0a",
+            "host": "keybase.io",
+            "kid": "0120f342dbb3c4d2126cebdb6323d4bbfec3f00f40e920aee94a3b9339c817416c4c0a",
+            "uid": "8e91ca4ba3259f974476e650e4127519",
+            "username": "bergie"
+        },
+        "service": {
+            "hostname": "bergie.iki.fi",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1481894626,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1481894604,
+        "hash": "dedb7eacaa7ad73a403a9cc34b62b6ddc5286f7d5a4cc38b3c36923e58f55c4651c6334251d5aad157d6b5dcf1cb0fb5bced81eb4b4b5884bf37e93ff2e1e0f7",
+        "seqno": 764151
+    },
+    "prev": "de8b6b0d89a12f099663a780131e13cb2a91df3878c3e560a9779d7b2a0797f4",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg80Lbs8TSEmzr22Mj1Lv+w/APQOkgrulKO5M5yBdBbEwKp3BheWxvYWTFAvN7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZjM0MmRiYjNjNGQyMTI2Y2ViZGI2MzIzZDRiYmZlYzNmMDBmNDBlOTIwYWVlOTRhM2I5MzM5YzgxNzQxNmM0YzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZjM0MmRiYjNjNGQyMTI2Y2ViZGI2MzIzZDRiYmZlYzNmMDBmNDBlOTIwYWVlOTRhM2I5MzM5YzgxNzQxNmM0YzBhIiwidWlkIjoiOGU5MWNhNGJhMzI1OWY5NzQ0NzZlNjUwZTQxMjc1MTkiLCJ1c2VybmFtZSI6ImJlcmdpZSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiYmVyZ2llLmlraS5maSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTgifSwiY3RpbWUiOjE0ODE4OTQ2MjYsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ4MTg5NDYwNCwiaGFzaCI6ImRlZGI3ZWFjYWE3YWQ3M2E0MDNhOWNjMzRiNjJiNmRkYzUyODZmN2Q1YTRjYzM4YjNjMzY5MjNlNThmNTVjNDY1MWM2MzM0MjUxZDVhYWQxNTdkNmI1ZGNmMWNiMGZiNWJjZWQ4MWViNGI0YjU4ODRiZjM3ZTkzZmYyZTFlMGY3Iiwic2Vxbm8iOjc2NDE1MX0sInByZXYiOiJkZThiNmIwZDg5YTEyZjA5OTY2M2E3ODAxMzFlMTNjYjJhOTFkZjM4NzhjM2U1NjBhOTc3OWQ3YjJhMDc5N2Y0Iiwic2Vxbm8iOjEyLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQHYViZOvAbkpKt8m7FB7WDMSQYVfow3GKE1bwb1cV6pccJSPFlf8Zl29NoIa3gVyrTkagQBs+B1afSCSyDai6Qyoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDOpuDCgwRJ3yGEGQv+eOqXlBcMOTdKw8fZVpgsJTTOaqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bergie
+
+==================================================================
