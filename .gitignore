@@ -3,3 +3,4 @@ _site
 linklint.log
 .DS_Store
 .jekyll-metadata
+Gemfile.lock
