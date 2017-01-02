@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="{{ site.language }}">
   <head>
@@ -42,14 +44,14 @@
       })();
     </script>
   </head>
-  <body{% if page.bodyclass %} class="{{ page.bodyclass }} {% if page.bodyclass == 'blog' %}{%if paginator.page == 1 %} front{% endif %}{%endif %}"{% endif %}>
+  <body{% if layout.bodyclass %} class="{{ layout.bodyclass }} {% if layout.bodyclass == 'blog' %}{%if paginator.page == 1 %} front{% endif %}{%endif %}"{% endif %}>
     <div class="container">
       {{ content }}
     </div>
     <footer>
       {% include footer.html %}
     </footer>
-    {% if page.bodyclass == 'blog' %}
+    {% if layout.bodyclass == 'blog' %}
       {% include commentscount.html %}
     {% endif %}
   </body>
