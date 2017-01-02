@@ -4,5 +4,6 @@ author: "henri.bergius@iki.fi (Henri Bergius)"
 language: "en"
 permalink: /blog/:title/
 paginate: 10
-pygments: false
-markdown: rdiscount
+highlighter: null
+gems:
+- jekyll-paginate
