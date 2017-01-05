@@ -21,7 +21,7 @@ A NoFlo component is simply a [JavaScript module](https://www.sitepoint.com/unde
 
 Now with the upcoming NoFlo 0.8 release we've taken the best ideas from those helpers and rolled them back into the `noflo.Component` base class.
 
-So, how does a component written usign the Process API look like?
+So, how does a component written using the Process API look like?
 
 ```javascript
 // Load the NoFlo interface
