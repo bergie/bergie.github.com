@@ -230,7 +230,9 @@ exports.getComponent = function () {
      // Start generating packets
      c.timer = setInterval(function () {
        // Send a packet
-       outport.ports.out.sendIP(true);
+       output.send({
+         out: true
+       });
      }, 100);
      output.done();
    }
