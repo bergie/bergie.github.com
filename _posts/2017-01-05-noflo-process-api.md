@@ -252,6 +252,16 @@ exports.getComponent = function () {
      context.deactivate();
    }
  });
+
+ // We also may need to clear the timer at network shutdown
+ c.shutdown = function () {
+   if (c.timer) {
+     clearInterval(c.timer);
+     c.timer = null;
+   }
+   c.emit('end');
+   c.started = false;
+ }
 }
 ```
 
