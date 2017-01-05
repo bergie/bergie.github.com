@@ -124,7 +124,7 @@ For more complex checking it is also possible to pass a validation function to t
 ```javascript
 // We want to process only when color is green
 var validator = function (packet) {
-  if (packet.color === 'green') {
+  if (packet.data.color === 'green') {
     return true;
   }
   return false;
