@@ -216,15 +216,26 @@ exports.getComponent = function () {
  // Generators generally want to send data immediately and
  // not buffer
  c.autoOrdering = false;
+
+ // Helper function for clearing a running timer loop
+ var cleanup = function () {
+   // Clear the timer
+   clearInterval(c.timer.interval);
+   // Then deactivate the long-running context
+   c.timer.deactivate();
+   c.timer = null;
+ }
+
  // Receive the context together with input and output
  c.process(function (input, output, context) {
    if (input.hasData('start')) {
      // We've received a packet to the "start" port
-     input.getData('start');
-     // Clear previous interval, if any
+     // Stop the previous interval and deactivate it, if any
      if (c.timer) {
-       clearInterval(c.timer);
+       cleanup();
      }
+     // Activate the context by reading the packet
+     input.getData('start');
      // Set the activated context to component so it can
      // be deactivated from the outside
      c.timer = context
@@ -235,8 +246,8 @@ exports.getComponent = function () {
          out: true
        });
      }, 100);
-     // Since we keep the generator running we
-     // don't call done here
+     // Since we keep the generator running we don't
+     // call done here
    }
 
    if (input.hasData('stop')) {
@@ -247,11 +258,8 @@ exports.getComponent = function () {
        output.done();
        return;
      }
-     // Clear the timer
-     clearInterval(c.timer.interval);
-     // Then deactivate the long-running context
-     c.timer.deactivate();
-     c.timer = null;
+     // Stop the interval and deactivate
+     cleanup();
      // Also call done for this one
      output.done();
    }
@@ -261,9 +269,7 @@ exports.getComponent = function () {
  c.shutdown = function () {
    if (c.timer) {
      // Stop the interval and deactivate
-     clearInterval(c.timer.interval);
-     c.timer.deactivate();
-     c.timer = null;
+     cleanup();
    }
    c.emit('end');
    c.started = false;
