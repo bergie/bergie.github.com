@@ -250,6 +250,7 @@ exports.getComponent = function () {
      c.timer = null;
      // Then deactivate
      context.deactivate();
+     output.done();
    }
  });
 
