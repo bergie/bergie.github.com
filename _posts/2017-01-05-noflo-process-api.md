@@ -238,7 +238,7 @@ exports.getComponent = function () {
    }
 
    if (input.hasData('stop')) {
-     // We've received a packet to the "start" port
+     // We've received a packet to the "stop" port
      input.getData('stop');
      if (!c.timer) {
        // No timers running, we can just finish here
