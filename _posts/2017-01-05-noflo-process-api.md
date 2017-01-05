@@ -225,16 +225,18 @@ exports.getComponent = function () {
      if (c.timer) {
        clearInterval(c.timer);
      }
-     // First activate
-     context.activate();
+     // Set the activated context to component so it can
+     // be deactivated from the outside
+     c.timer = context
      // Start generating packets
-     c.timer = setInterval(function () {
+     c.timer.interval = setInterval(function () {
        // Send a packet
        output.send({
          out: true
        });
      }, 100);
-     output.done();
+     // Since we keep the generator running we
+     // don't call done here
    }
 
    if (input.hasData('stop')) {
@@ -246,10 +248,11 @@ exports.getComponent = function () {
        return;
      }
      // Clear the timer
-     clearInterval(c.timer);
+     clearInterval(c.timer.interval);
+     // Then deactivate the long-running context
+     c.timer.deactivate();
      c.timer = null;
-     // Then deactivate
-     context.deactivate();
+     // Also call done for this one
      output.done();
    }
  });
@@ -257,7 +260,9 @@ exports.getComponent = function () {
  // We also may need to clear the timer at network shutdown
  c.shutdown = function () {
    if (c.timer) {
-     clearInterval(c.timer);
+     // Stop the interval and deactivate
+     clearInterval(c.timer.interval);
+     c.timer.deactivate();
      c.timer = null;
    }
    c.emit('end');
