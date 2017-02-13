@@ -10,6 +10,7 @@
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
     {% assign nows = site.now | reverse %}
     {% for post in nows limit:10 %}
+    {% if post.date %}
     <item>
       <title>{{ post.date | date_to_long_string }} in {{ post.location }}</title>
       <description>{{ post.content | replace: 'href="/', 'href="http://bergie.iki.fi/' | xml_escape }}</description>
@@ -18,6 +19,7 @@
       <guid isPermaLink="true">http://bergie.iki.fi/now/#{{ post.date | date: "%Y-%m-%d" }}</guid>
       <author>{{ site.author }}</author>
     </item>
+    {% endif %}
   {% endfor %}
 </channel>
 </rss>
