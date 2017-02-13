@@ -5,5 +5,8 @@ language: "en"
 permalink: /blog/:title/
 paginate: 10
 highlighter: null
+collections:
+  now:
+    output: false
 gems:
 - jekyll-paginate
