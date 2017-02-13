@@ -17,7 +17,7 @@ bodyclass: 'post'
             <p>Here are some things I'm doing currently:</p>
             {{ latest.content }}
             {% if previous %}
-            <p>Previously:</p>
+            <p>Previously on <em>{{ previous.date | date_to_long_string }}</em>:</p>
             {{ previous.content }}
             {% endif %}
           </div>
