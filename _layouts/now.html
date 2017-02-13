@@ -3,8 +3,9 @@ layout: 'default'
 bodyclass: 'post'
 ---
       {% include base.html %}
-      {% assign latest = site.now[0] %}
-      {% assign previous = site.now[1] %}
+      {% assign now = site.now | reverse %}
+      {% assign latest = now[0] %}
+      {% assign previous = now[1] %}
       <article vocab="http://schema.org/" about="{{ base }}{{ page.url }}" typeof="BlogPosting" class="span8 offset1 h-entry">
         <header class="span9">
           <div>
@@ -16,7 +17,7 @@ bodyclass: 'post'
             <p>Here are some things I'm doing currently:</p>
             {{ latest.content }}
             {% if previous %}
-            <h2>Previously</h2>
+            <p>Previously:</p>
             {{ previous.content }}
             {% endif %}
           </div>
