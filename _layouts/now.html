@@ -17,8 +17,10 @@ bodyclass: 'post'
             <p>Here are some things I'm doing currently:</p>
             {{ latest.content }}
             {% if previous %}
+            <div class="previous">
             <p>Previously on <em>{{ previous.date | date_to_long_string }}</em>:</p>
             {{ previous.content }}
+            </div>
             {% endif %}
           </div>
           <div class="metadata">

@@ -146,7 +146,6 @@ body.blog article .metadata {
   font-size: 16pt;
   color: #555753;
 }
-
 body.blog aside {
   margin-top: -40px;
 }
@@ -234,6 +233,12 @@ article pre code {
 
 article .contentSource {
   font-style: italic;
+}
+
+article div.previous,
+article div.previous p,
+article div.previous ul li {
+  font-size: 12pt;
 }
 
 hr {
