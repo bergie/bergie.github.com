@@ -3,9 +3,6 @@ layout: 'default'
 bodyclass: 'post'
 ---
       {% include base.html %}
-      {% assign now = site.now | reverse %}
-      {% assign latest = now[0] %}
-      {% assign previous = now[1] %}
       <article vocab="http://schema.org/" about="{{ base }}{{ page.url }}" typeof="BlogPosting" class="span8 offset1 h-entry">
         <header class="span9">
           <div>
@@ -13,29 +10,6 @@ bodyclass: 'post'
           </div>
         </header>
         <div class="span8">
-          <div property="articleBody" class="e-content">
-            <p>Here are some things I'm doing currently:</p>
-            {{ latest.content }}
-            {% if previous %}
-            <div class="previous">
-            <p>Previously on <em>{{ previous.date | date_to_long_string }}</em>:</p>
-            {{ previous.content }}
-            </div>
-            {% endif %}
-          </div>
-          <div class="metadata">
-            <a rel="author" href="http://bergie.iki.fi/#me" class="p-author"></a>
-            {% if latest.date %}
-            <span property="datePublished" content="{{ latest.date | date_to_xmlschema }}" class="dt-published">{{ latest.date | date_to_long_string }}</span>
-            {% endif %}
-            {% if latest.location %}
-            in <span rel="contentLocation" typeof="City"><span property="name">{{ latest.location }}</span></span>
-            {% endif %}
-            <span property="wordCount" content="{{ latest.content | strip_html | number_of_words }}"></span>
-            <p>
-            Status page inspired by <a href="https://sivers.org/nowff/">Derek Sivers</a>.
-            </p>
-
-          </div>
+          {{ content }}
         </div>
       </article>
