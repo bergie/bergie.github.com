@@ -1,0 +1,23 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.name }}: Now working on</title>
+    <description>{{ site.description }}</description>
+    <link>{{ site.url }}/now</link>
+    <language>{{ site.language }}</language>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+    {% assign nows = site.now | reverse %}
+    {% for post in nows limit:10 %}
+    <item>
+      <title>{{ post.date | date_to_long_string }} in {{ post.location }}</title>
+      <description>{{ post.content | replace: 'href="/', 'href="http://bergie.iki.fi/' | xml_escape }}</description>
+      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+      <link>http://bergie.iki.fi/now/</link>
+      <guid isPermaLink="true">http://bergie.iki.fi/now/#{{ post.date | date: "%Y-%m-%d" }}</guid>
+      <author>{{ site.author }}</author>
+    </item>
+  {% endfor %}
+</channel>
+</rss>
