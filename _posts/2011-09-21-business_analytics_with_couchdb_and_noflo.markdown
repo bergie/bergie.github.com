@@ -8,6 +8,7 @@
     - nodejs
     - fbp
   layout: "post"
+  cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/proggis-iks-projectplan-500.png'
 
 ---
 The purpose of [business analytics](http://37signals.com/svn/posts/3002-the-three-secrets-of-business-analytics-no-rocket-science-here) is to find data from the company's information systems that can be used to support decision making. What customers buy most? What do they do before a buying decision? What are the signs that a customer may be leaving?

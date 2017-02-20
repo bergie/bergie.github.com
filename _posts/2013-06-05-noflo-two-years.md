@@ -5,8 +5,10 @@ categories:
   - nodejs
   - javascript
   - coffeescript
+  - bestof
 location: Berlin, Germany
 layout: post
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/leigh-concept-small.jpg'
 ---
 [NoFlo](http://noflojs.org) &mdash; the flow-based programming system I started &mdash; is now two years old. I [pushed the first commits](https://github.com/bergie/noflo/commit/04698a77272d9cd552ac57ca511ec8f05696ea40) to GitHub on June 5th 2011 from [Hacker Dojo](http://www.hackerdojo.com/) in Mountain View. To get us started with the story, I'll let [Wikipedia summarize](http://en.wikipedia.org/wiki/Flow-based_programming):
 

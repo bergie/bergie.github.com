@@ -5,6 +5,7 @@ location: Berlin, Germany
 categories:
   - midgard
   - oscom
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/createjs-storage-restore.png'
 ---
 One important part of writing web content is reliability. Since everybody has had bad experiences with their current tools, the current level of trust in web editing tools is low. We've all been there, maybe the browser crashed, or the server-side session expired. But suddenly the article you've spend an hour writing is gone.
 

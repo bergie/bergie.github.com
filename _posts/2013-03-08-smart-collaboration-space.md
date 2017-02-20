@@ -9,6 +9,7 @@ categories:
   - kde
   - geo
   - openpsa
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/opd-small.png'
 ---
 As part of the [SmarcoS](http://smarcos-project.eu) project, [we](http://nemein.com) have been investigating how to make workplaces smarter through sensors and [context awareness](http://worrydream.com/MagicInk/). Here is [a video showing what we've built](http://youtu.be/P5cdlLTqb24):
 

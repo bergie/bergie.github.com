@@ -4,6 +4,8 @@ layout: post
 location: Helsinki, Finland
 categories:
   - life
+  - onebag
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/haglofs_connect_small.jpg'
 ---
 In the last year, I've spent a lot of time on the road, mainly through client work and the [European projects](http://iks-project.eu) I've been involved with. To be more exact, I've spent more than half of my time traveling. This year should definitely be more light on conferences!
 

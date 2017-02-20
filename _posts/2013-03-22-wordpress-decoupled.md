@@ -5,6 +5,7 @@ layout: post
 categories:
   - oscom
   - midgard
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/decoupled-cms-architecture.png'
 ---
 Couple of days ago there was an interesting post on [the Dire State of WordPress](http://jshakespeare.com/the-dire-state-of-wordpress/), talking about the issues developers have when working with this [hugely popular](http://en.wordpress.com/stats/) content management system:
 

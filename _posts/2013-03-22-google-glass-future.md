@@ -5,6 +5,7 @@ location: Berlin, Germany
 categories:
   - mobility
   - politics
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/surveillance-ban.png'
 ---
 [Google Glass](http://www.google.com/glass/start/) is coming this year, a wearable display that can keep you connected at all the times and supply information and instructions when you need them. And it can record video or take pictures of whatever you see, when you want it to.
 

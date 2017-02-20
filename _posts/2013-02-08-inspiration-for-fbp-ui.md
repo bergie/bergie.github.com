@@ -2,6 +2,7 @@
 title: Thinking about the flow-based programming user interface
 categories:
   - fbp
+  - bestof
 location: Berlin, Germany
 layout: post
 cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/bvg-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/bvg.png'

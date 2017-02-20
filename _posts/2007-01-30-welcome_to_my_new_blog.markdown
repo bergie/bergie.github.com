@@ -5,6 +5,7 @@
     - "life"
     - "midgard"
   layout: "post"
+  cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie_layout_2006.jpg'
 
 ---
 [This][1] is the latest iteration of my home on the web. [I've had a website][3] since sometime in 1994, and under this same "[iki][20]" address since [2001][2]. This latest design was actually made in spring 2006 after [our US trip][4], but has been waiting in mothballs for the right moment.

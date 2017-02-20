@@ -9,6 +9,7 @@ categories:
   - coffeescript
   - nodejs
   - tablet
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/a8d40946bd1111e087e041fe349b82d982d9.png'
 ---
 [Quite a different way](http://en.wikipedia.org/wiki/Flow-based_programming) of doing software:
 

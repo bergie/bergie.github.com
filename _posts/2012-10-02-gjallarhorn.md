@@ -6,6 +6,7 @@ date: "2012-10-02 13:49:00"
 categories:
   - midgard
   - desktop
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/gjallarhorn.png'
 ---
 <img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/gjallarhorn.png" style="margin-left: 10px; float: right; width: 273px; height: 400px;" alt="Gjallarhorn" title="Heimdallr with Gjallarhorn by Lorenz Frølich, public domain" />
 

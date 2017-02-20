@@ -4,6 +4,7 @@ layout: post
 location: Berlin, Germany
 categories:
   - desktop
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/gnome3-shutdown.png'
 ---
 Michael Mace has a very interesting [review of Windows 8](http://mobileopportunity.blogspot.com.au/2012/05/fear-and-loathing-and-windows-8.html). As whole it is a good read for anybody interested in where this whole [modern computing thing](/blog/why_the_tablet_form_factor_is_winning/) is going. But this part specifically caught my interest:
 
