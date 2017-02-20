@@ -74,7 +74,7 @@ Just watch [this video](http://youtu.be/0g0oOOT86NY) and see how much easier web
 
 <iframe width="500" height="281" src="http://www.youtube.com/embed/0g0oOOT86NY" frameborder="0" allowfullscreen></iframe>
 
-The current work on standardizing [Web Payments](https://payswarm.com/) together with more grassroots efforts like [BitCoin](http://bitcoin.org/en/) promise to add better ways to do business on the web. This should remove the last big advantage of native applications in that they're easier (but very expensive) to monetize via app stores and in-app payments.
+The current work on standardizing [Web Payments](https://payswarm.com/) together with more grassroots efforts like [Bitcoin](http://bitcoin.org/en/) promise to add better ways to do business on the web. This should remove the last big advantage of native applications in that they're easier (but very expensive) to monetize via app stores and in-app payments.
 
 [Linked Data on the web](http://rdfa.info/) and new features like [Yandex Islands](http://beta.yandex.com/) make it easier to connect web applications and data on the web together. Tools like my [Create.js](http://createjs.org/) make the web easier to edit, and [Web Intents](http://webintents.org/) promise even closer integration between web apps.
 
