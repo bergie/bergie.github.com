@@ -6,6 +6,7 @@ categories:
   - mobility
   - desktop
   - tablet
+  - bestof
 cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/android-tablet-2017/pixel_c_desktop.jpg'
 ---
 Back in 2013 I was [working exclusively on an Android tablet](/blog/working-on-android/). Then with the [NoFlo Kickstarter](/noflo-kickstarter-launch/) I needed a device with a desktop browser. What followed were brief periods working on a Chromebook, on a 12" MacBook, and even an iPad Pro.

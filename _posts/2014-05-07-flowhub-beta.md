@@ -6,6 +6,8 @@ categories:
 - fbp
 - desktop
 - tablet
+- bestof
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-main.png'
 ---
 Today I'm happy to announce the [public beta](http://flowhub.io#app-scope) of the [Flowhub](http://flowhub.io) interface for Flow-Based Programming. This is the latest step in the adventure that started with [some UI sketching](http://bergie.iki.fi/blog/inspiration-for-fbp-ui/) early last year, went through our [successful Kickstarter](https://www.kickstarter.com/projects/noflo/noflo-development-environment) &mdash; and now &mdash; thanks to our [1&thinsp;205 backers](http://noflojs.org/kickstarter/), it is available to the public.
 

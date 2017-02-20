@@ -5,6 +5,8 @@ layout: post
 categories:
 - fbp
 - desktop
+- bestof
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/ingress-table-render.jpg'
 ---
 The [c-base space station](http://c-base.org/) &mdash; a culture carbonite and a hackerspace &mdash; is the focal point of Berlin's thriving tech scene. It is also the place where many of the city's [Ingress](http://www.ingress.com/) agents converge after an evening of hectic raiding or farming.
 
@@ -34,7 +36,7 @@ By the time of arriving to c-base, many Ingress agents have their phones and bat
 
 Once the plans had been set, a flurry of preparations began. We would need lots of things, ranging from wood and glass parts for the table shell, to various different electronics and computer parts for the insides. And some of these would have to be ordered from China. Would they arrive in time?
 
-[![Design render of the table](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/ingress-table-render-small.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/ingress-table-render.jpg)
+[![Design gender of the table](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/ingress-table-render-small.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/ingress-table-render.jpg)
 
 I spent the two weeks before the hackathon doing a project in Florence, and it was quite interesting to coordinate the logistics remotely. Thankfully our Berlin team did a stellar job of tracking missing shipments and collecting the things we needed!
 

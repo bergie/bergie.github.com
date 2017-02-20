@@ -9,8 +9,10 @@ categories:
   - kde
   - business
   - mobility
+  - bestof
 location: San Francisco, California
 layout: post
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo-ui-code.jpg'
 ---
 This has been a big week for [NoFlo](http://noflojs.org/), the flow-based programming environment for JavaScript. Yesterday we released [NoFlo 0.4](https://github.com/noflo/noflo/releases/tag/0.4.0), which added support for running flow-based programs in web browsers. And today we launched our [NoFlo Development Environment effort on Kickstarter](http://www.kickstarter.com/projects/noflo/noflo-development-environment). Before continuing, make sure to watch [the video](http://www.kickstarter.com/projects/noflo/noflo-development-environment)!
 

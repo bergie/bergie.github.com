@@ -4,8 +4,10 @@ categories:
   - fbp
   - desktop
   - mobility
+  - bestof
 location: Berlin, Germany
 layout: post
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fullstack-server-embedded.png'
 ---
 The idea of [Full-Stack Development](http://coding.smashingmagazine.com/2013/11/21/introduction-to-full-stack-javascript/) is quite popular at the moment &mdash; building things that run both the browser and the server side of web development, usually utilizing similar languages and frameworks.
 

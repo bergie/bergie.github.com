@@ -6,6 +6,7 @@ categories:
   - desktop
   - mobility
 layout: post
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo-kickstarter-thank-you.png'
 ---
 Wow, September was a busy month. As you probably know, our [NoFlo Development Environment Kickstarter](http://www.kickstarter.com/projects/noflo/noflo-development-environment) succeeded with 115% funding. Thanks everybody!
 

@@ -5,6 +5,8 @@ location: Santa Rosa, California
 categories:
   - politics
   - business
+  - bestof
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bitcoin-accepted-here-small.png'
 ---
 [Bitcoin](http://www.bitcoins.com/) &mdash; the decentralized digital currency &mdash; has been making a lot of headlines lately. Much of this is driven by the [current investment boom](http://www.economist.com/news/leaders/21590901-it-looks-overvalued-even-if-digital-currency-crashes-others-will-follow-bitcoin) around it that has raised the exchange rates over the 1000 USD mark. But really, looking at Bitcoin as a medium for currency or asset speculation is a bad idea. Instead, we should see it purely as a [medium of exchange](http://en.wikipedia.org/wiki/Medium_of_exchange).
 

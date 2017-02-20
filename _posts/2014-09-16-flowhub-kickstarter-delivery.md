@@ -5,6 +5,7 @@ categories:
 - desktop
 location: Berlin, Germany
 layout: post
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-runtime-registration.png'
 ---
 It is now a year since our [NoFlo Development Environment](http://www.kickstarter.com/projects/noflo/noflo-development-environment) Kickstarter got funded. Since then our team together with several open source contributors has been busy building the best possible user interface for Flow-Based Programming.
 

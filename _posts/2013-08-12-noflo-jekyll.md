@@ -6,8 +6,10 @@ categories:
   - coffeescript
   - oscom
   - midgard
+  - bestof
 layout: post
 location: Berlin, Germany
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo-jekyll.png'
 ---
 [Jekyll](http://jekyllrb.com/) is a delightful piece of software. A Ruby application that turns your Markdown and HTML files to a nicely constructed static website. Since the generated site is static, you can deploy and serve it from anywhere with no security or performance concerns. As a matter of fact, [this site](http://bergie.iki.fi/) is [built](http://bergie.iki.fi/colophon/) with Jekyll.
 

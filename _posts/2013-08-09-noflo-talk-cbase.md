@@ -5,6 +5,7 @@ layout: post
 categories: 
   - fbp
 published: true
+cover: https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie-noflo-sfjs-talk.png'
 ---
 
 I will be [giving a talk](http://logbuch.c-base.org/archives/2082) on [NoFlo](http://noflojs.org/) tonight at 9pm at the [c-base hackerspace](http://c-base.org/) in Berlin. If you're interested in flow-based programming, feel free to join!

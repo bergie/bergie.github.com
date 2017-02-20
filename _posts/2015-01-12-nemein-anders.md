@@ -6,6 +6,7 @@ categories:
   - desktop
 location: Berlin, Germany
 layout: post
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nemein_anders.png'
 ---
 When I flew to Tenerife to [sail across the Atlantic](https://www.flickr.com/photos/bergie/sets/72157649721117029/) in late November, there was excitement in the air. [Nemein](http://nemein.com/) &mdash; the software company I started in 2001 with [Henri Hovi](http://www.patidure.com/) and [Johannes Hentunen](http://www.haedong-kumdo.fi/), and left later to build an [AI-driven web publishing tool](https://thegrid.io/#6) &mdash; was about to be sold.
 
