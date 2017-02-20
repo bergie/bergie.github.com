@@ -3,37 +3,40 @@
 <!DOCTYPE html>
 <html lang="{{ site.language }}">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title>{{ page.title }} {% if paginator.page %}{% unless paginator.page == 1 %} archive {{ paginator.page }}/{{ paginator.total_pages }} {% endunless %}{% endif %}- {{ site.name }}{% if page.location %} in {{ page.location }}{% endif %}</title>
     {% include base.html %}
-    <link rel="stylesheet" href="{{ base }}/style/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="{{ base }}/style/css/bootstrap-responsive.min.css" />
-    <link rel="stylesheet" href="{{ base }}/style/css/bergie-2012.css" />
-    <link rel="stylesheet" href="{{ base }}/style/css/highlight-zenburn.css" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ base }}/style/img/favicon/favicon_144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ base }}/style/img/favicon/favicon_114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ base }}/style/img/favicon/favicon_72.png" />
-    <link rel="apple-touch-icon-precomposed" href="{{ base }}/style/img/favicon/favicon_57.png" />
-    <link rel="shortcut icon" type="image/x-icon" href="{{ base }}/favicon.ico" />
+    <link rel="stylesheet" href="{{ base }}/style/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ base }}/style/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="{{ base }}/style/css/bergie-2012.css">
+    <link rel="stylesheet" href="{{ base }}/style/css/highlight-zenburn.css">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ base }}/style/img/favicon/favicon_144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ base }}/style/img/favicon/favicon_114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ base }}/style/img/favicon/favicon_72.png">
+    <link rel="apple-touch-icon-precomposed" href="{{ base }}/style/img/favicon/favicon_57.png">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ base }}/favicon.ico">
     {% capture page_url %}{{ site.url }}{{ page.url }}{% endcapture %}
-    <link rel="payment" href="https://flattr.com/submit/auto?url={{ page_url | cgi_escape }}&amp;user_id=bergie" type="text/html" />
-    <link rel="bitcoin" href="bitcoin:1L1imk8ehERDQSjDYUQ3v7gsstXJxTkr8m" />
-    <link rel="pingback" href="https://webmention.io/bergie.iki.fi/xmlrpc" />
-    <link rel="webmention" href="https://webmention.io/bergie.iki.fi/webmention" />
-    <meta name="theme-color" content="#ffffff" />
-    <meta name="google-site-verification" content="ge5GAC0xnAgFKsZdHP3DD9KbNYPM0d4F5SpK0ivCJtg" />
-    <meta property="fb:admins" content="722463139" />
+    <link rel="payment" href="https://flattr.com/submit/auto?url={{ page_url | cgi_escape }}&amp;user_id=bergie" type="text/html">
+    <link rel="bitcoin" href="bitcoin:1L1imk8ehERDQSjDYUQ3v7gsstXJxTkr8m">
+    <link rel="pingback" href="https://webmention.io/bergie.iki.fi/xmlrpc">
+    <link rel="webmention" href="https://webmention.io/bergie.iki.fi/webmention">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="google-site-verification" content="ge5GAC0xnAgFKsZdHP3DD9KbNYPM0d4F5SpK0ivCJtg">
+    <meta property="fb:admins" content="722463139">
     {% if page.categorization %}
-    <link rel="alternate" type="application/rss+xml" href="{{ base }}/blog/category/{{ page.categorization }}/rss.xml" title="'{{ page.categorization }}' feed" />
+    <link rel="alternate" type="application/rss+xml" href="{{ base }}/blog/category/{{ page.categorization }}/rss.xml" title="'{{ page.categorization }}' feed">
     {% else %}
-    <link rel="alternate" type="application/rss+xml" href="{{ base }}/blog/rss.xml" title="{{ site.name }} feed" />
+    <link rel="alternate" type="application/rss+xml" href="{{ base }}/blog/rss.xml" title="{{ site.name }} feed">
     {% endif %}
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="og:site_name" content="{{ site.name }}" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:url" content="{{ page_url | replace: 'index.html', '' }}" />
-    <meta property="article:author" content="https://www.facebook.com/bergius" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="{{ page.title }}">
+    {% if layout.bodyclass == 'post' %}
+    <meta property="og:type" content="article">
+    <meta property="article:author" content="https://www.facebook.com/bergius">
+    {% endif %}
+    <meta property="og:site_name" content="{{ site.name }}">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="{{ page_url | replace: 'index.html', '' }}">
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-75936-2']);
@@ -45,7 +48,7 @@
       })();
     </script>
   </head>
-  <body{% if layout.bodyclass %} class="{{ layout.bodyclass }} {% if layout.bodyclass == 'blog' %}{%if paginator.page == 1 %} front{% endif %}{%endif %}"{% endif %}>
+  <body{% if layout.bodyclass %} class="{{ layout.bodyclass }}{% if layout.bodyclass == 'blog' %}{%if paginator.page == 1 %} front{% endif %}{%endif %}"{% endif %}>
     <div class="container">
       {{ content }}
     </div>
