@@ -5,6 +5,7 @@
     - "motorcycles"
     - "bestof"
   layout: "post"
+  cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/An-2_Adding_Oil.jpg'
 
 ---
 After the starter engine of my [Triumph Legend][1] signed off the contract last week, I've been stranded without a working motorcycle. As most of the days it has been snowing heavily, this hasn't been much of a problem. However, I thought it would be time to do something.

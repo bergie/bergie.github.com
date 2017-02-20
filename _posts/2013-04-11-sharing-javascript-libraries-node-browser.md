@@ -12,6 +12,8 @@ I'm currently in the process of porting the [NoFlo](http://noflojs.org) Flow-Bas
 
 Many of the building blocks are already in place, and so the port should be complete still this week. You can track the work in [issue 63](https://github.com/bergie/noflo/issues/63).
 
+**Update:** the post below is mostly of historical value. Nowadays I would recommend using NPM for dependency management and [Webpack](https://webpack.js.org) for browser builds. For NoFlo, [grunt-noflo-browser](https://github.com/noflo/grunt-noflo-browser) provides automation for this.
+
 ## A fragmented ecosystem
 
 The current client-side JavaScript ecosystem is quite fragmented. While on general level any code can be used anywhere, there are many different approaches at packaging, code loading, and templating. In many ways this resembles the PHP landscape before [Composer solved the problem there](http://bergie.iki.fi/blog/composer_solves_the_php_code-sharing_problem/).

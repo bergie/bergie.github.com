@@ -7,6 +7,7 @@ categories:
   - meego
   - kde
   - bestof
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_marc.jpg'
 ---
 This week has been a busy one for a [hacker-nomad](http://bergie.iki.fi/blog/hacker-nomadism/). Weekend in Paris for the [JS.everywhere](http://jseverywhere.eu/) conference, then on Monday a talk at the [Hamburg JavaScript](http://www.meetup.com/hamburg-js) meetup. And now I'm in Helsinki. [Slush](http://slush.fi/en/), the conference I'm attending, is the biggest start-up event in Nordic countries. But even at that, it seems the Jolla announcements of today have been able to hijack most of the buzz around the event.
 

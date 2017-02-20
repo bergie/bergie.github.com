@@ -4,6 +4,7 @@
     - "openpsa"
     - "bestof"
   layout: "post"
+  cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/openpsa2-ragnaroek-20081015.png'
 
 ---
 <p>

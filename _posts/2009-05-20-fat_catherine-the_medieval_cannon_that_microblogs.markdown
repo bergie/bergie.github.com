@@ -4,6 +4,7 @@
     - "guns"
     - "bestof"
   layout: "post"
+  cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fat-catherine-being-fired.png'
 
 ---
 <p>

@@ -5,6 +5,7 @@
     - "oscom"
     - bestof
   layout: "post"
+  cover: 'http://farm7.static.flickr.com/6053/5915517564_ba20056559.jpg'
 
 ---
 As I've written before, I'm concerned about the state of the PHP ecosystem. There are lots of good applications written in the language, but there is very little code sharing between different projects, mainly because of framework incompatibilities, but also because of quite a strong [NIH](http://en.wikipedia.org/wiki/Not_Invented_Here) culture.

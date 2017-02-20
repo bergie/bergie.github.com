@@ -8,6 +8,7 @@ categories:
   - bestof
   - tablet
 location: Berlin, Germany
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/movies-on-n770-small.jpg'
 ---
 Much has been written about the emerging Post-PC era, about the new possibilities it brings, and the limitations it imposes on developer creativity.
 

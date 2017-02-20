@@ -6,6 +6,7 @@ categories:
   - tablet
   - mobility
   - desktop
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nexus10-desk2.jpg'
 ---
 I've been [working full time on my Android workstation](http://bergie.iki.fi/blog/working-on-android/) for over a month now, and it is time to write an update about it. How has it worked out?
 

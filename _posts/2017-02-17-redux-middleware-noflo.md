@@ -4,6 +4,7 @@ location: Berlin, Germany
 categories:
   - fbp
 layout: post
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo_middleware_chaining.png'
 ---
 _This post talks about some useful patterns for dataflow architecture in NoFlo web applications. We're using these concepts to build [Flowhub](https://flowhub.io), the flow-based programming IDE._
 

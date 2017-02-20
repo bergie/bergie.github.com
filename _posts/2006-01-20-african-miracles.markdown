@@ -4,6 +4,7 @@
     - "life"
     - "bestof"
   layout: "post"
+  cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/ice_from_the_heavens.jpg'
 
 ---
 I'm going to [Cape Town][1] next week to work on [a project][2] coordinated by the [City of Tampere][3]. The trip will be a welcome diversion from the current -22°C weather here in Finland.

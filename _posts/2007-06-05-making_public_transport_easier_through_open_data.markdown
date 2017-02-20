@@ -5,6 +5,7 @@
     - "politics"
     - "bestof"
   layout: "post"
+  cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/curitiba-public-transport-system.jpg'
 
 ---
 <a href="http://en.wikipedia.org/wiki/Public_transport">Public transport</a> is efficient, cheap and <a href="http://www.treehugger.com/files/2005/07/how_to_green_yo.php">quite green</a>, which is why I've been very happy about new services hitting Helsinki Public Transport, like <a href="http://bergie.iki.fi/blog/helsinki-to-provide-wifi-hotspots-in-public-transportation/">WiFi connectivity</a>, and of the fact that nowadays it is possibly to wait for Espooi buses comfortably <a href="http://www.kampinkeskus.fi/english/terminals/map.html">inside and underground</a>. However, having used public transport in dozens of cities and countries, I'd say the biggest hindrance to adoption is the difficulty of making connections between transport options.

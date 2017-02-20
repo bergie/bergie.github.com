@@ -5,6 +5,7 @@
     - "bestof"
     - "tablet"
   layout: "post"
+  cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/n810-home-screen.jpg'
 
 ---
 And I'm not talking about <a href="http://en.wikipedia.org/wiki/Vodka">vodka</a> this time, but instead about the latest <a href="http://en.wikipedia.org/wiki/Internet_appliance">internet tablet</a> from Nokia, <a href="http://www.amazon.com/Nokia-N810-Portable-Internet-Tablet/dp/B000Y4AH3C/ref=pd_bbs_sr_1?ie=UTF8&amp;s=electronics&amp;qid=1199711544&amp;sr=8-1">the N810</a>. I've now had the device for some weeks, and it has really <a href="http://bergie.iki.fi/blog/appliances_are_starting_to_take_over/">started to replace the laptop</a> in many situations.

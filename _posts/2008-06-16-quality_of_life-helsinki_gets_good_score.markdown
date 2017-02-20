@@ -4,6 +4,7 @@
     - "life"
     - "bestof"
   layout: "post"
+  cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/helsinki_south_harbour_from_air.JPG'
 
 ---
 <p>
