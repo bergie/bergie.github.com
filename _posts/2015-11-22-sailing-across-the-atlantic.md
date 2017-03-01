@@ -4,6 +4,7 @@ location: Leeds, United Kingdom
 layout: post
 categories:
   - life
+  - bestof
 cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/sailing-across-the-atlantic/small/helena-from-bow.jpg'
 ---
 [![Helena somewhere mid-Atlantic](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/sailing-across-the-atlantic/small/helena-from-bow.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/sailing-across-the-atlantic/helena-from-bow.png)
