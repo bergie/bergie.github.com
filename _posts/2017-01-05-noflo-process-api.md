@@ -266,14 +266,17 @@ exports.getComponent = function () {
  });
 
  // We also may need to clear the timer at network shutdown
- c.shutdown = function () {
+ c.tearDown = function (callback) {
    if (c.timer) {
      // Stop the interval and deactivate
      cleanup();
    }
    c.emit('end');
    c.started = false;
+   callback();
  }
+
+ return c;
 }
 ```
 
