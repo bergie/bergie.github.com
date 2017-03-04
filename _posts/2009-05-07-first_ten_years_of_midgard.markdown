@@ -1,9 +1,9 @@
 ---
-  title: "First ten years of Midgard"
-  categories: 
-    - "midgard"
-  layout: "post"
-
+title: "First ten years of Midgard"
+categories:
+  - "midgard"
+layout: "post"
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/10thanniversary.jpg'
 ---
 <p>
 <a href="http://www.midgard-project.org/10/">Ten years</a> is a long time. Exactly ten years ago we were sitting in a cramped office room in Espoo with <a href="http://jukkaz.wordpress.com/">Jukka Zitting</a>, frantically trying to put <a href="http://www.linuxtoday.com/developer/1999050701705NWSW">a release</a> together. We had been <a href="http://bergie.iki.fi/blog/on_vikings_and_free_software/">building a web platform for our living history group</a>, and it had become useful for others too.
