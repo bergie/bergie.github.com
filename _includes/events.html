@@ -1,0 +1,29 @@
+<script>
+var links = document.querySelectorAll('a[href]');
+var addEventForLink = function (link, domain) {
+  link.addEventListener('click', function () {
+    ga('send', 'event', 'outbound', 'click', domain);
+  });
+};
+var eventize = [
+  'app.flowhub.io',
+  'flowhub.io',
+  'noflojs.org'
+];
+Array.prototype.forEach.call(links, function (link) {
+  if (!link.attributes || !link.attributes.href) {
+    return;
+  }
+  var href = link.getAttribute('href');
+  if (!href) {
+    return;
+  }
+  for (var i = 0; i < eventize.length; i++) {
+    if (href.indexOf(eventize[i]) === -1) {
+      continue;
+    }
+    addEventForLink(link, eventize[i]);
+    return;
+  }
+});
+</script>
