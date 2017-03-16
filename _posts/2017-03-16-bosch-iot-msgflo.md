@@ -5,11 +5,13 @@ categories:
   - fbp
   - desktop
 layout: post
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bcx17-msgflo-hono.png'
+cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bcx17-open-hack.jpg'
 ---
 I've been attending the [Bosch Connected Experience IoT hackathon](http://bcw.bosch-si.com/berlin/bcw-hackathon/?refresh=1) this week at Station Berlin. Bosch brought a lot of different devices to the event, all connected to send telemetry to [Eclipse Hono](http://www.eclipse.org/hono/). To make them more discoverable, and enable rapid prototyping I decided to expose them all to [Flowhub](https://flowhub.io) via the [MsgFlo distributed FBP runtime](https://msgflo.org).
 
 The result is **[msgflo-hono](https://github.com/msgflo/msgflo-hono#readme)**, a tool that discovers devices from the Hono backend and exposes them as [foreign participants](https://msgflo.org/docs/foreign/) in a MsgFlo network.
+
+![BCX Open Hack](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bcx17-open-hack.jpg)
 
 This means that when you connect Flowhub to your MsgFlo coordinator, you have all connected devices appear there, with port for each sensor they expose. And since this is MsgFlo, you can easily pipe their telemetry data to any Node.js, Python, Rust, or other program.
 
@@ -35,3 +37,5 @@ Relevant links:
 
 * [msgflo-hono tool](https://github.com/msgflo/msgflo-hono#readme)
 * [Hono MsgFlo demo project](https://github.com/msgflo/msgflo-example-bcx17)
+
+![BCX entrance](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bcx17-entrance.jpg)
