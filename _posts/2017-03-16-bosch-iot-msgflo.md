@@ -19,6 +19,8 @@ This means that when you connect Flowhub to your MsgFlo coordinator, you have al
 
 Since this is a hackathon, there is a competition on projects make in this event. To make the Hono-to-MsgFlo connectivity, and Flowhub visual programming capabilities more demoable, I ended up hacking together a quick example project &mdash; a [Bosch XDK](https://xdk.bosch-connectivity.com/) controlled air theremin.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ziQmFjXYE3c" frameborder="0" allowfullscreen></iframe>
+
 This comes in three parts. First of all, we have the XDK exposed as a MsgFlo participant, and connected to a NoFlo graph running on Node.js
 
 [![Hono telemetry on MsgFlo](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bcx17-msgflo-hono-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bcx17-msgflo-hono.png)
