@@ -40,4 +40,6 @@ Relevant links:
 * [msgflo-hono tool](https://github.com/msgflo/msgflo-hono#readme)
 * [Hono MsgFlo demo project](https://github.com/msgflo/msgflo-example-bcx17)
 
+**Update:** we won the [Open Hack Challenge award for technical brilliance](https://twitter.com/Flowhub_io/status/842476310656086021) with this project.
+
 ![BCX entrance](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bcx17-entrance.jpg)
