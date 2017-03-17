@@ -13,7 +13,7 @@ Exactly a year ago today we flew from Berlin to Tenerife to depart on a sailing 
 
 I had sailed on Helena once before, on a [weekend trip in the Turku archipelago][2]. But crossing the Atlantic would be a more interesting adventure. For a month this two-masted tall ship would be our home on the ocean.
 
-# Departure
+## Departure
 
 Arriving to the harbour, Helena was easy to find moored next to a Czech "pirate ship". We registered with the captain and got assigned to the first watch, and then went out for a dinner dinner and some wine with some friends from Berlin who happened to be holidaying on the island.
 
@@ -29,7 +29,7 @@ Almost immediately after leaving port, we encountered the larger waves of the oc
 
 But human beings being as adaptable as they are, by the next day any signs of seasickness would be gone from pretty much everybody, and the whole group could enjoy the adventure ahead.
 
-# T/S Helena
+## T/S Helena
 
 Built in 1992, the steel hulled schooner [T/S Helena][3] is the main training ship of the [Finnish Sail Training Association][0]. Displacing 110 tons and with length of 38 meters, it is not a small sailboat.
 
@@ -41,7 +41,7 @@ Inside the ship we'd have cabins for each of the four watches, and a separate ar
 
 While the primary means of moving the ship is by sail, it is also outfitted with a powerful engine, as well as an auxiliary power unit for producing electricity and making drinking water.
 
-# Life on board
+## Life on board
 
 While underway, the life on board of Helena is dominated by the traditional naval [watch system][6], where the crew is divided into four watches, each with their own cabin.
 
@@ -75,7 +75,7 @@ In these conditions we'd often freshen up with a "prison shower" where the whole
 
 [![Swim break](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/sailing-across-the-atlantic/small/helena-swimbreak.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/sailing-across-the-atlantic/helena-swimbreak.jpg)
 
-# Night sailing
+## Night sailing
 
 One of the most memorable parts of the trip were the nights when our watch was on deck duty. Steering the big ship by stars, just like ancient Phoenicians.
 
@@ -85,7 +85,7 @@ Or when somebody else was manning the wheel just enjoying the constant shooting 
 
 [![Night navigation](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/sailing-across-the-atlantic/small/helena-night-navigation.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/sailing-across-the-atlantic/helena-night-navigation.jpg)
 
-# The route
+## The route
 
 Starting from Tenerife, we followed the traditional [Age of Sail route][7] along the coast of Africa to the [Cape Verde][8] islands, where we stopped for some provisions and recreation in the sleepy town of [Mindelo][9].
 
@@ -111,7 +111,7 @@ A traditional "crossing of the Atlantic" ceremony was held and then it was time 
 
 [![Leaving Helena](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/sailing-across-the-atlantic/small/helena-dinghy.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/sailing-across-the-atlantic/helena-dinghy.jpg)
 
-# Christmas in the Caribbean
+## Christmas in the Caribbean
 
 It didn't feel sensible to fly home directly, and so we decided to spend the Christmas on Martinique. This ended up being a very relaxed few days with nice cheese and wine and a candlelit balcony, as the power went out from the part of the island where we were on.
 
