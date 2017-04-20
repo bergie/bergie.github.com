@@ -134,3 +134,5 @@ However, I'd still like to CNC mill a proper wooden case for the keyboard. I may
 I'm also considering to order an [Atreus kit](https://atreus.technomancy.us/) so I'd have a second, always packed for travel keyboard. The kit comes with a PCB, which might work better at airport security checks than the hand-wired build.
 
 Another thing that is quite tempting is to make a custom firmware with [MicroFlo](http://microflo.org/). I have no complaints on how QMK works, but it'd be super-cool to use our [visual programming tool](https://flowhub.io/) to tweak the keyboard live.
+
+Big thanks to [Technomancy](http://github.com/technomancy) for the Atreus design, and to XenGi for all the help during the build!
