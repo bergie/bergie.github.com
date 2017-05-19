@@ -1,6 +1,8 @@
 name: "Henri Bergius"
 url: "http://bergie.iki.fi"
 author: "henri.bergius@iki.fi (Henri Bergius)"
+author_name: "Henri Bergius"
+author_url: "http://bergie.iki.fi/about"
 language: "en"
 permalink: /blog/:title/
 paginate: 10
