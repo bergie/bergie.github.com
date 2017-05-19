@@ -27,6 +27,7 @@
     <link rel="alternate" type="application/rss+xml" href="{{ base }}/blog/category/{{ page.categorization }}/rss.xml" title="'{{ page.categorization }}' feed">
     {% else %}
     <link rel="alternate" type="application/rss+xml" href="{{ base }}/blog/rss.xml" title="{{ site.name }} feed">
+    <link rel="alternate" type="application/json" href="{{ base }}/blog/feed.json" title="{{ site.name }} feed">
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="{{ page.title }}">

@@ -1,0 +1,29 @@
+---
+---
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": {{ site.name | jsonify }},
+  "description": {{ site.description | jsonify }},
+  "home_page_url": {{ site.url | jsonify }},
+  "feed_url": "{{ site.url }}{{ page.url }}",
+  "items": [
+    {% for post in site.posts limit:10 %}
+      {% capture post_url %}{{ site.url }}{{ post.url }}{% endcapture %}
+    {
+      "id": {{ post_url | jsonify }},
+      "url": {{ post_url | jsonify }},
+      "title": {{ post.title | jsonify }},
+      "content_html": {{ post.content | replace: 'href="/', 'href="http://bergie.iki.fi/' | jsonify }},
+      "date_published": {{ post.date | date_to_xmlschema | jsonify }},
+      "author": {
+        "name": {{ site.author_name | jsonify }},
+        "name": {{ site.author_url | jsonify }}
+      }
+    {% if forloop.last == true %}
+    }
+    {% else %}
+    },
+    {% endif %}
+  {% endfor %}
+  ]
+}
