@@ -4,3 +4,4 @@ linklint.log
 .DS_Store
 .jekyll-metadata
 Gemfile.lock
+/node_modules/
