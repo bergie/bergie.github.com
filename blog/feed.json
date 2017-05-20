@@ -7,6 +7,7 @@
   "home_page_url": {{ site.url | jsonify }},
   "icon": {{ site.icon | jsonify }},
   "feed_url": "{{ site.url }}{{ page.url }}",
+  "expired": false,
   "items": [
     {% for post in site.posts limit:10 %}
       {% capture post_url %}{{ site.url }}{{ post.url }}{% endcapture %}
