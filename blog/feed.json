@@ -21,7 +21,7 @@
       {% endif %}
       "author": {
         "name": {{ site.author_name | jsonify }},
-        "name": {{ site.author_url | jsonify }}
+        "url": {{ site.author_url | jsonify }}
       }
     {% if forloop.last == true %}
     }
