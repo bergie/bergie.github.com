@@ -91,5 +91,3 @@ In addition to providing lots of new APIs and functionality, NoFlo 0.8 also acts
 NoFlo 1.0 will essentially be 0.8, but with all the deprecated APIs removed. If you haven't done so already, now is a good time to upgrade your NoFlo projects to 0.8 and make sure everything runs without deprecation warnings.
 
 We intend to release NoFlo 1.0 later this summer once more of [our open source component libraries](http://github.com/noflo) have been updated to utilize the new features.
-
-[![Get 30% discount on Flowhub](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo6.png)](https://plans.flowhub.io)
