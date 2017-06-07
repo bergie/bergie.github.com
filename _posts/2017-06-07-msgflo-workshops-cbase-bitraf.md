@@ -13,7 +13,7 @@ This July we're organizing two hack weekends around [MsgFlo](https://msgflo.org/
 
 Both of these will focus on reprogramming the Internet of Things setup of the hackerspace. The aim is to connect more devices at the spaces to the MsgFlo environment, and come up with new connections between systems, and ways to visualize them.
 
-If you're interested, feel welcome to join! Bring your own laptop. For the Bitraf event, please [register on the Meetup page](https://www.meetup.com/bitraf/events/240605453/).
+If you're interested, feel welcome to join! Bring your own laptop. For the Bitraf event, please [register on the Meetup page](https://www.meetup.com/bitraf/events/240605453/). For c-base, add yourself to the [Facebook event](https://www.facebook.com/events/320514831713279/).
 
 [![c-base disco mode](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/detect-abba-small.png)](https://s3.eu-central-1.amazonaws.com/detect-abba.png)
 
