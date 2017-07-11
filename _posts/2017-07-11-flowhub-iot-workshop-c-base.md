@@ -77,7 +77,7 @@ One part of the IoT setup was to make statistics and announcements about c-base 
 
 [![Info screens ready for installing](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/c-base-iot-infoscreen-install-small.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/c-base-iot-infoscreen-install.jpg)
 
-The announcements shown on the screens range from mission critical information like station power consumption or whether the bar is open, as well as more fictional ones like the [NoFlo-powered space station announcements](https://github.com/c-base/station-announcer).
+The announcements shown on the screens range from mission critical information like station power consumption or whether the bar is open, to more fictional ones like the [NoFlo-powered space station announcements](https://github.com/c-base/station-announcer).
 
 [![Air lock](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/c-base-iot-c-leuse-small.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/c-base-iot-c-leuse.jpg)
 
