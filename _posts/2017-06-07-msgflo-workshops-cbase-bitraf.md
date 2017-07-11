@@ -34,3 +34,7 @@ You don't have to an expert to participate. We'll be there to help you get up to
 * MsgFlo: [project website](https://msgflo.org/)
 
 [![c-flo station at c-base](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/siri-cflo-station-small.jpg)](https://s3.eu-central-1.amazonaws.com/siri-cflo-station.jpg)
+
+---
+
+*If you'd like to have a similar IoT workshop at your company, we're happy to organize one. [Get in touch](https://flowhub.io/about/)!*

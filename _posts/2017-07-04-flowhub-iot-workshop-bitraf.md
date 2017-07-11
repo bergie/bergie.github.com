@@ -96,4 +96,6 @@ In general the development tools we provided worked well. Everybody was able to 
 
 With these two, everybody could easily wire up some sensors and see their data in both Flowhub and the OpenMCT dashboard. From the local setup going to production was just a matter of switching the MQTT broker configuration.
 
-*In the coming weekend we're doing the same workshop [at c-base](https://logbuch.c-base.org/archives/2647). I'm looking forward to seeing what gets built there. If you're in town, [join the hack weekend](https://www.facebook.com/events/320514831713279/)!*
+---
+
+*If you'd like to have a similar IoT workshop at your company, we're happy to organize one. [Get in touch](https://flowhub.io/about/)!*
