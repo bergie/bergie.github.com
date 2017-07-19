@@ -102,3 +102,5 @@ But obviously there are some downsides as well:
 This tablet work setup is for now an experiment. If I find it hindering my productivity, I'll just have to get one of the laptops mentioned in the beginning of this post and work in more traditional manner. But if it works, then great! In that case I have finally found a more modern setup for programming work &mdash; one that gives me both better ergonomics and mobility.
 
 I will try this setup for some period of time, and then report the results [here on my blog](http://bergie.iki.fi).
+
+**Update:** Read my [Working on Android, 2017 edition](/blog/working-on-android-2017/) post.
