@@ -54,6 +54,10 @@ a:hover {
 body.about a {
   color: #ffffff;
 }
+body.about p a {
+  color: #ffffff;
+  text-decoration: underline;
+}
 
 code {
   color: #333333;
