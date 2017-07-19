@@ -10,6 +10,8 @@ If you've been following my blog, you might have noticed that lately I've starte
 
 Both environments have their strong points. Node.js is very fast and flexible, but PHP has a lot more mature tools and libraries available. So in a lot of projects it is hard to choose between the two. But now you might not have to.
 
+**Update:** The post and the approach described here are quite dated by now. Instead of DNode, I'd recommend [using message queues](/blog/forget-http-microservices/) for this type of integration. Our [MsgFlo framework](https://msgflo.org/) provides a great way to build heterogeneous applications.
+
 ## Enter DNode
 
 [DNode](http://substack.net/posts/85e1bd/DNode-Asynchronous-Remote-Method-Invocation-for-Node-js-and-the-Browser) is a _remote method invocation_ protocol originally written for Node.js, as the name probably tells. But as [the protocol](https://github.com/substack/dnode-protocol#readme) itself is quite simple, just sending newline-terminated JSON packets over TCP connections, implementations have started popping up in other languages. You can talk DNode in [Ruby](https://github.com/substack/dnode-ruby), [Perl](https://github.com/substack/dnode-perl), [Python](https://github.com/jesusabdullah/dnode-python), [Java](https://github.com/aslakhellesoy/dnode-java), and now [PHP](https://github.com/bergie/dnode-php).
