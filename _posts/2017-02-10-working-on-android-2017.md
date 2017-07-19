@@ -92,7 +92,7 @@ However, when stationary, no laptop keyboard compares to a real mechanical keybo
 
 This tenkeyless (60%) keyboard is extremely comfortable to type on. However, the sturdy metal case means that it is a little too big and heavy to carry on a daily basis.
 
-In practice I've only taken with me when there has been a longer trip where I know that I'll be doing a lot of typing. To solve this, I'm actually [looking to build](https://www.instagram.com/p/BP0lNxJDng_/?taken-by=henribergius) a more compact custom mechanical keyboard so I could always have it with me.
+In practice I've only taken the mechanical keyboard with me when there has been a longer trip where I know that I'll be doing a lot of typing. To solve this, I'm actually [looking to build](https://www.instagram.com/p/BP0lNxJDng_/?taken-by=henribergius) a more compact custom mechanical keyboard so I could always have it with me. (**Update**: [here is the keyboard I built](http://bergie.iki.fi/blog/atreus-build-log/)).
 
 ## Comparison with iOS
 
