@@ -26,28 +26,32 @@ Like most Node.js functionality, DNode works asynchronously. So instead of waiti
 
 Here is a simple DNode service for Node.js:
 
-    var dnode = require('dnode');
-    var server = dnode({
-        zing: function (n, cb) { cb(n * 100) }
-    });
-    server.listen(7070);
+```javascript
+var dnode = require('dnode');
+var server = dnode({
+    zing: function (n, cb) { cb(n * 100) }
+});
+server.listen(7070);
+```
 
 This creates a DNode service running in TCP port 7070 that provides one method: _zing_ that multiplies the value given to it by 100 and sends the result to the callback provided.
 
 Calling this with PHP is easy:
 
-    // Connect to DNode server running in port 7070 and call 
-    // Zing with argument 33
-    $dnode = new DNode\DNode();
-    $dnode->connect(7070, function($remote, $connection) {
-        // Remote is a proxy object that provides us all methods
-        // from the server
-        $remote->zing(33, function($n) use ($connection) {
-            echo "n = {$n}\n";
-            // Once we have the result we can close the connection
-            $connection->end();
-        });
+```php
+// Connect to DNode server running in port 7070 and call
+// Zing with argument 33
+$dnode = new DNode\DNode();
+$dnode->connect(7070, function($remote, $connection) {
+    // Remote is a proxy object that provides us all methods
+    // from the server
+    $remote->zing(33, function($n) use ($connection) {
+        echo "n = {$n}\n";
+        // Once we have the result we can close the connection
+        $connection->end();
     });
+});
+```
 
 Now just start the server:
 
@@ -68,20 +72,22 @@ Because only simple TCP connections and JSON packets are used, this is quite fas
 
 PHP can also act as a DNode server. You instantiate the DNode class and pass it the object you want to expose via DNode. All public methods of the object will be made available to the DNode clients:
 
-    // This is the class we're exposing to DNode
-    class Zinger
+```php
+// This is the class we're exposing to DNode
+class Zinger
+{
+    // Public methods are made available to the network
+    public function zing($n, $cb)
     {
-        // Public methods are made available to the network
-        public function zing($n, $cb)
-        {
-            // Dnode is async, so we return via callback
-            $cb($n * 100);
-        }
+        // Dnode is async, so we return via callback
+        $cb($n * 100);
     }
+}
 
-    // Create a DNode server
-    $server = new DNode\DNode(new Zinger());
-    $server->listen(7070);
+// Create a DNode server
+$server = new DNode\DNode(new Zinger());
+$server->listen(7070);
+```
 
 This DNode service will obviously be visible for both Node.js and PHP clients.
 
@@ -91,51 +97,55 @@ A DNode client can also expose methods to the server. In this example the server
 
 Server:
 
-    // This is the class we're exposing to DNode
-    class Converter
+```php
+// This is the class we're exposing to DNode
+class Converter
+{
+    // Poll the client's own temperature() in celsius
+    // and convert that value to fahrenheit in the supplied
+    // callback
+    public function clientTempF($cb)
     {
-        // Poll the client's own temperature() in celsius
-        // and convert that value to fahrenheit in the supplied 
-        // callback
-        public function clientTempF($cb)
-        {
-            // The other side of DNode connection is exposed via
-            // $this->remote proxy object
-            $this->remote->temperature(function($degC) use ($cb) {
-                $degF = round($degC * 9 / 5 + 32);
-                $cb($degF);
-            });
-        }
+        // The other side of DNode connection is exposed via
+        // $this->remote proxy object
+        $this->remote->temperature(function($degC) use ($cb) {
+            $degF = round($degC * 9 / 5 + 32);
+            $cb($degF);
+        });
     }
+}
 
-    // Create a DNode server that listens to port 6060
-    $server = new DNode\DNode(new Converter());
-    $server->listen(6060);
+// Create a DNode server that listens to port 6060
+$server = new DNode\DNode(new Converter());
+$server->listen(6060);
+```
 
 Client:
 
-    // This is the class we're exposing to DNode
-    class Temp
+```php
+// This is the class we're exposing to DNode
+class Temp
+{
+    // Compute the client's temperature and stuff that value
+    // into the callback
+    public function temperature($cb)
     {
-        // Compute the client's temperature and stuff that value
-        // into the callback
-        public function temperature($cb)
-        {
-            $degC = rand(-20, 50);
-            echo "{$degC}° C\n";
-            $cb($degC);
-        }
+        $degC = rand(-20, 50);
+        echo "{$degC}° C\n";
+        $cb($degC);
     }
+}
 
-    $dnode = new DNode\DNode(new Temp());
-    $dnode->connect(6060, function($remote, $connection) {
-        // Ask server for temperature in Fahrenheit
-        $remote->clientTempF(function($degF) use ($connection) {
-            echo "{$degF}° F\n";
-            // Close the connection
-            $connection->end();
-        });
+$dnode = new DNode\DNode(new Temp());
+$dnode->connect(6060, function($remote, $connection) {
+    // Ask server for temperature in Fahrenheit
+    $remote->clientTempF(function($degF) use ($connection) {
+        echo "{$degF}° F\n";
+        // Close the connection
+        $connection->end();
     });
+});
+```
 
 Then just start the server:
 
