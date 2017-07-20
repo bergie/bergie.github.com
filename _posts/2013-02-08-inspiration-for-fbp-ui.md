@@ -140,3 +140,5 @@ There are many things to consider:
 All of this will obviously take a lot of time, but we'll have to see how far we get with the first iteration. Having an editor that people find more usable than [writing graphs](https://github.com/noflo/noflo#language-for-flow-based-programming) by hand should be the first goal.
 
 If you're interested in this, please follow the [noflo-ui](https://github.com/noflo/noflo-ui) and [dataflow](https://github.com/meemoo/dataflow) repositories. The [Flow-based programming](http://groups.google.com/group/flow-based-programming) mailing list is also a great place to discuss your ideas.
+
+**Update:** this work eventually lead us to building [Flowhub](https://flowhub.io), a web-based IDE that works across all flow-based programming systems. Check it out!
