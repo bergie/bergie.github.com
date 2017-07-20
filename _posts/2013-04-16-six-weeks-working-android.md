@@ -133,3 +133,5 @@ The experiment will keep continue. In these six weeks, I haven't seen any negati
 Of course, new devices come to the market, and eventually something will come that beats the current setup. But then I'll be able to switch without even losing my cursor position, so the only cost is the hardware itself.
 
 In time, I will write more about how things are going.
+
+**Update:** Read my [Working on Android, 2017 edition](/blog/working-on-android-2017/) post.
