@@ -21,9 +21,9 @@ Please refer to [the NPM documentation](https://npmjs.org/doc/developers.html) o
       }
     },
 
-If you're publishing FBP graphs in either [.json](https://github.com/bergie/noflo/blob/master/examples/linecount/count.json) or [.fbp](https://github.com/bergie/noflo/blob/master/examples/linecount/count.fbp) format, just provide them similarly with the `graphs` key. Components can be either in CoffeeScript or JavaScript, the NoFlo ComponentLoader will handle the coffee compilation transparently.
+If you're publishing FBP graphs in either [.json](https://github.com/noflo/noflo/blob/master/examples/linecount/count.json) or [.fbp](https://github.com/noflo/noflo/blob/master/examples/linecount/count.fbp) format, just provide them similarly with the `graphs` key. Components can be either in CoffeeScript or JavaScript, the NoFlo ComponentLoader will handle the coffee compilation transparently.
 
-For examples, check out [noflo-yaml](https://github.com/bergie/noflo-yaml) or [noflo-basecamp](https://github.com/bergie/noflo-basecamp).
+For examples, check out [noflo-yaml](https://github.com/noflo/noflo-yaml) or [noflo-basecamp](https://github.com/noflo/noflo-basecamp).
 
 ## Listing installed components
 

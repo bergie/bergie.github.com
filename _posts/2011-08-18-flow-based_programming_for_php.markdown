@@ -9,11 +9,11 @@ You may have seen my earlier [post about NoFlo](http://bergie.iki.fi/blog/deskto
 
 ![NoFlo-powered web server](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/tumblr_lq12x0Sf481qies3uo1_500.png)
 
-Yesterday Igor Wiedler published [Evenement](https://github.com/igorw/Evenement), a PHP port of the EventEmitter class from Node.js. As [NoFlo](https://github.com/bergie/noflo) builds quite heavily on EventEmitter, I decided to see how far the PHP port could be taken.
+Yesterday Igor Wiedler published [Evenement](https://github.com/igorw/Evenement), a PHP port of the EventEmitter class from Node.js. As [NoFlo](https://github.com/noflo/noflo) builds quite heavily on EventEmitter, I decided to see how far the PHP port could be taken.
 
-As result, there is now [PhpFlo](https://github.com/bergie/phpflo), a flow-based programming environment for PHP.
+As result, there is now [PhpFlo](https://github.com/phpflo/phpflo), a flow-based programming environment for PHP.
 
-Example of how to define and run a flow (you can also use [a JSON format](https://github.com/bergie/phpflo/blob/master/examples/linecount/count.json) for this):
+Example of how to define and run a flow (you can also use [a JSON format](https://github.com/phpflo/phpflo/blob/master/examples/linecount/count.json) for this):
 
     // Add nodes to the graph
     $graph = new PhpFlo\Graph("linecount");

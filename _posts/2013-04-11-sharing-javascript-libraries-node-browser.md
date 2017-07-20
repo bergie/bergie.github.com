@@ -10,7 +10,7 @@ layout: post
 ---
 I'm currently in the process of porting the [NoFlo](http://noflojs.org) Flow-Based Programming environment to run also in the browser. While there are some obvious differences in things like filesystem interaction and component loading, the goal here is to reuse as much of the same code as possible between these two platforms.
 
-Many of the building blocks are already in place, and so the port should be complete still this week. You can track the work in [issue 63](https://github.com/bergie/noflo/issues/63).
+Many of the building blocks are already in place, and so the port should be complete still this week. You can track the work in [issue 63](https://github.com/noflo/noflo/issues/63).
 
 **Update:** the post below is mostly of historical value. Nowadays I would recommend using NPM for dependency management and [Webpack](https://webpack.js.org) for browser builds. For NoFlo, [grunt-noflo-browser](https://github.com/noflo/grunt-noflo-browser) provides automation for this.
 

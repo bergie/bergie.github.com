@@ -19,7 +19,7 @@ cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/a8d40946bd1111e087e0
 
 Done in a right way, this would finally enable true productive visual programming. Maybe the developer tool tablets are waiting for? 
 
-I'm currently reading [the book](http://www.jpaulmorrison.com/fbp/) on the subject, and building a proof-of-concept implementation in Node.js and CoffeeScript: <http://github.com/bergie/noflo>
+I'm currently reading [the book](http://www.jpaulmorrison.com/fbp/) on the subject, and building a proof-of-concept implementation in Node.js and CoffeeScript: <http://github.com/noflo/noflo>
 
 GUI is slowly coming up, powered by [jsPlumb](http://jsplumb.org/jquery/demo.html):
 

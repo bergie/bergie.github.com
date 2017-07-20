@@ -87,7 +87,7 @@ Any business analytics system dealing with moderate amounts of data can be built
 
 * [Apache CouchDB](http://couchdb.apache.org/) is the central data store
 * All data is stored as [JSON-LD](http://json-ld.org/) entities
-* [NoFlo](https://github.com/bergie/noflo#readme) handles all data imports
+* [NoFlo](https://noflojs.org/) handles all data imports
 * Analytics based on the data are done with CouchDB map/reduce
 * Visualization happens with a CouchApp using [JavaScript InfoVis Toolkit](http://thejit.org/)
 

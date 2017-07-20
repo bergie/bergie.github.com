@@ -10,7 +10,7 @@ location: Berlin, Germany
 layout: post
 cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/leigh-concept-small.jpg'
 ---
-[NoFlo](http://noflojs.org) &mdash; the flow-based programming system I started &mdash; is now two years old. I [pushed the first commits](https://github.com/bergie/noflo/commit/04698a77272d9cd552ac57ca511ec8f05696ea40) to GitHub on June 5th 2011 from [Hacker Dojo](http://www.hackerdojo.com/) in Mountain View. To get us started with the story, I'll let [Wikipedia summarize](http://en.wikipedia.org/wiki/Flow-based_programming):
+[NoFlo](http://noflojs.org) &mdash; the flow-based programming system I started &mdash; is now two years old. I [pushed the first commits](https://github.com/noflo/noflo/commit/04698a77272d9cd552ac57ca511ec8f05696ea40) to GitHub on June 5th 2011 from [Hacker Dojo](http://www.hackerdojo.com/) in Mountain View. To get us started with the story, I'll let [Wikipedia summarize](http://en.wikipedia.org/wiki/Flow-based_programming):
 
 > Flow-based programming (FBP) is a programming paradigm that defines applications as networks of "black box" processes, which exchange data across predefined connections by message passing, where the connections are specified externally to the processes. These black box processes can be reconnected endlessly to form different applications without having to be changed internally.
 
@@ -32,7 +32,7 @@ Having worked with component architectures and Unix pipes before, the idea reson
 
 ![The coastal road in Oregon](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/oregon-coast.jpg)
 
-Implementing your own is usually the best method for learning a new concept, and so when I got back to the Bay Area, I decided to write an [FBP system of my own](https://github.com/bergie/noflo) on Node.js.
+Implementing your own is usually the best method for learning a new concept, and so when I got back to the Bay Area, I decided to write an [FBP system of my own](https://noflojs.org) on Node.js.
 
 I also kept a [Qaiku](http://en.wikipedia.org/wiki/Qaiku) thread on the things I discovered, parts of which I later [republished on this site](http://bergie.iki.fi/blog/flow-based-programming-is-interesting/).
 
@@ -72,7 +72,7 @@ Because FBP components are just black boxes performing some well-defined task on
 
 As an example, my typical NoFlo applications only contain some 5-15% of components written specifically for that project. The rest are all coming from the [growing ecosystem](https://npmjs.org/browse/depended/noflo) of ready-made NoFlo components.
 
-Writing and [publishing components](http://bergie.iki.fi/blog/distributing-noflo-components/) is already quite easy, and is becoming even faster and more reliable through tools like the [Grunt component scaffolder](https://github.com/bergie/grunt-init-noflo) and [noflo-test](https://github.com/bergie/noflo-test).
+Writing and [publishing components](http://bergie.iki.fi/blog/distributing-noflo-components/) is already quite easy, and is becoming even faster and more reliable through tools like the [Grunt component scaffolder](https://github.com/noflo/grunt-init-noflo) and [noflo-test](https://github.com/noflo/noflo-test).
 
 *The more components are out there the less time we need to spend writing code, and the more we can focus on designing the software logic itself.*
 
@@ -88,20 +88,20 @@ The ability to run client-side flow-based programs presents new opportunities. T
 
 Since NoFlo graphs run on any device including the tablets and smartphones that the application being designed is likely to target, it can provide an even better environment for such prototyping. There are lots of opportunities for a new tool here, especially given that [Quartz Composer's future is quite uncertain](http://www.fcp.co/final-cut-pro/news/932-will-the-end-of-apple-s-quartz-composer-finally-kill-off-final-cut-pro-7-and-its-plugins).
 
-We are already doing some work on [visual interaction components for NoFlo](https://github.com/bergie/noflo/issues/66). This could be huge for NoFlo and FBP in general!
+We are already doing some work on [visual interaction components for NoFlo](https://github.com/noflo/noflo/issues/66). This could be huge for NoFlo and FBP in general!
 
 ## UI is the missing part
 
 What we have with NoFlo is already a quite solid programming environment:
 
-* [Flow-based engine](https://github.com/bergie/noflo) that works well in both browser and Node.js
+* [Flow-based engine](https://noflojs.org) that works well in both browser and Node.js
 * Growing ecosystem of [reusable open source components](https://npmjs.org/browse/depended/noflo)
-* Framework for quickly [scaffolding](https://github.com/bergie/grunt-init-noflo) and [testing](https://github.com/bergie/noflo-test) new components
+* Framework for quickly [scaffolding](https://github.com/noflo/grunt-init-noflo) and [testing](https://github.com/noflo/noflo-test) new components
 * Domain-specific language for [defining NoFlo graphs](https://github.com/noflo/fbp#language-for-flow-based-programming)
 
 However, the missing part is a tool that would allow viewing and editing NoFlo graphs visually. Sure, [DrawFBP](http://www.jpaulmorrison.com/cgi-bin/wiki.pl?DrawFBP) is there, and can be used with NoFlo. But something fitting modern touchscreen interactions and more connected to the live graphs would be better.
 
-I did some prototypes on this with [noflo-ui](https://github.com/bergie/noflo-ui), and wrote down [bunch of thoughts](http://bergie.iki.fi/blog/inspiration-for-fbp-ui/) on how the graphs would be best shown. There has also been some collaboration with Forrest Oliphant of [Meemoo](http://meemoo.org/) fame.
+I did some prototypes on this with [noflo-ui](https://github.com/noflo/noflo-ui), and wrote down [bunch of thoughts](http://bergie.iki.fi/blog/inspiration-for-fbp-ui/) on how the graphs would be best shown. There has also been some collaboration with Forrest Oliphant of [Meemoo](http://meemoo.org/) fame.
 
 Last week I sat down with [Leigh Taylor](http://www.behance.net/leightaylor), the original designer behind the [Medium](https://medium.com/) blogging platform, to go through the various ideas and concepts we had. Based on this we're starting to have a quite solid design to continue working with.
 

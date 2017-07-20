@@ -7,7 +7,7 @@ location: Berlin, Germany
 layout: post
 cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/bvg-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/bvg.png'
 ---
-As readers of this blog already know, I've been working on the [NoFlo](http://noflojs.org/) flow-based programming environment for JavaScript. Lately the development effort has received a large boost from both the EU-funded [SmarcoS Project](http://smarcos-project.eu/) and client work, and so the question of a [flow design UI](https://github.com/bergie/noflo/issues/1) has become even more urgent.
+As readers of this blog already know, I've been working on the [NoFlo](http://noflojs.org/) flow-based programming environment for JavaScript. Lately the development effort has received a large boost from both the EU-funded [SmarcoS Project](http://smarcos-project.eu/) and client work, and so the question of a [flow design UI](https://github.com/noflo/noflo/issues/1) has become even more urgent.
 
 ![NoFlo](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/noflo.png)
 
@@ -21,7 +21,7 @@ This is the most functionally-complete FBP user interface, but is somewhat limit
 
 [![DrawFBP](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/drawfbp-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/drawfbp.png)
 
-I've been working on a web-based user interface purpose-built for NoFlo called **[noflo-ui](https://github.com/bergie/noflo-ui)**. Here input ports are on the left, and output ports on the right. Boxes depict ArrayPorts:
+I've been working on a web-based user interface purpose-built for NoFlo called **[noflo-ui](https://github.com/noflo/noflo-ui)**. Here input ports are on the left, and output ports on the right. Boxes depict ArrayPorts:
 
 [![noflo-ui](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/noflo-ui-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/noflo-ui.png)
 
@@ -29,7 +29,7 @@ The noflo-ui interface benefits from being able to talk directly to NoFlo itself
 
 ### Visualizing written flows
 
-While the user interface is missing, the typical way to visualize NoFlo graphs is using [the `.fbp` domain-specific language](https://github.com/bergie/noflo#language-for-flow-based-programming). In that, the graph shown in the screenshots above would be written as:
+While the user interface is missing, the typical way to visualize NoFlo graphs is using [the `.fbp` domain-specific language](https://github.com/noflo/noflo#language-for-flow-based-programming). In that, the graph shown in the screenshots above would be written as:
 
     # Read a file
     'package.json' -> IN Read(ReadFile)
@@ -43,7 +43,7 @@ While the user interface is missing, the typical way to visualize NoFlo graphs i
     # Display also file read errors
     Read() ERROR -> IN Display()
 
-The **[noflo-graphviz](https://github.com/bergie/noflo-graphviz)** tool can be used for generating visual graphs out of this syntax:
+The **[noflo-graphviz](https://github.com/noflo/noflo-graphviz)** tool can be used for generating visual graphs out of this syntax:
 
 [![noflo-graphviz](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/noflo-graphviz-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/noflo-graphviz.png)
 
@@ -119,7 +119,7 @@ There are some key points here:
 * Use color. Different flows in your program could be depicted as their own "subway lines"
 * Nodes that are only connected to a single flow (for example, filters and converters) can be minimized, and more focus given to nodes where different flows interspect
 
-[NoFlo 0.3.1](https://github.com/bergie/noflo/blob/master/CHANGES.md#031-git-master) will make it possible to annotate connections in a flow with arbitrary "route names" that can then be assigned to colors for visualization purposes.
+[NoFlo 0.3.1](https://github.com/noflo/noflo/blob/master/CHANGES.md#031-git-master) will make it possible to annotate connections in a flow with arbitrary "route names" that can then be assigned to colors for visualization purposes.
 
 Quite some research and tools already exist for [automatic generation of subway maps](http://blog.visualmotive.com/2009/automatic-generation-of-transit-maps/). Maybe some of these could be repurposed to give the NoFlo UI a "bird's eye view" to your flow-based programs?
 
@@ -134,9 +134,9 @@ There are many things to consider:
 * Refactoring: moving parts of a graph to its own subgraph, or "blowing up" a subgraph back into the main graph
 * Browsing the available components and graphs
 * Seeing compatible port types when making a connection
-* Writing new [components](https://github.com/bergie/noflo#components) and modifying existing, maybe with [CodeMirror](http://codemirror.net/)
+* Writing new [components](https://github.com/noflo/noflo#components) and modifying existing, maybe with [CodeMirror](http://codemirror.net/)
 * Running the NoFlo graph and seeing the packets passing through the different parts
 
-All of this will obviously take a lot of time, but we'll have to see how far we get with the first iteration. Having an editor that people find more usable than [writing graphs](https://github.com/bergie/noflo#language-for-flow-based-programming) by hand should be the first goal.
+All of this will obviously take a lot of time, but we'll have to see how far we get with the first iteration. Having an editor that people find more usable than [writing graphs](https://github.com/noflo/noflo#language-for-flow-based-programming) by hand should be the first goal.
 
-If you're interested in this, please follow the [noflo-ui](https://github.com/bergie/noflo-ui) and [dataflow](https://github.com/meemoo/dataflow) repositories. The [Flow-based programming](http://groups.google.com/group/flow-based-programming) mailing list is also a great place to discuss your ideas.
+If you're interested in this, please follow the [noflo-ui](https://github.com/noflo/noflo-ui) and [dataflow](https://github.com/meemoo/dataflow) repositories. The [Flow-based programming](http://groups.google.com/group/flow-based-programming) mailing list is also a great place to discuss your ideas.
