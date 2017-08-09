@@ -5,7 +5,7 @@
   layout: "post"
 
 ---
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midcom.gif" style="float: right; height: 124px; width: 124px; border: none;" alt="midcom.gif" />
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/midcom.gif" style="float: right; height: 124px; width: 124px; border: none;" alt="midcom.gif" />
 Looking at the recent developments in [Midgard CMS][1] space, it looks like the [MidCOM][2], the Midgard Component Framework developed by [Torben Nehmer][3] has finally established itself as the default Midgard development framework for [PHP][4].
 
 While I already forecasted this in my April 2003 article [Why MidCOM rocks][5], it is still not a surprise that this has taken so long. MidCOM requires very different and much stricter development style than "pure Midgard" applications have used to follow. However, the [advantages][6] are substantial:

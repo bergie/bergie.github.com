@@ -6,7 +6,7 @@
 
 ---
 <p>
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nikola_tesla-1.jpg" height="273" width="200" border="1" align="right" hspace="8" vspace="4" alt="Nikola Tesla" title="Nikola Tesla" /></p><p>
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/nikola_tesla-1.jpg" height="273" width="200" border="1" align="right" hspace="8" vspace="4" alt="Nikola Tesla" title="Nikola Tesla" /></p><p>
 <a href="http://www.tankriot.com/">Tank Riot</a> from two weeks ago has <a href="http://www.tankriot.com/2008/046/">a podcast on Nikola Tesla</a>, a very <a href="http://en.wikipedia.org/wiki/Nikola_Tesla#Personality">interesting character</a> behind <a href="http://www.opposingdigits.com/forums/viewtopic.php?t=2752">many of the inventions</a> that enabled the modern age, including AC electricity, radio, and possibly even more interesting things. From <a href="http://en.wikipedia.org/wiki/Nikola_Tesla">the Wikipedia page</a>:
 </p><blockquote>
 Tesla is best known for his many revolutionary contributions to the discipline of electricity and magnetism in the late 19th and early 20th century. Tesla's patents and theoretical work formed the basis of modern alternating current electric power (AC) systems, including the polyphase power distribution systems and the AC motor, with which he helped usher in the Second Industrial Revolution. Contemporary biographers of Tesla have deemed him &quot;<em>the man who invented the twentieth century</em>&quot; and &quot;<em>the patron saint of modern electricity</em>.&quot;

@@ -5,11 +5,11 @@ categories:
   - bestof
 location: Berlin, Germany
 layout: post
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/bvg-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/bvg.png'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/bvg-small.png)](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/bvg.png'
 ---
 As readers of this blog already know, I've been working on the [NoFlo](http://noflojs.org/) flow-based programming environment for JavaScript. Lately the development effort has received a large boost from both the EU-funded [SmarcoS Project](http://smarcos-project.eu/) and client work, and so the question of a [flow design UI](https://github.com/noflo/noflo/issues/1) has become even more urgent.
 
-![NoFlo](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/noflo.png)
+![NoFlo](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/noflo.png)
 
 In nutshell, [flow-based programming](http://en.wikipedia.org/wiki/Flow-based_programming) (FBP) is a paradigm where programs are built from components that have a set of defined input and output ports. These ports are then wired together to make a graph that defines the logic and the data flow.
 
@@ -19,11 +19,11 @@ At the moment there are two user interfaces that can be used for defining NoFlo 
 
 This is the most functionally-complete FBP user interface, but is somewhat limited by Java's cross-desktop capabilities and the inability to introspect the information available via NoFlo's [component loading interface](http://bergie.iki.fi/blog/distributing-noflo-components/). In any case, it is a great place to start exploring NoFlo development visually:
 
-[![DrawFBP](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/drawfbp-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/drawfbp.png)
+[![DrawFBP](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/drawfbp-small.png)](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/drawfbp.png)
 
 I've been working on a web-based user interface purpose-built for NoFlo called **[noflo-ui](https://github.com/noflo/noflo-ui)**. Here input ports are on the left, and output ports on the right. Boxes depict ArrayPorts:
 
-[![noflo-ui](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/noflo-ui-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/noflo-ui.png)
+[![noflo-ui](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/noflo-ui-small.png)](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/noflo-ui.png)
 
 The noflo-ui interface benefits from being able to talk directly to NoFlo itself, and so getting all the metadata about components and their ports. The current iteration was built with the [jsPlumb](http://www.jsplumb.org/) library, and works also on touchscreen devices. Imagine programming your NoFlo graphs on a tablet!
 
@@ -45,7 +45,7 @@ While the user interface is missing, the typical way to visualize NoFlo graphs i
 
 The **[noflo-graphviz](https://github.com/noflo/noflo-graphviz)** tool can be used for generating visual graphs out of this syntax:
 
-[![noflo-graphviz](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/noflo-graphviz-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/noflo-graphviz.png)
+[![noflo-graphviz](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/noflo-graphviz-small.png)](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/noflo-graphviz.png)
 
 While in the real world you'd probably want to edit the graphs visually, at least the graphviz tool can be useful for autogenerating documentation for larger flow-based programs.
 
@@ -53,7 +53,7 @@ While in the real world you'd probably want to edit the graphs visually, at leas
 
 Flow-based programming is not a new idea, and there are many other implementations available, from programming languages like [Go](https://github.com/trustmaster/goflow) to [purely browser-based](http://meemoo.org/) environments. The [dataflow library](https://github.com/meemoo/dataflow) aims to provide a common web-based toolkit for managing flows in any FBP environment:
 
-[![dataflow](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/dataflow-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/dataflow.png)
+[![dataflow](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/dataflow-small.png)](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/dataflow.png)
 
 When the library matures a bit more, it is likely to be the basis for NoFlo's graph editing interface.
 
@@ -67,7 +67,7 @@ Flow-based programming tools can help a lot here, as the main logic of a program
 
 With NoFlo we can even connect the user interface to a already running piece of software, allowing users to see what is going on and to make changes while the application is runs. Think of the [mimic boards in nuclear power plants](http://ec.europa.eu/avservices/photo/photoDetails.cfm?sitelang=en&mgid=503#14) where the operators can constantly see the status of every part of the process.
 
-![Mimic board in a power plant](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/mimicboard.png)
+![Mimic board in a power plant](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/mimicboard.png)
 
 ### Visual identity
 
@@ -77,7 +77,7 @@ Consider this line from [Tron: Legacy](http://en.wikiquote.org/wiki/Tron:_Legacy
 
 > The grid. A digital frontier. I tried to picture clusters of information as they moved through the computer. What did they look like? Ships? Motorcycles? Were the circuits like freeways? I kept dreaming of a world I thought I'd never see. And then one day...
 
-![Tron: Legacy opening titles](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/tron.png)
+![Tron: Legacy opening titles](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/tron.png)
 
 There is certainly something of flow-based programming right there. And this is why the current NoFlo UI has a distinct [Tron-like look](http://youtu.be/uSaMncmaz8g) to it.
 
@@ -87,17 +87,17 @@ Another approach would be more organic, from how [Alan Kay described object-orie
 
 The honeycomb flow graph on the [Spree API documentation](http://api.spreecommerce.com/) also looks cool:
 
-[![Spree API](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/spree-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/spree.png)
+[![Spree API](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/spree-small.png)](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/spree.png)
 
 ### Prior art
 
 [Yahoo! Pipes](http://pipes.yahoo.com/pipes/) is what most people bring up when I describe flow-based programming. They have a quite nice web-based UI:
 
-[![Pipes](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/yahoo-pipes-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/yahoo-pipes.png)
+[![Pipes](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/yahoo-pipes-small.png)](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/yahoo-pipes.png)
 
 Apple's [Quartz Composer](http://en.wikipedia.org/wiki/Quartz_Composer) is a very slick implementation of the same concept, but for the desktop:
 
-[![Quartz Composer](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/quartz-composer-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/quartz-composer.png)
+[![Quartz Composer](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/quartz-composer-small.png)](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/quartz-composer.png)
 
 If Apple made a finger-friendly version of this for the iPad, we would be pretty close to the UI NoFlo needs to have.
 
@@ -109,7 +109,7 @@ Luckily, there is an area of information design which has tackled this problem a
 
 If you consider the transportation system of a big city as a flow-based program, it consists of a huge number of nodes and connections. And yet it is easy for people to figure out how to get around. Just look at this part of the Berlin subway map:
 
-[![Berlin subway](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/bvg-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/bvg.png)
+[![Berlin subway](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/bvg-small.png)](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/bvg.png)
 
 The different tariff zones even map quite nicely to the idea of [subgraphs in FBP](https://groups.google.com/d/topic/flow-based-programming/ycrFDIu2RHw/discussion).
 

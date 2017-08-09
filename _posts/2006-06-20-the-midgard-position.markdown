@@ -41,7 +41,7 @@ And to find 3 closest articles to this one, run:
 
 The positioning library isn't yet hooked into any of [the components][4] yet, but I will do this soon, starting from the blog component. However, the library can already be experimented with using the test tools it contains. For example, I can see the following information based on my Plazes position:
 
-![Map spots closest to my home](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midgard-positioning-distances-test.jpg)
+![Map spots closest to my home](https://d2vqpl3tx84ay5.cloudfront.net/midgard-positioning-distances-test.jpg)
 
 The city database used for the example above is MaxMind's Open Sourced [World Cities Database][5] that the positioning library is able to import. Next I will start playing with the [Geo-Names Data][6].
 

@@ -9,23 +9,23 @@
 
 __Calendar week view__. No tables, reservations scaled based on their real duration:
 
-![Calendar week](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/openpsa2-calendar-week.jpg)
+![Calendar week](https://d2vqpl3tx84ay5.cloudfront.net/openpsa2-calendar-week.jpg)
 
 __Calendar month view__. No images, past days are grayed out
 
-![Calendar month](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/openpsa2-calendar-month.jpg)
+![Calendar month](https://d2vqpl3tx84ay5.cloudfront.net/openpsa2-calendar-month.jpg)
 
 __Calendar reservation editor with date widget__. Participants chosen using AJAX live search, whole editor customizable using [datamanager schemas][4]:
 
-![Calendar event editor](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/openpsa2-calendar-edit-datewidget.jpg)
+![Calendar event editor](https://d2vqpl3tx84ay5.cloudfront.net/openpsa2-calendar-edit-datewidget.jpg)
 
 __Contacts person view__. New features include belonging to multiple organizations, easier [account editing][5] and datamanager-handled features like the photo:
 
-![Person card in Contacts](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/openpsa2-contacts-person.jpg)
+![Person card in Contacts](https://d2vqpl3tx84ay5.cloudfront.net/openpsa2-contacts-person.jpg)
 
 __Contacts chooser__. This is the new datamanager widget used everywhere in OpenPSA 2 for connecting persons to documents, projects and calendar reservations. Type a search into the field, and it will query the Contacts database [FOAF][6] interface using AJAX and list results below. Select a contact and she will be added to the list above. As can be seen from the Georgian name, this is fully internationalized:
 
-![Contacts chooser](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/openpsa2-contactschooser.jpg)
+![Contacts chooser](https://d2vqpl3tx84ay5.cloudfront.net/openpsa2-contactschooser.jpg)
 
 The user interface concept is still somewhat unfinished, and is being worked on by [Arttu][7]. But even at this stage there seem to be several benefits:
 

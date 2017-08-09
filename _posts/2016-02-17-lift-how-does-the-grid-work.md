@@ -7,7 +7,7 @@ categories:
   - desktop
 location: Berlin, Germany
 layout: post
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergius_thegrid_lift.jpg'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/bergius_thegrid_lift.jpg'
 ---
 As mentioned [last year](http://bergie.iki.fi/blog/nemein-anders/), I'm working on a Artificial Intelligence that can do web design. It is called [The Grid](https://thegrid.io/#6). Last week I gave a talk at [Lift Conference](http://liftconference.com/lift16) explaining how it all works.
 

@@ -13,7 +13,7 @@ As I've already given two [earlier talks][4] on DBE in Brazil, I will this time 
 
 __In the other news,__ [here][5] is the first look at the new version of the [Maemo application catalog][6]:
 
-![Maemo app catalog screenshot](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemo-application-catalog-small.jpg)
+![Maemo app catalog screenshot](https://d2vqpl3tx84ay5.cloudfront.net/maemo-application-catalog-small.jpg)
 
 Notable changes include switching to a more easily browse-able format from the old giant wiki page, using the new [single-click install][7] format and automatically linking all wiki pages tagged with application's name to the application page.
 

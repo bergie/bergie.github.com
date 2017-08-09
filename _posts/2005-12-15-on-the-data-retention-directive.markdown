@@ -5,7 +5,7 @@
   layout: "post"
 
 ---
-<div style="text-align: center;"><a href="http://www.dataretentionisnosolution.com/"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/data-retention-is-no-solution.gif" border="0" height="60" width="468" alt="Data retention is no solution" /></a></div>
+<div style="text-align: center;"><a href="http://www.dataretentionisnosolution.com/"><img src="https://d2vqpl3tx84ay5.cloudfront.net/data-retention-is-no-solution.gif" border="0" height="60" width="468" alt="Data retention is no solution" /></a></div>
 
 The feared and invasive [Data Retention][1] directive [passed yesterday][2] in the European Parliament. So [What's wrong with data retention][10]?
 

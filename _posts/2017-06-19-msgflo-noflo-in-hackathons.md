@@ -6,7 +6,7 @@ categories:
   - desktop
   - geo
 layout: post
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/recoding_aviation_winners.jpg'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/recoding_aviation_winners.jpg'
 ---
 Last week I participated in two hackathons, events where a group of strangers would form a team for two or three days and build a product prototype. In the end all teams pitch their prototypes, and the best ones would be given some prizes.
 
@@ -20,7 +20,7 @@ If our tools and [flow-based programming](https://en.wikipedia.org/wiki/Flow-bas
 
 [Minds + Machines hackathon](https://mindsmachinesberlin.devpost.com/) was held on a boat and focused on decarbonizing power and manufacturing industries. The main platform to work with was [Predix](https://www.ge.com/digital/predix), GE's PaaS service.
 
-[![Team Electrocute](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/minds_machines_team_small.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/minds_machines_team.jpg)
+[![Team Electrocute](https://d2vqpl3tx84ay5.cloudfront.net/minds_machines_team_small.jpg)](https://d2vqpl3tx84ay5.cloudfront.net/minds_machines_team.jpg)
 
 Our project was **[Electrocute](https://devpost.com/software/electrocute-a9guqr)**, a machine learning system for forecasting power consumption in a changing climate.
 
@@ -28,11 +28,11 @@ Our project was **[Electrocute](https://devpost.com/software/electrocute-a9guqr)
 
 > The changing climate poses many questions to utilities. With Electrocute's forecasting suite power companies can have accurate answers, on-demand.
 
-[![Electrocute forecasts](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/minds_machines_map_small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/minds_machines_map.png)
+[![Electrocute forecasts](https://d2vqpl3tx84ay5.cloudfront.net/minds_machines_map_small.png)](https://d2vqpl3tx84ay5.cloudfront.net/minds_machines_map.png)
 
 The system was built with a [NoFlo](https://noflojs.org/) web API server talking over [MsgFlo](https://msgflo.org/) with a Python machine learning backend. We also built a frontend where users could see the energy usage forecasts on a heatmap.
 
-[![NoFlo-Xpress in action](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/minds_machines_noflo_small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/minds_machines_noflo.png)
+[![NoFlo-Xpress in action](https://d2vqpl3tx84ay5.cloudfront.net/minds_machines_noflo_small.png)](https://d2vqpl3tx84ay5.cloudfront.net/minds_machines_noflo.png)
 
 Unfortunately we didn't win this one.
 
@@ -40,7 +40,7 @@ Unfortunately we didn't win this one.
 
 [Recoding Aviation](http://www.recodingaviation.com/) was held at [hub:raum](https://www.hubraum.com/) and focused on improving the air travel experience through usage of open APIs offered by the various participating airports.
 
-[![Team Skillport](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/recoding_aviation_team_small.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/recoding_aviation_team.jpg)
+[![Team Skillport](https://d2vqpl3tx84ay5.cloudfront.net/recoding_aviation_team_small.jpg)](https://d2vqpl3tx84ay5.cloudfront.net/recoding_aviation_team.jpg)
 
 **[Skillport](https://platform.recodingaviation.com/#/projects/594437673d055b0004c17f5a)** was our project to make long layovers more bearable by connecting people who're stuck at the airport at the same time.
 
@@ -50,11 +50,11 @@ Unfortunately we didn't win this one.
 
 The app connected with a J2EE API service that then communicated over MsgFlo with NoFlo microservices doing all the interactions with social and airport APIs. We also did some data enrichment in NoFlo to make smart recommendations on meeting venues.
 
-[![MsgFlo in action](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/recoding_aviation_msgflo_small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/recoding_aviation_msgflo.png)
+[![MsgFlo in action](https://d2vqpl3tx84ay5.cloudfront.net/recoding_aviation_msgflo_small.png)](https://d2vqpl3tx84ay5.cloudfront.net/recoding_aviation_msgflo.png)
 
 This time our project went well with the judges and we were selected as the winner of the _Life in between airports_ challenge. I'm looking forward to the helicopter ride over Berlin!
 
-[![Category winners](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/recoding_aviation_winners_small.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/recoding_aviation_winners.jpg)
+[![Category winners](https://d2vqpl3tx84ay5.cloudfront.net/recoding_aviation_winners_small.jpg)](https://d2vqpl3tx84ay5.cloudfront.net/recoding_aviation_winners.jpg)
 
 Skillport also won a space at [hub:raum](https://www.hubraum.com/), so this might not be the last you'll hear of the project...
 

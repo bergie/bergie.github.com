@@ -7,13 +7,13 @@ categories:
   - desktop
   - tablet
   - bestof
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/android-tablet-2017/pixel_c_desktop.jpg'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/android-tablet-2017/pixel_c_desktop.jpg'
 ---
 Back in 2013 I was [working exclusively on an Android tablet](/blog/working-on-android/). Then with the [NoFlo Kickstarter](/blog/noflo-kickstarter-launch/) I needed a device with a desktop browser. What followed were brief periods working on a Chromebook, on a 12" MacBook, and even an iPad Pro.
 
 But from April 2016 onwards I've been again working with an Android device. Some people have asked me about my setup, and so here is an update.
 
-[![Information technology](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/android-tablet-2017/pixel_c_travelers_notebook_small.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/android-tablet-2017/pixel_c_travelers_notebook.jpg)
+[![Information technology](https://d2vqpl3tx84ay5.cloudfront.net/android-tablet-2017/pixel_c_travelers_notebook_small.jpg)](https://d2vqpl3tx84ay5.cloudfront.net/android-tablet-2017/pixel_c_travelers_notebook.jpg)
 
 ## Why work on a tablet?
 
@@ -52,7 +52,7 @@ Low power usage also means that I can really get a lot of more runtime by utiliz
 
 The other aspect of using a tablet is that it becomes a very nice content consumption device after I'm done working. Simply disconnect the keyboard and lean back, and the same device you used for writing software becomes a great e-reader, video player, or a gaming machine.
 
-[![Livestreaming a SpaceX launch](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/android-tablet-2017/pixel_c_spacex_small.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/android-tablet-2017/pixel_c_spacex.jpg)
+[![Livestreaming a SpaceX launch](https://d2vqpl3tx84ay5.cloudfront.net/android-tablet-2017/pixel_c_spacex_small.jpg)](https://d2vqpl3tx84ay5.cloudfront.net/android-tablet-2017/pixel_c_spacex.jpg)
 
 This combined with the battery life has meant that I've actually stopped carrying a Kindle with me. While an e-ink screen is still nicer to read, not needing an extra device has its benefits, especially for a frequent one-bag traveller.
 
@@ -62,7 +62,7 @@ I'm writing this on a [Pixel C](https://en.m.wikipedia.org/wiki/Pixel_C), a 10.2
 
 ### Software
 
-[![My Android homescreen](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/android-tablet-2017/android_homescreen_2017_small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/android-tablet-2017/android_homescreen_2017.png)
+[![My Android homescreen](https://d2vqpl3tx84ay5.cloudfront.net/android-tablet-2017/android_homescreen_2017_small.png)](https://d2vqpl3tx84ay5.cloudfront.net/android-tablet-2017/android_homescreen_2017.png)
 
 Surprisingly little has changed in my software use [since 2013](/blog/working-on-android/) &mdash; I still spend the most of the time writing software in either [Flowhub](https://flowhub.io) or terminal. Here are the apps I use on daily basis:
 
@@ -82,13 +82,13 @@ Since much of my non-Flowhub work is done in _tmux_ and _vim_, I get the exactly
 
 ### Keyboard
 
-[![Laptop tablet](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/android-tablet-2017/pixel_c_laptop_small.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/android-tablet-2017/pixel_c_laptop.jpg)
+[![Laptop tablet](https://d2vqpl3tx84ay5.cloudfront.net/android-tablet-2017/pixel_c_laptop_small.jpg)](https://d2vqpl3tx84ay5.cloudfront.net/android-tablet-2017/pixel_c_laptop.jpg)
 
 When I'm on the road I'm using the [Pixel C keyboard](http://www.anandtech.com/show/9972/the-google-pixel-c-review/7). This doubles as a screen protector, and provides a reasonable laptop-like typing environment. It attaches to the tablet with very strong magnets and allows a good amount of flexibility on the screen angles.
 
 However, when stationary, no laptop keyboard compares to a real mechanical keyboard. When I'm in the office I use a [Filco MiniLa Air](http://www.cultofmac.com/290750/filco-minila-air-bluetooth-keyboard-review/), a bluetooth keyboard with quiet-ish Cherry MX brown switches.
 
-[![Desktop tablet](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/android-tablet-2017/pixel_c_desktop_small.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/android-tablet-2017/pixel_c_desktop.jpg)
+[![Desktop tablet](https://d2vqpl3tx84ay5.cloudfront.net/android-tablet-2017/pixel_c_desktop_small.jpg)](https://d2vqpl3tx84ay5.cloudfront.net/android-tablet-2017/pixel_c_desktop.jpg)
 
 This tenkeyless (60%) keyboard is extremely comfortable to type on. However, the sturdy metal case means that it is a little too big and heavy to carry on a daily basis.
 
@@ -108,7 +108,7 @@ Of course, iOS has its own benefits. Apple has a stronger stance on privacy than
 
 ## The future
 
-[![Hacking on the c-base patio](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/android-tablet-2017/pixel_c_cbase_small.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/android-tablet-2017/pixel_c_cbase.jpg)
+[![Hacking on the c-base patio](https://d2vqpl3tx84ay5.cloudfront.net/android-tablet-2017/pixel_c_cbase_small.jpg)](https://d2vqpl3tx84ay5.cloudfront.net/android-tablet-2017/pixel_c_cbase.jpg)
 
 As a software developer working on Android tablets, the weakest point of the platform is still that there are _no browser developer tools_ available. This was a problem in 2013, and it is still a problem now.
 

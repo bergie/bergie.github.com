@@ -5,7 +5,7 @@
   layout: "post"
 
 ---
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/coss-logo.gif" border="0" height="91" width="176" alt="COSS" style="margin-left: 10px;" title="Centre for Open Source Software" align="right" />
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/coss-logo.gif" border="0" height="91" width="176" alt="COSS" style="margin-left: 10px;" title="Centre for Open Source Software" align="right" />
 The yearly meeting for [COSS][1] members was held in connection with the [OpenMind][19] conference in the auditorium of [Werstas][23], the [proletariat's central museum][21] of Tampere. As [Nemein][6] participates actively in several COSS projects like the [Digital Business Ecosystem][21], I left the [Espoo office][22] early to take the bullet train north.
 
 In addition to the official agenda, the meeting contained several presentations about current Finnish Open Source initiatives.

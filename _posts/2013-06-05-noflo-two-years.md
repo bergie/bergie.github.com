@@ -8,7 +8,7 @@ categories:
   - bestof
 location: Berlin, Germany
 layout: post
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/leigh-concept-small.jpg'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/leigh-concept-small.jpg'
 ---
 [NoFlo](http://noflojs.org) &mdash; the flow-based programming system I started &mdash; is now two years old. I [pushed the first commits](https://github.com/noflo/noflo/commit/04698a77272d9cd552ac57ca511ec8f05696ea40) to GitHub on June 5th 2011 from [Hacker Dojo](http://www.hackerdojo.com/) in Mountain View. To get us started with the story, I'll let [Wikipedia summarize](http://en.wikipedia.org/wiki/Flow-based_programming):
 
@@ -30,7 +30,7 @@ To figure that out, I spent the time I had when traveling between conferences an
 
 Having worked with component architectures and Unix pipes before, the idea resonated with me. To think things through, I took the excuse of having some meetings in Portland to [drive up there](http://www.flickr.com/photos/bergie/sets/72157626665916769/) following the beautiful [California 1](http://en.wikipedia.org/wiki/California_State_Route_1) coastal road. Couple of days alone in a car is a great way to let your mind flow!
 
-![The coastal road in Oregon](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/oregon-coast.jpg)
+![The coastal road in Oregon](https://d2vqpl3tx84ay5.cloudfront.net/oregon-coast.jpg)
 
 Implementing your own is usually the best method for learning a new concept, and so when I got back to the Bay Area, I decided to write an [FBP system of my own](https://noflojs.org) on Node.js.
 
@@ -58,7 +58,7 @@ The boxes of the graph depict various instances of reusable components, and the 
 
 The graph is what FBP systems like NoFlo execute, and it is also something that can be easily drawn on the screen, or even edited visually.
 
-![NoFlo graph in DrawFBP](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/drawfbp-small.png)
+![NoFlo graph in DrawFBP](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/drawfbp-small.png)
 
 We humans [are visual creatures](http://books.google.de/books?id=ffw6aBE-9ykC&lpg=PA1108&ots=baZIBoNyYI&dq=humans%20are%20visual%20creatures&pg=PA1108#v=onepage&q=humans%20are%20visual%20creatures&f=false). We are much better at recognizing shapes and visual connections than at finding them from a jumble of text files.
 
@@ -107,7 +107,7 @@ Last week I sat down with [Leigh Taylor](http://www.behance.net/leightaylor), th
 
 There will be more on that in the near future, but here is a sneak preview:
 
-![Leigh's NoFlo UI concept](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-ui/leigh-concept-small.jpg)
+![Leigh's NoFlo UI concept](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/leigh-concept-small.jpg)
 
 ## Telling the story of NoFlo
 
@@ -115,7 +115,7 @@ Apart from the user interface, the other important task ahead of us is to grow t
 
 This means producing better documentation, and explaining the concept in conferences and meetups. I gave [a talk on NoFlo in JS.Everywhere 2011](http://youtu.be/pgP4v9b5DvE), but the project has moved quite far ahead since then.
 
-![Being interviewed on NoFlo](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie-noflo-interview.jpg)
+![Being interviewed on NoFlo](https://d2vqpl3tx84ay5.cloudfront.net/bergie-noflo-interview.jpg)
 
 To tell the story of NoFlo and FBP we're currently filming a set of interviews with the people involved from the different sides. We're talking with NoFlo contributors, designers, and with people who have years (or even decades!) of experience with flow-based programming. This will hopefully come out next month.
 

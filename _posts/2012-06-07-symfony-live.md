@@ -10,7 +10,7 @@ categories:
 
 The Symfony Live event is held in the old Cite Universitaire building in Paris. While tomorrow the RER strike will make things slightly more complicated, more than 600 developers have made it here. A very active crowd. I even got to give a quick tutorial on Flow-Based Programming with PhpFlo/NoFlo during the first coffee break.
 
-![Symfony Live 2012 venue](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/symfony_live_2012_venue.jpg)
+![Symfony Live 2012 venue](https://d2vqpl3tx84ay5.cloudfront.net/symfony_live_2012_venue.jpg)
 
 ## Keynote
 
@@ -301,7 +301,7 @@ Now your service will be instantiated only once and it can have a centralized co
 
 The last session of the day was pure fun: a Symfony community version of Jeopardy! _What is Silex?_
 
-![Symfony Jeopardy](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/symfony_live_2012_jeopardy.jpg)
+![Symfony Jeopardy](https://d2vqpl3tx84ay5.cloudfront.net/symfony_live_2012_jeopardy.jpg)
 
 *Intermission, was giving my [Create.js](http://createjs.org) and PHPCR talk. [Slides are available](http://www.slideshare.net/mobile/bergie/decoupling-content-management-with-createjs-and-phpcr)*
 
@@ -394,7 +394,7 @@ All content can be translated, but the layouts don't need to deal with localizat
 
 There is also an administrative interface on the back-end, where you can manipulate the whole PHPCR content tree.
 
-![Demoing the CMF admin interface](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/symfony_live_2012_cmf_admin.jpg)
+![Demoing the CMF admin interface](https://d2vqpl3tx84ay5.cloudfront.net/symfony_live_2012_cmf_admin.jpg)
 
 The menu struture and routing is completely decoupled from the actual content structure, which gives more flexibility on how the site can be built. This way it is a lot easier to do multi-channel publishing where for example some content is not served for mobile. It also allows defining different routing structures for different languages, so you can also have localized URLs. But if you want, the routing and menu can also just simply follow the content stucture, as it usually does in traditional CMSs.
 

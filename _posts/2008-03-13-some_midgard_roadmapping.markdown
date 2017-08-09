@@ -6,7 +6,7 @@
 
 ---
 <p>
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midgard2.jpg" height="232" width="200" border="0" align="right" hspace="8" vspace="4" alt="Midgard2" /><br />There has been some discussion on how the different items in <a href="http://trac.midgard-project.org/roadmap">the Midgard roadmap</a> fit together. Here is <a href="http://nemein.com/en/">my company's</a> view on how we see ourselves proceeding.
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/midgard2.jpg" height="232" width="200" border="0" align="right" hspace="8" vspace="4" alt="Midgard2" /><br />There has been some discussion on how the different items in <a href="http://trac.midgard-project.org/roadmap">the Midgard roadmap</a> fit together. Here is <a href="http://nemein.com/en/">my company's</a> view on how we see ourselves proceeding.
 </p><p>
 <strong>Baseline:</strong> <a href="http://www.midgard-project.org/midgard/1.8">Midgard 1.8</a>, <a href="http://www.midgard-project.org/updates/view/midcom_2-8-0_released.html">MidCOM 2.8</a> and PHP 5.2
 </p><p>

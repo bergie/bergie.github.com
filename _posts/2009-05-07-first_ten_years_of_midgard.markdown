@@ -3,7 +3,7 @@ title: "First ten years of Midgard"
 categories:
   - "midgard"
 layout: "post"
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/10thanniversary.jpg'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/10thanniversary.jpg'
 ---
 <p>
 <a href="http://www.midgard-project.org/10/">Ten years</a> is a long time. Exactly ten years ago we were sitting in a cramped office room in Espoo with <a href="http://jukkaz.wordpress.com/">Jukka Zitting</a>, frantically trying to put <a href="http://www.linuxtoday.com/developer/1999050701705NWSW">a release</a> together. We had been <a href="http://bergie.iki.fi/blog/on_vikings_and_free_software/">building a web platform for our living history group</a>, and it had become useful for others too.
@@ -18,7 +18,7 @@ Midgard is freely-available platform for creating powerful web applications. It 
 </blockquote><p>
 Indeed the development didn't end there. <a href="http://www.midgard-project.org/community/whoswho/">New people</a> started joining the project, there was a company that <a href="http://marc.info/?l=midgard-user&amp;amp;m=96746976502481&amp;amp;w=2">invested in it</a>, another company that <a href="http://www.midgard-project.org/updates/2003-04-12-000/">contributed a component architecture</a>, and so on. Soon we had an active and dedicated community working on Midgard. And that is the way it has remained - a project run by multiple <a href="http://www.midgard-project.org/community/support-discussion/consultancies/">companies</a> and <a href="http://bergie.iki.fi/static/f/f32d7d68161711de9550fb63d46849ef49ef_midgardians-linkoping-20090321-small.jpg">people</a>, supporting <a href="http://www.midgard-project.org/documentation/midgard-and-multilingual-content/">multiple languages</a> and character sets. We even made the dream of having <a href="http://bergie.iki.fi/blog/maemo_and_midgard_go_well_together/">Midgard in our pockets</a> a reality.
 </p><p>
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/10thanniversary.jpg" height="224" width="400" border="0" hspace="4" vspace="4" alt="10th Anniversary of The Midgard Project" title="10th Anniversary of The Midgard Project" />
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/10thanniversary.jpg" height="224" width="400" border="0" hspace="4" vspace="4" alt="10th Anniversary of The Midgard Project" title="10th Anniversary of The Midgard Project" />
 </p><p>
 I've been with the project the whole time, and it has given much. During these years I've traveled to <a href="http://www.flickr.com/photos/bergie/sets/72157608585090934/">Europe</a>, <a href="http://www.linuxgreenhouse.org/about.html">Asia</a>, <a href="http://www.flickr.com/photos/bergie/sets/72157604038349521/">Africa</a> and <a href="http://www.flickr.com/photos/bergie/collections/72157600946258420/">America</a> many times to tell about the project. I've presented our work in <a href="http://www.oscom.org/events/oscom-1/">several</a> <a href="http://www.oscom.org/events/oscom-2/">prestigious</a> <a href="http://www.oscom.org/events/oscom-3/">universities</a>. It has put the <a href="http://nemein.com/en/">bread on my table</a>. And most importantly, I've <a href="http://www.facebook.com/people/Henri-Bergius/722463139">made friends</a> with people from all around the world.
 </p><p>

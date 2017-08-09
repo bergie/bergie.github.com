@@ -12,7 +12,7 @@ After a brief consultation with the [Andrew Turner][7] from [GeoClue][8] I decid
 
 This means that now Midgard can import position data from [HTML ICBM meta tags][9], [W3C Geo RSS][10] and [Simple GeoRSS formats][11] but only outputs it in GeoRSS Simple format. And here's one of the results:
 
-![DeathMonkey's GeoRSS-driven position map](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/deathmonkey-map-small.jpg)
+![DeathMonkey's GeoRSS-driven position map](https://d2vqpl3tx84ay5.cloudfront.net/deathmonkey-map-small.jpg)
 
 __Note:__ This change of approach also means that Midgard can communicate with [GeoPress][12] quite easily.
 

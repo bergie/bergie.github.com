@@ -7,7 +7,7 @@
 ---
 [Camino][1] is the [Mozilla family][2] browser tailored for Mac desktop. Version 1.0 was released on Feb 14th, and I'm now trying it as a new default browser to replace [Firefox][3]:
 
-![Camino displaying OpenPsa 2 Calendar](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/camino-openpsa-calendar.jpg)
+![Camino displaying OpenPsa 2 Calendar](https://d2vqpl3tx84ay5.cloudfront.net/camino-openpsa-calendar.jpg)
 
 On a quick look, Camino looks better and seems a bit faster. It also fixes a critical problem I had with Firefox 1.5, the time the software was frozen to open new windows. With Camino, pop-ups and download windows open briskly.
 

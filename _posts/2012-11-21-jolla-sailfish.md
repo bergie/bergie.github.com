@@ -7,7 +7,7 @@ categories:
   - meego
   - kde
   - bestof
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_marc.jpg'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_marc.jpg'
 ---
 This week has been a busy one for a [hacker-nomad](http://bergie.iki.fi/blog/hacker-nomadism/). Weekend in Paris for the [JS.everywhere](http://jseverywhere.eu/) conference, then on Monday a talk at the [Hamburg JavaScript](http://www.meetup.com/hamburg-js) meetup. And now I'm in Helsinki. [Slush](http://slush.fi/en/), the conference I'm attending, is the biggest start-up event in Nordic countries. But even at that, it seems the Jolla announcements of today have been able to hijack most of the buzz around the event.
 
@@ -21,25 +21,25 @@ Jolla Tides has a list of [various gossip about the event](http://jollatides.com
 
 ## Before the opening session
 
-![Entrance to Slush](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_entrance.jpg)
+![Entrance to Slush](https://d2vqpl3tx84ay5.cloudfront.net/slush12_entrance.jpg)
 
 I arrived at Slush right around when the doors opened. Quite a few members of the Jolla team were there already to set up their booth and prepare for the keynote. Looking at all the familiar faces makes this feel very much like a Maemo family gathering.
 
-![Jolla - Unlike](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jollabanner.jpg)
+![Jolla - Unlike](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jollabanner.jpg)
 
 The Jolla booth is right next to the main entrance. And there are stickers:
 
-![Jolla sticker on a MacBook Air](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_sticker.jpg)
+![Jolla sticker on a MacBook Air](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_sticker.jpg)
 
 Before the event started, Jolla's CEO *Marc Dillon* shared the stage in the opening press conference with other Finnish start-up notables like *Peter Vesterbacka* from Rovio. 
 
-![Press event](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_press_event.jpg)
+![Press event](https://d2vqpl3tx84ay5.cloudfront.net/slush12_press_event.jpg)
 
 Jolla has grown very quickly from a start-up to a medium-sized technology company.
 
 > I think everybody who plays Angry Birds should get a Jolla phone
 
-![Marc Dillon from Jolla](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_press_marc.jpg)
+![Marc Dillon from Jolla](https://d2vqpl3tx84ay5.cloudfront.net/slush12_press_marc.jpg)
 
 The fact that Finland's prime minister will be opening the actual event shows how important innovative new companies like Jolla are for the nation.
 
@@ -49,7 +49,7 @@ Peter Vesterbacka:
 
 > This is not California. Most of the year it is cold, dark, and there is slush on the ground. But this is also an advantage. You have time to build amazing things like IRC, Linux, or Angry Birds
 
-![Peter Vesterbacka opening Slush](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_opening_vesterbacka.jpg)
+![Peter Vesterbacka opening Slush](https://d2vqpl3tx84ay5.cloudfront.net/slush12_opening_vesterbacka.jpg)
 
 In addition to Finnish companies, there are also 100 Russian start-ups attending.
 
@@ -59,7 +59,7 @@ Jyrki Katainen, Finnish PM:
 
 > I've never before been in an event where the prime minister's nails get painted. Innovation.
 
-![Jyrki Katainen](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_opening_katainen.jpg)
+![Jyrki Katainen](https://d2vqpl3tx84ay5.cloudfront.net/slush12_opening_katainen.jpg)
 
 > But seriously, we as a country have been losing market share in many important markets. The ways to solve this is through research and entrepreneurship. The focus on R&D was what lifted Finland from the recession of the early 90s. We want to become the largest hub of start-ups in Northern Europe. We need to create an atmosphere where new entrepreneurs and venture capitalists can meet in easier ways.
 
@@ -67,17 +67,17 @@ Jyrki Katainen, Finnish PM:
 
 Jolla's website is finally up at <http://jolla.com/>. The website is also showing the event livestream:
 
-![Jolla's new website](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/jolla_website.png)
+![Jolla's new website](https://d2vqpl3tx84ay5.cloudfront.net/jolla_website.png)
 
 There is also a [wiki for Sailfish OS](https://sailfishos.org/wiki/Main_Page) now available.
 
-![Sailfish OS logo](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Sailfish-black.jpg)
+![Sailfish OS logo](https://d2vqpl3tx84ay5.cloudfront.net/Sailfish-black.jpg)
 
 Another exciting pre-keynote announcement is that Finnish operator [DNA will sell Jolla phones](http://www.talouselama.fi/uutiset/jollapuhelimet+tulevat+myyntiin+suomessa/a2156416).
 
 [This](https://twitter.com/JollaSuomi/status/271178889261355010) is also interesting, if true:
 
-![Sailfish OS for tablets tweet](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/jollasuomi_sailfish_tablet.png)
+![Sailfish OS for tablets tweet](https://d2vqpl3tx84ay5.cloudfront.net/jollasuomi_sailfish_tablet.png)
 
 ## Jolla launch keynote
 
@@ -85,7 +85,7 @@ Another exciting pre-keynote announcement is that Finnish operator [DNA will sel
 
 > 2013 will not be like 2013
 
-![Jolla team coming on stage](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_team.jpg)
+![Jolla team coming on stage](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_team.jpg)
 
 The whole company came on stage, and each team was introduced with words like:
 
@@ -95,7 +95,7 @@ Marc Dillon:
 
 > We have the world's best community behind us. There is such a need for another player in the mobile space. People need change, people need openness
 
-![Marc Dillon on stage](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_marc.jpg)
+![Marc Dillon on stage](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_marc.jpg)
 
 > We want to be a company that sells a great user experience, a great operating system. Jolla is not a company. Jolla is a movement
 
@@ -111,7 +111,7 @@ China is the first market for Jolla. Sami Pienimäki on stage:
 
 > We're taking Finnish design and bringing it to China. Many people around the world have told us that what you're trying can't be done, that there is a *Red Sea* to block you. But China is the most dynamic market in the world. You need to listen carefully and be polite, and always learn. The management team is constantly on the field. You can't outsource this, you need to feel it yourself
 
-![Sami Pienimäki on stage](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_sami.jpg)
+![Sami Pienimäki on stage](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_sami.jpg)
 
 > *"China is a big country inhabited by many Chinese"* - Charles de Gaulle. *"No problem"* - Chinese saying
 
@@ -121,7 +121,7 @@ Stefano Mosconi:
 
 > What if you could watch the development of the OS out in the open, and adapt your application little by little, instead of having to wait for the big code drop? Sailfish is the first mobile operating system that is really open 24 hours for your contributions, and your enjoyment.
 
-![Stefano Mosconi on stage](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_stefano.jpg)
+![Stefano Mosconi on stage](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_stefano.jpg)
 
 > You out there are the interconnected organisms. We want to swim in the Open Source, we want to live and breath it. And when you're in the ecosystem, you can contribute, you can affect the way things go.
 
@@ -133,29 +133,29 @@ Antti Saarnio:
 
 > This industry is at the moment looking for change. Jolla and its partners can be the change by disrupting how the industry works. We don't have an existing business or cost base to defend.
 
-![Antti Saarnio on stage](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_antti.jpg)
+![Antti Saarnio on stage](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_antti.jpg)
 
 ### UI demo
 
 Marc back on stage, showing the Jolla UI video. There was an Android logo in one of the screenshots!
 
-![Sailfish lockscreen](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_lockscreen.jpg)
+![Sailfish lockscreen](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_lockscreen.jpg)
 
 Two taps on the screen activate the lockscreen. Scroll up and you'll see status information, and finally get to the homescreen. Swiping up again goes to the apps listing.
 
-![Sailfish media player](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_media.jpg)
+![Sailfish media player](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_media.jpg)
 
 Sailfish has true multitasking, just like N9 or N900 had. When you open an application, the homescreen will have a large widget-like tile showing it. These widgets show status data from the app, and can have controls for the app, like pausing or forwarding music you're listening to.
 
 > This is true multi-tasking. You no longer have to go deep into an application to do something. You can leave your favorite applications open all the time.
 
-![Sailfish homescreen](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_homescreen.jpg)
+![Sailfish homescreen](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_homescreen.jpg)
 
 Swiping gestures change between views inside an app.
 
 The whole UI takes its ambience, its color scheme out of the picture you choose for the wallpaper.
 
-![Sailfish ambience from wallpaper](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_ambience.jpg)
+![Sailfish ambience from wallpaper](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_ambience.jpg)
 
 Swiping down from the homescreen brings you back to the lock screen, and swiping down again locks. So the whole UI is spatial
 
@@ -190,13 +190,13 @@ Sailfish supports chipsets from ST Ericsson, and can already run also on other c
 
 In the evening Jolla's design team held another session on the Sailfish UI and the design philosophy behind it. The basic ideas behind it are simplicity and playfullness.
 
-![Devices are getting bigger](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_scalability.jpg)
+![Devices are getting bigger](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_scalability.jpg)
 
 Smartphones in general are getting bigger, but the UI has to fit your hand without having to use it with two hands or shift the device around.
 
 Multitasking is important. Normally, the apps take a full screen, but each of them also appears as a widget when either running or pinned to the homescreen. These widgets can present UI elements or data. No chrome where you want to just show content.
 
-![Running apps as widgets](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_widgets.jpg)
+![Running apps as widgets](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_widgets.jpg)
 
 The OS tries to be personal and customizable, unlike others.
 
@@ -204,7 +204,7 @@ The OS tries to be personal and customizable, unlike others.
 
 Honesty to the medium, which in case of current smartphones means glass. So, no fake leather or 3D icons.
 
-![Virtual keyboard](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_vkbd.jpg)
+![Virtual keyboard](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_vkbd.jpg)
 
 Vertical swipes take you between the lockscreen on the top, homescreen in middle, and app list in the bottom. Swiping left and right shows various views of an app. There are also gestures to show available actions, like changing between a VoIP or a regular cellular call. The Jolla team called these different views *covers*, and swiping *pushing*.
 
@@ -214,7 +214,7 @@ Even the lockscreen has some UI options available via swipes, for example to swi
 
 Everybody in Jolla team tests their work on actual devices, and gets constant updates on them. This way you can ensure performance stays smooth even on 100$ hardware. QML helps too.
 
-![QML example](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_qml.jpg)
+![QML example](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_qml.jpg)
 
 ## Thursday: Jolla SDK session
 
@@ -222,7 +222,7 @@ Everybody in Jolla team tests their work on actual devices, and gets constant up
 
 Today's major Jolla event was the SDK demo.
 
-![David Greaves on stage](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_david.jpg)
+![David Greaves on stage](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_david.jpg)
 
 Watching the presentation, I felt like I'd already seen the same thing ten times. And I have.
 
@@ -238,7 +238,7 @@ The number one thing to remember from this demo is that Jolla is open to people 
 
 At the event, anyone could have walked up to the CEO and talked to him:
 
-![Marc Dillon in the audience](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_marc_audience.jpg)
+![Marc Dillon in the audience](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_marc_audience.jpg)
 
 Android compatibility can be achieved in three ways:
 
@@ -250,19 +250,19 @@ The rest of the presentation introduced Qt Quick to those who haven't seen it be
 
 A basic window:
 
-![QML Window code](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_sdk_window.jpg)
+![QML Window code](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_sdk_window.jpg)
 
 QtMobility for finding the pictures, and a gridview for displaying them:
 
-![QtMobility code](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_sdk_qtmobility.jpg)
+![QtMobility code](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_sdk_qtmobility.jpg)
 
 Adding the Sailfish PullDownMenu is also just a few lines of code:
 
-![Sailfish Pulldown code](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_sdk_pulldown.jpg)
+![Sailfish Pulldown code](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_sdk_pulldown.jpg)
 
 And the final result, with the menu pulled down, now used for changing sorting order in the demo's gridview:
 
-![Demo result](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/slush12_jolla_sdk_result.jpg)
+![Demo result](https://d2vqpl3tx84ay5.cloudfront.net/slush12_jolla_sdk_result.jpg)
 
 All in all, getting to that point took about twenty minutes, with Jolla estimating that it should take about an hour without preparation. You even get lots of animations for free by using the provided components.
 

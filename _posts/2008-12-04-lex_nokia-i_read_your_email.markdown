@@ -14,5 +14,5 @@ And why are our constitutional rights being taken away from us this time? Becaus
 </p><p>
 I urge everybody owning a business or running a community internet provider to <a href="http://www.thinkgeek.com/tshirts-apparel/unisex/frustrations/31fb/">get one of these</a> and wear it to demonstrate people around you what the law means:
 </p><p>
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/i_read_your_email.jpg" height="272" width="200" border="0" hspace="4" vspace="4" alt="I read your email." title="I read your email." /></p>
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/i_read_your_email.jpg" height="272" width="200" border="0" hspace="4" vspace="4" alt="I read your email." title="I read your email." /></p>
 <p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/lex%20nokia" rel="tag">lex nokia</a>, <a href="http://www.technorati.com/tag/politics" rel="tag">politics</a>, <a href="http://www.technorati.com/tag/privacy" rel="tag">privacy</a></p>

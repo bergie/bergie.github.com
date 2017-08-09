@@ -19,5 +19,5 @@ and follow the authorization instructions. This is due to Fire Eagle using the n
 </p><p>
 Once this is done <a href="http://midgardwiki.contentcontrol-berlin.de/index.php/Midcom.services.cron">MidCOM cron</a> will start tracking your Fire Eagle location. All objects you have created (photos, blogs, comments, etc) will then be automatically tagged with where you made them.
 </p><p>
-<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/yahoo-fireeagle-20080820.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/yahoo-fireeagle-20080820-tm.jpg" height="330" width="400" border="1" hspace="4" vspace="4" alt="Yahoo! Fire Eagle" title="Yahoo! Fire Eagle" /></a>
+<a href="https://d2vqpl3tx84ay5.cloudfront.net/yahoo-fireeagle-20080820.png"><img src="https://d2vqpl3tx84ay5.cloudfront.net/yahoo-fireeagle-20080820-tm.jpg" height="330" width="400" border="1" hspace="4" vspace="4" alt="Yahoo! Fire Eagle" title="Yahoo! Fire Eagle" /></a>
 </p>

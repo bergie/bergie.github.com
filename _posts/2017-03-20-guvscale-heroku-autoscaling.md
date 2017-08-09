@@ -6,7 +6,7 @@ categories:
   - business
   - midgard
 layout: post
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/guvscale-graph.jpg'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/guvscale-graph.jpg'
 ---
 I'm happy to announce that [GuvScale](https://guvscale.com) &mdash; our service for autoscaling Heroku background worker dynos &mdash; is now available [in a public beta](https://elements.heroku.com/addons/guvscale).
 
@@ -17,7 +17,7 @@ This gives two big benefits:
 * **Consistent processing times** by scaling dynos up to meet peak load
 * **Cost savings** by reducing idle dynos. Don't pay for computing capacity you don't need
 
-[![GuvScale on Heroku Elements](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/guvscale-heroku-elements.png)](https://elements.heroku.com/addons/guvscale)
+[![GuvScale on Heroku Elements](https://d2vqpl3tx84ay5.cloudfront.net/guvscale-heroku-elements.png)](https://elements.heroku.com/addons/guvscale)
 
 We originally [built the guv tool](http://www.jonnor.com/2015/11/guv-automatic-scaling/) back in 2015, and it has been used since by [The Grid](https://thegrid.io/) to manage their [computationally intensive](http://libregraphicsworld.org/blog/entry/artificial-intelligence-designs-websites-uses-open-technology-stack) AI tasks. At The Grid we've had GuvScale make hundreds of thousands of scaling operations per month, running background dynos at more than 90% efficiency.
 
@@ -65,7 +65,7 @@ emailsender:          # Dyno role to scale
 
 Once GuvScale has been configured you can monitor its behavior in the dashboard.
 
-![Workload and scaling operations](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/guvscale-graph.jpg)
+![Workload and scaling operations](https://d2vqpl3tx84ay5.cloudfront.net/guvscale-graph.jpg)
 
 Read more in the [Heroku Dev Center GuvScale tutorial](https://devcenter.heroku.com/articles/guvscale).
 

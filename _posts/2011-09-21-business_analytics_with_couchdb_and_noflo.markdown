@@ -8,7 +8,7 @@
     - nodejs
     - fbp
   layout: "post"
-  cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/proggis-iks-projectplan-500.png'
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/proggis-iks-projectplan-500.png'
 
 ---
 The purpose of [business analytics](http://37signals.com/svn/posts/3002-the-three-secrets-of-business-analytics-no-rocket-science-here) is to find data from the company's information systems that can be used to support decision making. What customers buy most? What do they do before a buying decision? What are the signs that a customer may be leaving?
@@ -17,7 +17,7 @@ For the last month we've been working in Salzburg to build such a system, the [I
 
 But first, here is how our system looks like:
 
-![Proggis displaying IKS project plan](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/proggis-iks-projectplan-500.png)
+![Proggis displaying IKS project plan](https://d2vqpl3tx84ay5.cloudfront.net/proggis-iks-projectplan-500.png)
 
 ## Where does the data come from?
 
@@ -91,7 +91,7 @@ Any business analytics system dealing with moderate amounts of data can be built
 * Analytics based on the data are done with CouchDB map/reduce
 * Visualization happens with a CouchApp using [JavaScript InfoVis Toolkit](http://thejit.org/)
 
-![Simple architecture for a business analytics system](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/proggis-architecture.png)
+![Simple architecture for a business analytics system](https://d2vqpl3tx84ay5.cloudfront.net/proggis-architecture.png)
 
 This way you have a business analytics environment that is easy to extend with more data when it becomes available. New analysis can be done by writing reasonably simple map/reduce functions, and CouchDB's replication capabilities allow you to take the system and data with you.
 

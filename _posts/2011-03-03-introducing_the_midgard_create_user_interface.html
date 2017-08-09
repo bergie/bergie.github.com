@@ -5,7 +5,7 @@
     - "oscom"
     - "bestof"
   layout: "post"
-  cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/1e045994d03c25e459911e0ab235550c1aac901c901_midgardcreate-enter-edit-state-small.png'
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/1e045994d03c25e459911e0ab235550c1aac901c901_midgardcreate-enter-edit-state-small.png'
 
 ---
 <p>You may have noticed that <a href="http://bergie.iki.fi/blog/midgard_in_2010/">quite a lot is happening</a> in the <a href="http://www.midgard-project.org/">Midgard</a> land. Nowadays <a href="http://www.midgard-project.org/midgard2/">Midgard2</a> itself is a generic content repository that can be used for both desktop and web applications. <a href="http://midgard-project.org/midgardmvc">Midgard MVC is a generic web framework</a> for PHP5 that can be used with Midgard2 or without it. And then there is <a href="https://github.com/bergie/midgardmvc_ui_create">Midgard Create</a>, the new content management user interface that follows the ideas of <a href="http://bergie.iki.fi/blog/decoupling_content_management/">decoupled content management</a>.</p>
@@ -13,23 +13,23 @@
 <blockquote>Build a CMS, no forms allowed.</blockquote>
 <h2>How does it actually look, then</h2>
 <p>When you log in to a website, the only thing that changes is that you get a <em>floating toolbar</em> on the top. To make changes to the content you can enter the <em>edit state</em>. We will highlight all contents that can be edited:</p>
-<p><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/1e045994d03c25e459911e0ab235550c1aac901c901_midgardcreate-enter-edit-state-small.png" border="0" alt="midgardcreate-enter-edit-state-small.png" title="midgardcreate-enter-edit-state-small.png" /></p>
+<p><img src="https://d2vqpl3tx84ay5.cloudfront.net/1e045994d03c25e459911e0ab235550c1aac901c901_midgardcreate-enter-edit-state-small.png" border="0" alt="midgardcreate-enter-edit-state-small.png" title="midgardcreate-enter-edit-state-small.png" /></p>
 <p>When you have made some changes, a <em>Save</em> button will light up, allowing you to send the modifications back to the server. A successful save operation is visualized by the saved contents being transferred to the Save button:</p>
-<p><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/1e04599abfee694459911e0bf1021b4fddbed1bed1b_midgardcreate-save-transition-small.png" border="0" alt="midgardcreate-save-transition-small.png" title="midgardcreate-save-transition-small.png" /></p>
+<p><img src="https://d2vqpl3tx84ay5.cloudfront.net/1e04599abfee694459911e0bf1021b4fddbed1bed1b_midgardcreate-save-transition-small.png" border="0" alt="midgardcreate-save-transition-small.png" title="midgardcreate-save-transition-small.png" /></p>
 <p>Images can be added to content via simple <em>drag-and-drop</em>:</p>
-<p><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/1e04599ef1af0ee459911e0b8b15798f7d7df13df13_midgardcreate-draganddrop-images-small.png" border="0" alt="midgardcreate-draganddrop-images-small.png" title="midgardcreate-draganddrop-images-small.png" /></p>
+<p><img src="https://d2vqpl3tx84ay5.cloudfront.net/1e04599ef1af0ee459911e0b8b15798f7d7df13df13_midgardcreate-draganddrop-images-small.png" border="0" alt="midgardcreate-draganddrop-images-small.png" title="midgardcreate-draganddrop-images-small.png" /></p>
 <p>You can also access the <em>revision history</em> and launch any <em>workflows</em> associated with the content from the toolbar:</p>
-<p><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/1e0459a8ff9170c459a11e0b4acc38b0b96e868e868_midgardcreate-history-launch-workflows-small.png" border="0" alt="midgardcreate-history-launch-workflows-small.png" title="midgardcreate-history-launch-workflows-small.png" /></p>
+<p><img src="https://d2vqpl3tx84ay5.cloudfront.net/1e0459a8ff9170c459a11e0b4acc38b0b96e868e868_midgardcreate-history-launch-workflows-small.png" border="0" alt="midgardcreate-history-launch-workflows-small.png" title="midgardcreate-history-launch-workflows-small.png" /></p>
 <p><em>Adding new items</em> to lists is also easy:</p>
-<p><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/1e0459adeb501da459a11e0b28a0de6ae4ed17cd17c_midgardcreate-add-item-list-small.png" border="0" alt="midgardcreate-add-item-list-small.png" title="midgardcreate-add-item-list-small.png" /></p>
+<p><img src="https://d2vqpl3tx84ay5.cloudfront.net/1e0459adeb501da459a11e0b28a0de6ae4ed17cd17c_midgardcreate-add-item-list-small.png" border="0" alt="midgardcreate-add-item-list-small.png" title="midgardcreate-add-item-list-small.png" /></p>
 <h2>How does this actually work</h2>
 <p>Midgard publishes its contents via HTML and <a href="http://en.wikipedia.org/wiki/RDFa">RDFa</a>, and provides a simple REST API for saving and retrieving contents from the back-end via <a href="http://json-ld.org/">JSON-LD</a>. The user interface itself is completely written in JavaScript, backed by the <a href="http://wiki.iks-project.eu/index.php/VIE">VIE</a> library produced by the IKS project, and the excellent <a href="http://aloha-editor.org/">Aloha HTML5 editor</a>. On a page, the user interface is simply loaded with:</p>
-<p><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/1e0459bd30e890e459b11e0b4acc38b0b96e868e868_midgardcreate-include-js-small.png" border="0" alt="midgardcreate-include-js-small.png" title="midgardcreate-include-js-small.png" /></p>
+<p><img src="https://d2vqpl3tx84ay5.cloudfront.net/1e0459bd30e890e459b11e0b4acc38b0b96e868e868_midgardcreate-include-js-small.png" border="0" alt="midgardcreate-include-js-small.png" title="midgardcreate-include-js-small.png" /></p>
 <p>In a normal setup, the system architecture as a whole looks like the following:</p>
-<p><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/1e0459bfc268c24459b11e09441fb19df2a583a583a_midgardcreate-architecture-small.png" border="0" alt="midgardcreate-architecture-small.png" title="midgardcreate-architecture-small.png" /></p>
+<p><img src="https://d2vqpl3tx84ay5.cloudfront.net/1e0459bfc268c24459b11e09441fb19df2a583a583a_midgardcreate-architecture-small.png" border="0" alt="midgardcreate-architecture-small.png" title="midgardcreate-architecture-small.png" /></p>
 <p>Most of the components are typical Midgard2 systems, but there are also common parts shared with the rest of the ecosystem, like <a href="http://incubator.apache.org/zetacomponents/">Zeta Components</a> for PHP, the <a href="https://github.com/indeyets/appserver-in-php">PHP Application Server</a>, and on JS side libraries like <a href="http://jquery.com/">jQuery</a>, <a href="http://documentcloud.github.com/backbone/">Backbone.js</a> and <a href="http://wiki.iks-project.eu/index.php/VIE">VIE</a>. <a href="http://code.stanziq.com/strophe">Strophe.js</a> is something we currently consider for real-time collaboration.</p>
 <p>But while Midgard2 is what we use as our reference implementation, in reality Midgard Create is not tied to that. <a href="http://bergie.iki.fi/blog/decoupling_content_management/">Decoupling</a> at work:</p>
-<p><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/1e0459cd7210c0a459c11e08e2627c15b7cedefedef_midgardcreate-architecture-independent-small.png" border="0" alt="midgardcreate-architecture-independent-small.png" title="midgardcreate-architecture-independent-small.png" /></p>
+<p><img src="https://d2vqpl3tx84ay5.cloudfront.net/1e0459cd7210c0a459c11e08e2627c15b7cedefedef_midgardcreate-architecture-independent-small.png" border="0" alt="midgardcreate-architecture-independent-small.png" title="midgardcreate-architecture-independent-small.png" /></p>
 <p>One of the recent plans is to make the interface work also on the older <a href="http://www.midgard-project.org/midgard/8.09/">"Ragnaroek" series of Midgard</a>. This would give modern editing and interaction tools to all the users on that platform.</p>
 <h2>Trying it out</h2>
 <p>If you want to give Midgard Create a spin, you first need to have the Midgard2 PHP extension installed. On Debian Testing this is easy as you <a href="http://packages.debian.org/search?keywords=midgard&amp;searchon=names&amp;suite=testing&amp;section=all">have a package available</a>. Similarly, on OS X, it should be just a <a href="http://trac.macports.org/browser/trunk/dports/php/php5-midgard2/Portfile">ports install</a> away. For other distributions, grab the package <a href="http://download.opensuse.org/repositories/home:/midgardproject:/ratatoskr/">from OBS</a>.</p>
@@ -44,5 +44,5 @@ $ sudo pear install indeyets/midgardmvc_installer
 <pre>$ ./midgard/run
 </pre>
 <p>Now there should be a working Midgard2-powered website running in http://localhost:8001</p>
-<p><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/1e0459e2f9f6074459e11e0a224fb773dfe86ae86ae_midgardcreate-demosite-small.png" border="0" alt="midgardcreate-demosite-small.png" title="midgardcreate-demosite-small.png" /></p>
+<p><img src="https://d2vqpl3tx84ay5.cloudfront.net/1e0459e2f9f6074459e11e0a224fb773dfe86ae86ae_midgardcreate-demosite-small.png" border="0" alt="midgardcreate-demosite-small.png" title="midgardcreate-demosite-small.png" /></p>
 <p>Just log in via <em>/mgd:login</em> (admin/password) and start editing!</p>

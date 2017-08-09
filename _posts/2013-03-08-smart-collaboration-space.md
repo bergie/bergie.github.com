@@ -9,7 +9,7 @@ categories:
   - kde
   - geo
   - openpsa
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/opd-small.png'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/opd-small.png'
 ---
 As part of the [SmarcoS](http://smarcos-project.eu) project, [we](http://nemein.com) have been investigating how to make workplaces smarter through sensors and [context awareness](http://worrydream.com/MagicInk/). Here is [a video showing what we've built](http://youtu.be/P5cdlLTqb24):
 
@@ -27,11 +27,11 @@ An important part of collaboration is to know who is where. Maybe some people ar
 
 With these, we know pretty well when you arrive to the office, and when you leave. Thanks to the sensor watching the company instant messaging system, we also know when people working remotely are available.
 
-![Office Presence Display](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/opd-small.png)
+![Office Presence Display](https://d2vqpl3tx84ay5.cloudfront.net/opd-small.png)
 
 In addition to letting people know where the other members of the team are, this system can help with the perpetual annoyance in many companies: *having to fill timesheets*. We have a logger process that listens to the sensors, and logs the data into a [CouchDB](http://bergie.iki.fi/blog/business_analytics_with_couchdb_and_noflo/) database. From there you can easily visualize working hours and availability trends:
 
-![Office presence stats](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/opd-stats-small.png)
+![Office presence stats](https://d2vqpl3tx84ay5.cloudfront.net/opd-stats-small.png)
 
 In many situations it is of course not enough to know whether people are present, but also to know what they're working on. The next component of the system helps with that.
 
@@ -41,7 +41,7 @@ Instead of the clumsy waterfall style, more and more companies are managing thei
 
 If everybody working on a project sits in the same room, and that room is also where all decisions about the project are made, then the traditional solution of whiteboards and Post-It notes is probably the best way to visualize Kanban. But for distributed teams and more flexible work, an electronic version is a lot better option. This way everybody can see the Kanban wall in its current state from their computer, a TV in an office room, or a tablet.
 
-![Webkanban](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/webkanban.png)
+![Webkanban](https://d2vqpl3tx84ay5.cloudfront.net/webkanban.png)
 
 Our Kanban wall implementation provides exactly that. The same wall (or, in case of multiple projects or teams, a set of walls) is available through any web browser. You can also display it on a big screen in an office or a meeting room, and control that screen with the [Kinect Air Cursor](http://bergie.iki.fi/blog/qt-air-cursor/).
 

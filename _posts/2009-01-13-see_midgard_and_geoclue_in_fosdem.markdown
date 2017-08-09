@@ -24,7 +24,7 @@ You may want to have your data available and editable everywhere, even you are n
 </p><p>
 <em>Sat Feb 7th 2009 at 16:15, Room H.1302 (GNOME developer room)</em>
 </p><p style="text-align:right;">
-<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/eog-champlain.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/eog-champlain-tm.jpg" height="120" width="150" border="1" align="right" hspace="8" vspace="4" alt="Champlain showing maps in EOG" title="Champlain showing maps in EOG" /></a>
+<a href="https://d2vqpl3tx84ay5.cloudfront.net/eog-champlain.png"><img src="https://d2vqpl3tx84ay5.cloudfront.net/eog-champlain-tm.jpg" height="120" width="150" border="1" align="right" hspace="8" vspace="4" alt="Champlain showing maps in EOG" title="Champlain showing maps in EOG" /></a>
 </p><p>
 <a href="http://blog.pierlux.com/en/">Pierre-Luc Beaudoin</a>, the developer of <a href="http://blog.pierlux.com/projects/libchamplain/en/">libchamplain</a>, a GTK map rendering widget, will be giving a talk about the <a href="http://live.gnome.org/Brussels2009/Devroom#head-9ec3eed281343b45d804b1e4be6203495c673d80">potential GNOME (and GNOME Mobile) geostack</a> that includes GeoClue for getting user position and handling conversions between civic location and coordinates, and libchamplain for visualizing location in various applications.
 </p><p>

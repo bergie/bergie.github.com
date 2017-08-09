@@ -30,7 +30,7 @@ As [Joe writes][9]:
 
 > Shoot your letters, e-mails and other crap you feel like delivering to whomever might get your message. Problems with this approach are almost so obvious it is questionable, if they should even be listed here. Messages might reach the right audience, but without any meaning to them. Those messages also get lost in masses of others attempts to get attention of the customers.
 
-![Think before you send](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/openpsa2-message-confirmation.jpg)
+![Think before you send](https://d2vqpl3tx84ay5.cloudfront.net/openpsa2-message-confirmation.jpg)
 
 To make direct marketing work, you need a combination of good tools and good ideas about what to send and to who. Otherwise you will only manage to annoy potential customers.
 

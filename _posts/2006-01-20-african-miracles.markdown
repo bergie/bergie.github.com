@@ -4,7 +4,7 @@
     - "life"
     - "bestof"
   layout: "post"
-  cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/ice_from_the_heavens.jpg'
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/ice_from_the_heavens.jpg'
 
 ---
 I'm going to [Cape Town][1] next week to work on [a project][2] coordinated by the [City of Tampere][3]. The trip will be a welcome diversion from the current -22°C weather here in Finland.
@@ -17,7 +17,7 @@ We had stopped in every village and gas station to try and buy ice, but it was n
 
 But still, the hail melted almost as quickly as it hit the ground, and so we continued with our trunk of warm beer. Driving around another bend, we suddenly saw a pile of hail balls lying in the middle of a clearing. There was no reasonable explanation how it had ended there, as there were no cliffs nearby, and all other hail on the ground had melted. But there it was, and soon our cooler was operational:
 
-![Andrea shows the pile of ice](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/ice_from_the_heavens.jpg)
+![Andrea shows the pile of ice](https://d2vqpl3tx84ay5.cloudfront.net/ice_from_the_heavens.jpg)
 
 We decided: _This is ice from heavens_.
 

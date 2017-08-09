@@ -5,7 +5,7 @@
     - "life"
     - "midgard"
   layout: "post"
-  cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie_layout_2006.jpg'
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/bergie_layout_2006.jpg'
 
 ---
 [This][1] is the latest iteration of my home on the web. [I've had a website][3] since sometime in 1994, and under this same "[iki][20]" address since [2001][2]. This latest design was actually made in spring 2006 after [our US trip][4], but has been waiting in mothballs for the right moment.
@@ -24,19 +24,19 @@ Still, being a developer, I could not launch a new version of the site without b
 
 The film strip is used to display either [pictures][23] from the week a page was written, or 10 latest pictures
 
-![Film strip and pictures from Brazil](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie_filmstrip2.jpg)
+![Film strip and pictures from Brazil](https://d2vqpl3tx84ay5.cloudfront.net/bergie_filmstrip2.jpg)
 
 [Positioning][22] is now powered by real, mostly [Plazes-powered][8] coordinates and a [real database of cities][7] and [airports][9]. This brings with itself some [Microformat][11] and [GeoRSS][12] goodness, like [live maps][13]
 
-![Positions on the blog entries](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie_blog_position.jpg)
+![Positions on the blog entries](https://d2vqpl3tx84ay5.cloudfront.net/bergie_blog_position.jpg)
 
 My contact information is available as a [machine-readable hCard][28] on most pages
 
-![What Tails extension understands of my contact info](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie_microformats_tails.jpg)
+![What Tails extension understands of my contact info](https://d2vqpl3tx84ay5.cloudfront.net/bergie_microformats_tails.jpg)
 
 The contact information card also has a simple [informal status message][27] powered by [Twitter][26]
 
-![The contact card](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie_card.jpg)
+![The contact card](https://d2vqpl3tx84ay5.cloudfront.net/bergie_card.jpg)
 
 Also, less visually:
 
@@ -56,11 +56,11 @@ There is also my picture on the pages. I realised that it is actually nice to se
 
 The old design:
 
-![The old, black design](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie_layout_2005.jpg)
+![The old, black design](https://d2vqpl3tx84ay5.cloudfront.net/bergie_layout_2005.jpg)
 
 The new design:
 
-![The new, earthy design](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie_layout_2006.jpg)
+![The new, earthy design](https://d2vqpl3tx84ay5.cloudfront.net/bergie_layout_2006.jpg)
 
 ## Midgard template
 

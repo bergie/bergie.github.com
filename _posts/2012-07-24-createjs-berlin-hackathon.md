@@ -11,17 +11,17 @@ Last week we at [IKS](http://www.iks-project.eu/) organized a two-day hackathon 
 
 The original agenda for the event can be found from the [event's wiki page](http://wiki.iks-project.eu/index.php/DevWorkshops/VieBerlin), and I believe we got it covered quite well. I've been to quite a lot of hackfests, and usually the first day is mostly spent by people arriving, figuring out the WiFi setup, and getting to know the development tools. This time was different: people jumped straight into the code and started working.
 
-![Create.js Berlin hackathon](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/createjs-berlin-hackathon1.jpg)
+![Create.js Berlin hackathon](https://d2vqpl3tx84ay5.cloudfront.net/createjs-berlin-hackathon1.jpg)
 
 The venue at [Theseus Innovationszentrum](http://theseus-programm.de/de/tiz.php), arranged by [DFKI](http://www.dfki.de/web), was a nice one. We had food, coffee, and fast connectivity. And the place even had toys like [big touchscreen computers](http://youtu.be/A1QkA-yceic) to try Create.js on. On the first evening we continued the event at the [c-base](http://c-base.org/) hackerspace, and the participants staying after Friday went to the [Berlin GitHub drinkup](https://github.com/blog/1203-berlin-drinkup).
 
-![After-hackathon in c-base](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/createjs-berlin-hackathon2.jpg)
+![After-hackathon in c-base](https://d2vqpl3tx84ay5.cloudfront.net/createjs-berlin-hackathon2.jpg)
 
 ## More robust Hallo and Create
 
 An important theme in the event was to improve both [Hallo](http://hallojs.org/) and Create. The Create.js theme got a lot nicer, and thanks to the contributions from [Alkacon](http://www.alkacon.com/en/) the next versions will run nicely also on older Internet Explorer and Opera versions.
 
-![Create.js after the hackathon](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/createjs-after-berlin-hackathon.png)
+![Create.js after the hackathon](https://d2vqpl3tx84ay5.cloudfront.net/createjs-after-berlin-hackathon.png)
 
 Create's editor selection mechanism [was also rewritten](https://github.com/bergie/create/issues/62). Now you can easily set up custom editor configurations for managing different content types. For instance:
 
@@ -44,7 +44,7 @@ The [VIE](http://viejs.org) semantic interaction library is the basis of everyth
 
 Next big step for VIE is [better literals handling](https://github.com/bergie/VIE/issues/114), which will allow a lot easier management of multilingual content. Several people were working on this in the hackathon, and I hope we'll be able to release the first beta of VIE 2.1 with this soon.
 
-![After-hackathon in a biergarten](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/createjs-berlin-hackathon4.jpg)
+![After-hackathon in a biergarten](https://d2vqpl3tx84ay5.cloudfront.net/createjs-berlin-hackathon4.jpg)
 
 VIE provides a quite comprehensive [entity type system](http://viejs.org/docs/2.0.0/src/Type.js.html), which most systems don't really utilize yet. To make its capabilities more apparent, I built an integration with the [Backbone Forms](https://github.com/powmedia/backbone-forms) library where you can autogenerate quite nice forms on for any type that VIE knows about. For instance, we can generate forms [for Schema.org types](http://viejs.org/widgets/forms/).
 
@@ -56,13 +56,13 @@ Several of the hackathon attendees came there to work on integrating Create.js w
 
 An interesting new integration is [with Drupal](http://drupal.org/project/create), worked on by Roni Kantis. While Drupal has their own [Spark](http://drupal.org/project/spark) inline editing initiative, the Create.js module should show that cross-CMS collaboration in user interfaces is also possible. I hope to be able to demo this in [DrupalCon Munich](http://munich2012.drupal.org/program/sessions/decoupling-content-management).
 
-![Defining CreatePHP interfaces](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/createjs-berlin-hackathon3.jpg)
+![Defining CreatePHP interfaces](https://d2vqpl3tx84ay5.cloudfront.net/createjs-berlin-hackathon3.jpg)
 
 For PHP projects interested in Create.js, the [CreatePHP](https://github.com/flack/createphp) library should make things a lot easier. In the hackathon its interfaces were clarified quite a bit, and now it powers the inline editing capabilities in both [MidCOM](http://midgard-project.org/midcom/) and [Symfony CMF](http://cmf.symfony.com/), with [TYPO3](http://typo3.org/news/article/typo3-phoenix-becomes-iks-early-adaptor/) coming soon.
 
 If you consider [my secret plan for PHP content management systems](/blog/my_secret_agenda_for_php_content_management_systems/) from last summer, there is clearly some progress.
 
-![Create.js in Symfony CMF](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/createjs-symfony-after-berlin-hackathon.png)
+![Create.js in Symfony CMF](https://d2vqpl3tx84ay5.cloudfront.net/createjs-symfony-after-berlin-hackathon.png)
 
 There was also work done on integrations into popular frameworks like Ruby on Rails and Django. I hope we'll hear more of these in the coming weeks.
 
@@ -72,7 +72,7 @@ As more and more CMSs are embracing collaboration on the UI level, these project
 
 While watchers don't necessarily mean more contributions, it is certainly nice to see views like this:
 
-![Hallo and NoFlo on GitHub](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/github-coffeescript-noflo-hallo.png)
+![Hallo and NoFlo on GitHub](https://d2vqpl3tx84ay5.cloudfront.net/github-coffeescript-noflo-hallo.png)
 
 ## WYSIWHAT
 

@@ -10,7 +10,7 @@ The [Mac OS X packages of Midgard][1] made by [Robert Guerra][2] were [released]
 
 This is very good start for introducing Midgard to the Mac world, especially as the installer is so smooth:
 
-![Midgard CMS installer for OS X](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midgard-osx-installer.jpg)
+![Midgard CMS installer for OS X](https://d2vqpl3tx84ay5.cloudfront.net/midgard-osx-installer.jpg)
 
 The obvious next step will be to [complete the Fink packaging][8] so that the installer will be smaller and fit right together with the regular Fink installation.
 

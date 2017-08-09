@@ -34,7 +34,7 @@ Flack's team has built an [extensive suite](http://travis-ci.org/#!/flack/openps
 
 Support for Midgard2 was added into MidCOM already during my exploratory [Ragnaland work](http://bergie.iki.fi/blog/ragnaland_is_coming/) back in 2009, but was never finalized then. The renewed MidCOM development efforts have now brought this to the limelight, and now MidCOM runs just as well on both Midgard1 and Midgard2.
 
-![MidCOM on Midgard2](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midcom-bootstrap-about.png)
+![MidCOM on Midgard2](https://d2vqpl3tx84ay5.cloudfront.net/midcom-bootstrap-about.png)
 
 The migration to Midgard2 is critical, as the older Midgard generation is starting to show age, and will be EOLd next year. This will allow the Midgard community to focus on a single content repository implementation, and provides developers new powerful tools like [MidgardQuery](http://midgard-project.org/docs/api/core/ratatoskr/midgard-Midgard-Query.html).
 
@@ -68,7 +68,7 @@ With the new MidCOM we aim to change this, and bring everything needed to bootst
 
 Inspired by the [Symfony Standard Edition](https://github.com/symfony/symfony-standard/) and the [CMF Sandbox](https://github.com/symfony-cmf/cmf-sandbox), we've built a new [MidCOM Project Template](https://github.com/midgardproject/midcom-project-template) to guide developers to this new approach. The Project Template provides a simple, standardized structure for your MidCOM applications:
 
-![A new MidCOM project](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midcom-bootstrap-structure.png)
+![A new MidCOM project](https://d2vqpl3tx84ay5.cloudfront.net/midcom-bootstrap-structure.png)
 
 * `config` for MidCOM, Midgard, and component configuration, and for the MgdSchemas
 * `src` for application-specific components
@@ -100,7 +100,7 @@ The MidCOM Project Template includes a [ready-made Vagrant setup](https://github
 
 This is a great time to get some coffee. The first Vagrant VM initialization will take quite some time, as it needs to fetch a Ubuntu image, and run all the MidCOM setup on it.
 
-![New MidCOM site](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midcom-bootstrap-toolbar.png)
+![New MidCOM site](https://d2vqpl3tx84ay5.cloudfront.net/midcom-bootstrap-toolbar.png)
 
 In the end of the process you will have _a fully configured MidCOM setup with Midgard2 and PHP 5.3_. Just point your browser to <http://localhost:8181> and start using it!
 
@@ -122,7 +122,7 @@ In nutshell the migration path requires the following actions:
 
 As you can see from this post, a month after our initial planning session the first three steps are already completed. The other two require still work.
 
-![Asgard in the new MidCOM](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midcom-bootstrap-asgard.png)
+![Asgard in the new MidCOM](https://d2vqpl3tx84ay5.cloudfront.net/midcom-bootstrap-asgard.png)
 
 This means that for users still on Ragnaroek MidCOM versions, the right time to start testing the new MidCOM and its deployment model is _now_.
 
@@ -134,7 +134,7 @@ And more importantly, we need to make [Create.js](http://createjs.org/) the new 
 
 As you've probably seen from [Content Control's demo site](http://demo.contentcontrol-berlin.de/), MidCOM already runs quite smoothly with Create.js. So the main thing to do is to make all the main components support it, and merge our [older toolbar](http://bergie.iki.fi/blog/midgard-s-new-toolbar/) and [notifications](http://bergie.iki.fi/blog/make-your-site-growl/) with the ones from Create.js.
 
-![Create.js sorting in MidCOM](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midcom-createjs-sort.png)
+![Create.js sorting in MidCOM](https://d2vqpl3tx84ay5.cloudfront.net/midcom-createjs-sort.png)
 
 So, a lot of work to be done. But in the end we will have a faster and simpler MidCOM with a great editing tools. And it will not be an isolated island, but instead part of a [thriving PHP ecosystem](http://packagist.org/).
 

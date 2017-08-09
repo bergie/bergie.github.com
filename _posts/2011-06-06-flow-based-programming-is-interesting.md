@@ -9,7 +9,7 @@ categories:
   - coffeescript
   - nodejs
   - tablet
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/a8d40946bd1111e087e041fe349b82d982d9.png'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/a8d40946bd1111e087e041fe349b82d982d9.png'
 ---
 [Quite a different way](http://en.wikipedia.org/wiki/Flow-based_programming) of doing software:
 
@@ -23,11 +23,11 @@ I'm currently reading [the book](http://www.jpaulmorrison.com/fbp/) on the subje
 
 GUI is slowly coming up, powered by [jsPlumb](http://jsplumb.org/jquery/demo.html):
 
-![NoFlo GUI](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/3677011cbd0411e0b128fb6ff22253e453e4.png)
+![NoFlo GUI](https://d2vqpl3tx84ay5.cloudfront.net/3677011cbd0411e0b128fb6ff22253e453e4.png)
 
 And after a bit of styling:
 
-![NoFlo GUI](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/a8d40946bd1111e087e041fe349b82d982d9.png)
+![NoFlo GUI](https://d2vqpl3tx84ay5.cloudfront.net/a8d40946bd1111e087e041fe349b82d982d9.png)
 
 There is also a domain-specific language for flow-based programming. The example above, as FBP:
 
@@ -37,4 +37,4 @@ There is also a domain-specific language for flow-based programming. The example
 
 Added support for generating docs from FBP source files with Docco:
 
-![](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/b7bef516dae311e09ada75210ed4998a998a.png)
+![](https://d2vqpl3tx84ay5.cloudfront.net/b7bef516dae311e09ada75210ed4998a998a.png)

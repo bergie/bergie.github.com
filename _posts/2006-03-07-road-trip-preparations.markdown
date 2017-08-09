@@ -7,7 +7,7 @@
 ---
 We will have a quite interesting drive from [Dallas][1] to [EclipseCon][2] next week:
 
-![Coppell, TX to San Francisco, CA](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/google-maps-texas-california.jpg)
+![Coppell, TX to San Francisco, CA](https://d2vqpl3tx84ay5.cloudfront.net/google-maps-texas-california.jpg)
 
 Depending on the mileage we get, places like [Grand Canyon][3] and [Monument Valley][4] are on the way. I've done [some driving][5] in the US before, but nothing this long.
 

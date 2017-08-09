@@ -11,7 +11,7 @@ There is a new [Joel on Software post about calendars][1]. Lets see how the [Ope
 
 In OpenPsa calendar you specifically choose start and end time, not start and duration. By default when you click the _Create event_ button the new event will have a duration of one hour. The times can be entered either by writing, or by clicking the button next to time to open a [calendar selection widget][3]:
 
-![Event creation in OpenPsa Calendar](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/openpsa-calendar-createevent.jpg)
+![Event creation in OpenPsa Calendar](https://d2vqpl3tx84ay5.cloudfront.net/openpsa-calendar-createevent.jpg)
 
 > Understand enough about time zones so I can enter a flight. Flights from New Zealand to Los Angeles arrive before they departed.
 
@@ -21,7 +21,7 @@ Actually this we don't do yet. Now all times are supposed to be in the server's 
 
 The calendar events in the editor may be marked _Public_ or _Private_. With private events, everybody can see the duration of the event, but only participants can see the details. Everybody can see the details of the public events. 
 
-![Event access controls in OpenPsa Calendar](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/openpsa-calendar-createevent-publicprivate.jpg)
+![Event access controls in OpenPsa Calendar](https://d2vqpl3tx84ay5.cloudfront.net/openpsa-calendar-createevent-publicprivate.jpg)
 
 > Notify me in advance of a meeting using some reliable mechanism. Surprisingly many of the hot new Ajax calendars omitted this basic feature because they're web apps. At the very least, I'd like something to pop up on Windows, which means a downloadable widget, and an SMS message on my cell phone. Different meetings need different advance warnings ... I need to be notified 3 hours before a flight at Kennedy but 3 minutes before a meeting in my office.
 

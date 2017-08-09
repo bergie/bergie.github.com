@@ -13,7 +13,7 @@ Ideas may come to you when you're sitting in a bus, boarding an airplane or visi
 </blockquote><p>
 Having now <a href="http://bergie.iki.fi/blog/replicating_ajatus_with_your_colleagues/">dogfooded Ajatus</a> for almost two months, I have to say this has been an important aspect. It is powerful to have all your customer and project data with you at all times, and still be able to use it via the <a href="http://www.ajatus.info/documentation/ajatus_manifesto/#d0e70a7e577a59dc13d3774c6d58f23c">familiar web UI</a>.
 </p><p>
-<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/ajatus-on-fluid-1.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/ajatus-on-fluid-1-tm.jpg" height="202" width="400" border="1" hspace="4" vspace="4" alt="Ajatus 0.6 running on Fluid SSB" title="Ajatus 0.6 running on Fluid SSB" /></a>
+<a href="https://d2vqpl3tx84ay5.cloudfront.net/ajatus-on-fluid-1.png"><img src="https://d2vqpl3tx84ay5.cloudfront.net/ajatus-on-fluid-1-tm.jpg" height="202" width="400" border="1" hspace="4" vspace="4" alt="Ajatus 0.6 running on Fluid SSB" title="Ajatus 0.6 running on Fluid SSB" /></a>
 </p><p>
 Offline is useful. You can write your notes in every meeting, update them in train, report expenses as they incur. And most importantly, as long as your computer is running, the application is never down. And still, though <a href="http://bergie.iki.fi/blog/replicating_ajatus_with_your_colleagues/">replication</a> your data <a href="http://www.ajatus.info/documentation/ajatus_manifesto/#632d8b863e781e93a8430a09f779985e">will be safe</a> with your peers or the corporate server.
 </p><p>

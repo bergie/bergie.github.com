@@ -16,7 +16,7 @@ One part of answering that question (and managing the developer device program i
 
 <ul><li>count different contributions user has made</li><li>run those through a rating system (forum moderation, app catalog stars, social news favs, ...)</li><li>apply a contribution type modifier</li><li>add them up</li></ul>...and <a href="http://maemo.org/profile/list">we have karma</a>:
 
-<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemo-karma-quim.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemo-karma-quim-tm.jpg" height="154" width="398" border="1" hspace="4" vspace="4" alt="Maemo-Karma-Quim" /></a>
+<a href="https://d2vqpl3tx84ay5.cloudfront.net/maemo-karma-quim.png"><img src="https://d2vqpl3tx84ay5.cloudfront.net/maemo-karma-quim-tm.jpg" height="154" width="398" border="1" hspace="4" vspace="4" alt="Maemo-Karma-Quim" /></a>
 
 Technically the Karma system was implemented as a feature of <a href="http://www.midgard-project.org/">Midgard's</a> <a href="http://trac.midgard-project.org/browser/trunk/midcom/net.nehmer.account">net.nehmer.account</a> profile management component. Out-of-the-box it is able to calculate Karma from various items like forum posts and blog comments inside the Midgard database. To complement that it has a quite simple plug-in architecture for Karma calculations from other systems like GForge, SVN or Bugzilla.
 

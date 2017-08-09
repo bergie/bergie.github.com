@@ -7,19 +7,19 @@
 ---
 The [Finnish Broadcasting Company][1] launched today the website for [Itse Valtiaat][2], a popular [political satire][3] cartoon series. The site user interface has been built with Flash to provide an interactive and animated world familiar from the series.
 
-![Front page of the website](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/itsevaltiaat-front-navi.jpg)
+![Front page of the website](https://d2vqpl3tx84ay5.cloudfront.net/itsevaltiaat-front-navi.jpg)
 
 The Flash site has been built by __Joonas Kallioinen__ from [Piippunaakka][4], and it uses [Midgard CMS][5] as the back-end. Different site areas are introduced by familiar characters from the series.
 
 Midgard CMS provides all content used on the site, and allows users to interact by voting their favorite episodes for reruns.
 
-![Voting booth for rerun selection](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/itsevaltiaat-vote.jpg)
+![Voting booth for rerun selection](https://d2vqpl3tx84ay5.cloudfront.net/itsevaltiaat-vote.jpg)
 
 The Flash front-end communicates with Midgard using XML requests to unique URLs of different content resources. The XML communications have been developed following the [Ajax][6] model.
 
 Midgard CMS provides a web-based content authoring interface used for all updates on the site, including video and image uploads.
 
-![Midgard interface for administrating episode data](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/itsevaltiaat-admin-episode.jpg)
+![Midgard interface for administrating episode data](https://d2vqpl3tx84ay5.cloudfront.net/itsevaltiaat-admin-episode.jpg)
 
 The Flash interface retrieves some parts of site content using [RSS][7], and the feeds may be opened to public at a later date.
 

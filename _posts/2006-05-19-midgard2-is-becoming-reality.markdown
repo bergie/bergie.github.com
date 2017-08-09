@@ -7,7 +7,7 @@
 ---
 [Piotras remarked][1] that the process started in [East European Midgard Developer Meeting][2] three years ago to build a __Midgard 2__ on top of the [glib][3] library is now [a reality][4].
 
-![Alexander explains Midgard2 components](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Alexander_explains_Midgard2.jpg)
+![Alexander explains Midgard2 components](https://d2vqpl3tx84ay5.cloudfront.net/Alexander_explains_Midgard2.jpg)
 
 While the [Ruby bindings][5] didn't get maintained, the PHP and Java bindings are doing well, and the soon-to-be-released [OpenPsa 2][6] is the first really legacy-free Midgard2 application.
 

@@ -5,7 +5,7 @@ location: Helsinki, Finland
 categories:
   - life
   - onebag
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/haglofs_connect_small.jpg'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/haglofs_connect_small.jpg'
 ---
 In the last year, I've spent a lot of time on the road, mainly through client work and the [European projects](http://iks-project.eu) I've been involved with. To be more exact, I've spent more than half of my time traveling. This year should definitely be more light on conferences!
 
@@ -17,7 +17,7 @@ An important component of that is to have travel gear that gives you the needed 
 
 And even more importantly, having a light and easy to carry bag so that you can just keep it with you for a day out in the city instead of having to first visit the hotel to drop it.
 
-![Haglöfs Connect](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/haglofs_connect_small.jpg)
+![Haglöfs Connect](https://d2vqpl3tx84ay5.cloudfront.net/haglofs_connect_small.jpg)
 
 My current backpack is a *Haglöfs Connect 17"* that I got last Christmas. Prior to that, I was traveling with another backpack that I originally acquired for the long [walk to Santiago de Compostela](http://www.flickr.com/photos/bergie/sets/72157605264157805/). That backpack was great for anything from daily commute to [month-long trips around Europe](http://www.flickr.com/photos/bergie/sets/72157624858157408/), but was starting to be quite beaten up.
 

@@ -5,7 +5,7 @@ location: Berlin, Germany
 categories:
   - oscom
   - coffeescript
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hallo-contextual-toolbar.png'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/hallo-contextual-toolbar.png'
 ---
 Those who have been following my blog have probably seen the [Hallo Editor](http://hallojs.org/) mentioned in my Create.js posts. But for those who haven't seen it yet, here is a brief introduction.
 
@@ -23,15 +23,15 @@ Hallo's user interface design has focused on [minimalism](https://github.com/ber
 
 Because different web applications have varying user experience needs, the editing UI in Hallo is also configurable. The default UI provides a iPad-style popover that appears whenever user has selected some text to format:
 
-![Hallo.js contextual toolbar](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hallo-contextual-toolbar.png)
+![Hallo.js contextual toolbar](https://d2vqpl3tx84ay5.cloudfront.net/hallo-contextual-toolbar.png)
 
 There is also the more traditional "fixed toolbar" option where the editing tools are always displayed above the area being edited:
 
-![Hallo.js fixed toolbar](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hallo-fixed-toolbar.png)
+![Hallo.js fixed toolbar](https://d2vqpl3tx84ay5.cloudfront.net/hallo-fixed-toolbar.png)
 
 The toolbars can also be customized. For example in Create.js we place the editing tools directly into Create's own toolbar:
 
-![Hallo.js custom toolbar in Create.js](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hallo-custom-toolbar.png)
+![Hallo.js custom toolbar in Create.js](https://d2vqpl3tx84ay5.cloudfront.net/hallo-custom-toolbar.png)
 
 ## Design philosophy
 

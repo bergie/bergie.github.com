@@ -8,7 +8,7 @@ categories:
   - bestof
   - tablet
 location: Berlin, Germany
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/movies-on-n770-small.jpg'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/movies-on-n770-small.jpg'
 ---
 Much has been written about the emerging Post-PC era, about the new possibilities it brings, and the limitations it imposes on developer creativity.
 
@@ -30,7 +30,7 @@ No wonder we felt it to be the [real-world Hitchhiker's Guide to the Galaxy](/bl
 
 > However, Douglas Adams didn’t probably have in mind what would be really possible today, a joke that was written back then is now reality. What is 770 + Internet + [Wikipedia](http://en.wikipedia.org/)? Quite much same as Hitchhiker’s Guide to Galaxy. An electronic device that can answer to all your questions anywhere anytime. It is not Sci-Fi anylonger, but Nokia 770 Internet Tablet...
 
-![Morning news on a Nokia 770](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Morning_news_with_770.jpg)
+![Morning news on a Nokia 770](https://d2vqpl3tx84ay5.cloudfront.net/Morning_news_with_770.jpg)
 
 Many of the things people associate with iPad were already common for us in the old Internet Tablet times. I was [getting my morning news](/blog/getting-my-morning-news/) on the 770 with Google Reader just like I now do with [Pulse](http://www.pulse.me/) on an Android tablet, and I was sharing my location with friends [via Plazes](/blog/plazes-is-now-mobile/) like people now do with Foursquare. The only difference is that back then the tablets were for a bit more exclusive club of Linux enthusiasts.
 
@@ -40,13 +40,13 @@ The early stages of Maemo were important learning experiences for how a big mobi
 
 Next software updates to the device [brought VoIP and instant messaging](/blog/internet-tablet-os-2006-beta-is-out/) to the device, and the community [brought mobile maps](/blog/maemo-mapper-takes-us-closer-to-the-hitchhiker-s-guide/) (later on [Maemo Mapper would go with](/blog/maemo_mapper-openstreetmap_and_wikipedia/) the more legit option of [OpenStreetMap](http://www.openstreetmap.org/)). The instant messaging capability [proved itself useful](/blog/midgard-developer-meeting-in-komorniki/) very quickly:
 
-![Google Talk on the road](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Arttu_using_770.jpg)
+![Google Talk on the road](https://d2vqpl3tx84ay5.cloudfront.net/Arttu_using_770.jpg)
 
 > [We](http://www.nemein.com/en/) spent the last two days driving from Helsinki to [Poznan](http://en.wikipedia.org/wiki/Poznan), Poland for the [Midgard Developer Meeting](http://web.archive.org/web/20060621050543/http://www.midgard-project.org/community/events/e4f69dcc5fa78db88a9396a8f300dbad.html). This proved to be a good field test for [Maemo 2.0](/blog/internet-tablet-os-2006-beta-is-out/) as we needed to instruct people back home about some project details using [Google Talk](http://www.google.com/talk/).
 
 The media capabilities on the 770 also made it possible to [watch movies on the tablet](/blog/watching-movies-on-the-nokia-770/).
 
-![Porco Rosso on 770](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/movies-on-n770-small.jpg)
+![Porco Rosso on 770](https://d2vqpl3tx84ay5.cloudfront.net/movies-on-n770-small.jpg)
 
 ### Helping to run the community
 
@@ -56,13 +56,13 @@ Until this point we had been just regular community members, using our tablets f
 
 Those interested in the [history of Midgard](/blog/first_ten_years_of_midgard/) may find the [Maemo-Midgard feasibility study](https://garage.maemo.org/docman/view.php/106/45/Maemo_Midgard_Migration_Project_Feasibility_Study.pdf) worth a read.
 
-![Midgard tableteers](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemosummit-team.jpg)
+![Midgard tableteers](https://d2vqpl3tx84ay5.cloudfront.net/maemosummit-team.jpg)
 
 For us this was a great fit: many Midgard developers were already [fans of Maemo](/blog/maemo_and_midgard_go_well_together/), and Nokia's plan was to run the community infrastructure in an open manner. This meant most of the code was made Open Source, and when possible contributed to Midgard and other upstream projects.
 
 We were joined by excellent people like [Niels](http://communitizer.blogspot.de/), [Ferenc](http://maemo.org/profile/view/feri/), and [Reggie](http://talk.maemo.org/member.php?u=2), and have been running the community infrastructure ever since. In time we would introduce useful new services like [social news aggregation](/blog/maemo_social_news_launched/), [karma](/blog/midgard_and_the_law_of_karma/), [brainstorming](/blog/contribute_your_maemo_ideas_via_brainstorm/), and the hugely succesful [Maemo Downloads](/blog/maemo_downloads_is_again_open_for_business/) of which I will talk more later.
 
-![Maemo.org in 2007](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemo-new-site.jpg)
+![Maemo.org in 2007](https://d2vqpl3tx84ay5.cloudfront.net/maemo-new-site.jpg)
 
 ### Maemo becomes more mainstream
 
@@ -70,7 +70,7 @@ While the 770 had clearly been a _hacker device_, it was soon followed by the [N
 
 This was the tablet that really got creativity flowing. We quickly brought location-awareness to it with the [Plazes social network](/blog/plazes_on_the_n800/), and others in the community made [blogging on the N800](/blog/blogging_on_my_n800/) possible.
 
-![N800 and Midgard](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/os2008_n800_midgard2_installed_piotras-1-tm.jpg)
+![N800 and Midgard](https://d2vqpl3tx84ay5.cloudfront.net/os2008_n800_midgard2_installed_piotras-1-tm.jpg)
 
 [DeviceScape](/blog/wifi_autologins_with_devicescape/) brought another feature: WiFi autologins to pass those annoying captive portals many public access points have. While iOS devices now automatically pop up the authentication dialog in such situations, it is weird that even now this isn't a common feature in mobile OSs.
 
@@ -78,7 +78,7 @@ Later on I gave my old N800 to my mother and [she wrote about her experiences wi
 
 > Our Internet tablet is present almost imperceptibly in our life from dawn till dusk. It wakes us up in the morning, and tells news in the evening. It is small and stylish, and it mixes well with the environment.
 
-![Outi and Jyrki with the N800](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/jyrki_outi_n800-tm.jpg)
+![Outi and Jyrki with the N800](https://d2vqpl3tx84ay5.cloudfront.net/jyrki_outi_n800-tm.jpg)
 
 > Its utilities include e.g. a browser for surfing the net, Skype for phone calls, and several radios. Its smallness allows it to be enjoyed together, not separately as often happens with our personal computers. Several times a day we look at weather information, and TV programme guides. Also we use it in looking for dogs in need of home, this being the most important project at the moment.
 
@@ -86,7 +86,7 @@ Sounds quite iPad-esque, doesn't it?
 
 Since Internet Tablets were still a new thing, lots of experiments were happening with them. We ported the [CouchDB NoSQL database to the device](http://www.flickr.com/photos/bergie/2213910877/), and it wasn't uncommon to see [robots driven by the device](http://www.flickr.com/photos/bergie/836788181/):
 
-![N800 meets Aibo](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/n800-meets-aibo.jpg)
+![N800 meets Aibo](https://d2vqpl3tx84ay5.cloudfront.net/n800-meets-aibo.jpg)
 
 ### Universal communicator
 
@@ -94,17 +94,17 @@ The [Nokia N810](http://en.wikipedia.org/wiki/Nokia_N810) entered the picture in
 
 > And I'm not talking about [vodka](http://en.wikipedia.org/wiki/Vodka) this time, but instead about the latest [internet tablet](http://en.wikipedia.org/wiki/Internet_appliance) from Nokia, [the N810](http://www.amazon.com/Nokia-N810-Portable-Internet-Tablet/dp/B000Y4AH3C/ref=pd_bbs_sr_1?ie=UTF8&s=electronics&qid=1199711544&sr=8-1). I've now had the device for some weeks, and it has really [started to replace the laptop](/blog/appliances_are_starting_to_take_over/) in many situations.
 
-![N810, the Universal Communicator](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/n810-home-screen-tm.jpg)
+![N810, the Universal Communicator](https://d2vqpl3tx84ay5.cloudfront.net/n810-home-screen-tm.jpg)
 
 > The idea of an [universal communicator](http://www.deviceforge.com/articles/AT7085477626.html) is a mobile device that can be used to connect with various communication networks including telephone, instant messaging and social networks. After the [latest Internet Communications Software Update](http://rtcomm.garage.maemo.org/), the N810 fits the description quite well
 
 I wasn't the only one seeing the future potential of Internet Tablets. Around this time companies like [Rhapsody](http://www.rhapsody.com/) started experimenting with mobile strategies [using the Maemo tablets](/blog/first_look_at_rhapsody_for_n800/) as testbeds.
 
-![Rhapsody on the N800](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/rhapsody-n800.jpg)
+![Rhapsody on the N800](https://d2vqpl3tx84ay5.cloudfront.net/rhapsody-n800.jpg)
 
 [Mozilla](http://www.mozilla.org/en-US/) was also finding their mobile story with their [Fennec browser on the N810](/blog/numpty_physics_and_fennec-the_tablet_is_becoming_more_fun/), a development that would later on result in their highly promising [Firefox OS](http://www.mozilla.org/en-US/b2g/) effort. Again we Maemo users were getting a preview of the future.
 
-![Fennec on the N810](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fennec-n810-bergie-20080411-tm.jpg)
+![Fennec on the N810](https://d2vqpl3tx84ay5.cloudfront.net/fennec-n810-bergie-20080411-tm.jpg)
 
 Even with all this, the communication features of the N810 were a key. I still fondly remember having a N810-to-N810 video call from an Internet cafe in Amsterdam with my girlfriend after my phone had been stolen in the Gran Canaria [Desktop Summit](/blog/learn_about_midgard2-geoclue_and_libchamplain_in_guadec_2009/)...
 
@@ -112,7 +112,7 @@ Even with all this, the communication features of the N810 were a key. I still f
 
 Another big feature in N810 was that it had a GPS. Suddenly we would have [Nokia Maps](http://maps.nokia.com/) everywhere.
 
-![Going fast](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/n810-nokia-maps-small.jpg)
+![Going fast](https://d2vqpl3tx84ay5.cloudfront.net/n810-nokia-maps-small.jpg)
 
 This was the time when I was very interested in location-based services. By knowing where it was, a device could act as a [travel guide](/blog/positioned-cellphone-as-the-travel-guide/), help to [sort out logistics](/blog/solving-logistics-of-mamona/), guide people through [public transport](/blog/making_public_transport_easier_through_open_data/), and [much more](/blog/plazes_on_the_n800/).
 
@@ -122,7 +122,7 @@ Soon there appeared an opportunity to [push these ideas forward](/blog/summer_of
 
 As the interest in [GeoClue](http://en.wikipedia.org/wiki/GeoClue) grew, I would spend the next couple of years traveling to conferences to give talks on it. Eventually GeoClue would be adopted by most major Linux distributions, and [MeeGo](http://blogs.igalia.com/jfernandez/2010/08/06/geoclue-and-meego/).
 
-![OSM2Go on N810](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/osm2go-hietalahti.jpg)
+![OSM2Go on N810](https://d2vqpl3tx84ay5.cloudfront.net/osm2go-hietalahti.jpg)
 
 While some of the more ambitious ideas would only emerge in later services like [Google Now](http://www.google.com/landing/now/), location awareness enabled our tablets to do interesting things, like [mobile map making](/blog/osm2go-wonderful_mapping_tool_for_maemo/).
 
@@ -138,11 +138,11 @@ While the N900 brought a rift into the Maemo community through the older Interne
 
 For the next couple of years, this would be the device I would carry everywhere, and do almost everything with. I had a full [offline copy of Wikipedia](http://evopedia.info/) to guide me, it talked to [Qaiku](/blog/we-re_joining_the_qaiku_project/), the social network we were working on back then.
 
-![Mauku and Qaiku on the N900](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/mauku-fremantle-qaiku-tm.jpg)
+![Mauku and Qaiku on the N900](https://d2vqpl3tx84ay5.cloudfront.net/mauku-fremantle-qaiku-tm.jpg)
 
 And most importantly, it had a great camera. With the [Frankencamera drivers](/blog/frankencamera_aims_to_make_cameras_open_and_programmable/) the phone would often take much better pictures than my real camera. Or what would you say of the depth in this one?
 
-[![Menengai crater, on N900](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/menengai-crater.jpg)](http://www.flickr.com/photos/bergie/5293597184/in/set-72157625786154232)
+[![Menengai crater, on N900](https://d2vqpl3tx84ay5.cloudfront.net/menengai-crater.jpg)](http://www.flickr.com/photos/bergie/5293597184/in/set-72157625786154232)
 
 Despite all the advances in smartphone hardware and software since 2009, I still know many people who couldn't consider using any other phone than the N900. This was and is the only smartphone that _you could actually make your own_.
 
@@ -154,7 +154,7 @@ One innovative aspect of the Downloads service was [how we did quality assurance
 
 > We had a session about application QA in last weekend's [GSoC Mentor Summit](http://gsoc-wiki.osuosl.org/index.php/2010). I explained how the [Maemo Downloads](http://maemo.org/downloads/Maemo5/) approval process works in a [completely open, crowdsourced way](http://wiki.maemo.org/Extras-testing#How_it_works_in_practice). This differs from many distributions where approval of new packages involves obscure decisions and secret handshakes.
 
-![Maemo Downloads today](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemo-downloads-124m.png)
+![Maemo Downloads today](https://d2vqpl3tx84ay5.cloudfront.net/maemo-downloads-124m.png)
 
 The service became quite popular, and by February 2010 we were able to celebrate [serving 3.5 million downloads](http://communitizer.blogspot.de/2010/02/maemo-5-extras-reaches-35m-downloads.html). And this was by far not the end. As of today, the total download count stands at 124 million, with [the most popular apps](http://maemo.org/downloads/downloads/Maemo5/25/) standing around 1 million. Not bad for one device!
 
@@ -172,11 +172,11 @@ Eventually much of these questions would get sorted out. MeeGo would largely run
 
 One effect of the MeeGo transition was that conferences became more grandiose. Suddenly we were holding presentations in football stadiums and major hotels, with the conference parties having whole breweries booked for them. And conference handouts were getting better as well, with people getting tablets and MeeGo netbooks to develop with. The going joke was that _next year we'll all get a MeeGo-powered car_.
 
-![New MeeGo netbooks](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/new-meego-netbook.jpg)
+![New MeeGo netbooks](https://d2vqpl3tx84ay5.cloudfront.net/new-meego-netbook.jpg)
 
 At the same time, MeeGo's wider focus meant that suddenly we were talking about adapting our software to very different environments, from big tablets to smartphones and in-vehicle infotainment systems. We even deployed MeeGo on interactive information displays:
 
-![MeeGo on an information display](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/meego-info-display.jpg)
+![MeeGo on an information display](https://d2vqpl3tx84ay5.cloudfront.net/meego-info-display.jpg)
 
 A major part of MeeGo was Nokia's ongoing [Harmattan](http://flors.wordpress.com/2011/06/26/the-four-wheels-spinning-meego-1-2-harmattan/) work, which would eventually produce the [N9](http://en.wikipedia.org/wiki/Nokia_N9), a [widely-praised](http://www.theverge.com/2011/10/22/2506376/nokia-n9-review) and slick all-touch smartphone:
 
@@ -192,7 +192,7 @@ For much of its time, MeeGo was widely misunderstood as _Android without Java_. 
 
 By the late summer of 2011 [both MeeGo](http://www.theverge.com/2011/9/28/2456253/meego-is-dead-resurrected-as-tizen-another-new-linux-based-open) and [webOS were dead](http://www.theverge.com/2012/6/5/3062611/palm-webos-hp-inside-story-pre-postmortem). MeeGo because Nokia entered the world of Redmond, and webOS largely because HP couldn't decide what they wanted to be when they grew up.
 
-![Headlines after Feb 11th](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/elopocalypse.jpg)
+![Headlines after Feb 11th](https://d2vqpl3tx84ay5.cloudfront.net/elopocalypse.jpg)
 
 [Tizen](http://tizen.org/) was launched on the ashes of MeeGo, with essentially similar plans and ambitions, but with every instance of Nokia and Qt replaced with Samsung and EFL, and obviously causing yet another costly rewrite. I can only imagine how industrial vendors like car manufacturers felt, with long-advanced [MeeGo based product plans](https://meego.com/community/blogs/jahoffmann/2011/meego-and-genivi-are-roll) and the rug suddenly pulled from under them. However, the jury is still out on whether Tizen will succeed or not.
 
@@ -226,7 +226,7 @@ For supporters of free software, the last year has been looking quite grim. Desk
 
 > Well, now [Mer is back](http://lists.meego.com/pipermail/meego-dev/2011-October/484215.html).
 
-![Mer Project](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/1e0ede7a7914e20ede711e09b9da90a21eb97ea97ea_mer-400.jpg)
+![Mer Project](https://d2vqpl3tx84ay5.cloudfront.net/1e0ede7a7914e20ede711e09b9da90a21eb97ea97ea_mer-400.jpg)
 
 In FOSDEM last winter I helped to organize a [Open Mobile Linux track](/blog/open_mobile_linux_this_saturday_in_fosdem/) with the goal of bringing together the people involved in building an open version of the Post-PC future. I thought that with what had happened to MeeGo and webOS, there would be very little interest. Instead, the track was very lively, and we even had to turn people away to remain within the limits of fire safety regulations!
 
@@ -236,7 +236,7 @@ While the common view seems to be that the future is shared between Android and 
 
 I had been hearing rumors of something happening in the post-MeeGo space for a while, and today it seems it was finally time to make things public. The [JollaMobile Twitter account](https://twitter.com/JollaMobile) went live with the following announcement:
 
-![Jolla is here. MeeGo based smartphones will have a bright, new future](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/jolla-initial-tweet.png)
+![Jolla is here. MeeGo based smartphones will have a bright, new future](https://d2vqpl3tx84ay5.cloudfront.net/jolla-initial-tweet.png)
 
 As can be expected, this brought a lot of notice on Twitter, as well as on [Maemo forums](http://talk.maemo.org/showthread.php?t=85315) and [tech blogs](http://www.theverge.com/2012/7/7/3143099/jolla-meego-startup-ex-nokia-employees). Much of the Jolla plans are still secret, and there isn't the kind of [community infrastructure](/blog/maemo-s_community_involvement_infrastructure_is_what_meego_needs/) we from Maemo have been used to. But I'm sure these areas will become more clear as time progresses.
 
@@ -254,6 +254,6 @@ Will all of this work? Who knows, the world of mobile is a difficult one, with m
 
 I wish them luck in their endeavors, and look forward to the day when I can again proudly show [my MeeGon](/blog/me_on_meego/):
 
-![Bergie on MeeGo](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/1dfeb285a49033ceb2811dfa01fef8418608bb28bb2_bergie_meego_100x100.png)
+![Bergie on MeeGo](https://d2vqpl3tx84ay5.cloudfront.net/1dfeb285a49033ceb2811dfa01fef8418608bb28bb2_bergie_meego_100x100.png)
 
 *I've been writing this story on a stormy Berlin weekend, wearing my Mer Project T-shirt, and watching my Twitter feed fill up with supportive comments on Jolla and Mer. Exciting times!*

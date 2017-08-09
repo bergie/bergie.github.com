@@ -13,7 +13,7 @@ I was sitting in a meeting about three hours before the flight and suddenly got 
 <blockquote>FINNAIR check-in: AY937 Helsinki-Manchester 17.07.2007 departure 16:00 seat 15A window. Confirm by replying A.</blockquote>Since this seemed like a useful service I replied, and immediately got a confirmation for the seat.
 
 
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/finnair_embraer.jpg" height="300" width="400" border="1" hspace="4" vspace="4" alt="Finnair Embraer" />
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/finnair_embraer.jpg" height="300" width="400" border="1" hspace="4" vspace="4" alt="Finnair Embraer" />
 
 At the airport I then dropped my bag to a luggage drop point, and just walked to the gate. No boarding passes or any other papers beside my passport were needed. And few hours later I was in central Manchester, looking for <a href="http://www.plazes.com/plazes/106829:hotel_britannia">a hotel</a>.
 

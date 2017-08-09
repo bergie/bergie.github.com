@@ -11,7 +11,7 @@ I've posted about <a href="http://bergie.iki.fi/blog/midgard_releases_and_market
 </p><p>
 <a href="http://www.midgard-project.org/discussion/developer-forum/vote-midgard_release_synchronicity/">The proposal</a> is to switch to synchronized releases. This would make development more predictable, <a href="http://nettiapina.fi/blog/2008/07/17/marketing-midgard/">marketing efforts</a> clearer and more focused, and align us with the <a href="http://www.markshuttleworth.com/archives/150">release synchronicity movement</a> implemented in related projects like <a href="http://www.gnome.org/">GNOME</a> and <a href="http://www.ubuntu.com/">Ubuntu</a>.
 </p><p>
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/togetherness-brianscott.jpg" height="253" width="400" border="0" hspace="4" vspace="4" alt="Togetherness by BrianScott" title="Togetherness by BrianScott" /></p><p>
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/togetherness-brianscott.jpg" height="253" width="400" border="0" hspace="4" vspace="4" alt="Togetherness by BrianScott" title="Togetherness by BrianScott" /></p><p>
 Some concrete actions for this:
 </p><ul><li>Clarify naming of different aspects of Midgard: <em>Midgard Platform</em>, <em>Midgard MVC</em>, <em>Midgard CMS</em></li>
 <li>Combine releases of <a href="http://www.midgard-project.org/midgard">Midgard</a> and <a href="http://www.midgard-project.org/documentation/midcom">MidCOM</a> into "generations" that are compatible with each other and are targeted to specific set of dependencies (<a href="http://www.gnome-db.org/">libgda</a> and <a href="http://php.net/">PHP</a> versions for instance)</li>

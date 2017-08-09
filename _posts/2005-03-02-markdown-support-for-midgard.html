@@ -26,6 +26,6 @@ My blog is still powered by <a href="http://www.htmlarea.com/">htmlArea</a>, but
 <pre>$blog_topic = mgd_get_topic_by_name($GLOBALS[&quot;midcom_site&quot;][&quot;root_topic&quot;]-&gt;id,&quot;blog&quot;);<br />$blogs = mgd_list_topic_articles($blog_topic-&gt;id);<br />if ($blogs) {<br />  while ($blogs-&gt;fetch()) {<br />    $blogs-&gt;parameter(&quot;midcom.helper.datamanager&quot;,&quot;layout&quot;,&quot;html&quot;);<br />  }<br />}</pre>
 
 <p>This ensured that the old posts will be using the &quot;html&quot; schema, freeing the &quot;default&quot; schema to be used with Markdown. Now when I post through Metaweblog API (using <a href="http://ranchero.com/marsedit/" title="MarsEdit, Weblog editor for Mac OS X">Marsedit</a>), the post formatting will be Markdown, and when I create posts through the web I can choose between Markdown and HTML:<br /></p>
-<p style="text-align: center;"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/create-markdown-html-blog.jpg" /><br /></p>
+<p style="text-align: center;"><img src="https://d2vqpl3tx84ay5.cloudfront.net/create-markdown-html-blog.jpg" /><br /></p>
 <div style="text-align: left;">Sweet! <a href="http://www.kaukolaweb.com/" title="Henri Kaukola">Kaukola</a> also posted some notes on Markdown usage to <a href="http://www.nemein.com/en/company/it.html" title="Nemein's IT Policy">Nemein's IT policy</a>.<br /></div>
 <p style="text-align: center;"><br /></p>

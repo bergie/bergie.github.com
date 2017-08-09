@@ -5,7 +5,7 @@ location: Berlin, Germany
 categories:
   - midgard
   - oscom
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/createjs-storage-restore.png'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/createjs-storage-restore.png'
 ---
 One important part of writing web content is reliability. Since everybody has had bad experiences with their current tools, the current level of trust in web editing tools is low. We've all been there, maybe the browser crashed, or the server-side session expired. But suddenly the article you've spend an hour writing is gone.
 
@@ -19,7 +19,7 @@ To tackle this problem we need to win the trust of our users back. In web editin
 
 Luckily, modern JavaScript techniques make this problem solvable for [Create.js](http://createjs.org/). In Create, every key press, and every piece of pasted content gets stored safely into your browser's [localStorage](http://en.wikipedia.org/wiki/Web_storage). And should something go wrong, the next time you access a page you've been editing you will be presented with this friendly dialog:
 
-![Create.js content restore](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/createjs-storage-restore.png)
+![Create.js content restore](https://d2vqpl3tx84ay5.cloudfront.net/createjs-storage-restore.png)
 
 Click _Restore_ and your previous changes will be immediately inserted into the page.
 

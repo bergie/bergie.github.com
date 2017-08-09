@@ -6,7 +6,7 @@ categories:
 layout: post
 source: "http://www.qaiku.com/channels/show/midgard/view/73437b8c241311e097f3a77e0d84bb72bb72/"
 ---
-![Create UI](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/37e421f424a911e09f00eb8d996c453d453d.png)
+![Create UI](https://d2vqpl3tx84ay5.cloudfront.net/37e421f424a911e09f00eb8d996c453d453d.png)
 
 This is how the UI looks now.
 
@@ -16,7 +16,7 @@ This is how the UI looks now.
 * _Edit_ is a state that enables all areas that have been configured editable, and also includes the _Add_ buttons to listings
 * _Add_ slides in a new item, based on how the listing looks like
 
-![Create UI on MeeGo netbook](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/a9a87750259311e091ace3fde88a59745974.png)
+![Create UI on MeeGo netbook](https://d2vqpl3tx84ay5.cloudfront.net/a9a87750259311e091ace3fde88a59745974.png)
 
 And this screenshot comes from Midgard Create running on my MeeGo Netbook
 

@@ -5,14 +5,14 @@ layout: post
 categories: 
   - fbp
 published: true
-cover: https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie-noflo-sfjs-talk.png'
+cover: https://d2vqpl3tx84ay5.cloudfront.net/bergie-noflo-sfjs-talk.png'
 ---
 
 I will be [giving a talk](http://logbuch.c-base.org/archives/2082) on [NoFlo](http://noflojs.org/) tonight at 9pm at the [c-base hackerspace](http://c-base.org/) in Berlin. If you're interested in flow-based programming, feel free to join!
 
 *[Rungestr. 20](http://www.berlin.de/stadtplan/explorer?ADR_ZIP=10179&ADR_STREET=Rungestr.&ADR_HOUSE=20&ADR_INFO=%3Ca+href%3D%22www.c-base.org%22%3Ec-base%3C%2Fa%3E)*
 
-![NoFlo talk at San Francisco Functional JS meetup](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie-noflo-sfjs-talk.png)
+![NoFlo talk at San Francisco Functional JS meetup](https://d2vqpl3tx84ay5.cloudfront.net/bergie-noflo-sfjs-talk.png)
 
 If you can't make it, we have a video of the similar talk I gave at the [San Francisco Functional JS meetup](http://www.meetup.com/jsmeetup/events/125255032/) last week. We'll post it online soon.
 

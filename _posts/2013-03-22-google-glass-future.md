@@ -5,7 +5,7 @@ location: Berlin, Germany
 categories:
   - mobility
   - politics
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/surveillance-ban.png'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/surveillance-ban.png'
 ---
 [Google Glass](http://www.google.com/glass/start/) is coming this year, a wearable display that can keep you connected at all the times and supply information and instructions when you need them. And it can record video or take pictures of whatever you see, when you want it to.
 
@@ -27,7 +27,7 @@ In a world where a hidden, [pencil-shaped spy camera](http://www.pathgadget.com/
 
 The anti-Glass movement has a benefit. While not exactly a flying car, it is yet another sign that we're living in the future that science fiction authors envisioned. I mean, consider the fact that there is A *movement to ban cyborgs*.
 
-![Stop the Cyborgs](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/surveillance-ban.png)
+![Stop the Cyborgs](https://d2vqpl3tx84ay5.cloudfront.net/surveillance-ban.png)
 
 They even [sell stickers](http://www.redbubble.com/people/stopthecyborgs).
 

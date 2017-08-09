@@ -10,7 +10,7 @@ Finally the summer has started here in Finland and it is warm enough to spend ti
 
 I've been too busy to blog about all the stuff happening [last month][26], so here are some quick updates.
 
-![Nata and Kerttu on a Suomenlinna picnic](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Suomenlinna_Nata_Kerttu.jpg)
+![Nata and Kerttu on a Suomenlinna picnic](https://d2vqpl3tx84ay5.cloudfront.net/Suomenlinna_Nata_Kerttu.jpg)
 
 ## Exorcism at work
 
@@ -22,7 +22,7 @@ Point-to-point transformations have the advantage of being relatively loss-less,
 
 Some time ago we [performed the first Exorcism][30], successfully transferring three sites from EasySiter to Midgard CMS. All content and users were imported without problems, and only the site layout had to be manually converted. Exorcist uses the [Midgard-Java][31] bindings to access the Midgard content structure.
 
-![Matsku and Jose practising archery in Aallonranta](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Matsku_Jose_archery.jpg)
+![Matsku and Jose practising archery in Aallonranta](https://d2vqpl3tx84ay5.cloudfront.net/Matsku_Jose_archery.jpg)
 
 ## New Nemein team member
 
@@ -30,7 +30,7 @@ Some time ago we [performed the first Exorcism][30], successfully transferring t
 
 We're also thinking about different solutions for [unit testing][22] our Midgard solutions. Recently we've encountered some regression issues with MidCOM upgrades, and an automated test suite would bring some peace of mind there, especially if combined with the planned [PEAR packaging][25].
 
-![Topi at the office](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Topi_Tuominen_at_office.jpg)
+![Topi at the office](https://d2vqpl3tx84ay5.cloudfront.net/Topi_Tuominen_at_office.jpg)
 
 ## Midgard indexing
 
@@ -44,7 +44,7 @@ As Topi will inherit my old iBook, I [got][7] a new 15" [PowerBook G4][4] today.
 
 While Spotlight's [file-oriented][12] approach would make [developing][13] a [Midgard indexer plugin][14] difficult, the benefits would be big. After that documents in the local Midgard database would appear in regular desktop searches, and Midgard wouldn't require a separate indexer to be installed.
 
-![The PowerBook and photo from Drakensberg](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/New_PowerBook.jpg)
+![The PowerBook and photo from Drakensberg](https://d2vqpl3tx84ay5.cloudfront.net/New_PowerBook.jpg)
 
 ## OpenPSA synchronization
 
@@ -54,7 +54,7 @@ Jan Schneider writes:
 
 > We have DevInf (Device Information) support now, which means that adding support for a SyncML client that is not supported by default, because it "speaks" a variant of the standard implementation, is as easy as writing a small class that extends the default DevInf class. So far we have support for the P800/P900/P910 class of mobile phones and Sync4j. Several people are currently trying to get Nokia phones, Blackberry, and Synthesis clients for PocketPC and Palm working.
 
-![Lufthansa Junkers at Helsinki-Malmi](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Lufthansa_Junkers_EFHF.jpg)
+![Lufthansa Junkers at Helsinki-Malmi](https://d2vqpl3tx84ay5.cloudfront.net/Lufthansa_Junkers_EFHF.jpg)
 
 __In the other news__, [congratulations, SmallOne][1]! It seems that the Midgard family is indeed [growing][2] [quickly][3].
 

@@ -6,7 +6,7 @@
   layout: "post"
 
 ---
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/OSCOM-official.png" border="0" height="119" width="307" alt="OSCOM" align="right" />
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/OSCOM-official.png" border="0" height="119" width="307" alt="OSCOM" align="right" />
 
 [OSCOM's][1] general meeting was held last night. The main issue in the [stormy discussion][2] was the question whether the association should be dissolved or not.
 

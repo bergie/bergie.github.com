@@ -9,7 +9,7 @@ categories:
   - bestof
 layout: post
 location: Berlin, Germany
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo-jekyll.png'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/noflo-jekyll.png'
 ---
 [Jekyll](http://jekyllrb.com/) is a delightful piece of software. A Ruby application that turns your Markdown and HTML files to a nicely constructed static website. Since the generated site is static, you can deploy and serve it from anywhere with no security or performance concerns. As a matter of fact, [this site](http://bergie.iki.fi/) is [built](http://bergie.iki.fi/colophon/) with Jekyll.
 
@@ -23,7 +23,7 @@ Before I go to the reasons, let me briefly introduce the project itself: [noflo-
 
 Just like any flow-based program, the NoFlo reimplementation of Jekyll is built out of a graph. Here is how the main graph of the application looks like when loaded via the NoFlo UI prototype:
 
-[![NoFlo Jekyll main graph](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo-jekyll-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo-jekyll.png)
+[![NoFlo Jekyll main graph](https://d2vqpl3tx84ay5.cloudfront.net/noflo-jekyll-small.png)](https://d2vqpl3tx84ay5.cloudfront.net/noflo-jekyll.png)
 
 Quite a few of the boxes you see in that graph are actually [subgraphs](https://github.com/the-grid/noflo-jekyll/tree/master/graphs). Since the UI is still under work, the subgraphs have been defined in the more text editor friendly [.fbp syntax](http://noflojs.org/documentation/fbp/).
 

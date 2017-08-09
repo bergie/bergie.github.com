@@ -6,10 +6,10 @@
   layout: "post"
 
 ---
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midgard-project.gif" border="0" height="120" width="120" alt="Midgard Project" style="margin-left: 10px;" align="right" />
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/midgard-project.gif" border="0" height="120" width="120" alt="Midgard Project" style="margin-left: 10px;" align="right" />
 Here are the [Midgard CMS][1] slides we presented to two major potential Finnish customers on friday:
 
-[Midgard presentation in Finnish (256 KB PDF)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Midgard_CMS-20051111.pdf)
+[Midgard presentation in Finnish (256 KB PDF)](https://d2vqpl3tx84ay5.cloudfront.net/Midgard_CMS-20051111.pdf)
 
 While the slides were made half-asleep on an early morning train from the [Tampere COSS meeting][2] and are so not very [presentation Zen][3] ish, they try to focus on couple of key points with Midgard and [Nemein][4]:
 

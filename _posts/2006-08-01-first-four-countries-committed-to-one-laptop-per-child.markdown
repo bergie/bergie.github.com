@@ -12,7 +12,7 @@ According to the [DesktopLinux.com article][1], Nigeria, Brazil, Argentina, and 
 
 [One Laptop Per Child][2] is a very interesting project aiming to use Free Software to bridge the digital divide between industrialized and third world countries.
 
-![The OLPC laptop has a turning screen](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/olpc_orange_small.jpg)
+![The OLPC laptop has a turning screen](https://d2vqpl3tx84ay5.cloudfront.net/olpc_orange_small.jpg)
 
 Makes me wonder though where [industrialized countries][4] stand with this. Even if the price was doubled to subsidize third world deployments, it would still be reasonably cheap compared to printing millions of textbooks every year. [Ministry of Education][3], are you listening?
 

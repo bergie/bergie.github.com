@@ -12,7 +12,7 @@ This week we're having a MidCOM 3 coding sprint, and now we can already mount th
 </p><p>
 WebDAV serving logic is implemented using PEAR's <a href="http://pear.php.net/package/HTTP_WebDAV_Server">HTTP_WebDAV_Server</a>.
 </p><p>
-<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midcom3-webdav-browse-20080626.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midcom3-webdav-browse-20080626-tm.jpg" height="225" width="400" border="1" hspace="4" vspace="4" alt="Browsing a MidCOM3 site via WebDAV" title="Browsing a MidCOM3 site via WebDAV" /></a>
+<a href="https://d2vqpl3tx84ay5.cloudfront.net/midcom3-webdav-browse-20080626.png"><img src="https://d2vqpl3tx84ay5.cloudfront.net/midcom3-webdav-browse-20080626-tm.jpg" height="225" width="400" border="1" hspace="4" vspace="4" alt="Browsing a MidCOM3 site via WebDAV" title="Browsing a MidCOM3 site via WebDAV" /></a>
 </p><p>
 More functionality will follow...
 </p>

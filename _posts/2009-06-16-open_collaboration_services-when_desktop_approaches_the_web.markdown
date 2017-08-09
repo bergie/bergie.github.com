@@ -7,7 +7,7 @@
 
 ---
 <p>
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/socialdesktop.jpg" height="50" width="220" border="0" align="right" hspace="8" vspace="4" alt="Social Desktop" title="Social Desktop" />
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/socialdesktop.jpg" height="50" width="220" border="0" align="right" hspace="8" vspace="4" alt="Social Desktop" title="Social Desktop" />
 <br />Today I ran into the <a href="http://www.freedesktop.org/wiki/Specifications/open-collaboration-services">Open Collaboration Services API</a>, planned as the vendor-neutral specification for <a href="http://www.open-collaboration-services.org/">Social Desktop</a> services:
 </p><blockquote>
 Core idea of the Social Desktop is to connect to your peers in the community, making sharing and exchanging knowledge easier to integrate into applications and the desktop itself. The concept behind the Social Desktop is to bring the power of online communities and group collaboration to desktop applications and the desktop shell itself.

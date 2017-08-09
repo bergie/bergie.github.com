@@ -11,7 +11,7 @@ I've been totally swamped by the number of photos taken during the last eight mo
 
 The [FlickrExport][3] tool makes it very easy to publish the pictures from [iPhoto][4], the application which I use to manage the pictures on my laptop:
 
-![Uploading images via FlickrExport](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/iphoto-flickr-exporter.jpg)
+![Uploading images via FlickrExport](https://d2vqpl3tx84ay5.cloudfront.net/iphoto-flickr-exporter.jpg)
 
 Using Flickr for photo publishing fits well with my "[IT strategy][5]". I can have the photos available for three usage areas:
 

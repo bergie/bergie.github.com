@@ -13,7 +13,7 @@ Since the fate of the computer is uncertain I decided to secure at least some en
 
 So far the results look quite promising:
 
-![Porco Rosso on the Nokia 770](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/movies-on-n770-small.jpg)
+![Porco Rosso on the Nokia 770](https://d2vqpl3tx84ay5.cloudfront.net/movies-on-n770-small.jpg)
 
 Now what remains to be seen is how long the battery of the Nokia device lasts when watching movies.
 

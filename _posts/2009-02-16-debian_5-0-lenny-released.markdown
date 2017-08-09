@@ -7,7 +7,7 @@
 
 ---
 <p>
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/lenny.jpg" height="163" width="200" border="0" align="right" hspace="8" vspace="4" alt="Debian 5.0 Lenny" title="Debian 5.0 Lenny" /><br />Good work, <a href="http://www.debian.org/">Debian</a> Project: <a href="http://www.debian.org/News/2009/20090214">Debian GNU/Linux 5.0 is released</a>!
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/lenny.jpg" height="163" width="200" border="0" align="right" hspace="8" vspace="4" alt="Debian 5.0 Lenny" title="Debian 5.0 Lenny" /><br />Good work, <a href="http://www.debian.org/">Debian</a> Project: <a href="http://www.debian.org/News/2009/20090214">Debian GNU/Linux 5.0 is released</a>!
 </p><p>
 As <a href="http://www.midgard-project.org/">Midgard</a> release manager <a href="http://blogs.nemein.com/people/piotras/">Piotras</a> wrote <a href="http://piotras.jaiku.com/presence/53745934#comments">in his Jaiku</a>:
 </p><blockquote>

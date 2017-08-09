@@ -19,11 +19,11 @@ There is now a first test implementation of <em>Midgard-to-CouchDb</em> synchron
 </p><p>
 Setting up replication on CouchDb admin UI:
 </p><p>
-<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/couchdb-midgard-replication-setup.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/couchdb-midgard-replication-setup-tm.jpg" height="206" width="400" border="1" hspace="4" vspace="4" alt="Replicating from Midgard to CouchDb" title="Replicating from Midgard to CouchDb" /></a>
+<a href="https://d2vqpl3tx84ay5.cloudfront.net/couchdb-midgard-replication-setup.png"><img src="https://d2vqpl3tx84ay5.cloudfront.net/couchdb-midgard-replication-setup-tm.jpg" height="206" width="400" border="1" hspace="4" vspace="4" alt="Replicating from Midgard to CouchDb" title="Replicating from Midgard to CouchDb" /></a>
 </p><p>
 Midgard record replicated successfully into CouchDb:
 </p><p>
-<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/couchdb-replicated-midgard-person.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/couchdb-replicated-midgard-person-tm.jpg" height="216" width="400" border="1" hspace="4" vspace="4" alt="Replicated Midgard person record in CouchDb" title="Replicated Midgard person record in CouchDb" /></a>
+<a href="https://d2vqpl3tx84ay5.cloudfront.net/couchdb-replicated-midgard-person.png"><img src="https://d2vqpl3tx84ay5.cloudfront.net/couchdb-replicated-midgard-person-tm.jpg" height="216" width="400" border="1" hspace="4" vspace="4" alt="Replicated Midgard person record in CouchDb" title="Replicated Midgard person record in CouchDb" /></a>
 </p><p>
 I'll talk more about this and <em>repository-oriented application development</em> in my <a href="http://www.grancanariadesktopsummit.org/node/210">Midgard2: Content repository for desktop and the web</a> talk <a href="http://www.grancanariadesktopsummit.org/node/270">tomorrow at 16:45</a>. Be there!
 </p>

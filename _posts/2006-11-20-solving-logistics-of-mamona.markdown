@@ -14,7 +14,7 @@ _Mamona_, or [Castor oil plant][1] is an oil-producing plant that can be grown i
 
 The IT problem related to this is that the farmers in poor areas that plant Mamona are not very well connected, and so it is difficult for Petrobras to know how many crops have been planted, and the farmers to know when and where to deliver their produce.
 
-![A farm in Paraná, Brazil](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Farm_in_Parana.jpg)
+![A farm in Paraná, Brazil](https://d2vqpl3tx84ay5.cloudfront.net/Farm_in_Parana.jpg)
 
 __A quick solution__ would be something like the following:
 
@@ -22,7 +22,7 @@ Petrobras could build a simple web-based database of Mamona producers, collectio
 
 Since the farmers do not have IT infrastructure available, Petrobras could distribute a set of [Nokia 770][9] Internet Tablets and GPRS-enabled cell phones for them. Compared to a regular PC, the 770 has advantages of relatively low cost, low power consumption, support for using cell phone network for connectivity and support for any regular Nokia phone charger, including [solar][14] and [hand cranked chargers][10]. Since the 770 platform is open the software setup could also be tailored for the specific needs of the Mamona program.
 
-![Map browsing on Nokia 770, photo by Tuomas Kuosmanen](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nokia-770-maemo-mapper-small.jpg)
+![Map browsing on Nokia 770, photo by Tuomas Kuosmanen](https://d2vqpl3tx84ay5.cloudfront.net/nokia-770-maemo-mapper-small.jpg)
 
 When a Mamona harvest happens the farmers would again log into the website and report the number of crops produced. This information would be produced as a [GeoRSS][11] feed to the logistical companies whose 770s could automatically find loads to pick up from their vicinity. The feed would contain the farmer's contact information so that they could contact the farmer, and since it is geotagged would also automatically appear as a [Point of Interest][12] in the [770 map application][13]. Farmers could similarly get a feed of nearby logistical companies.
 

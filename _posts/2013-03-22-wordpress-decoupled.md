@@ -5,7 +5,7 @@ layout: post
 categories:
   - oscom
   - midgard
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/decoupled-cms-architecture.png'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/decoupled-cms-architecture.png'
 ---
 Couple of days ago there was an interesting post on [the Dire State of WordPress](http://jshakespeare.com/the-dire-state-of-wordpress/), talking about the issues developers have when working with this [hugely popular](http://en.wordpress.com/stats/) content management system:
 
@@ -31,7 +31,7 @@ I wrote a still-popular post titled [Decoupling Content Management](http://bergi
 
 In nutshell, the transition I want CMSs &mdash; WordPress included &mdash; to make is this:
 
-![Decoupling Content Management](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/decoupled-cms-architecture.png)
+![Decoupling Content Management](https://d2vqpl3tx84ay5.cloudfront.net/decoupled-cms-architecture.png)
 
 Here is my [talk on the subject](http://youtu.be/j4NoAFK-KNY) from JS.everywhere in Paris late last year:
 

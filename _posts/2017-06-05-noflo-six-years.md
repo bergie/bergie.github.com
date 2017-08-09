@@ -5,7 +5,7 @@ categories:
   - fbp
   - business
 layout: post
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/station-announcer.png'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/station-announcer.png'
 ---
 Quite a bit of time has passed since my [two years of NoFlo](/blog/noflo-two-years/) post, and it is time to take another look at the state of the [NoFlo ecosystem](https://noflojs.org/). To start with the basics, NoFlo is a JavaScript implementation of [Flow-Based Programming](https://en.wikipedia.org/wiki/Flow-based_programming):
 
@@ -33,7 +33,7 @@ Here is how [Fast Company wrote about NoFlo](https://www.fastcompany.com/3016289
 
 With Flowhub you can manage full NoFlo projects in your browser. This includes writing components in JavaScript or CoffeeScript, editing graphs and subgraphs, running and introspecting the software, and creating unit tests. You can keep your project in sync with the GitHub integration.
 
-![Live programming NoFlo in Flowhub](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/station-announcer.png)
+![Live programming NoFlo in Flowhub](https://d2vqpl3tx84ay5.cloudfront.net/station-announcer.png)
 
 ### Celebrating six years of NoFlo
 
@@ -59,7 +59,7 @@ Dataflow also saw uptake in the bigger industry. [Facebook's Flux architecture](
 
 One big area of focus for us has been improving the tooling around NoFlo, as well as the other FBP systems. The [FBP protocol](https://flowbased.github.io/fbp-protocol/) has been a big enabler for both building better tools, and for collaboration between different FBP and dataflow systems.
 
-![FBP protocol](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fbp-protocol.png)
+![FBP protocol](https://d2vqpl3tx84ay5.cloudfront.net/fbp-protocol.png)
 
 Here are some of the tools currently available for NoFlo developers:
 
@@ -74,7 +74,7 @@ Here are some of the tools currently available for NoFlo developers:
 
 NoFlo 0.8, [released in March this year](/blog/noflo-0-8/) is probably our most important release so far. It introduced a [new component API](/blog/noflo-process-api/) and greatly clarified the [component and network lifecycle](/blog/noflo-0-8/#component-and-network-lifecycle).
 
-![NoFlo 0.8 program lifecycle](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/a17b8582-fc33-11e5-9826-a722b90913ce.png)
+![NoFlo 0.8 program lifecycle](https://d2vqpl3tx84ay5.cloudfront.net/a17b8582-fc33-11e5-9826-a722b90913ce.png)
 
 With this release, it is easier than ever to build well-behaved NoFlo components and to deal with the mixture of asynchronous and synchronous data processing. It also brings NoFlo a lot closer to the [classical FBP concepts](http://www.jpaulmorrison.com/fbp/).
 

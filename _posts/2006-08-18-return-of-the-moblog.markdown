@@ -10,7 +10,7 @@
 
 We encountered this earlier on the [Death Monkey trip][5], where [Rambo debugged it][6] and committed a workaround to the [org.openpsa.mail library][7]. Now I've installed the [same workaround][8] to my blog and parsing the emails works again. Looking forward to being able to moblog again!
 
-![My moblog](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie-moblog-20060818.jpg)
+![My moblog](https://d2vqpl3tx84ay5.cloudfront.net/bergie-moblog-20060818.jpg)
 
 __Note:__ Would be great if [Rambo][9] could get the same fix into the [PEAR package][4] as well.
 

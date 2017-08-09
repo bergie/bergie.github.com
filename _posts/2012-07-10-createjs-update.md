@@ -29,7 +29,7 @@ It also explains the base design of Create:
 
 > The Create.js interface was then rebuilt on top of this new VIE library by writing a bunch of [jQuery UI widgets](http://sebastian.germes.in/blog/2011/07/jquery-ui-widget-factory-v-1-8/). This way we have an overall default UX that we can ship, but still provide a bunch of different widgets for CMS vendors to pick-and-choose.
 
-![Create.js structure](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/createjs-structure-small.png)
+![Create.js structure](https://d2vqpl3tx84ay5.cloudfront.net/createjs-structure-small.png)
 
 > Some CMSs use the full Create UX, and some use just parts to provide the UX they want to have. Examples of custom UXs include [Symfony CMF](http://blog.iks-project.eu/semantic-enhanced-cmf-editor-now-available/) and [OpenCms](http://iks.alkacon.com/en/).
 
@@ -62,7 +62,7 @@ Drupal has its own next-generation in-place editing project called [Spark](http:
 
 Last week the Spark team also [chose Aloha Editor](https://drupal.org/node/1580210) as the rich text editor in their interface. Given that Aloha Editor is optionally supported in Create.js, and [TYPO3 will be using](http://typo3.org/news/article/typo3-phoenix-becomes-iks-early-adaptor/) the same editor with VIE and Create.js widgets, the projects are indeed converging.
 
-![I'm a speaker](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/drupalcon_2012_speaker.png)
+![I'm a speaker](https://d2vqpl3tx84ay5.cloudfront.net/drupalcon_2012_speaker.png)
 
 [Rene Kapusta's](http://www.iks-project.eu/community/people/rene-kapusta) Drupal-based [Semantic CMS](http://semantic-cms.info/) was one of the early VIE adopters.
 
@@ -70,7 +70,7 @@ Last week the Spark team also [chose Aloha Editor](https://drupal.org/node/15802
 
 [Prose](http://developmentseed.org/blog/2012/june/25/prose-a-content-editor-for-github/) is a recently-announced content management interface for Markdown documents handled in GitHub repositories. This is a very common way to publish materials, especially on blogs powered by static site generators like [Jekyll](http://jekyllrb.com/) and [DocPad](https://github.com/bevry/docpad).
 
-![Editing my blog with Prose](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/editing-blog-with-prose-small.png)
+![Editing my blog with Prose](https://d2vqpl3tx84ay5.cloudfront.net/editing-blog-with-prose-small.png)
 
 While currently the Prose tool is heavily dependent on plain text formatting, they have [ambitious plans](https://github.com/substance/surface/blob/master/README.md) on building a new, reusable WYSIWYG editing core library based on [Operational Transforms](http://en.wikipedia.org/wiki/Operational_transformation).
 

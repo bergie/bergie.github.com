@@ -7,13 +7,13 @@
 ---
 [VR Makasiinit][2], the old railway transfer terminal from late 19th century [burned down][3] on friday. We were on the way home from [opera][4] when the main street of Helsinki was closed and a dark plume of smoke [towered][5] above the city.
 
-![Smoke-filled center of Helsinki](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/VR_Makasiinit_on_fire.jpg)
+![Smoke-filled center of Helsinki](https://d2vqpl3tx84ay5.cloudfront.net/VR_Makasiinit_on_fire.jpg)
 
 [The Makasiinit area][10] was in any case destined to be demolished in a few days from the way of a new "music house". However, now it had to burn in the aftermath of a small-scale riot there during the [May Day][9] celebrations. Molotov coctails had been thrown, and so it is a little surprise somebody decided to set the buildings on fire.
 
 I liked the Makasiinit area. It was a nice, even if quite run-down example of late 19th century industrial "red brick" architecture in the center of Helsinki. It had housed several events that I'd been to, like the [Medieval Fair in 1998][6].
 
-![Harmaasudet fighting display in 1998. Photo by Noora Hirvonen](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Falkenberg_ja_Bergius.jpg)
+![Harmaasudet fighting display in 1998. Photo by Noora Hirvonen](https://d2vqpl3tx84ay5.cloudfront.net/Falkenberg_ja_Bergius.jpg)
 
 Makasiinit had been the subject of a long and [typical][7] political struggle. As [Maud puts it][8], maybe it was better for the buildings _"to burn out than fade away"_.
 

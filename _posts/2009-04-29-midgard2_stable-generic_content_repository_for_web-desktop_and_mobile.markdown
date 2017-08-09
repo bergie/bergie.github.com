@@ -8,7 +8,7 @@
 
 ---
 <p>
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/vali-party-toast.jpg" height="228" width="260" border="0" align="right" hspace="4" vspace="4" alt="Vali raises a toast for Midgard2" title="Vali raises a toast for Midgard2" />
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/vali-party-toast.jpg" height="228" width="260" border="0" align="right" hspace="4" vspace="4" alt="Vali raises a toast for Midgard2" title="Vali raises a toast for Midgard2" />
 <br />After <a href="http://www.kaktus.cc/weblog/4658b837d2e9075028380198a39fbc0f/">the long wait</a>, <a href="http://www.midgard2.org/">Midgard2</a> was today <a href="http://www.midgard-project.org/download/9-3/">released to the world</a>. This marks a big change in the scope of what Midgard is. Instead of building a CMS, we've built a generic content repository that can be utilized in web, mobile and desktop applications.
 </p><p>
 As <a href="http://www.mdk.org.pl/2009/3/26/midgard-objc-bindings">MDK wrote when announcing</a> the <a href="http://www.midgard-project.org/documentation/xcode_tutorial/">Objective-C bindings for Midgard</a>:

@@ -4,7 +4,7 @@ location: Berlin, Germany
 categories:
   - fbp
 layout: post
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo-browser-app-webrtc.png'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/noflo-browser-app-webrtc.png'
 ---
 I was looking at some of the [Stack Overflow _noflo_ questions](http://stackoverflow.com/questions/tagged/noflo) yesterday, and there were a few related to building NoFlo for the browser. This made me realize we haven't really talked about the major change we made to browser builds recently: [webpack](https://webpack.js.org).
 
@@ -71,7 +71,7 @@ The project contains a fully working build setup, including [Travis CI](https://
 
 The default setup enables live-debugging the app in Flowhub via a WebRTC connection:
 
-[![WebRTC debugging a NoFlo browser app](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo-browser-app-webrtc_small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo-browser-app-webrtc.png)
+[![WebRTC debugging a NoFlo browser app](https://d2vqpl3tx84ay5.cloudfront.net/noflo-browser-app-webrtc_small.png)](https://d2vqpl3tx84ay5.cloudfront.net/noflo-browser-app-webrtc.png)
 
 If you want to disable the WebRTC runtime option, simply pass a `debug: false` option to grunt-noflo-browser.
 

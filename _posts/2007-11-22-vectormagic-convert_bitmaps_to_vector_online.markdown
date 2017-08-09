@@ -9,7 +9,7 @@
 
 Here is how it dealt with the <a href="http://www.midgard-project.org/">Midgard 1.x</a> logo (with a small set of colors):
 
-<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/vectormagic-midgard1.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/vectormagic-midgard1-tm.jpg" height="261" width="398" border="1" hspace="4" vspace="4" alt="Vectormagic-Midgard1" /></a>
+<a href="https://d2vqpl3tx84ay5.cloudfront.net/vectormagic-midgard1.png"><img src="https://d2vqpl3tx84ay5.cloudfront.net/vectormagic-midgard1-tm.jpg" height="261" width="398" border="1" hspace="4" vspace="4" alt="Vectormagic-Midgard1" /></a>
 
 Via <a href="http://www.boingboing.net/2007/11/21/web-site-converts-ph.html">Boing Boing</a>.
 

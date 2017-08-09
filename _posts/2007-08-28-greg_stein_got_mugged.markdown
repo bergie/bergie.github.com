@@ -6,7 +6,7 @@
   layout: "post"
 
 ---
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/michael_wechner_and_greg_stein.jpg" height="311" width="300" border="0" align="right" hspace="8" vspace="4" alt="Michael Wechner and Greg Stein" title="Michael Wechner and Greg Stein" style="float: right;" />
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/michael_wechner_and_greg_stein.jpg" height="311" width="300" border="0" align="right" hspace="8" vspace="4" alt="Michael Wechner and Greg Stein" title="Michael Wechner and Greg Stein" style="float: right;" />
 <a href="http://www.lyra.org/greg/">Greg Stein</a>, of WebDAV, SVN and ASF fame, <a href="http://feedblog.org/2007/08/27/greg-stein-director-of-the-apache-software-foundation-was-mugged-accepting-donations/">got violently mugged last Friday</a> in Mountain View:
 <blockquote><p>They gave Greg a black eye and a serious laceration to the head which required numerous stiches. Apparently, he was bleeding profusely when the ambulance came.</p>
 <p>The doctors were worried about his head wound and he spent the entire night under observation and went through numerous CAT scans.</p>

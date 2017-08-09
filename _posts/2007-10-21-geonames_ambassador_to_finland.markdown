@@ -5,7 +5,7 @@
   layout: "post"
 
 ---
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/GeoNamesAmbassadors20071018.png" height="141" width="270" border="0" align="right" hspace="8" vspace="4" alt="Geonamesambassadors20071018" style="float: right;" />
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/GeoNamesAmbassadors20071018.png" height="141" width="270" border="0" align="right" hspace="8" vspace="4" alt="Geonamesambassadors20071018" style="float: right;" />
 <a href="http://www.geonames.org/">GeoNames</a> is a very cool repository of open content geographical information. <a href="http://www.geonames.org/about.html">From the site</a>:
 
 <blockquote>The GeoNames geographical database is available for download free of charge under a creative commons attribution license. It contains over eight million geographical names and consists of 6.5 million unique features whereof 2.2 million populated places and 1.8 million alternate names. All features are categorized into one out of nine feature classes and further subcategorized into one out of 645 feature codes.</blockquote>To help spreading the word and communicating with local mapping agencies, GeoNames <a href="http://geonames.wordpress.com/2007/10/19/geonames-ambassadors/">has now introduced</a> a <a href="http://www.geonames.org/team.html">group of ambassadors</a> who act as the local contacts of the project. As I've been using <a href="http://download.geonames.org/export/dump/">GeoNames data</a> and <a href="http://www.geonames.org/export/">web services</a> heavily in <a href="http://www.midgard-project.org/">Midgard's</a> <a href="http://en.wikipedia.org/wiki/GeoCMS">GeoCMS features</a>, I'm more than happy to act as the local contact in <a href="http://en.wikipedia.org/wiki/Finland">Finland</a>.

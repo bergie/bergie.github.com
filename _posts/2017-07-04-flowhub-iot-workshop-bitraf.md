@@ -5,7 +5,7 @@ categories:
   - fbp
   - desktop
 layout: post
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bitraf-button.jpg'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/bitraf-button.jpg'
 ---
 I just got back to Berlin from the [Bitraf IoT hackathon](https://www.meetup.com/bitraf/events/240605453/) we organized in Oslo, Norway. This hackathon was the first of [two IoT workshops](/blog/msgflo-workshops-cbase-bitraf/) around MsgFlo and [Flowhub IoT](https://flowhub.io/iot/). The second [will be held](ttps://logbuch.c-base.org/archives/2647) at c-base in Berlin this coming weekend.
 
@@ -15,7 +15,7 @@ I just got back to Berlin from the [Bitraf IoT hackathon](https://www.meetup.com
 
 The space uses the [Flowhub IoT](https://flowhub.io/iot/) stack of [MsgFlo](https://msgflo.org/) and [Mosquitto](https://mosquitto.org/) for business-critical things like the door locks that members can open with their smartphone.
 
-[![Bitraf lock system](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bitraf-button-small.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bitraf-button.jpg)
+[![Bitraf lock system](https://d2vqpl3tx84ay5.cloudfront.net/bitraf-button-small.jpg)](https://d2vqpl3tx84ay5.cloudfront.net/bitraf-button.jpg)
 
 In addition to access control, they also had various environmental sensors available on the MQTT network.
 
@@ -32,7 +32,7 @@ The primary tools for the workshop were:
 
 To help visualize the data coming from the sensors people were building, I integrated the [NASA OpenMCT](https://nasa.github.io/openmct/) dashboard with MsgFlo and [InfluxDB](https://www.influxdata.com/) time series database. This setup is available at the [cbeam-telemetry-server](https://github.com/c-base/cbeam-telemetry-server) project.
 
-[![OpenMCT at Bitraf](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bitraf-openmct-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bitraf-openmct.png)
+[![OpenMCT at Bitraf](https://d2vqpl3tx84ay5.cloudfront.net/bitraf-openmct-small.png)](https://d2vqpl3tx84ay5.cloudfront.net/bitraf-openmct.png)
 
 This gave us a way to send data from any interesting sensors in the IoT network to a dashboard and visualize it. Down the line the persisted data can also be interesting for further analysis or machine learning.
 
@@ -44,17 +44,17 @@ We started the workshop with a quick intro session about Flowhub, MsgFlo, and MQ
 
 After the intro, we did a round of all attendees to see what skills people already had, and what they were interested in learning. Then we started collecting ideas what to work on.
 
-[![Bitraf IoT ideas](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bitraf-idea-wall-small.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bitraf-idea-wall.jpg)
+[![Bitraf IoT ideas](https://d2vqpl3tx84ay5.cloudfront.net/bitraf-idea-wall-small.jpg)](https://d2vqpl3tx84ay5.cloudfront.net/bitraf-idea-wall.jpg)
 
 People picked their ideas, and the project work started.
 
-[![Idea session at Bitraf IoT](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bitraf-idea-wall-session-small.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bitraf-idea-wall-session.jpg)
+[![Idea session at Bitraf IoT](https://d2vqpl3tx84ay5.cloudfront.net/bitraf-idea-wall-session-small.jpg)](https://d2vqpl3tx84ay5.cloudfront.net/bitraf-idea-wall-session.jpg)
 
 I'd like to highlight couple of the projects.
 
 ## New sensors for the makerspace
 
-[![Teams at work](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bitraf-workshop-small.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bitraf-workshop.jpg)
+[![Teams at work](https://d2vqpl3tx84ay5.cloudfront.net/bitraf-workshop-small.jpg)](https://d2vqpl3tx84ay5.cloudfront.net/bitraf-workshop.jpg)
 
 Building new sensors was a major part of the workshop. There were several projects, all built on top of [msgflo-arduino](https://github.com/msgflo/msgflo-arduino) and the ESP8266 microcontroller:
 
@@ -62,7 +62,7 @@ Building new sensors was a major part of the workshop. There were several projec
 * Sensor for tracking which windows are open or closed: <https://github.com/Poohma/IOT_Window_Hall_sensors>
 * Sensor for tracking whether a given machine is currently running or not: <https://github.com/slunke/onoffsensor>
 
-[![Working on a motion sensor](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bitraf-sensors-small.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bitraf-sensors.jpg)
+[![Working on a motion sensor](https://d2vqpl3tx84ay5.cloudfront.net/bitraf-sensors-small.jpg)](https://d2vqpl3tx84ay5.cloudfront.net/bitraf-sensors.jpg)
 
 There was also a project to automatically open and close windows, but this one didn't get completed over the weekend. You can follow the progress in the [altF4 GitHub repo](https://github.com/apetrynet/altF4).
 
@@ -84,7 +84,7 @@ Before my flight out, we sat down with [Jon](http://www.jonnor.com/) to review h
 
 Our unofficial goal was to double the number of nodes in the Bitraf Flowhub graph, and I think we succeeded in this:
 
-[![Bitraf as a graph](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bitraf-flowhub-network-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bitraf-flowhub-network.png)
+[![Bitraf as a graph](https://d2vqpl3tx84ay5.cloudfront.net/bitraf-flowhub-network-small.png)](https://d2vqpl3tx84ay5.cloudfront.net/bitraf-flowhub-network.png)
 
 Here are [couple of comments](https://www.meetup.com/bitraf/events/240605453/#event-comments-section) from the attendees:
 

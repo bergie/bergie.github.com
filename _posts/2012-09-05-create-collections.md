@@ -16,7 +16,7 @@ In previous Create.js versions, collection handling was pretty simplistic. Essen
 
 The new version brings some quite powerful additions to this.
 
-![Choosing type of content to add](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/create-per-type-add.png)
+![Choosing type of content to add](https://d2vqpl3tx84ay5.cloudfront.net/create-per-type-add.png)
 
 * Support for adding items to anywhere in the collection. To the beginning, to the end, between existing items
 * Ability to choose between type of content to add, if the collection type allows different types (_ranges_ in VIE)

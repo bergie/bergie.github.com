@@ -7,7 +7,7 @@
 ---
 Kerttu was skiing in the [Harmaasudet][1] team, and so I went to watch the [Hiidenhirven hiihto][2] ancient biathlon contest. The tradition has been bringing together [Living History][3] groups from all over Finland every winter [since 1999][4].
 
-![Kerttu shoots at the elk](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Hiidenhirven_kerttu_shoots.jpg)
+![Kerttu shoots at the elk](https://d2vqpl3tx84ay5.cloudfront.net/Hiidenhirven_kerttu_shoots.jpg)
 
 This year the leading teams were:
 
@@ -16,7 +16,7 @@ This year the leading teams were:
 3. [Ango][7]
 4. Harmaasudet
 
-![Looks like sport!](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Hiidenhirven_kaatuja.jpg)
+![Looks like sport!](https://d2vqpl3tx84ay5.cloudfront.net/Hiidenhirven_kaatuja.jpg)
 
 The costume prize went to [Hollola][5].
 

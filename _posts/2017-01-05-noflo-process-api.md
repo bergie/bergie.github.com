@@ -183,7 +183,7 @@ In normal situations there packets are transmitted immediately. However, when wo
 
 In addition to making input processing easier, the other big aspect of the Process API is to help formalize NoFlo's component and program lifecycle.
 
-![NoFlo program lifecycle](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/a17b8582-fc33-11e5-9826-a722b90913ce.png)
+![NoFlo program lifecycle](https://d2vqpl3tx84ay5.cloudfront.net/a17b8582-fc33-11e5-9826-a722b90913ce.png)
 
 The component lifecycle is quite similar to the program lifecycle shown above. There are three states:
 

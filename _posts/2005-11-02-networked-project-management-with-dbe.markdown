@@ -9,7 +9,7 @@ As [hinted earlier][1], [we][2] have integrated the [OpenPsa][3] project managem
 
 This allows organizations to manage projects handled with subcontractors or a [Keiretsu][5] using tools that can communicate across corporate boundaries.
 
-[See my slides from the Tampere workshop](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/OpenPsa_DBE_20051031.pdf)
+[See my slides from the Tampere workshop](https://d2vqpl3tx84ay5.cloudfront.net/OpenPsa_DBE_20051031.pdf)
 
 [1]: http://bergie.iki.fi/midcom-permalink-e2013160d6917134fccde027b51b1508
 [2]: http://www.nemein.com/

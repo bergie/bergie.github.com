@@ -8,15 +8,15 @@
 ---
 [Montenegro][1] (Crna Gora in the [slavic languages][2]) [voted for independence][3] yesterday. Hopefully the split from [Serbia][4] happens peacefully.
 
-![Alp village in Montenegro](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Montenegro_alps-like_village.jpg)
+![Alp village in Montenegro](https://d2vqpl3tx84ay5.cloudfront.net/Montenegro_alps-like_village.jpg)
 
 I rode through the country on the way home from [my Black Sea motorcycle trip][5] in 2004, and it is a complete motorcyclists' paradise. Empty, curvy roads through breathtakingly beautiful mountains, gorges and passes. And all of it a short ferry trip away from Italy.
 
-![Winding roads in Montenegro](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Montenegro_winding_roads.jpg)
+![Winding roads in Montenegro](https://d2vqpl3tx84ay5.cloudfront.net/Montenegro_winding_roads.jpg)
 
 Entry to the country from UN-administered [Kosovo][6] was interesting. No entry stamps or such, as those might make further travel in Serbia difficult. In any case, Montenegro is definitely a place worth a visit.
 
-![Bay of Kotor in Montenegro](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Montenegro_bay_of_kotor.jpg)
+![Bay of Kotor in Montenegro](https://d2vqpl3tx84ay5.cloudfront.net/Montenegro_bay_of_kotor.jpg)
 
 More Montenegro pictures can be found in my [To the Black Sea gallery][7]
 

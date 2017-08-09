@@ -8,11 +8,11 @@ location: Berlin, Germany
 ---
 I've spent the last three days in the [GNOME Developer Experience hackfest](https://wiki.gnome.org/Hackfests/DeveloperExperience2014) working on the [NoFlo](http://noflojs.org) runtime for [GNOME](http://gnome.org) with [Lionel Landwerlin](https://github.com/djdeath).
 
-[![GNOME Developer Experience hackfest participants](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/gnome-dx-2014-small.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/gnome-dx-2014.jpg)
+[![GNOME Developer Experience hackfest participants](https://d2vqpl3tx84ay5.cloudfront.net/gnome-dx-2014-small.jpg)](https://d2vqpl3tx84ay5.cloudfront.net/gnome-dx-2014.jpg)
 
 What the resulting project does is give the ability to build and debug GNOME applications in a visual way with the [Flowhub](http://flowhub.io/) user interface. You can interact with large parts of the [GNOME API](https://developer.gnome.org/) using either automatically generated components, or hand-built ones. And while your software is running, you can see all the data passing through the connections in the Flowhub UI.
 
-[![GNOME development in Flowhub](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo-gnome-ui-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo-gnome-ui.png)
+[![GNOME development in Flowhub](https://d2vqpl3tx84ay5.cloudfront.net/noflo-gnome-ui-small.png)](https://d2vqpl3tx84ay5.cloudfront.net/noflo-gnome-ui.png)
 
 The way this works is the following:
 
@@ -23,7 +23,7 @@ The way this works is the following:
 * After this, the UI can start communicating the with runtime. This includes loading and registering components, and creating and running NoFlo graphs
 * The graphs are run inside [Gjs](https://wiki.gnome.org/action/show/Projects/Gjs)
 
-[![Creating a new NoFlo GNOME project](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo-gnome-new-project-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo-gnome-new-project.png)
+[![Creating a new NoFlo GNOME project](https://d2vqpl3tx84ay5.cloudfront.net/noflo-gnome-new-project-small.png)](https://d2vqpl3tx84ay5.cloudfront.net/noflo-gnome-new-project.png)
 
 While there is still quite a bit of work to be done in exposing more of the GNOME API as flow-based components, you can already do quite a bit with this. In addition to building simple UIs with [GTK+](http://www.gtk.org/), working with [Clutter](http://blogs.gnome.org/clutter/) animations was especially fun. With NoFlo, every running graph is "live", and so you can easily modify the various parameters and add new functionality while the software is running, and see those changes take effect immediately.
 

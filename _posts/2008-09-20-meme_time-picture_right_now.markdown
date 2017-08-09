@@ -9,7 +9,7 @@
 <p>
 <a href="http://www.ogmaciel.com/?p=576">As seen</a> on <a href="http://planet.gnome.org/">Planet GNOME</a>:
 </p><p>
-<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/photo_booth_bergie_in_saha_dojang.jpg"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/photo_booth_bergie_in_saha_dojang-tm.jpg" height="300" width="400" border="1" hspace="4" vspace="4" alt="Bergie in Saha Dojang" title="Bergie in Saha Dojang" /></a>
+<a href="https://d2vqpl3tx84ay5.cloudfront.net/photo_booth_bergie_in_saha_dojang.jpg"><img src="https://d2vqpl3tx84ay5.cloudfront.net/photo_booth_bergie_in_saha_dojang-tm.jpg" height="300" width="400" border="1" hspace="4" vspace="4" alt="Bergie in Saha Dojang" title="Bergie in Saha Dojang" /></a>
 </p><ol><li>Take a picture of yourself right now.</li>
 <li>Don’t change your clothes, don’t fix your hair…just take a picture.</li>
 <li>Post that picture with NO editing.</li>

@@ -10,7 +10,7 @@
 <a href="http://www.phoenixmartialart.fi/haidong-gumdo/">We</a> will attend with <a href="http://www.phoenixmartialart.fi/ajankohtaista/view/hdgd-emkisat.html">5-7 persons</a>. I'm participating in the geombup (basic forms) and paper cutting competitions in the color belt series.
 
 
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hdgd-eu-championships-poster-small.jpg" height="368" width="400" border="1" hspace="4" vspace="4" alt="Hdgd-Eu-Championships-Poster-Small" />
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/hdgd-eu-championships-poster-small.jpg" height="368" width="400" border="1" hspace="4" vspace="4" alt="Hdgd-Eu-Championships-Poster-Small" />
 
 The current plan is to ride to Zürich with <a href="http://bergie.iki.fi/blog/royal_enfield-built_like_a_gun/">my new Enfield</a>, and then enjoy the alps for a week or two afterwards.
 

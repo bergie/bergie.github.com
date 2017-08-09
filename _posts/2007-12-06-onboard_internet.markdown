@@ -12,7 +12,7 @@ The example this time is computer usage in trains. While <a href="http://en.wiki
 
 And even better, there is onboard internet with an updating map of the train's position:
 
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/sj-internet-map.jpg" height="252" width="400" border="1" hspace="4" vspace="4" alt="Sj-Internet-Map" />
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/sj-internet-map.jpg" height="252" width="400" border="1" hspace="4" vspace="4" alt="Sj-Internet-Map" />
 
 Unfortunately the train position is embedded in the map image and can't be read programmatically. It would make for a nice, specialized <a href="http://www.freedesktop.org/wiki/Software/GeoClue">GeoClue</a> position provider...
 

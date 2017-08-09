@@ -11,13 +11,13 @@ However, sometimes webmasters want to have items in their navigation that actual
 
 Now there is a solution to make these redirection folders easier, [net.nemein.redirector][4]. Just create a new folder handled by this component and set the configuration:
 
-![Redirection configuration](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/redirector-config.jpg)
+![Redirection configuration](https://d2vqpl3tx84ay5.cloudfront.net/redirector-config.jpg)
 
 __Speaking of redirections__, we're leaving tomorrow morning to Poland for the [Midgard Developer Meeting][5]. Looking forward to seeing as many of you as possible there!
 
 __Updated 2006-07-21:__ [Henri Kaukola][6] from [Vaisala][7] pointed out that it would be useful to support different [HTTP redirection status codes][8] in the redirector. This is now done:
 
-![Choosing HTTP status code for the redirect](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/redirector-http-status-codes.jpg)
+![Choosing HTTP status code for the redirect](https://d2vqpl3tx84ay5.cloudfront.net/redirector-http-status-codes.jpg)
 
 [1]: http://www.midgard-project.org/documentation/midcom/
 [2]: http://www.midgard-project.org/midcom-permalink-605136b3ee7596f0b53838dce41b6f5c

@@ -7,7 +7,7 @@ categories:
   - business
   - oscom
   - midgard
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/guvscale-graph.jpg'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/guvscale-graph.jpg'
 ---
 [Microservices](https://en.wikipedia.org/wiki/Microservices) &mdash; an architectural pattern we recommended in our [2012 International PHP Conference keynote](https://youtu.be/VQdl7J_24PA?list=PLIuD0578pkZ4Ciu9DNkRMG9yvFrEdVby7) &mdash; is pretty popular these days. There are many benefits to consider:
 
@@ -56,7 +56,7 @@ As mentioned above, queue-based microservices make autoscaling quite easy. If yo
 
 I wrote more about GuvScale in a [recent blog post](/blog/guvscale-heroku-autoscaling/).
 
-![Workload and scaling operations](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/guvscale-graph.jpg)
+![Workload and scaling operations](https://d2vqpl3tx84ay5.cloudfront.net/guvscale-graph.jpg)
 
 ## Further reading
 

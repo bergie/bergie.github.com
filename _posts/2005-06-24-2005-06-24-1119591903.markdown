@@ -5,7 +5,7 @@
   layout: "post"
 
 ---
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/2001-rus-campfire.jpg" align="right" style="margin-left: 5px;" />
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/2001-rus-campfire.jpg" align="right" style="margin-left: 5px;" />
 I'm joining the [Shnjaka](http://www.sewboat.narod.ru/shnjaka/english.htm) expedition in east Carelia this weekend. Shnjaka is a viking ship built without a single nail using the old sowing techniques.
 
 At the moment the expedition team is somewhere near the town of Pudoszh on the east side of lake Onega, preparing for the ship launch, scheduled monday. I'm traveling with some friends to [St. Petersburg](http://en.wikipedia.org/wiki/Saint_Petersburg) and plan to catch a train to [Petrozavodsk](http://en.wikipedia.org/wiki/Petrozavodsk) during the weekend, and then a boat from there to carry me across the lake.

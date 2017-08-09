@@ -7,7 +7,7 @@
 
 ---
 <p>
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/google-maps-expert.jpg" height="206" width="200" border="1" align="right" hspace="8" vspace="4" alt="Some shops on map" title="Some shops on map" /><br />A List Apart 256 has a very interesting article on <a href="http://www.alistapart.com/articles/takecontrolofyourmaps">Taking Control of Your Maps</a>, explaining how to provide richer and more customized web map solutions using tools like <a href="http://www.openlayers.org/">OpenLayers</a> and <a href="http://mapnik.org/">Mapnik</a>, and the free data provided by <a href="http://www.openstreetmap.org/">OpenStreetMap</a>:
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/google-maps-expert.jpg" height="206" width="200" border="1" align="right" hspace="8" vspace="4" alt="Some shops on map" title="Some shops on map" /><br />A List Apart 256 has a very interesting article on <a href="http://www.alistapart.com/articles/takecontrolofyourmaps">Taking Control of Your Maps</a>, explaining how to provide richer and more customized web map solutions using tools like <a href="http://www.openlayers.org/">OpenLayers</a> and <a href="http://mapnik.org/">Mapnik</a>, and the free data provided by <a href="http://www.openstreetmap.org/">OpenStreetMap</a>:
 </p><blockquote>
 For the practical developer who wants to add geospatial information to a site or application, the Google Maps API has been an easy call.
 <br /><br />But, perhaps no longer. As websites mature and the demand for geographic applications grow, the old mashup arrangement is starting to chafe. Mapping components are more and more vital, and so we demand greater control, expressiveness, and functionality from them.

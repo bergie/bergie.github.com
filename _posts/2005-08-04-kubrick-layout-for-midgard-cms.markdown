@@ -9,7 +9,7 @@ Because of the [dead development server][1] I had a bit of downtime today. To co
 
 Kubrick is a style template designed by [Michael Heilemann][4] for the [WordPress][5] weblog system. While Midgard's range of functionalities is [much wider][6] than those of a blog system, the template still fit quite well:
 
-![Kubrick running a Midgard test site](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midcom-template-kubrick.jpg)
+![Kubrick running a Midgard test site](https://d2vqpl3tx84ay5.cloudfront.net/midcom-template-kubrick.jpg)
 
 To make the template work more nicely out-of-the-box, I'm utilizing the new `midcom_helper_find_node_by_component()` helper function from [MidCOM][7] to automatically [populate][8] designated places in the layout with things like latest news items or photos.
 
@@ -17,7 +17,7 @@ This level of component integration is acceptable, but in the future it would be
 
 To get the new Kubrick template for Midgard [download it from CVS][10], and [install via datagard][11]. Once this has been done it should appear in the style selection dialog of your [Site Wizard][12]:
 
-![Kubrick in Site Wizard style selector](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/kubrick-in-sitewizard.jpg)
+![Kubrick in Site Wizard style selector](https://d2vqpl3tx84ay5.cloudfront.net/kubrick-in-sitewizard.jpg)
 
 Next up would be to make the Site Wizard actually create MidCOM site structures based on user-selected "site type". This way user could say "I want a blog", and automatically get newsticker with [comments enabled][13], etc. The feature was in original [Site Wizard specs][14] but hasn't quite been designed yet.
 

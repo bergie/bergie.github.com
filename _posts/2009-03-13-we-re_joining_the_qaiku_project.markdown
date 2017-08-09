@@ -12,7 +12,7 @@ I've been beta testing the new <a href="http://bergie.iki.fi/blog/microblogging-
 </p><blockquote>
 <a href="http://www.qaiku.com/">Qaiku</a> is a microblogging service, focusing strongly on discussion. Microblogging differs from ordinary blogging by the length of the posts, more topical content and automatically published micromedia, such as Flickr photo stream, Audioscrobbler stream etc. Allowed lengthier comments to the brief posts make discussion possible.
 <br />
-<br /><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/qaiku-welcome.jpg" height="234" width="300" border="1" hspace="4" vspace="4" alt="Qaiku" title="Qaiku" />
+<br /><img src="https://d2vqpl3tx84ay5.cloudfront.net/qaiku-welcome.jpg" height="234" width="300" border="1" hspace="4" vspace="4" alt="Qaiku" title="Qaiku" />
 <br />
 <br />Technically Qaiku has been built on <a href="http://bergie.iki.fi/blog/midgard2_at_fscons-your_data-everywhere/">Midgard 2</a> platform. Some of the features Nemein will develop for Qaiku will be released in the open source <a href="http://www.midgard-project.org/">Midgard 2 project</a>.
 </blockquote><p>

@@ -10,7 +10,7 @@ Today I went to see [Tim Ney's][2] talk about [Free Software Innovation][3] in t
 
 Brazil has some connections to the Maemo development, and there is quite a bit of buzz about the [Nokia 770][9] here. For example, the [Python port to Maemo][10] was done in a Nokia-funded research center in [Recife][17].
 
-![Tim showing the Nokia 770](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Tim_FISL_Maemo.jpg)
+![Tim showing the Nokia 770](https://d2vqpl3tx84ay5.cloudfront.net/Tim_FISL_Maemo.jpg)
 
 ## Learning the Free Software model
 

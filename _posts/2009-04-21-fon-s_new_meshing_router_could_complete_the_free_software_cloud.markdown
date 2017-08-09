@@ -7,7 +7,7 @@
 
 ---
 <p>
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/fon-network-map-toolo-iphone.jpg" height="280" width="186" border="1" align="right" hspace="8" vspace="4" alt="FON network map for Etu-Töölö, Helsinki, Finland" title="FON network map for Etu-Töölö, Helsinki, Finland" />
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/fon-network-map-toolo-iphone.jpg" height="280" width="186" border="1" align="right" hspace="8" vspace="4" alt="FON network map for Etu-Töölö, Helsinki, Finland" title="FON network map for Etu-Töölö, Helsinki, Finland" />
 <br /><a href="http://en.wikipedia.org/wiki/FON">FON</a> is a shared WiFi service. Couple of years ago they <a href="http://bergie.iki.fi/blog/fon-for-free-in-finland/">gave their routers for free</a> in Finland, and since then I've been sharing my home connection with other FON users. And occasionally I've even roamed using FON connectivity provided by other users, <a href="http://bergie.iki.fi/blog/wifi_autologins_with_devicescape/">using Devicescape</a> to log <a href="http://bergie.iki.fi/blog/the_universal_communicator/">my Internet Tablet</a> automatically to the network.
 </p><p>
 Now <a href="http://blog.wired.com/gadgets/2009/04/fonera-2-gets-r.html">FON has released</a> <a href="http://www.fon.com/en/promos/fonera2">Fonera 2.0</a>, which can support <a href="http://wiki.laptop.org/go/Mesh_Network_Details">OLPC's mesh networking technology</a>. This means that the FON routers can share each other's connection so not each of them has to have a direct connection to some ISP. Also it means that peer-to-peer connections within the <a href="http://en.wikipedia.org/wiki/Mesh_networking">mesh network</a> can happen directly, bypassing the wider internet completely.

@@ -7,7 +7,7 @@
 ---
 <a href="http://www.writemaps.com/">WriteMaps.com</a> is a handy web-based tool for planning website structures in a mind map -like format. The tool allows for storage and working on the designs in collaborative fashion.
 
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/writemaps.jpg" height="221" width="400" border="1" hspace="4" vspace="4" alt="Writemaps" />
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/writemaps.jpg" height="221" width="400" border="1" hspace="4" vspace="4" alt="Writemaps" />
 
 I have been toying for quite a while with the idea that mind maps could be automatically converted to <a href="http://www.midgard-project.org/" title="Midgard">Midgard</a> -compatible site structures, and the JSON format provided by WriteMaps seemed to support the idea.
 

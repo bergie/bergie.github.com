@@ -7,7 +7,7 @@
 ---
 It seems that Google is now [autodetecting PermaLinks][1] of dynamically-generated pages using the `rel="PermaLink"` syntax. Here's one of the results for my blog:
 
-![PermaLink URL used on Google](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/google-permalinks.jpg)
+![PermaLink URL used on Google](https://d2vqpl3tx84ay5.cloudfront.net/google-permalinks.jpg)
 
 This is probably a really good idea, as it allows their search result links point to correct document even if the target site has been reorganized, combatting [linkrot][2]. Of course [cool URLs don't change][4], but as [they're titles too][5] they can change during reorganizations, creating the need for permanent links.
 

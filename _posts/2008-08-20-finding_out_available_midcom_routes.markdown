@@ -12,7 +12,7 @@ In addition to making normal requests to the various routes available, routes pr
 </p><p>
 To make life easier, I now added a new feature to <a href="http://pear.midcom-project.org/index.php?package=midcom_admin_help&amp;release=1.2.0&amp;downloads">midcom.admin.help</a>, the online help component. Each folder will automatically list their documentation and available routes when you access their URL <em>__ais/help</em>:
 </p><p>
-<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midcom_admin_help_routes.png"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/midcom_admin_help_routes-tm.jpg" height="251" width="400" border="1" hspace="4" vspace="4" alt="midcom.admin.help routes list" title="midcom.admin.help routes list" /></a>
+<a href="https://d2vqpl3tx84ay5.cloudfront.net/midcom_admin_help_routes.png"><img src="https://d2vqpl3tx84ay5.cloudfront.net/midcom_admin_help_routes-tm.jpg" height="251" width="400" border="1" hspace="4" vspace="4" alt="midcom.admin.help routes list" title="midcom.admin.help routes list" /></a>
 </p><p>
 To get this feature you only need to upgrade the help component:
 </p><pre>

@@ -4,7 +4,7 @@ layout: post
 location: Berlin, Germany
 categories:
   - desktop
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/gnome3-shutdown.png'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/gnome3-shutdown.png'
 ---
 Michael Mace has a very interesting [review of Windows 8](http://mobileopportunity.blogspot.com.au/2012/05/fear-and-loathing-and-windows-8.html). As whole it is a good read for anybody interested in where this whole [modern computing thing](/blog/why_the_tablet_form_factor_is_winning/) is going. But this part specifically caught my interest:
 
@@ -18,7 +18,7 @@ This discussion should be [familiar to users of GNOME3](https://bugzilla.gnome.o
 
 Personally I don't find this _shutdown discussion_ very interesting. I maybe shut down my laptop once a year, when going on a holiday trip that the battery wouldn't last through. And as there is a whole hardware button dedicated to shutting down the computer, why clutter the UI with one?
 
-![No shutdown in GNOME either](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/gnome3-shutdown.png)
+![No shutdown in GNOME either](https://d2vqpl3tx84ay5.cloudfront.net/gnome3-shutdown.png)
 
 In general, it seems that Microsoft is headed for their own GNOME3/KDE4 moment, where the desktop [resembles the old thing](/blog/the_uncanny_valley_of_free_desktops/) while trying to introduce new paradigms. These sort of disruptions can be risky, as Michael notes:
 

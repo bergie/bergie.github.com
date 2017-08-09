@@ -5,7 +5,7 @@ categories:
   - fbp
   - business
 layout: post
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-plans-2017-03.png'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/flowhub-plans-2017-03.png'
 ---
 [Flowhub](https://flowhub.io) &mdash; the product made possible by our successful [NoFlo Kickstarter](https://www.kickstarter.com/projects/noflo/noflo-development-environment/) &mdash; has now its own company dedicated to supporting and improving the visual programming environment.
 
@@ -13,6 +13,6 @@ cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-plans-2017-0
 
  We're also now selling the new **Pro** and **Supporter** plans, and can also provide a dedicated **on-premise** version of Flowhub. Please check out [our Plans](https://plans.flowhub.io) for more information:
 
-[![Flowhub Plans](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/flowhub-plans-2017-03.png)](https://plans.flowhub.io/)
+[![Flowhub Plans](https://d2vqpl3tx84ay5.cloudfront.net/flowhub-plans-2017-03.png)](https://plans.flowhub.io/)
 
 Read more in [the latest Kickstarter update](https://www.kickstarter.com/projects/noflo/noflo-development-environment/posts/998057).

@@ -15,23 +15,23 @@ For a while now I've wanted a nice logo for this editor project, and now we have
 
 Based on the comments we've received, it seems these three are the most popular:
 
-* Number 6 ![Hallo by Texrat](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hallo_logos/texrat6.png) ![Hallo by Texrat](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hallo_logos/texrat6a.png)
-* Number 7 ![Hallo by Salzburg Research](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hallo_logos/srfg1.png)
-* Number 10 ![Hallo by Salzburg Research](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hallo_logos/srfg4.png)
+* Number 6 ![Hallo by Texrat](https://d2vqpl3tx84ay5.cloudfront.net/hallo_logos/texrat6.png) ![Hallo by Texrat](https://d2vqpl3tx84ay5.cloudfront.net/hallo_logos/texrat6a.png)
+* Number 7 ![Hallo by Salzburg Research](https://d2vqpl3tx84ay5.cloudfront.net/hallo_logos/srfg1.png)
+* Number 10 ![Hallo by Salzburg Research](https://d2vqpl3tx84ay5.cloudfront.net/hallo_logos/srfg4.png)
 
 ## All logo proposals received
 
-1. ![Hallo by Texrat](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hallo_logos/texrat1.png)
-2. ![Hallo by Texrat](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hallo_logos/texrat2.png)
-3. ![Hallo by Texrat](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hallo_logos/texrat3.png)
-4. ![Hallo by Texrat](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hallo_logos/texrat4.png)
-5. ![Hallo by Texrat](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hallo_logos/texrat5.png)
-6. ![Hallo by Texrat](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hallo_logos/texrat6.png)
-7. ![Hallo by Salzburg Research](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hallo_logos/srfg1.png)
-8. ![Hallo by Salzburg Research](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hallo_logos/srfg2.png)
-9. ![Hallo by Salzburg Research](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hallo_logos/srfg3.png)
-10. ![Hallo by Salzburg Research](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hallo_logos/srfg4.png)
-11. ![Hallo by Salzburg Research](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hallo_logos/srfg5.png)
-12. ![Hallo by Rupert Westenthaler](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/hallo_logos/westei.png)
+1. ![Hallo by Texrat](https://d2vqpl3tx84ay5.cloudfront.net/hallo_logos/texrat1.png)
+2. ![Hallo by Texrat](https://d2vqpl3tx84ay5.cloudfront.net/hallo_logos/texrat2.png)
+3. ![Hallo by Texrat](https://d2vqpl3tx84ay5.cloudfront.net/hallo_logos/texrat3.png)
+4. ![Hallo by Texrat](https://d2vqpl3tx84ay5.cloudfront.net/hallo_logos/texrat4.png)
+5. ![Hallo by Texrat](https://d2vqpl3tx84ay5.cloudfront.net/hallo_logos/texrat5.png)
+6. ![Hallo by Texrat](https://d2vqpl3tx84ay5.cloudfront.net/hallo_logos/texrat6.png)
+7. ![Hallo by Salzburg Research](https://d2vqpl3tx84ay5.cloudfront.net/hallo_logos/srfg1.png)
+8. ![Hallo by Salzburg Research](https://d2vqpl3tx84ay5.cloudfront.net/hallo_logos/srfg2.png)
+9. ![Hallo by Salzburg Research](https://d2vqpl3tx84ay5.cloudfront.net/hallo_logos/srfg3.png)
+10. ![Hallo by Salzburg Research](https://d2vqpl3tx84ay5.cloudfront.net/hallo_logos/srfg4.png)
+11. ![Hallo by Salzburg Research](https://d2vqpl3tx84ay5.cloudfront.net/hallo_logos/srfg5.png)
+12. ![Hallo by Rupert Westenthaler](https://d2vqpl3tx84ay5.cloudfront.net/hallo_logos/westei.png)
 
 Thanks to [Texrat](http://texrat.net/) and the [Salzburg Research](http://www.salzburgresearch.at/) team for these suggestions!

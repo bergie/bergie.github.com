@@ -14,7 +14,7 @@ Lately I've received many requests from the media and various Internet companies
 
 Before that, there is only the background picture and a small passport-style photo available. When I get some colour pictures, I'll be sure to post them.
 
-![Bergie](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/2000-bergie-face.png)
+![Bergie](https://d2vqpl3tx84ay5.cloudfront.net/2000-bergie-face.png)
 
 By the way, I didn't have time to test the background picture properly with other browsers than Netscape 4.x for Linux. If it causes problems on some platform, let me know.
 

@@ -4,7 +4,7 @@ location: Berlin, Germany
 categories:
   - fbp
 layout: post
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo_middleware_chaining.png'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/noflo_middleware_chaining.png'
 ---
 _This post talks about some useful patterns for dataflow architecture in NoFlo web applications. We're using these concepts to build [Flowhub](https://flowhub.io), the flow-based programming IDE._
 
@@ -14,7 +14,7 @@ _This post talks about some useful patterns for dataflow architecture in NoFlo w
 
 Given its nature, the Flux pattern is quite easy to implement in NoFlo. [Here is an example](http://app.flowhub.io/#example/1d42f66f5cc4614df935) of a simple web-based TODO list using a Flux-esque NoFlo graph communicating with a React component:
 
-[![Flux-style dataflow in NoFlo](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo_flux_example.png)](http://app.flowhub.io/#example/1d42f66f5cc4614df935)
+[![Flux-style dataflow in NoFlo](https://d2vqpl3tx84ay5.cloudfront.net/noflo_flux_example.png)](http://app.flowhub.io/#example/1d42f66f5cc4614df935)
 
 In the image above you can see the graph in the middle, with the rendered React application on the right, and on the left an edge inspector showing the packets flowing from the view to the dispatcher.
 
@@ -42,13 +42,13 @@ Middleware can be chained so that all actions pass through each of them. A middl
 
 Here is how a middleware looks like as a NoFlo component:
 
-![Redux-style middleware as NoFlo component](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo_middleware_node.png)
+![Redux-style middleware as NoFlo component](https://d2vqpl3tx84ay5.cloudfront.net/noflo_middleware_node.png)
 
 Actions arrive at the `in` port. If the middleware passes them along, it will send them via the `pass` port, and if it instead generates new actions, these will be sent via the `new` port.
 
 With this structure, chaining becomes very simple:
 
-![Chaining NoFlo middleware](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo_middleware_chaining.png)
+![Chaining NoFlo middleware](https://d2vqpl3tx84ay5.cloudfront.net/noflo_middleware_chaining.png)
 
 The image above is from the _main graph_ of Flowhub. In Flowhub we have both very simple middleware, like the logger that just writes the event details to the developer console, and more complex ones like the _UserMiddleware_ that deals with user information and OAuth, or _RuntimeMiddleware_ that handles communications with [FBP runtimes](https://flowbased.github.io/fbp-protocol/).
 
@@ -79,7 +79,7 @@ Including the state object means that each middleware can access the parts of th
 
 It also means that middleware become super easy to test, as you can send any kind of state/action combinations to exercise different flow paths.
 
-![Some of our middleware tests](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/noflo_middleware_tests.png)
+![Some of our middleware tests](https://d2vqpl3tx84ay5.cloudfront.net/noflo_middleware_tests.png)
 
 ## Current status
 

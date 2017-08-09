@@ -6,9 +6,9 @@ date: "2012-10-02 13:49:00"
 categories:
   - midgard
   - desktop
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/gjallarhorn.png'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/gjallarhorn.png'
 ---
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/gjallarhorn.png" style="margin-left: 10px; float: right; width: 273px; height: 400px;" alt="Gjallarhorn" title="Heimdallr with Gjallarhorn by Lorenz Frølich, public domain" />
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/gjallarhorn.png" style="margin-left: 10px; float: right; width: 273px; height: 400px;" alt="Gjallarhorn" title="Heimdallr with Gjallarhorn by Lorenz Frølich, public domain" />
 
 The new stable series of the [Midgard2 Content Repository](http://midgard-project.org/midgard2/) library was [released recently](http://lists.midgard-project.org/pipermail/dev/2012-September/003202.html). This version builds on the long-term supported [Ratatoskr](http://bergie.iki.fi/blog/ratatoskr_is_out-midgard2_content_repository_goes_lts/) series, adding some new features:
 

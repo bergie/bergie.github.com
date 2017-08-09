@@ -5,7 +5,7 @@
     - "oscom"
     - "bestof"
   layout: "post"
-  cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/1e0085621b63878085611e097922d9448f9055b055b_aloha-in-rdfa-small.png'
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/1e0085621b63878085611e097922d9448f9055b055b_aloha-in-rdfa-small.png'
 
 ---
 <p>As <a href="http://bergie.iki.fi/blog/starting_the_interactive_knowledge_project/">part of the IKS project</a> we're working on <a href="http://semantic-editor.org/">semantic web editing</a>. One area there is using <a href="http://www.w3.org/TR/xhtml-rdfa-primer/">RDFa</a> to actually make pages editable. RDFa is a way to embed semantic information to regular HTML pages, and is already <a href="http://bergie.iki.fi/blog/search_engines_have_an_important_role_in_semantic_web/">supported by some search engines</a>, making this also a way of <a href="http://www.google.com/support/webmasters/bin/answer.py?hl=en&amp;answer=99170">doing SEO</a>.</p>
@@ -35,9 +35,9 @@
 &lt;/article&gt;
 </pre>
 <p>What is shown above is an article represented using the <a href="http://en.wikipedia.org/wiki/Semantically-Interlinked_Online_Communities">Semantically-Interlinked Online Communities</a> specification. The article is identified by a UUID (in this case, a <a href="http://web.archive.org/web/20100818181745/http://www.midgard-project.org/development/mrfc/0018/">Midgard GUID</a>), and has title and a content properties. When the CMS javascripts load, Aloha will be enabled for both properties, making them editable:</p>
-<p><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/1e0085621b63878085611e097922d9448f9055b055b_aloha-in-rdfa-small.png" border="0" alt="aloha-in-rdfa-small.png" title="aloha-in-rdfa-small.png" /></p>
+<p><img src="https://d2vqpl3tx84ay5.cloudfront.net/1e0085621b63878085611e097922d9448f9055b055b_aloha-in-rdfa-small.png" border="0" alt="aloha-in-rdfa-small.png" title="aloha-in-rdfa-small.png" /></p>
 <p>When user wants to save things, there is a Save button provided in the toolbar. Saving reads the contents of modified Aloha instances, and sends them together with RDF type and identifier information back to the server:</p>
-<p><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/1e008569a113106085611e0ae7ee1354126059e059e_aloha-in-rdfa-save.png" border="0" alt="aloha-in-rdfa-save.png" title="aloha-in-rdfa-save.png" /></p>
+<p><img src="https://d2vqpl3tx84ay5.cloudfront.net/1e008569a113106085611e0ae7ee1354126059e059e_aloha-in-rdfa-save.png" border="0" alt="aloha-in-rdfa-save.png" title="aloha-in-rdfa-save.png" /></p>
 <p>When receiving the POST Midgard runs <a href="https://github.com/bergie/midgardmvc_ui_create/blob/master/controllers/aloha.php">a controller</a> that maps the provided RDF information to a object in the content repository, validates the content and saves. The RDF mappings in a Midgard2 <a href="http://www.midgard-project.org/documentation/mgdschema-file/">MgdSchema</a> look like the following:</p>
 <pre>&lt;Schema xmlns="http://www.midgard-project.org/repligard/1.4"&gt;
     &lt;type name="org_midgardproject_news_article" table="org_midgardproject_news_article"&gt;

@@ -9,7 +9,7 @@
 [State of the Map][1], the [OpenStreetMap][2] conference was held this weekend in [Manchester University][10], with about 100 attendees.
 
 
-<p style="text-align:center;"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/manchester_humanities_lime_grove.jpg" height="300" width="400" border="1" hspace="4" vspace="4" alt="Manchester Humanities Lime Grove" /></p>OpenStreetMap is a project to create [open content][16] digital maps of the world. Most map data is currently closed and controlled by various organizations under copyright, making it unavailable or prohibitively expensive for open source or experimentative use. An open map can be used anywhere and kept up-to-date with the changing landscape quite easily.
+<p style="text-align:center;"><img src="https://d2vqpl3tx84ay5.cloudfront.net/manchester_humanities_lime_grove.jpg" height="300" width="400" border="1" hspace="4" vspace="4" alt="Manchester Humanities Lime Grove" /></p>OpenStreetMap is a project to create [open content][16] digital maps of the world. Most map data is currently closed and controlled by various organizations under copyright, making it unavailable or prohibitively expensive for open source or experimentative use. An open map can be used anywhere and kept up-to-date with the changing landscape quite easily.
 
 In addition to creating street maps, OpenStreetMap, being [a noncommercial entity][15] can also map things that most commercial navigation companies are not interested in: many OSM contributors are focusing on mapping [cycle][13] or hiking routes and [waterways][14]. [Free-maps][3] is a site that even provides a hiking-oriented rendering of the OSM data overlaid with [SRTM][6] contours and elevation data from NASA. Something similar would be easy to do for motorcyclists, highlighting scenic areas and twisties.
 
@@ -23,7 +23,7 @@ What surprised me about OSM is how well the project is actually progressing. In 
 * __Bolivia__ has no national mapping agency and so is considering to use OSM as the authoritative map source used for elections
 
 
-<p style="text-align:center;"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/openstreetmap-amsterdam-20070715.png" height="266" width="400" border="1" hspace="4" vspace="4" alt="Openstreetmap-Amsterdam-20070715" /></p>__Finland__, unfortunately, is [in a very early stage][12]. Some of central Helsinki, and some main roads there, but most of the country is still _Here be dragons_ territory. More publicity and some support could however boost this quickly. As an example, The Netherlands was still in the same stage four months ago.
+<p style="text-align:center;"><img src="https://d2vqpl3tx84ay5.cloudfront.net/openstreetmap-amsterdam-20070715.png" height="266" width="400" border="1" hspace="4" vspace="4" alt="Openstreetmap-Amsterdam-20070715" /></p>__Finland__, unfortunately, is [in a very early stage][12]. Some of central Helsinki, and some main roads there, but most of the country is still _Here be dragons_ territory. More publicity and some support could however boost this quickly. As an example, The Netherlands was still in the same stage four months ago.
 
 ## OSM on mobile devices
 
@@ -34,7 +34,7 @@ But what is largely missing is position-aware services for them. Of course, most
 The GeoClue project was started in order to make position information easily available for application authors. A simple <a href="http://en.wikipedia.org/wiki/D-BUS">D-BUS</a> query, and the application can get the location of the device regardless of whether it comes from GPS, Plazes or some other service.
 
 
-<p style="text-align:center;"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/geoclue-architecture.jpg" height="297" width="260" border="1" hspace="4" vspace="4" alt="Geoclue-Architecture" /></p>KDE has also been working on some location-based tools and services for their desktop, built around the Marble map viewer. Hopefully we can share the efforts in the freedesktop community.
+<p style="text-align:center;"><img src="https://d2vqpl3tx84ay5.cloudfront.net/geoclue-architecture.jpg" height="297" width="260" border="1" hspace="4" vspace="4" alt="Geoclue-Architecture" /></p>KDE has also been working on some location-based tools and services for their desktop, built around the Marble map viewer. Hopefully we can share the efforts in the freedesktop community.
 
 ## Route planning with OSM
 
@@ -57,7 +57,7 @@ This statistic brought some discussion of having better tools for map-making. Ou
 The application would keep this in the OSM XML format to enable things like live Mapnik rendering in the future and make it easy to upload the data directly to OSM.
 
 
-<p style="text-align:center;"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/maemo-surveyor-sketch.jpg" height="196" width="400" border="0" hspace="4" vspace="4" alt="Maemo-Surveyor-Sketch" /></p>Now the app is just in mockup format but I believe it should be quite easy to implement with Glade, Python and GeoClue.
+<p style="text-align:center;"><img src="https://d2vqpl3tx84ay5.cloudfront.net/maemo-surveyor-sketch.jpg" height="196" width="400" border="0" hspace="4" vspace="4" alt="Maemo-Surveyor-Sketch" /></p>Now the app is just in mockup format but I believe it should be quite easy to implement with Glade, Python and GeoClue.
 
 After our talk I got some interesting comments and ideas for the Surveyor application. A research group in Norway is thinking about sharing the mapping work over a Bluetooth or WiFi network: _"I'll look up street names, you write down speed limits"_.
 

@@ -8,7 +8,7 @@
 ---
 I recently logged in to the <a href="http://en.wikipedia.org/wiki/Diners_Club">Diners Club</a> extranet to check the credit card balance after our <a href="http://bergie.jaiku.com/presence/2685576">trip to Provence</a>, and noticed a new feature there. They had picked some restaurant bills from my credit card statement and asked for me to rate them in a very typical Web 2.0 fashion:
 
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/dinersclub-ratings-extranet.jpg" height="186" width="294" border="1" hspace="4" vspace="4" alt="Dinersclub-Ratings-Extranet" /><span style="font-size:0pt;">
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/dinersclub-ratings-extranet.jpg" height="186" width="294" border="1" hspace="4" vspace="4" alt="Dinersclub-Ratings-Extranet" /><span style="font-size:0pt;">
 
 </span>It will be interesting to see what they will start doing with the ratings. <a href="http://www.hackingnetflix.com/2005/12/netflix_email_m.html">Netflix-style recommendations</a> of restaurants people with similar tastes like would actually be quite useful.
 

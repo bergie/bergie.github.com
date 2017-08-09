@@ -8,7 +8,7 @@
 ---
 We have just contracted [Yukatan][1] to work on integrating [SyncML][7] support into [OpenPsa 2][2]. The idea is to enable users to synchronize their web-based calendar and contact registry with cell phones, PDAs and [Outlook][3].
 
-![SyncML synchronization settings in Outlook](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/outlook-sync4j-settings-small.jpg)
+![SyncML synchronization settings in Outlook](https://d2vqpl3tx84ay5.cloudfront.net/outlook-sync4j-settings-small.jpg)
 
 The SyncML implementation will be utilizing the [Funambol][4] open source SyncML server that will talk with OpenPsa through the [Java Content Repository API][5].
 

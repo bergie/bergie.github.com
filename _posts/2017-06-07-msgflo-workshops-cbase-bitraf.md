@@ -4,7 +4,7 @@ location: Berlin, Germany
 categories:
   - fbp
 layout: post
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/detect-abba-small.png'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/detect-abba-small.png'
 ---
 This July we're organizing two hack weekends around [MsgFlo](https://msgflo.org/) and [Flowhub](https://flowhub.io/):
 
@@ -15,7 +15,7 @@ Both of these will focus on reprogramming the Internet of Things setup of the ha
 
 If you're interested, feel welcome to join! Bring your own laptop. For the Bitraf event, please [register on the Meetup page](https://www.meetup.com/bitraf/events/240605453/). For c-base, add yourself to the [Facebook event](https://www.facebook.com/events/320514831713279/).
 
-[![c-base disco mode](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/detect-abba-small.png)](https://s3.eu-central-1.amazonaws.com/detect-abba.png)
+[![c-base disco mode](https://d2vqpl3tx84ay5.cloudfront.net/detect-abba-small.png)](https://d2vqpl3tx84ay5.cloudfront.net/detect-abba.png)
 
 ## Focus areas
 
@@ -33,7 +33,7 @@ You don't have to an expert to participate. We'll be there to help you get up to
 * c-base: [project repository](https://github.com/c-base/c-flo)
 * MsgFlo: [project website](https://msgflo.org/)
 
-[![c-flo station at c-base](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/siri-cflo-station-small.jpg)](https://s3.eu-central-1.amazonaws.com/siri-cflo-station.jpg)
+[![c-flo station at c-base](https://d2vqpl3tx84ay5.cloudfront.net/siri-cflo-station-small.jpg)](https://d2vqpl3tx84ay5.cloudfront.net/siri-cflo-station.jpg)
 
 ---
 

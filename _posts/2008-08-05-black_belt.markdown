@@ -6,7 +6,7 @@
 
 ---
 <p>
-<a href="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie_blackbelt_ballina.JPG"><img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/bergie_blackbelt_ballina-tm.jpg" height="346" width="260" border="1" align="right" hspace="8" vspace="4" alt="New Haedong Kumdo black belt" title="New Haedong Kumdo black belt" /></a>
+<a href="https://d2vqpl3tx84ay5.cloudfront.net/bergie_blackbelt_ballina.JPG"><img src="https://d2vqpl3tx84ay5.cloudfront.net/bergie_blackbelt_ballina-tm.jpg" height="346" width="260" border="1" align="right" hspace="8" vspace="4" alt="New Haedong Kumdo black belt" title="New Haedong Kumdo black belt" /></a>
 <br />On Saturday I was in <a href="http://en.wikipedia.org/wiki/Ballina,_County_Mayo">Ballina</a>, Ireland, and a <a href="http://bergie.jaiku.com/presence/41501404">bit nervous</a>: there was a <a href="http://haedong-kumdo.org/en/news/1211234116.html">Haedong Kumdo seminar</a> in town, and I was scheduled to test for <a href="http://en.wikipedia.org/wiki/Black_belt_(martial_arts)">black belt</a>. Behind this was years of different sword arts, like <a href="http://www.greywolves.org/toiminta-matto.html">viking swordfighting</a>, <a href="http://en.wikipedia.org/wiki/Iaid%C5%8D">Iaido</a>, <a href="http://en.wikipedia.org/wiki/Kendo">Kendo</a>, <a href="http://en.wikipedia.org/wiki/Fencing#Sabre">sabre fencing</a>, and two years of quite intense <a href="http://www.haedong-kumdo.fi/harjoittelu/">Haedong Kumdo practice</a>.
 </p><p>
 We tested together with two Swedes who already held black belt in the other federation. All three <a href="http://bergie.jaiku.com/presence/41529185">passed</a>.

@@ -6,7 +6,7 @@ categories:
   - tablet
   - mobility
   - desktop
-cover: 'https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nexus10-desk2.jpg'
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/nexus10-desk2.jpg'
 ---
 I've been [working full time on my Android workstation](http://bergie.iki.fi/blog/working-on-android/) for over a month now, and it is time to write an update about it. How has it worked out?
 
@@ -20,11 +20,11 @@ But that actually makes this experiment even more useful, as it means most of th
 
 For those who missed my setup in [the previous post](http://bergie.iki.fi/blog/working-on-android/), this is how it looks in action:
 
-[![Nexus 10 as a programming workstation](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nexus10-desk2-small.jpg)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nexus10-desk2.jpg)
+[![Nexus 10 as a programming workstation](https://d2vqpl3tx84ay5.cloudfront.net/nexus10-desk2-small.jpg)](https://d2vqpl3tx84ay5.cloudfront.net/nexus10-desk2.jpg)
 
 On-screen are [tmux](http://tmux.sourceforge.net/), [vim](http://www.vim.org/), and a [Grunt](http://gruntjs.com/) test automation [watcher](https://github.com/gruntjs/grunt-contrib-watch#readme) running inside a [MOSH client](http://mosh.mit.edu/).
 
-[![Nexus 10 as a programming workstation](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nexus10-shell-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nexus10-shell.png)
+[![Nexus 10 as a programming workstation](https://d2vqpl3tx84ay5.cloudfront.net/nexus10-shell-small.png)](https://d2vqpl3tx84ay5.cloudfront.net/nexus10-shell.png)
 
 Here are some things I've done in the last month:
 
@@ -45,7 +45,7 @@ I've tackled this issue in two ways:
 * *More tests*. Instead of poking around in a debugger, I try to write [Mocha tests](http://visionmedia.github.io/mocha/) for most aspects of my applications. This also has the benefit of automation, meaning that [PhantomJS](http://phantomjs.org/) will test everything in my application every time I commit
 * *VNC and desktop browsers*. When I really need one, I can still use the web debugging tools of traditional web browsers via VNC
 
-[![Web debugging via VNC](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nexus10-vnc-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nexus10-vnc.png)
+[![Web debugging via VNC](https://d2vqpl3tx84ay5.cloudfront.net/nexus10-vnc-small.png)](https://d2vqpl3tx84ay5.cloudfront.net/nexus10-vnc.png)
 
 [See Mark O'Connor's setup instructions](http://yieldthought.com/post/12638596672/setting-up-an-ipad-linode) for VNC on one of these tablet workstation setups.
 
@@ -106,7 +106,7 @@ But still, it would be good to have a bit more data on how well the setup works 
 
 To this end, I recently started using the [RescueTime](https://www.rescuetime.com/) tracker on both of my Android devices. It keeps calculates how much time I spend with different applications each day, and even allows me to give some sort of productivity scores for them:
 
-[![Scoring applications on RescueTime](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nexus10-rescuetime-small.png)](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/nexus10-rescuetime.png)
+[![Scoring applications on RescueTime](https://d2vqpl3tx84ay5.cloudfront.net/nexus10-rescuetime-small.png)](https://d2vqpl3tx84ay5.cloudfront.net/nexus10-rescuetime.png)
 
 I'll be running this for a while, and will try to combine it with some statistics from [my GitHub account](https://github.com/bergie). Those two should be able to paint a picture of how I work.
 

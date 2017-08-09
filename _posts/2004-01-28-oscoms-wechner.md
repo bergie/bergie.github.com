@@ -7,7 +7,7 @@ layout: post
 ---
 OSCOM's president Michael Wechner is one of the Twenty CMS Leaders to Watch in 2004 in a list published by CMSWatch.
 
-![Michael Wechner loves OSCOM. Photo by Roger Fischer, Kaywa](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/thumb_mob19_1074879240.jpg)
+![Michael Wechner loves OSCOM. Photo by Roger Fischer, Kaywa](https://d2vqpl3tx84ay5.cloudfront.net/thumb_mob19_1074879240.jpg)
 
 From the [CMSwatch article](http://www.cmswatch.com/Features/PeopleWatch/FeaturedPeople/?feature_id=99):
 

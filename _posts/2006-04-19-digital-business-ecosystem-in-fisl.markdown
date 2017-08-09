@@ -9,7 +9,7 @@
 ---
 I just finished my [Digital Business Ecosystem][1] talk in the [7th International Free Software Forum][2], [Porto Alegre][3].
 
-![Henri speaking in the FISL main hall](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Speaking_in_FISL2.jpg)
+![Henri speaking in the FISL main hall](https://d2vqpl3tx84ay5.cloudfront.net/Speaking_in_FISL2.jpg)
 
 [Here are the slides][4], and the transcript of the talk:
 
@@ -155,7 +155,7 @@ I just finished my [Digital Business Ecosystem][1] talk in the [7th Internationa
 - Initiatives like the Freedesktop.org project have proven cross-project 
   collaboration is possible
 
-![The Digital Business Ecosystem talk](https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/Speaking_in_FISL.jpg)
+![The Digital Business Ecosystem talk](https://d2vqpl3tx84ay5.cloudfront.net/Speaking_in_FISL.jpg)
   
 ## DBE in Brazil
 

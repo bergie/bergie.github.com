@@ -7,7 +7,7 @@
 
 ---
 <p>
-<img src="https://s3.eu-central-1.amazonaws.com/bergie-iki-fi/geoclue-200.png" height="200" width="200" border="0" align="right" hspace="10" vspace="4" alt="GeoClue" title="GeoClue" /><br />I sat down with <a href="http://www.freedesktop.org/wiki/Software/GeoClue">GeoClue</a> maintainer (and my former SoC student) <a href="http://vilunki.wordpress.com/">Jussi Kukkonen</a> to discuss how the project has been moving forward, and the situation is looking quite good. To those unfamiliar with GeoClue, here is a quick intro:
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/geoclue-200.png" height="200" width="200" border="0" align="right" hspace="10" vspace="4" alt="GeoClue" title="GeoClue" /><br />I sat down with <a href="http://www.freedesktop.org/wiki/Software/GeoClue">GeoClue</a> maintainer (and my former SoC student) <a href="http://vilunki.wordpress.com/">Jussi Kukkonen</a> to discuss how the project has been moving forward, and the situation is looking quite good. To those unfamiliar with GeoClue, here is a quick intro:
 </p><blockquote>
 GeoClue is a modular geoinformation service built on top of the D-Bus messaging system. The goal of the GeoClue project is to make creating location-aware applications for mobile Linux devices as simple as possible.
 </blockquote><p>
