@@ -6,7 +6,6 @@ categories:
   - desktop
 location: Berlin, Germany
 layout: post
-published: false
 ---
 It has been interesting to watch the reactions to [Bret Victor's The Future of Programming](https://vimeo.com/71278954) and our [NoFlo Kickstarter](http://www.kickstarter.com/projects/noflo/noflo-development-environment). While much of it has been supportive, there seems to be a largish group of people that are offended by these notions. *How dare we suggest that software could be made in other ways than textually?*
 
