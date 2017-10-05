@@ -52,7 +52,7 @@ There is also an easier way to get going: we provide pre-built Docker images of 
 There are also docker-compose configuration files for both environments. To install and start the whole service with all its dependencies, grab the [docker-compose.yml file](https://github.com/c-base/cbeam-telemetry-server/blob/master/docker-compose.yml) (or the [Raspberry Pi 3 version](https://github.com/c-base/cbeam-telemetry-server/blob/master/docker-compose-raspberrypi3.yml)) and start with:
 
 ```bash
-$ docker-compose up
+$ docker-compose up -d
 ```
 
 We're building these images as part of our continuous integration pipeline ([ARM build with this recipe](https://blog.hypriot.com/post/setup-simple-ci-pipeline-for-arm-images/)), so they should always be reasonably up-to-date.
