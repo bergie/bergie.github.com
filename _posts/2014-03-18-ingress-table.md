@@ -102,4 +102,6 @@ I'd like to give big thanks especially to everybody who participated in hackatho
 
 The full source code for the Ingress Table can be found from <https://github.com/c-base/ingress-table>
 
+Ijon also [has a blog post about the project](http://www.ijon.me/2014/03/18/ingresstisch/?lang=en).
+
 [![Flowhub - Make code playful](https://d2vqpl3tx84ay5.cloudfront.net/flowhub-promo.jpg)](http://flowhub.io)
