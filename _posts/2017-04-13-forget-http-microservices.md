@@ -50,9 +50,9 @@ To give you an overview of the dataflow between services, MsgFlo also provides a
 
 If you're using [Heroku](https://heroku.com), MsgFlo can also generate the [Procfile](https://devcenter.heroku.com/articles/procfile) for you, meaning that the services you've defined in your graph get automatically registered with the platform.
 
-### GuvScale
+### Guv
 
-As mentioned above, queue-based microservices make autoscaling quite easy. If you're on Heroku, then our [GuvScale](https://elements.heroku.com/addons/guvscale) can be used to automate scaling operations for all of your background dynos.
+As mentioned above, queue-based microservices make autoscaling quite easy. If you're on Heroku, then our [Guv tool](https://github.com/flowhub/guv) can be used to automate scaling operations for all of your background dynos.
 
 I wrote more about GuvScale in a [recent blog post](/blog/guvscale-heroku-autoscaling/).
 
