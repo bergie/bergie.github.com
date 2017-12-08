@@ -5,3 +5,15 @@ install:
 - bundle install
 script:
 - jekyll build
+deploy:
+  provider: s3
+  access_key_id: AKIAIYAEX24Q3W2DDS4Q
+  secret_access_key:
+    secure: xU4Zom8kXxqTJZ8Yc6UhT6/zoPEBPXc5GPpUByeuOHVFJ+Ji6788tQT00Okh+uUR5t60wjTiqpZ7LFVdtx4bvKIFIZC2qOqZUIj9sMHYzvKNXVT97vJdwTjQfVjI3E5Fa5zq6j1VvsLqrpg5NTz+mGNZkuYhw7IEBtNTsFGuxbmU337dx2kKAslHekUcyZVTZXIeUj9u1g1cwiOYt4pmFO+kxvqSAAF6XI8uOqo/+7J6iFhT88Yn3o99om6AJi05w6t0t+xXx/pF6gsYdPLhf5o47+OecW74gS8A+jqDrK3qz7jThvdBGEGUU4wdYEAY8CPGE6rqdOhaw/CV2lewsJtXCLJUfzfBrXeaLWXH/GO2g/+VeM0reJGFa+tUhL1yeJtWpVBj3CMZw6aTGInU3sfkopy3yglde/roz+0dT75vcx7qnxsSkko4GExmJVpKuxaPQRTB+QV302anOpJiKpNrjAXY09X/NAOkGzhRqxqE/WDCT17ZLL96tCNU2h4Vn9c2kR5OD6rTpTSoEDMPfVa+awKngtYpqvQTLaHFEhsVqTnLlL4z0y/CyHxVK60kRQEapuqv+3+Aydw5Febfj5eqbu/F3Vy52GpEzpeeCNBKe16EivY8cCSb2ocpLycqKzC+dwjLu1aVHYcs5o8YT7cTU407n46bX3K+Nr6z3cY=
+  bucket: bergie.iki.fi
+  region: eu-central-1
+  default_text_charset: 'utf-8'
+  skip_cleanup: true
+  local-dir: _site
+  on:
+    repo: bergie/bergie.github.com
