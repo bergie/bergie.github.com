@@ -6,10 +6,7 @@
     <meta charset="utf-8">
     <title>{{ page.title }} {% if paginator.page %}{% unless paginator.page == 1 %} archive {{ paginator.page }}/{{ paginator.total_pages }} {% endunless %}{% endif %}- {{ site.name }}{% if page.location %} in {{ page.location }}{% endif %}</title>
     {% include base.html %}
-    <link rel="stylesheet" href="{{ base }}/style/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ base }}/style/css/bootstrap-responsive.min.css">
-    <link rel="stylesheet" href="{{ base }}/style/css/bergie-2012.css">
-    <link rel="stylesheet" href="{{ base }}/style/css/highlight-zenburn.css">
+    <link rel="stylesheet" href="{{ base }}/style/css/bergie-2017.css">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ base }}/style/img/favicon/favicon_144.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ base }}/style/img/favicon/favicon_114.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ base }}/style/img/favicon/favicon_72.png">
@@ -62,5 +59,6 @@
       {% include footer.html %}
     </footer>
     {% include events.html %}
+    <link rel="stylesheet" href="{{ base }}/style/css/highlight-zenburn.css">
   </body>
 </html>

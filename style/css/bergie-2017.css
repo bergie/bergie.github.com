@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100');
+
+body {
+  background-color: #647086;
+  color: #191722;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+  font-size: 16pt;
+  line-height: 21pt;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+body.post article {
+  width: 42em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d2b2b9;
+  margin-top: 0px;
+  box-sizing: border-box;
+  padding: 2em;
+}
+
+body.post img#cover {
+  width: 15em;
+  min-height: 17em;
+  max-height: 23em;
+  object-fit: cover;
+  margin-left: 2em;
+  box-sizing: border-box;
+  filter: grayscale(60%);
+  opacity: 0.8;
+}
+
+body.post article header {
+  min-height: 17em;
+  text-align: right;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+body.post article header h1 {
+  font-size: 42pt;
+  line-height: 60pt;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+body.post article img {
+  max-width: 38em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.post article a {
+  color: #191722;
+}
+
+body.post article .metadata {
+  font-style: italic;
+}
+
+hr {
+  height: 80px;
+  background-image: url('../img/mdpi/flyingpig.png');
+  background-size: 89px 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  margin-bottom: 2em;
+  border: none;
+}
+
+footer {
+  background-color: #3f4050;
+  color: #ffffff;
+}
+
+footer .container {
+  width: 42em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+footer a {
+  color: #d2b2b9;
+  font-weight: bold;
+  text-decoration: none;
+}
