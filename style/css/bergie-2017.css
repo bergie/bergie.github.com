@@ -14,6 +14,57 @@ h1 {
   font-family: 'Raleway', sans-serif;
 }
 
+body.blog header {
+  background-color: #191722;
+  color: #ffffff;
+  height: 80vh;
+  text-shadow: #191722 1px 0 10px;
+}
+body.blog header:after {
+  content : '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../img/hdpi/hawaii.jpg');
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+  opacity : 0.3;
+}
+
+body.blog header .container {
+  width: 60vw;
+  margin-left: 2em;
+  margin-right: auto;
+  padding: 1em;
+  box-sizing: border-box;
+}
+body.blog.front header .container {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+body.blog.front header .container h1 {
+  font-size: 12vmin;
+  line-height: 15vmin;
+  margin-top: 0;
+  padding-top: 0;
+}
+body.blog.front header .container a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+body.blog.front header .container h1 a {
+  font-weight: normal;
+}
+body.blog.front header .container p {
+  font-size: 5vmin;
+  line-height: 8vmin;
+}
+
 body.post article {
   width: 42em;
   margin-left: auto;
@@ -94,4 +145,10 @@ footer a {
   color: #d2b2b9;
   font-weight: bold;
   text-decoration: none;
+}
+
+@media (orientation: portrait) {
+  body.blog header:after {
+    background-position: 70% 50%;
+  }
 }

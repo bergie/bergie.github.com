@@ -3,10 +3,23 @@ layout: 'default'
 bodyclass: 'post'
 ---
       {% include base.html %}
-      <article vocab="http://schema.org/" about="{{ base }}{{ page.url }}" typeof="BlogPosting" class="h-entry">
+      {% assign now = site.now | reverse %}
+      {% assign latest = now[0] %}
+      {% assign previous = now[1] %}
+      <article vocab="http://schema.org/" about="{{ base }}{{ page.url }}" typeof="BlogPosting" class="h-entry now">
         <header>
           <div>
             <h1 property="headline" class="p-name">{{ page.title }}</h1>
+            <div class="metadata">
+              <a rel="author" href="http://bergie.iki.fi/#me" class="p-author"></a>
+              {% if latest.date %}
+              <span property="datePublished" content="{{ latest.date | date_to_xmlschema }}" class="dt-published">{{ latest.date | date_to_long_string }}</span>
+              {% endif %}
+              {% if latest.location %}
+              in <span rel="contentLocation" typeof="City"><span property="name">{{ latest.location }}</span></span>
+              {% endif %}
+              <span property="wordCount" content="{{ latest.content | strip_html | number_of_words }}"></span>
+            </div>
           </div>
         </header>
         <div>

@@ -14,18 +14,7 @@ title: "Now working on"
   {{ previous.content }}
   </div>
   {% endif %}
-</div>
-<div class="metadata">
-  <a rel="author" href="http://bergie.iki.fi/#me" class="p-author"></a>
-  {% if latest.date %}
-  <span property="datePublished" content="{{ latest.date | date_to_xmlschema }}" class="dt-published">{{ latest.date | date_to_long_string }}</span>
-  {% endif %}
-  {% if latest.location %}
-  in <span rel="contentLocation" typeof="City"><span property="name">{{ latest.location }}</span></span>
-  {% endif %}
-  <span property="wordCount" content="{{ latest.content | strip_html | number_of_words }}"></span>
   <p>
-  Status page inspired by <a href="https://sivers.org/nowff/">Derek Sivers</a>.
+    Status page inspired by <a href="https://sivers.org/nowff/">Derek Sivers</a>.
   </p>
-
 </div>
