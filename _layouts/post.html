@@ -3,8 +3,8 @@ layout: 'default'
 bodyclass: 'post'
 ---
       {% include base.html %}
-      <article vocab="http://schema.org/" about="{{ base }}{{ page.url }}" typeof="BlogPosting" class="span8 offset1 h-entry">
-        <header class="span9">
+      <article vocab="http://schema.org/" about="{{ base }}{{ page.url }}" typeof="BlogPosting" class="h-entry">
+        <header>
           {% if page.cover %}
           <img src="{{ page.cover }}" id="cover" />
           {% endif %}
@@ -24,7 +24,7 @@ bodyclass: 'post'
             </div>
           </div>
         </header>
-        <div class="span8">
+        <div>
           <div property="articleBody" class="e-content">
             {{ content }}
           </div>

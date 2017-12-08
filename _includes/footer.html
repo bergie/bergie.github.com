@@ -1,6 +1,6 @@
       {% include base.html %}
       <div class="container">
-        <div vocab="http://schema.org/" id="me" about="http://bergie.iki.fi/#me" typeof="Person" class="card span8 offset1 h-card">
+        <div vocab="http://schema.org/" id="me" about="http://bergie.iki.fi/#me" typeof="Person" class="card h-card">
           <div class="avatar instapaper_ignore">
             <div class="switcher">
               <div class="image photo u-photo"></div>
@@ -12,11 +12,11 @@
             <strong class="p-name"><span property="givenName">Henri</span> <span property="familyName">Bergius</span></strong> is an occasional adventurer living in <span rel="homeLocation" typeof="City"><span property="name" class="p-locality">Berlin</span></span> and <a href="{{ base }}/now/" rel="status">working on</a> decoupled software systems, <a href="https://flowhub.io">visual programming tools</a> and free software.
             </p>
             <p>
-            You can reach him by <a rel="email" class="u-email" href="mailto:henri.bergius@iki.fi">email</a> or <a href="xmpp:henri.bergius@gmail.com">instant messaging</a>. Besides writing on this blog, he is also available on <a href="https://twitter.com/bergie" class="u-url" rel="me">Twitter</a>, <a href="https://plus.google.com/100751105859582805241/?rel=author" class="u-url" rel="me">Google+</a>, and <a href="http://www.linkedin.com/in/bergie" class="u-url" rel="me">LinkedIn</a>. Most of Henri's recent code can be found from <a href="https://github.com/bergie" class="u-url" rel="me">GitHub</a>. <a href="{{ base }}/about/">&raquo;</a>
+            You can reach him by <a rel="email" class="u-email" href="mailto:henri.bergius@iki.fi">email</a>. Besides writing on this blog, he is also available on <a href="https://twitter.com/bergie" class="u-url" rel="me">Twitter</a>, <a href="https://plus.google.com/100751105859582805241/?rel=author" class="u-url" rel="me">Google+</a>, and <a href="http://www.linkedin.com/in/bergie" class="u-url" rel="me">LinkedIn</a>. Most of Henri's recent code can be found from <a href="https://github.com/bergie" class="u-url" rel="me">GitHub</a>. <a href="{{ base }}/about/">&raquo;</a>
             </p>
           </div>
         </div>
-        <div class="span8 offset1 hidden-phone">
+        <nav>
           <ul class="nav nav-pills nav-wide">
             <li><a href="{{ base }}/" class="u-url" rel="me">Home</a></li>
             <li><a href="{{ base }}/about/" class="u-url" rel="me">About Henri</a></li>
@@ -24,23 +24,5 @@
             <li><a href="https://www.flickr.com/photos/bergie/" class="u-url" rel="me">Photos</a></li>
             <li><a href="{{ base }}/colophon/">Colophon</a></li>
           </ul>
-        </div>
-        <div class="span8 pull-left visible-phone">
-          <ul class="nav nav-pills nav-narrow">
-            <li><a href="{{ base }}/">Home</a></li>
-            <li><a href="{{ base }}/about/">About</a></li>
-            <li><a href="{{ base }}/blog/category/bestof/">Best Of</a></li>
-            <li><a href="http://bergie.today/" class="u-url" rel="me">Linklog</a></li>
-          </ul>
-        </div>
+        </nav>
       </div>
-      <script type="application/javascript">
-        var avatar = document.getElementById('bergie_drawn');
-        avatar.addEventListener('click', function () {
-          if (avatar.className.indexOf('transparent') === -1) {
-            avatar.className = avatar.className + ' transparent';
-            return;
-          }
-          avatar.className = avatar.className.replace(/\b transparent\b/,'');
-        });
-      </script>
