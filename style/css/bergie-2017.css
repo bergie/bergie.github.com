@@ -14,6 +14,10 @@ h1 {
   font-family: 'Raleway', sans-serif;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 body.blog header {
   background-color: #191722;
   color: #ffffff;
@@ -41,16 +45,22 @@ body.blog header .container {
   margin-right: auto;
   padding: 1em;
   box-sizing: border-box;
+  overflow-y: hidden;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
 }
 body.blog.front header .container {
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 body.blog.front header .container h1 {
   font-size: 12vmin;
   line-height: 15vmin;
-  margin-top: 0;
-  padding-top: 0;
+  margin: 0;
+  padding: 0;
 }
 body.blog.front header .container a {
   color: #ffffff;
@@ -63,6 +73,8 @@ body.blog.front header .container h1 a {
 body.blog.front header .container p {
   font-size: 5vmin;
   line-height: 8vmin;
+  margin: 0;
+  padding: 0;
 }
 
 body.post article {
@@ -147,8 +159,31 @@ footer a {
   text-decoration: none;
 }
 
-@media (orientation: portrait) {
+footer nav ul {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+footer nav ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 1em;
+}
+
+@media (max-aspect-ratio: 8/5) and (min-aspect-ratio: 5/8) {
+  body.blog.front header .container p {
+    font-size: 3vmin;
+    line-height: 5vmin;
+  }
+}
+
+@media (max-aspect-ratio: 8/5) {
   body.blog header:after {
     background-position: 70% 50%;
+  }
+  body.blog.front header .container {
+    width: 75vw;
+    margin-left: 0.5em;
+    padding-top: 2em;
+    padding-bottom: 1em;
   }
 }
