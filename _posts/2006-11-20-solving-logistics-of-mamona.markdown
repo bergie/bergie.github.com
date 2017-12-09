@@ -6,6 +6,7 @@
     - "mobility"
     - "geo"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/nokia-770-maemo-mapper-small.jpg'
 
 ---
 I was discussing this IT problem at [ESEEI][2] today:

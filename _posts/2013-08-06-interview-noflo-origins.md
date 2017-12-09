@@ -9,7 +9,6 @@ categories:
   - mobility
   - desktop
   - nodejs
-  - midgard
 cover: 'https://i.vimeocdn.com/video/445469607.jpg'
 ---
 [Here](https://vimeo.com/68285726) is a video interview of me talking about the origins of [NoFlo](http://noflojs.org/), the flow-based programming environment for JavaScript:

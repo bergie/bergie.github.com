@@ -5,7 +5,6 @@ categories:
   - nodejs
   - coffeescript
   - oscom
-  - midgard
   - bestof
 layout: post
 location: Berlin, Germany

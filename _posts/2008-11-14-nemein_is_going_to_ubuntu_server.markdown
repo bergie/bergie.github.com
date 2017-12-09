@@ -4,6 +4,7 @@
     - "midgard"
     - "business"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/ubuntu_midgard.png'
 
 ---
 <p>

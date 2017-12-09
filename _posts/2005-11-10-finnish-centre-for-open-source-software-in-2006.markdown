@@ -3,6 +3,7 @@
   categories: 
     - "business"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/coss-logo.gif'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/coss-logo.gif" border="0" height="91" width="176" alt="COSS" style="margin-left: 10px;" title="Centre for Open Source Software" align="right" />

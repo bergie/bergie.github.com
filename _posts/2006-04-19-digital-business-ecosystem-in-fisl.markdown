@@ -5,6 +5,7 @@
     - "openpsa"
     - "politics"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Speaking_in_FISL2.jpg'
 
 ---
 I just finished my [Digital Business Ecosystem][1] talk in the [7th International Free Software Forum][2], [Porto Alegre][3].

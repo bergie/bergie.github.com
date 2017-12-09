@@ -5,6 +5,7 @@
     - "flying"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/finnair_embraer.jpg'
 
 ---
 This is probably old news to most, but since I usually fly <a href="http://en.wikipedia.org/wiki/Scandinavian_Airlines_System">SAS</a> my flight yesterday to <a href="http://en.wikipedia.org/wiki/Manchester">Manchester</a> for the <a href="http://www.stateofthemap.org/">State of the Map</a> and <a href="http://guadec.org/">GUADEC</a> conferences was the first time I ran into <a href="http://en.wikipedia.org/wiki/Finnair">Finnair's</a> <a href="http://www.finnair.fi/finnaircom/wps/portal/finnair/kcxml/04_Sj9SPykssy0xPLMnMz0vM0Y_QjzKL9443DnUFSYGYLj76kWhCzp5oQi7xzt4IIV-P_NxU_aC0zHg3T31v_QD9gtzQ0IhyR0UA2c6kLQ!!/delta/base64xml/L0lKWWttUSEhL3dITUFDc0FFVUFOby80SUVhREFBIS9lbl9GSQ!!?explisitLocale=true">check-in SMS service</a>.

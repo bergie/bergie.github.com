@@ -3,6 +3,7 @@
   categories: 
     - "haidonggumdo"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/kendo-bogu-for-sale.jpg'
 
 ---
 I'm selling my old <a href="http://www.huuto.net/fi/showitem.php3?itemid=52582730">bogu (kendo armor) on Huuto.net</a>:

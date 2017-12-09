@@ -5,6 +5,7 @@
     - "haidonggumdo"
     - "motorcycles"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/enfield_in_carpathian_mountains.jpg'
 
 ---
 My holiday motorcycle trip of this summer was an interesting one, in the <a href="http://en.wikipedia.org/wiki/May_you_live_in_interesting_times">Chinese sense</a>. The plan was to first ride to Switzerland to attend the <a href="http://bergie.iki.fi/blog/european_haidong_gumdo_championships_in_zurich_mid-june/">first Haidong Gumdo European Championships</a>, and then continue from there together with <a href="http://www.flickr.com/photos/bergie/427380213/in/set-72157600010088557/">Juha</a> to Montenegro. As it happens, Juha never got his motorcycle working, and my trip was filled with various adventures and misfortune, but also with friendly people and beautiful scenery.

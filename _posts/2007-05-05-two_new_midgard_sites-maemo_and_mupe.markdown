@@ -5,6 +5,7 @@
     - "business"
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/maemo-new-site.jpg'
 
 ---
 <a href="http://www.nemein.com/">We</a> helped to launch two interesting new <a href="http://www.midgard-project.org/">Midgard-powered</a> sites yesterday.

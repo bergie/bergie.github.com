@@ -3,6 +3,7 @@
   categories: 
     - "business"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/jaiku-channel-nemein-tm.jpg'
 
 ---
 <p>

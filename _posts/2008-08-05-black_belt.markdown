@@ -3,6 +3,7 @@
   categories: 
     - "haidonggumdo"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/bergie_blackbelt_ballina-tm.jpg'
 
 ---
 <p>

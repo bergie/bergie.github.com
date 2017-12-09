@@ -2,9 +2,7 @@
 title: GuvScale - Autoscaling for Heroku worker dynos
 location: Berlin, Germany
 categories:
-  - fbp
   - business
-  - midgard
 layout: post
 cover: 'https://d2vqpl3tx84ay5.cloudfront.net/guvscale-graph.jpg'
 ---

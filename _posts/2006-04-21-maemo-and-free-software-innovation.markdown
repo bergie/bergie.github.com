@@ -4,6 +4,7 @@
     - "business"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Tim_FISL_Maemo.jpg'
 
 ---
 Today I went to see [Tim Ney's][2] talk about [Free Software Innovation][3] in the [7th FISL conference][4] here in Brazil. The talk started with a birthday greeting for [Queen Elizabeth II][1].

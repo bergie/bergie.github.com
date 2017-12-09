@@ -4,6 +4,7 @@
     - "business"
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/OSF_Celeb_Panel.jpg'
 
 ---
 [Russian Open Source Forum][1] was a gathering of local software companies, Open Source developers and government IT people that brought together about 1500 participants. The event's celebrities were [Jon "Maddog" Hall][4] from [Linux International][2] and [Larry Wall][3], the Perl creator.

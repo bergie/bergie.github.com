@@ -3,6 +3,7 @@
   categories: 
     - "haidonggumdo"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/hdgd-eu-championships-poster-small.jpg'
 
 ---
 <a href="http://www.euhaidong.com/">European Haidong Gumdo association</a> is arranging the first European championships of <a href="http://en.wikipedia.org/wiki/Haidong_Gumdo">Haidong Gumdo</a> in Zürich, Switzerland on June 15th - 17th.

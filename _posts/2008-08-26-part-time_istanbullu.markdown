@@ -6,6 +6,7 @@
     - "desktop"
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/tophane_mosque_at_night-tm.jpg'
 
 ---
 <p>

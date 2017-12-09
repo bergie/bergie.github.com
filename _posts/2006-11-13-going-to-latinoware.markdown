@@ -5,6 +5,7 @@
     - "mobility"
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/maemo-application-catalog-small.jpg'
 
 ---
 I will be flying to [Foz do Iguacu][1] tomorrow for the [LatinoWare 2006 conference][2]. My talk on [Digital Business Ecosystem][3] is scheduled at 2pm on thursday the 16th.

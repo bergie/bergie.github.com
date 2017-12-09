@@ -4,6 +4,7 @@
     - "business"
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/dinersclub-ratings-extranet.jpg'
 
 ---
 I recently logged in to the <a href="http://en.wikipedia.org/wiki/Diners_Club">Diners Club</a> extranet to check the credit card balance after our <a href="http://bergie.jaiku.com/presence/2685576">trip to Provence</a>, and noticed a new feature there. They had picked some restaurant bills from my credit card statement and asked for me to rate them in a very typical Web 2.0 fashion:

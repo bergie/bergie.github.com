@@ -4,6 +4,7 @@
     - "business"
     - "politics"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/EU_flag.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/EU_flag.jpg" style="float:right;margin-left:8px;" alt="EU_flag.jpg" />

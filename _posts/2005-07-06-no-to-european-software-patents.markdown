@@ -4,10 +4,12 @@
     - "business"
     - "politics"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/EU_flag.jpg'
 
 ---
-<img src="https://d2vqpl3tx84ay5.cloudfront.net/EU_flag.jpg" border="0" height="432" width="200" alt="EU_flag.jpg" style="margin-left: 5px;" align="right" />
 In a smashing victory for European software business, the EU parliament has [voted 648-14 against][1] the [controversial software patent directive][2]. Thanks to [everybody][3] [involved][4]!
+
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/EU_flag.jpg" border="0" height="432" width="200" alt="EU_flag.jpg" style="margin-left: 5px;" align="right" />
 
 As I said in last month's [Tietokone interview on Open Source business][5] (subscription required), software patents would have been a [great threat][6] to the Open Source movement, and European business in general. The only ones benefiting from the absurdity would have been big American software companies.
 

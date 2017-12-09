@@ -2,9 +2,9 @@
 title: "The Grid: Web Design by Artificial Intelligence"
 categories:
   - fbp
-  - midgard
   - business
   - desktop
+  - oscom
 location: Berlin, Germany
 layout: post
 cover: 'https://d2vqpl3tx84ay5.cloudfront.net/bergius_thegrid_lift.jpg'

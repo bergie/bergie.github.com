@@ -6,7 +6,6 @@ categories:
   - fbp
   - business
   - oscom
-  - midgard
 cover: 'https://d2vqpl3tx84ay5.cloudfront.net/guvscale-graph.jpg'
 ---
 [Microservices](https://en.wikipedia.org/wiki/Microservices) &mdash; an architectural pattern we recommended in our [2012 International PHP Conference keynote](https://youtu.be/VQdl7J_24PA?list=PLIuD0578pkZ4Ciu9DNkRMG9yvFrEdVby7) &mdash; is pretty popular these days. There are many benefits to consider:

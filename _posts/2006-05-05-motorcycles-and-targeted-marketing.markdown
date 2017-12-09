@@ -5,6 +5,7 @@
     - "motorcycles"
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/openpsa2-message-confirmation.jpg'
 
 ---
 Last night I got [SMS][7] spam from [Moto-Seinäjoki][1], a motorcycle dealer in the bothnia region of Finland, quite far from here. The message was advertising the possibility of test driving some of their new Honda range.

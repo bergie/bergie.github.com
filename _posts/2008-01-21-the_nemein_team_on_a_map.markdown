@@ -5,6 +5,7 @@
     - "geo"
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/nemein-team-openstreetmap-1.png'
 
 ---
 <p>

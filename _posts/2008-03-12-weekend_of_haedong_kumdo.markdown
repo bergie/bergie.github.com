@@ -3,6 +3,7 @@
   categories: 
     - "haidonggumdo"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/helsinki-haedong-kumdo-seminar-2008-tm.jpg'
 
 ---
 <p>

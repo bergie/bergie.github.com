@@ -4,6 +4,7 @@
     - "business"
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/tkk-frontpage-midgard.jpg'
 
 ---
 <a href="http://www.tkk.fi/">Helsinki University of Technology</a> (TKK), the oldest university of technology in Finland launched their new site today:

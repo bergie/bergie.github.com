@@ -5,6 +5,7 @@
     - "mobility"
     - "tablet"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/amazon-top-computer-sellers-20070329.jpg'
 
 ---
 As a <a href="http://maemo.org/">Maemo</a> application developer, I of course wonder how many <a href="http://www.nokiausa.com/N800">N800</a> or <a href="http://europe.nokia.com/770">770</a> internet tablets are out there. Nokia hasn't released any figures as far as I know, but looking at <a href="http://www.amazon.com/gp/bestsellers/pc/ref=sv_pc_1/104-3664075-5639924">Amazon's Computers &#38; PC Hardware top sellers</a>, it seems that at least N800 is selling well. Today it was on sixth place, behind some different MacBook and Toshiba Satellite iterations:

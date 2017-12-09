@@ -6,9 +6,7 @@ categories:
   - javascript
   - tablet
   - desktop
-  - kde
   - business
-  - mobility
   - bestof
 location: San Francisco, California
 layout: post

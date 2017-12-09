@@ -4,6 +4,7 @@
     - "business"
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Speaking_in_LatinoWare_Foz_do_Iguacu.jpg'
 
 ---
 Like [last year][1] and [FISL][3], I'm again representing [DBE][4] [in LatinoWare][2]. My talk was yesterday, and this time I focused a bit more on the practical applications of DBE instead of the politics.
