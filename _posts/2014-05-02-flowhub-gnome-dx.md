@@ -5,6 +5,7 @@ categories:
 - fbp
 - desktop
 location: Berlin, Germany
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/gnome-dx-2014.jpg'
 ---
 I've spent the last three days in the [GNOME Developer Experience hackfest](https://wiki.gnome.org/Hackfests/DeveloperExperience2014) working on the [NoFlo](http://noflojs.org) runtime for [GNOME](http://gnome.org) with [Lionel Landwerlin](https://github.com/djdeath).
 

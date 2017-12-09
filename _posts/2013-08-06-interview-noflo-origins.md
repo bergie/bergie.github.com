@@ -10,10 +10,11 @@ categories:
   - desktop
   - nodejs
   - midgard
+cover: 'https://i.vimeocdn.com/video/445469607.jpg'
 ---
 [Here](https://vimeo.com/68285726) is a video interview of me talking about the origins of [NoFlo](http://noflojs.org/), the flow-based programming environment for JavaScript:
 
-<iframe src="http://player.vimeo.com/video/68285726?byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="https://player.vimeo.com/video/68285726?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 You've seen short pieces from this in the [NoFlo Kickstarter video](http://www.kickstarter.com/projects/noflo/noflo-development-environment), but most of the material is new. This was shot when [NoFlo turned two](http://bergie.iki.fi/blog/noflo-two-years/), and so I'm obviously spending some time talking about where things came from.
 

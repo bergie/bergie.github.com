@@ -5,6 +5,7 @@ categories:
   - fbp
 layout: post
 location: Berlin, Germany
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/ardrone.png'
 ---
 The [Parrot AR.Drone](http://ardrone2.parrot.com/) is quite a lot of fun, and also [quite hackable](http://nodecopter.com/). We recently got one, and the first thing to do was to connect the excellent [Node.js ar-drone module](https://github.com/felixge/node-ar-drone) with the [NoFlo](http://noflojs.org/) flow-based programming framework.
 
