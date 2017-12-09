@@ -6,6 +6,7 @@ categories:
   - javascript
   - midgard
   - oscom
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/hallo_semantic_linking.png'
 ---
 The web is built of links, of pages linking to other resources on the internet. But making those links manually is tedious. This is another area where [modern inline editors](http://createjs.org) could do better.
 

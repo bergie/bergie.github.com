@@ -6,6 +6,7 @@ categories:
   - javascript
   - fbp
   - desktop
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/noflo_clutter_wm.png'
 ---
 As the readers of this blog know, I've been working on a [Flow-Based Programming](https://en.wikipedia.org/wiki/Flow-based_programming) implementation for JavaScript in the form of the [NoFlo](http://noflojs.org/) project. The idea of FBP in nutshell is to separate the control flow of software from the actual implementation. Developers build reusable "black box" components that are then connected with each other through a graph that you can define either visually or textually.
 

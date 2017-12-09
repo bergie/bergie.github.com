@@ -6,6 +6,7 @@ categories:
   - desktop
   - kde
   - mobility
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/qt_air_cursor_demo.png'
 ---
 If [today's Google I/O keynote](http://arstechnica.com/gadgets/2012/06/googlers-skydive-wearing-google-glasses-broadcast-jump-live-to-google/) where they parachuted to the conference center from a Zeppelin while streaming the whole experience on a Hangout via Project Glass wasn't enough future for you, here is another thing.
 

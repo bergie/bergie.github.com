@@ -5,6 +5,7 @@ layout: post
 categories:
   - oscom
   - midgard
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/createjs_typo3_talk.png'
 ---
 The relation between [Create.js](http://createjs.org/) and the TYPO3 team goes back a long way. They were present in the [IKS event](http://www.iks-project.eu/news-and-events/press-releases/join-us-iks-semantic-interaction-hackathon-vienna-next-month) in February 2011 in Vienna where I presented Create for the first time.
 

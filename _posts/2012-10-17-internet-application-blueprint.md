@@ -5,6 +5,7 @@ date: "2012-10-17 14:17:00"
 layout: post
 categories:
   - midgard
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/ipc_soa_talk.png'
 ---
 With [Lukas Smith](http://pooteeweet.org/) we gave the Monday keynote in this year's [International PHP Conference](http://phpconference.com/), titled [The Internet is your application blueprint](http://it-republik.de/php/news/Exklusiv-Die-Opening-Keynote-der-IPC12-%5BVideo%5D-065146.html). [The video](http://youtu.be/VQdl7J_24PA) is now online:
 

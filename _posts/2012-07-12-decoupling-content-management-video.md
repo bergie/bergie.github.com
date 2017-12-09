@@ -6,6 +6,7 @@ categories:
   - oscom
   - midgard
   - javascript
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/iks_decoupled_talk.png'
 ---
 Our concept of [Decoupled Content Management](http://bergie.iki.fi/blog/decoupling_content_management/), together with the [VIE](http://viejs.org/) and [Create.js](http://createjs.org/) is really taking off. I've spent [in various conferences](http://bergie.iki.fi/blog/decoupled_content_management_on_tour/) this summer speaking about them.
 

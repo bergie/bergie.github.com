@@ -5,6 +5,7 @@ categories:
   - business
 location: Berlin, Germany
 layout: post
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/flowhub_techcrunch.png'
 ---
 August was a big month for [NoFlo](http://noflojs.org). We launched the [Kickstarter campaign](http://www.kickstarter.com/projects/noflo/noflo-development-environment), which went from 0 to 90% inside the month. The Kickstarter has brought quite a lot of attention to Flow-Based Programming, including lots of interesting new NoFlo contributions. There has also been quite a lot of media coverage, and I thought to collect these into one place. To get a more real-time view to things as they're posted, make sure to follow NoFlo on [Twitter](https://twitter.com/noflo), [Google+](https://plus.google.com/u/0/112372998187205178398), or [Facebook](https://www.facebook.com/noflo).
 
