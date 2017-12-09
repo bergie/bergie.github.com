@@ -12,5 +12,5 @@ highlighter: null
 collections:
   now:
     output: false
-gems:
+plugins:
 - jekyll-paginate
