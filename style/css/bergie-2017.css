@@ -22,16 +22,19 @@ a:hover {
   text-decoration: underline;
 }
 
-body.blog header {
+body.blog header,
+body.about header {
   background-color: #191722;
   color: #ffffff;
   text-shadow: #191722 1px 0 10px;
   height: 30vh;
 }
-body.blog.front header {
+body.blog.front header,
+body.about header {
   height: 80vh;
 }
-body.blog header::before {
+body.blog header::before,
+body.about header::before {
   content : '';
   display: block;
   position: absolute;
@@ -45,11 +48,13 @@ body.blog header::before {
   width: 100vw;
   opacity : 0.3;
 }
-body.blog.front header::before {
+body.blog.front header::before,
+body.about header::before {
   height: 80vh;
 }
 
-body.blog header .container {
+body.blog header .container,
+body.about header .container {
   position: relative;
   height: 30vh;
   width: 60vw;
@@ -62,35 +67,43 @@ body.blog header .container {
   align-content: center;
   justify-content: space-evenly;
 }
-body.blog header .container h1 {
+body.blog header .container h1,
+body.about header .container h1 {
   font-size: 8vmin;
   line-height: 10vmin;
 }
-body.blog.front header .container {
+body.blog.front header .container,
+body.about header .container {
   height: 80vh;
   padding-top: 2em;
   padding-bottom: 2em;
 }
-body.blog.front header .container h1 {
+body.blog.front header .container h1,
+body.about header .container h1 {
   font-size: 12vmin;
   line-height: 15vmin;
   margin: 0;
   padding: 0;
 }
-body.blog header .container a {
+body.blog header .container a,
+body.about header .container a {
   color: #ffffff;
   text-decoration: none;
 }
-body.blog header .container a:hover {
+body.blog header .container a:hover,
+body.about header .container a:hover {
   color: #d2b2b9;
 }
-body.blog header .container p a {
+body.blog header .container p a,
+body.about header .container p a {
   font-weight: bold;
 }
-body.blog.front header .container h1 a {
+body.blog.front header .container h1 a,
+body.about header .container h1 a {
   font-weight: 100;
 }
-body.blog.front header .container p {
+body.blog.front header .container p,
+body.about header .container p {
   font-size: 5vmin;
   line-height: 8vmin;
   margin: 0;
@@ -297,6 +310,78 @@ body.page article img {
   display: block;
 }
 
+body.about .about {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: stretch;
+  flex-wrap: wrap;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+body.about article {
+  width: calc(50% - 1em);
+  margin-right: 1em;
+  padding-top: 10px;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+body.about article a {
+  color: #ffffff;
+}
+body.about article p {
+  margin-top: 0px;
+  margin-bottom: 1em;
+  padding: 0;
+}
+
+body.about .gallery {
+  width: calc(50% - 1em);
+  box-sizing: border-box;
+  margin: 0;
+  margin-left: 1em;
+  padding: 0;
+}
+body.about .gallery li {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+  float: left;
+}
+body.about .gallery li img {
+  width: 160px;
+  height: 106px;
+  object-size: contain;
+}
+body.about .gallery li.size4 img {
+  width: 339px;
+  height: 239px;
+}
+
+body.about .lightbox {
+  position: fixed;
+  z-index: 999;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+body.about .lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 2%;
+}
+body.about .lightbox:target {
+  outline: none;
+  display: flex;
+}
+
 hr {
   height: 80px;
   background-image: url('../img/mdpi/flyingpig.png');
@@ -366,24 +451,47 @@ footer nav ul li {
 }
 
 @media (max-aspect-ratio: 8/5) and (min-aspect-ratio: 5/8) {
-  body.blog.front header .container p {
+  body.blog.front header .container p,
+  body.about header .container p {
     font-size: 3vmin;
     line-height: 5vmin;
   }
 }
 
 @media (max-aspect-ratio: 8/5) {
-  body.blog header:before {
+  body.blog header:before,
+  body.about header:before {
     background-position: 70% 50%;
   }
-  body.blog.front header .container {
+  body.blog.front header .container,
+  body.about header .container {
     width: 75vw;
     padding-top: 2em;
     padding-bottom: 1em;
   }
 }
+@media (max-width: 977px) {
+  body.about .about {
+    margin-left: calc(2em - 10px);
+    margin-right: calc(2em - 10px);
+  }
+  body.about article,
+  body.about .gallery {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  body.about article {
+    margin-bottom: 1em;
+  }
+  body.about article {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 @media (max-width: 767px) {
-  body.blog header .container {
+  body.blog header .container,
+  body.about header .container {
     margin-left: 1em;
   }
   body.blog .articles article {
@@ -426,6 +534,10 @@ footer nav ul li {
     margin-right: -1em;
     padding-left: 1em;
   }
+  body.about .about {
+    margin-left: calc(1em - 10px);
+    margin-right: calc(1em - 10px);
+  }
   footer .container {
     margin-left: 0;
     margin-right: 0;
@@ -438,7 +550,8 @@ only screen and (min-resolution: 120dpi) {
   hr {
     background-image: url('../img/hdpi/flyingpig.png');
   }
-  body.blog header::before {
+  body.blog header::before,
+  body.about header::before {
     background-image: url('../img/hdpi/hawaii.jpg');
   }
   footer .avatar div.photo {
@@ -453,7 +566,8 @@ only screen and (min-resolution: 2dppx) {
   hr {
     background-image: url('../img/xhdpi/flyingpig.png');
   }
-  body.blog header::before {
+  body.blog header::before,
+  body.about header::before {
     background-image: url('../img/xhdpi/hawaii.jpg');
   }
   footer .avatar div.photo {
