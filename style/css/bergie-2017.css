@@ -327,9 +327,16 @@ body.about article {
   padding-top: 10px;
   box-sizing: border-box;
   color: #ffffff;
+  font-size: 18pt;
+  line-height: 28pt;
 }
 body.about article a {
   color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+body.about article a:hover {
+  text-decoration: underline;
 }
 body.about article p {
   margin-top: 0px;
