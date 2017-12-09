@@ -22,7 +22,19 @@ bodyclass: 'post'
             </div>
           </div>
         </header>
-        <div>
+        <img src="{{ base }}/style/img/mdpi/bergie_istanbul_big.jpg" id="cover"/>
+        <div class="content">
           {{ content }}
+          {% if previous %}
+          <div class="previous">
+          <p>Previously on <em>{{ previous.date | date_to_long_string }}</em>:</p>
+          {{ previous.content }}
+          </div>
+          {% endif %}
+        </div>
+        <div class="categorymeta">
+          <p>
+            Status page inspired by <a href="https://sivers.org/nowff/">Derek Sivers</a>.
+          </p>
         </div>
       </article>

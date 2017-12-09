@@ -5,44 +5,44 @@ bodyclass: 'post'
       {% include base.html %}
       <article vocab="http://schema.org/" about="{{ base }}{{ page.url }}" typeof="BlogPosting" class="h-entry">
         <header>
-          {% if page.cover %}
-          <img src="{{ page.cover }}" id="cover" />
-          {% endif %}
-          <div>
-            <h1 property="headline" class="p-name">{{ page.title }}</h1>
-            <div class="metadata">
-              {% if page.author %}
-              Guest post by <span rel="author" typeof="Person"><span property="name" class="p-author">{{ page.author }}</span></span> on 
-              {% else %}
-              <a rel="author" href="http://bergie.iki.fi/#me" class="p-author"></a>
-              {% endif %}
-              <span property="datePublished" content="{{ page.date | date_to_xmlschema }}" class="dt-published">{{ page.date | date_to_long_string }}</span>
-              {% if page.location %}
-              in <span rel="contentLocation" typeof="City"><span property="name">{{ page.location }}</span></span>
-              {% endif %}
-              <span property="wordCount" content="{{ content | strip_html | number_of_words }}"></span>
-            </div>
+          <h1 property="headline" class="p-name">{{ page.title }}</h1>
+          <div class="metadata">
+            {% if page.author %}
+            Guest post by <span rel="author" typeof="Person"><span property="name" class="p-author">{{ page.author }}</span></span> on
+            {% else %}
+            <a rel="author" href="http://bergie.iki.fi/#me" class="p-author"></a>
+            {% endif %}
+            <span property="datePublished" content="{{ page.date | date_to_xmlschema }}" class="dt-published">{{ page.date | date_to_long_string }}</span>
+            {% if page.location %}
+            in <span rel="contentLocation" typeof="City"><span property="name">{{ page.location }}</span></span>
+            {% endif %}
+            <span property="wordCount" content="{{ content | strip_html | number_of_words }}"></span>
           </div>
         </header>
-        <div>
+        {% if page.cover %}
+        <img src="{{ page.cover | replace: 'https://d2vqpl3tx84ay5.cloudfront.net', 'https://rsz.io/d2vqpl3tx84ay5.cloudfront.net' }}?w=500&quality=70&format=jpg" id="cover" />
+        {% else %}
+        <div id="no-cover"></div>
+        {% endif %}
+        <div class="content">
           <div property="articleBody" class="e-content">
             {{ content }}
           </div>
+        </div>
+        <div class="categorymeta">
+          <hr />
           {% if page.source %}
           <div class="contentSource">
-            <hr />
             <p>This post originally appeared on <a href="{{ page.source }}" rel="source syndication">{{ page.source | truncate: 60 }}</a></p>
           </div>
           {% endif %}
         {% if page.categories contains 'fbp' %}
-            <hr />
             {% include category_fbp.html %}
             <p><a href="{{ base }}/blog/category/fbp/">Read more Flow-Based Programming posts</a>.<p>
         {% endif %}
         {% if page.categories contains 'midgard' %}
           {% unless page.categories contains 'oscom' %}
           {% unless page.categories contains 'fbp' %}
-            <hr />
             {% include category_midgard.html %}
             <p><a href="{{ base }}/blog/category/midgard/">Read more Midgard posts</a>.<p>
           {% endunless %}
@@ -50,14 +50,12 @@ bodyclass: 'post'
         {% endif %}
         {% if page.categories contains 'oscom' %}
           {% unless page.categories contains 'fbp' %}
-            <hr />
             {% include category_oscom.html %}
             <p><a href="{{ base }}/blog/category/oscom/">Read more Decoupled CMS posts</a>.<p>
           {% endunless %}
         {% endif %}
         {% if page.categories contains 'tablet' %}
           {% unless page.categories contains 'fbp' %}
-            <hr />
             {% include category_tablet.html %}
             <p><a href="{{ base }}/blog/category/tablet/">Read more Tablet Productivity posts</a>.<p>
           {% endunless %}
