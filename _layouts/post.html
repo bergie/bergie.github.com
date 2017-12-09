@@ -37,7 +37,7 @@ bodyclass: 'post'
           <hr />
           {% if page.source %}
           <div class="contentSource">
-            <p>This post originally appeared on <a href="{{ page.source }}" rel="source syndication">{{ page.source | truncate: 60 }}</a></p>
+            <p>This post originally appeared on <a href="{{ page.source }}" rel="source syndication" target="_blank">{{ page.source | truncate: 30 }}</a></p>
           </div>
           {% endif %}
         {% if page.categories contains 'fbp' %}
