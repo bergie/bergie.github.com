@@ -61,7 +61,7 @@ When the library matures a bit more, it is likely to be the basis for NoFlo's gr
 
 The key part of making a user interface for NoFlo should be to make flow-based programs easier to make and to understand. As described in [Bret Victor's great Inviting on Principle talk](http://www.youtube.com/watch?v=PUv66718DII), development tools could do a lot more to make the flow of the software and the different options and settings understandable:
 
-<iframe width="500" height="281" src="http://www.youtube.com/embed/PUv66718DII" frameborder="0" allowfullscreen></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/PUv66718DII" frameborder="0" allowfullscreen></iframe>
 
 Flow-based programming tools can help a lot here, as the main logic of a program is anyway depicted as a visual graph.
 

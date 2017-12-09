@@ -8,7 +8,7 @@ categories:
 ---
 With [Lukas Smith](http://pooteeweet.org/) we gave the Monday keynote in this year's [International PHP Conference](http://phpconference.com/), titled [The Internet is your application blueprint](http://it-republik.de/php/news/Exklusiv-Die-Opening-Keynote-der-IPC12-%5BVideo%5D-065146.html). [The video](http://youtu.be/VQdl7J_24PA) is now online:
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/VQdl7J_24PA" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/VQdl7J_24PA" frameborder="0" allowfullscreen></iframe>
 
 The main argument of the keynote is that even though the big promises of the [Service-Oriented Architecture](http://en.wikipedia.org/wiki/Service-oriented_architecture) hype of 2000s haven't happened, by now companies are using lots of services when building their web applications. Consider these:
 

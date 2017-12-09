@@ -21,7 +21,7 @@ And indeed, this is a usability problem that can already be fixed with the [Sema
 
 [Here is a quick video](http://www.youtube.com/watch?v=zAMUpd6rb9k&feature=share&list=UUnPE7t9tqwcsO0LLyw5zuPQ) of Annotate.js in action:
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/zAMUpd6rb9k?list=UUnPE7t9tqwcsO0LLyw5zuPQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zAMUpd6rb9k?list=UUnPE7t9tqwcsO0LLyw5zuPQ" frameborder="0" allowfullscreen></iframe>
 
 You can also try it yourself [with an online demo](http://szabyg.github.io/annotate.js/).
 

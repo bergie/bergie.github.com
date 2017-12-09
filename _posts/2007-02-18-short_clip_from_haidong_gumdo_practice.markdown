@@ -7,7 +7,7 @@
 ---
 We were practicing some basic [Haidong Gumdo][1] techniques with Jose today, and decided to try the video features of my [N90][2]. Here's a quick clip of me doing the fourth basic technique:
 
-<object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/-51sdR28w74"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/-51sdR28w74" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object>
+<object width="425" height="350"><param name="movie" value="https://www.youtube.com/v/-51sdR28w74"></param><param name="wmode" value="transparent"></param><embed src="https://www.youtube.com/v/-51sdR28w74" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object>
 
 If Jose approves them, I'll post more videos of him doing various techniques later.
 

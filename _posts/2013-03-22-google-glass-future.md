@@ -9,7 +9,7 @@ cover: 'https://d2vqpl3tx84ay5.cloudfront.net/surveillance-ban.png'
 ---
 [Google Glass](http://www.google.com/glass/start/) is coming this year, a wearable display that can keep you connected at all the times and supply information and instructions when you need them. And it can record video or take pictures of whatever you see, when you want it to.
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/v1uyQZNg2vE" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v1uyQZNg2vE" frameborder="0" allowfullscreen></iframe>
 
 ## The privacy scare
 

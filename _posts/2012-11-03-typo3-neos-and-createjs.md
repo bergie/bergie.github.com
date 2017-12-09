@@ -22,7 +22,7 @@ In summer 2012 we met again in [IKS's Salzburg workshop](http://blog.iks-project
 
 To finalize things, we joined TYPO3 hackathon that was held on a houseboat in Copenhagen. In the [interview video](http://vimeo.com/50883868) from that event we're talking about the integration work we did:
 
-<iframe src="http://player.vimeo.com/video/50883868?byline=0&amp;portrait=0&amp;badge=0&amp;color=000000" width="400" height="226" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="https://player.vimeo.com/video/50883868?byline=0&amp;portrait=0&amp;badge=0&amp;color=000000" width="400" height="226" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 This video is quite remarkable. When it was first released, I wrote:
 
@@ -41,7 +41,7 @@ All of this meant very hectic work on the houseboat!
 
 Phoenix got rebranded to [TYPO3 Neos](http://neos.typo3.org/) and an alpha was launched in October 2012. We went with Rens to the TYPO3 conference in Stuttgart to give a talk on Create and the new inline editing features powered by semantic technologies. [Video of the presentation](http://youtu.be/bBIkLFFkYtc) is now available:
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/bBIkLFFkYtc" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/bBIkLFFkYtc" frameborder="0" allowfullscreen></iframe>
 
 There is also a [demo site of Create-powered TYPO3 Neos](http://blog.iks-project.eu/typo3-neos-iks-demo-site/) available. With the work that happened with technologies like RDFa and Create.js, Neos is well on the way towards being one of the premiere decoupled CMSs. I still hope we can help them to migrate to the [PHP Content Repository standard](http://phpcr.github.com/) instead of running their own.
 

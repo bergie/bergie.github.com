@@ -13,7 +13,7 @@ cover: 'https://d2vqpl3tx84ay5.cloudfront.net/opd-small.png'
 ---
 As part of the [SmarcoS](http://smarcos-project.eu) project, [we](http://nemein.com) have been investigating how to make workplaces smarter through sensors and [context awareness](http://worrydream.com/MagicInk/). Here is [a video showing what we've built](http://youtu.be/P5cdlLTqb24):
 
-<iframe width="640" height="480" src="http://www.youtube.com/embed/P5cdlLTqb24" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="480" src="https://www.youtube.com/embed/P5cdlLTqb24" frameborder="0" allowfullscreen></iframe>
 
 The idea here is to facilitate collaboration and smoother project communications through various different tools that I'll describe below. While this already does a lot, it is obviously only the first step on the path to making offices smarter.
 

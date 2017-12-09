@@ -35,7 +35,7 @@ In nutshell, the transition I want CMSs &mdash; WordPress included &mdash; to ma
 
 Here is my [talk on the subject](http://youtu.be/j4NoAFK-KNY) from JS.everywhere in Paris late last year:
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/j4NoAFK-KNY" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j4NoAFK-KNY" frameborder="0" allowfullscreen></iframe>
 
 We also talk about the cross-CMS collaboration this enables in the [TYPO3 Neos launch video](http://vimeo.com/50883868).
 

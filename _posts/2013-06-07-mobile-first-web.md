@@ -72,7 +72,7 @@ And yet new amazing things keep pouring in. My personal favourite recently has b
 
 Just watch [this video](http://youtu.be/0g0oOOT86NY) and see how much easier web development is becoming:
 
-<iframe width="500" height="281" src="http://www.youtube.com/embed/0g0oOOT86NY" frameborder="0" allowfullscreen></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/0g0oOOT86NY" frameborder="0" allowfullscreen></iframe>
 
 The current work on standardizing [Web Payments](https://payswarm.com/) together with more grassroots efforts like [Bitcoin](http://bitcoin.org/en/) promise to add better ways to do business on the web. This should remove the last big advantage of native applications in that they're easier (but very expensive) to monetize via app stores and in-app payments.
 

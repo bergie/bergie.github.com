@@ -16,7 +16,7 @@ cover: 'https://d2vqpl3tx84ay5.cloudfront.net/noflo-ui-code.jpg'
 ---
 This has been a big week for [NoFlo](http://noflojs.org/), the flow-based programming environment for JavaScript. Yesterday we released [NoFlo 0.4](https://github.com/noflo/noflo/releases/tag/0.4.0), which added support for running flow-based programs in web browsers. And today we launched our [NoFlo Development Environment effort on Kickstarter](http://www.kickstarter.com/projects/noflo/noflo-development-environment). Before continuing, make sure to watch [the video](http://www.kickstarter.com/projects/noflo/noflo-development-environment)!
 
-<iframe width="480" height="360" src="http:&#x2F;&#x2F;www.kickstarter.com&#x2F;projects&#x2F;noflo&#x2F;noflo-development-environment&#x2F;widget&#x2F;video.html" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https:&#x2F;&#x2F;www.kickstarter.com&#x2F;projects&#x2F;noflo&#x2F;noflo-development-environment&#x2F;widget&#x2F;video.html" frameborder="0"> </iframe>
 
 This is our effort to bring visual and collaborative flow-based tools into the world of mainstream software development. Similar tools are already in use in many specialized industries from movie special effects to hardware simulation, but we programmers still have to *construct these complex maps of our software's control flow* inside our brains based on their textual representation. With [your support](http://www.kickstarter.com/projects/noflo/noflo-development-environment), we could change that!
 
@@ -40,7 +40,7 @@ All software is inherently a graph. Functions call other functions, sending data
 
 This imposes a lot of cognitive load that tools like NoFlo could avoid. When you can see visually how things are connected, you can focus on the bigger picture and build the software you need in a more efficient way. This is what [Bret Victor talked about recently](http://vimeo.com/71278954).
 
-<iframe src="http://player.vimeo.com/video/71278954?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="https://player.vimeo.com/video/71278954?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 ## What is the role for code, then?
 

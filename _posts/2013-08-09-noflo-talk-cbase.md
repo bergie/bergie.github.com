@@ -18,6 +18,6 @@ If you can't make it, we have a video of the similar talk I gave at the [San Fra
 
 **Update**: Video from my talk tonight [is now online](https://vimeo.com/cbase/noflo)
 
-<iframe src="http://player.vimeo.com/video/72065207" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="https://player.vimeo.com/video/72065207" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 *[Our NoFlo Kickstarter](http://www.kickstarter.com/projects/noflo/noflo-development-environment) has been backed already by 562 people, and we're almost at 70%. Thanks, everybody!*

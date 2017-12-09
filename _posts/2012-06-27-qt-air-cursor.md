@@ -13,7 +13,7 @@ As part of the [SmarcoS project](http://smarcos-project.eu/), [we've](http://nem
 
 We call this the _Air Cursor_. Here is a quick video of [manipulating a simple HTML5 application](http://youtu.be/dxkpSzl-SLg) with it:
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/dxkpSzl-SLg" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dxkpSzl-SLg" frameborder="0" allowfullscreen></iframe>
 
 Now, this may not be the way you want to control the computer you're working with the whole day. Instead, we see this sort of interface as very useful for large displays in meeting rooms and public spaces.
 
