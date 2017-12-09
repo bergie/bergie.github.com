@@ -3,9 +3,13 @@ layout: page
 title: "Colophon"
 ---
 {% include base.html %}
-[This site]({{ base }}/) is the personal blog of [Henri Bergius]({{ base }}/about/). It is powered by [Jekyll](http://jekyllrb.com/), a static site generator. I write my articles in [Markdown](http://daringfireball.net/projects/markdown/), and commit them to [GitHub](https://github.com/), which then produces the pages you're viewing.
+[This site]({{ base }}/) is the personal blog of [Henri Bergius]({{ base }}/about/). It is powered by [Jekyll](http://jekyllrb.com/), a static site generator. I write my articles in [Markdown](http://daringfireball.net/projects/markdown/), and commit them to [GitHub](https://github.com/), which triggers [Travis CI](https://travis-ci.org/) to produce the pages you're viewing.
 
 ## Design and visuals
+
+The header photo used on this site was taken by [Jeff Woods](https://www.jeffreyandjuliawoods.com/).
+
+[![Bergie in Hawaii]({{ base }}/style/img/mdpi/hawaii.jpg)]({{ base }}/style/img/orig/hawaii.jpg)
 
 Both line drawings of me have been produced by [Nina Mutik](http://ninamutik.sarjakuvablogit.com/about/), a Finnish artist.
 
@@ -19,7 +23,7 @@ The web design is my own, and it has been realized into HTML5 and CSS with the h
 
 ## Writing and storing content
 
-Since the content is handled as Markdown files in a Git repository, I'm mostly writing them using [Vim](http://www.vim.org/) on a Ubuntu Linux -powered MacBook Air. Eventually I will make it possible to write content also using [Create.js](http://createjs.org/), my next-generation web authoring tool.
+Since the content is handled as Markdown files in a Git repository, I'm mostly writing them using [Vim](http://www.vim.org/) on an iPad Pro.
 
 Before June 2012 this blog ran on top of the [MidCOM](http://midgard-project.org/midcom) PHP framework and the posts of that time were produced using it and stored to [Midgard1](http://midgard-project.org/midgard1/). All the old Midgard contents have been converted to the Jekyll format using a simple [NoFlo](http://noflojs.org/) program.
 
@@ -33,15 +37,6 @@ An [RSS feed]({{ base }}/blog/rss.xml) of the latest blog contents is available.
 
 Various sites syndicate either my whole blog or parts of it. These include:
 
-* [Nemein blog](http://nemein.com/en/blog/)
 * [Planet FSFe](http://planet.fsfe.org/)
 * [Planet GNOME](http://planet.gnome.org/)
 * [Planet KDE](http://planetkde.org/)
-
-![MVB](https://d2vqpl3tx84ay5.cloudfront.net/mvb.png)
-
-Selected posts will also appear [on DZone](http://dzone.com/users/bergie) as part of their [Most Valuable Blogger](http://www.dzone.com/aboutmvb) program.
-
-## Linklog
-
-I also maintain a separate linklog at [bergie.today](http://bergie.today).
