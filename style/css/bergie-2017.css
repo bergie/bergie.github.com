@@ -123,6 +123,8 @@ body.blog .articles article {
   box-sizing: border-box;
   padding: 1em;
   margin-bottom: 1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 body.blog .articles article h1 {
   margin: 0;
@@ -239,6 +241,8 @@ body.post article .categorymeta {
   padding-left: 2em;
   box-sizing: border-box;
   font-size: smaller;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 body.post article img,
