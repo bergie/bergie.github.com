@@ -75,10 +75,12 @@ body.blog.front header .container h1 {
 body.blog header .container a {
   color: #ffffff;
   text-decoration: none;
+}
+body.blog header .container p a {
   font-weight: bold;
 }
 body.blog.front header .container h1 a {
-  font-weight: normal;
+  font-weight: 100;
 }
 body.blog.front header .container p {
   font-size: 5vmin;
