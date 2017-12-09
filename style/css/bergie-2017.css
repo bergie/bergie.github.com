@@ -76,6 +76,9 @@ body.blog header .container a {
   color: #ffffff;
   text-decoration: none;
 }
+body.blog header .container a:hover {
+  color: #d2b2b9;
+}
 body.blog header .container p a {
   font-weight: bold;
 }
@@ -132,6 +135,9 @@ body.blog .articles article a {
   color: #191722;
   text-decoration: none;
 }
+body.blog .articles article a:hover {
+  text-decoration: underline;
+}
 body.blog .articles article img.cover,
 body.blog .articles article div.no-cover {
   object-fit: cover;
@@ -173,6 +179,9 @@ body.blog ul.pager li a {
   font-weight: bold;
   text-decoration: none;
   color: #ffffff;
+}
+body.blog ul.pager li a:hover {
+  text-decoration: underline;
 }
 
 body.post article {
@@ -303,6 +312,9 @@ footer a {
   color: #d2b2b9;
   font-weight: bold;
   text-decoration: none;
+}
+footer a:hover {
+  color: #bd937b;
 }
 
 footer nav ul {
