@@ -19,25 +19,7 @@ bodyclass: blog
 {% include base.html %}
 <div class="articles">
 {% for post in paginator.posts %}
-  <article vocab="http://schema.org/" about="{{ base }}{{ post.url }}" typeof="BlogPosting" class="h-entry">
-    {% if post.cover %}
-    <a href="{{ base }}{{ post.url }}"><img src="{{ post.cover | replace: 'https://d2vqpl3tx84ay5.cloudfront.net', 'https://rsz.io/d2vqpl3tx84ay5.cloudfront.net' }}?w=500&quality=70&format=jpg" class="cover" /></a>
-    {% else %}
-    <div class="no-cover"></div>
-    {% endif %}
-    <h1><a href="{{ base }}{{ post.url }}" rel="bookmark" class="p-name u-url">{{ post.title }}</a></h1>
-    <div class="metadata">
-      <span property="datePublished" content="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</span>
-      {% if post.location %}
-      in <span rel="contentLocation" typeof="City"><span property="description">{{ post.location }}</span></span>
-      {% endif %}
-      <a rel="author" href="http://bergie.iki.fi/#me"></a>
-      <span property="wordCount" content="{{ post.content | strip_html | number_of_words }}"></span>
-    </div>
-    <div>
-      {{ post.content | strip_html | truncatewords:60 }}
-    </div>
-  </article>
+  {% include post.html %}
 {% endfor %}
 </div>
 
