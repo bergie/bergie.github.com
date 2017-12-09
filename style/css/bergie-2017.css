@@ -12,6 +12,9 @@ h1 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-weight: 100;
 }
+h2 {
+  font-weight: normal;
+}
 
 a:hover {
   text-decoration: underline;
@@ -130,6 +133,9 @@ body.blog .articles article .metadata {
   margin-bottom: 1em;
   font-style: italic;
   font-size: smaller;
+}
+body.blog .articles article h1 {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
 }
 body.blog .articles article a {
   color: #191722;
