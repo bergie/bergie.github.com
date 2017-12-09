@@ -3,6 +3,7 @@ title: Minor site updates
 layout: post
 categories:
   - life
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/2000-bergie-face.png'
 ---
 Another small-scale update to the site.
 

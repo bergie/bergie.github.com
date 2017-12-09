@@ -4,6 +4,7 @@ categories:
   - oscom
   - midgard
 layout: post
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/thumb_mob19_1074879240.jpg'
 ---
 OSCOM's president Michael Wechner is one of the Twenty CMS Leaders to Watch in 2004 in a list published by CMSWatch.
 
