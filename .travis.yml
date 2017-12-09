@@ -15,5 +15,6 @@ deploy:
   default_text_charset: 'utf-8'
   skip_cleanup: true
   local-dir: _site
+  cache_control: "max-age=3600, public"
   on:
     repo: bergie/bergie.github.com
