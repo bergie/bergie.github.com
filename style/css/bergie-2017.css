@@ -90,9 +90,10 @@ body.blog .about {
   padding-right: 2em;
   padding-top: 1em;
   padding-bottom: 1em;
+  color: #ffffff;
 }
 body.blog .about a {
-  color: #191722;
+  color: #ffffff;
 }
 body.blog .articles {
   width: 100vw;
@@ -220,6 +221,36 @@ body.post article a {
 
 body.post article .metadata {
   font-style: italic;
+}
+
+body.page article {
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+  margin-bottom: 0px;
+  padding: 1em;
+  background-color: #d2b2b9;
+}
+body.page article header {
+  box-sizing: border-box;
+  margin-top: -2em;
+  margin-left: -3em;
+  margin-right: -3em;
+  padding: 3em;
+  background-color: #191722;
+  color: #ffffff;
+  line-height: 42pt;
+}
+body.page article h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body.page article a {
+  color: #191722;
+}
+body.page article img {
+  max-width: 60%;
+  display: block;
 }
 
 hr {

@@ -11,7 +11,7 @@ bodyclass: blog
   </div>
 </header>
 {% unless paginator.page == 1 %}
-<div class="paginator">
+<div class="about">
   <p>This is the page <em>{{ paginator.page }}</em> of <em>{{ paginator.total_pages }}</em> of the blog archive. On this page you have articles from {% for post in paginator.posts %}{% if forloop.first %}<em>{{ post.date | date_to_string }}</em> to {% endif %}{% if forloop.last %}<em>{{ post.date | date_to_string }}</em>{% endif %}{% endfor %}.</p>
 </div>
 {% endunless %}
