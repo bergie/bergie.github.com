@@ -18,7 +18,8 @@ bodyclass: blog
 
 {% include base.html %}
 <div class="articles">
-{% for post in paginator.posts %}
+{% assign posts = paginator.posts %}
+{% for post in posts %}
   {% include post.html %}
 {% endfor %}
 </div>

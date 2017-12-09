@@ -6,7 +6,24 @@
     <a href="{{ base }}{{ post.url }}"><img src="{{ post.cover | replace: 'https://d2vqpl3tx84ay5.cloudfront.net', 'https://rsz.io/d2vqpl3tx84ay5.cloudfront.net' }}?w=500&quality=70&format=jpg" class="cover" /></a>
       {% endif %}
     {% else %}
+      {% if paginator.page == 1 %}
     <div class="no-cover"></div>
+      {% else %}
+        {% assign mod = forloop.index | modulo: 2 %}
+        {% if mod == 0 %}
+          {% if prev.cover %}
+
+    <div class="no-cover"></div>
+          {% endif %}
+        {% else %}
+          {% unless forloop.last %}
+            {% assign next = posts[forloop.index] %}
+            {% if next.cover %}
+    <div class="no-cover"></div>
+            {% endif %}
+          {% endunless %}
+        {% endif %}
+      {% endif %}
     {% endif %}
     <h1><a href="{{ base }}{{ post.url }}" rel="bookmark" class="p-name u-url">{{ post.title }}</a></h1>
     <div class="metadata">
@@ -21,4 +38,5 @@
       {{ post.content | strip_html | truncatewords:60 }}
     </div>
   </article>
+  {% assign prev = post %}
 

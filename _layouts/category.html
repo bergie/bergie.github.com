@@ -25,7 +25,8 @@ bodyclass: blog
   {% endif %}
 </div>
 <div class="articles">
-  {% for post in site.categories[page.categorization] %}
+  {% assign posts = site.categories[page.categorization] %}
+  {% for post in posts %}
   {% include post.html %}
 {% endfor %}
 </div>
