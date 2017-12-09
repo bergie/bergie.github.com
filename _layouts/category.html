@@ -28,7 +28,7 @@ bodyclass: blog
   {% for post in site.categories[page.categorization] %}
   <article vocab="http://schema.org/" about="{{ base }}{{ post.url }}" typeof="BlogPosting" class="h-entry">
     {% if post.cover %}
-    <img src="{{ post.cover | replace: 'https://d2vqpl3tx84ay5.cloudfront.net', 'https://rsz.io/d2vqpl3tx84ay5.cloudfront.net' }}?w=500&quality=70&format=jpg" class="cover" />
+    <a href="{{ base }}{{ post.url }}"><img src="{{ post.cover | replace: 'https://d2vqpl3tx84ay5.cloudfront.net', 'https://rsz.io/d2vqpl3tx84ay5.cloudfront.net' }}?w=500&quality=70&format=jpg" class="cover" /></a>
     {% else %}
     <div class="no-cover"></div>
     {% endif %}
