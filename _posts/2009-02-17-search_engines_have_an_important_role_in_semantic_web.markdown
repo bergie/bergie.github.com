@@ -4,6 +4,7 @@
     - "midgard"
     - "oscom"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/yahoo-semantic-geo-query.png'
 
 ---
 <p>

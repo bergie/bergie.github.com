@@ -4,6 +4,7 @@
     - "desktop"
     - "motorcycles"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/triumph-caucasus-sunset.jpg'
 
 ---
 <p>

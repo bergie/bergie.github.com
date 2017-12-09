@@ -5,6 +5,7 @@
     - "desktop"
     - "geo"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/geode-openstreetmap-museokatu-tm.jpg'
 
 ---
 <p>

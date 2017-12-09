@@ -5,6 +5,7 @@ location: Paris, France
 categories:
   - midgard
   - php
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/symfony_live_2012_venue.jpg'
 ---
 *This is a liveblog from the Symfony Live 2012 event, and will be updated as the conference progresses. You can also follow the `#Symfony_live` Twitter hashtag*
 

@@ -5,6 +5,7 @@ location: Istanbul, Turkey
 categories:
   - midgard
   - oscom
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/spark-createjs.png'
 ---
 I spent the last week in [DrupalCon Munich](http://munich2012.drupal.org/) followed by [FrOSCon](http://www.froscon.de/startseite/), and gave a talk on the [Decoupled Content Management](http://decoupledcms.org/) story in both.
 

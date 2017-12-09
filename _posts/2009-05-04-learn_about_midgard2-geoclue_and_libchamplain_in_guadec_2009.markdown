@@ -6,6 +6,7 @@
     - "midgard"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/bergie-geoclue-talk-guadec2008.jpg'
 
 ---
 <p>

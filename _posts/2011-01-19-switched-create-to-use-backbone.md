@@ -5,6 +5,7 @@ categories:
   - midgard
 layout: post
 source: "http://www.qaiku.com/channels/show/midgard/view/73437b8c241311e097f3a77e0d84bb72bb72/"
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/37e421f424a911e09f00eb8d996c453d453d.png'
 ---
 ![Create UI](https://d2vqpl3tx84ay5.cloudfront.net/37e421f424a911e09f00eb8d996c453d453d.png)
 

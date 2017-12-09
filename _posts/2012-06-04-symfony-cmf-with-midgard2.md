@@ -5,6 +5,7 @@ categories:
   - oscom
 layout: post
 location: Berlin, Germany
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/cmf-sandbox-midgard2-edit-small.png'
 ---
 I've written about [Decoupled Content Management](http://bergie.iki.fi/blog/decoupling_content_management/) before. As the [Symfony Live](http://paris2012.live.symfony.com/) event in Paris is nearing, I thought to give [Symfony CMF](http://cmf.symfony.com/) a spin. Symfony CMF is a new approach at building PHP content management systems, and adheres quite well to the principles of decoupled CMS:
 

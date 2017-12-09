@@ -6,6 +6,7 @@ categories:
   - oscom
   - midgard
   - javascript
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/createjs-berlin-hackathon1.jpg'
 ---
 Last week we at [IKS](http://www.iks-project.eu/) organized a two-day hackathon for developers interested in [Create.js](http://createjs.org), [VIE](http://viejs.org), and in new tools for editing websites semantically.
 

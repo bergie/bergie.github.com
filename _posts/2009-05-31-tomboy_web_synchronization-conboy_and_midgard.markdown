@@ -5,6 +5,7 @@
     - "desktop"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/tomboy-synchronization-midgard-tm.jpg'
 
 ---
 <p>

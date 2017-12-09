@@ -3,6 +3,7 @@
   categories: 
     - "business"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/nemein-staff-xmas-2008-tm.jpg'
 
 ---
 <p>

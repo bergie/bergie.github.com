@@ -5,6 +5,7 @@ layout: post
 categories:
   - midgard
 source: "http://www.qaiku.com/channels/show/midgard/view/67d2ca6ae7f411df8b2a53b8481496ff96ff/"
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/8ff6591ee9b911df83e7dbe57b7f50a850a8.png'
 ---
 So far on the agenda:
 

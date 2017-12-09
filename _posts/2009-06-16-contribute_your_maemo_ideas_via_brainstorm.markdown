@@ -4,6 +4,7 @@
     - "midgard"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/maemo-brainstorm-solutions-tm.jpg'
 
 ---
 <p>

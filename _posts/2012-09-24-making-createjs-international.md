@@ -6,6 +6,7 @@ date: "2012-09-24 20:01:00"
 categories:
   - oscom
   - midgard
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/create-ru.png'
 ---
 We're now making good progress at releasing the big _1.0_ of [Create.js](http://createjs.org/) soon. The various CMS integrations - from [Symfony CMF](https://twitter.com/lsmith/status/250293107353067520) to [TYPO3](http://blog.iks-project.eu/typo3-phoenix-running-on-vie-and-createjs/), and [possibly Drupal](http://drupal.org/node/1774312) and many others - have brought us a lot of new features and bug fixes, and will ensure a wide international audience for this inline editing toolkit.
 

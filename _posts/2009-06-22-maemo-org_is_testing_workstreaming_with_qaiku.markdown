@@ -4,6 +4,7 @@
     - "business"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/maemork-workstream-tm.jpg'
 
 ---
 <p>

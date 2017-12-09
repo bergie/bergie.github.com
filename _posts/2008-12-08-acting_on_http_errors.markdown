@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midcom-error-vali.png'
 
 ---
 <p>

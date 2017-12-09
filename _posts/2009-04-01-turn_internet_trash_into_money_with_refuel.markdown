@@ -5,6 +5,7 @@
     - "desktop"
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/refuel-flag-images-as-garbage-tm.jpg'
 
 ---
 <p>

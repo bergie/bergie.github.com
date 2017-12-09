@@ -6,6 +6,7 @@ layout: post
 categories:
   - midgard
   - oscom
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/8d38bed49af811df973847511a0fdfe9dfe9.png'
 ---
 [Want to work on the next generation of web editors?](http://wiki.iks-project.eu/index.php/Semantic_Editor/Helsinki_hackathon_2010)
 

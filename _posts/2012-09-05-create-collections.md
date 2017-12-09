@@ -5,6 +5,7 @@ location: Copenhagen, Denmark
 categories:
   - midgard
   - oscom
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/create-per-type-add.png'
 ---
 Copenhagen has been the last stop of the current [Create.js](http://createjs.org/) tour. In here we've been integrating [VIE](http://viejs.org/) and Create into [TYPO3 Phoenix](http://phoenix.typo3.org/), the next major version of this popular CMS.
 

@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'http://farm1.static.flickr.com/82/231727544_dc4c74b75f.jpg'
 
 ---
 <p>

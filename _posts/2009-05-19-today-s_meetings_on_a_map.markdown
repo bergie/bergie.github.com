@@ -4,6 +4,7 @@
     - "geo"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/possible-harmattan-activity-map.jpg'
 
 ---
 <p>

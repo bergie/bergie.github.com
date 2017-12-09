@@ -5,6 +5,7 @@ layout: post
 categories:
   - midgard
 published: true
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midcom-bootstrap-about.png'
 ---
 For those who haven't been following the [Midgard](http://midgard-project.org/)-land, there have been some interesting developments recently. The [long-term supported](http://bergie.iki.fi/blog/long-term_support_for_midgard-ragnaroek_is_here/) Ragnaroek branch of [Midgard1](http://midgard-project.org/midgard1/) is slowly fading away, and much of the recent activity has focused on making [Midgard2](http://midgard-project.org/midgard2/) available via the [PHPCR](http://midgard-project.org/phpcr/) standard, and on the new [Create.js](http://createjs.org/) inline editing tool.
 

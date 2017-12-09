@@ -3,6 +3,7 @@
   categories: 
     - "business"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/hietalahti-office-view-tm.jpg'
 
 ---
 <p>

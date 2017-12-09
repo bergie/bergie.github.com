@@ -2,7 +2,9 @@
   title: "Give the correct status code when you're down"
   categories: 
     - "oscom"
+    - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/jaiku-down-error-200-tm.jpg'
 
 ---
 <p>

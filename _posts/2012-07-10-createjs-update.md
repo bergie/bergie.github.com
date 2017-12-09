@@ -6,6 +6,7 @@ categories:
   - midgard
   - oscom
 published: true
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/createjs-structure-small.png'
 ---
 [Create.js](http://createjs.org) is our take on modern web editing built on [semantic technologies](http://viejs.org) and the ideas of [Decoupled Content Management](http://bergie.iki.fi/blog/decoupling_content_management/).
 
