@@ -8,6 +8,7 @@
     - "mobility"
     - "bestof"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Desarrolladores-meego.png'
 
 ---
 _Disclaimer: I'm a software developer with a background in Nokia's Maemo mobile Linux ecosystem. I've built both software and community services for it. As a Maemo enthusiast, I've also been following MeeGo with interest, and am helping to build some of the project infrastructure there as well. But I do not speak with the authority of the MeeGo project, and what is written below is my personal view into what MeeGo is._

@@ -4,6 +4,7 @@
     - "midgard"
     - bestof
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/dnode.png'
 
 ---
 If you've been following my blog, you might have noticed that lately I've started doing quite a lot of [Node.js](http://nodejs.org/) development alongside PHP. Based on conversations I've had in various conferences, I'm by far not alone in this situation - using Node.js for real-time functionality, and PHP (or Django, or Rails) for the more traditional CRUD stuff.
