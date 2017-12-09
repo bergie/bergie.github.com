@@ -5,25 +5,28 @@ bodyclass: blog
 <header>
   <div class="container">
     <h1><a href="/">{{ site.name }}</a></h1>
-    {% unless paginator.page == 1 %}
-    <p>This is the page <em>{{ paginator.page }}</em> of <em>{{ paginator.total_pages }}</em> of the blog archive. On this page you have articles from {% for post in paginator.posts %}{% if forloop.first %}<em>{{ post.date | date_to_string }}</em> to {% endif %}{% if forloop.last %}<em>{{ post.date | date_to_string }}</em>{% endif %}{% endfor %}.</p>
-    {% else %}
+    {% if paginator.page == 1 %}
     {{ content }}
-    {% endunless %}
+    {% endif %}
   </div>
 </header>
+{% unless paginator.page == 1 %}
+<div class="paginator">
+  <p>This is the page <em>{{ paginator.page }}</em> of <em>{{ paginator.total_pages }}</em> of the blog archive. On this page you have articles from {% for post in paginator.posts %}{% if forloop.first %}<em>{{ post.date | date_to_string }}</em> to {% endif %}{% if forloop.last %}<em>{{ post.date | date_to_string }}</em>{% endif %}{% endfor %}.</p>
+</div>
+{% endunless %}
 
 {% include base.html %}
+<div class="articles">
 {% for post in paginator.posts %}
   <article vocab="http://schema.org/" about="{{ base }}{{ post.url }}" typeof="BlogPosting" class="h-entry">
+    {% if post.cover %}
+    <img src="{{ post.cover | replace: 'https://d2vqpl3tx84ay5.cloudfront.net', 'https://rsz.io/d2vqpl3tx84ay5.cloudfront.net' }}?w=500&quality=70&format=jpg" class="cover" />
+    {% else %}
+    <div class="no-cover"></div>
+    {% endif %}
     <h1><a href="{{ base }}{{ post.url }}" rel="bookmark" class="p-name u-url">{{ post.title }}</a></h1>
-    <div>
-      {{ post.content | strip_html | truncatewords:60 }}
-      <div class="links">
-        <a href="{{ base }}{{ post.url }}" rel="bookmark">Read more &raquo;</a>
-      </div>
-    </div>
-    <div class="metadata span2">
+    <div class="metadata">
       <span property="datePublished" content="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</span>
       {% if post.location %}
       in <span rel="contentLocation" typeof="City"><span property="description">{{ post.location }}</span></span>
@@ -31,11 +34,12 @@ bodyclass: blog
       <a rel="author" href="http://bergie.iki.fi/#me"></a>
       <span property="wordCount" content="{{ post.content | strip_html | number_of_words }}"></span>
     </div>
+    <div>
+      {{ post.content | strip_html | truncatewords:60 }}
+    </div>
   </article>
-  {% unless forloop.last %}
-  <hr />
-  {% endunless %}
 {% endfor %}
+</div>
 
 <div>
   <ul class="pager">
