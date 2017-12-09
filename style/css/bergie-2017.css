@@ -56,6 +56,10 @@ body.blog header .container {
   align-content: center;
   justify-content: space-evenly;
 }
+body.blog header .container h1 {
+  font-size: 8vmin;
+  line-height: 10vmin;
+}
 body.blog.front header .container {
   height: 80vh;
   padding-top: 2em;
@@ -81,11 +85,14 @@ body.blog.front header .container p {
   margin: 0;
   padding: 0;
 }
-body.blog .paginator {
+body.blog .about {
   padding-left: 2em;
   padding-right: 2em;
   padding-top: 1em;
   padding-bottom: 1em;
+}
+body.blog .about a {
+  color: #191722;
 }
 body.blog .articles {
   width: 100vw;
@@ -132,10 +139,14 @@ body.blog .articles article div.no-cover {
 body.blog.front .articles article:nth-child(1) {
   width: 100vw;
   background-color: #647086;
+  color: #ffffff;
   margin-top: -1em;
   margin-left: -1em;
   margin-right: -1em;
   padding: 2em;
+}
+body.blog.front .articles article:nth-child(1) a {
+  color: #ffffff;
 }
 body.blog.front .articles article:nth-child(1) div.no-cover {
   display: none;
@@ -151,6 +162,7 @@ body.blog ul.pager li {
   list-style: none;
   display: inline;
   margin: 0.5em;
+  white-space: nowrap;
 }
 body.blog ul.pager li a {
   font-weight: bold;
@@ -247,6 +259,8 @@ footer nav ul li {
   list-style: none;
   display: inline;
   margin-right: 1em;
+  white-space: nowrap;
+  line-height: 42pt;
 }
 
 @media (max-aspect-ratio: 8/5) and (min-aspect-ratio: 5/8) {

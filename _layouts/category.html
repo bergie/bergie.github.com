@@ -1,33 +1,49 @@
 ---
 layout: default
-bodyclass: blogcategory
+bodyclass: blog
 ---
 <header>
-  <div>
-    <h1><a href="/">{{ site.name }} - {{ page.title }}</a></h1>
+  <div class="container">
+    <h1><a href="/">{{ site.name }}</a></h1>
   </div>
 </header>
 
-<div>
-  {% if page.categorization == 'midgard' %}
-    {% include category_midgard.html %}
-  {% endif %}
+<div class="about">
   {% if page.categorization == 'bestof' %}
     {% include category_bestof.html %}
-  {% endif %}
-  {% if page.categorization == 'oscom' %}
+  {% elsif page.categorization == 'fbp' %}
+    {% include category_fbp.html %}
+  {% elsif page.categorization == 'midgard' %}
+    {% include category_midgard.html %}
+  {% elsif page.categorization == 'oscom' %}
     {% include category_oscom.html %}
-  {% endif %}
-  {% if page.categorization == 'tablet' %}
+  {% elsif page.categorization == 'tablet' %}
     {% include category_tablet.html %}
+  {% else %}
+  <h2>{{ page.title }}</h2>
+  <p>I've been writing more or less regularly to this blog <a href="{{ base }}/blog/news-page-launch/">since 1997</a>. Here you can find my posts categorized with "{{ page.categorization }}".</p>
   {% endif %}
 </div>
-{% include base.html %}
-<ol class="categoryposts">
+<div class="articles">
   {% for post in site.categories[page.categorization] %}
-  <li>
-    <a href="{{ base}}{{ post.url }}" class="title">{{ post.title }}</a>
-    <span class="metadata">{{ post.date | date_to_string }}{% if post.location %} in {{ post.location }}{% endif %}</span>
-  </li>
-  {% endfor %}
-</ol>
+  <article vocab="http://schema.org/" about="{{ base }}{{ post.url }}" typeof="BlogPosting" class="h-entry">
+    {% if post.cover %}
+    <img src="{{ post.cover | replace: 'https://d2vqpl3tx84ay5.cloudfront.net', 'https://rsz.io/d2vqpl3tx84ay5.cloudfront.net' }}?w=500&quality=70&format=jpg" class="cover" />
+    {% else %}
+    <div class="no-cover"></div>
+    {% endif %}
+    <h1><a href="{{ base }}{{ post.url }}" rel="bookmark" class="p-name u-url">{{ post.title }}</a></h1>
+    <div class="metadata">
+      <span property="datePublished" content="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</span>
+      {% if post.location %}
+      in <span rel="contentLocation" typeof="City"><span property="description">{{ post.location }}</span></span>
+      {% endif %}
+      <a rel="author" href="http://bergie.iki.fi/#me"></a>
+      <span property="wordCount" content="{{ post.content | strip_html | number_of_words }}"></span>
+    </div>
+    <div>
+      {{ post.content | strip_html | truncatewords:60 }}
+    </div>
+  </article>
+{% endfor %}
+</div>
