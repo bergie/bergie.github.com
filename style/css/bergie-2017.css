@@ -124,6 +124,7 @@ body.blog .articles article .metadata {
   margin-top: 1em;
   margin-bottom: 1em;
   font-style: italic;
+  font-size: smaller;
 }
 body.blog .articles article a {
   color: #191722;
