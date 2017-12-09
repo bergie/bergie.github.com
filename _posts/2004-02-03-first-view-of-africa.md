@@ -4,6 +4,7 @@ location: Pretoria, South Africa
 layout: post
 categories:
   - motorcycles
+cover: 'https://farm4.staticflickr.com/3229/2308182126_97cc7868dc_z_d.jpg'
 ---
 I left Helsinki in middle of a blizzard. It had snowed almost 30 cm during the morning and whole traffic was in chaos. Taxi call center had crashed, and it took almost half an hour to get a taxi to appear.
 
