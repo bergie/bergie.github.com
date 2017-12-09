@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midcom.gif'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/midcom.gif" style="float: right; height: 124px; width: 124px; border: none;" alt="midcom.gif" />

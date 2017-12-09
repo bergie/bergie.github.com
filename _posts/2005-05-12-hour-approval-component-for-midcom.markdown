@@ -4,6 +4,7 @@
     - "midgard"
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/hourview-email.jpg'
 
 ---
 Following Kaukola's [Support ticker viewer][1] and kindly financed by our friends at [Protie][2], we now have a [Midgard CMS][3] component that allows customers to view and approve [OpenPSA Projects][4] hour reports.

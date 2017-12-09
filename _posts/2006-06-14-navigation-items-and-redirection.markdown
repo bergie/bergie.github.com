@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/redirector-config.jpg'
 
 ---
 [MidCOM][1] has a centralized system for serving navigation information called [Navigation Access Point][2]. Typically the navigation UIs on Midgard-powered sites are [dynamically constructed][3] using this information.

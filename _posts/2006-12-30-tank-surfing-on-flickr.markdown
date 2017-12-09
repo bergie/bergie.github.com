@@ -4,6 +4,7 @@
     - "guns"
     - "life"
   layout: "post"
+  cover: 'http://farm1.static.flickr.com/82/231727544_dc4c74b75f.jpg'
 
 ---
 <p>This picture from the <a href="http://bergie.iki.fi/blog/midgard-developer-meeting-in-komorniki/">Midgard developer meeting trip</a> to Komorniki, Poland was chosen as one of the <a href="http://www.flickr.com/groups/tanktanks/discuss/72157594446946126/">top tank pictures</a> of the year in <a href="http://www.flickr.com/">Flickr</a>. The guy on the top of the <a href="http://en.wikipedia.org/wiki/T-34">T-34/85 tank</a> is <a href="http://www.kaktus.cc/">Arttu Manninen</a></p>

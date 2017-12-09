@@ -4,6 +4,7 @@
     - "desktop"
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/togetherness-brianscott.jpg'
 
 ---
 <p>

@@ -2,7 +2,9 @@
   title: "Maemo Mapper takes us closer to the Hitchhiker's Guide"
   categories: 
     - "mobility"
+    - "geo"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/maemo-mapper.jpg'
 
 ---
 I've written before how [Nokia 770][2] is the [real Hitchhiker's Guide to the Galaxy][1]. The device already gives an ubiquitous access to the web, and now with the upcoming new OS release, to [Jabber chat and VoIP calls][3].

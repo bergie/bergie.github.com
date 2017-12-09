@@ -3,6 +3,7 @@
   categories: 
     - "flying"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/solo-flight-20050507.jpg'
 
 ---
 I flew my first solo flight today as part of [PPL(A) pilot training][0]. The morning was sunny with calm wind.

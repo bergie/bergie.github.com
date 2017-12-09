@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midcom-template-kubrick.jpg'
 
 ---
 Because of the [dead development server][1] I had a bit of downtime today. To compensate for it, I decided to finally port the elegant [Kubrick template][2] to [Midgard CMS][3]. 

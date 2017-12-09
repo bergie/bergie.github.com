@@ -5,6 +5,7 @@
     - "mobility"
     - "tablet"
   layout: "post"
+  cover: 'http://farm3.static.flickr.com/2269/2054074159_1ebdf580a9_m.jpg'
 
 ---
 <img style="float:right;margin-left:6px;" src="http://farm3.static.flickr.com/2269/2054074159_1ebdf580a9_m.jpg" alt="2054074159_1ebdf580a9_m.jpg" /><a href="http://en.wikipedia.org/wiki/Nokia_N800">Nokia's Linux-based internet tablet</a> was <a href="http://gizmodo.com/338567/amazons-best-of-2007-is-part-duh-part-huh">Amazon's best selling computer</a> in 2007, and <a href="http://www.internettablettalk.com/2007/12/26/amazon-holiday-pc-sales-nokia-interenet-tablet-in-top-3/">top 3 personal computer in holiday sales</a>. Congratulations to the <a href="http://maemo.org/">maemo</a> team!
@@ -19,4 +20,4 @@ Pushing for a change in the desktop from Windows to Mac or Linux is, in 10 years
 
 What 2008, 2009, and 2010 are going to be are the &quot;years where appliances took over half the desktop functions&quot; - you still want a big monitor and ergo keyboard to Photoshop, do development of web pages and code, and so on. But people sitting right at their desktop will whip out their paperback-sized appliance to do E-mail and chat, because that's where their communication apps live.<br /><br />
 
-And, yes, those new appliances will mostly run Linux. What else?</blockquote>As I've seen the nice, new <a href="http://en.wikipedia.org/wiki/Nokia_N810">N810 internet tablet</a> take over more and more roles from <a href="http://bergie.iki.fi/blog/switching-to-intel-macbook/">my MacBook</a> I can only agree.<span style="font-size:10pt;"></span><p style="text-align:right;"><span style="font-size:10pt;">Technorati Tags: </span><span style="font-size:10pt;"><a href="http://www.technorati.com/tag/maemo">maemo</a></span><span style="font-size:10pt;">, </span><span style="font-size:10pt;"><a href="http://www.technorati.com/tag/linux">linux</a></span></p>
+And, yes, those new appliances will mostly run Linux. What else?</blockquote>As I've seen the nice, new <a href="http://en.wikipedia.org/wiki/Nokia_N810">N810 internet tablet</a> take over more and more roles from <a href="http://bergie.iki.fi/blog/switching-to-intel-macbook/">my MacBook</a> I can only agree.

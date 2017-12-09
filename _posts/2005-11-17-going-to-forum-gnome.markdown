@@ -4,6 +4,7 @@
     - "midgard"
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/forum-gnome-2005.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/forum-gnome-2005.jpg" border="0" height="113" width="250" alt="Fórum GNOME 2005" style="margin-left: 10px;" align="right" />

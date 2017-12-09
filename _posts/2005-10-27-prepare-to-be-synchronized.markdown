@@ -3,6 +3,7 @@
   categories: 
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/dbe-serviceid-openpsa-person.jpg'
 
 ---
 Something interesting is going to happen with [OpenPsa][1] and [Digital Business Ecosystem][2]:

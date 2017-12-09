@@ -4,6 +4,7 @@
     - "desktop"
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/guadec.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/guadec.jpg" border="0" height="68" width="99" alt="GUADEC" style="float: right; margin-left: 8px;" />

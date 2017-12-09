@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midcom-toolbar-tango-1-tm.jpg'
 
 ---
 As initially <a href="http://www.tigert.com/archives/2005/11/16/tango-ui-for-web/">instigated by Tuomas</a> and later <a href="http://www.nemein.com/people/joonas/blog/midcom-tangofied.html">prepared by Joonas</a>, <a href="http://www.midgard-project.org/">Midgard</a> has now switched to the <a href="http://tango.freedesktop.org/Tango_Desktop_Project">Tango icons and colors</a>. This helps to modernize the look-and-feel and make it more consistent across components.

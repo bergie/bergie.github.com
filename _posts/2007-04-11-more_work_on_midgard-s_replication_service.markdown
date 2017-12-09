@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midcom-replicator-debug-log.jpg'
 
 ---
 <a href="http://bergie.iki.fi/blog/midgard-replication-service-starts-to-shape-up/">Midgard's new replication service</a> has been under work since January. Now the work is finally starting to bear fruit, as we're doing the first tests with real production data.
@@ -16,8 +17,6 @@ This view should make it easier to figure out what replication actions have been
 
 The replication queues are managed in a user interface on the MidCOM site itself. Site administrator can set up multiple replication pipelines including archival or emailing of backups and HTTP-based replication to remote hosts:
 
-<img src="https://d2vqpl3tx84ay5.cloudfront.net/midcom-replicator-manage-list.jpg" height="113" width="400" border="1" hspace="4" vspace="4" alt="Midcom-Replicator-Manage-List" /><span style="font-size:0pt;">
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/midcom-replicator-manage-list.jpg" height="113" width="400" border="1" hspace="4" vspace="4" alt="Midcom-Replicator-Manage-List" />
 
-</span><strong>Updated 2007-04-12:</strong> Replication seems to work quite fine, but we're still running tests with it. Those who want to play with it will benefit from the <a href="http://www.midgard-project.org/documentation/staging_to_live_setup_with_midcom/">setup instructions draft</a>.
-
-<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/replication" rel="tag">replication</a>, <a href="http://www.technorati.com/tag/synchronization" rel="tag">synchronization</a></p>
+<strong>Updated 2007-04-12:</strong> Replication seems to work quite fine, but we're still running tests with it. Those who want to play with it will benefit from the <a href="http://www.midgard-project.org/documentation/staging_to_live_setup_with_midcom/">setup instructions draft</a>.

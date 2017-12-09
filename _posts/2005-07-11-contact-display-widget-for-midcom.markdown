@@ -4,6 +4,7 @@
     - "midgard"
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/openpsa-contactwidget.jpg'
 
 ---
 There are several places in [OpenPsa][1] where persons are displayed in some list: Search results, campaigns, buddy lists, project participants, etc. To make them more informative, I've now implemented a [contact widget][2] library that can be used anywhere in [MidCOM][3].

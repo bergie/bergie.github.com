@@ -3,6 +3,7 @@
   categories: 
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/royal_enfield_somewhere_in_poland.jpg'
 
 ---
 <p>

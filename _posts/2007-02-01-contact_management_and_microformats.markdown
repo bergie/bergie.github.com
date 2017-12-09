@@ -4,6 +4,7 @@
     - "openpsa"
     - "oscom"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/openpsa-contacts-organization-details-tm.jpg'
 
 ---
 I've blogged earlier on how <a href="http://bergie.iki.fi/blog/contact-management-in-semantic-web/" title="Contact management in semantic web">OpenPsa 2 can utilize information pulled from the websites</a> of organizations and persons entered into the system.

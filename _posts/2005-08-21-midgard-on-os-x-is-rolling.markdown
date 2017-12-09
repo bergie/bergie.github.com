@@ -4,6 +4,7 @@
     - "desktop"
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midgard-osx-installer.jpg'
 
 ---
 The [Mac OS X packages of Midgard][1] made by [Robert Guerra][2] were [released][3] on August 15th. Since then it has been listed by both [VersionTracker][4] and [Download Squad][5]. Six hundred people have already downloaded the 500 meg disk image containing both [Midgard CMS 1.7][6] and [Fink][7].

@@ -3,6 +3,7 @@
   categories: 
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/movies-on-n770-small.jpg'
 
 ---
 I returned from a trip to Lapland and Russia today, and noticed that the battery of my [Macbook][1] had somehow died while I was away. Now the computer doesn't recognize it at all.

@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/luosto-hotel-page.jpg'
 
 ---
 [Pyhä][1] and [Luosto][2], two skiing centers in [Lapland][3] are now powered by [Midgard CMS][4]. Their websites are portals containing both general travel information and the sub-sites of hundreds of local hotels, restaurants and other businesses.

@@ -4,6 +4,7 @@
     - "desktop"
     - "oscom"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/hammersley-iweb-netnewswire.jpg'
 
 ---
 [Ben Hammersley has gone to the iWeb side][1], making his blog image-only. [Some][11] [commentation][10] is [available][2]:

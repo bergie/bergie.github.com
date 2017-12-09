@@ -3,6 +3,7 @@
   categories: 
     - "oscom"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/OSCOM-official.png'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/OSCOM-official.png" style="float: right; margin-left: 10px;" alt="OSCOM" title="OSCOM" />

@@ -4,6 +4,7 @@
     - "business"
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midgard-project.gif'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/midgard-project.gif" border="0" height="120" width="120" alt="Midgard Project" style="margin-left: 10px;" align="right" />

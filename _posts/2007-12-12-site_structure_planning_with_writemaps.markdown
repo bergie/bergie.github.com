@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/writemaps.jpg'
 
 ---
 <a href="http://www.writemaps.com/">WriteMaps.com</a> is a handy web-based tool for planning website structures in a mind map -like format. The tool allows for storage and working on the designs in collaborative fashion.

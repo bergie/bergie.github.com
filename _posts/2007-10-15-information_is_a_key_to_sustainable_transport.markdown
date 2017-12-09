@@ -5,6 +5,7 @@
     - "geo"
     - "politics"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/samipii_critical_mass.jpg'
 
 ---
 I've written earlier how <a href="http://bergie.iki.fi/blog/making_public_transport_easier_through_open_data/">open data availability could promote public transportation</a>. Openly available public transport schedule and route information would enable small businesses and other innovators to build new kinds of consumer route planning services. These new services in turn would help to make it easier to leave the car home and choose more <a href="http://www.euractiv.com/en/transport/sustainable-transport/article-117545">sustainable transport options</a>.

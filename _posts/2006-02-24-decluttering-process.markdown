@@ -3,6 +3,7 @@
   categories: 
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Decluttering_project.jpg'
 
 ---
 During this week we've hauled about one and half [Land Rover][3] loads of furniture and old stuff to [recycling][2].

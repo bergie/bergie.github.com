@@ -5,6 +5,7 @@ layout: post
 author: Skoll
 categories:
   - motorcycles
+cover: 'https://farm6.staticflickr.com/5321/17340833628_6f1a601c30_z_d.jpg'
 ---
 Crossing the borders in Baltia was surprisingly easy and fast. When we arrived at the border of Poland, the queue was longer thn any of us had seen before. In the queue we met some fellow finnish bikers who had been waiting for several hours and weren't even near to the passport control. Once again life is easier with bikes - we passed all the busses and were in Poland after about an hour and a half of queuing.
 

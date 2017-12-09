@@ -3,6 +3,7 @@
   categories: 
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Vardzia_from_bell_tower_small.jpg'
 
 ---
 We had amazing time in the medieval [Georgian][3] cave cities of __Vardzia__ and __Vanis kvabebi__ last weekend. I've already contributed [some information on Vardzia][1] to WikiPedia, and plan to write more about both later on.

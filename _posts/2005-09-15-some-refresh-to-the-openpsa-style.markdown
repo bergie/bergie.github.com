@@ -3,6 +3,7 @@
   categories: 
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/openpsa-new-style-calendar.jpg'
 
 ---
 Flash designer [Joonas Kallioinen][1] of [Itse Valtiaat][2] fame contributed a minor refresh to the OpenPsa 2 style:

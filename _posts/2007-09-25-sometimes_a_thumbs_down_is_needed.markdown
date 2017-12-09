@@ -4,6 +4,7 @@
     - "midgard"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/socialnews-unfaved-1.png'
 
 ---
 <a href="http://flors.wordpress.com/">Quim</a> wrote earlier on <a href="http://desdeamericaconamor.org/blog/node/393">why red hearts matter in maemo news</a>. The red hearts are important as they <a href="http://bergie.iki.fi/blog/calculating_news_item_relevance/">bring important news items forward</a> in the <a href="http://bergie.iki.fi/blog/maemo_social_news_launched/">maemo social news aggregator</a>. But sometimes there are also news items that are not at all relevant to the <a href="http://maemo.org/">maemo</a> community. To solve the problem with them we've now added a burying option:

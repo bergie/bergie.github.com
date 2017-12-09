@@ -4,6 +4,7 @@
     - "life"
     - "desktop"
   layout: "post"
+  cover: 'https://farm4.staticflickr.com/3260/2707534739_dc353a65a5_z_d.jpg'
 
 ---
 <p>

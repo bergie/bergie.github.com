@@ -3,6 +3,7 @@
   categories: 
     - "desktop"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/democracy-youtube-search-small.jpg'
 
 ---
 I've just upgraded to the latest [Democracy Player][1] "Internet TV" version:

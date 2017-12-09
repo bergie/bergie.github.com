@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midgard-17-small.jpg'
 
 ---
 [Midgard 1.7][1], the first release sporting _Midgard2_ features like MgdSchema and Query Builder was [released today][2]. To celebrate this, I made a new design for the website, following the "_Prepare for the New Day_" slogan:

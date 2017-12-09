@@ -4,6 +4,7 @@
     - "midgard"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/os2008_n800_midgard2_installed_piotras-1-tm.jpg'
 
 ---
 <p>

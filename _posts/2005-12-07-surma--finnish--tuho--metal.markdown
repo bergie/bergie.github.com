@@ -3,6 +3,7 @@
   categories: 
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/surma_veren_tytar.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/surma_veren_tytar.jpg" border="0" height="170" width="170" alt="surma_veren_tytar.jpg" align="right" />

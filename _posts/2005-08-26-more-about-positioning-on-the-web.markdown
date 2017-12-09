@@ -2,7 +2,9 @@
   title: "More about positioning on the web"
   categories: 
     - "midgard"
+    - "geo"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/plazes-whereis-bergie.jpg'
 
 ---
 I've posted thoughts about [using location information][1] on the web and my blog has been associating position information and weather on [city level][2] into all documents there since last December. However, this data isn't very useful yet as such. As the city-level information doesn't contain coordinates, I can't:

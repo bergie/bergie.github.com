@@ -3,6 +3,7 @@
   categories: 
     - "flying"
   layout: "post"
+  cover: 'http://farm1.static.flickr.com/179/371982231_143361232a.jpg'
 
 ---
 <div class="flickr-frame">

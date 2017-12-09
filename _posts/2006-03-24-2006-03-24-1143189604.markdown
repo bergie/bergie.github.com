@@ -3,6 +3,7 @@
   categories: 
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Cactuses_in_Arizona.jpg'
 
 ---
 __2006-03-24 08:25Z:__ We left San Francisco in the morning and have followed the coastal US-101. Santa Barbara is now behind us as we approach LA.

@@ -3,7 +3,9 @@
   categories: 
     - "desktop"
     - "midgard"
+    - "gear"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/intel-macbook.jpg'
 
 ---
 Since [we][1] have some new members in [the team][2], it was time to grab some new Intel [MacBooks][3]. I also decided to switch and recycle my 12" PowerBook to another team member.

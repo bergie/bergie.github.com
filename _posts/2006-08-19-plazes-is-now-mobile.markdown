@@ -4,6 +4,7 @@
     - "geo"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/n90-plazes.jpg'
 
 ---
 [Plazes][1] is a service for connecting wireless access points into physical locations. Previously this has only worked with [Wi-FI networks][2], but now [they have launched][8] a [mobile version][3] that uses the cell phone network [base station][4] identifiers for the same thing.

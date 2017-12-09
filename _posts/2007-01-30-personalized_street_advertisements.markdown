@@ -4,6 +4,7 @@
     - "life"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/mini_rfid_ads_small.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/mini_rfid_ads_small.jpg" border="0" height="213" width="187" alt="mini_rfid_ads_small.jpg" title="Personalized ads for Mini drivers" style="float: right; margin-left: 8px;" />

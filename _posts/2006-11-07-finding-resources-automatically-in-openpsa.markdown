@@ -3,6 +3,7 @@
   categories: 
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/openpsa-projectbroker-select-slots-small.jpg'
 
 ---
 We rolled the initial __Project Broker__ user interface into [OpenPsa 2][1] with [Rambo][2] yesterday. Since we were on schedule we went to work [in the countryside][3] where we wouldn't be disturbed. Fireplace, a bit of snow, and no Internet connection make it a perfect place for a [coding sprint][4].

@@ -4,6 +4,7 @@
     - "oscom"
     - "desktop"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/arstechnica-with-flashblock-tm.jpg'
 
 ---
 <p>

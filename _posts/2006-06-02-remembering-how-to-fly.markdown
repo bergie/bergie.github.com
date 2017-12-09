@@ -3,6 +3,7 @@
   categories: 
     - "flying"
   layout: "post"
+  cover: 'http://static.flickr.com/48/158703591_2fbc86f1e2_m.jpg'
 
 ---
 <div style="float: right; margin-left: 10px; margin-bottom: 10px;">

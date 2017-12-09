@@ -4,6 +4,7 @@
     - "midgard"
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Jukka_presents_Exorcist.jpg'
 
 ---
 This weekend is being spent in the [Midgard developer meeting][1] hosted by [Anykey Solutions][2] in [Linköping, Sweden][3]. Besides the [ferry Suicide Tequila episode][4] reported by [Edi][5], the time has been both productive and fun.

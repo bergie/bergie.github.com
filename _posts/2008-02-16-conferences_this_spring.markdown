@@ -4,6 +4,7 @@
     - "midgard"
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/dopplr-travel-map-2008-1.jpg'
 
 ---
 <p>

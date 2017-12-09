@@ -4,6 +4,7 @@
     - "desktop"
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Guadec_2008_IceCream_Winner-tm.jpg'
 
 ---
 <p>

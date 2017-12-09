@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/asgard-usermanager-quickactions-1.jpg'
 
 ---
 In past there have been two types of user management tools for <a href="http://www.midgard-project.org/">Midgard</a>: <a href="http://www.midgard-project.org/documentation/getting-started-create-groups/">the built-in ones</a> that have supplied lists of users, and then custom-made ones. With former the problem has been that when you have thousands of users the HTML views become slow to load and near impossible to use.

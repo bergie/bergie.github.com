@@ -4,6 +4,7 @@
     - "politics"
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midgard-pikkug-2007.jpg'
 
 ---
 <a href="http://en.wikipedia.org/wiki/Finnish_parliamentary_election%2C_2007">Finnish parliamentary election of 2007</a> was last Sunday. Unfortunately my candidate, <a href="http://www.rauhala.name/">Mikko Rauhala</a> from the Liberal party and of <a href="http://www.effi.org/">Electronic Frontier Finland</a> fame didn't make it.

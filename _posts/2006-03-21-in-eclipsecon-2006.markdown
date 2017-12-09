@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Martin_Perez_bag.jpg'
 
 ---
 The [Midgard][1] booth is now all set up in [EclipseCon 2006][2] Open Source Pavilion. If you read this, feel free to drop in to __booth 416__ and enjoy an [__M__ candy][8] and some Midgard talk.

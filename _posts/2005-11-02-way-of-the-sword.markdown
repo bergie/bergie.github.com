@@ -2,7 +2,9 @@
   title: "Way of the sword"
   categories: 
     - "life"
+    - "haidonggumdo"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/sabre-hit-areas.gif'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/sabre-hit-areas.gif" border="0" height="102" width="87" alt="Valid hit areas with sabre" title="Valid hit areas with sabre" align="right" />

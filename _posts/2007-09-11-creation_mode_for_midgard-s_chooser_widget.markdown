@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/chooser-creation-iframe.jpg'
 
 ---
 <a href="http://www.midgard-project.org/">Midgard's</a> <a href="http://www.midgard-project.org/documentation/midcom-helper-datamanager2">datamanager2 form handling library</a> has a very nice <a href="http://jquery.com/">jQuery</a>-powered chooser widget which enables search-based selections. This is often used in situations where the data set user is choosing from is large, as is often the case when selecting persons from a large organization for instance.

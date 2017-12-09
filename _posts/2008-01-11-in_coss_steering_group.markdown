@@ -4,6 +4,7 @@
     - "politics"
     - "business"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/COSSlogo_vert_rgb.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/COSSlogo_vert_rgb.jpg" height="212" width="140" border="0" align="right" hspace="8" vspace="4" alt="COSS" title="COSS" /><a href="http://www.coss.fi/">COSS</a> - the Finnish Centre for Open Source Solutions - is a national development agency for open source business ecosystem. COSS consists of 125 Finnish Open Source companies, several universities and public administration.

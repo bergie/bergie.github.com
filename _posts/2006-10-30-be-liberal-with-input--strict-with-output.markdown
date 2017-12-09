@@ -4,6 +4,7 @@
     - "midgard"
     - "oscom"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/deathmonkey-map-small.jpg'
 
 ---
 [Midgard's][1] support for [GeoRSS][2] is solidifying with the [auto-probing system in OpenPsa][3] and the [latest release][4] of [org.routamc.positioning][5].  

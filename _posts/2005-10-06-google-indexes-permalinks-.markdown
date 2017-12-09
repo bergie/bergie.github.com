@@ -3,6 +3,7 @@
   categories: 
     - "oscom"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/google-permalinks.jpg'
 
 ---
 It seems that Google is now [autodetecting PermaLinks][1] of dynamically-generated pages using the `rel="PermaLink"` syntax. Here's one of the results for my blog:

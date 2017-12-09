@@ -4,6 +4,7 @@
     - "midgard"
     - "oscom"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/denim-simplesite.jpg'
 
 ---
 [DENIM][1] is an interesting, [BSD-licensed][2] desktop application from University of Washington. It allows web developers to [sketch site][3] and [page structures][4] easily with a stylus. Pages can be [interlinked][9], and contain [operable components][5] like forms.

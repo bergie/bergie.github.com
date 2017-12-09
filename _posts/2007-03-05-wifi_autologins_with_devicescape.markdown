@@ -3,6 +3,7 @@
   categories: 
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/devicescape_n800_small.jpg'
 
 ---
 I have blogged earlier of our plans to [add WiFi autologin support to MaemoPlazer][1]. However, [I found out][2] that there is already an autologin applet for the N800: [Devicescape][3]

@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/asgard-codepress-parse-error.jpg'
 
 ---
 <a href="http://bergie.iki.fi/blog/building_a_new_admin_interface_for_midgard/">Asgard</a> is the new administrative interface being built for <a href="http://www.midgard-project.org/">Midgard</a>. The main objective is to get rid of the legacies of <a href="http://en.wikipedia.org/wiki/Aegir_(software)">Aegir</a> and <a href="http://bergie.iki.fi/blog/2004-04-15-001/">SpiderAdmin</a> by replacing them with a smart system that auto-generates admin UIs for all installed <a href="http://www.midgard-project.org/documentation/mgdschema/">MgdSchema types</a>. But small improvements also count, and so we decided to deploy <a href="http://www.codepress.org/">CodePress</a> for code editing:

@@ -3,6 +3,7 @@
   categories: 
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Falkenberg_ja_Bergius.jpg'
 
 ---
 [VR Makasiinit][2], the old railway transfer terminal from late 19th century [burned down][3] on friday. We were on the way home from [opera][4] when the main street of Helsinki was closed and a dark plume of smoke [towered][5] above the city.

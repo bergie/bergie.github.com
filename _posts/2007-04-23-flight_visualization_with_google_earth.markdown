@@ -4,6 +4,7 @@
     - "flying"
     - "geo"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/efjo_sunset.jpg'
 
 ---
 This is probably old news to many, but Google Earth is a <a href="http://www.gearthblog.com/blog/archives/2006/04/go_flying_fligh.html">very nice tool for visualizing flight track logs</a>. I went yesterday to the <a href="http://www.pelastamalmi.org/en/index.html">Helsinki-Malmi airport</a>, intending to go to the <a href="http://en.wikipedia.org/wiki/Airfield_traffic_pattern">traffic circuit</a> for some landing practice with the club's "<a href="http://www.airliners.net/open.file/0589331/M/">moped Cessna</a>". Instead, through the magic of the old airport, my plan was changed into flying another plane for maintenance to <a href="http://en.wikipedia.org/wiki/Joensuu">Joensuu</a>, 500 kilometers away.

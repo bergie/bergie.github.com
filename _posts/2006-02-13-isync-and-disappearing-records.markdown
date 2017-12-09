@@ -4,6 +4,7 @@
     - "desktop"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/dangerous-isync-merge.jpg'
 
 ---
 It seems Apple's [iSync][1] and Sony-Ericsson phones are having a severe synchronization problem this month. [Rambo had an alarming story][2]:

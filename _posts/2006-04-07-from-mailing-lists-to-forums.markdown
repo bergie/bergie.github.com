@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midgard-forums.jpg'
 
 ---
 The [Midgard mailing lists][1] have been offline for a while because their hosting provider has been having some issues. To fix the problem we decided to move from regular email lists to an online forum powered by the [net.nemein.discussion component][2].

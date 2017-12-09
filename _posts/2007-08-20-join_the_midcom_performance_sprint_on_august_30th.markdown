@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midcom-performance-sprint-beforeafter.jpg'
 
 ---
 <a href="http://www.midgard-project.org/documentation/midcom/">MidCOM</a> is the PHP-level framework of <a href="http://www.midgard-project.org/">Midgard CMS</a>. With its <a href="http://www.ohloh.net/projects/3309?p=Midgard">nearly 500K lines of code</a>, it every now and then is good to sit down and focus on performance optimization.

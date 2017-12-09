@@ -3,6 +3,7 @@
   categories: 
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/open-tuesday-770-competition.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/open-tuesday-770-competition.jpg" border="0" style="margin-left: 6px;" height="155" width="300" alt="Open Tuesday Competition" align="right" />

@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/office-nabaztag.jpg'
 
 ---
 When this <a href="http://bergie.iki.fi/blog/meet_nabaztag-our_new_general_manager/">bunny joined our company</a>, I wrote that the plan was to make our CRM system talk to the <a href="http://en.wikipedia.org/wiki/Nabaztag">Nabaztag</a>. Today the first step was taken by making a <a href="http://pear.php.net/pepr/pepr-proposal-show.php?id=463">Nabaztag notifier</a> plugin for the org.openpsa.notifications library.

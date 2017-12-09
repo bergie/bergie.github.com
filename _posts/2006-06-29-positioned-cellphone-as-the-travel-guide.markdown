@@ -2,6 +2,7 @@
   title: "Positioned cellphone as the travel guide"
   categories: 
     - "mobility"
+    - "geo"
   layout: "post"
 
 ---

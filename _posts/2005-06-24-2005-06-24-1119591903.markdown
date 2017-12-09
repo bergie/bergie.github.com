@@ -3,6 +3,7 @@
   categories: 
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/2001-rus-campfire.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/2001-rus-campfire.jpg" align="right" style="margin-left: 5px;" />

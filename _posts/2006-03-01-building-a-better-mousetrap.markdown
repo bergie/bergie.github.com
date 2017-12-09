@@ -3,6 +3,7 @@
   categories: 
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/humane-mousetrap.jpg'
 
 ---
 [Chris Glass][5] has posted a HOWTO on a [more humane mousetrap][1]:

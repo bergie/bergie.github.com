@@ -3,6 +3,7 @@
   categories: 
     - "politics"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/hs-internet-censorship-demonstration-20080304.jpg'
 
 ---
 <p>

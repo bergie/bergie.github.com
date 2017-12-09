@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/ais-new-simple-look.jpg'
 
 ---
 AIS, the _Authoring Interface System_ in [Midgard CMS][1] is now getting a [new look][2]. The tables and old HTML are now gone, replaced by much more streamlined XHTML and CSS.

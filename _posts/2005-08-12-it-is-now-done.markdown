@@ -3,6 +3,7 @@
   categories: 
     - "flying"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Airplanes_ahead.jpg'
 
 ---
 After returning from the wedding at 5am this morning and a brief nap I went to the [Helsinki-Malmi airport][1] to do the check flight for my [Private Pilot's License][2]. After waiting the morning for [VFR conditions][3] we were finally able to depart at 11:30am amid rather low and rainy clouds.

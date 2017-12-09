@@ -4,6 +4,7 @@ location: Helsinki, Finland
 layout: post
 categories:
   - motorcycles
+cover: 'https://farm9.staticflickr.com/8752/17339616108_35b49d5f5b_z_d.jpg'
 ---
 A Linda Line ship is sinking in the Baltic and our ferry was called to the rescue operation. We're still waiting in the Tallink terminal, as we will the transferred to another ship.
 

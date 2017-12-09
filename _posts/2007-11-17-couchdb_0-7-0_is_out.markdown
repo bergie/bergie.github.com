@@ -3,6 +3,7 @@
   categories: 
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/couchdb-0_7-admintool-tm.jpg'
 
 ---
 <a href="http://code.google.com/p/couchdb/downloads/list">Version 0.7.0 of CouchDb</a> was <a href="http://damienkatz.net/2007/11/couchdb_070.html">released yesterday</a>. CouchDb is a very <a href="http://bergie.iki.fi/blog/jquery_and_couchdb-001/">interesting object database</a> that powers our <a href="http://bergie.iki.fi/blog/previewing_ajatus-the_distributed_crm/">Ajatus CRM</a>.

@@ -4,6 +4,7 @@
     - "mobility"
     - "tablet"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/rhapsody-n800.jpg'
 
 ---
 <a href="http://www.rhapsody.com/">Rhapsody</a>, the music subscription service from Real Networks <a href="http://www.internettablettalk.com/2007/03/27/rhapsody-on-the-nokia-n800/">is now available</a> for <a href="http://www.nokiausa.com/N800/1,9008,,00.html">Nokia's N800 Internet Tablet</a>. While so far the music library Kerttu and I have accumulated has been perfectly enough for me, I decided to give Rhapsody a shot.

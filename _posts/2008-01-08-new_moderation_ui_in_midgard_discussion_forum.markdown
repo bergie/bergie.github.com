@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/net_nemein_discussion_moderate-tm.jpg'
 
 ---
 <a href="http://www.midgard-project.org/">Midgard's</a> discussion forum component, <a href="http://pear.midcom-project.org/index.php?package=net_nemein_discussion&amp;release=2.0.3beta12&amp;downloads">net.nemein.discussion</a> now has new moderation UI.

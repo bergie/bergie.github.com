@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/rambo-devel-server.jpg'
 
 ---
 [Our][1] development server just died today. This will mean all [OpenPsa][2] development is stalled until [Rambo][3] gets the new hard drive and [Debian][4] installed.

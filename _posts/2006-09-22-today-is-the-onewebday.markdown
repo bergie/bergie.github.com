@@ -4,6 +4,7 @@
     - "midgard"
     - "oscom"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/onewebday.jpg'
 
 ---
 September 22nd is the [OneWebDay][1]. It is a day when users of the World Wide Web are encouraged to show how the Internet affects their lives. The purpose of the event is to globally celebrate online life.

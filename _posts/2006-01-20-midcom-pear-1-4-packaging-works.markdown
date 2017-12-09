@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/pear-packaged-ais.jpg'
 
 ---
 After a bit of discussion and [goading][6] from the PEAR community, we decided to package [MidCOM][7] for the [package.xml 2.0][8] format and only support PEAR 1.4 or newer.

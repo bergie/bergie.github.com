@@ -3,6 +3,7 @@
   categories: 
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/planet-maemo-hackergotchi.jpg'
 
 ---
 The new <a href="http://maemo.org/news/announcements/view/1192708879.html">Maemo developer device program</a> opened the <a href="https://maemo.org/profile/">user profile system</a> on <a href="http://maemo.org/">maemo.org</a>. With it, we can now use profile avatars as the <a href="http://en.wikipedia.org/wiki/Hackergotchi">hackergotchis</a> on <a href="http://maemo.org/news/planet-maemo/">Planet Maemo</a>:

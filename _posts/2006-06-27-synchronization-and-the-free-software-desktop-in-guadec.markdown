@@ -5,6 +5,7 @@
     - "midgard"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Tigert_and_Bergie_talk_in_Balaguer.jpg'
 
 ---
 We held the _[Feeds, Synchronization and the Free Software Desktop][6]_ talk with [Tigert][5] today. Despite the [Fluendo party][1] the night before, there was a quite good crowd in the old [Museu Balaguer library][7].

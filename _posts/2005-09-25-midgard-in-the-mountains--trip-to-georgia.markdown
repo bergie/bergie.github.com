@@ -4,6 +4,7 @@
     - "life"
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Fortress_in_Mtskheta_valley.jpg'
 
 ---
 ## Day zero: In transit

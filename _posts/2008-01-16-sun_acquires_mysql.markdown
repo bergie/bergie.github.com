@@ -4,6 +4,7 @@
     - "business"
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/sun-mysql.jpg'
 
 ---
 <a href="http://www.mysql.org/">MySQL</a>, the world's most popular open source database <a href="http://www.mysql.com/news-and-events/sun-to-acquire-mysql.html">has today been bought by Sun Microsystems</a>. Congratulations to <a href="http://en.wikipedia.org/wiki/Michael_Widenius">Monty</a> and the rest of the team! Billion dollars, <a href="http://blogs.mysql.com/kaj/2008/01/16/sun-acquires-mysql/">quite a deal</a> in the free software space.

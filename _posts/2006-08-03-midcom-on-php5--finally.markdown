@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midcom-php5-initial.jpg'
 
 ---
 Thanks to [the efforts][1] by [Solt][2] and [Piotras][3], we finally have the [MidCOM][4], the _Midgard Component Framework_ running on top of [PHP 5.1][5].

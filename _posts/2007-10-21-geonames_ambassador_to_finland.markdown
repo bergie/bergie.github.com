@@ -3,6 +3,7 @@
   categories: 
     - "geo"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/GeoNamesAmbassadors20071018.png'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/GeoNamesAmbassadors20071018.png" height="141" width="270" border="0" align="right" hspace="8" vspace="4" alt="Geonamesambassadors20071018" style="float: right;" />

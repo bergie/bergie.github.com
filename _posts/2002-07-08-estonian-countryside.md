@@ -4,6 +4,7 @@ location: Pärnu, Estonia
 layout: post
 categories:
   - motorcycles
+cover: 'https://farm9.staticflickr.com/8851/16907121973_2cb21d5ca6_z_d.jpg'
 ---
 We arrived to wet and dark Tallinn around 10:30pm in Friday, and started the slow and bumpy progress towards Pärnu. The effect of EU funding on the Via Baltica (E67) road we're apparent, as road was under construction in many places. Unfortunately for us this mean removed tarmac and lots of potholes. Addition to this fun was crazy Mercedes and Audi drivers and drunken teenagers jumping to the road. However, we made it safely to the Uudea guesthouse near Pärnu, a place run by Skoll's family.
 

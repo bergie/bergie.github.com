@@ -3,6 +3,7 @@
   categories: 
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Morning_news_with_770.jpg'
 
 ---
 In order to make my news-reading process less time consuming, I've now switched from [NetNewsWire][1] running all the time on my PowerBook to the [Bloglines][2] web service primarily used through my [Nokia 770][3] handheld browser.

@@ -4,6 +4,7 @@
     - "mobility"
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/maemo-karma-quim-tm.jpg'
 
 ---
 <strong><em>Karma:</em></strong><em> The total effect of a person's actions and conduct during the successive phases of his existence, regarded as determining his next incarnation. (</em><em><a href="http://en.wiktionary.org/wiki/karma">wiktionary</a></em><em>)</em>

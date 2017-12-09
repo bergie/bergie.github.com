@@ -3,6 +3,7 @@
   categories: 
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/maemo-app-catalog-ratings-detail2.jpg'
 
 ---
 <a href="http://downloads.maemo.org/">Maemo Downloads</a>, the application catalog for <a href="http://europe.nokia.com/phones/n800">Nokia internet tablets</a> is again open for business. 
@@ -13,10 +14,8 @@ For some time users have not been able to authenticate to the service with their
 
 In addition to fixing the authentication we have also added support for rating and commenting applications. For example, see the <a href="http://downloads.maemo.org/product/maemo-mapper/">Maemo Mapper entry</a>:
 
-<img src="https://d2vqpl3tx84ay5.cloudfront.net/maemo-app-catalog-ratings-detail2.jpg" height="362" width="400" border="1" hspace="4" vspace="4" alt="Maemo-App-Catalog-Ratings-Detail2" /><span style="font-size:0pt;">
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/maemo-app-catalog-ratings-detail2.jpg" height="362" width="400" border="1" hspace="4" vspace="4" alt="Maemo-App-Catalog-Ratings-Detail2" />
 
-</span>The ratings differ from some other rating systems in the sense that every rating is accompanied by a comment and the name of the person who rated the app. To rate applications, log in to the catalog.
+The ratings differ from some other rating systems in the sense that every rating is accompanied by a comment and the name of the person who rated the app. To rate applications, log in to the catalog.
 
 In near future we will start using rating as a sorting (and possibly filtering) criteria on the site.
-
-<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/maemo" rel="tag">maemo</a>, <a href="http://www.technorati.com/tag/midgard" rel="tag">midgard</a>, <a href="http://www.technorati.com/tag/postgres" rel="tag">postgres</a></p>

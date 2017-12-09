@@ -3,6 +3,7 @@
   categories: 
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/openpsa2-calendar-week.jpg'
 
 ---
 [OpenPSA][1] rewrite to the [MgdSchema][2] database back-end and [MidCOM][3] component architecture is progressing well. The current goal is to release a feature-limited alpha next week to get more feedback. Before that, here are some quick screenshots:

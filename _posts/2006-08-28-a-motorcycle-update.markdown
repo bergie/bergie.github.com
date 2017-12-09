@@ -3,6 +3,7 @@
   categories: 
     - "motorcycles"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/triumph-on-georgian-military-highway.jpg'
 
 ---
 While I was riding [with the Monkeys][1], my [Triumph Legend TT][2] left a friend on the road with a broken engine. As the number of motorcycles in Finland has [grown drastically][3] in last few years, but the number of repair shops hasn't, the bike has since been waiting for diagnosis.

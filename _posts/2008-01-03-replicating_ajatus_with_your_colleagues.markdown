@@ -3,6 +3,7 @@
   categories: 
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/beam-accept-connections-leopard-tm.jpg'
 
 ---
 <a href="http://bergie.iki.fi/blog/previewing_ajatus-the_distributed_crm/">I've mentioned before</a> that <a href="http://www.ajatus.info/">Ajatus</a> is a P2P CRM, but what does that mean? It means that Ajatus has been <a href="http://www.ajatus.info/documentation/ajatus_manifesto/">designed</a> to be a personal tool for information management, but that is has also been designed to help you connect with anyone you need to work with.

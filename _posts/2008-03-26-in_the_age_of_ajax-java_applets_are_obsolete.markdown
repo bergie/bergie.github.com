@@ -3,6 +3,7 @@
   categories: 
     - "oscom"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/sampo-verkkopankki-firefox3-tm.jpg'
 
 ---
 <p>

@@ -4,6 +4,7 @@
     - "motorcycles"
     - "politics"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Tymoshenko_rides.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/Tymoshenko_rides.jpg" border="0" height="289" width="200" alt="Yulia Tymoshenko on a bike" align="right" />

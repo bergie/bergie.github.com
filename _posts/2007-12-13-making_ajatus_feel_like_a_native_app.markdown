@@ -4,6 +4,7 @@
     - "desktop"
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/fluid-ajatus-tm.jpg'
 
 ---
 <a href="http://www.ajatus.info/">Ajatus</a>, our new <a href="http://bergie.iki.fi/blog/previewing_ajatus-the_distributed_crm/">distributed CRM app</a> is evolving very quickly. For example, this week <a href="http://jaiku.com/channel/ajatus/presence/20513937">we got</a> form validation and <a href="http://blog.shivku.com/2007/04/usability-auto-saving-users-work.html">auto-saving</a> support, and there has been talk of supporting binary file attachments.

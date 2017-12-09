@@ -3,6 +3,7 @@
   categories: 
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/amazon-kindle.jpg'
 
 ---
 <p style="text-align:right;"><img src="https://d2vqpl3tx84ay5.cloudfront.net/amazon-kindle.jpg" height="223" width="280" border="0" align="right" hspace="4" vspace="4" alt="Amazon-Kindle" /></p><a href="http://www.amazon.com/gp/product/B000FI73MA/?tag=bergiesweblog-20">Amazon's e-book reader Kindle</a> was <a href="http://gizmodo.com/gadgets/amazon-kindle-live/amazon-kindle-e+book-reader-launch-live-324292.php">launched today</a>, and <a href="http://blog.rlove.org/2007/11/firewood.html">it</a> <a href="http://gadgets.boingboing.net/2007/11/19/15-things-i-just-lea.html">looks</a> <a href="http://webworkerdaily.com/2007/11/19/amazons-kindle-business-model-is-the-wrong-way-to-go/">quite</a> <a href="http://gizmodo.com/gadgets/amazon-kindle-answers/amazon-kindle-hands+on-and-questions-answered-gallery-324375.php">interesting</a>:

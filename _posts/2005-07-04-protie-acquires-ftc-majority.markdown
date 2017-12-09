@@ -3,6 +3,7 @@
   categories: 
     - "business"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/ftc-100.png'
 
 ---
 <a href="http://www.ftc.fi/"><img src="https://d2vqpl3tx84ay5.cloudfront.net/ftc-100.png" border="0" height="107" width="100" alt="Finnish Teleservice Center" align="right" /></a>

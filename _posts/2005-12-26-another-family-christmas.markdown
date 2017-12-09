@@ -3,6 +3,7 @@
   categories: 
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Kerttu_Reetta_Christmas_2005.jpg'
 
 ---
 We had the traditional Xmas party last night, and despite [Joe's earlier angst][1] almost the whole family attended, including [Joe Suicide][2], [Johnnie-Boy][12] and our favorite rock star, Skoll of [Surma][3] fame. [Jay Surfer][4] was planning to come, but got lost somewhere in the way between [Vallila][5] and [Ullanlinna][6].

@@ -3,6 +3,7 @@
   categories: 
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/openpsa-directmarketing-campaign.jpg'
 
 ---
 Despite some [schedule setbacks][6], [we've][7] been recently working on a new component to handle direct marketing in [OpenPsa][1]. Previously the _Campaigns_ mass mailer was integrated in the contact manager, and [was used][3] with some large campaigns including the [Telvis awards][2].

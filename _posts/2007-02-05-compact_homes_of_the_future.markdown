@@ -3,6 +3,7 @@
   categories: 
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/microcompacthome-smart.jpg'
 
 ---
 Now that <a href="http://bergie.iki.fi/blog/personalized_street_advertisements/">advertisements recognize you</a>, <a href="http://www.autoblog.com/2007/01/31/commence-holding-breath-x-hawk-flying-car-could-be-here-by-2010/">flying cars</a> are coming, and <a href="http://en.wikipedia.org/wiki/Casino_Royale_%282006_film%29">a Bond movie</a> mostly uses <a href="http://en.wikipedia.org/wiki/List_of_James_Bond_gadgets#Casino_Royale_.282006_version.29">off-the-shelf technology</a>, we can say <a href="http://www.retrofuture.com/" title="The future the way it was sold to us">the future</a> is really here.

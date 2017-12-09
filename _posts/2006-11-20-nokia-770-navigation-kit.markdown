@@ -3,6 +3,7 @@
   categories: 
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/770-navicore-personal.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/770-navicore-personal.jpg" border="0" height="117" width="200" alt="Navicore Personal on 770, image from Nokia.com" title="Navicore Personal on 770, image from Nokia.com" align="right" hspace="6" />

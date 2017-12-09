@@ -4,6 +4,7 @@
     - "midgard"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Piotras_explains_Midgard_fashionability.jpg'
 
 ---
 [We][1] spent the last two days driving from Helsinki to [Poznan][3], Poland for the [Midgard Developer Meeting][2]. This proved to be a good field test for [Maemo 2.0][14] as we needed to instruct people back home about some project details using [Google Talk][15].

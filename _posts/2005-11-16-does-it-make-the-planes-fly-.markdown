@@ -2,7 +2,9 @@
   title: "Does it make the planes fly?"
   categories: 
     - "midgard"
+    - "flying"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/DC3_and_Ju52_on_EFHF.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/DC3_and_Ju52_on_EFHF.jpg" border="0" height="132" width="200" alt="DC-3 and Ju-52" title="Airveteran DC-3 and Lufthansa Ju-52 on top of Helsinki-Malmi airport" style="margin-left: 10px;" align="right" />

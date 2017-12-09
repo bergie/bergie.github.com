@@ -5,6 +5,7 @@
     - "life"
     - "motorcycles"
   layout: "post"
+  cover: 'https://farm1.staticflickr.com/88/231709489_b921d8c745_z_d.jpg?zz=1'
 
 ---
 I've again gotten quite backlogged with publishing photos from various adventures. Today I fortunately had time to push tree sets [on Flickr][1]:

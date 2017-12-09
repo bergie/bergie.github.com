@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Joao_translating_slides.jpg'
 
 ---
 I had my [Midgard tutorial][1] in [Fórum GNOME][2] today, and it turned out to be a near disaster. English is not very widely spoken in [Brazil][3], and my audience couldn't really follow my talk. 

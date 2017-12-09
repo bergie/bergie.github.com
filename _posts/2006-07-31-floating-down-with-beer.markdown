@@ -3,6 +3,7 @@
   categories: 
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Kaljakellunta_2006_Janos_AK_small.jpg'
 
 ---
 Last saturday we participated in the [Kaljakellunta][1] - beer floating event. The day was spent in perfect weather floating with hundreds of dinghies and other improvised rafts down the [Keravanjoki][2] river from [Heureka science center][3].

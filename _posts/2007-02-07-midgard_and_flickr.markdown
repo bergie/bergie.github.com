@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/photostream-flickr-import-latest.jpg'
 
 ---
 While my site is publishing a lot of photos, <a href="http://www.flickr.com/photos/bergie/">I'm using Flickr</a> as my central photo storage location. The reason for this is simple:

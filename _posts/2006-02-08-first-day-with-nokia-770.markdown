@@ -3,7 +3,9 @@
   categories: 
     - "mobility"
     - "tablet"
+    - "gear"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/770-deathmonkey-small.jpg'
 
 ---
 I had the [Nokia 770][8] web browser device [waiting on my desk][13] as I returned from [South Africa][7]. 770 is a nice, small, [Linux-powered][9] internet appliance that is able to utilize either a WLAN connection, or mobile phone's connection via Bluetooth.

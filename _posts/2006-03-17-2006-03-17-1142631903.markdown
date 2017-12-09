@@ -3,6 +3,7 @@
   categories: 
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Bergie_grand_canyon.jpg'
 
 ---
 __2006-03-18 02:25Z:__ Rolling on prairie powered by beef jerky. We left Dallas in the morning and found sun after Amarillo. No tumbleweed yet.

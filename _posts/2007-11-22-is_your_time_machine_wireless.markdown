@@ -3,6 +3,7 @@
   categories: 
     - "desktop"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/time-machine.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/time-machine.jpg" height="190" width="200" border="1" align="right" hspace="10" vspace="4" alt="Time-Machine" />

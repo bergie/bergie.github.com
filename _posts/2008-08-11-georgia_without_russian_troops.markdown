@@ -3,6 +3,7 @@
   categories: 
     - "politics"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Georgian_and_Finnish_flags_parliament-tm.jpg'
 
 ---
 <p>

@@ -3,6 +3,7 @@
   categories: 
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/openpsa2-business-card-skype.jpg'
 
 ---
 We're in process of making a new beta release of [OpenPsa 2][1]. While there are new major features like sales project management and phone interview support, I wanted to also mention some of the small things that are happening.

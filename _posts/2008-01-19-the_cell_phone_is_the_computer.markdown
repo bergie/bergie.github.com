@@ -4,6 +4,7 @@
     - "mobility"
     - "politics"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/driving_in_lesotho.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/driving_in_lesotho.jpg" height="181" width="300" border="1" align="right" hspace="8" vspace="4" alt="Driving In Lesotho" />

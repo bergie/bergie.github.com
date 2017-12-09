@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midcom-edit-page-change-schema.jpg'
 
 ---
 [MidCOM datamanager][1] allows you to have multiple page types, or schemas used in a folder. The schemas can provide different editable fields and different styling. 

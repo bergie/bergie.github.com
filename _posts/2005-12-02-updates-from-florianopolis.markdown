@@ -4,6 +4,7 @@
     - "flying"
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Morretes_river.jpg'
 
 ---
 Here are some updates while reading the news in the [SOLISC][1] speakers' room: Yesterday's session on [DBE][2] went well, with [Anahuac][3] doing the translation. The session was held in a slot shared with Izabel's [GNOME][4] talk. After the days' programs we returned to the [Dolphin House][5] for dinner.

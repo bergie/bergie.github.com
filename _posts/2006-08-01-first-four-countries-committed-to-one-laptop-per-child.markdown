@@ -4,6 +4,7 @@
     - "desktop"
     - "politics"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/olpc_orange_small.jpg'
 
 ---
 According to the [DesktopLinux.com article][1], Nigeria, Brazil, Argentina, and Thailand have each now ordered a million 100$ laptops for use in education.

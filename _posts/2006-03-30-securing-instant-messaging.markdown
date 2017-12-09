@@ -3,6 +3,7 @@
   categories: 
     - "desktop"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/psi-encrypted-chat.jpg'
 
 ---
 For quite a while [we][1] have been using [IRC][2] for instant messaging and company internal chat. IRC is handy for it, especially as we've been able to set up some bots to secure our own channels.

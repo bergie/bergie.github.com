@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midcom-2-6-login-screen-small.jpg'
 
 ---
 I've just committed the new login screen styling for [Midgard CMS][1] into the SVN repository.

@@ -3,6 +3,7 @@
   categories: 
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/maemocamera_38_36_13-230307.jpg'
 
 ---
 Via <a href="http://test.maemo.org/support/irc.html">#maemo</a> I heard that there is a Nokia-made camera application for the N800. Here's a quick first picture from <a href="http://beta.plazes.com/plaze/8703e6abbdf27e13fd548fc1c8c79275/">the office</a>:

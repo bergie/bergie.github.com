@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midcom-styleeditor-edit-template-menu.jpg'
 
 ---
 <a href="http://www.midgard-project.org/">Midgard</a> has a very powerful page templating system, and <a href="http://bergie.iki.fi/blog/cms-watch-kudos-of-2005/">this has been noted</a> in <a href="http://www.cmswatch.com/">CMS Watch</a> kudos lists several times.

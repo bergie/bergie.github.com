@@ -5,6 +5,7 @@
     - "desktop"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Guadec_2008_GeoClue_map.jpg'
 
 ---
 <p>

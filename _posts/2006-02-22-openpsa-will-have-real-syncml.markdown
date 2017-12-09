@@ -4,6 +4,7 @@
     - "mobility"
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/outlook-sync4j-settings-small.jpg'
 
 ---
 We have just contracted [Yukatan][1] to work on integrating [SyncML][7] support into [OpenPsa 2][2]. The idea is to enable users to synchronize their web-based calendar and contact registry with cell phones, PDAs and [Outlook][3].

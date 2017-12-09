@@ -3,6 +3,7 @@
   categories: 
     - "flying"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/skysail.png'
 
 ---
 It seems that with the <a href="http://en.wikipedia.org/wiki/Peak_oil">rising oil prices</a> the <a href="http://en.wikipedia.org/wiki/Age_of_Sail">Age of Sail</a> is returning, even if in a modified format. <a href="http://www.skysails.info/index.php?L=1">SkySails</a> is a system that enables freighters to tap into high-altitude winds with a <a href="http://en.wikipedia.org/wiki/Power_kite">power kite</a> to reduce fuel consumption.

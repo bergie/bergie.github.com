@@ -3,6 +3,7 @@
   categories: 
     - "geo"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/plazecamp.jpg'
 
 ---
 I've spent today in the <a href="http://plazes.com/plazes/87873_plazes_hq">Plazes headquarters</a> in Berlin attending the <a href="http://plazecamp.com">PlazeCamp</a> developer event. <a href="http://plazes.com/home">Plazes</a> is a social website that connects WiFi networks with geographical positioning and can be used for <a href="http://plazes.com/activities/5841109_ruk_at_plazes_hq">event coordination</a> and as <a href="http://vilunki.wordpress.com/2007/08/02/going-plazes/">a location source</a> for various services.

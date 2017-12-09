@@ -3,6 +3,7 @@
   categories: 
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/maemo-os-2006beta.jpg'
 
 ---
 I've just downloaded the [Internet Tablet OS 2006 edition Beta][1] to my [Nokia 770][2]. The software feels a lot faster, and the [new features][3] are really cool.

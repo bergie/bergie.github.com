@@ -3,6 +3,7 @@
   categories: 
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/dbe-serviceid-openpsa-person.jpg'
 
 ---
 I'm writing this in the [DBE Project Review][2] in [chilly][1] Tampere. Looking at lot of the presentations, it seems to be a common view that actual end-user businesses would be using tools like the [DBE Studio][3] to model their business and services.

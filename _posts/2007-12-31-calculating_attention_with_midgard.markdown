@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/apml-icon-128x128.png'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/apml-icon-128x128.png" height="128" width="128" border="0" align="right" hspace="8" vspace="4" alt="APML" title="APML" />

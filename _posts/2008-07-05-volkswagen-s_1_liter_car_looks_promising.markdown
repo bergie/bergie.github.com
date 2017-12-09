@@ -3,6 +3,7 @@
   categories: 
     - "motorcycles"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/volkswagen-1-liter.jpg'
 
 ---
 <p>

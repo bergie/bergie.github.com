@@ -3,6 +3,7 @@
   categories: 
     - "politics"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/finnish-e-passport.jpg'
 
 ---
 [Guardian reports][1] that the British RFID passports are now cracked, meaning that their information can be remotely read, and the [passport copied][2]:

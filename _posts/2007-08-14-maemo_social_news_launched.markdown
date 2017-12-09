@@ -4,6 +4,7 @@
     - "midgard"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/maemo-socialnews-bestof.jpg'
 
 ---
 Today has been a big day for <a href="http://maemo.org/">maemo.org</a>: not only was the <a href="http://protoblogr.net/blog/view/maemo_community_calendar.html">Maemo Community Calendar</a> released for <a href="http://protoblogr.net/blog/view/calendar_beta_published.html">beta testing</a>, but we also launched the new <a href="http://maemo.org/news">Social News section</a> on the site. Social news is an area where users can easily with one glance see all interesting things happening at the moment in the maemo world.

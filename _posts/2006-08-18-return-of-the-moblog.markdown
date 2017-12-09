@@ -4,6 +4,7 @@
     - "life"
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/bergie-moblog-20060818.jpg'
 
 ---
 [My moblog][1] hasn't been updated since [GUADEC last July][2], and some relatives have already been asking about it. The reason why I haven't updated is that I switched to the  [Nokia N90][3] camera phone, and the email format it uses makes [Mail_mimeDecode][4] fail.

@@ -5,6 +5,7 @@
     - "midgard"
     - "openpsa"
   layout: "post"
+  cover: 'https://farm1.staticflickr.com/105/315937171_38f9260fff_z_d.jpg'
 
 ---
 Now, this one has been on my TODO list [for a while][1]: 

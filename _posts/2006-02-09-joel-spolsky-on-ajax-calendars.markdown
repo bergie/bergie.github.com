@@ -3,6 +3,7 @@
   categories: 
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/openpsa-calendar-createevent.jpg'
 
 ---
 There is a new [Joel on Software post about calendars][1]. Lets see how the [OpenPsa 2 calendar][2] fares with his feature requirements:

@@ -3,6 +3,7 @@
   categories: 
     - "desktop"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/dday_badge_fox.png'
 
 ---
 <p>

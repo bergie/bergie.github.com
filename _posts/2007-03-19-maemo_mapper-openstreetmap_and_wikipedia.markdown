@@ -4,6 +4,7 @@
     - "geo"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/maemomapper-wikipedia-poi-detail.jpg'
 
 ---
 <a href="http://downloads.maemo.org/product/maemo-mapper/">Maemo Mapper</a> is a map browsing and GPS navigation application for the <a href="http://www.nokiausa.com/internettablet">Nokia Internet Tablets</a>. So far this useful application has been in the legal grey area by relying on providers like Google Maps and Microsoft Virtual Earth for its map tiles. This <a href="http://wiki.openstreetmap.org/index.php/FAQ#Why_don.27t_you_just_use_Google_Maps.2Fwhoever_for_your_data.3F">probably violates their terms of service</a> and may cause problems later on.

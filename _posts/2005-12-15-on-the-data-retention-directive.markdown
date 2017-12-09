@@ -3,6 +3,7 @@
   categories: 
     - "politics"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/data-retention-is-no-solution.gif'
 
 ---
 <div style="text-align: center;"><a href="http://www.dataretentionisnosolution.com/"><img src="https://d2vqpl3tx84ay5.cloudfront.net/data-retention-is-no-solution.gif" border="0" height="60" width="468" alt="Data retention is no solution" /></a></div>

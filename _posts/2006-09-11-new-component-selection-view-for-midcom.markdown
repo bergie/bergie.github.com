@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midcom-2.6-create-folder-small.jpg'
 
 ---
 [MidCOM][1], the component framework used in [Midgard CMS][2] is rapidly approaching _2.6 stable_, and a lot of minor improvements are trickling in. These include a drag-and-drop way to reorganize navigation items and a new view listing MidCOM contributors.

@@ -3,6 +3,7 @@
   categories: 
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/openpsa2-calendar-notification-management.jpg'
 
 ---
 Another [minor feature][1] worth mentioning about: We today added a [notification manager][2] into the [OpenPsa 2][3] system.

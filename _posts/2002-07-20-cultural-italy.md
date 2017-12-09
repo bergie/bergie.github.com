@@ -4,6 +4,7 @@ location: Val de Isere, France
 layout: post
 categories:
   - motorcycles
+cover: 'https://farm8.staticflickr.com/7789/17341059680_0c7baca1f7_z_d.jpg'
 ---
 The morning came with a cloudy sky. We packed our tent and countinued to Verona. At he first bigger town (Egna - Neumarket) we stopped at a Supermercado to get some breakfast which we ate at a parking lot. The terrain slowly started to be flatter there were still nice twisty roads. After driving by a few castles we stopped at one some 40 kilometers from Verona (Caste del Aero). The place had of course been prpared for tourists but nevertheless it was a nice old castle with lots of potential for good parties and excellent view of the Trentino valley.
 

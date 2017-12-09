@@ -4,6 +4,7 @@
     - "life"
     - "politics"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/delacroix-liberty-leading-people.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/delacroix-liberty-leading-people.jpg" border="0" height="274" width="200" alt="Eug&egrave;ne Delacroix - La libert&eacute; guidant le peuple" style="margin-left: 8px" title="Eug&egrave;ne Delacroix - La libert&eacute; guidant le peuple" align="right" />

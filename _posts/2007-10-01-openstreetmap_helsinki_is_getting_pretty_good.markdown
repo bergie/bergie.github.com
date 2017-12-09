@@ -3,6 +3,7 @@
   categories: 
     - "geo"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/osm-kampinkeskus-20071005-mapnik-tm.jpg'
 
 ---
 <a href="http://openstreetmap.org/">OpenStreetMap</a> is a project for collaboratively creating <a href="http://wiki.openstreetmap.org/index.php/FAQ#Why_are_you_making_OpenStreetMap.3F">open content digital maps of the world</a>. It follows a Wikipedia-like model where interested contributors can go out with GPS receivers, and then <a href="http://wiki.openstreetmap.org/index.php/Beginners%27_Guide">turn those track logs into usable map content</a>. And like Wikipedia, it is exploding in the amount of content and quality.

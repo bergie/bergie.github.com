@@ -3,6 +3,7 @@
   categories: 
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/google-maps-texas-california.jpg'
 
 ---
 We will have a quite interesting drive from [Dallas][1] to [EclipseCon][2] next week:

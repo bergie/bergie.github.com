@@ -4,6 +4,7 @@
     - "mobility"
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/ajatus-on-fluid-1-tm.jpg'
 
 ---
 <p>

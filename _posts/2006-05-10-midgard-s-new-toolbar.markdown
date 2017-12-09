@@ -4,6 +4,7 @@
     - "midgard"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midcom-toolbar-770.jpg'
 
 ---
 [Arttu][1] and others at the office are now [tuning the Midgard UI][2] with these goals

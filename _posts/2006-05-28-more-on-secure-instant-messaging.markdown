@@ -3,6 +3,7 @@
   categories: 
     - "desktop"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/adium-otr-encryption.jpg'
 
 ---
 [We][1] have now been using [Jabber][21] and [Psi][2] for [secure instant messaging][3] with client and partners for some months. However, I haven't been completely happy with this setup for several reasons:

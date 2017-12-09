@@ -4,6 +4,7 @@ location: Prague, Czech Republic
 layout: post
 categories:
   - motorcycles
+cover: 'https://farm9.staticflickr.com/8687/16908304023_949cc7ab48_z_d.jpg'
 ---
 In the morning we attacked the twisty road 11 towards Prague. At places the road had splendid hairpin turns where the Ducati and Triumph really were at their best. The Ural was also doing OK, but with the Russian tyres some of the turns were quite difficult. Scenery was simply splendid with lots of rolling green hills and forests.
 

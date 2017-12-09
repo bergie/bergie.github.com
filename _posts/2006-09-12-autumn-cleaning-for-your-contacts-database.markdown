@@ -3,6 +3,7 @@
   categories: 
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/openpsa_contacts_duplicate_merge_small.jpg'
 
 ---
 I've just [uploaded][4] [Rambo's][1] latest improvement to [OpenPsa Contacts][2]: The ability to find and merge duplicate contact persons.

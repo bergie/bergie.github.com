@@ -4,6 +4,7 @@
     - "desktop"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/goodbye_im.png'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/goodbye_im.png" border="0" height="96" width="96" alt="Goodbye proprietary IM" title="Goodbye proprietary IM" align="right" />

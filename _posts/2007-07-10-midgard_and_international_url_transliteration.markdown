@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/utf8-transliteration-tests.jpg'
 
 ---
 <a href="http://www.midgard-project.org/">Midgard</a> has been an early supporter of <a href="http://www.midgard-project.org/documentation/concepts-i18n/">internationalization in open source CMSs</a>, adding UTF-8 support already in 1999. Today I however got an innocent request:

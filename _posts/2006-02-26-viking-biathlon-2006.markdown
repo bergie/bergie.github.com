@@ -3,6 +3,7 @@
   categories: 
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Hiidenhirven_kerttu_shoots.jpg'
 
 ---
 Kerttu was skiing in the [Harmaasudet][1] team, and so I went to watch the [Hiidenhirven hiihto][2] ancient biathlon contest. The tradition has been bringing together [Living History][3] groups from all over Finland every winter [since 1999][4].

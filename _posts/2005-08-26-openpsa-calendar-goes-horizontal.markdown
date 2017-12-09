@@ -3,6 +3,7 @@
   categories: 
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/openpsa-calendar-horizontal2.jpg'
 
 ---
 After a bit of thought we've returned the [Group Calendar module][1] of [OpenPsa 2][2] to using horizontal layout for days. The [earlier versions][3] used a vertical layout designed with [Tigert][4] that proved to be a problem with larger number of resources. This should solve the scalability issue:

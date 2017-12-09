@@ -3,6 +3,7 @@
   categories: 
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/openpsa2-calendar-subscription.jpg'
 
 ---
 [This tuesday][2] was the "[day of the beast][1]", and [we][4] decided to finally [eat our own dogfood][3] and deploy __[OpenPsa 2][5]__ into production.

@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/ragnaroek-midcom-icons-credits-tm.jpg'
 
 ---
 <p>

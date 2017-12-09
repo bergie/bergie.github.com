@@ -4,6 +4,7 @@
     - "geo"
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midgard-positioning-distances-test.jpg'
 
 ---
 I've committed the first working version of [Midgard's geopositioning system][1] into CVS today. The library makes it really easy to add location information to users and objects, and to find things that are close to each other.

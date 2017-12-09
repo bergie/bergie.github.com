@@ -3,6 +3,7 @@
   categories: 
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/bergie_haydarpasa_summer-200x200.jpg'
 
 ---
 <p>

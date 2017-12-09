@@ -4,6 +4,7 @@
     - "midgard"
     - "oscom"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/OSCOM-official.png'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/OSCOM-official.png" border="0" height="119" width="307" alt="OSCOM" align="right" />

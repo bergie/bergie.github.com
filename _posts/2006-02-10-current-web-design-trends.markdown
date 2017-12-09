@@ -3,6 +3,7 @@
   categories: 
     - "oscom"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/current-web-design-analysis-images.jpg'
 
 ---
 [Web Design from Scratch][1] has a pretty good analysis of the [current style in web design][2]:

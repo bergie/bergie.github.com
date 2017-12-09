@@ -3,6 +3,7 @@
   categories: 
     - "motorcycles"
   layout: "post"
+  cover: 'https://farm1.staticflickr.com/79/231697694_e0852ffdfe_z_d.jpg'
 
 ---
 My <a href="http://www.flickr.com/photos/bergie/tags/skoll">good friend Skoll</a> recently <a href="http://www.routamc.org/europe2007/view/riding-horses-made-of-steel.html">wrote of the motorcycling life</a>:

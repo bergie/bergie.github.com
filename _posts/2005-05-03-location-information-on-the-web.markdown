@@ -4,6 +4,7 @@
     - "geo"
     - "oscom"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/geourl.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/geourl.jpg" border="0" height="83" width="112" alt="geourl.jpg" title="Site locations on the GeoURL map" align="right" />

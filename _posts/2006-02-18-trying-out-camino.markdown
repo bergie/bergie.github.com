@@ -3,6 +3,7 @@
   categories: 
     - "desktop"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/camino-openpsa-calendar.jpg'
 
 ---
 [Camino][1] is the [Mozilla family][2] browser tailored for Mac desktop. Version 1.0 was released on Feb 14th, and I'm now trying it as a new default browser to replace [Firefox][3]:

@@ -3,6 +3,7 @@
   categories: 
     - "motorcycles"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Triumph_Legend_in_Kiev.jpg'
 
 ---
 In what is becoming a regular [spring][1] [ritual][2], the [Triumph Legend][3] is again having electric problems, this time with the starter engine.

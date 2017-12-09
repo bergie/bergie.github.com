@@ -4,6 +4,7 @@
     - "flying"
     - "politics"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Landing-to-EFHF-with-OH-PRT.jpg'
 
 ---
 [The Supreme Administrative Court][1] has ruled that Lord Mayor [Jussi Pajunen][2] was disqualified to decide the fate of the historic [Helsinki-Malmi airport][3]. [Helsingin Sanomat reports][4]:

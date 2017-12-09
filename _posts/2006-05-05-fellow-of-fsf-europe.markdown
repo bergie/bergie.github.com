@@ -3,6 +3,7 @@
   categories: 
     - "politics"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/fellow_me_for_a_free_information_society_banner_imagelarge.png'
 
 ---
 I met the [Free Software Foundation Europe][1] president [Georg Greve][2] in the [FISL 7.0][3] conference two weeks ago. Seems like the organization is doing lots of good fighting [software patents][4] and other threats here in [Europe][5].

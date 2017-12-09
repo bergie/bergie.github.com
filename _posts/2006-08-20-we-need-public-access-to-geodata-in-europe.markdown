@@ -4,7 +4,9 @@
     - "midgard"
     - "mobility"
     - "politics"
+    - "geo"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/geodata-banner.png'
 
 ---
 [Public Geo Data][1] is sending an [open letter][2] to the [European council of environment ministers][3] to request that the access to geographical databases would be [opened to the public][4]. While [some data][7] is open and available, we're still [far behind the US][9] in this issue.

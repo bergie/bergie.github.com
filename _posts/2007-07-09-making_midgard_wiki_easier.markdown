@@ -4,6 +4,7 @@
     - "midgard"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/wiki-preview.jpg'
 
 ---
 Since <a href="http://maemo.org/">Maemo.org</a> started using the <a href="http://www.midgard-project.org/documentation/net-nemein-wiki/">Midgard wiki component</a> there <a href="http://lists.maemo.org/pipermail/maemo-developers/2007-July/thread.html#10760">has been discussion</a> on whether it is feature-complete or easy enough to use. Main complaints have been about the <a href="https://bugs.maemo.org/show_bug.cgi?id=1539">"latest changes" view</a> not supporting sub-wikis and <a href="https://bugs.maemo.org/show_bug.cgi?id=1590">missing Markdown documentation</a>.

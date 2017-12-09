@@ -3,6 +3,7 @@
   categories: 
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/openpsa20_sales_firstscreen.jpg'
 
 ---
 The development of [version 2.0][1] of [OpenPSA][2], an open source management system for consultancies is now moving rapidly forward. Contrary to [original plans][3], the system is being written using the [MidCOM][4] component architecture.

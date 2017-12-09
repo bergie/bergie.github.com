@@ -4,6 +4,7 @@
     - "midgard"
     - "oscom"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midgard-openid-login-initial-1.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/OpenID.jpg" height="60" width="160" border="0" align="right" hspace="8" vspace="4" alt="OpenID" title="OpenID" style="float: right;" />

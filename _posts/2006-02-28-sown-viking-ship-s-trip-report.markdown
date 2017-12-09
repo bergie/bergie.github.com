@@ -3,6 +3,7 @@
   categories: 
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Shjaka_sailing.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/shnjaka-route.jpg" border="0" height="380" width="150" alt="Route of the Shnjaka" style="float: right; margin-left: 10px;" />

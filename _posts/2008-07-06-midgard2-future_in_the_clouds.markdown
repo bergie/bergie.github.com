@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midgard2-cloud-processing-tm.jpg'
 
 ---
 <p style="text-align:right;">

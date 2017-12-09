@@ -4,6 +4,7 @@
     - "life"
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Suomenlinna_Nata_Kerttu.jpg'
 
 ---
 Finally the summer has started here in Finland and it is warm enough to spend time at the [summer cottage][15] and swim in the lake. At the same time, my trusty [Triumph Legend][18] is again running after its [starter problems][19]. Big thanks to [Mp-Asennus.com][20], especially as they installed the Kawasaki starter ahead of schedule and under budget!

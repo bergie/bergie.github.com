@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midcom3-on-midgard2-and-lighttpd-tm.jpg'
 
 ---
 <p>

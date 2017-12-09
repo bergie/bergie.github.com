@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/vectormagic-midgard1-tm.jpg'
 
 ---
 <a href="http://vectormagic.stanford.edu/">VectorMagic</a> from Stanford University Artificial Intelligence Laboratory is a pretty interesting tool. You upload a bitmap image, give a few parameters about it, and you get a vectorized version back.

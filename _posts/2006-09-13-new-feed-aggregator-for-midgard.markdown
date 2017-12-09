@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/net_nemein_rss_manage_small.jpg'
 
 ---
 [Midgard CMS][1] has had an integrated [RSS and Atom aggregator][2] for several years. It has been used for both bringing simple news feeds to portal sites, and for [Planet-like][3] large-scale blog aggregation.

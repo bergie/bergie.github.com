@@ -4,6 +4,7 @@ location: Augustow, Poland
 layout: post
 categories:
   - motorcycles
+cover: 'https://farm8.staticflickr.com/7735/17526392332_3d79570626_z_d.jpg'
 ---
 We left Pärnu on monday morning and started the slow progress towards Riga. The main roads here have very low speed limits, ranging from 60 to 90 km/h. Of course, anything faster would probably have been uncomfortable on Skoll's Ural.
 

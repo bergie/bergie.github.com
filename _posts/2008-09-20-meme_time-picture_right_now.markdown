@@ -4,6 +4,7 @@
     - "life"
     - "desktop"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/photo_booth_bergie_in_saha_dojang-tm.jpg'
 
 ---
 <p>

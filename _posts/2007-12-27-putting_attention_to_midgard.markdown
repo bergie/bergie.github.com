@@ -4,6 +4,7 @@
     - "midgard"
     - "oscom"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/apml-flow.jpg'
 
 ---
 <a href="http://en.wikipedia.org/wiki/Information_overload">Information overload</a> is <a href="http://news.wired.com/dynamic/stories/T/TECHBIT_INFORMATION_OVERLOAD?SITE=WIRE&amp;SECTION=HOME&amp;TEMPLATE=DEFAULT&amp;CTIME=2007-12-26-10-12-23">becoming a major issue</a>, and more sophisticated solutions will be needed to tackle it. With <a href="http://www.midgard-project.org/">Midgard</a> we've already taken some steps into this space by creating tools for <a href="http://bergie.iki.fi/blog/calculating_news_item_relevance/">calculating newsworthiness of stories</a> in order to present <a href="http://bergie.iki.fi/blog/maemo_social_news_launched/">only relevant ones</a> to a user.

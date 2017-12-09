@@ -4,6 +4,7 @@
     - "mobility"
     - tablet
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/jyrki_outi_n800-tm.jpg'
 
 ---
 <p>

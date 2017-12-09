@@ -3,7 +3,9 @@
   categories: 
     - "desktop"
     - "midgard"
+    - "gear"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/_press_yubikeys_creditcard.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/_press_yubikeys_creditcard.jpg" height="210" width="240" border="0" align="right" hspace="6" vspace="4" alt="Yubikey and a credit card" title="Yubikey and a credit card" />

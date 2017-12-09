@@ -3,6 +3,7 @@
   categories: 
     - "motorcycles"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Riding_season_2006_starts.jpg'
 
 ---
 A couple days ago the world was [full of snow][1], but now the weather has cleared and we can ride again!

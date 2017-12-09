@@ -4,6 +4,7 @@
     - "desktop"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/skype-15-beta.jpg'
 
 ---
 While I [appreciate][1] the fact that [Gizmo][2] uses [open standards][3] for internet telephony, and that it is available for my [Nokia 770][4], it still has to be mentioned that [its user interface][5] has a lot to learn from the [latest Skype beta][6]. You just have to love the simple, purpose-driven UI:

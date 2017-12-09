@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Midgard_messenger_bag.jpg'
 
 ---
 There is a post on [Tapestry plug-in weblog][1] analyzing the participants of the [EclipseCon Open Source Pavilion][2]. The post is a bit doubtful on [Midgard's][3] participation:

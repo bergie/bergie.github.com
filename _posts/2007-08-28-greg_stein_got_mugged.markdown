@@ -4,6 +4,7 @@
     - "life"
     - "oscom"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/michael_wechner_and_greg_stein.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/michael_wechner_and_greg_stein.jpg" height="311" width="300" border="0" align="right" hspace="8" vspace="4" alt="Michael Wechner and Greg Stein" title="Michael Wechner and Greg Stein" style="float: right;" />

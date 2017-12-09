@@ -5,6 +5,7 @@
     - "life"
     - "motorcycles"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/2008-09-27_bergie_proud_geohasher-tm.jpg'
 
 ---
 <p>

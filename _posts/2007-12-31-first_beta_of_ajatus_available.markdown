@@ -3,6 +3,7 @@
   categories: 
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/ajatus-0.5.0-launch-champagne.jpg'
 
 ---
 Barely made it in December, but first beta of <a href="http://www.ajatus.info/">Ajatus</a>, the distributed CRM is <a href="http://www.ajatus.info/download/ajatus_0_5_0.html">now available</a>. Enjoy!

@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midcom-2.6-metadata-pl-small.jpg'
 
 ---
 I drove from [Turku][1] to [Helsinki][2] early in the morning with a Land Rover that didn't have headlights. Since then have been hunting performance issues in [latest beta][5] of [MidCOM][3] - the component architecture used by [Midgard CMS][4].

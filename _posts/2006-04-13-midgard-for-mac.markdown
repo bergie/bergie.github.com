@@ -4,6 +4,7 @@
     - "desktop"
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/darwinports-installer.jpg'
 
 ---
 Thanks to [Jyrki Wahlstedt][1] there is now a new way to install [Midgard CMS][2] on a Mac: [DarwinPorts][3].

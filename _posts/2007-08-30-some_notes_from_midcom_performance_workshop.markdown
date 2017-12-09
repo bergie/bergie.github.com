@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/jerry_and_bugless_macbook.jpg'
 
 ---
 Today we've been hacking [in the woods][1] as part of the [MidCOM Performance Sprint][2]. Together with yesterday's [bug day][3] this has resulted in [quite a few commits][4].

@@ -3,6 +3,7 @@
   categories: 
     - "flying"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/one-six-right.jpg'
 
 ---
 [One Six Right][1], the documentary about the [Van Nuys][2] [General Aviation][3] airport in Los Angeles is [available on Google Video][4] (__Updated: not available__)

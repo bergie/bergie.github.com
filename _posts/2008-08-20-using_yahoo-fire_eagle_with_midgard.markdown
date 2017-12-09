@@ -4,6 +4,7 @@
     - "midgard"
     - "geo"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/yahoo-fireeagle-20080820-tm.jpg'
 
 ---
 <p>

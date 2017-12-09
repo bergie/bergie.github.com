@@ -5,6 +5,7 @@
     - "life"
     - "motorcycles"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/iphoto-flickr-exporter.jpg'
 
 ---
 I've been totally swamped by the number of photos taken during the last eight months of travel, and am lagging badly behind on [publishing the photos][1]. To help sort things out, I've now registered a [Flickr account][2].

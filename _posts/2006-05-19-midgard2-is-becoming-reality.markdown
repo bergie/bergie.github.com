@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Alexander_explains_Midgard2.jpg'
 
 ---
 [Piotras remarked][1] that the process started in [East European Midgard Developer Meeting][2] three years ago to build a __Midgard 2__ on top of the [glib][3] library is now [a reality][4].

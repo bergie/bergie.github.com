@@ -3,6 +3,7 @@
   categories: 
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Bergie_in_La_Pedreira.jpg'
 
 ---
 Traditionally Finns spend the [Midsummer][12] in the countryside, and we usually follow suit. However, this midsummer both of the summer cottages were booked so we decided to take the weekend easy.

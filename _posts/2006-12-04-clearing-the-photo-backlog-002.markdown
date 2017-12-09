@@ -4,6 +4,7 @@
     - "life"
     - "midgard"
   layout: "post"
+  cover: 'https://farm1.staticflickr.com/102/309651213_88fd0c70cb_z_d.jpg'
 
 ---
 Like in some [earlier][1] [situations][2], I've again gotten a bit backlogged with publishing my photos. In any case, here are some new sets on [Flickr][3]:

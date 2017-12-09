@@ -3,6 +3,7 @@
   categories: 
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Cape_Town_Fire_2006.jpg'
 
 ---
 Slopes of the [Table Mountain][2] and [Signal Hill][3] bordering the city of [Cape Town][4] have [been on fire][5] since yesterday afternoon. Yesterday the smoke cloud covered the whole city centre, making the sun appear only as a thin red disc in the sky.

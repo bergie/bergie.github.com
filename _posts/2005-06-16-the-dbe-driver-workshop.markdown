@@ -3,6 +3,7 @@
   categories: 
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/dbe-driver-workshop.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/dbe-driver-workshop.jpg" border="0" height="195" width="260" alt="dbe-driver-workshop.jpg" align="right" />

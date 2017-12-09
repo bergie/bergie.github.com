@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midcom3-webdav-browse-20080626-tm.jpg'
 
 ---
 <p>

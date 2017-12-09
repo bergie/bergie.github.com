@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/nullcomponent-phpinfo.jpg'
 
 ---
 <a href="http://www.midgard-project.org/documentation/midcom">MidCOM</a>, the PHP framework for <a href="http://www.midgard-project.org/">Midgard CMS</a> has <a href="http://pear.midcom-project.org/">over hundred components</a> for various purposes ranging from <a href="http://www.iade.fi/iade/blog/">blogging</a> to <a href="http://en.wikipedia.org/wiki/Waste_management">waste management</a> statistics. But even with all of them it is sometimes useful to embed some custom PHP scripts to a site. The old method of doing this was using a custom style for a folder and including PHP files there, which was a bit awkward.

@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/thumbs-up.jpg'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/thumbs-up.jpg" height="298" width="187" border="0" align="right" hspace="8" vspace="4" alt="Vali likes the Content Cache" title="Vali likes the Content Cache" />

@@ -4,6 +4,7 @@
     - "geo"
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/genetic-map-of-europe-finns-apart.jpg'
 
 ---
 <p>

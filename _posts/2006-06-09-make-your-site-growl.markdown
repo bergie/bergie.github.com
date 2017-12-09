@@ -4,6 +4,7 @@
     - "midgard"
     - "oscom"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/protoGrowl-beta-small.jpg'
 
 ---
 [Growl][1] is a very nice notification system for [Mac OS X][2]. It displays bubble-styled messages on the screen about various events like new instant messages or emails. We were looking for a new user interface messaging system for the [Midgard web toolkit][3] and decided to model it based on the Growl concept:

@@ -4,6 +4,7 @@
     - "desktop"
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/photon-picture-online.jpg'
 
 ---
 [Photon][1], Jonathan Younger's nice [photoblogging][2] plugin for [iPhoto][3] was [released under LGPL][4] last thursday. The tool officially supports Wordpress, MT, TypePad and Blojsom, but actually posts using the [standard MetaWeblog API][5] that [Midgard also supports][6].

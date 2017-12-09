@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midcom-acl-editor-100.jpg'
 
 ---
 [MidCOM][1] has had a comprehensive [Access Control Lists system][2] since last summer, but its usage has been hindered by lack of an easy management tool. That is now fixed with the first stable release of the [Midgard ACL editor][3].

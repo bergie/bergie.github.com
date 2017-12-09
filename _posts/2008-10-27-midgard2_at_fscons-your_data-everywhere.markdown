@@ -5,6 +5,7 @@
     - "midgard"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/fscons-bergie-midgard2-mobility-tm.jpg'
 
 ---
 <p>

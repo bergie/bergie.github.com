@@ -3,6 +3,7 @@
   categories: 
     - "openpsa"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/openpsa2-email-import.jpg'
 
 ---
 [Seth Gottlieb has an interesting piece][1] on email and content management:

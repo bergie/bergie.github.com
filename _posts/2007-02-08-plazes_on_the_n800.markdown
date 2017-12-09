@@ -4,6 +4,7 @@
     - "geo"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/maemoplazer-initial2.jpg'
 
 ---
 <a href="http://www.towelday.kojv.net/">Intergalactic hitchhikers</a> get another treat: We have updated the <a href="http://sapir.mooo.de/2006/05/25/nokia-770-and-plazes/">older Maemo Plazer</a> to work with the <a href="http://api.plazes.com/wiki/index.php/Main_Page">new Plazer API</a> and the <a href="http://maemo.org/platform/docs/howtos/Maemo_tutorial_bora.html">Maemo 3.0</a> that is on <a href="http://www.nokia.com/n800">N800</a>. We also integrated it more closely with the UI:

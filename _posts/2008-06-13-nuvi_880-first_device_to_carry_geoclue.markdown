@@ -4,6 +4,7 @@
     - "mobility"
     - "geo"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/garmin-nuvi-880-tm.jpg'
 
 ---
 <p>

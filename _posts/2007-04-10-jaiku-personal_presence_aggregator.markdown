@@ -4,6 +4,7 @@
     - "life"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/personal-presence-aggregation-jaiku.jpg'
 
 ---
 This morning I've been exploring the <a href="http://jaiku.com/">Jaiku</a> service. Jaiku is a combination of a <a href="http://jaiku.com/tour/2">social web service</a> and a <a href="http://jaiku.com/tour/3">mobile phone application</a> that takes the <a href="http://www.lifehack.org/articles/lifehack/twitter-use-it-productively.html">personal status and presence ideas of Twitter</a> quite a bit further. The idea is to combine data from various services to provide <a href="http://www.zylstra.org/blog/archives/2006/12/presence_means.html">a presence feed</a> that can be shared with friends and colleagues. 
@@ -28,4 +29,3 @@ In addition to regular presence and feed aggregation, Jaiku does a lot of innova
 Jaiku can utilize <a href="http://www.jaiku.com/blog/2007/03/09/animated-map-goodness/">geographical location of users</a>, but I'd love to see integration with the Plazes network and/or pulling of the location information from my GeoRSS feed. Jaiku already is smart enough to pull my social network from Google Talk contacts, so there is hope that they will be smart enough to also reuse existing position information.
 
 Twitter is a bit <a href="http://franticindustries.com/blog/2007/04/04/all-twitter-tools-and-mashups-in-one-place/">ahead in the 3rd party tools</a> game, but now that <a href="http://devku.org/docs">Jaiku finally has an API</a> I expect more tools to appear. I think I'm switching.
-<p style="text-align:right;font-size:10px;">Technorati Tags: <a href="http://www.technorati.com/tag/jaiku" rel="tag">jaiku</a>, <a href="http://www.technorati.com/tag/presence" rel="tag">presence</a>, <a href="http://www.technorati.com/tag/twitter" rel="tag">twitter</a></p>

@@ -3,6 +3,7 @@
   categories: 
     - "politics"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/te_black_box_voting-1-tm.jpg'
 
 ---
 <p>

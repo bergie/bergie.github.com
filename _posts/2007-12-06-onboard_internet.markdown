@@ -4,6 +4,7 @@
     - "mobility"
     - "geo"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/sj-internet-map.jpg'
 
 ---
 Today <a href="http://en.wikipedia.org/wiki/Finland">Finland</a> is celebrating <a href="http://en.wikipedia.org/wiki/History_of_Finland#Independence_and_Civil_War">90th birthday of the Republic</a>, and so it is appropriate to write about how things are better in Sweden, where I'm visiting the first <a href="http://www.fscons.org/">Scandinavian Free Software Conference</a>.

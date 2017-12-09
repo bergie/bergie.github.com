@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/itsevaltiaat-front-navi.jpg'
 
 ---
 The [Finnish Broadcasting Company][1] launched today the website for [Itse Valtiaat][2], a popular [political satire][3] cartoon series. The site user interface has been built with Flash to provide an interactive and animated world familiar from the series.

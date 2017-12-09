@@ -3,6 +3,7 @@
   categories: 
     - "geo"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/midgard-position-editing-openlayers-osm.jpg'
 
 ---
 <a href="http://mapstraction.com/">Mapstraction</a> is a javascript library that abstracts the usage of the various web map systems out there. Using it you can display <a href="http://mapstraction.com/demo.php?map=google">Google Maps</a>, <a href="http://mapstraction.com/demo.php?map=microsoft">Microsoft Virtual Earth</a>, <a href="http://mapstraction.com/demo.php?map=yahoo">Yahoo!</a> and other maps with same javascript code. And now also <a href="http://www.openlayers.org/">OpenLayers</a>, a free software map implementation.

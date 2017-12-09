@@ -3,6 +3,7 @@
   categories: 
     - "flying"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Helsinki_south_harbor.jpg'
 
 ---
 I had another solo travel flight last weekend, this time with Cessna 152 [OH-CWM][5] on route [Helsinki][8] - [Hanko][9] - [Turku][10] - Helsinki. Especially the flight over the [Turku archipelago][1] was really nice.

@@ -4,6 +4,7 @@
     - "openpsa"
     - "oscom"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/tails-extension-openpsa-contacts-small.jpg'
 
 ---
 I'm now running [Tails][1], a Firefox extension that recognizes and handles [Microformats][2] embedded in web pages. This means that if I browse to a compliant event calendar I can add an event there to my [calendar][6] with single click, or add contacts from a web page into my [address book][5].

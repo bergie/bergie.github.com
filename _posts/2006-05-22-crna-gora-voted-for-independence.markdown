@@ -4,6 +4,7 @@
     - "motorcycles"
     - "politics"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Montenegro_winding_roads.jpg'
 
 ---
 [Montenegro][1] (Crna Gora in the [slavic languages][2]) [voted for independence][3] yesterday. Hopefully the split from [Serbia][4] happens peacefully.

@@ -3,6 +3,7 @@
   categories: 
     - "desktop"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/planet_gnome_bergie.png'
 
 ---
 <p>
@@ -14,6 +15,6 @@ I've been a fan of the GNOME project since the early beta days, and while I curr
 </p><p>
 Here is my new <a href="http://en.wikipedia.org/wiki/Hackergotchi">hackergotchi</a>:
 </p><p>
-<img src="http://www.nehmer.net/~bergie/bergie_hackergotchi.png" alt="Bergie's Hackergotchi" /></p><p>
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/planet_gnome_bergie.png" alt="Bergie's Hackergotchi" /></p><p>
 And yes, I am a <a href="http://flickr.com/photos/bergie/collections/72157603279990472/">former viking</a> who happens to <a href="http://bergie.iki.fi/blog/at_least_we_won_the_ice_cream_deathmatch/">like ice cream</a>.
 </p>

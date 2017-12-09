@@ -4,6 +4,7 @@
     - "midgard"
     - "oscom"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/froscon-logo.png'
 
 ---
 <img src="https://d2vqpl3tx84ay5.cloudfront.net/froscon-logo.png" height="128" width="128" border="0" align="right" hspace="8" vspace="8" alt="FrOSCon 2007" title="FrOSCon 2007" />

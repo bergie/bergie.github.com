@@ -5,6 +5,7 @@
     - "geo"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/geoclue-large.jpg'
 
 ---
 Last weekend and this week I've been off to <a href="http://bergie.iki.fi/blog/notes_from_the_state_of_the_map_conference/">State of the Map in Manchester</a> and <a href="http://guadec.org/node/581">GUADEC in Birmingham</a> to speak about the <a href="http://www.freedesktop.org/wiki/Software/GeoClue/">GeoClue project</a> with <a href="http://highearthorbit.com/">Andrew Turner</a> and <a href="http://www.tigert.org/">Tuomas Kuosmanen</a>.

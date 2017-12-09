@@ -3,6 +3,7 @@
   categories: 
     - "geo"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/suvilahti_roadwork_20080725-1.jpg'
 
 ---
 <p>

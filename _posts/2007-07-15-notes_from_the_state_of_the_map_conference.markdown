@@ -4,6 +4,7 @@
     - "geo"
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/manchester_humanities_lime_grove.jpg'
 
 ---
 [State of the Map][1], the [OpenStreetMap][2] conference was held this weekend in [Manchester University][10], with about 100 attendees.

@@ -3,6 +3,7 @@
   categories: 
     - "motorcycles"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Chrome_monkey_in_the_bush.jpg'
 
 ---
 ...you have to follow. Next updates from me will happen sometime in late July.

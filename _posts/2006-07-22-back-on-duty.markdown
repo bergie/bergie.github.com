@@ -4,6 +4,7 @@
     - "midgard"
     - "motorcycles"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/monkeys-and-the-gibraltar-rock.jpg'
 
 ---
 Summer holiday is now over, and as [Tigert put it][1], we [made it to Gibraltar][2].

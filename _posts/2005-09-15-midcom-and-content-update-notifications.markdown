@@ -3,6 +3,7 @@
   categories: 
     - "midgard"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/google-blog-search.jpg'
 
 ---
 [Torben][1] published a new [MidCOM][2] feature called [watcher][3] yesterday. It enables Midgard CMS components and libraries to register to receive notifications about changes to Midgard objects of different types.

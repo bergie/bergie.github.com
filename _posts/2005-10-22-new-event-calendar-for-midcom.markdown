@@ -2,7 +2,9 @@
   title: "New event calendar for MidCOM"
   categories: 
     - "midgard"
+    - "desktop"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/ical-hcalendar.jpg'
 
 ---
 [net.nemein.calendar][1] is the new default calendar in [Midgard CMS][2]. It replaces the old _de.linkm.events_ component with several clear advantages:
