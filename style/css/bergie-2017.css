@@ -1,7 +1,7 @@
 body {
   background-color: #647086;
   color: #191722;
-  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   font-size: 16pt;
   line-height: 21pt;
   padding: 0;
@@ -9,11 +9,13 @@ body {
 }
 
 h1 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
+  text-rendering: optimizeLegibility;
 }
 h2 {
   font-weight: normal;
+  text-rendering: optimizeLegibility;
 }
 
 a:hover {
@@ -135,7 +137,7 @@ body.blog .articles article .metadata {
   font-size: smaller;
 }
 body.blog .articles article h1 {
-  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
 body.blog .articles article a {
   color: #191722;
