@@ -5,6 +5,10 @@ install:
 - bundle install
 script:
 - jekyll build
+addons:
+  apt:
+    packages:
+    - libgsl-dev
 deploy:
   provider: s3
   access_key_id: AKIAIYAEX24Q3W2DDS4Q
