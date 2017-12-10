@@ -27,6 +27,6 @@ bodyclass: blog
 <div class="articles">
   {% assign posts = site.categories[page.categorization] %}
   {% for post in posts %}
-  {% include post.html %}
-{% endfor %}
+    {% include post.html %}
+  {% endfor %}
 </div>
