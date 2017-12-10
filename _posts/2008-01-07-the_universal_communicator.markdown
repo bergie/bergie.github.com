@@ -4,6 +4,7 @@
     - "mobility"
     - "bestof"
     - "tablet"
+    - "gear"
   layout: "post"
   cover: 'https://d2vqpl3tx84ay5.cloudfront.net/n810-home-screen.jpg'
 

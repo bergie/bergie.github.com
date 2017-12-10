@@ -3,7 +3,6 @@ title: Nemein has a new home
 categories:
   - midgard
   - business
-  - desktop
 location: Berlin, Germany
 layout: post
 cover: 'https://d2vqpl3tx84ay5.cloudfront.net/nemein_anders.png'

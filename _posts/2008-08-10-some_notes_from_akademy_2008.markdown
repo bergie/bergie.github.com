@@ -5,6 +5,7 @@
     - "geo"
     - "mobility"
   layout: "post"
+  cover: 'https://farm4.staticflickr.com/3147/2748444533_b8419694d1_z_d.jpg'
 
 ---
 <p>

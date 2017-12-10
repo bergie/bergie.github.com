@@ -6,6 +6,7 @@
     - "midgard"
     - fbp
   layout: "post"
+  cover: 'https://farm7.staticflickr.com/6194/6049754846_f42df86955_z_d.jpg'
 
 ---
 As usual, [Desktop Summit 2011](https://desktopsummit.org/) has been a lot of fun. I've been to most of the GUADEC and aKademy free desktop events in the past few years, but this was the first time I didn't give a talk. Even that way, it was definitely worth spending a week in Berlin.

@@ -3,7 +3,6 @@ title: Full-Stack Flow-Based Programming
 categories:
   - fbp
   - desktop
-  - mobility
   - bestof
 location: Berlin, Germany
 layout: post

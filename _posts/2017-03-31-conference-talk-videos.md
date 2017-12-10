@@ -5,6 +5,7 @@ categories:
   - fbp
   - oscom
 layout: post
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/noflo_talk_c-base.png'
 ---
 As I'm preparing for a [NoFlo](https://noflojs.org) talk in [Bulgaria Web Summit](https://bulgariawebsummit.com/) next week, I went through some older videos of my conference talks. Sadly a lot of the older ones are not online, but the ones I found I compiled in playlists:
 

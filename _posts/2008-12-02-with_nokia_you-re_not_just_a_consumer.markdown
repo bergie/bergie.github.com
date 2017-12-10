@@ -3,6 +3,7 @@
   categories: 
     - "mobility"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/n97-tm.jpg'
 
 ---
 <p>

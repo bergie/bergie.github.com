@@ -3,8 +3,6 @@ title: Process API for NoFlo components
 location: Berlin, Germany
 categories:
   - fbp
-  - desktop
-  - mobility
 layout: post
 ---
 It has been a while that I've written about [flow-based programming](/blog/category/fbp) &mdash; but now that I'm putting most of my time to [Flowhub](https://flowhub.io) things are moving really quickly.

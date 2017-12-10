@@ -7,7 +7,7 @@
   cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Finland-Georgia-Midgard.jpg'
 
 ---
-<img src="https://d2vqpl3tx84ay5.cloudfront.net/Finland-Georgia-Midgard.jpg" style="border: none; margin-left: 6px" height="198" width="187 alt="Finnish-Georgian Midgard cooperation (logo by Ania Walczac)" title="Finnish-Georgian Midgard cooperation (logo by Ania Walczac)" align="right" />
+<img src="https://d2vqpl3tx84ay5.cloudfront.net/Finland-Georgia-Midgard.jpg" style="border: none; margin-left: 6px" height="198" width="187" alt="Finnish-Georgian Midgard cooperation (logo by Ania Walczac)" title="Finnish-Georgian Midgard cooperation (logo by Ania Walczac)" align="right" />
 
 I booked the tickets today for a Sep 22nd - Oct 3rd visit to [Nemein Georgia][1] in [Tbilisi][2]. The purpose of the trip is to help [Taya][3] with [MidCOM site building][4] and hopefully persuade some Georgian ISPs to host [Midgard CMS][5].
 

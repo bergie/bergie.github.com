@@ -6,8 +6,6 @@ categories:
   - fbp
   - javascript
   - coffeescript
-  - mobility
-  - desktop
   - nodejs
 cover: 'https://i.vimeocdn.com/video/445469607.jpg'
 ---

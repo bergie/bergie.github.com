@@ -4,6 +4,7 @@
     - "geo"
     - "desktop"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/firefox-35-upgrade.jpg'
 
 ---
 <p>

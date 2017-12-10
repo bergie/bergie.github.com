@@ -2,6 +2,7 @@
   title: "Amazon Kindle could be the library of the working nomad"
   categories: 
     - "mobility"
+    - "gear"
   layout: "post"
   cover: 'https://d2vqpl3tx84ay5.cloudfront.net/amazon-kindle.jpg'
 

@@ -5,6 +5,7 @@ location: Berlin, Germany
 categories:
   - fbp
   - business
+cover: 'https://d2vqpl3tx84ay5.cloudfront.net/jpm_interview_toronto.png'
 ---
 [J. Paul Morrison](http://en.wikipedia.org/wiki/John_Paul_Morrison) invented [Flow-Based Programming](http://en.wikipedia.org/wiki/Flow-based_programming) while at IBM in 1969.
 

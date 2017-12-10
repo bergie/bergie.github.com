@@ -3,8 +3,6 @@ title: An update from the NoFlo world
 location: Berlin, Germany
 categories:
   - fbp
-  - desktop
-  - mobility
 layout: post
 cover: 'https://d2vqpl3tx84ay5.cloudfront.net/noflo-kickstarter-thank-you.png'
 ---

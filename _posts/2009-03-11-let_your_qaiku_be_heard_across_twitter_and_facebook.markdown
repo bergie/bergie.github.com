@@ -4,6 +4,7 @@
     - "midgard"
     - "life"
   layout: "post"
+  cover: 'https://d2vqpl3tx84ay5.cloudfront.net/pingfm-beta-microblogs.png'
 
 ---
 <p>
