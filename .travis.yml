@@ -4,7 +4,7 @@ rvm:
 install:
 - bundle install
 script:
-- jekyll build
+- jekyll build --lsi
 addons:
   apt:
     packages:
