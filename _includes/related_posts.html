@@ -11,10 +11,7 @@
 {% endfor %}
 {% assign pageTitle = pageTitle | truncatewords: 30 | remove: '...' | remove: ',' | remove: ':' | remove: '"' | remove: '.' %}
 {% assign pageTitleArray = pageTitle | split: ' ' %}
-{% assign filteredPostsFirst = site.posts | where_exp: "post", "page.categories contains post.categories[0]" | limit: 30 %}
-{% assign filteredPostsSecond = site.posts | where_exp: "post", "page.categories contains post.categories[1]" | limit: 30 %}
-{% assign filteredPosts = filteredPostsFirst | concat: filteredPostsSecond | uniq %}
-<p>{{ filteredPosts | size }}</p>
+{% assign filteredPosts = site.posts | where_exp: "post", "page.categories contains post.categories[0]" | limit: 30 %}
 {% for post in filteredPosts %}
   {% assign sameCategoryCount = 0 %}
   {% assign sameTitleCount = 0 %}
@@ -45,12 +42,10 @@
   {% endfor %}
   {% assign postScore = sameCategoryCount | plus: sameTitleCount %}
   {% if postScore > firstScore %}
-    <p>First {{ postTitle }}: {{ sameCategoryCount }} {{ sameTitleCount }}</p>
     {% assign firstScore = postScore %}
     {% assign firstIndex = forloop.index0 %}
   {% else %}
     {% if postScore > secondScore %}
-      <p>Second {{ postTitle }}: {{ sameCategoryCount }} {{ sameTitleCount }}</p>
       {% assign secondScore = postScore %}
       {% assign secondIndex = forloop.index0 %}
     {% endif %}
