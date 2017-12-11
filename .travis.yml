@@ -4,11 +4,7 @@ rvm:
 install:
 - bundle install
 script:
-- travis_wait 20 bundle exec jekyll build --lsi
-addons:
-  apt:
-    packages:
-    - libgsl0-dev
+- bundle exec jekyll build -V
 deploy:
   provider: s3
   access_key_id: AKIAIYAEX24Q3W2DDS4Q

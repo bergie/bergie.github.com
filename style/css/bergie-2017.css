@@ -293,6 +293,7 @@ body.post .related article h1 a:hover {
 body.post .related article .metadata {
   font-style: italic;
   font-size: smaller;
+  display: block;
 }
 body.post .related article img.cover,
 body.post .related article div.no-cover {
