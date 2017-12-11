@@ -32,6 +32,14 @@ bodyclass: 'post'
           <div property="articleBody" class="e-content">
             {{ content }}
           </div>
+          <div class="related">
+          {% assign posts = site.related_posts %}
+          {% for post in posts limit:3 %}
+            {% unless forloop.first %}
+            {% include post.html %}
+            {% endunless %}
+          {% endfor %}
+          </div>
         </div>
         <div class="categorymeta">
           <hr />
