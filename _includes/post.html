@@ -35,7 +35,7 @@
       <span property="wordCount" content="{{ post.content | strip_html | number_of_words }}"></span>
     </div>
     <div>
-      {{ post.content | strip_html | truncatewords:60 }}
+      {{ post.excerpt | strip_html | truncatewords:60 }}
     </div>
   </article>
   {% assign prev = post %}
