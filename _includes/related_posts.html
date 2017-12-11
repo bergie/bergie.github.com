@@ -53,14 +53,28 @@
       {% endif %}
     {% endif %}
   {% endfor %}
-  <div class="related">
   {% if firstScore > 0 %}
-  {% assign post = filteredPosts[firstIndex] %}
-  {% include post.html %}
-  {% endif %}
-  {% if secondScore > 0 %}
-  {% assign post = filteredPosts[secondIndex] %}
-  {% include post.html %}
-  {% endif %}
+  <div class="related">
+    <h2>Continue reading</h2>
+    <div class="articles">
+    {% assign related = '' %}
+    {% if firstScore > 0 %}
+      {% assign related = related | append: firstIndex %}
+    {% endif %}
+    {% if secondScore > 0 %}
+      {% assign related = related | append: '|' | append: secondIndex %}
+    {% endif %}
+    {% assign relatedPosts = related | split: '|' %}
+    {% for postIdx in relatedPosts %}
+      {% assign postIdxNumber = postIdx | plus: 0 %}
+      {% assign post = filteredPosts[postIdxNumber] %}
+      {% unless forloop.last %}
+        {% assign nextIdxNumber = relatedPosts[forloop.index] | plus: 0 %}
+        {% assign nextPost = filteredPosts[nextIdxNumber] %}
+      {% endunless %}
+      {% include post.html %}
+    {% endfor %}
+    </div>
   </div>
+  {% endif %}
 {% endif %}

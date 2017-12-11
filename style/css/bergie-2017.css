@@ -258,6 +258,13 @@ body.post article .categorymeta {
   text-overflow: ellipsis;
 }
 body.post .related {
+  margin-top: 2em;
+  font-size: smaller;
+}
+body.post .related h2 {
+  text-align: center;
+}
+body.post .related .articles {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -267,7 +274,6 @@ body.post .related {
   box-sizing: border-box;
   overflow: hidden;
   text-overflow: ellipsis;
-  margin-top: 2em;
   margin-left: -1em;
   margin-right: -1em;
 }
@@ -580,7 +586,7 @@ footer nav ul li {
     padding: 0;
     text-align: left;
   }
-  body.post .related {
+  body.post .related .articles {
     margin-left: 0;
     margin-right: 0;
   }

@@ -27,6 +27,9 @@ bodyclass: blog
 <div class="articles">
   {% assign posts = site.categories[page.categorization] %}
   {% for post in posts %}
+    {% unless forloop.last %}
+      {% assign nextPost = posts[forloop.index] %}
+    {% endunless %}
     {% include post.html %}
   {% endfor %}
 </div>
