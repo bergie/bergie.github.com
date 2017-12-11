@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+gem 'narray'
+gem 'nmatrix'
 gem 'gsl'
 gem 'jekyll'
 group :jekyll_plugins do
