@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
-gem 'jekyll'
 gem 'gsl'
+gem 'jekyll'
 group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'kramdown'
   gem 'liquid'
+  gem 'classifier-reborn'
 end

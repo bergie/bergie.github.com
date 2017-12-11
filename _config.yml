@@ -13,5 +13,3 @@ highlighter: null
 collections:
   now:
     output: false
-plugins:
-- jekyll-paginate
