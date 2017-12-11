@@ -4,7 +4,7 @@ rvm:
 install:
 - bundle install
 script:
-- bundle exec jekyll build --lsi -V
+- travis_wait 20 bundle exec jekyll build --lsi
 addons:
   apt:
     packages:
