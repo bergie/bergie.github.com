@@ -1,6 +1,8 @@
 ---
 title: Tyr back online!
 layout: post
+categories:
+- life
 ---
 We're back online.
 

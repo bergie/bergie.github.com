@@ -1,6 +1,9 @@
 ---
 title: Introduction to Node.js and CoffeeScript
 published: false
+categories:
+- nodejs
+- javascript
 ---
 ## Asynchronous programming
 

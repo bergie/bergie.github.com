@@ -1,6 +1,8 @@
 ---
 title: Parselinks malfunctioning
 layout: post
+categories:
+- life
 ---
 Problems with "parselinks.sh"
 

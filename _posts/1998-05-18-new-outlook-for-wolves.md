@@ -1,8 +1,10 @@
 ---
 title: New outlook for Wolves
 layout: post
+categories:
+- life
 ---
-A vision of Grey Wolves' new publicity campaign and how I got it.
+A vision of Harmaasudet new publicity campaign and how I got it.
 
 It has been a nice and warm summer day. One during which there is no way for any kind of office working to be justified. But still, as matters are, sometimes still work matters get over personal preferences and so I find myself again sitting in the office. Luckily the sun has gone down ages ago and so catching up some work doesn't feel that bad.
 
