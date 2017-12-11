@@ -1,6 +1,8 @@
 ---
 title: Perovuo's website
 layout: post
+categories:
+- life
 ---
 A layout given to a friend.
 

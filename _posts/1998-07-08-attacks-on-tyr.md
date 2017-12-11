@@ -1,6 +1,8 @@
 ---
 title: Attacks on Tyr
 layout: post
+categories:
+- life
 ---
 Our server was cracked a while ago.
 

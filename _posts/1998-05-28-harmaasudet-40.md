@@ -1,6 +1,8 @@
 ---
 title: Harmaasudet 4.0
 layout: post
+categories:
+- life
 ---
 A new layout for the Grey Wolves.
 

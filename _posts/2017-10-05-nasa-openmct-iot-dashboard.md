@@ -2,6 +2,7 @@
 title: Building an IoT dashboard with NASA Open MCT
 cover: "https://d2vqpl3tx84ay5.cloudfront.net/c-base-iot-openmct.png"
 location: Berlin, Germany
+layout: 'post'
 categories:
   - fbp
   - business

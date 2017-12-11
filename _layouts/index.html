@@ -20,6 +20,9 @@ bodyclass: blog
 <div class="articles">
 {% assign posts = paginator.posts %}
 {% for post in posts %}
+  {% unless forloop.last %}
+    {% assign nextPost = posts[forloop.index] %}
+  {% endunless %}
   {% include post.html %}
 {% endfor %}
 </div>

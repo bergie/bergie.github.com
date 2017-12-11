@@ -4,6 +4,7 @@ location: Leeds, United Kingdom
 layout: post
 categories:
   - life
+  - sailing
   - bestof
 cover: 'https://d2vqpl3tx84ay5.cloudfront.net/sailing-across-the-atlantic/small/helena-from-bow.jpg'
 ---

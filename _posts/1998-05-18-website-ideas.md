@@ -1,6 +1,8 @@
 ---
 title: Website ideas
 layout: post
+categories:
+- life
 ---
 Odd thoughts about my website.
 

@@ -3,6 +3,8 @@ title: How to be a designer
 location: Helsinki, Finland
 layout: post
 source: "http://www.qaiku.com/channels/show/programming/view/ddaaa652d5ea11df99cb750cf606adb2adb2/"
+categories:
+- business
 ---
 [Aza Raskin on how to be a designer](http://www.azarask.in/blog/post/be-a-designer/):
 

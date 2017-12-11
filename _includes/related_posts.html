@@ -1,0 +1,80 @@
+{% assign pageCats = page.categories | size %}
+{% if pageCats > 0 %}
+  {% assign scores = '' %}
+  {% assign firstScore = 0 %}
+  {% assign firstIndex = 0 %}
+  {% assign secondScore = 0 %}
+  {% assign secondIndex = 0 %}
+  {% assign ignoreWords = 'a,an,and,the,in,on,with,for,of,by,as,is,i,had,have,has,this,that,then,that,now,one,any,can,be,at,we,to,it' | split: ',' %}
+  {% assign pageTitle = page.title | append: ' ' | append: page.excerpt | downcase | strip_html %}
+  {% for removeWord in ignoreWords %}
+    {% assign removeWordFull = ' ' | append: removeWord | append: ' ' %}
+    {% assign pageTitle = pageTitle | replace: removeWordFull, ' ' %}
+  {% endfor %}
+  {% assign pageTitle = pageTitle | truncatewords: 30 | remove: '...' | remove: ',' | remove: ':' | remove: '"' | remove: '.' %}
+  {% assign pageTitleArray = pageTitle | split: ' ' %}
+  {% assign filteredPosts = site.posts | where_exp: "post", "page.categories contains post.categories[0]" | limit: 30 %}
+  {% for post in filteredPosts %}
+    {% assign sameCategoryCount = 0 %}
+    {% assign sameTitleCount = 0 %}
+    {% for category in post.categories %}
+      {% if post.url != page.url %}
+        {% if page.categories contains category %}
+          {% assign sameCategoryCount = sameCategoryCount | plus: 1 %}
+        {% endif %}
+      {% else %}
+        {% assign sameCategoryCount = -999 %}
+      {% endif %}
+    {% endfor %}
+    {% assign postTitle = post.title | append: ' ' | append: post.excerpt | downcase | strip_html %}
+    {% for removeWord in ignoreWords %}
+      {% assign removeWordFull = ' ' | append: removeWord | append: ' ' %}
+      {% assign postTitle = postTitle | replace: removeWordFull, ' ' %}
+    {% endfor %}
+    {% assign postTitle = postTitle | truncatewords: 30 | remove: '...'  | remove: ',' | remove: ':' | remove: '"' | remove: '.' %}
+    {% assign postTitleArray = postTitle | split: ' ' %}
+    {% for word in postTitleArray %}
+      {% if post.url != page.url %}
+        {% if pageTitleArray contains word %}
+          {% assign sameTitleCount = sameTitleCount | plus: 0.25 %}
+        {% endif %}
+      {% else %}
+        {% assign sameTitleCount = -999 %}
+      {% endif %}
+    {% endfor %}
+    {% assign postScore = sameCategoryCount | plus: sameTitleCount %}
+    {% if postScore > firstScore %}
+      {% assign firstScore = postScore %}
+      {% assign firstIndex = forloop.index0 %}
+    {% else %}
+      {% if postScore > secondScore %}
+        {% assign secondScore = postScore %}
+        {% assign secondIndex = forloop.index0 %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  {% if firstScore > 0 %}
+  <div class="related">
+    <h2>Continue reading</h2>
+    <div class="articles">
+    {% assign related = '' %}
+    {% if firstScore > 0 %}
+      {% assign related = related | append: firstIndex %}
+    {% endif %}
+    {% if secondScore > 0 %}
+      {% assign related = related | append: '|' | append: secondIndex %}
+    {% endif %}
+    {% assign relatedPosts = related | split: '|' %}
+    {% for postIdx in relatedPosts %}
+      {% assign postIdxNumber = postIdx | plus: 0 %}
+      {% assign post = filteredPosts[postIdxNumber] %}
+      {% unless forloop.last %}
+        {% assign nextIdxNumber = relatedPosts[forloop.index] | plus: 0 %}
+        {% assign nextPost = filteredPosts[nextIdxNumber] %}
+      {% endunless %}
+      {% include post.html %}
+    {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+{% endif %}

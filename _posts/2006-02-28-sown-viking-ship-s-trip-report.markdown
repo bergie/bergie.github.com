@@ -2,6 +2,7 @@
   title: "Sown Viking ship's trip report"
   categories: 
     - "life"
+    - "sailing"
   layout: "post"
   cover: 'https://d2vqpl3tx84ay5.cloudfront.net/Shjaka_sailing.jpg'
 

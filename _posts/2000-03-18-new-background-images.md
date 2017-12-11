@@ -1,6 +1,8 @@
 ---
 title: New background images
 layout: post
+categories:
+- desktop
 ---
 I posted some new background images
 

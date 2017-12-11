@@ -11,17 +11,13 @@
       {% else %}
         {% assign mod = forloop.index | modulo: 2 %}
         {% if mod == 0 %}
-          {% if prev.cover %}
-
+          {% if prevPost.cover %}
     <div class="no-cover"></div>
           {% endif %}
         {% else %}
-          {% unless forloop.last %}
-            {% assign next = posts[forloop.index] %}
-            {% if next.cover %}
+          {% if nextPost.cover %}
     <div class="no-cover"></div>
-            {% endif %}
-          {% endunless %}
+          {% endif %}
         {% endif %}
       {% endif %}
     {% endif %}
@@ -35,8 +31,8 @@
       <span property="wordCount" content="{{ post.content | strip_html | number_of_words }}"></span>
     </div>
     <div>
-      {{ post.content | strip_html | truncatewords:60 }}
+      {{ post.excerpt | strip_html | truncatewords:60 }}
     </div>
   </article>
-  {% assign prev = post %}
+  {% assign prevPost = post %}
 

@@ -4,7 +4,7 @@ rvm:
 install:
 - bundle install
 script:
-- jekyll build
+- bundle exec jekyll build -V
 deploy:
   provider: s3
   access_key_id: AKIAIYAEX24Q3W2DDS4Q
