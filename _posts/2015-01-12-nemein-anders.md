@@ -1,7 +1,6 @@
 ---
 title: Nemein has a new home
 categories:
-  - midgard
   - business
 location: Berlin, Germany
 layout: post
