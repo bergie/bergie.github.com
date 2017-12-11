@@ -8,7 +8,6 @@ icon: 'https://bergie.iki.fi/style/img/mdpi/bergie_wetplate.jpg'
 language: "en"
 permalink: /blog/:title/
 paginate: 10
-lsi: true
 highlighter: null
 collections:
   now:
