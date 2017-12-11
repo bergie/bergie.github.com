@@ -8,9 +8,9 @@ categories:
   - bestof
 cover: 'https://d2vqpl3tx84ay5.cloudfront.net/sailing-across-the-atlantic/small/helena-from-bow.jpg'
 ---
-[![Helena somewhere mid-Atlantic](https://d2vqpl3tx84ay5.cloudfront.net/sailing-across-the-atlantic/small/helena-from-bow.jpg)](https://d2vqpl3tx84ay5.cloudfront.net/sailing-across-the-atlantic/helena-from-bow.png)
-
 Exactly a year ago today we flew from Berlin to Tenerife to depart on a sailing trip across the Atlantic on the Finnish [sail training schooner T/S Helena][0]. [The Grid][1] had just reached 10.000 founding members, and it was time to charge batteries before the next big push towards the beta.
+
+[![Helena somewhere mid-Atlantic](https://d2vqpl3tx84ay5.cloudfront.net/sailing-across-the-atlantic/small/helena-from-bow.jpg)](https://d2vqpl3tx84ay5.cloudfront.net/sailing-across-the-atlantic/helena-from-bow.png)
 
 I had sailed on Helena once before, on a [weekend trip in the Turku archipelago][2]. But crossing the Atlantic would be a more interesting adventure. For a month this two-masted tall ship would be our home on the ocean.
 
