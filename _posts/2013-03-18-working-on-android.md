@@ -76,7 +76,7 @@ In addition I'm using some of the built-in Google apps, like Google Talk, GMail,
 
 For offline development I have an installation of [Terminal IDE](https://play.google.com/store/apps/details?id=com.spartacusrex.spartacuside) that allows me to run Linux utilities like vim and git locally. If I would root my tablet I could also install a Ubuntu chroot and run whatever I need. With a previous tablet I even was able to run Node.js servers and databases on the thing!
 
-My development virtual machine is from [DigitalOcean's](https://www.digitalocean.com/) Amsterdam site, providing quite nice fast connections here in Europe. I mostly work on it via [tmux](http://tmux.sourceforge.net) and [vim](http://www.vim.org), and run whatever processes I need, including long-running [NoFlo](http://noflojs.org) flows.
+My development virtual machine is from [DigitalOcean's](https://www.digitalocean.com/) Amsterdam site, providing quite nice fast connections here in Europe. I mostly work on it via [tmux](http://tmux.sourceforge.net) and [vim](http://www.vim.org), and run whatever processes I need, including long-running [NoFlo](https://noflojs.org) flows.
 
 ## Pros and cons
 

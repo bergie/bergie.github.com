@@ -43,7 +43,7 @@ In Daniel Suarez's [Daemon series](http://en.wikipedia.org/wiki/Daemon_%28techno
 
 > The center of the room looked to be a staging area, bustling with your people, all wearing eyewear and gloves. To the side was a raised platformn lined with office chairs where a dozen people were grabbing, pulling, and pushing at invisible objects in the air. They were all speaking to unseen people, as though it were a call center.
 
-I could easily imagine manipulating my [flow based programs](http://noflojs.org) in this way.
+I could easily imagine manipulating my [flow based programs](https://noflojs.org) in this way.
 
 The Daemon series also feature other Google products, like [driverless cars](http://en.wikipedia.org/wiki/Google_driverless_car) and an augmented reality game much like [Ingress](http://www.ingress.com/).
 

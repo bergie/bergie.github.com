@@ -97,6 +97,6 @@ On the flip side, this usually also means the APIs are in a pretty early stage, 
 
 ### Room for improvement
 
-The downside of the NoFlo and MsgFlo stack is that there is still quite a bit of a learning curve. [NoFlo documentation](http://noflojs.org/documentation/) is now in a reasonable place, but with [Flowhub](https://flowhub.io/) and MsgFlo we have tons of work ahead on improving the onboarding experience.
+The downside of the NoFlo and MsgFlo stack is that there is still quite a bit of a learning curve. [NoFlo documentation](https://noflojs.org/documentation/) is now in a reasonable place, but with [Flowhub](https://flowhub.io/) and MsgFlo we have tons of work ahead on improving the onboarding experience.
 
 Right now it is easy to work with if somebody sets it up properly first, but getting there is a bit tricky. Fixing this will be crucial for enabling others to benefit from these tools as well.

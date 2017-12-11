@@ -9,7 +9,7 @@ cover: 'https://d2vqpl3tx84ay5.cloudfront.net/flowhub-runtime-registration.png'
 ---
 It is now a year since our [NoFlo Development Environment](http://www.kickstarter.com/projects/noflo/noflo-development-environment) Kickstarter got funded. Since then our team together with several open source contributors has been busy building the best possible user interface for Flow-Based Programming.
 
-When we set out on this crazy adventure, we still mostly had only [NoFlo](http://noflojs.org/) and JavaScript in mind. But there is nothing inherently language-specific in FBP or our UI, and so when people started making other runtimes compatible with [the protocol](http://noflojs.org/documentation/protocol/) we embraced the idea of [full-stack flow-based programming](http://bergie.iki.fi/blog/full-stack-fbp/).
+When we set out on this crazy adventure, we still mostly had only [NoFlo](https://noflojs.org/) and JavaScript in mind. But there is nothing inherently language-specific in FBP or our UI, and so when people started making other runtimes compatible with [the protocol](https://noflojs.org/documentation/protocol/) we embraced the idea of [full-stack flow-based programming](http://bergie.iki.fi/blog/full-stack-fbp/).
 
 Here is how the runtime registration screen looks with [the latest release](https://www.kickstarter.com/projects/noflo/noflo-development-environment/posts/985898):
 
@@ -19,7 +19,7 @@ This hopefully highlights a bit of the possibilities of what can be done with [F
 
 ## Live mode
 
-The Flowhub release made today includes several interesting features apart from giving *private repository access* to our [Kickstarter backers](http://noflojs.org/kickstarter/). One I'm especially happy about is what we call *live mode*.
+The Flowhub release made today includes several interesting features apart from giving *private repository access* to our [Kickstarter backers](https://noflojs.org/kickstarter/). One I'm especially happy about is what we call *live mode*.
 
 The live mode, initially built by [Lionel Landwerlin](https://github.com/djdeath), enables Flowhub to discover and connect to running pieces of Flow-Based software running in different environments. With it you can monitor, debug, and modify applications without having to restart them!
 
@@ -33,6 +33,6 @@ Our backers should receive an email today with instructions on how to activate t
 
 Just like with [Travis](https://travis-ci.org/) and [GitHub](https://github.com/), Flowhub is free for open source development. So, everybody should be able to [start using it](http://flowhub.io/#app-scope) immediately even without a plan.
 
-If you have any questions about Flow-Based Programming or how to use Flowhub, please check out the various ways to get in touch on the [NoFlo support page](http://noflojs.org/support/).
+If you have any questions about Flow-Based Programming or how to use Flowhub, please check out the various ways to get in touch on the [NoFlo support page](https://noflojs.org/support/).
 
 [![Kickstarter Backer badge](https://d2vqpl3tx84ay5.cloudfront.net/flowhub-backer-badge-small.png)](https://d2vqpl3tx84ay5.cloudfront.net/flowhub-backer-badge.png)

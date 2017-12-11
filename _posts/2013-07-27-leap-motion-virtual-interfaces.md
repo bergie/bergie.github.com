@@ -23,7 +23,7 @@ Once those guidelines were out there, and manufacturers built compelling enough 
 
 Right now tablets are still mostly used for recreation and light data processing, as [productivity applications and culture](http://bergie.iki.fi/blog/tablet-productivity/) always take a bit longer to adapt. We need to move beyond text as the main way of communicating ideas.
 
-I've [already taken a few steps](http://noflojs.org/) that way for us programmers.
+I've [already taken a few steps](https://noflojs.org/) that way for us programmers.
 
 ## Behind the glass
 

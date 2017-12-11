@@ -9,7 +9,7 @@ categories:
 - bestof
 cover: 'https://d2vqpl3tx84ay5.cloudfront.net/flowhub-main.png'
 ---
-Today I'm happy to announce the [public beta](http://flowhub.io#app-scope) of the [Flowhub](http://flowhub.io) interface for Flow-Based Programming. This is the latest step in the adventure that started with [some UI sketching](http://bergie.iki.fi/blog/inspiration-for-fbp-ui/) early last year, went through our [successful Kickstarter](https://www.kickstarter.com/projects/noflo/noflo-development-environment) &mdash; and now &mdash; thanks to our [1&thinsp;205 backers](http://noflojs.org/kickstarter/), it is available to the public.
+Today I'm happy to announce the [public beta](http://flowhub.io#app-scope) of the [Flowhub](http://flowhub.io) interface for Flow-Based Programming. This is the latest step in the adventure that started with [some UI sketching](http://bergie.iki.fi/blog/inspiration-for-fbp-ui/) early last year, went through our [successful Kickstarter](https://www.kickstarter.com/projects/noflo/noflo-development-environment) &mdash; and now &mdash; thanks to our [1&thinsp;205 backers](https://noflojs.org/kickstarter/), it is available to the public.
 
 ## Getting Started
 
@@ -63,7 +63,7 @@ You can activate the pie menu in the graph editor with a right mouse click, or w
 
 ### Component Editor
 
-Another new major feature is in-app component editing. If your runtime supports it, you can at any time create or modify [custom components](http://noflojs.org/documentation/components/) for your project and they'll become immediately available for your graphs.
+Another new major feature is in-app component editing. If your runtime supports it, you can at any time create or modify [custom components](https://noflojs.org/documentation/components/) for your project and they'll become immediately available for your graphs.
 
 ![Creating a new component](https://d2vqpl3tx84ay5.cloudfront.net/flowhub-new-component-small.png)
 
@@ -89,11 +89,11 @@ Runtime discovery happens through a central service, but once you know the addre
 
 ## Cross-platform, Full-stack
 
-When we launched the [NoFlo UI Kickstarter](https://www.kickstarter.com/projects/noflo/noflo-development-environment), we were initially only thinking about how to support NoFlo in different environments. But in the course of development we ended up defining a [network protocol for FBP](http://noflojs.org/documentation/protocol/) that enabled us to move past just a single FBP environment and towards supporting all of them. This is what prompted the [Flowhub rebranding](http://bergie.iki.fi/blog/flowhub/).
+When we launched the [NoFlo UI Kickstarter](https://www.kickstarter.com/projects/noflo/noflo-development-environment), we were initially only thinking about how to support NoFlo in different environments. But in the course of development we ended up defining a [network protocol for FBP](https://noflojs.org/documentation/protocol/) that enabled us to move past just a single FBP environment and towards supporting all of them. This is what prompted the [Flowhub rebranding](http://bergie.iki.fi/blog/flowhub/).
 
 Since then, the number of supported FBP environments has been growing. Here is a list of the ones I'm aware of:
 
-* [NoFlo](http://noflojs.org/)
+* [NoFlo](https://noflojs.org/)
   - browsers
   - Node.js
   - [GNOME desktop](http://bergie.iki.fi/blog/flowhub-gnome-dx/)

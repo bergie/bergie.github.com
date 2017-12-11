@@ -7,7 +7,7 @@ categories:
 location: Berlin, Germany
 cover: 'https://d2vqpl3tx84ay5.cloudfront.net/gnome-dx-2014.jpg'
 ---
-I've spent the last three days in the [GNOME Developer Experience hackfest](https://wiki.gnome.org/Hackfests/DeveloperExperience2014) working on the [NoFlo](http://noflojs.org) runtime for [GNOME](http://gnome.org) with [Lionel Landwerlin](https://github.com/djdeath).
+I've spent the last three days in the [GNOME Developer Experience hackfest](https://wiki.gnome.org/Hackfests/DeveloperExperience2014) working on the [NoFlo](https://noflojs.org) runtime for [GNOME](http://gnome.org) with [Lionel Landwerlin](https://github.com/djdeath).
 
 [![GNOME Developer Experience hackfest participants](https://d2vqpl3tx84ay5.cloudfront.net/gnome-dx-2014-small.jpg)](https://d2vqpl3tx84ay5.cloudfront.net/gnome-dx-2014.jpg)
 
@@ -18,7 +18,7 @@ What the resulting project does is give the ability to build and debug GNOME app
 The way this works is the following:
 
 * You install and run the [noflo-gnome](https://github.com/noflo/noflo-gnome) runtime
-* The runtime loads all installed [NoFlo components](http://noflojs.org/documentation/components/) and dynamically registers additional ones based on [GObject Introspection](https://wiki.gnome.org/action/show/Projects/GObjectIntrospection)
+* The runtime loads all installed [NoFlo components](https://noflojs.org/documentation/components/) and dynamically registers additional ones based on [GObject Introspection](https://wiki.gnome.org/action/show/Projects/GObjectIntrospection)
 * The runtime pings [Flowhub's runtime registry](https://github.com/the-grid/flowhub-registry#readme) to notify the user that it is available
 * Based on the registry, the runtime becomes available in the UI
 * After this, the UI can start communicating the with runtime. This includes loading and registering components, and creating and running NoFlo graphs

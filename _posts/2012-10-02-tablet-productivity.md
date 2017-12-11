@@ -19,7 +19,7 @@ Now, most of this is because the [tablet form factor](http://bergie.iki.fi/blog/
 
 I have [a long history with tablets](http://bergie.iki.fi/blog/meego-diaspora/), stretching from the mid-2000s Nokia Linux tablets to the iPads and the excellent, affordable [Nexus 7](http://www.google.com/nexus/#/7). This has given me a lot of time to think where they fit in my life. I've even produced quite a lot of media on the [smartphones of old](http://bergie.iki.fi/blog/with_nokia_you-re_not_just_a_consumer/).
 
-Much of my work is [developing software](https://github.com/bergie), which, until ideas like like [flow-based programming](http://noflojs.org/) take off, is still mainly textual. There are developers who have [adapted their workflows](http://yieldthought.com/post/12239282034/swapped-my-macbook-for-an-ipad) to a tablet, even doing professional software development [for a whole year on an iPad](http://yieldthought.com/post/31857050698/ipad-linode-1-year-later).
+Much of my work is [developing software](https://github.com/bergie), which, until ideas like like [flow-based programming](https://noflojs.org/) take off, is still mainly textual. There are developers who have [adapted their workflows](http://yieldthought.com/post/12239282034/swapped-my-macbook-for-an-ipad) to a tablet, even doing professional software development [for a whole year on an iPad](http://yieldthought.com/post/31857050698/ipad-linode-1-year-later).
 
 I may follow this example when the lease of my [current laptop](http://bergie.iki.fi/blog/11-macbook_air-the_best_computer_i-ve_ever_had/) expires, but for now the tablet is purely a leisure and testing machine.
 

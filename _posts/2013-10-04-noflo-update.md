@@ -54,7 +54,7 @@ On compatible browsers you can even edit your graph by talking, though at times 
 
 ## Talking to different FBP runtimes
 
-[NoFlo](http://noflojs.org) works on both Node.js and web browsers. Since a big part of the development environment is being able to inspect and modify live NoFlo graphs, we needed a way for the UI to talk to both environments. To make this easier, we defined a [network protocol for FBP runtimes](https://github.com/noflo/noflo/issues/107).
+[NoFlo](https://noflojs.org) works on both Node.js and web browsers. Since a big part of the development environment is being able to inspect and modify live NoFlo graphs, we needed a way for the UI to talk to both environments. To make this easier, we defined a [network protocol for FBP runtimes](https://github.com/noflo/noflo/issues/107).
 
 This protocol allows transmitting graph and component information across the network, as well as controlling the execution of FBP graphs and seeing what happens with them. With client-side graphs we isolate the runtime to an iframe, and with server-side we talk over WebSockets.
 
@@ -88,7 +88,7 @@ NoFlo is open source, and so is the development environment we're building. If y
 
 ## Trying it out
 
-If you just want to play with some client-side graphs, the easiest way to use the NoFlo Development Environment is to [open it in your browser](http://noflojs.org/noflo-ui). Try tweaking [the clock demo](http://noflojs.org/noflo-ui/#example/6699161) for instance.
+If you just want to play with some client-side graphs, the easiest way to use the NoFlo Development Environment is to [open it in your browser](https://noflojs.org/noflo-ui). Try tweaking [the clock demo](https://noflojs.org/noflo-ui/#example/6699161) for instance.
 
 This is a snapshot of the UI that we update every now and then. For the cutting edge version, just install from git and build locally. However, we're actively changing things all the time at this point, so the UI might be incomplete or some things might not work at times.
 

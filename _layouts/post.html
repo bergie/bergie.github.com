@@ -10,7 +10,7 @@ bodyclass: 'post'
             {% if page.author %}
             Guest post by <span rel="author" typeof="Person"><span property="name" class="p-author">{{ page.author }}</span></span> on
             {% else %}
-            <a rel="author" href="http://bergie.iki.fi/#me" class="p-author"></a>
+            <a rel="author" href="https://bergie.iki.fi/#me" class="p-author"></a>
             {% endif %}
             <span property="datePublished" content="{{ page.date | date_to_xmlschema }}" class="dt-published">{{ page.date | date_to_long_string }}</span>
             {% if page.location %}

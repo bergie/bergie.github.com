@@ -9,7 +9,7 @@ cover: 'https://d2vqpl3tx84ay5.cloudfront.net/jpm_interview_toronto.png'
 ---
 [J. Paul Morrison](http://en.wikipedia.org/wiki/John_Paul_Morrison) invented [Flow-Based Programming](http://en.wikipedia.org/wiki/Flow-based_programming) while at IBM in 1969.
 
-I ran into the concept [in 2011](http://bergie.iki.fi/blog/interview-noflo-origins/) while trying to figure out a better way to create software. I read [his canonical book](http://amzn.com/1451542321) on the subject, and decided to try and implement it in JavaScript. Thus, [NoFlo](http://noflojs.org/) got started.
+I ran into the concept [in 2011](http://bergie.iki.fi/blog/interview-noflo-origins/) while trying to figure out a better way to create software. I read [his canonical book](http://amzn.com/1451542321) on the subject, and decided to try and implement it in JavaScript. Thus, [NoFlo](https://noflojs.org/) got started.
 
 It has been an honor to have Paul as a mentor in the process. In late June 2013 we flew to Toronto to meet him. What resulted was quite a thorough code review of NoFlo's FBP implementation, and a video interview. The [interview with Paul](https://youtu.be/up2yhNTsaDs) is finally online. Enjoy!
 

@@ -10,7 +10,7 @@ location: Berlin, Germany
 layout: post
 cover: 'https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/leigh-concept-small.jpg'
 ---
-[NoFlo](http://noflojs.org) &mdash; the flow-based programming system I started &mdash; is now two years old. I [pushed the first commits](https://github.com/noflo/noflo/commit/04698a77272d9cd552ac57ca511ec8f05696ea40) to GitHub on June 5th 2011 from [Hacker Dojo](http://www.hackerdojo.com/) in Mountain View. To get us started with the story, I'll let [Wikipedia summarize](http://en.wikipedia.org/wiki/Flow-based_programming):
+[NoFlo](https://noflojs.org) &mdash; the flow-based programming system I started &mdash; is now two years old. I [pushed the first commits](https://github.com/noflo/noflo/commit/04698a77272d9cd552ac57ca511ec8f05696ea40) to GitHub on June 5th 2011 from [Hacker Dojo](http://www.hackerdojo.com/) in Mountain View. To get us started with the story, I'll let [Wikipedia summarize](http://en.wikipedia.org/wiki/Flow-based_programming):
 
 > Flow-based programming (FBP) is a programming paradigm that defines applications as networks of "black box" processes, which exchange data across predefined connections by message passing, where the connections are specified externally to the processes. These black box processes can be reconnected endlessly to form different applications without having to be changed internally.
 

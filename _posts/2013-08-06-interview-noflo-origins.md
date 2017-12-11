@@ -9,7 +9,7 @@ categories:
   - nodejs
 cover: 'https://i.vimeocdn.com/video/445469607.jpg'
 ---
-[Here](https://vimeo.com/68285726) is a video interview of me talking about the origins of [NoFlo](http://noflojs.org/), the flow-based programming environment for JavaScript:
+[Here](https://vimeo.com/68285726) is a video interview of me talking about the origins of [NoFlo](https://noflojs.org/), the flow-based programming environment for JavaScript:
 
 <iframe src="https://player.vimeo.com/video/68285726?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 

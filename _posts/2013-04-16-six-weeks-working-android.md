@@ -28,7 +28,7 @@ On-screen are [tmux](http://tmux.sourceforge.net/), [vim](http://www.vim.org/), 
 
 Here are some things I've done in the last month:
 
-* Porting the [NoFlo flow-based programming engine](http://noflojs.org) to run in both browser and Node.js with the same codebase, including a [tutorial on how others can do the same](http://bergie.iki.fi/blog/sharing-javascript-libraries-node-browser/)
+* Porting the [NoFlo flow-based programming engine](https://noflojs.org) to run in both browser and Node.js with the same codebase, including a [tutorial on how others can do the same](http://bergie.iki.fi/blog/sharing-javascript-libraries-node-browser/)
 * Writing and publishing an implementation of [Android-style Action Bars for web apps](http://bergie.iki.fi/actionbar/)
 * Adding multiple major features to the [web-based NoFlo IDE](https://github.com/noflo/noflo-ui)
 * Dealing with the issues raised with the release of jQuery UI 1.10 and Backbone 1.0.0 with [Create.js](http://createjs.org) and [VIE](http://viejs.org)

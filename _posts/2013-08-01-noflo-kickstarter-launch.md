@@ -12,7 +12,7 @@ location: San Francisco, California
 layout: post
 cover: 'https://d2vqpl3tx84ay5.cloudfront.net/noflo-ui-code.jpg'
 ---
-This has been a big week for [NoFlo](http://noflojs.org/), the flow-based programming environment for JavaScript. Yesterday we released [NoFlo 0.4](https://github.com/noflo/noflo/releases/tag/0.4.0), which added support for running flow-based programs in web browsers. And today we launched our [NoFlo Development Environment effort on Kickstarter](http://www.kickstarter.com/projects/noflo/noflo-development-environment). Before continuing, make sure to watch [the video](http://www.kickstarter.com/projects/noflo/noflo-development-environment)!
+This has been a big week for [NoFlo](https://noflojs.org/), the flow-based programming environment for JavaScript. Yesterday we released [NoFlo 0.4](https://github.com/noflo/noflo/releases/tag/0.4.0), which added support for running flow-based programs in web browsers. And today we launched our [NoFlo Development Environment effort on Kickstarter](http://www.kickstarter.com/projects/noflo/noflo-development-environment). Before continuing, make sure to watch [the video](http://www.kickstarter.com/projects/noflo/noflo-development-environment)!
 
 <iframe width="480" height="360" src="https:&#x2F;&#x2F;www.kickstarter.com&#x2F;projects&#x2F;noflo&#x2F;noflo-development-environment&#x2F;widget&#x2F;video.html" frameborder="0"> </iframe>
 
@@ -30,7 +30,7 @@ This is partly because these tools were built originally with a particular probl
 
 With [our team](http://www.kickstarter.com/profile/noflo) I have the confidence that we have the necessary skills and vision to build something that is actually a pleasure to use, and that makes it truly easier to work with the control flow of your software than it is with the text editors.
 
-*This is not a rehash of UML*. UML is a diagram mapping out object-oriented constructs, often used for code generation. NoFlo graphs instead are only the *coordination layer* that manages the control flow of your software. The components are still handcrafted and unit-tested code that NoFlo merely wires together at runtime, following the edges specified in a [JSON file](http://noflojs.org/documentation/json/). No code generation here.
+*This is not a rehash of UML*. UML is a diagram mapping out object-oriented constructs, often used for code generation. NoFlo graphs instead are only the *coordination layer* that manages the control flow of your software. The components are still handcrafted and unit-tested code that NoFlo merely wires together at runtime, following the edges specified in a [JSON file](https://noflojs.org/documentation/json/). No code generation here.
 
 ## Why map out the control flow?
 
@@ -48,7 +48,7 @@ My original [NoFlo UI prototype](http://bergie.iki.fi/blog/inspiration-for-fbp-u
 
 [![Editing code in the NoFlo UI](https://d2vqpl3tx84ay5.cloudfront.net/noflo-ui-code-small.jpg)](https://d2vqpl3tx84ay5.cloudfront.net/noflo-ui-code.jpg)
 
-For those who don't want this UI, NoFlo is still fully usable also without it. As a matter of fact, we don't have a UI before the Kickstarter succeeds, and yet many companies are already building their applications with NoFlo. One way is by using the [`.fbp` language](http://noflojs.org/documentation/fbp/).
+For those who don't want this UI, NoFlo is still fully usable also without it. As a matter of fact, we don't have a UI before the Kickstarter succeeds, and yet many companies are already building their applications with NoFlo. One way is by using the [`.fbp` language](https://noflojs.org/documentation/fbp/).
 
 ## Why now?
 
@@ -80,7 +80,7 @@ Many of the giants of the software industry, like Google, Facebook, Microsoft, A
 
 If you're following this blog, you probably know that I feel strongly for software freedom. Everything I've done during my [professional career](http://www.linkedin.com/in/bergie) has been possible only thanks to the open source community.
 
-[NoFlo](http://noflojs.org/) and the UI we're building are and will remain open source available under the [MIT license](https://en.wikipedia.org/wiki/MIT_License). As a matter of fact, the UI is designed to not only work with NoFlo, but also to be adaptable to work with other flow-based systems. I feel this is an area with a lot of potential for collaboration with the various functional and dataflow projects out there.
+[NoFlo](https://noflojs.org/) and the UI we're building are and will remain open source available under the [MIT license](https://en.wikipedia.org/wiki/MIT_License). As a matter of fact, the UI is designed to not only work with NoFlo, but also to be adaptable to work with other flow-based systems. I feel this is an area with a lot of potential for collaboration with the various functional and dataflow projects out there.
 
 We will however be offering a hosted version of the software for a fee. The various [Kickstarter rewards](http://www.kickstarter.com/projects/noflo/noflo-development-environment) will give our backers an early and cheaper access to that.
 

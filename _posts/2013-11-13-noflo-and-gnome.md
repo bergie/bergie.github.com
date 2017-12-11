@@ -8,7 +8,7 @@ categories:
   - desktop
 cover: 'https://d2vqpl3tx84ay5.cloudfront.net/noflo_clutter_wm.png'
 ---
-As the readers of this blog know, I've been working on a [Flow-Based Programming](https://en.wikipedia.org/wiki/Flow-based_programming) implementation for JavaScript in the form of the [NoFlo](http://noflojs.org/) project. The idea of FBP in nutshell is to separate the control flow of software from the actual implementation. Developers build reusable "black box" components that are then connected with each other through a graph that you can define either visually or textually.
+As the readers of this blog know, I've been working on a [Flow-Based Programming](https://en.wikipedia.org/wiki/Flow-based_programming) implementation for JavaScript in the form of the [NoFlo](https://noflojs.org/) project. The idea of FBP in nutshell is to separate the control flow of software from the actual implementation. Developers build reusable "black box" components that are then connected with each other through a graph that you can define either visually or textually.
 
 FBP has been around for quite a while, having been [invented by J. Paul Morrison in the 60s](http://bergie.iki.fi/blog/paul-morrison-interview/), but is now becoming more and more relevant thanks to the need for talking to multiple asynchronous APIs and different devices. While NoFlo has been stable enough for production use for about two years now, we ran a [successful Kickstarter](http://www.kickstarter.com/projects/noflo/noflo-development-environment) earlier this fall to push the development tools to a new level.
 
@@ -39,7 +39,7 @@ This is of course only the first steps, but shows a little bit of the potential.
 
 ## Bringing the GNOME platform to NoFlo
 
-The big part of enabling flow-based GNOME development would be to provide [NoFlo components](http://noflojs.org/library/) for the various APIs in the GNOME ecosystem. This could be done manually, but quite possibly we could automate at least parts of the process by some smart [GObject Introspection](https://wiki.gnome.org/GObjectIntrospection) hacking.
+The big part of enabling flow-based GNOME development would be to provide [NoFlo components](https://noflojs.org/library/) for the various APIs in the GNOME ecosystem. This could be done manually, but quite possibly we could automate at least parts of the process by some smart [GObject Introspection](https://wiki.gnome.org/GObjectIntrospection) hacking.
 
 This would be quite similar to [how we integrated](https://github.com/noflo/noflo-polymer) the [Polymer Web Components](http://www.polymer-project.org/) with NoFlo.
 
@@ -57,6 +57,6 @@ By supporting the [NoFlo network protocol](https://github.com/noflo/noflo/issues
 
 In the long run it would also be possible to build a native flow-based editor as well. After all, since the data model and runtime interactions are standardized, there is no reason why multiple different tools couldn't interact with the same NoFlo graphs.
 
-To find out more about NoFlo, visit the [website](http://noflojs.org), read the code [on GitHub](http://github.com/noflo), or [read the various press stories](http://bergie.iki.fi/blog/noflo-coverage-august/) that appeared during the Kickstarter.
+To find out more about NoFlo, visit the [website](https://noflojs.org), read the code [on GitHub](http://github.com/noflo), or [read the various press stories](http://bergie.iki.fi/blog/noflo-coverage-august/) that appeared during the Kickstarter.
 
 While I'm currently working [outside of the desktop context](http://bergie.iki.fi/blog/working-on-android/), having been around GNOME since early 2000s I'm still following the project with interest. Having NoFlo there would be a great way to revitalize this connection.

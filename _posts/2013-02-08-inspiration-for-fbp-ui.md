@@ -7,7 +7,7 @@ location: Berlin, Germany
 layout: post
 cover: 'https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/bvg-small.png'
 ---
-As readers of this blog already know, I've been working on the [NoFlo](http://noflojs.org/) flow-based programming environment for JavaScript. Lately the development effort has received a large boost from both the EU-funded [SmarcoS Project](http://smarcos-project.eu/) and client work, and so the question of a [flow design UI](https://github.com/noflo/noflo/issues/1) has become even more urgent.
+As readers of this blog already know, I've been working on the [NoFlo](https://noflojs.org/) flow-based programming environment for JavaScript. Lately the development effort has received a large boost from both the EU-funded [SmarcoS Project](http://smarcos-project.eu/) and client work, and so the question of a [flow design UI](https://github.com/noflo/noflo/issues/1) has become even more urgent.
 
 ![NoFlo](https://d2vqpl3tx84ay5.cloudfront.net/fbp-ui/noflo.png)
 

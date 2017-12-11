@@ -8,7 +8,7 @@ categories:
   - fbp
 layout: post
 ---
-I'm currently in the process of porting the [NoFlo](http://noflojs.org) Flow-Based Programming environment to run also in the browser. While there are some obvious differences in things like filesystem interaction and component loading, the goal here is to reuse as much of the same code as possible between these two platforms.
+I'm currently in the process of porting the [NoFlo](https://noflojs.org) Flow-Based Programming environment to run also in the browser. While there are some obvious differences in things like filesystem interaction and component loading, the goal here is to reuse as much of the same code as possible between these two platforms.
 
 Many of the building blocks are already in place, and so the port should be complete still this week. You can track the work in [issue 63](https://github.com/noflo/noflo/issues/63).
 
@@ -141,7 +141,7 @@ As you can see, the components use a "GitHub-like" naming scheme of `<vendor>/<m
 
 > The package name consists of a vendor name and the project's name. Often these will be identical - the vendor name just exists to prevent naming clashes. It allows two different people to create a library named json, which would then just be named igorw/json and seldaek/json.
 
-Since [NoFlo](http://noflojs.org) relies heavily on Node's [event API](http://nodejs.org/api/events.html), we need to find an equivalent library for Component. After a quick look through `component search events`, it turns out [component/emitter](https://github.com/component/emitter) does the job.
+Since [NoFlo](https://noflojs.org) relies heavily on Node's [event API](http://nodejs.org/api/events.html), we need to find an equivalent library for Component. After a quick look through `component search events`, it turns out [component/emitter](https://github.com/component/emitter) does the job.
 
 ### The component.json file
 

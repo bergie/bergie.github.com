@@ -1,10 +1,10 @@
 name: "Henri Bergius"
 description: "Hacker and an occasional adventurer. Author of Create.js and NoFlo, founder of Flowhub UG. Decoupling software, one piece at a time. This blog tells the story of that."
-url: "http://bergie.iki.fi"
+url: "https://bergie.iki.fi"
 author: "henri.bergius@iki.fi (Henri Bergius)"
 author_name: "Henri Bergius"
-author_url: "http://bergie.iki.fi/about"
-icon: 'http://bergie.iki.fi/style/img/mdpi/bergie.jpg'
+author_url: "https://bergie.iki.fi/about"
+icon: 'https://bergie.iki.fi/style/img/mdpi/bergie_wetplate.jpg'
 language: "en"
 permalink: /blog/:title/
 paginate: 10
