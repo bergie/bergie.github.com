@@ -20,11 +20,7 @@ bodyclass: 'post'
           </div>
         </header>
         {% if page.cover %}
-          {% if post.cover contains '.gif' %}
         <img src="{{ page.cover }}" class="cover" />
-          {% else %}
-        <img src="{{ page.cover | replace: 'https://d2vqpl3tx84ay5.cloudfront.net', 'https://rsz.io/d2vqpl3tx84ay5.cloudfront.net' }}?w=500&quality=70&format=jpg" id="cover" />
-          {% endif %}
         {% else %}
         <div id="no-cover"></div>
         {% endif %}
