@@ -549,6 +549,13 @@ footer nav ul li {
     padding-right: 10px;
   }
 }
+@media (max-width: 767px), (orientation: portrait) {
+  body.post article .content,
+  body.post article .categorymeta {
+    width: 100%;
+    padding: 0;
+  }
+}
 @media (max-width: 767px) {
   body.blog header .container,
   body.about header .container {
@@ -579,8 +586,6 @@ footer nav ul li {
     display: none;
   }
   body.post article header,
-  body.post article .content,
-  body.post article .categorymeta,
   body.post .related article {
     width: 100%;
     padding: 0;
