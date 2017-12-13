@@ -59,6 +59,8 @@
       {% include footer.html %}
     </footer>
     {% include events.html %}
+    {% if page.layout == 'post' %}
     <link rel="stylesheet" href="{{ base }}/style/css/highlight-zenburn.css">
+    {% endif %}
   </body>
 </html>
