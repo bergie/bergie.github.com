@@ -278,6 +278,7 @@ body.post .related .articles {
   margin-right: -1em;
 }
 body.post .related article {
+  display: block;
   width: 50%;
   padding: 1em;
   margin: 0;
