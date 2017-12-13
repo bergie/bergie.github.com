@@ -21,3 +21,4 @@ deploy:
 after_deploy:
 - "curl -s http://www.google.com/webmasters/sitemaps/ping\?sitemap\=https%3A%2F%2Fbergie.iki.fi%2Fsitemap.xml > /dev/null"
 - "curl -s http://www.bing.com/webmaster/ping.aspx?siteMap\=https%3A%2F%2Fbergie.iki.fi%2Fsitemap.xml > /dev/null"
+- "curl -A \"Mozilla/5.0\" https://pingomatic.com/ping/\?title\=Henri+Bergius\&blogurl\=https%3A%2F%2Fbergie.iki.fi%2F\&rssurl\=https%3A%2F%2Fbergie.iki.fi%2Fblog%2Frss.xml\&chk_weblogscom\=on\&chk_blogs\=on\&chk_feedburner\=on\&chk_newsgator\=on\&chk_myyahoo\=on\&chk_pubsubcom\=on\&chk_blogdigger\=on\&chk_weblogalot\=on\&chk_newsisfree\=on\&chk_topicexchange\=on\&chk_google\=on\&chk_tailrank\=on\&chk_skygrid\=on\&chk_collecta\=on\&chk_superfeedr\=on > /dev/null"
