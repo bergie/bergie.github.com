@@ -18,3 +18,6 @@ deploy:
   cache_control: "max-age=3600, public"
   on:
     repo: bergie/bergie.github.com
+after_deploy:
+- "curl -s http://www.google.com/webmasters/sitemaps/ping\?sitemap\=https%3A%2F%2Fbergie.iki.fi%2Fsitemap.xml > /dev/null"
+- "curl -s http://www.bing.com/webmaster/ping.aspx?siteMap\=https%3A%2F%2Fbergie.iki.fi%2Fsitemap.xml > /dev/null"
