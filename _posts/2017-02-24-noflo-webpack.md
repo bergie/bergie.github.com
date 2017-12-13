@@ -101,3 +101,5 @@ In addition you'll want to define any native NPM modules as [webpack externals](
 We're using this setup in production with some Node.js applications, all browser-capable [NoFlo modules](https://github.com/noflo), as well as the [Flowhub web app](https://app.flowhub.io).
 
 If you want to get started, simply fork the [noflo-browser-app](https://github.com/noflo/noflo-browser-app) repo and start drawing graphs!
+
+**Update:** If you don't want to use Grunt, you can use [noflo-component-loader](https://github.com/noflo/noflo-component-loader) to build a statically configured component loader and then use webpack directly. See [NoFlo browser documentation](https://noflojs.org/documentation/#running-noflo-in-the-browser) for more information.
