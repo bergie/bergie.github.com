@@ -1,6 +1,6 @@
   <article vocab="http://schema.org/" about="{{ base }}{{ post.url }}" typeof="BlogPosting" class="h-entry">
     {% if post.cover %}
-    <a href="{{ base }}{{ post.url }}"><img src="{{ post.cover | replace: 'https://d2vqpl3tx84ay5.cloudfront.net/', 'https://d2vqpl3tx84ay5.cloudfront.net/500x/' }}" class="cover" /></a>
+    <a href="{{ base }}{{ post.url }}"><img src="{{ post.cover | replace: 'https://d2vqpl3tx84ay5.cloudfront.net/', 'https://d2vqpl3tx84ay5.cloudfront.net/500x/' }}" alt="cover image for {{ post.title }}" class="cover" /></a>
     {% else %}
       {% if paginator.page == 1 %}
     <div class="no-cover"></div>

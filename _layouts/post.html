@@ -20,7 +20,7 @@ bodyclass: 'post'
           </div>
         </header>
         {% if page.cover %}
-        <img src="{{ page.cover | replace: 'https://d2vqpl3tx84ay5.cloudfront.net/', 'https://d2vqpl3tx84ay5.cloudfront.net/500x/' }}" id="cover" />
+        <img src="{{ page.cover | replace: 'https://d2vqpl3tx84ay5.cloudfront.net/', 'https://d2vqpl3tx84ay5.cloudfront.net/500x/' }}" alt="cover image for {{ page.title }}" id="cover" />
         {% else %}
         <div id="no-cover"></div>
         {% endif %}
