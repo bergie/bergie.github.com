@@ -22,5 +22,5 @@ __Updated 09:17:__ Several of the [comments][6] deal with the problems of sales 
 [2]: http://basecamphq.com/
 [3]: http://www.37signals.com/
 [4]: http://www.openpsa.org/
-[5]: http://bergie.iki.fi/midcom-permalink-0e16696a6e9ef34705883f563146c2d0
+[5]: https://bergie.iki.fi/blog/first-look-at-digital-business-ecosystem/
 [6]: http://37signals.com/svn/archives2/sidebusiness_software_the_neglected_software_market.php#comments

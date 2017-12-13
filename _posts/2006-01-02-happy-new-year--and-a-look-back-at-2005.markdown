@@ -109,7 +109,7 @@ Harpers.org has a [quite different kind of summary][100] of 2005:
 [23]: http://en.wikipedia.org/wiki/April_2005
 [24]: http://en.wikipedia.org/wiki/Pope_John_Paul_II
 [25]: http://bergie.iki.fi/midcom-permalink-47aef43e58a8ae539123890db5a116af
-[26]: http://bergie.iki.fi/midcom-permalink-0e16696a6e9ef34705883f563146c2d0
+[26]: https://bergie.iki.fi/blog/first-look-at-digital-business-ecosystem/
 [27]: http://www.digital-ecosystem.org/
 [28]: http://bergie.iki.fi/midcom-permalink-0940706284d472e1bfe719dab4222c45
 [29]: http://www.midgard-project.org/midcom-permalink-bc7f1ca712f6221ccc228adc7cda6684

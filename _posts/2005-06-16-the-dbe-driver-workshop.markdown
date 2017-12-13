@@ -39,5 +39,5 @@ Look for more updates in [Planet DBE][18].
 [14]: http://www.digital-ecosystems.org/
 [15]: https://www.digital-ecosystem.net/
 [16]: http://swallow.sourceforge.net/
-[17]: http://bergie.iki.fi/midcom-permalink-0e16696a6e9ef34705883f563146c2d0
+[17]: https://bergie.iki.fi/blog/first-look-at-digital-business-ecosystem/
 [18]: http://www.nemein.com/planet-dbe/
