@@ -16,7 +16,13 @@ bodyclass: 'post'
             {% if page.location %}
             in <span rel="contentLocation" typeof="City"><span property="name">{{ page.location }}</span></span>
             {% endif %}
-            <span property="wordCount" content="{{ content | strip_html | number_of_words }}"></span>
+            {% assign words = content | strip_html | number_of_words %}
+            <span property="wordCount" content="{{ words }}"></span>
+            {% if words < 360 %}
+            <div class="reading-time">1 minute read</div>
+            {% else %}
+            <div class="reading-time">{{ words | divided_by: 180 }} minute read</div>
+            {% endif %}
           </div>
         </header>
         {% if page.cover %}

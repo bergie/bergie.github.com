@@ -19,12 +19,18 @@
     {% endif %}
     <h1><a href="{{ base }}{{ post.url }}" rel="bookmark" class="p-name u-url">{{ post.title }}</a></h1>
     <div class="metadata">
-      <span property="datePublished" content="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</span>
+      <span property="datePublished" content="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</span>{% unless post.location %}.{% endunless %}
       {% if post.location %}
-      in <span rel="contentLocation" typeof="City"><span property="description">{{ post.location }}</span></span>
+      in <span rel="contentLocation" typeof="City"><span property="description">{{ post.location }}</span></span>.
       {% endif %}
       <a rel="author" href="https://bergie.iki.fi/#me"></a>
-      <span property="wordCount" content="{{ post.content | strip_html | number_of_words }}"></span>
+      {% assign words = post.content | strip_html | number_of_words %}
+      <span property="wordCount" content="{{ words }}"></span>
+      {% if words < 360 %}
+      <span class="reading-time">1 minute read.</span>
+      {% else %}
+      <span class="reading-time">{{ words | divided_by: 180 }} minute read.</span>
+      {% endif %}
     </div>
     <div>
       {{ post.excerpt | strip_html | truncatewords:60 }}
