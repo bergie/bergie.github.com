@@ -1,5 +1,5 @@
 ---
-title: "asComponent: turning a JavaScript function into a NoFlo component"
+title: "asComponent: turn any JavaScript function into a NoFlo component"
 location: Berlin, Germany
 categories:
   - fbp
