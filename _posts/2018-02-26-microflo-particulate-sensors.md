@@ -17,9 +17,11 @@ The associated health issues don't come cheap: 20 billion euros per year on heal
 
 One part of solving this issue is better data. Government-run measurement stations are quite sparse, and &mdash; in some countries &mdash; their published results can be unreliable. To solve this, [Open Knowledge Foundation Germany](https://okfn.de/en/) started the [luftdaten.info](https://luftdaten.info/) project to crowdsource air pollution data around the world.
 
-![Building an air quality sensor](https://d2vqpl3tx84ay5.cloudfront.net/800x/luftdaten-sensor-workshop2.jpg)
+<iframe src="https://player.vimeo.com/video/257288126" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Last saturday we hosted a luftdaten.info workshop at [c-base](https://c-base.org/), and used the opportunity to build and deploy some particulate matter sensors. While [luftdaten.info has a great build guide](https://luftdaten.info/en/construction-manual/) and we used their parts list, we decided to go with a [custom firmware](https://github.com/c-base/microflo-luftdaten) built with MicroFlo and integrated with the existing IoT network at c-base.
+
+![Building an air quality sensor](https://d2vqpl3tx84ay5.cloudfront.net/800x/luftdaten-sensor-workshop2.jpg)
 
 ## MicroFlo on ESP8266
 
