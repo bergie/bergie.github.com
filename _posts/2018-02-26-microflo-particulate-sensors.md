@@ -29,6 +29,8 @@ Last saturday we hosted a luftdaten.info workshop at [c-base](https://c-base.org
 
 ESP8266 is an Arduino-compatible microcontroller with integrated WiFi chip. This means any sensors or actuators on the device can easily connect to other systems, like we do with [lots of different sensors](https://github.com/c-base/c-flo/tree/master/devices) already at c-base.
 
+![ESP8266 sensor in preparation](https://d2vqpl3tx84ay5.cloudfront.net/800x/luftdaten-sensor-esp8266.jpg)
+
 MicroFlo [recently added](https://github.com/microflo/microflo/blob/master/CHANGES.md#microflo-063) a feature where Wifi-enabled MicroFlo devices can automatically connect with a MQTT message queue and expose their in/outports as queues there. This makes MicroFlo on an ESP8266 a fully-qualified [MsgFlo participant](https://msgflo.org/).
 
 ## Building the firmware
