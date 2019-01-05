@@ -8,7 +8,7 @@ Welcome to [my]({{ base }}/about/) blog. I'll write here thoughts on free softwa
 
 The whole blog:
 
-* [Blog index from latest]({{ base }}/) ([RSS feed]({{ base }}/blog/rss.xml), [Google Play Newsstand](http://www.google.com/producer/editions/CAow6-vZBw/henri_bergius))
+* [Blog index from latest]({{ base }}/) ([RSS feed]({{ base }}/blog/rss.xml))
 
 ## Themes
 
