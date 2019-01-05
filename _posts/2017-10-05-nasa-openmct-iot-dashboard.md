@@ -7,6 +7,7 @@ categories:
   - fbp
   - business
   - desktop
+  - bestof
 ---
 One important aspect of any Internet of Things setup is being able to collect and visualize data for analysis. Seeing trends in sensor readings over time can be useful for identifying problems, and for coming up with new ways to use the data.
 
