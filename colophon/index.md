@@ -11,7 +11,7 @@ The header photo used on this site was taken by [Jeff Woods](https://www.jeffrey
 
 [![Bergie in Hawaii]({{ base }}/style/img/mdpi/hawaii.jpg)]({{ base }}/style/img/orig/hawaii.jpg)
 
-Both line drawings of me have been produced by [Nina Mutik](http://ninamutik.sarjakuvablogit.com/about/), a Finnish artist.
+The line drawing of me was produced by [Nina Mutik](http://ninamutik.sarjakuvablogit.com/about/), a Finnish artist.
 
 [![Bergie working in Istanbul, by Nina Mutik]({{ base }}/style/img/mdpi/bergie_istanbul_big.jpg)]({{ base }}/style/img/orig/bergie_istanbul.jpg)
 
@@ -19,7 +19,7 @@ The flying pig emblem has been drawn by [Susanna Huhtanen](http://cannonerd.word
 
 [![Flying pig, Medieval-style]({{ base }}/style/img/mdpi/flyingpig_big.png)]({{ base }}/style/img/orig/flyingpig.png)
 
-The web design is my own, and it has been realized into HTML5 and CSS with the help of the [Bootstrap](http://twitter.github.com/bootstrap/) framework.
+The web design is my own.
 
 ## Writing and storing content
 
