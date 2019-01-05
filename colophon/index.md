@@ -11,6 +11,10 @@ The header photo used on this site was taken by [Jeff Woods](https://www.jeffrey
 
 [![Bergie in Hawaii]({{ base }}/style/img/mdpi/hawaii.jpg)]({{ base }}/style/img/orig/hawaii.jpg)
 
+My mugshot is a wetplate photo taken by [Oleg Farynyuk](https://www.slow-photography-berlin.com/).
+
+[![Face of Bergie]({{ base }}/style/img/mdpi/bergie_wetplate.jpg)]({{ base }}/style/img/orig/bergie_wetplate.jpg)
+
 The line drawing of me was produced by [Nina Mutik](http://ninamutik.sarjakuvablogit.com/about/), a Finnish artist.
 
 [![Bergie working in Istanbul, by Nina Mutik]({{ base }}/style/img/mdpi/bergie_istanbul_big.jpg)]({{ base }}/style/img/orig/bergie_istanbul.jpg)
