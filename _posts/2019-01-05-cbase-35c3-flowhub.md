@@ -1,7 +1,7 @@
 ---
 title: Building c-base @ 35C3 with Flowhub
 location: Berlin, Germany
-cover: "http://d2vqpl3tx84ay5.cloudfront.net/c-base-assembly-35c3.JPG"
+cover: "https://d2vqpl3tx84ay5.cloudfront.net/c-base-assembly-35c3.JPG"
 layout: 'post'
 categories:
   - fbp
@@ -12,7 +12,7 @@ The [35th Chaos Communication Congress](https://events.ccc.de/congress/2018/wiki
 
 The Chaos Communication Congress is a major fixture of the European security and free software scene, with thousands of attendees. As always, the "[mother of all hackerspaces](https://wiki.hackerspaces.org/c-base)" had a big presence there, with a custom booth that we spend nearly two weeks constructing.
 
-![the c-base assembly at 35C3](http://d2vqpl3tx84ay5.cloudfront.net/800x/c-base-assembly-35c3.JPG)
+![the c-base assembly at 35C3](https://d2vqpl3tx84ay5.cloudfront.net/800x/c-base-assembly-35c3.JPG)
 
 This year's theme was "Refreshing Memories", and accordingly we brought various elements of the history of the c-base space station to the event. On hardware side we had things like a scale model the [c-base antenna](https://en.wikipedia.org/wiki/Fernsehturm_Berlin), as well as vintage arcade machines and various artifacts from over the years.
 
@@ -30,7 +30,7 @@ To make the local setup simple to manage, we decided to go with a [single docker
 
 Of course we kept adding to the system throughout 35C3, but in the end the graph looked like the following: 
 
-[![c-base at 35C3 as seen in Flowhub](http://d2vqpl3tx84ay5.cloudfront.net/800x/c3-flo-35c3.JPG)](http://d2vqpl3tx84ay5.cloudfront.net/c3-flo-35c3.JPG)
+[![c-base at 35C3 as seen in Flowhub](https://d2vqpl3tx84ay5.cloudfront.net/800x/c3-flo-35c3.JPG)](https://d2vqpl3tx84ay5.cloudfront.net/c3-flo-35c3.JPG)
 
 ### WiFi setup
 
@@ -38,7 +38,7 @@ To make our setup more portable, we decided to bring a local instance of the "c-
 
 Normally Congress doesn't recommend running your own access point. But if needed, there are guidelines available on how to do it properly if needed. As it happens, out of this year's 558 unofficial access points, the c-base one was the [only one conforming to the guidelines](https://media.ccc.de/v/35c3-9576-35c3_infrastructure_review) (commentary around the 25 minute mark).
 
-![WiFi numbers from 35C3](http://d2vqpl3tx84ay5.cloudfront.net/800x/c-base-35c3-wifi.JPG)
+![WiFi numbers from 35C3](https://d2vqpl3tx84ay5.cloudfront.net/800x/c-base-35c3-wifi.JPG)
 
 ### Info displays
 
@@ -46,7 +46,7 @@ Like any station, c-base has a [set of info screens](https://github.com/msgflo/m
 
 Each screen has a customized rotation of different pages to show, and we can send URLs to announce events like members arriving to c-base or a space launch livestream via MQTT.
 
-![c-base info screen showing an announcement](http://d2vqpl3tx84ay5.cloudfront.net/800x/c-base-infodisplay-35c3.JPG)
+![c-base info screen showing an announcement](https://d2vqpl3tx84ay5.cloudfront.net/800x/c-base-infodisplay-35c3.JPG)
 
 For 35C3 we built a new set of pages tailed for the Congress experience:
 
@@ -59,17 +59,17 @@ For 35C3 we built a new set of pages tailed for the Congress experience:
 
 Highlight of the whole assembly was a re-enactment of the [c-base crash](https://en.wikipedia.org/wiki/C-base#Mythological_self-image_of_the_c-base) from billions of years ago. Triggered by a dropped bottle of space soda, this was an experience incorporating video, lights, and audio that we ran several times every day of the conference.
 
-![Crash Alarm!](http://d2vqpl3tx84ay5.cloudfront.net/c-base-crash-35c3-small.GIF)
+![Crash Alarm!](https://d2vqpl3tx84ay5.cloudfront.net/c-base-crash-35c3-small.GIF)
 
 The c-base [crash animation](https://github.com/c-base/c3-flo/blob/master/animations/crash.yml) was managed by a [NoFlo](https://noflojs.org) graph integrated to the our MsgFlo setup with the standard [noflo-runtime-msgflo](https://github.com/noflo/noflo-runtime-msgflo) tool. With this we could trigger the "crash" with a MQTT message (sent by a physical button), and run a timed sequence of actions on lights, a sound system, and our info screens.
 
-![Button for triggering the crash of c-base](http://d2vqpl3tx84ay5.cloudfront.net/800x/c-base-35c3-crash-button.JPG)
+![Button for triggering the crash of c-base](https://d2vqpl3tx84ay5.cloudfront.net/800x/c-base-35c3-crash-button.JPG)
 
 ### Timeline manager
 
 There were some new components that we had to build for this purpose. The most important was a [Timeline component](https://github.com/noflo/noflo-tween/blob/master/components/Timeline.js) that was upstreamed as part of the [noflo-tween animation library](https://github.com/noflo/noflo-tween).
 
-![Timeline component from noflo-tween](http://d2vqpl3tx84ay5.cloudfront.net/500x/noflo-tween-timeline.JPG)
+![Timeline component from noflo-tween](https://d2vqpl3tx84ay5.cloudfront.net/500x/noflo-tween-timeline.JPG)
 
 With this you can define a multi-tracked timeline as JSON or YAML, with actions triggered on each track on their appropriate second. With MsgFlo this meant we could send timed commands to different devices and create a coordinated experience.
 
@@ -83,7 +83,7 @@ All LED strips we used at 35C3 were run using the [McLighting firmware](https://
 
 For our requirements, we wanted the capability to send new commands to the lights with minimal latency, and to be able to restore the lights to whatever mode they had before the crash started in the end.
 
-![noflo-mclighting in action](http://d2vqpl3tx84ay5.cloudfront.net/500x/noflo-mclighting.JPG)
+![noflo-mclighting in action](https://d2vqpl3tx84ay5.cloudfront.net/500x/noflo-mclighting.JPG)
 
 The component is available in [noflo-mclighting](https://github.com/noflo/noflo-mclighting). The only thing you need is running the NoFlo graph in the same network as the LED strips, and to send the WebSocket addresses of your LED strips to the component. After that you can control them with normal NoFlo packets.
 
