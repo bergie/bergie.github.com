@@ -651,3 +651,24 @@ only screen and (min-resolution: 2dppx) {
     background-image: url('../img/xhdpi/bergie_wetplate.jpg');
   }
 }
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #ffffff;
+    background-color: #3f4050;
+  }
+  footer {
+    background-color: #191722;
+  }
+  body.blog .articles,
+  body.page article,
+  body.post article {
+    background-color: #647086;
+    color: #ffffff;
+  }
+  body.post .related article h1 a,
+  body.blog .articles article a,
+  body.post article a,
+  body.page article a {
+    color: #ffffff;
+  }
+}
