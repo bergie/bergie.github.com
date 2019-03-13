@@ -14,7 +14,7 @@ bodyclass: 'post'
             {% endif %}
             <span property="datePublished" content="{{ page.date | date_to_xmlschema }}" class="dt-published">{{ page.date | date_to_long_string }}</span>
             {% if page.location %}
-            in <span rel="contentLocation" typeof="City"><span property="name">{{ page.location }}</span></span>
+            in <span rel="contentLocation" typeof="City"><span property="name" class="p-location">{{ page.location }}</span></span>
             {% endif %}
             {% assign words = content | strip_html | number_of_words %}
             <span property="wordCount" content="{{ words }}"></span>
@@ -45,26 +45,26 @@ bodyclass: 'post'
           {% endif %}
         {% if page.categories contains 'fbp' %}
             {% include category_fbp.html %}
-            <p><a href="{{ base }}/blog/category/fbp/">Read more Flow-Based Programming posts</a>.<p>
+            <p><a href="{{ base }}/blog/category/fbp/" class="p-category">Read more Flow-Based Programming posts</a>.<p>
         {% endif %}
         {% if page.categories contains 'midgard' %}
           {% unless page.categories contains 'oscom' %}
           {% unless page.categories contains 'fbp' %}
             {% include category_midgard.html %}
-            <p><a href="{{ base }}/blog/category/midgard/">Read more Midgard posts</a>.<p>
+            <p><a href="{{ base }}/blog/category/midgard/" class="p-category">Read more Midgard posts</a>.<p>
           {% endunless %}
           {% endunless %}
         {% endif %}
         {% if page.categories contains 'oscom' %}
           {% unless page.categories contains 'fbp' %}
             {% include category_oscom.html %}
-            <p><a href="{{ base }}/blog/category/oscom/">Read more Decoupled CMS posts</a>.<p>
+            <p><a href="{{ base }}/blog/category/oscom/" class="p-category">Read more Decoupled CMS posts</a>.<p>
           {% endunless %}
         {% endif %}
         {% if page.categories contains 'tablet' %}
           {% unless page.categories contains 'fbp' %}
             {% include category_tablet.html %}
-            <p><a href="{{ base }}/blog/category/tablet/">Read more Tablet Productivity posts</a>.<p>
+            <p><a href="{{ base }}/blog/category/tablet/" class="p-category">Read more Tablet Productivity posts</a>.<p>
           {% endunless %}
         {% endif %}
         </div>
