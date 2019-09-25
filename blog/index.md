@@ -36,6 +36,7 @@ Specific computing platforms or projects:
 
 Personal stuff:
 
+* [Sailing]({{ base }}/blog/category/sailing/) ([RSS feed]({{ base }}/blog/category/sailing/rss.xml))
 * [Motorcycle adventures]({{ base }}/blog/category/motorcycles/) ([RSS feed]({{ base }}/blog/category/motorcycles/rss.xml))
 * [General Aviation]({{ base }}/blog/category/flying/) ([RSS feed]({{ base }}/blog/category/flying/rss.xml))
 * [Notes on personal life]({{ base }}/blog/category/life/) ([RSS feed]({{ base }}/blog/category/life/rss.xml))
