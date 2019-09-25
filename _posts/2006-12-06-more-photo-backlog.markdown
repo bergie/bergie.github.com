@@ -4,6 +4,7 @@
     - "life"
     - "midgard"
     - "openpsa"
+    - "sailing"
   layout: "post"
   cover: 'https://farm1.staticflickr.com/105/315937171_38f9260fff_z_d.jpg'
 
