@@ -671,4 +671,7 @@ only screen and (min-resolution: 2dppx) {
   body.page article a {
     color: #ffffff;
   }
+  body.post article img {
+    filter: grayscale(30%);
+  }
 }
