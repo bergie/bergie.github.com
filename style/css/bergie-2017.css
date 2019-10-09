@@ -674,4 +674,7 @@ only screen and (min-resolution: 2dppx) {
   body.post article img {
     filter: grayscale(30%);
   }
+  body.post article img:hover {
+    filter: none;
+  }
 }
