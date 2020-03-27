@@ -6,7 +6,7 @@ categories:
   - sailing
 cover: "https://d2vqpl3tx84ay5.cloudfront.net/curiosity-voronoi.jpg"
 ---
-I haven't mentioned this on the blog earlier, but in the end of 2018 we bought a small cruising sailboat. After some looking, we went with a [Van de Stadt](http://www.stadtdesign.com/) designed [Oceaan 25](https://sailboatdata.com/sailboat/oceaan-25), a Dutch pocket cruiser from the early 1980s. S/Y Curiosity is an affordable and comfortable boat for cruising with 2-4 people, but also needed major maintenance work.
+I haven't mentioned this on the blog earlier, but in the end of 2018 we bought a small cruising sailboat. After some looking, we went with a [Van de Stadt](http://www.stadtdesign.com/) designed [Oceaan 25](https://sailboatdata.com/sailboat/oceaan-25), a Dutch pocket cruiser from the early 1980s. _S/Y Curiosity_ is an affordable and comfortable boat for cruising with 2-4 people, but also needed major maintenance work.
 
 ![Curiosity sailing on Havel with Royal Louise](https://d2vqpl3tx84ay5.cloudfront.net/800x/curiosity-sailing-royal-louise.jpg)
 
@@ -112,7 +112,7 @@ All together this is quite a lot of hardware. To house all of it, we built a cus
 
 ![The Voronoi-1 onboard computer](https://d2vqpl3tx84ay5.cloudfront.net/800x/curiosity-voronoi.jpg)
 
-The total cost so far for the full boat navigation setup has been around 600€, which is less than just a commerical chartplotter would cost. And the system we have is both easy to extend, and to fix even on the go. And we get a set of capabilities that would normally require a whole suite of proprietary parts to put together.
+The total cost so far for the full boat navigation setup has been around 600€, which is less than just a commercial chartplotter would cost. And the system we have is both easy to extend, and to fix even on the go. And we get a set of capabilities that would normally require a whole suite of proprietary parts to put together.
 
 ### Next steps for navigation setup
 
