@@ -46,26 +46,18 @@ bodyclass: 'post'
         {% if page.categories contains 'fbp' %}
             {% include category_fbp.html %}
             <p><a href="{{ base }}/blog/category/fbp/" class="p-category">Read more Flow-Based Programming posts</a>.<p>
-        {% endif %}
-        {% if page.categories contains 'midgard' %}
-          {% unless page.categories contains 'oscom' %}
-          {% unless page.categories contains 'fbp' %}
+        {% elsif page.categories contains 'midgard' %}
             {% include category_midgard.html %}
             <p><a href="{{ base }}/blog/category/midgard/" class="p-category">Read more Midgard posts</a>.<p>
-          {% endunless %}
-          {% endunless %}
-        {% endif %}
-        {% if page.categories contains 'oscom' %}
-          {% unless page.categories contains 'fbp' %}
+        {% elsif page.categories contains 'oscom' %}
             {% include category_oscom.html %}
             <p><a href="{{ base }}/blog/category/oscom/" class="p-category">Read more Decoupled CMS posts</a>.<p>
-          {% endunless %}
-        {% endif %}
-        {% if page.categories contains 'tablet' %}
-          {% unless page.categories contains 'fbp' %}
+        {% elsif page.categories contains 'tablet' %}
             {% include category_tablet.html %}
             <p><a href="{{ base }}/blog/category/tablet/" class="p-category">Read more Tablet Productivity posts</a>.<p>
-          {% endunless %}
+        {% elsif page.categories contains 'sailing' %}
+            {% include category_sailing.html %}
+            <p><a href="{{ base }}/blog/category/sailing/" class="p-category">Read more sailing posts</a>.<p>
         {% endif %}
         </div>
       </article>

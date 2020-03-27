@@ -19,6 +19,8 @@ bodyclass: blog
     {% include category_oscom.html %}
   {% elsif page.categorization == 'tablet' %}
     {% include category_tablet.html %}
+  {% elsif page.categorization == 'sailing' %}
+    {% include category_sailing.html %}
   {% else %}
   <h2>{{ page.title }}</h2>
   <p>I've been writing more or less regularly to this blog <a href="{{ base }}/blog/news-page-launch/">since 1997</a>. Here you can find my posts categorized with "{{ page.categorization }}".</p>
