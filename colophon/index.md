@@ -27,7 +27,7 @@ The web design is my own.
 
 ## Writing and storing content
 
-Since the content is handled as Markdown files in a Git repository, I'm mostly writing them using [Vim](http://www.vim.org/) on an iPad Pro.
+Since the content is handled as Markdown files in [a Git repository](https://github.com/bergie/bergie.github.com), I'm mostly writing them using [Vim](http://www.vim.org/) inside Samsung DeX.
 
 Before June 2012 this blog ran on top of the [MidCOM](http://midgard-project.org/midcom) PHP framework and the posts of that time were produced using it and stored to [Midgard1](http://midgard-project.org/midgard1/). All the old Midgard contents have been converted to the Jekyll format using a simple [NoFlo](https://noflojs.org/) program.
 
