@@ -3,5 +3,6 @@ _site
 linklint.log
 .DS_Store
 .jekyll-metadata
+.jekyll-cache
 Gemfile.lock
 /node_modules/
