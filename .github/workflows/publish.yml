@@ -16,14 +16,21 @@ jobs:
     - run: bundle install --path vendor/bundle
     - run: bundle exec jekyll build -V
     - name: Deploy on S3
-      uses: reggionick/s3-deploy@v3
+      uses: jakejarvis/s3-sync-action@master
       with:
-        folder: _site
-        bucket: bergie.iki.fi
-        bucket-region: eu-central-1
-        dist-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
-        private: true
+        args: --acl public-read --follow-symlinks --delete
       env:
+        AWS_REGION: eu-central-1
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        SOURCE_DIR: _site
+        AWS_S3_BUCKET: bergie.iki.fi
+    - name: Invalidate CloudFront cache
+      uses: chetan/invalidate-cloudfront-action@master
+      env:
+        DISTRIBUTION: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
+        PATHS: '/'
+        AWS_REGION: eu-central-1
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     - name: Update search engines
