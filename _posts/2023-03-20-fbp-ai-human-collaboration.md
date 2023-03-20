@@ -12,7 +12,7 @@ I think by now everybody reading this will have seen how the new generation of [
 
 This made me think about how these new tools could fit the world of [Flow-Based Programming](https://en.wikipedia.org/wiki/Flow-based_programming), a software development technique I've been involved with for quite a while. In Flow-Based Programming these is a very strict boundary between reusable "library code" (called _Components_) and the "application logic" (called the _Graph_).
 
-Here's what the late [J. Paul Morrison](https://jpaulm.github.io) wrote on the subject in bhis seminal work, _Flow-Based Programming: A New Approach to Application Development_ (2010):
+Here's what the late [J. Paul Morrison](https://jpaulm.github.io) wrote on the subject in his seminal work, _Flow-Based Programming: A New Approach to Application Development_ (2010):
 
 > Just as in the preparation and consumption of food there are the two roles of cook and diner, in FBP application development there are two distinct roles: the component builder and the component user or application designer.
 
