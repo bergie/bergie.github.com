@@ -60,7 +60,7 @@ So, how to benefit from the positive aspects of electronic logbooks, while reduc
 
 * _Mark your position on a paper chart_. Even though most boats navigate with only electronic charts, it is a good idea to have at least a planning chart available on paper. When offshore, plot your hourly or daily position on it. This will produce the navigation aid of last resort if all electronics fail. And marked charts are pretty!
 * _Have an off-vessel backup of your electronic logs_. The signalk-logbook uses [a very simple plain text format](https://github.com/meri-imperiumi/signalk-logbook#data-storage-and-format) for its entries exactly for this reason. The logs are easy to back up, and can also be utilized without the software itself. This means that with a bit of care your log entries shouls stay readable for many many years to come. On Lille Ø we store them [on GitHub](https://github.com/meri-imperiumi/log/tree/main/_data/logbook)
-* _Print your logs_. While this is not something I'm planning to do personally, it would be possible to print your log entries periodically, maybe daily or after each trip. Then you can have an archival copy that doesn't rely on electronics
+* _Print your logs_. With something like a cheap receipt printer, it would be possible to print your log entries periodically, maybe daily or after each trip. Then you can have an archival copy that doesn't rely on electronics. [Here is a repository](https://github.com/meri-imperiumi/logbook-printer) implementing just that
 
 ## API
 
