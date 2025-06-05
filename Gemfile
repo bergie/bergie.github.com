@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'jekyll'
+gem "jekyll", "~> 3.9"
 group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-sitemap'
@@ -7,3 +7,6 @@ group :jekyll_plugins do
   gem 'kramdown-parser-gfm'
   gem 'liquid'
 end
+gem 'logger'
+gem 'base64'
+gem 'bigdecimal'
