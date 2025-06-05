@@ -1,7 +1,7 @@
 ---
 title: Mobile blogging, the past and the future
 layout: post
-location: Berlin, Germany
+location: Spanish Water, Curaçao
 categories:
   - mobility
   - life
