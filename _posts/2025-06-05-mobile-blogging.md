@@ -11,7 +11,7 @@ This blog has been running more or less continuously since mid-nineties. The sit
 
 ## Psion, documents over FTP
 
-In the early 2000s we were into adventure motorcycling. To be able to share our adventures, we implemented a way to publish blogs while on the go. The device that enabled this was the Psion 5, a handheld computer that was very much a device ahead of its time.
+In the early 2000s we were into adventure motorcycling. To be able to share our adventures, we implemented a way to publish blogs while on the go. The device that enabled this was the [Psion Series 5](https://en.wikipedia.org/wiki/Psion_Series_5), a handheld computer that was very much a device ahead of its time.
 
 ![Psion S5, also known as the Ancestor](https://d2vqpl3tx84ay5.cloudfront.net/psions5.jpg)
 
@@ -31,7 +31,7 @@ For an even more mobile setup, I implemented an SMS-based blogging system. We ha
 
 * [In the Caucasus](/blog/in-the-caucasus/) is a good example of a post from this era
 
-As I got into neogeography, I could also send a `NEWPOSITION` message. This would update my position on the map, connecting weather metadata to the posts.
+As I got into [neogeography](/blog/category/geo/), I could also send a `NEWPOSITION` message. This would update my position on the map, connecting weather metadata to the posts.
 
 As camera phones became available, we wanted to do pictures too. For the Death Monkey rally where we rode minimotorcycles from Helsinki to Gibraltar, we implemented an MMS-based system. With that the entries could include both text and pictures. But for that you needed a gateway, which was really only realistic for an event with sponsors.
 
@@ -45,11 +45,11 @@ And so my blog included a new "moblog" section. This is where I could share my d
 
 ![My blog from that era](https://d2vqpl3tx84ay5.cloudfront.net/bergie_layout_2006.jpg)
 
-* [Internet Archive has some of my old moblogs](https://web.archive.org/web/20110604011733/http://bergie.iki.fi/moblog) but nowadays I post similar stuff [on Pixelfed](https://pixelfed.de/bergie)
+* [Internet Archive has some of my old moblogs](https://web.archive.org/web/20110604011733/http://bergie.iki.fi/moblog) but nowadays, I post similar stuff [on Pixelfed](https://pixelfed.de/bergie)
 
 ## Pause
 
-Then there was sort of a long pause in mobile blogging advancements. Modern smartphones, data roaming, and WiFi hotshots had become ubiquitous.
+Then there was sort of a long pause in mobile blogging advancements. Modern smartphones, data roaming, and WiFi hotspots had become ubiquitous.
 
 In the meanwhile the blog also got [migrated to a Jekyll-based system](/blog/blog-2012-edition/) hosted on AWS. That means the old Midgard-based integrations were off the table.
 
@@ -63,7 +63,7 @@ Most cruising boats - ours included - now run the Starlink satellite broadband s
 
 However, Starlink is a complicated, energy-hungry, and fragile system on an offshore boat. The policies might change at any time preventing our way of using it, and also the dishy itself, or the way we power it may fail.
 
-But despite what you'd think, even on a needy boat like ours, loss of Internet connectivity is not an emergency. And this is where the old-style mobile blogging mechanisms come handy.
+But despite what you'd think, even on a nerdy boat like ours, loss of Internet connectivity is not an emergency. And this is where the old-style mobile blogging mechanisms come handy.
 
 * Any of the [2025 Atlantic crossing posts](https://lille-oe.de/2025/) is a good example of this setup in action
 
@@ -73,16 +73,20 @@ Our backup system to Starlink is the Garmin Inreach. This is a tiny battery-powe
 
 When we head offshore we always enable tracking on the Inreach. This allows both our blog and our friends ashore to follow our progress.
 
-I also made a simple integration where text updates sent to Garmin MapShare get fetched and published on our blog. Right now this is just plain text-based entries, but one could easily implement a command system similar to what I had over SMS back in the day.
+I also made a simple integration where text updates sent to [Garmin MapShare](https://share.garmin.com/home) get fetched and published on our blog. Right now this is just plain text-based entries, but one could easily implement a command system similar to what I had over SMS back in the day.
 
 One benefit of the Inreach is that we can also take it with us when we go on land adventures. And it'd even enable rudimentary communications if we found ourselves in a liferaft.
 
+* There are [various InReach integration hacks](https://github.com/tabeaeggler/MarineGRIB-InReach-Transmitter) that could be used for more sophisticated data transfer
+
 ## Sailmail and email over HF radio
 
-The other potential backup for Starlink failures would be to go seriously old-school. It is possible to get email access via a SSB radio and a Pactor (or Vara) modem.
+The other potential backup for Starlink failures would be to go seriously old-school. It is possible to get email access via a SSB radio and a Pactor (or [Vara](https://rosmodem.wordpress.com)) modem.
 
 Our boat is already equipped with an isolated aft stay that can be used as an antenna. And with the popularity of Starlink, many cruisers are offloading their old HF radios.
 
-Licensing-wise this system could be used either as a marine HF radio (requiring a Long Range Certificate), or amateur radio. So that part is something I need to work on. Thankfully post-COViD, radio amateur license exams can be done online.
+Licensing-wise this system could be used either as a marine HF radio (requiring a Long Range Certificate), or amateur radio. So that part is something I need to work on. Thankfully post-COVID, radio amateur license exams can be done online.
 
 With this setup we could send and receive text-based email. The [Airmail](https://sailmail.com) application used for this can even do some automatic templating for position reports. We'd then need a mailbox that can receive these mails, and some automation to fetch and publish.
+
+* [Sailmail](https://www.sailblogs.com/wiki/index.php/Using_SailBlogs_Remote) and [No Foreign Land](https://www.noforeignland.com/help/boat/move-email) support structured data via email to update position. Their formats could be useful inspiration
