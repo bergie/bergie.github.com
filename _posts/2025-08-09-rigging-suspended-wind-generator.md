@@ -30,11 +30,11 @@ These effects combined mean that there are currently no commercial manufacturers
 
 Of the models once manufactured, the Ampair 100 sounded especially promising. It was a modular system that could be used either as a rigging-suspended wind turbine, or as a "tow generator" for making power while under sail.
 
-This modularity is a big advantage of a rigging-suspended wind generator. Thet can also be a lot quieter than the pole-mounted ones, as any vibrations are dampened by the suspension ropes. And of course they don't cause any windage or shading while stowed.
+This modularity is a big advantage of a rigging-suspended wind generator, especially for ease of stowing. They can also be a lot quieter than the pole-mounted ones, as any vibrations are dampened by the suspension ropes. And of course they don't cause any windage or shading while stowed.
 
-I tried finding an Ampair for sale online with no luck. The second-hand chandlery in Grenada -- [Treasure Trove](https://treasuretrove.shop) -- had two units, but couldn't find the wind blades.
+I tried finding an Ampair for sale online with no luck. The second-hand chandlery in Grenada -- [Treasure Trove](https://treasuretrove.shop) -- had two units, but couldn't locate the wind blades.
 
-However, the wind generator market has evolved quite a bit. There are several good wind generators intended for permanent mounting. [Superwind](https://www.superwind.com/en/applications/sailing) and the [D400](https://eclectic-energy.co.uk/products/d400-wind-generator/) provide the best alternatives, but are very expensive. On the cheap end, there are numerous Chinese wind generators from companies like [Pikasola](https://www.pikasola.com) starting at around $250.
+However, the wind generator market has evolved quite a bit. There are several good wind generators intended for permanent mounting. [Superwind](https://www.superwind.com/en/applications/sailing) and the [D400](https://eclectic-energy.co.uk/products/d400-wind-generator/) provide the best alternatives, but are very expensive. On the cheap end, there are numerous Chinese wind generators from companies like [Pikasola](https://www.pikasola.com) and [Vevor](https://www.vevor.com/s/wind-turbine) starting at around $250.
 
 Maybe I could design a bracket to convert one of these for rigging-suspended installation?
 
@@ -43,9 +43,10 @@ Maybe I could design a bracket to convert one of these for rigging-suspended ins
 Sitting in the windy anchorage at Spanish Water this idea started sounding more and more interesting. After some paper brainstorming, I grabbed [FreeCAD](https://www.freecad.org) and made an initial design.
 
 The design parameters were:
-* Can be build somewhat cheaply by a local metal fabricator
+* Can be built somewhat cheaply by a local metal fabricator
 * Can facilitate the most common fixed-mount wind generators
-* Poles keep the rigging lines clear of the propellers
+* Poles to keep the rigging lines clear of the propellers
+* Wind generator is held in place and the whole assembly turns into the wind
 
 My original idea was a neat stainless ring around the wind generator body. However, different wind generators are of different height, and so in interests of both manufacturing cost and adaptability, I went with two brackets connected by threaded rod.
 
@@ -81,13 +82,13 @@ That 0.6kWh per day is like a whole second solar arch!
 
 Noise levels are not too bad at all. Inside the boat you can't hear anything. In cockpit, you can hear a slight whirr from the generator, but it is a lot quieter than one of the popular pole-mounted wind turbines on neighboring boat, heard from few hundred meters away.
 
-Durability and handling of heavier winds will remain to be seen. As wikll the practicality of stowing and deploying this when changing anchorages. Though we already do similar things with the mast-hoisted solar panels and the [nesting dinghy](https://lille-oe.de/dinghy/).
+Durability and handling of heavier winds will remain to be seen. As will the practicality of stowing and deploying when changing anchorages. Though we already do similar things with the mast-hoisted solar panels and the [nesting dinghy](https://lille-oe.de/dinghy/).
 
-Especially when going with one of the cheap Chinese models, this rigging-suspended method can be the way to add wind power to a boat`in an affordable way. We calculated the total price for the Pikasola installation to be around the same as what the marine wind generator manufacturers ask for just a mounting pole!
+Especially when going with one of the cheap Chinese models, this rigging-suspended method can be the way to add wind power to a boat in an affordable way. We calculated the total price for the Pikasola installation to be around the same as what marine wind generator manufacturers ask for just a mounting pole!
 
 The [hardware design](https://github.com/meri-imperiumi/lille-oe/tree/main/hardware) should be quite easy to manufacture anywhere where you can find a stainless steel welder. After all, we were able to get ours fabricated on a tropical island.
 
-For us the new wind generator can be seen as completing the cycle of our deployable renewable options:
+For us the new wind generator can be seen as completing the circle of our deployable renewable options:
 * When under sail, power is generated with the hydrogenerator
 * When anchored in light winds, power is generated with the mast-hoisted [FLINsail](https://flin-solar.com) solar array
 * When anchored in heavier winds, power is generated by the rigging-suspended Superwind
