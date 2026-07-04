@@ -4,7 +4,7 @@ location: Tahanea, French Polynesia
 layout: post
 categories:
   - fbp
-  - deskptop
+  - desktop
 cover: "https://d2vqpl3tx84ay5.cloudfront.net/dependency-black-hole.jpg"
 ---
 Time is a precious resource for open source maintainers, especially if you aren't doing it as part of paid work. The constant churn of changing development tools steals a huge chunk of that time.
